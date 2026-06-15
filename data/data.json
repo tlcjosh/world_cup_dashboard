@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:02:08.255Z",
+  "lastUpdated": "2026-06-15T23:59:02.141Z",
   "matches": [
     {
       "matchId": 537327,
@@ -216,8 +216,8 @@
       "awayIso": "uy",
       "venue": "Hard Rock Stadium, Miami Gardens",
       "kickoff": "2026-06-15T22:00:00.000Z",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-06-15T22:02:08.255Z",
       "secondHalfStart": null
