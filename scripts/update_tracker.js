@@ -14,8 +14,8 @@ const TEAM_MASTER_DATA = {
   "United States": { group: "D", iso: "us" }, "Paraguay": { group: "D", iso: "py" }, "Australia": { group: "D", iso: "au" }, "Turkey": { group: "D", iso: "tr" },
   "Germany": { group: "E", iso: "de" }, "Curaçao": { group: "E", iso: "cw" }, "Ivory Coast": { group: "E", iso: "ci" }, "Ecuador": { group: "E", iso: "ec" },
   "Netherlands": { group: "F", iso: "nl" }, "Japan": { group: "F", iso: "jp" }, "Sweden": { group: "F", iso: "se" }, "Tunisia": { group: "F", iso: "tn" },
-  "Spain": { group: "G", iso: "es" }, "Cape Verde Islands": { group: "G", iso: "cv" }, "Saudi Arabia": { group: "G", iso: "sa" }, "Uruguay": { group: "G", iso: "uy" },
-  "Belgium": { group: "H", iso: "be" }, "Egypt": { group: "H", iso: "eg" }, "Iran": { group: "H", iso: "ir" }, "New Zealand": { group: "H", iso: "nz" },
+  "Spain": { group: "G", iso: "es" }, "Cape Verde Islands": { group: "G", iso: "cv" }, "Belgium": { group: "G", iso: "be" }, "Egypt": { group: "G", iso: "eg" },
+  "Saudi Arabia": { group: "H", iso: "sa" }, "Uruguay": { group: "H", iso: "uy" }, "Iran": { group: "H", iso: "ir" }, "New Zealand": { group: "H", iso: "nz" },
   "France": { group: "I", iso: "fr" }, "Senegal": { group: "I", iso: "sn" }, "Iraq": { group: "I", iso: "iq" }, "Norway": { group: "I", iso: "no" },
   "Argentina": { group: "J", iso: "ar" }, "Algeria": { group: "J", iso: "dz" }, "Austria": { group: "J", iso: "at" }, "Jordan": { group: "J", iso: "jo" },
   "Portugal": { group: "K", iso: "pt" }, "Congo DR": { group: "K", iso: "cd" }, "Uzbekistan": { group: "K", iso: "uz" }, "Colombia": { group: "K", iso: "co" },
@@ -65,14 +65,14 @@ function cleanName(name) {
 function computeStandings(matches) {
   const standings = {};
   for (const m of matches) {
-    if (!m.group || m.stage !== 'Group Stage') continue;
-    const g = m.group;
-    if (!standings[g]) standings[g] = {};
+    if (m.stage !== 'Group Stage') continue;
     for (const [team, iso, scored, conceded] of [
       [m.homeTeam, m.homeIso, m.homeScore, m.awayScore],
       [m.awayTeam, m.awayIso, m.awayScore, m.homeScore]
     ]) {
-      if (!team) continue;
+      const g = TEAM_MASTER_DATA[team]?.group;
+      if (!team || !g) continue;
+      if (!standings[g]) standings[g] = {};
       if (!standings[g][team]) standings[g][team] = { team, iso, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 };
       if (m.status === 'FINISHED') {
         const s = standings[g][team];

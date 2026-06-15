@@ -209,7 +209,7 @@
       "matchId": 537370,
       "matchNum": 13,
       "stage": "Group Stage",
-      "group": "G",
+      "group": "H",
       "homeTeam": "Saudi Arabia",
       "homeIso": "sa",
       "awayTeam": "Uruguay",
@@ -260,7 +260,7 @@
       "matchId": 537363,
       "matchNum": 16,
       "stage": "Group Stage",
-      "group": "H",
+      "group": "G",
       "homeTeam": "Belgium",
       "homeIso": "be",
       "awayTeam": "Egypt",
@@ -617,7 +617,7 @@
       "matchId": 537372,
       "matchNum": 37,
       "stage": "Group Stage",
-      "group": "G",
+      "group": "H",
       "homeTeam": "Uruguay",
       "homeIso": "uy",
       "awayTeam": "Cape Verde Islands",
@@ -651,7 +651,7 @@
       "matchId": 537365,
       "matchNum": 39,
       "stage": "Group Stage",
-      "group": "H",
+      "group": "G",
       "homeTeam": "Belgium",
       "homeIso": "be",
       "awayTeam": "Iran",
@@ -1059,7 +1059,7 @@
       "matchId": 537368,
       "matchNum": 63,
       "stage": "Group Stage",
-      "group": "H",
+      "group": "G",
       "homeTeam": "Egypt",
       "homeIso": "eg",
       "awayTeam": "Iran",
@@ -1110,7 +1110,7 @@
       "matchId": 537373,
       "matchNum": 66,
       "stage": "Group Stage",
-      "group": "G",
+      "group": "H",
       "homeTeam": "Uruguay",
       "homeIso": "uy",
       "awayTeam": "Spain",
@@ -2071,30 +2071,30 @@
         "pts": 0
       }
     ],
-    "G": [
+    "H": [
       {
-        "team": "Cape Verde Islands",
-        "iso": "cv",
-        "played": 1,
+        "team": "Iran",
+        "iso": "ir",
+        "played": 0,
         "won": 0,
-        "drawn": 1,
+        "drawn": 0,
         "lost": 0,
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 1
+        "pts": 0
       },
       {
-        "team": "Spain",
-        "iso": "es",
-        "played": 1,
+        "team": "New Zealand",
+        "iso": "nz",
+        "played": 0,
         "won": 0,
-        "drawn": 1,
+        "drawn": 0,
         "lost": 0,
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 1
+        "pts": 0
       },
       {
         "team": "Saudi Arabia",
@@ -2121,7 +2121,31 @@
         "pts": 0
       }
     ],
-    "H": [
+    "G": [
+      {
+        "team": "Cape Verde Islands",
+        "iso": "cv",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "Spain",
+        "iso": "es",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
       {
         "team": "Belgium",
         "iso": "be",
@@ -2137,30 +2161,6 @@
       {
         "team": "Egypt",
         "iso": "eg",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "Iran",
-        "iso": "ir",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "New Zealand",
-        "iso": "nz",
         "played": 0,
         "won": 0,
         "drawn": 0,
