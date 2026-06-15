@@ -9,6 +9,8 @@ const state = {
   lastUpdated: null,
   tickInterval: null,
   syncInterval: null,
+  espnInterval: null,
+  espnSynced: false,
 };
 
 // ===== TEAM DATA =====
@@ -38,6 +40,119 @@ const SLOT_TO_OPPONENT = {
   "3DEIJL": "1K",
   "3EHIJK": "1L"
 };
+
+// ===== ESPN INTEGRATION =====
+
+const ESPN_SCOREBOARD_URL = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard';
+
+// ESPN display name → our TEAM_MASTER_DATA key (add entries as mismatches are discovered)
+const ESPN_NAME_MAP = {
+  'Cape Verde': 'Cape Verde Islands',
+  'Bosnia & Herzegovina': 'Bosnia-Herzegovina',
+  "Côte d'Ivoire": 'Ivory Coast',
+  "Cote d'Ivoire": 'Ivory Coast',
+  'DR Congo': 'Congo DR',
+  'Republic of Congo': 'Congo DR',
+  'Czech Republic': 'Czechia',
+  'Korea Republic': 'South Korea',
+  'USA': 'United States',
+  'Curacao': 'Curaçao',
+};
+
+// ESPN status name → our status values
+const ESPN_STATUS_MAP = {
+  'STATUS_SCHEDULED':  'SCHEDULED',
+  'STATUS_FIRST_HALF': 'IN_PLAY',
+  'STATUS_SECOND_HALF':'IN_PLAY',
+  'STATUS_HALFTIME':   'PAUSED',
+  'STATUS_FULL_TIME':  'FINISHED',
+  'STATUS_FINAL_AET':  'FINISHED',
+  'STATUS_FINAL_PEN':  'FINISHED',
+  'STATUS_SUSPENDED':  'PAUSED',
+  'STATUS_DELAYED':    'SCHEDULED',
+  'STATUS_POSTPONED':  'SCHEDULED',
+};
+
+function normalizeESPNName(name) {
+  return ESPN_NAME_MAP[name] || name;
+}
+
+function mapESPNStatus(typeName, typeState) {
+  if (ESPN_STATUS_MAP[typeName]) return ESPN_STATUS_MAP[typeName];
+  if (typeState === 'in')   return 'IN_PLAY';
+  if (typeState === 'post') return 'FINISHED';
+  return 'SCHEDULED';
+}
+
+async function fetchESPN() {
+  try {
+    const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
+    if (!res.ok) throw new Error('ESPN ' + res.status);
+    const data = await res.json();
+    mergeESPNData(data.events || []);
+  } catch (e) {
+    console.warn('ESPN sync failed, using data.json:', e.message);
+  }
+}
+
+function mergeESPNData(espnEvents) {
+  let changed = false;
+
+  for (const event of espnEvents) {
+    const comp = event.competitions?.[0];
+    if (!comp) continue;
+
+    const homeComp = comp.competitors.find(c => c.homeAway === 'home');
+    const awayComp = comp.competitors.find(c => c.homeAway === 'away');
+    if (!homeComp || !awayComp) continue;
+
+    const espnHome = normalizeESPNName(homeComp.team.displayName);
+    const espnAway = normalizeESPNName(awayComp.team.displayName);
+    const newStatus = mapESPNStatus(comp.status.type.name, comp.status.type.state);
+
+    // Match by team names; handle cross-group where our home/away may be swapped
+    const match = state.matches.find(m =>
+      (m.homeTeam === espnHome && m.awayTeam === espnAway) ||
+      (m.homeTeam === espnAway && m.awayTeam === espnHome)
+    );
+    if (!match) continue;
+
+    const swapped = match.homeTeam === espnAway;
+    const rawHome = parseInt(homeComp.score, 10);
+    const rawAway = parseInt(awayComp.score, 10);
+    const newHomeScore = newStatus !== 'SCHEDULED' ? (swapped ? rawAway : rawHome) : null;
+    const newAwayScore = newStatus !== 'SCHEDULED' ? (swapped ? rawHome : rawAway) : null;
+
+    if (match.status !== newStatus || match.homeScore !== newHomeScore || match.awayScore !== newAwayScore) {
+      changed = true;
+    }
+
+    match.status    = newStatus;
+    match.homeScore = newHomeScore;
+    match.awayScore = newAwayScore;
+
+    // ESPN clock: total elapsed seconds from kickoff (capped at 45*60 or 90*60 by ESPN)
+    match._espnClock     = comp.status.clock || 0;
+    match._espnPeriod    = comp.status.period || 1;
+    match._espnFetchedAt = Date.now();
+  }
+
+  state.lastUpdated = new Date().toISOString();
+  state.espnSynced  = true;
+
+  const syncEl = document.getElementById('last-sync');
+  if (syncEl) syncEl.textContent = 'just now (ESPN)';
+
+  const header = document.getElementById('app-header');
+  if (header) {
+    header.classList.remove('sync-flash');
+    void header.offsetWidth;
+    header.classList.add('sync-flash');
+    setTimeout(() => header.classList.remove('sync-flash'), 500);
+  }
+
+  if (changed) renderView();
+}
 
 // ===== HELPERS =====
 
@@ -82,6 +197,21 @@ function formatLastSync(isoStr) {
 function getMatchMinute(match) {
   if (match.status === 'PAUSED') return 'HT';
   if (match.status !== 'IN_PLAY') return null;
+
+  // ESPN clock: total elapsed seconds from kickoff, ticked forward since last fetch
+  if (match._espnClock !== undefined && match._espnFetchedAt) {
+    const elapsedSec = match._espnClock + (Date.now() - match._espnFetchedAt) / 1000;
+    const min = Math.floor(elapsedSec / 60);
+    if (match._espnPeriod === 1) {
+      if (min > 45) return `45+${min - 45}'`;
+      return `${Math.max(1, min)}'`;
+    } else {
+      if (min > 90) return `90+${min - 90}'`;
+      return `${Math.max(46, min)}'`;
+    }
+  }
+
+  // Fallback: compute from firstHalfStart/secondHalfStart timestamps
   const now = Date.now();
   if (match.secondHalfStart) {
     const elapsed = Math.floor((now - new Date(match.secondHalfStart).getTime()) / 60000) + 1;
@@ -655,9 +785,11 @@ async function fetchData() {
       state.combinations = await combRes.json();
     }
 
-    // Update sync info
-    const syncEl = document.getElementById('last-sync');
-    if (syncEl) syncEl.textContent = formatLastSync(state.lastUpdated);
+    // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
+    if (!state.espnSynced) {
+      const syncEl = document.getElementById('last-sync');
+      if (syncEl) syncEl.textContent = formatLastSync(state.lastUpdated);
+    }
 
     // Flash header
     const header = document.getElementById('app-header');
@@ -690,7 +822,8 @@ function tick() {
   // Also update last-sync display
   const syncEl = document.getElementById('last-sync');
   if (syncEl && state.lastUpdated) {
-    syncEl.textContent = formatLastSync(state.lastUpdated);
+    const label = formatLastSync(state.lastUpdated);
+    syncEl.textContent = state.espnSynced ? label + ' (ESPN)' : label;
   }
 }
 
@@ -713,16 +846,23 @@ async function init() {
     });
   }
 
-  // Initial fetch
+  // Initial load from data.json (full schedule + standings)
   await fetchData();
+
+  // Initial ESPN sync — overlays live scores immediately
+  await fetchESPN();
 
   // Tick every second for live clocks
   if (state.tickInterval) clearInterval(state.tickInterval);
   state.tickInterval = setInterval(tick, 1000);
 
-  // Re-fetch every 30 seconds
+  // ESPN: poll every 30s for live scores
+  if (state.espnInterval) clearInterval(state.espnInterval);
+  state.espnInterval = setInterval(fetchESPN, 30000);
+
+  // data.json: re-fetch every 2 minutes for schedule/standings/knockout updates
   if (state.syncInterval) clearInterval(state.syncInterval);
-  state.syncInterval = setInterval(fetchData, 30000);
+  state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
 }
 
 init();
