@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T20:31:30.310Z",
+  "lastUpdated": "2026-06-15T21:00:53.297Z",
   "matches": [
     {
       "matchId": 537327,
@@ -269,7 +269,7 @@
       "kickoff": "2026-06-15T19:00:00.000Z",
       "homeScore": 1,
       "awayScore": 1,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": null,
       "secondHalfStart": "2026-06-15T20:08:13.899Z"
     },
@@ -2123,6 +2123,30 @@
     ],
     "G": [
       {
+        "team": "Belgium",
+        "iso": "be",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "Egypt",
+        "iso": "eg",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
         "team": "Cape Verde Islands",
         "iso": "cv",
         "played": 1,
@@ -2145,30 +2169,6 @@
         "ga": 0,
         "gd": 0,
         "pts": 1
-      },
-      {
-        "team": "Belgium",
-        "iso": "be",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "Egypt",
-        "iso": "eg",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
       }
     ],
     "I": [
