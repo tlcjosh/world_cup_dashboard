@@ -1,6 +1,6 @@
 # ⚽ World Cup 2026 Live Dashboard
 
-A fully responsive single-page web application for tracking FIFA World Cup 2026, hosted on GitHub Pages. Uses a "Dynamic Static" architecture: a GitHub Actions workflow polls the football-data.org API every 30 seconds and commits updated match data to `src/data/data.json`. The frontend fetches that file and renders everything client-side — no server required.
+A fully responsive single-page web application for tracking FIFA World Cup 2026, hosted on GitHub Pages. Uses a "Dynamic Static" architecture with live score updates sourced directly from ESPN's public API — no backend server required.
 
 ## Live Site
 
@@ -9,26 +9,34 @@ A fully responsive single-page web application for tracking FIFA World Cup 2026,
 ## Architecture
 
 ```
-┌─────────────────────────────────┐
-│  GitHub Actions (every 5 min)   │
-│  └─ 30s loop × 10 iterations    │
-│     └─ update_tracker.js        │
-│        └─ football-data.org API │
-│           └─ commits data.json  │
-└───────────────┬─────────────────┘
-                │ git push → deploy to gh-pages
-                ▼
-┌─────────────────────────────────┐
-│  GitHub Pages (gh-pages branch) │
-│  └─ src/index.html + app.js     │
-│     ├─ Dashboard (live clock)   │
-│     ├─ Schedule                 │
-│     ├─ Standings (A–L + 3rd)    │
-│     └─ Knockout Bracket         │
-└─────────────────────────────────┘
+┌─────────────────────────────────────┐
+│  Browser (app.js)                   │
+│  ├─ ESPN API (every 30s)            │  ← primary live score source
+│  │   └─ scores, status, live clock  │
+│  └─ data.json (every 2 min)         │  ← full schedule + standings fallback
+│      └─ served from GitHub Pages    │
+└─────────────────────────────────────┘
+
+┌─────────────────────────────────────┐
+│  GitHub Actions (every 5 min)       │
+│  └─ 30s loop × 10 iterations        │
+│     └─ update_tracker.js            │
+│        └─ football-data.org API     │
+│           └─ commits data.json      │
+└────────────────┬────────────────────┘
+                 │ git push → deploy to gh-pages
+                 ▼
+┌─────────────────────────────────────┐
+│  GitHub Pages (gh-pages branch)     │
+│  └─ src/index.html + app.js         │
+│     ├─ Dashboard (live clock)       │
+│     ├─ Schedule                     │
+│     ├─ Standings (A–L + 3rd)        │
+│     └─ Knockout Bracket             │
+└─────────────────────────────────────┘
 ```
 
-**Update latency**: data.json is polled up to 10 times per 5-minute window, but the GitHub Pages deploy only runs once after the full sync — expect ~5–7 minutes end-to-end.
+**Update latency**: Live scores update every ~30 seconds via ESPN directly in the browser. The data.json fallback (GitHub Pages deploy) has ~5–7 minute end-to-end latency.
 
 ## Setup
 
@@ -59,7 +67,7 @@ world_cup_dashboard/
 │   ├── styles.css            # Dark sports-dashboard theme
 │   ├── app.js                # All frontend logic (vanilla JS)
 │   └── data/
-│       ├── data.json         # Match data + standings (auto-updated)
+│       ├── data.json         # Match data + standings (auto-updated by Actions)
 │       └── combinations.json # 3rd-place wildcard lookup (static)
 ├── package.json
 ├── README.md
@@ -77,11 +85,19 @@ world_cup_dashboard/
 
 ## Data Flow
 
+### Live Scores (ESPN)
+`app.js` polls `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard` every 30 seconds directly from the browser. No API key required — ESPN's public scoreboard API is CORS-friendly. Results are merged into the in-memory match list by team name matching. The sync indicator in the header shows "(ESPN)" when live data is active.
+
+If ESPN is unavailable, the app falls back silently to `data.json` data.
+
+### Schedule / Standings Fallback (data.json)
+`update_tracker.js` runs via GitHub Actions every 5 minutes (inner 30s loop × 10). It fetches football-data.org, updates scores and standings, and commits `data.json`. The frontend re-fetches this file every 2 minutes to pick up any schedule changes or knockout match updates that ESPN's date-scoped scoreboard might not include.
+
 ### Self-Bootstrap
 `update_tracker.js` checks for a missing or empty `data.json` on startup. If found, it bootstraps the full dataset from the API (group stage) + a hardcoded bracket template (knockout rounds), then commits. No manual seeding step required.
 
 ### Live Clock
-`firstHalfStart` and `secondHalfStart` are UTC ISO timestamps set by `update_tracker.js` the first time a match transitions to `IN_PLAY`. The browser calculates elapsed minutes client-side with `setInterval` every second.
+During live matches, the browser ticks the clock forward every second using ESPN's `status.clock` (total elapsed seconds) plus real-time offset since the last fetch. Falls back to `firstHalfStart`/`secondHalfStart` timestamps from `data.json` if ESPN clock data isn't present.
 
 ### Cross-Group Matches
 WC2026 groups G and H play cross-group matches in rounds 2 and 3 (e.g. Spain G vs Saudi Arabia H). These count toward each team's **own** group standings. The standings computation uses `TEAM_MASTER_DATA` to look up each team's group, not the match's group field.
