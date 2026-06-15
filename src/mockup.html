@@ -69,8 +69,8 @@
     }
 
     .brand-name {
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
-      font-size: 19px; font-weight: 800;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
+      font-size: 22px; font-weight: 900;
       line-height: 1;
     }
 
@@ -143,10 +143,11 @@
     .page-hero {
       background: var(--grad-brand);
       border-radius: var(--r);
-      padding: 30px 36px;
+      padding: 36px 40px;
       margin-bottom: 24px;
       color: #fff;
       display: flex; align-items: center; justify-content: space-between;
+      gap: 32px;
       overflow: hidden; position: relative;
     }
 
@@ -164,20 +165,20 @@
     }
 
     .hero-title {
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
-      font-size: 28px; font-weight: 900; line-height: 1.1;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
+      font-size: 65px; font-weight: 900; line-height: 1.0;
     }
 
-    .hero-stats { display: flex; gap: 36px; flex-shrink: 0; }
+    .hero-stats { display: flex; gap: 40px; flex-shrink: 0; }
 
     .hero-stat-num {
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
-      font-size: 36px; font-weight: 900; line-height: 1;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
+      font-size: 52px; font-weight: 900; line-height: 1;
     }
 
     .hero-stat-label {
-      font-size: 10px; font-weight: 600; opacity: .6;
-      text-transform: uppercase; letter-spacing: .08em; margin-top: 4px;
+      font-size: 11px; font-weight: 600; opacity: .6;
+      text-transform: uppercase; letter-spacing: .08em; margin-top: 5px;
     }
 
     /* ===== CARD ===== */
@@ -195,8 +196,8 @@
     }
 
     .card-title {
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
-      font-size: 16px; font-weight: 800;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
+      font-size: 20px; font-weight: 800;
     }
 
     .card-meta { font-size: 12px; color: var(--ink-3); margin-left: auto; }
@@ -267,7 +268,7 @@
     }
 
     .score {
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
       font-size: 22px; font-weight: 800;
       white-space: nowrap; line-height: 1;
     }
@@ -282,13 +283,15 @@
     .score-sub.vs   { color: var(--ink-3); font-size: 12px; }
 
     .match-status {
-      flex-shrink: 0;
+      flex-shrink: 0; flex-grow: 0;
+      width: 160px;  /* fixed — keeps match-inner always the same width */
       display: flex; flex-direction: column; align-items: flex-end; gap: 4px;
-      min-width: 90px;
     }
 
     .venue {
       font-size: 11px; color: var(--ink-3); text-align: right; line-height: 1.3;
+      /* wrap rather than expand the column */
+      word-break: break-word;
     }
 
     /* ===== FLAGS ===== */
@@ -316,9 +319,9 @@
     /* ===== DATE HEADER ===== */
     .date-header {
       display: flex; align-items: center; gap: 12px;
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
-      font-size: 17px; font-weight: 800; color: var(--ink);
-      margin: 28px 0 12px;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
+      font-size: 26px; font-weight: 900; color: var(--ink);
+      margin: 32px 0 12px;
     }
 
     .date-header::after { content: ''; flex: 1; height: 1px; background: var(--border); }
@@ -330,14 +333,14 @@
       background: var(--grad-brand);
       border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
       font-size: 16px; font-weight: 900; color: #fff; flex-shrink: 0;
     }
 
     .group-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
 
     .group-name {
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60; font-size: 15px; font-weight: 800;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75; font-size: 20px; font-weight: 800;
     }
 
     /* ===== STANDINGS TABLE — single column so stats never overflow card ===== */
@@ -474,7 +477,7 @@
 
     .b-score {
       margin-left: auto; font-weight: 700;
-      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 60;
+      font-family: 'Anybody', sans-serif; font-variation-settings: 'wdth' 75;
       padding-left: 6px; flex-shrink: 0;
     }
 
@@ -494,14 +497,16 @@
     /* ===== RESPONSIVE ===== */
     @media (max-width: 720px) {
       .dashboard-grid { grid-template-columns: 1fr; }
-      .standings-grid { grid-template-columns: 1fr; }
       #app-header { flex-wrap: wrap; height: auto; padding: 10px 16px; gap: 8px; }
       #app-main { margin-top: 110px; padding: 14px; }
       .header-right { order: 3; width: 100%; justify-content: space-between; }
       .nav-tab { padding: 7px 12px; font-size: 13px; }
-      .page-hero { flex-direction: column; gap: 20px; }
+      .page-hero { flex-direction: column; align-items: flex-start; gap: 24px; padding: 28px 24px; }
       .page-hero::after { display: none; }
+      .hero-title { font-size: 42px; }
+      .hero-stat-num { font-size: 38px; }
       .bracket { min-width: 800px; }
+      .match-status { width: 120px; }
     }
   </style>
 </head>
@@ -851,7 +856,7 @@
   <div id="view-standings" class="view">
 
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;flex-wrap:wrap;gap:12px;">
-      <div style="font-family:'Anybody',sans-serif;font-variation-settings:'wdth' 60;font-size:22px;font-weight:900;">Group Stage Standings</div>
+      <div style="font-family:'Anybody',sans-serif;font-variation-settings:'wdth' 75;font-size:40px;font-weight:900;line-height:1.1;">Group Stage Standings</div>
       <div class="toggle-wrap" onclick="this.querySelector('.toggle-track').classList.toggle('on')">
         <div class="toggle-track on"><div class="toggle-knob"></div></div>
         Include live scores
@@ -948,7 +953,7 @@
   <!-- ===================== BRACKET ===================== -->
   <div id="view-bracket" class="view">
 
-    <div style="font-family:'Anybody',sans-serif;font-variation-settings:'wdth' 60;font-size:22px;font-weight:900;margin-bottom:22px;">Knockout Bracket</div>
+    <div style="font-family:'Anybody',sans-serif;font-variation-settings:'wdth' 75;font-size:40px;font-weight:900;line-height:1.1;margin-bottom:22px;">Knockout Bracket</div>
 
     <div class="bracket-wrapper">
       <div class="bracket">
