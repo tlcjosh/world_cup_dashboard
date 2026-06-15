@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T20:07:42.396Z",
+  "lastUpdated": "2026-06-15T20:08:13.899Z",
   "matches": [
     {
       "matchId": 537327,
@@ -269,9 +269,9 @@
       "kickoff": "2026-06-15T19:00:00.000Z",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": "2026-06-15T20:08:13.899Z"
     },
     {
       "matchId": 537391,
