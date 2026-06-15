@@ -6,54 +6,43 @@
   <title>WC2026 — Design Mockup</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    /* ===== RESET ===== */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ===== TOKENS ===== */
     :root {
-      --bg:          #F7F6F2;
-      --surface:     #FFFFFF;
-      --surface-2:   #F0EEE9;
-      --border:      #E5E2DA;
+      --bg:         #F5F4F0;
+      --surface:    #FFFFFF;
+      --surface-2:  #EDECEA;
+      --border:     #E2E0DA;
 
-      --ink:         #1A1917;
-      --ink-2:       #57534E;
-      --ink-3:       #A8A29E;
+      --ink:        #1A1917;
+      --ink-2:      #57534E;
+      --ink-3:      #A8A29E;
 
-      /* gradient palette */
-      --grad-a:      #2563EB;   /* cobalt */
-      --grad-b:      #7C3AED;   /* violet */
-      --grad-live:   linear-gradient(135deg, #EF4444 0%, #F97316 100%);
-      --grad-brand:  linear-gradient(135deg, var(--grad-a) 0%, var(--grad-b) 100%);
-      --grad-green:  linear-gradient(135deg, #16A34A 0%, #0EA5E9 100%);
+      --blue:       #2563EB;
+      --violet:     #7C3AED;
+      --green:      #16A34A;
+      --amber:      #D97706;
+      --red:        #DC2626;
+      --orange:     #EA580C;
 
-      --green:       #16A34A;
-      --amber:       #D97706;
-      --red:         #DC2626;
-      --blue:        #2563EB;
+      --grad-brand: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+      --grad-live:  linear-gradient(135deg, #DC2626 0%, #EA580C 100%);
+      --grad-green: linear-gradient(135deg, #16A34A 0%, #0EA5E9 100%);
 
-      --radius-sm:   8px;
-      --radius-md:   14px;
-      --radius-lg:   20px;
-      --radius-xl:   28px;
+      --r: 12px;
 
-      --shadow-sm:   0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
-      --shadow-md:   0 4px 16px rgba(0,0,0,.07), 0 1px 4px rgba(0,0,0,.04);
-      --shadow-lg:   0 12px 40px rgba(0,0,0,.10), 0 2px 8px rgba(0,0,0,.05);
-
-      --header-h:    64px;
-      --max-w:       1200px;
+      --header-h: 62px;
+      --max-w: 1160px;
     }
 
-    /* ===== BASE ===== */
     body {
       font-family: 'Inter', system-ui, sans-serif;
       background: var(--bg);
       color: var(--ink);
       min-height: 100vh;
-      font-size: 15px;
+      font-size: 14px;
       line-height: 1.5;
     }
 
@@ -69,62 +58,48 @@
       padding: 0 24px;
       gap: 24px;
       z-index: 100;
-      box-shadow: var(--shadow-sm);
     }
 
-    .header-brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-shrink: 0;
+    .brand {
+      display: flex; align-items: center; gap: 10px; flex-shrink: 0;
     }
 
     .brand-icon {
-      width: 36px; height: 36px;
+      width: 34px; height: 34px;
       background: var(--grad-brand);
-      border-radius: var(--radius-sm);
+      border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 18px;
-      box-shadow: 0 2px 8px rgba(37,99,235,.30);
+      font-size: 17px;
     }
 
-    .brand-text {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 20px;
-      font-weight: 700;
-      color: var(--ink);
-      line-height: 1.1;
+    .brand-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px; font-weight: 700;
+      color: var(--ink); line-height: 1;
     }
 
-    .brand-text span {
+    .brand-name small {
       display: block;
-      font-size: 11px;
-      font-family: 'Inter', sans-serif;
-      font-weight: 500;
+      font-size: 10px; font-weight: 500;
       color: var(--ink-3);
-      letter-spacing: .04em;
+      letter-spacing: .06em;
       text-transform: uppercase;
+      margin-top: 2px;
     }
 
-    /* ===== NAV ===== */
     .nav-tabs {
-      display: flex;
-      gap: 2px;
-      flex: 1;
-      justify-content: center;
+      display: flex; gap: 2px;
+      flex: 1; justify-content: center;
     }
 
     .nav-tab {
-      background: transparent;
-      border: none;
+      background: transparent; border: none;
       color: var(--ink-2);
       padding: 7px 16px;
-      border-radius: var(--radius-sm);
+      border-radius: var(--r);
       cursor: pointer;
-      font-size: 14px;
-      font-weight: 500;
+      font-size: 14px; font-weight: 500;
       font-family: 'Inter', sans-serif;
-      display: flex; align-items: center; gap: 6px;
       transition: all .15s;
     }
 
@@ -133,41 +108,34 @@
     .nav-tab.active {
       background: var(--grad-brand);
       color: #fff;
-      box-shadow: 0 2px 8px rgba(37,99,235,.30);
     }
 
-    .nav-tab .icon { font-size: 15px; }
-
-    /* ===== HEADER RIGHT ===== */
     .header-right {
-      display: flex; align-items: center; gap: 16px; flex-shrink: 0;
+      display: flex; align-items: center; gap: 14px; flex-shrink: 0;
     }
 
-    /* Toggle */
     .toggle-wrap {
       display: flex; align-items: center; gap: 8px;
       font-size: 13px; color: var(--ink-2);
       cursor: pointer; user-select: none;
     }
+
     .toggle-track {
-      width: 36px; height: 20px;
-      background: var(--border);
-      border-radius: 10px;
-      position: relative;
-      transition: background .2s;
+      width: 34px; height: 19px;
+      background: var(--border); border-radius: 10px;
+      position: relative; transition: background .2s; flex-shrink: 0;
     }
+
     .toggle-track.on { background: var(--green); }
+
     .toggle-knob {
-      width: 16px; height: 16px;
-      background: #fff;
-      border-radius: 50%;
-      position: absolute; top: 2px; left: 2px;
-      box-shadow: var(--shadow-sm);
+      width: 15px; height: 15px; background: #fff;
+      border-radius: 50%; position: absolute; top: 2px; left: 2px;
       transition: transform .2s;
     }
-    .toggle-track.on .toggle-knob { transform: translateX(16px); }
 
-    /* Sync pill */
+    .toggle-track.on .toggle-knob { transform: translateX(15px); }
+
     .sync-pill {
       display: flex; align-items: center; gap: 6px;
       background: var(--surface-2);
@@ -176,27 +144,30 @@
       padding: 4px 10px;
       font-size: 12px; color: var(--ink-2);
     }
+
     .sync-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
+      width: 7px; height: 7px; border-radius: 50%;
       background: var(--green);
-      box-shadow: 0 0 0 2px rgba(22,163,74,.20);
     }
 
     /* ===== MAIN ===== */
     #app-main {
       margin-top: var(--header-h);
-      padding: 28px 24px;
+      padding: 24px;
       max-width: var(--max-w);
       margin-left: auto; margin-right: auto;
     }
 
-    /* ===== PAGE HERO ===== */
+    /* ===== VIEWS ===== */
+    .view { display: none; }
+    .view.active { display: block; }
+
+    /* ===== HERO ===== */
     .page-hero {
       background: var(--grad-brand);
-      border-radius: var(--radius-xl);
-      padding: 32px 36px;
-      margin-bottom: 28px;
+      border-radius: var(--r);
+      padding: 28px 32px;
+      margin-bottom: 20px;
       color: #fff;
       display: flex;
       align-items: center;
@@ -205,90 +176,62 @@
       position: relative;
     }
 
-    .page-hero::before {
+    .page-hero::after {
       content: '⚽';
-      position: absolute; right: 36px; top: 50%;
-      transform: translateY(-50%) rotate(-18deg);
-      font-size: 96px; opacity: .10;
+      position: absolute; right: 32px; top: 50%;
+      transform: translateY(-50%) rotate(-15deg);
+      font-size: 88px; opacity: .08;
       pointer-events: none;
     }
 
-    .page-hero h2 {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 30px; font-weight: 900;
-      line-height: 1.15; margin-bottom: 4px;
+    .hero-eyebrow {
+      font-size: 11px; font-weight: 500;
+      letter-spacing: .08em; text-transform: uppercase;
+      opacity: .65; margin-bottom: 6px;
     }
 
-    .page-hero p {
-      font-size: 14px; opacity: .75;
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 26px; font-weight: 700;
+      line-height: 1.15;
     }
 
-    .hero-stat-row {
-      display: flex; gap: 32px;
-    }
-
-    .hero-stat {
-      text-align: center;
+    .hero-stats {
+      display: flex; gap: 32px; flex-shrink: 0;
     }
 
     .hero-stat-num {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 34px; font-weight: 900;
-      line-height: 1;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 32px; font-weight: 700; line-height: 1;
     }
 
     .hero-stat-label {
-      font-size: 11px; opacity: .65;
-      text-transform: uppercase; letter-spacing: .06em;
-      margin-top: 3px;
+      font-size: 11px; opacity: .6;
+      text-transform: uppercase; letter-spacing: .06em; margin-top: 3px;
     }
 
-    /* ===== CARDS ===== */
+    /* ===== CARD ===== */
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 20px;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .card + .card { margin-top: 16px; }
-
-    .card-header {
-      display: flex; align-items: center; gap: 8px;
+      border-radius: var(--r);
+      padding: 18px 20px;
       margin-bottom: 16px;
     }
 
-    .card-icon {
-      width: 30px; height: 30px;
-      border-radius: var(--radius-sm);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 15px;
-      flex-shrink: 0;
+    .card-header {
+      display: flex; align-items: center; gap: 0;
+      margin-bottom: 14px;
     }
-
-    .card-icon.blue   { background: rgba(37,99,235,.10);  }
-    .card-icon.green  { background: rgba(22,163,74,.10);  }
-    .card-icon.amber  { background: rgba(217,119,6,.10);  }
-    .card-icon.violet { background: rgba(124,58,237,.10); }
-    .card-icon.red    { background: rgba(220,38,38,.10);  }
 
     .card-title {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 17px; font-weight: 700;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px; font-weight: 700;
     }
 
-    .card-subtitle {
+    .card-meta {
       font-size: 12px; color: var(--ink-3);
       margin-left: auto;
-    }
-
-    /* ===== SECTION LABEL ===== */
-    .section-label {
-      font-size: 11px; font-weight: 600;
-      text-transform: uppercase; letter-spacing: .07em;
-      color: var(--ink-3);
-      margin-bottom: 10px;
     }
 
     /* ===== DASHBOARD GRID ===== */
@@ -300,287 +243,294 @@
 
     /* ===== MATCH CARD ===== */
     .match-card {
-      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 14px 16px;
+      border-radius: var(--r);
+      padding: 12px 16px;
       margin-bottom: 8px;
-      display: flex; align-items: center; gap: 14px;
-      box-shadow: var(--shadow-sm);
-      transition: box-shadow .15s, transform .15s;
-      cursor: default;
+      display: flex; align-items: center; gap: 12px;
+      transition: background .12s;
     }
 
-    .match-card:hover {
-      box-shadow: var(--shadow-md);
-      transform: translateY(-1px);
-    }
+    .match-card:last-child { margin-bottom: 0; }
+
+    .match-card:hover { background: var(--surface-2); }
 
     .match-card.live {
       border-color: transparent;
       background: linear-gradient(var(--surface), var(--surface)) padding-box,
                   var(--grad-live) border-box;
-      box-shadow: 0 0 0 3px rgba(239,68,68,.08), var(--shadow-sm);
     }
 
     .match-teams {
-      flex: 1; display: flex; align-items: center;
-      gap: 8px; min-width: 0;
+      flex: 1; display: flex; align-items: center; gap: 6px; min-width: 0;
     }
 
     .match-team {
       display: flex; align-items: center; gap: 7px;
-      font-size: 14px; font-weight: 500; min-width: 0;
+      font-size: 14px; font-weight: 500; min-width: 0; flex: 1;
     }
 
-    .match-team-name {
+    .match-team.away { flex-direction: row-reverse; text-align: right; }
+
+    .team-name {
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
 
-    .match-score-wrap {
+    .score-col {
       display: flex; flex-direction: column; align-items: center;
-      padding: 0 10px;
+      padding: 0 10px; flex-shrink: 0;
     }
 
-    .match-score {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 22px; font-weight: 700;
-      color: var(--ink); white-space: nowrap;
+    .score {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 20px; font-weight: 700; white-space: nowrap;
     }
 
-    .match-vs {
-      font-size: 12px; color: var(--ink-3); font-weight: 400;
+    .score-vs {
+      font-size: 12px; color: var(--ink-3);
     }
 
-    .match-clock-live {
-      font-size: 11px; font-weight: 600;
-      color: var(--red); letter-spacing: .02em;
+    .score-clock {
+      font-size: 10px; font-weight: 600;
+      color: var(--red); letter-spacing: .03em;
     }
 
     .match-meta {
-      font-size: 12px; color: var(--ink-2);
-      text-align: right; flex-shrink: 0; line-height: 1.6;
+      flex-shrink: 0; text-align: right; line-height: 1.7;
+    }
+
+    .venue {
+      font-size: 11px; color: var(--ink-3); margin-top: 1px;
     }
 
     /* ===== FLAGS ===== */
     img.flag {
-      width: 24px; height: 18px;
-      object-fit: cover; border-radius: 3px;
+      width: 22px; height: 16px;
+      object-fit: cover; border-radius: 2px;
       flex-shrink: 0;
-      box-shadow: 0 1px 3px rgba(0,0,0,.12);
+      border: 1px solid var(--border);
     }
 
     /* ===== BADGES ===== */
     .badge {
       display: inline-flex; align-items: center; gap: 4px;
-      padding: 3px 9px;
-      border-radius: 99px;
-      font-size: 11px; font-weight: 600;
-      letter-spacing: .03em;
+      padding: 2px 8px; border-radius: 99px;
+      font-size: 11px; font-weight: 600; letter-spacing: .02em;
     }
 
     .badge-live {
-      background: var(--grad-live);
-      color: #fff;
-      animation: pulse 1.6s infinite;
+      background: var(--grad-live); color: #fff;
+      animation: blink 1.6s infinite;
     }
 
-    .badge-live::before { content: '●'; font-size: 8px; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.7} }
 
-    @keyframes pulse {
-      0%,100% { opacity: 1; }
-      50%      { opacity: .75; }
-    }
-
-    .badge-ht {
-      background: rgba(37,99,235,.12);
-      color: var(--blue);
-    }
-
-    .badge-finished {
-      background: var(--surface-2);
-      color: var(--ink-3);
-    }
-
-    .badge-scheduled {
-      background: var(--surface-2);
-      color: var(--ink-2);
-      border: 1px solid var(--border);
-    }
+    .badge-ht   { background: rgba(37,99,235,.1); color: var(--blue); }
+    .badge-ft   { background: var(--surface-2); color: var(--ink-3); }
+    .badge-soon { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--border); }
 
     /* ===== DATE HEADER ===== */
     .date-header {
       display: flex; align-items: center; gap: 12px;
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 18px; font-weight: 700;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px; font-weight: 700;
       color: var(--ink);
-      margin: 28px 0 12px;
+      margin: 24px 0 10px;
     }
 
     .date-header::after {
-      content: '';
-      flex: 1; height: 1px;
-      background: var(--border);
+      content: ''; flex: 1; height: 1px; background: var(--border);
     }
 
     .date-header:first-child { margin-top: 0; }
 
-    /* ===== STANDINGS TABLE ===== */
-    .standings-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 16px;
+    /* ===== GROUP BADGE ===== */
+    .group-pill {
+      width: 30px; height: 30px;
+      background: var(--grad-brand);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px; font-weight: 700;
+      color: #fff; flex-shrink: 0;
     }
 
     .group-header {
-      display: flex; align-items: center; gap: 10px;
-      margin-bottom: 14px;
-    }
-
-    .group-badge {
-      width: 32px; height: 32px;
-      background: var(--grad-brand);
-      border-radius: var(--radius-sm);
-      display: flex; align-items: center; justify-content: center;
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 16px; font-weight: 900;
-      color: #fff;
-      box-shadow: 0 2px 6px rgba(37,99,235,.25);
+      display: flex; align-items: center; gap: 10px; margin-bottom: 12px;
     }
 
     .group-name {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 16px; font-weight: 700;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px; font-weight: 700;
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 13px;
-    }
+    /* ===== TABLE ===== */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
 
     th {
-      text-align: left;
-      padding: 6px 10px;
-      color: var(--ink-3);
+      text-align: left; padding: 5px 8px;
       font-size: 10px; font-weight: 600;
-      text-transform: uppercase; letter-spacing: .06em;
-      border-bottom: 1px solid var(--border);
-      white-space: nowrap;
+      color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
     }
+
     th.num, td.num { text-align: center; }
 
     td {
-      padding: 9px 10px;
+      padding: 8px 8px;
       border-bottom: 1px solid var(--border);
       color: var(--ink);
     }
+
     tr:last-child td { border-bottom: none; }
     tr:hover td { background: var(--surface-2); }
 
-    tr.qualify-auto td:first-child { border-left: 3px solid var(--green); }
-    tr.qualify-3rd  td:first-child { border-left: 3px solid var(--amber); }
+    tr.q1 td:first-child { border-left: 3px solid var(--green); }
+    tr.q2 td:first-child { border-left: 3px solid var(--green); }
+    tr.q3 td:first-child { border-left: 3px solid var(--amber); }
 
-    .team-cell {
-      display: flex; align-items: center; gap: 8px;
-    }
+    .pos { font-size: 11px; color: var(--ink-3); font-weight: 600; width: 16px; display: inline-block; }
 
-    .pos-num {
-      font-size: 12px; color: var(--ink-3); font-weight: 600;
-      width: 18px; display: inline-block; flex-shrink: 0;
+    .team-cell { display: flex; align-items: center; gap: 8px; }
+
+    /* ===== STANDINGS GRID ===== */
+    .standings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 16px;
     }
 
     /* ===== SEARCH ===== */
-    .search-wrap {
-      position: relative; margin-bottom: 20px;
-    }
-    .search-icon {
-      position: absolute; left: 12px; top: 50%;
-      transform: translateY(-50%);
-      font-size: 16px; pointer-events: none;
-    }
+    .search-row { margin-bottom: 18px; }
+
     .search-input {
-      width: 100%; max-width: 380px;
+      width: 100%; max-width: 340px;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 10px 14px 10px 38px;
+      border-radius: var(--r);
+      padding: 9px 14px;
       font-size: 14px; color: var(--ink);
-      outline: none;
-      box-shadow: var(--shadow-sm);
-      font-family: 'Inter', sans-serif;
-      transition: border-color .15s, box-shadow .15s;
+      outline: none; font-family: 'Inter', sans-serif;
+      transition: border-color .15s;
     }
-    .search-input:focus {
-      border-color: var(--blue);
-      box-shadow: 0 0 0 3px rgba(37,99,235,.10);
-    }
+
+    .search-input:focus { border-color: var(--blue); }
     .search-input::placeholder { color: var(--ink-3); }
 
     /* ===== BRACKET ===== */
-    .bracket-match {
+    .bracket-wrapper { overflow-x: auto; padding-bottom: 8px; }
+
+    .bracket {
+      display: flex; gap: 0; min-width: 960px; align-items: flex-start;
+    }
+
+    .bracket-round {
+      flex: 1; display: flex; flex-direction: column; padding: 0 5px;
+    }
+
+    .round-label {
+      font-size: 10px; font-weight: 600;
+      color: var(--ink-3);
+      text-transform: uppercase; letter-spacing: .06em;
+      text-align: center; margin-bottom: 8px;
+    }
+
+    .b-match {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 8px 10px;
-      margin-bottom: 6px;
-      font-size: 12px;
-      box-shadow: var(--shadow-sm);
+      border-radius: var(--r);
+      padding: 7px 10px; margin-bottom: 6px; font-size: 12px;
     }
-    .bracket-team {
-      display: flex; align-items: center; gap: 6px;
-      padding: 3px 0; color: var(--ink);
+
+    .b-match.live {
+      border-color: transparent;
+      background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                  var(--grad-live) border-box;
     }
-    .bracket-team.winner { font-weight: 700; color: var(--green); }
-    .bracket-score { margin-left: auto; font-weight: 600; }
-    .bracket-divider { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
+
+    .b-team {
+      display: flex; align-items: center; gap: 5px;
+      padding: 2px 0; color: var(--ink); min-width: 0;
+    }
+
+    .b-team.winner { font-weight: 700; color: var(--green); }
+
+    .b-team-name {
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1;
+    }
+
+    .b-score { margin-left: auto; font-weight: 600; font-family: 'Space Grotesk', sans-serif; padding-left: 6px; flex-shrink: 0; }
+
+    hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
+
+    .b-num { font-size: 10px; color: var(--ink-3); margin-bottom: 2px; }
+
+    /* ===== SECTION LABEL ===== */
+    .section-label {
+      font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .07em;
+      color: var(--ink-3); margin-bottom: 10px;
+    }
+
+    /* ===== QUALIFY LEGEND ===== */
+    .qualify-legend {
+      display: flex; gap: 16px;
+      font-size: 11px; color: var(--ink-3);
+      margin-top: 10px;
+    }
+
+    .qualify-legend span {
+      display: flex; align-items: center; gap: 5px;
+    }
+
+    .swatch {
+      width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0;
+    }
+
+    /* ===== ANNOTATION ===== */
+    .annotation {
+      background: #FFF8E1;
+      border: 1px solid #FCD34D;
+      border-radius: var(--r);
+      padding: 10px 14px;
+      font-size: 12px; color: #92400E;
+      margin-bottom: 20px;
+    }
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 720px) {
       .dashboard-grid { grid-template-columns: 1fr; }
       .standings-grid { grid-template-columns: 1fr; }
-      #app-header { flex-wrap: wrap; height: auto; padding: 10px 16px; gap: 10px; }
-      #app-main { margin-top: 108px; padding: 16px; }
+      #app-header { flex-wrap: wrap; height: auto; padding: 10px 16px; gap: 8px; }
+      #app-main { margin-top: 108px; padding: 14px; }
       .header-right { order: 3; width: 100%; justify-content: space-between; }
       .nav-tab { padding: 6px 12px; font-size: 13px; }
-      .nav-tab .icon { display: none; }
-      .page-hero { flex-direction: column; gap: 20px; padding: 24px; }
-      .page-hero::before { display: none; }
-    }
-
-    /* ===== DEMO ANNOTATION ===== */
-    .annotation {
-      background: #FFF9C4;
-      border: 1px solid #F59E0B;
-      border-radius: var(--radius-sm);
-      padding: 8px 14px;
-      font-size: 12px; color: #92400E;
-      margin-bottom: 20px;
-      display: flex; gap: 8px; align-items: flex-start;
+      .page-hero { flex-direction: column; gap: 20px; }
+      .page-hero::after { display: none; }
+      .bracket { min-width: 800px; }
     }
   </style>
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
 <header id="app-header">
-  <div class="header-brand">
+  <div class="brand">
     <div class="brand-icon">⚽</div>
-    <div class="brand-text">
+    <div class="brand-name">
       WC2026
-      <span>Live Dashboard</span>
+      <small>Live Dashboard</small>
     </div>
   </div>
 
   <nav class="nav-tabs">
-    <button class="nav-tab active"><span class="icon">🏠</span> Dashboard</button>
-    <button class="nav-tab"><span class="icon">📅</span> Schedule</button>
-    <button class="nav-tab"><span class="icon">📊</span> Standings</button>
-    <button class="nav-tab"><span class="icon">🏆</span> Bracket</button>
+    <button class="nav-tab active" onclick="showView('dashboard', this)">Dashboard</button>
+    <button class="nav-tab" onclick="showView('schedule', this)">Schedule</button>
+    <button class="nav-tab" onclick="showView('standings', this)">Standings</button>
+    <button class="nav-tab" onclick="showView('bracket', this)">Bracket</button>
   </nav>
 
   <div class="header-right">
-    <div class="toggle-wrap">
+    <div class="toggle-wrap" onclick="this.querySelector('.toggle-track').classList.toggle('on')">
       <div class="toggle-track on"><div class="toggle-knob"></div></div>
       Live Standings
     </div>
@@ -591,282 +541,602 @@
   </div>
 </header>
 
-<!-- ===== MAIN ===== -->
 <main id="app-main">
 
   <div class="annotation">
-    <span>💡</span>
-    <span><strong>Design mockup</strong> — static sample data, showing the proposed light redesign with block-serif headings, gradient accents, and soft card elevation. Scroll down to see Standings, Schedule snippets, and color logic.</span>
+    <strong>Design mockup</strong> — static sample data. Click the nav tabs to preview all four views.
+    The group shown on the Dashboard is whichever group has the most recently active match.
   </div>
 
-  <!-- HERO -->
-  <div class="page-hero">
-    <div>
-      <h2>FIFA World Cup 2026</h2>
-      <p>Group Stage · Day 5 · June 15, 2026</p>
-    </div>
-    <div class="hero-stat-row">
-      <div class="hero-stat">
-        <div class="hero-stat-num">3</div>
-        <div class="hero-stat-label">Live now</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">18</div>
-        <div class="hero-stat-label">Today</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num">104</div>
-        <div class="hero-stat-label">Total matches</div>
-      </div>
-    </div>
-  </div>
+  <!-- ===================== DASHBOARD ===================== -->
+  <div id="view-dashboard" class="view active">
 
-  <!-- DASHBOARD GRID -->
-  <div class="dashboard-grid">
-
-    <!-- Today's Matches -->
-    <div class="card" style="grid-column: 1 / -1;">
-      <div class="card-header">
-        <div class="card-icon red">🔴</div>
-        <div class="card-title">Live &amp; Today</div>
-        <div class="card-subtitle">3 in play · 4 upcoming</div>
+    <div class="page-hero">
+      <div>
+        <div class="hero-eyebrow">Group Stage · Day 5</div>
+        <div class="hero-title">FIFA World Cup 2026</div>
       </div>
-
-      <!-- LIVE match -->
-      <div class="match-card live">
-        <img class="flag" src="https://flagcdn.com/24x18/br.png" alt="Brazil">
-        <div class="match-teams">
-          <div class="match-team">
-            <div class="match-team-name">Brazil</div>
-          </div>
-          <div class="match-score-wrap">
-            <div class="match-score">2 – 1</div>
-            <div class="match-clock-live">67′</div>
-          </div>
-          <div class="match-team">
-            <div class="match-team-name">Morocco</div>
-          </div>
-          <img class="flag" src="https://flagcdn.com/24x18/ma.png" alt="Morocco">
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">3</div>
+          <div class="hero-stat-label">Live now</div>
         </div>
-        <div class="match-meta">
-          <span class="badge badge-live">Live</span><br>
-          <span style="font-size:11px; color:var(--ink-3)">SoFi Stadium</span>
+        <div>
+          <div class="hero-stat-num">18</div>
+          <div class="hero-stat-label">Today</div>
         </div>
-      </div>
-
-      <!-- LIVE match 2 -->
-      <div class="match-card live">
-        <img class="flag" src="https://flagcdn.com/24x18/de.png" alt="Germany">
-        <div class="match-teams">
-          <div class="match-team">
-            <div class="match-team-name">Germany</div>
-          </div>
-          <div class="match-score-wrap">
-            <div class="match-score">0 – 0</div>
-            <div class="match-clock-live">HT</div>
-          </div>
-          <div class="match-team">
-            <div class="match-team-name">Ecuador</div>
-          </div>
-          <img class="flag" src="https://flagcdn.com/24x18/ec.png" alt="Ecuador">
-        </div>
-        <div class="match-meta">
-          <span class="badge badge-ht">Half Time</span><br>
-          <span style="font-size:11px; color:var(--ink-3)">Levi's Stadium</span>
-        </div>
-      </div>
-
-      <!-- FINISHED match -->
-      <div class="match-card">
-        <img class="flag" src="https://flagcdn.com/24x18/mx.png" alt="Mexico">
-        <div class="match-teams">
-          <div class="match-team">
-            <div class="match-team-name">Mexico</div>
-          </div>
-          <div class="match-score-wrap">
-            <div class="match-score">2 – 0</div>
-          </div>
-          <div class="match-team">
-            <div class="match-team-name">South Africa</div>
-          </div>
-          <img class="flag" src="https://flagcdn.com/24x18/za.png" alt="South Africa">
-        </div>
-        <div class="match-meta">
-          <span class="badge badge-finished">Full Time</span><br>
-          <span style="font-size:11px; color:var(--ink-3)">Estadio Azteca</span>
-        </div>
-      </div>
-
-      <!-- UPCOMING -->
-      <div class="match-card">
-        <img class="flag" src="https://flagcdn.com/24x18/gb-eng.png" alt="England">
-        <div class="match-teams">
-          <div class="match-team">
-            <div class="match-team-name">England</div>
-          </div>
-          <div class="match-score-wrap">
-            <div class="match-vs">vs</div>
-          </div>
-          <div class="match-team">
-            <div class="match-team-name">Croatia</div>
-          </div>
-          <img class="flag" src="https://flagcdn.com/24x18/hr.png" alt="Croatia">
-        </div>
-        <div class="match-meta">
-          <span class="badge badge-scheduled">21:00 UTC</span><br>
-          <span style="font-size:11px; color:var(--ink-3)">MetLife Stadium</span>
+        <div>
+          <div class="hero-stat-num">104</div>
+          <div class="hero-stat-label">Total matches</div>
         </div>
       </div>
     </div>
 
-    <!-- GROUP STANDINGS SAMPLE -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-icon blue">📊</div>
-        <div class="card-title">Group Stage Snapshot</div>
+    <div class="dashboard-grid">
+
+      <!-- Today's matches -->
+      <div class="card" style="grid-column: 1 / -1;">
+        <div class="card-header">
+          <div class="card-title">Live &amp; Today</div>
+          <div class="card-meta">3 in play · 4 upcoming</div>
+        </div>
+
+        <div class="match-card live">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/br.png" alt="">
+              <span class="team-name">Brazil</span>
+            </div>
+            <div class="score-col">
+              <div class="score">2 – 1</div>
+              <div class="score-clock">67′</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/ma.png" alt="">
+              <span class="team-name">Morocco</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-live">Live</span>
+            <div class="venue">SoFi Stadium</div>
+          </div>
+        </div>
+
+        <div class="match-card live">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/de.png" alt="">
+              <span class="team-name">Germany</span>
+            </div>
+            <div class="score-col">
+              <div class="score">0 – 0</div>
+              <div class="score-clock">HT</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/ec.png" alt="">
+              <span class="team-name">Ecuador</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-ht">Half Time</span>
+            <div class="venue">Levi's Stadium</div>
+          </div>
+        </div>
+
+        <div class="match-card">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/mx.png" alt="">
+              <span class="team-name">Mexico</span>
+            </div>
+            <div class="score-col">
+              <div class="score">2 – 0</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/za.png" alt="">
+              <span class="team-name">South Africa</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-ft">Full Time</span>
+            <div class="venue">Estadio Azteca</div>
+          </div>
+        </div>
+
+        <div class="match-card">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/gb-eng.png" alt="">
+              <span class="team-name">England</span>
+            </div>
+            <div class="score-col">
+              <div class="score-vs">vs</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/hr.png" alt="">
+              <span class="team-name">Croatia</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-soon">21:00 UTC</span>
+            <div class="venue">MetLife Stadium</div>
+          </div>
+        </div>
+
+      </div><!-- end full-width -->
+
+      <!-- Group snapshot -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Group Standings</div>
+          <div class="card-meta">Most active group</div>
+        </div>
+
+        <div class="group-header">
+          <div class="group-pill">C</div>
+          <div class="group-name">Group C</div>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Team</th>
+              <th class="num">P</th>
+              <th class="num">W</th>
+              <th class="num">D</th>
+              <th class="num">L</th>
+              <th class="num">GD</th>
+              <th class="num">Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="q1">
+              <td><span class="pos">1</span></td>
+              <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt="">Brazil</div></td>
+              <td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td>
+              <td class="num">+2</td><td class="num" style="font-weight:700">3</td>
+            </tr>
+            <tr class="q2">
+              <td><span class="pos">2</span></td>
+              <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ma.png" alt="">Morocco</div></td>
+              <td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">0</td>
+              <td class="num">0</td><td class="num" style="font-weight:700">1</td>
+            </tr>
+            <tr class="q3">
+              <td><span class="pos">3</span></td>
+              <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ht.png" alt="">Haiti</div></td>
+              <td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">0</td>
+              <td class="num">0</td><td class="num" style="font-weight:700">1</td>
+            </tr>
+            <tr>
+              <td><span class="pos">4</span></td>
+              <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/gb-sct.png" alt="">Scotland</div></td>
+              <td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">1</td>
+              <td class="num">−2</td><td class="num" style="font-weight:700">0</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="qualify-legend">
+          <span><div class="swatch" style="background:var(--green)"></div> Auto qualify</span>
+          <span><div class="swatch" style="background:var(--amber)"></div> 3rd place wildcard</span>
+        </div>
       </div>
 
-      <div class="group-header">
-        <div class="group-badge">C</div>
-        <div class="group-name">Group C</div>
+      <!-- Next matches -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Up Next</div>
+          <div class="card-meta">Today</div>
+        </div>
+
+        <div class="match-card">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/gb-eng.png" alt="">
+              <span class="team-name">England</span>
+            </div>
+            <div class="score-col">
+              <div class="score-vs">vs</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/hr.png" alt="">
+              <span class="team-name">Croatia</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-soon">21:00</span>
+            <div class="venue">MetLife</div>
+          </div>
+        </div>
+
+        <div class="match-card">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/ar.png" alt="">
+              <span class="team-name">Argentina</span>
+            </div>
+            <div class="score-col">
+              <div class="score-vs">vs</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/dz.png" alt="">
+              <span class="team-name">Algeria</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-soon">23:00</span>
+            <div class="venue">AT&amp;T Stadium</div>
+          </div>
+        </div>
+
+        <div class="match-card">
+          <div class="match-teams">
+            <div class="match-team">
+              <img class="flag" src="https://flagcdn.com/24x18/fr.png" alt="">
+              <span class="team-name">France</span>
+            </div>
+            <div class="score-col">
+              <div class="score-vs">vs</div>
+            </div>
+            <div class="match-team away">
+              <img class="flag" src="https://flagcdn.com/24x18/sn.png" alt="">
+              <span class="team-name">Senegal</span>
+            </div>
+          </div>
+          <div class="match-meta">
+            <span class="badge badge-soon">01:00</span>
+            <div class="venue">Rose Bowl</div>
+          </div>
+        </div>
       </div>
 
-      <table>
-        <thead>
-          <tr>
-            <th colspan="2">Team</th>
-            <th class="num">P</th>
-            <th class="num">W</th>
-            <th class="num">D</th>
-            <th class="num">L</th>
-            <th class="num">GD</th>
-            <th class="num">Pts</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="qualify-auto">
-            <td><span class="pos-num">1</span></td>
-            <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt="Brazil">Brazil</div></td>
-            <td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td>
-            <td class="num">+2</td><td class="num" style="font-weight:700">3</td>
-          </tr>
-          <tr class="qualify-auto">
-            <td><span class="pos-num">2</span></td>
-            <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ma.png" alt="Morocco">Morocco</div></td>
-            <td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">0</td>
-            <td class="num">0</td><td class="num" style="font-weight:700">1</td>
-          </tr>
-          <tr class="qualify-3rd">
-            <td><span class="pos-num">3</span></td>
-            <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ht.png" alt="Haiti">Haiti</div></td>
-            <td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">0</td>
-            <td class="num">0</td><td class="num" style="font-weight:700">1</td>
-          </tr>
-          <tr>
-            <td><span class="pos-num">4</span></td>
-            <td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/gb-sct.png" alt="Scotland">Scotland</div></td>
-            <td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">1</td>
-            <td class="num">−2</td><td class="num" style="font-weight:700">0</td>
-          </tr>
-        </tbody>
-      </table>
+    </div><!-- /dashboard-grid -->
+  </div><!-- /dashboard -->
 
-      <div style="margin-top:12px; display:flex; gap:16px; font-size:11px; color:var(--ink-3);">
-        <span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--green);display:inline-block"></span> Auto qualify</span>
-        <span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:var(--amber);display:inline-block"></span> 3rd place</span>
+
+  <!-- ===================== SCHEDULE ===================== -->
+  <div id="view-schedule" class="view">
+    <div class="search-row">
+      <input class="search-input" type="text" placeholder="Filter by team or venue…">
+    </div>
+
+    <div class="date-header">Sunday, June 15</div>
+
+    <div class="match-card live">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt=""><span class="team-name">Brazil</span></div>
+        <div class="score-col"><div class="score">2 – 1</div><div class="score-clock">67′</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/ma.png" alt=""><span class="team-name">Morocco</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-live">Live</span><div class="venue">Group C · SoFi Stadium, LA</div></div>
+    </div>
+
+    <div class="match-card live">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/de.png" alt=""><span class="team-name">Germany</span></div>
+        <div class="score-col"><div class="score">0 – 0</div><div class="score-clock">HT</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/ec.png" alt=""><span class="team-name">Ecuador</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-ht">Half Time</span><div class="venue">Group E · Levi's Stadium, SF</div></div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/mx.png" alt=""><span class="team-name">Mexico</span></div>
+        <div class="score-col"><div class="score">2 – 0</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/za.png" alt=""><span class="team-name">South Africa</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-ft">Full Time</span><div class="venue">Group A · Estadio Azteca</div></div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/ca.png" alt=""><span class="team-name">Canada</span></div>
+        <div class="score-col"><div class="score">1 – 1</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/ch.png" alt=""><span class="team-name">Switzerland</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-ft">Full Time</span><div class="venue">Group B · BC Place, Vancouver</div></div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/gb-eng.png" alt=""><span class="team-name">England</span></div>
+        <div class="score-col"><div class="score-vs">vs</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/hr.png" alt=""><span class="team-name">Croatia</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-soon">21:00 UTC</span><div class="venue">Group L · MetLife Stadium</div></div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/ar.png" alt=""><span class="team-name">Argentina</span></div>
+        <div class="score-col"><div class="score-vs">vs</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/dz.png" alt=""><span class="team-name">Algeria</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-soon">23:00 UTC</span><div class="venue">Group J · AT&amp;T Stadium</div></div>
+    </div>
+
+    <div class="date-header">Monday, June 16</div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/fr.png" alt=""><span class="team-name">France</span></div>
+        <div class="score-col"><div class="score-vs">vs</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/sn.png" alt=""><span class="team-name">Senegal</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-soon">01:00 UTC</span><div class="venue">Group I · Rose Bowl</div></div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/es.png" alt=""><span class="team-name">Spain</span></div>
+        <div class="score-col"><div class="score-vs">vs</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/eg.png" alt=""><span class="team-name">Egypt</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-soon">18:00 UTC</span><div class="venue">Group G · Hard Rock Stadium</div></div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-teams">
+        <div class="match-team"><img class="flag" src="https://flagcdn.com/24x18/pt.png" alt=""><span class="team-name">Portugal</span></div>
+        <div class="score-col"><div class="score-vs">vs</div></div>
+        <div class="match-team away"><img class="flag" src="https://flagcdn.com/24x18/co.png" alt=""><span class="team-name">Colombia</span></div>
+      </div>
+      <div class="match-meta"><span class="badge badge-soon">21:00 UTC</span><div class="venue">Group K · Estadio Azteca</div></div>
+    </div>
+  </div><!-- /schedule -->
+
+
+  <!-- ===================== STANDINGS ===================== -->
+  <div id="view-standings" class="view">
+
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;">Group Stage Standings</div>
+      <div class="toggle-wrap" onclick="this.querySelector('.toggle-track').classList.toggle('on')">
+        <div class="toggle-track on"><div class="toggle-knob"></div></div>
+        Include live scores
       </div>
     </div>
 
-    <!-- COLOR PALETTE DEMO -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-icon violet">🎨</div>
-        <div class="card-title">Design Palette</div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:10px;">
-        <div style="height:44px;border-radius:var(--radius-sm);background:var(--grad-brand);display:flex;align-items:center;padding:0 14px;color:#fff;font-size:13px;font-weight:600;">Brand gradient — Cobalt → Violet</div>
-        <div style="height:44px;border-radius:var(--radius-sm);background:var(--grad-live);display:flex;align-items:center;padding:0 14px;color:#fff;font-size:13px;font-weight:600;">Live gradient — Red → Orange</div>
-        <div style="height:44px;border-radius:var(--radius-sm);background:var(--grad-green);display:flex;align-items:center;padding:0 14px;color:#fff;font-size:13px;font-weight:600;">Success gradient — Green → Sky</div>
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px;">
-          <div style="padding:10px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:11px;text-align:center;color:var(--ink-2)">bg #F7F6F2</div>
-          <div style="padding:10px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:11px;text-align:center;color:var(--ink-2)">surface #FFF</div>
-          <div style="padding:10px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);font-size:11px;text-align:center;color:var(--ink-2)">surface-2</div>
-          <div style="padding:10px;background:var(--ink);border-radius:var(--radius-sm);font-size:11px;text-align:center;color:#fff">ink #1A1917</div>
+    <div class="standings-grid">
+
+      <!-- Group A -->
+      <div class="card">
+        <div class="group-header">
+          <div class="group-pill">A</div>
+          <div class="group-name">Group A</div>
+        </div>
+        <table>
+          <thead><tr><th colspan="2">Team</th><th class="num">P</th><th class="num">GD</th><th class="num">Pts</th></tr></thead>
+          <tbody>
+            <tr class="q1"><td><span class="pos">1</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/mx.png" alt="">Mexico</div></td><td class="num">1</td><td class="num">+2</td><td class="num" style="font-weight:700">3</td></tr>
+            <tr class="q2"><td><span class="pos">2</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/kr.png" alt="">South Korea</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr class="q3"><td><span class="pos">3</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/cz.png" alt="">Czechia</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr><td><span class="pos">4</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/za.png" alt="">South Africa</div></td><td class="num">1</td><td class="num">−2</td><td class="num" style="font-weight:700">0</td></tr>
+          </tbody>
+        </table>
+        <div class="qualify-legend">
+          <span><div class="swatch" style="background:var(--green)"></div> Advance</span>
+          <span><div class="swatch" style="background:var(--amber)"></div> 3rd wildcard</span>
         </div>
       </div>
 
-      <div style="margin-top:16px;">
-        <div class="card-header" style="margin-bottom:10px;">
-          <div class="card-title" style="font-size:14px;">Typography samples</div>
+      <!-- Group B -->
+      <div class="card">
+        <div class="group-header">
+          <div class="group-pill">B</div>
+          <div class="group-name">Group B</div>
         </div>
-        <p style="font-family:'Fraunces',Georgia,serif;font-size:28px;font-weight:900;line-height:1.1;color:var(--ink)">Fraunces — Block Serif Heading</p>
-        <p style="font-size:14px;color:var(--ink-2);margin-top:6px;line-height:1.6;">Inter — body text, labels, metadata. Clean and highly legible at small sizes across all devices.</p>
-        <p style="font-family:'Fraunces',Georgia,serif;font-size:42px;font-weight:900;color:var(--ink);line-height:1;margin-top:10px">3 – 1</p>
-        <p style="font-size:11px;color:var(--ink-3);margin-top:2px;">Fraunces for scores — bold, punchy, tabular feel</p>
-      </div>
-    </div>
-
-    <!-- SCHEDULE SAMPLE -->
-    <div class="card" style="grid-column: 1 / -1;">
-      <div class="card-header">
-        <div class="card-icon amber">📅</div>
-        <div class="card-title">Schedule (sample)</div>
-      </div>
-      <div class="search-wrap">
-        <span class="search-icon">🔍</span>
-        <input class="search-input" type="text" placeholder="Filter by team…" readonly>
-      </div>
-
-      <div class="date-header">Sunday, June 15</div>
-
-      <div class="match-card">
-        <img class="flag" src="https://flagcdn.com/24x18/br.png" alt="Brazil">
-        <div class="match-teams">
-          <div class="match-team"><div class="match-team-name">Brazil</div></div>
-          <div class="match-score-wrap"><div class="match-score">2 – 1</div></div>
-          <div class="match-team"><div class="match-team-name">Morocco</div></div>
-          <img class="flag" src="https://flagcdn.com/24x18/ma.png" alt="Morocco">
-        </div>
-        <div class="match-meta">
-          <span class="badge badge-live">Live · 67′</span><br>
-          <span style="font-size:11px;color:var(--ink-3)">Group C · SoFi Stadium</span>
+        <table>
+          <thead><tr><th colspan="2">Team</th><th class="num">P</th><th class="num">GD</th><th class="num">Pts</th></tr></thead>
+          <tbody>
+            <tr class="q1"><td><span class="pos">1</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ch.png" alt="">Switzerland</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr class="q2"><td><span class="pos">2</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ca.png" alt="">Canada</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr class="q3"><td><span class="pos">3</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ba.png" alt="">Bosnia-Herz.</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr><td><span class="pos">4</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/qa.png" alt="">Qatar</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+          </tbody>
+        </table>
+        <div class="qualify-legend">
+          <span><div class="swatch" style="background:var(--green)"></div> Advance</span>
+          <span><div class="swatch" style="background:var(--amber)"></div> 3rd wildcard</span>
         </div>
       </div>
 
-      <div class="match-card">
-        <img class="flag" src="https://flagcdn.com/24x18/mx.png" alt="Mexico">
-        <div class="match-teams">
-          <div class="match-team"><div class="match-team-name">Mexico</div></div>
-          <div class="match-score-wrap"><div class="match-score">2 – 0</div></div>
-          <div class="match-team"><div class="match-team-name">South Africa</div></div>
-          <img class="flag" src="https://flagcdn.com/24x18/za.png" alt="South Africa">
+      <!-- Group C -->
+      <div class="card">
+        <div class="group-header">
+          <div class="group-pill">C</div>
+          <div class="group-name">Group C</div>
         </div>
-        <div class="match-meta">
-          <span class="badge badge-finished">Full Time</span><br>
-          <span style="font-size:11px;color:var(--ink-3)">Group A · Estadio Azteca</span>
+        <table>
+          <thead><tr><th colspan="2">Team</th><th class="num">P</th><th class="num">GD</th><th class="num">Pts</th></tr></thead>
+          <tbody>
+            <tr class="q1"><td><span class="pos">1</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt="">Brazil</div></td><td class="num">1</td><td class="num">+2</td><td class="num" style="font-weight:700">3</td></tr>
+            <tr class="q2"><td><span class="pos">2</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ma.png" alt="">Morocco</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr class="q3"><td><span class="pos">3</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/ht.png" alt="">Haiti</div></td><td class="num">1</td><td class="num">0</td><td class="num" style="font-weight:700">1</td></tr>
+            <tr><td><span class="pos">4</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/gb-sct.png" alt="">Scotland</div></td><td class="num">1</td><td class="num">−2</td><td class="num" style="font-weight:700">0</td></tr>
+          </tbody>
+        </table>
+        <div class="qualify-legend">
+          <span><div class="swatch" style="background:var(--green)"></div> Advance</span>
+          <span><div class="swatch" style="background:var(--amber)"></div> 3rd wildcard</span>
+        </div>
+      </div>
+
+      <!-- Group D -->
+      <div class="card">
+        <div class="group-header">
+          <div class="group-pill">D</div>
+          <div class="group-name">Group D</div>
+        </div>
+        <table>
+          <thead><tr><th colspan="2">Team</th><th class="num">P</th><th class="num">GD</th><th class="num">Pts</th></tr></thead>
+          <tbody>
+            <tr class="q1"><td><span class="pos">1</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/us.png" alt="">United States</div></td><td class="num">0</td><td class="num">—</td><td class="num" style="font-weight:700">0</td></tr>
+            <tr class="q2"><td><span class="pos">2</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/py.png" alt="">Paraguay</div></td><td class="num">0</td><td class="num">—</td><td class="num" style="font-weight:700">0</td></tr>
+            <tr class="q3"><td><span class="pos">3</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/au.png" alt="">Australia</div></td><td class="num">0</td><td class="num">—</td><td class="num" style="font-weight:700">0</td></tr>
+            <tr><td><span class="pos">4</span></td><td><div class="team-cell"><img class="flag" src="https://flagcdn.com/24x18/tr.png" alt="">Turkey</div></td><td class="num">0</td><td class="num">—</td><td class="num" style="font-weight:700">0</td></tr>
+          </tbody>
+        </table>
+        <div class="qualify-legend">
+          <span><div class="swatch" style="background:var(--green)"></div> Advance</span>
+          <span><div class="swatch" style="background:var(--amber)"></div> 3rd wildcard</span>
         </div>
       </div>
 
-      <div class="date-header">Monday, June 16</div>
+    </div><!-- /standings-grid -->
 
-      <div class="match-card">
-        <img class="flag" src="https://flagcdn.com/24x18/gb-eng.png" alt="England">
-        <div class="match-teams">
-          <div class="match-team"><div class="match-team-name">England</div></div>
-          <div class="match-score-wrap"><div class="match-vs">vs</div></div>
-          <div class="match-team"><div class="match-team-name">Croatia</div></div>
-          <img class="flag" src="https://flagcdn.com/24x18/hr.png" alt="Croatia">
-        </div>
-        <div class="match-meta">
-          <span class="badge badge-scheduled">21:00 UTC</span><br>
-          <span style="font-size:11px;color:var(--ink-3)">Group L · MetLife Stadium</span>
-        </div>
-      </div>
-    </div>
+    <p style="font-size:12px;color:var(--ink-3);text-align:center;margin-top:4px;">Groups E–L not shown in this mockup</p>
+  </div><!-- /standings -->
 
-  </div><!-- end dashboard-grid -->
+
+  <!-- ===================== BRACKET ===================== -->
+  <div id="view-bracket" class="view">
+
+    <div style="font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;margin-bottom:20px;">Knockout Bracket</div>
+
+    <div class="bracket-wrapper">
+      <div class="bracket">
+
+        <!-- R32 left half (sample) -->
+        <div class="bracket-round">
+          <div class="round-label">Round of 32</div>
+          <div class="b-match">
+            <div class="b-num">M73</div>
+            <div class="b-team winner"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt=""><span class="b-team-name">Brazil</span><span class="b-score">2</span></div>
+            <hr class="b-div">
+            <div class="b-team"><img class="flag" src="https://flagcdn.com/24x18/uy.png" alt=""><span class="b-team-name">Uruguay</span><span class="b-score">0</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M74</div>
+            <div class="b-team winner"><img class="flag" src="https://flagcdn.com/24x18/fr.png" alt=""><span class="b-team-name">France</span><span class="b-score">3</span></div>
+            <hr class="b-div">
+            <div class="b-team"><img class="flag" src="https://flagcdn.com/24x18/ma.png" alt=""><span class="b-team-name">Morocco</span><span class="b-score">1</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M75</div>
+            <div class="b-team"><img class="flag" src="https://flagcdn.com/24x18/de.png" alt=""><span class="b-team-name">Germany</span><span class="b-score"></span></div>
+            <hr class="b-div">
+            <div class="b-team"><img class="flag" src="https://flagcdn.com/24x18/ar.png" alt=""><span class="b-team-name">Argentina</span><span class="b-score"></span></div>
+          </div>
+          <div class="b-match live">
+            <div class="b-num">M76 · <span style="color:var(--red);font-weight:600">Live 54′</span></div>
+            <div class="b-team winner"><img class="flag" src="https://flagcdn.com/24x18/es.png" alt=""><span class="b-team-name">Spain</span><span class="b-score">1</span></div>
+            <hr class="b-div">
+            <div class="b-team"><img class="flag" src="https://flagcdn.com/24x18/pt.png" alt=""><span class="b-team-name">Portugal</span><span class="b-score">0</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M77</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[1E]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[2F]</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M78</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[1F]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[2E]</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M79</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[1G]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[3CEFHI]</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M80</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[2H]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[2G]</span></div>
+          </div>
+        </div>
+
+        <!-- R16 -->
+        <div class="bracket-round">
+          <div class="round-label">Round of 16</div>
+          <div class="b-match">
+            <div class="b-num">M89</div>
+            <div class="b-team winner"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt=""><span class="b-team-name">Brazil</span><span class="b-score">2</span></div>
+            <hr class="b-div">
+            <div class="b-team"><img class="flag" src="https://flagcdn.com/24x18/fr.png" alt=""><span class="b-team-name">France</span><span class="b-score">1</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M90</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W75]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W76]</span></div>
+          </div>
+          <div class="b-match" style="margin-top:36px;">
+            <div class="b-num">M91</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W77]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W78]</span></div>
+          </div>
+          <div class="b-match">
+            <div class="b-num">M92</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W79]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W80]</span></div>
+          </div>
+        </div>
+
+        <!-- QF -->
+        <div class="bracket-round">
+          <div class="round-label">Quarter-finals</div>
+          <div class="b-match" style="margin-top:18px;">
+            <div class="b-num">M97</div>
+            <div class="b-team winner"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt=""><span class="b-team-name">Brazil</span><span class="b-score">1</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W90]</span><span class="b-score"></span></div>
+          </div>
+          <div class="b-match" style="margin-top:90px;">
+            <div class="b-num">M98</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W91]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W92]</span></div>
+          </div>
+        </div>
+
+        <!-- SF -->
+        <div class="bracket-round">
+          <div class="round-label">Semi-finals</div>
+          <div class="b-match" style="margin-top:54px;">
+            <div class="b-num">M101</div>
+            <div class="b-team winner"><img class="flag" src="https://flagcdn.com/24x18/br.png" alt=""><span class="b-team-name">Brazil</span><span class="b-score"></span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W98]</span></div>
+          </div>
+        </div>
+
+        <!-- Final -->
+        <div class="bracket-round">
+          <div class="round-label">Final</div>
+          <div class="b-match" style="margin-top:72px;border-color:var(--blue);">
+            <div class="b-num" style="color:var(--blue);font-weight:700">M104 · Final</div>
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W101]</span></div>
+            <hr class="b-div">
+            <div class="b-team"><span class="b-team-name" style="color:var(--ink-3)">[W102]</span></div>
+          </div>
+        </div>
+
+      </div><!-- /bracket -->
+    </div><!-- /wrapper -->
+
+    <p style="font-size:12px;color:var(--ink-3);margin-top:12px;">Right half of bracket (M81–M88, M93–M96, M99–M100, M102–M103) follows same structure. Placeholder codes resolve automatically as teams qualify.</p>
+
+  </div><!-- /bracket -->
 
 </main>
+
+<script>
+  function showView(name, btn) {
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.getElementById('view-' + name).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
 
 </body>
 </html>
