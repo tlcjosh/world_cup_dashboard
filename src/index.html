@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚽ WC2026 Live Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="app-header">
+    <div class="header-left">
+      <h1>⚽ WC2026 Live</h1>
+    </div>
+    <nav class="nav-tabs">
+      <button class="nav-tab active" data-view="dashboard">Dashboard</button>
+      <button class="nav-tab" data-view="schedule">Schedule</button>
+      <button class="nav-tab" data-view="standings">Standings</button>
+      <button class="nav-tab" data-view="bracket">Bracket</button>
+    </nav>
+    <div class="header-right">
+      <div class="live-toggle">
+        <label class="toggle-label">
+          <input type="checkbox" id="live-mode-toggle">
+          <span class="toggle-slider"></span>
+          Live Standings
+        </label>
+      </div>
+      <div class="sync-info">
+        <span class="sync-dot"></span>
+        <span id="last-sync">Loading...</span>
+      </div>
+    </div>
+  </header>
+  <main id="app-main">
+    <div id="view-dashboard" class="view active"></div>
+    <div id="view-schedule" class="view"></div>
+    <div id="view-standings" class="view"></div>
+    <div id="view-bracket" class="view"></div>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
