@@ -86,7 +86,7 @@ function getMatchMinute(match) {
   if (match.secondHalfStart) {
     const elapsed = Math.floor((now - new Date(match.secondHalfStart).getTime()) / 60000) + 1;
     const min = 45 + elapsed;
-    if (elapsed > 15) return `90+${elapsed - 15}'`;
+    if (elapsed > 45) return `90+${elapsed - 45}'`;
     return `${Math.min(min, 90)}'`;
   }
   if (match.firstHalfStart) {
