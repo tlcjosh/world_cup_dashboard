@@ -4,7 +4,7 @@ A fully responsive single-page web application for tracking FIFA World Cup 2026,
 
 ## Live Site
 
-Deployed at: `https://tlcjosh.github.io/world_cup_dashboard/`
+`https://tlcjosh.github.io/world_cup_dashboard/`
 
 ## Architecture
 
@@ -16,23 +16,19 @@ Deployed at: `https://tlcjosh.github.io/world_cup_dashboard/`
 │        └─ football-data.org API │
 │           └─ commits data.json  │
 └───────────────┬─────────────────┘
-                │ git push
+                │ git push → deploy to gh-pages
                 ▼
 ┌─────────────────────────────────┐
-│  src/data/data.json  (static)   │
-│  src/data/combinations.json     │
-└───────────────┬─────────────────┘
-                │ fetch every 30s
-                ▼
-┌─────────────────────────────────┐
-│  GitHub Pages (src/ directory)  │
-│  └─ index.html + app.js         │
+│  GitHub Pages (gh-pages branch) │
+│  └─ src/index.html + app.js     │
 │     ├─ Dashboard (live clock)   │
 │     ├─ Schedule                 │
 │     ├─ Standings (A–L + 3rd)    │
 │     └─ Knockout Bracket         │
 └─────────────────────────────────┘
 ```
+
+**Update latency**: data.json is polled up to 10 times per 5-minute window, but the GitHub Pages deploy only runs once after the full sync — expect ~5–7 minutes end-to-end.
 
 ## Setup
 
@@ -47,14 +43,7 @@ In GitHub → Settings → Pages:
 - Branch: `gh-pages` / root
 
 ### 3. Trigger the first deploy
-The workflow runs on every push to `main` and on a 5-minute cron schedule. Merging the PR will trigger the first deploy automatically.
-
-### 4. Bootstrap (one-time, already done)
-```bash
-npm install
-node scripts/bootstrap.js
-```
-This parses the blueprint CSVs and generates the initial `src/data/data.json` and `src/data/combinations.json`. Only needs to be re-run if you reset match data.
+Push anything to `main`. The workflow will run, bootstrap `data.json` from the API if needed, and deploy to `gh-pages`.
 
 ## File Structure
 
@@ -62,16 +51,9 @@ This parses the blueprint CSVs and generates the initial `src/data/data.json` an
 world_cup_dashboard/
 ├── .github/workflows/
 │   └── sync.yml              # Cron sync + gh-pages deploy
-├── blueprint_data/           # Source CSVs (reference only)
-│   ├── schedule_sheet.csv.csv
-│   ├── standings_sheet.csv
-│   ├── knockout_bracket_sheet.csv
-│   ├── third_place_combinations_sheet.csv
-│   ├── 3rd_place_rankings_sheet.csv
-│   └── example_sheet_formulas.md
+├── blueprint_data/           # Legacy CSVs (reference only, not used at runtime)
 ├── scripts/
-│   ├── bootstrap.js          # One-time CSV parser → data.json
-│   └── update_tracker.js     # API sync script (run by Actions)
+│   └── update_tracker.js     # API sync + self-bootstrap (used by Actions)
 ├── src/
 │   ├── index.html            # SPA shell
 │   ├── styles.css            # Dark sports-dashboard theme
@@ -80,6 +62,7 @@ world_cup_dashboard/
 │       ├── data.json         # Match data + standings (auto-updated)
 │       └── combinations.json # 3rd-place wildcard lookup (static)
 ├── package.json
+├── README.md
 └── CLAUDE.md                 # AI assistant context
 ```
 
@@ -94,15 +77,21 @@ world_cup_dashboard/
 
 ## Data Flow
 
+### Self-Bootstrap
+`update_tracker.js` checks for a missing or empty `data.json` on startup. If found, it bootstraps the full dataset from the API (group stage) + a hardcoded bracket template (knockout rounds), then commits. No manual seeding step required.
+
 ### Live Clock
 `firstHalfStart` and `secondHalfStart` are UTC ISO timestamps set by `update_tracker.js` the first time a match transitions to `IN_PLAY`. The browser calculates elapsed minutes client-side with `setInterval` every second.
 
+### Cross-Group Matches
+WC2026 groups G and H play cross-group matches in rounds 2 and 3 (e.g. Spain G vs Saudi Arabia H). These count toward each team's **own** group standings. The standings computation uses `TEAM_MASTER_DATA` to look up each team's group, not the match's group field.
+
 ### 3rd-Place Wildcards
-8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json` to determine which team fills each of 8 specific bracket slots.
+8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json`.
 
 ### Bracket Placeholder Resolution
 Knockout match team slots use placeholders resolved at render time:
-- `[1A]` → 1st place of Group A from computed standings
+- `[1A]` → 1st place of Group A
 - `[3ABCDF]` → 3rd-place wildcard (via combinations lookup)
 - `[W73]` → winner of match #73
 - `[L101]` → loser of match #101 (3rd-place match)
@@ -112,14 +101,9 @@ Knockout match team slots use placeholders resolved at render time:
 ```bash
 npm install
 
-# Regenerate data.json from CSVs
-node scripts/bootstrap.js
-
-# Test API sync locally (requires FD_API_TOKEN env var)
+# Test API sync locally (bootstraps if data.json missing, otherwise updates)
 FD_API_TOKEN=your_token node scripts/update_tracker.js
-```
 
-The frontend is plain HTML/CSS/JS — open `src/index.html` directly in a browser or serve with any static file server:
-```bash
+# Serve frontend
 npx serve src/
 ```
