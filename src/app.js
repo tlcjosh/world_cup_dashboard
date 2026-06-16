@@ -14,7 +14,8 @@ const state = {
   espnSynced: false,
   // Notification tracking
   _seenMatchStart: new Set(),   // matchNum
-  _seenGoals: new Set(),        // matchNum:homeScore:awayScore
+  _seenGoals: new Set(),        // matchNum:homeScore:awayScore  (score-based dedup)
+  _seenGoalEvents: new Set(),   // matchNum:homeEventCount:awayEventCount (event-based, fires before score)
   _seenMatchEnd: new Set(),     // matchNum
   _audioArmed: false,
   _audioCtx: null,
@@ -760,6 +761,10 @@ function mergeESPNData(espnEvents) {
       if (m.homeScore !== null && m.awayScore !== null) {
         state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
       }
+      const ev = m._espnEvents;
+      if (ev) {
+        state._seenGoalEvents.add(`${m.matchNum}:${ev.home.length}:${ev.away.length}`);
+      }
     }
   } else {
     // Subsequent polls — compare prev snapshot vs current state
@@ -773,18 +778,44 @@ function mergeESPNData(espnEvents) {
         queueNotif({ type: 'kickoff', html: kickoffNotifHtml(m) });
       }
 
-      // Goal scored — score increased while match is active or just finished
-      if (m.homeScore !== null && m.awayScore !== null &&
-          (m.status === 'IN_PLAY' || m.status === 'PAUSED' || m.status === 'FINISHED')) {
-        const scoreKey = `${m.matchNum}:${m.homeScore}:${m.awayScore}`;
-        if (!state._seenGoals.has(scoreKey) &&
-            (m.homeScore > (prev.homeScore ?? 0) || m.awayScore > (prev.awayScore ?? 0))) {
-          state._seenGoals.add(scoreKey);
-          const homeScored = m.homeScore > (prev.homeScore ?? 0);
-          const scoringTeam = homeScored ? m.homeTeam : m.awayTeam;
-          const scorerList = homeScored ? m._espnEvents?.home : m._espnEvents?.away;
-          const scorerLabel = scorerList?.length ? scorerList[scorerList.length - 1] : '';
-          queueNotif({ type: 'goal', html: goalNotifHtml(m, scoringTeam, scorerLabel) });
+      // Goal scored — fire as soon as ESPN events show a new goal scorer, even if the
+      // score integer hasn't updated yet (ESPN details[] leads the score field by ~30s).
+      if (m.status === 'IN_PLAY' || m.status === 'PAUSED' || m.status === 'FINISHED') {
+        const ev = m._espnEvents;
+        const evHomeLen = ev?.home.length ?? 0;
+        const evAwayLen = ev?.away.length ?? 0;
+        const eventKey = `${m.matchNum}:${evHomeLen}:${evAwayLen}`;
+
+        // Event-based path: new scorer entry appeared before score updated
+        if (ev && !state._seenGoalEvents.has(eventKey)) {
+          // Figure out which side gained an event by comparing to the last seen event counts
+          // Find the previous event key for this match (search seen set)
+          let prevHomeLen = 0, prevAwayLen = 0;
+          for (const k of state._seenGoalEvents) {
+            if (k.startsWith(`${m.matchNum}:`)) {
+              const parts = k.split(':');
+              prevHomeLen = parseInt(parts[1], 10);
+              prevAwayLen = parseInt(parts[2], 10);
+            }
+          }
+          const homeScored = evHomeLen > prevHomeLen;
+          const awayScored = evAwayLen > prevAwayLen;
+          if (homeScored || awayScored) {
+            state._seenGoalEvents.add(eventKey);
+            const scoringTeam = homeScored ? m.homeTeam : m.awayTeam;
+            const scorerList = homeScored ? ev.home : ev.away;
+            const scorerLabel = scorerList.length ? scorerList[scorerList.length - 1] : '';
+            // Use current score if updated, otherwise show prev+1 as best estimate
+            const displayMatch = { ...m };
+            if (homeScored && m.homeScore === (prev.homeScore ?? 0)) displayMatch.homeScore = (prev.homeScore ?? 0) + 1;
+            if (awayScored && m.awayScore === (prev.awayScore ?? 0)) displayMatch.awayScore = (prev.awayScore ?? 0) + 1;
+            queueNotif({ type: 'goal', html: goalNotifHtml(displayMatch, scoringTeam, scorerLabel) });
+          }
+        }
+
+        // Score-based path: deduplicate so we don't double-fire when score catches up
+        if (m.homeScore !== null && m.awayScore !== null) {
+          state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
         }
       }
 
