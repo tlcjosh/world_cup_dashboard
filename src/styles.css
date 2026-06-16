@@ -49,11 +49,7 @@ body {
   padding: 0 24px; gap: 24px; z-index: 100;
 }
 
-#app-header.sync-flash { animation: syncPulse 0.5s ease-out; }
-@keyframes syncPulse {
-  0%   { background: var(--surface); }
-  40%  { background: #E8F5E9; }
-  100% { background: var(--surface); }
+
 }
 
 /* ===== BRAND ===== */
@@ -132,7 +128,32 @@ body {
   font-size: 12px; color: var(--ink-2);
 }
 
-.sync-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+.sync-dot {
+  width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0;
+  background: var(--green);
+  transition: background .4s;
+}
+
+/* Pulsing gradient while fetching */
+.sync-pill[data-sync-state="syncing"] .sync-dot {
+  background: linear-gradient(135deg, var(--green), var(--blue));
+  animation: syncDotPulse 0.8s ease-in-out infinite alternate;
+}
+/* Steady green/blue when healthy */
+.sync-pill[data-sync-state="ok"] .sync-dot {
+  background: linear-gradient(135deg, #16A34A, #2563EB);
+  animation: none;
+}
+/* Amber when erroring */
+.sync-pill[data-sync-state="error"] .sync-dot {
+  background: var(--amber);
+  animation: syncDotPulse 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes syncDotPulse {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: .4; transform: scale(.75); }
+}
 
 /* ===== MAIN ===== */
 #app-main {

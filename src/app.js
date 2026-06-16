@@ -12,6 +12,7 @@ const state = {
   syncInterval: null,
   espnInterval: null,
   espnSynced: false,
+  espnError: false,   // true when last ESPN fetch failed
   // Notification tracking
   _seenMatchStart: new Set(),   // matchNum
   _seenGoals: new Set(),        // matchNum:homeScore:awayScore
@@ -486,9 +487,10 @@ function mapESPNStatus(typeName, typeState) {
 }
 
 async function fetchESPN() {
+  setSyncPillState('syncing');
   try {
     const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
-    if (!res.ok) throw new Error('ESPN ' + res.status);
+    if (!res.ok) throw new Error(`ESPN scoreboard ${res.status}`);
     const data = await res.json();
     mergeESPNData(data.events || []);
     // Fetch live commentary for any in-play matches that have an ESPN event ID
@@ -497,11 +499,21 @@ async function fetchESPN() {
     );
     if (liveMatches.length) {
       await Promise.all(liveMatches.map(fetchESPNCommentary));
-      renderView({ silent: true }); // re-render now that commentary is loaded
+      renderView({ silent: true });
     }
+    state.espnError = false;
+    setSyncPillState('ok');
   } catch (e) {
-    console.warn('ESPN sync failed, using data.json:', e.message);
+    state.espnError = true;
+    setSyncPillState('error');
+    console.error('[ESPN] Sync failed:', e.message);
   }
+}
+
+function setSyncPillState(state_) {
+  const pill = document.querySelector('.sync-pill');
+  if (!pill) return;
+  pill.dataset.syncState = state_;
 }
 
 async function fetchESPNCommentary(match) {
@@ -795,16 +807,6 @@ function mergeESPNData(espnEvents) {
 
   state.lastUpdated = new Date().toISOString();
   state.espnSynced  = true;
-
-  updateSyncPill('just now (ESPN)');
-
-  const header = document.getElementById('app-header');
-  if (header) {
-    header.classList.remove('sync-flash');
-    void header.offsetWidth;
-    header.classList.add('sync-flash');
-    setTimeout(() => header.classList.remove('sync-flash'), 500);
-  }
 
   renderView({ silent: true });
 }
@@ -1703,15 +1705,6 @@ async function fetchData() {
 
     // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
     if (!state.espnSynced) updateSyncPill(formatLastSync(state.lastUpdated));
-
-    // Flash header
-    const header = document.getElementById('app-header');
-    if (header) {
-      header.classList.remove('sync-flash');
-      void header.offsetWidth; // reflow to restart animation
-      header.classList.add('sync-flash');
-      setTimeout(() => header.classList.remove('sync-flash'), 500);
-    }
 
     renderView();
   } catch (e) {
