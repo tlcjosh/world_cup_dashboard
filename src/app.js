@@ -97,9 +97,9 @@ function armAudio() {
   state._audioArmed = true;
   // Preload audio elements
   state._audioEls = {
-    whistle:         Object.assign(new Audio('./sounds/whistle.mp3'),        { preload: 'auto' }),
-    cheer:           Object.assign(new Audio('./sounds/cheer.mp3'),           { preload: 'auto' }),
-    double_whistle:  Object.assign(new Audio('./sounds/double-whistle.mp3'), { preload: 'auto' }),
+    whistle:         Object.assign(new Audio('./sounds/whistle.mp3'),        { preload: 'auto', volume: 0.25 }),
+    cheer:           Object.assign(new Audio('./sounds/cheer.mp3'),           { preload: 'auto', volume: 0.25 }),
+    double_whistle:  Object.assign(new Audio('./sounds/double-whistle.mp3'), { preload: 'auto', volume: 0.25 }),
   };
   // Also prime a Web Audio context as fallback (in case files fail)
   try { state._audioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
@@ -131,8 +131,8 @@ function _playSynthSound(type) {
       osc.connect(g); g.connect(ctx.destination);
       osc.type = 'sawtooth'; osc.frequency.value = 3800;
       g.gain.setValueAtTime(0, now + delay);
-      g.gain.linearRampToValueAtTime(0.12, now + delay + 0.03);
-      g.gain.setValueAtTime(0.12, now + delay + 0.22);
+      g.gain.linearRampToValueAtTime(0.04, now + delay + 0.03);
+      g.gain.setValueAtTime(0.04, now + delay + 0.22);
       g.gain.linearRampToValueAtTime(0, now + delay + 0.32);
       osc.start(now + delay); osc.stop(now + delay + 0.35);
     });
@@ -144,7 +144,7 @@ function _playSynthSound(type) {
     const bpf = ctx.createBiquadFilter(); bpf.type = 'bandpass'; bpf.frequency.value = 800;
     const g = ctx.createGain();
     src.connect(bpf); bpf.connect(g); g.connect(ctx.destination);
-    g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.2, now + 0.2);
+    g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.06, now + 0.2);
     g.gain.linearRampToValueAtTime(0, now + 2);
     src.start(now); src.stop(now + 2);
   }
@@ -754,10 +754,18 @@ function mergeESPNData(espnEvents) {
 
   // ---- Event detection ----
   if (isFirstLoad) {
-    // First ESPN poll — baseline everything as already seen; fire nothing
+    // First ESPN poll — baseline matches that are already past each threshold so we
+    // don't fire stale events on load. SCHEDULED matches are deliberately NOT added
+    // to _seenMatchStart/_seenMatchEnd so their future transitions will still fire.
     for (const m of state.matches) {
-      state._seenMatchStart.add(m.matchNum);
-      state._seenMatchEnd.add(m.matchNum);
+      if (m.status !== 'SCHEDULED') {
+        // Already kicked off (or finished) — suppress kickoff notification
+        state._seenMatchStart.add(m.matchNum);
+      }
+      if (m.status === 'FINISHED') {
+        // Already done — suppress final notification
+        state._seenMatchEnd.add(m.matchNum);
+      }
       if (m.homeScore !== null && m.awayScore !== null) {
         state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
       }
