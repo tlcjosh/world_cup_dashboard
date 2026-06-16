@@ -505,6 +505,7 @@ async function fetchESPN() {
     setSyncPillState('ok');
   } catch (e) {
     setSyncPillState('error');
+    updateSyncPill(formatLastSync(state.lastUpdated));
     console.error('[ESPN] Sync failed:', e.message);
   }
 }
@@ -839,7 +840,7 @@ function mergeESPNData(espnEvents) {
   state.lastUpdated = new Date().toISOString();
   state.espnSynced  = true;
 
-  updateSyncPill('just now (ESPN)');
+  updateSyncPill('just now');
 
   renderView({ silent: true });
 }
@@ -871,20 +872,24 @@ function formatKickoff(isoStr) {
   }
 }
 
-function updateSyncPill(text) {
+function updateSyncPill(espnLabel) {
   const el = document.getElementById('last-sync');
   if (!el) return;
-  el.textContent = text;
   const pill = el.closest('.sync-pill');
-  if (pill && state.fdLastUpdated) {
+  const isError = pill?.dataset.syncState === 'error';
+  el.textContent = isError ? 'ESPN Offline' : 'ESPN Live';
+
+  const parts = [`ESPN: ${espnLabel}`];
+  if (state.fdLastUpdated) {
     const fd = new Date(state.fdLastUpdated);
     const formatted = fd.toLocaleString('en-US', {
       timeZone: 'America/Los_Angeles',
       weekday: 'short', month: 'short', day: 'numeric',
       hour: 'numeric', minute: '2-digit', hour12: true
     });
-    pill.title = `football-data.org last synced: ${formatted} PT`;
+    parts.push(`football-data.org: ${formatted} PT`);
   }
+  if (pill) pill.title = parts.join('\n');
 }
 
 function setSyncPillState(state_) {
