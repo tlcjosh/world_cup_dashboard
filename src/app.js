@@ -21,6 +21,7 @@ const state = {
   _notifQueue: [],
   _notifActive: false,
   _espnDateCache: {},   // YYYYMMDD → events[]
+  espnError: false,
 };
 
 // ===== TEAM DATA =====
@@ -486,6 +487,7 @@ function mapESPNStatus(typeName, typeState) {
 }
 
 async function fetchESPN() {
+  setSyncPillState('syncing');
   try {
     const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
     if (!res.ok) throw new Error('ESPN ' + res.status);
@@ -499,8 +501,10 @@ async function fetchESPN() {
       await Promise.all(liveMatches.map(fetchESPNCommentary));
       renderView({ silent: true }); // re-render now that commentary is loaded
     }
+    setSyncPillState('ok');
   } catch (e) {
-    console.warn('ESPN sync failed, using data.json:', e.message);
+    setSyncPillState('error');
+    console.error('[ESPN] Sync failed:', e.message);
   }
 }
 
@@ -798,14 +802,6 @@ function mergeESPNData(espnEvents) {
 
   updateSyncPill('just now (ESPN)');
 
-  const header = document.getElementById('app-header');
-  if (header) {
-    header.classList.remove('sync-flash');
-    void header.offsetWidth;
-    header.classList.add('sync-flash');
-    setTimeout(() => header.classList.remove('sync-flash'), 500);
-  }
-
   renderView({ silent: true });
 }
 
@@ -850,6 +846,11 @@ function updateSyncPill(text) {
     });
     pill.title = `football-data.org last synced: ${formatted} PT`;
   }
+}
+
+function setSyncPillState(state_) {
+  const pill = document.querySelector('.sync-pill');
+  if (pill) pill.dataset.syncState = state_;
 }
 
 function formatLastSync(isoStr) {
@@ -1703,15 +1704,6 @@ async function fetchData() {
 
     // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
     if (!state.espnSynced) updateSyncPill(formatLastSync(state.lastUpdated));
-
-    // Flash header
-    const header = document.getElementById('app-header');
-    if (header) {
-      header.classList.remove('sync-flash');
-      void header.offsetWidth; // reflow to restart animation
-      header.classList.add('sync-flash');
-      setTimeout(() => header.classList.remove('sync-flash'), 500);
-    }
 
     renderView();
   } catch (e) {
