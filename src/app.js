@@ -119,14 +119,15 @@ function launchConfetti() {
   canvas.style.display = 'block';
   const ctx = canvas.getContext('2d');
   const colors = ['#2563EB','#7C3AED','#DC2626','#EA580C','#16A34A','#F59E0B','#EC4899','#06B6D4'];
-  const pieces = Array.from({ length: 120 }, () => ({
-    x: Math.random() * canvas.width,
-    y: -20 - Math.random() * 200,
-    r: 5 + Math.random() * 6,
+  // Spread pieces across a wider spawn zone, slower fall
+  const pieces = Array.from({ length: 90 }, () => ({
+    x: (Math.random() - 0.1) * canvas.width * 1.2,
+    y: -20 - Math.random() * canvas.height,
+    r: 5 + Math.random() * 7,
     color: colors[Math.floor(Math.random() * colors.length)],
-    vx: (Math.random() - 0.5) * 3,
-    vy: 2 + Math.random() * 4,
-    spin: (Math.random() - 0.5) * 0.2,
+    vx: (Math.random() - 0.5) * 2,
+    vy: 0.8 + Math.random() * 1.6,
+    spin: (Math.random() - 0.5) * 0.12,
     angle: Math.random() * Math.PI * 2,
     shape: Math.random() > 0.4 ? 'rect' : 'circle',
   }));
@@ -134,46 +135,85 @@ function launchConfetti() {
   let done = false;
   function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    let alive = 0;
     for (const p of pieces) {
-      p.x += p.vx; p.y += p.vy; p.angle += p.spin; p.vy += 0.06;
-      if (p.y < canvas.height + 20) alive++;
+      p.x += p.vx; p.y += p.vy; p.angle += p.spin; p.vy += 0.02;
+      // Recycle pieces that fall off bottom back to top
+      if (p.y > canvas.height + 20) {
+        p.y = -20;
+        p.x = (Math.random() - 0.1) * canvas.width * 1.2;
+        p.vy = 0.8 + Math.random() * 1.6;
+        p.vx = (Math.random() - 0.5) * 2;
+      }
       ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.angle);
       ctx.fillStyle = p.color;
       if (p.shape === 'rect') ctx.fillRect(-p.r, -p.r / 2, p.r * 2, p.r);
       else { ctx.beginPath(); ctx.arc(0, 0, p.r / 2, 0, Math.PI * 2); ctx.fill(); }
       ctx.restore();
     }
-    if (alive > 0 && !done) frame = requestAnimationFrame(draw);
+    if (!done) frame = requestAnimationFrame(draw);
     else canvas.style.display = 'none';
   }
   if (frame) cancelAnimationFrame(frame);
   draw();
-  return () => { done = true; canvas.style.display = 'none'; };
+  return () => { done = true; if (frame) cancelAnimationFrame(frame); canvas.style.display = 'none'; };
 }
 
-// ---- Floating balls (match start) ----
+// ---- Kicking balls (match start) — arc left↔right across screen ----
 function launchBalls() {
-  const container = document.getElementById('notif-balls');
-  if (!container) return;
-  container.innerHTML = '';
-  container.style.display = 'block';
-  for (let i = 0; i < 12; i++) {
-    const ball = document.createElement('span');
-    ball.textContent = '⚽';
-    const size = 24 + Math.random() * 32;
-    const startX = Math.random() * 100;
-    const delay = Math.random() * 2;
-    const dur = 2.5 + Math.random() * 2;
-    ball.style.cssText = `
-      position:absolute; font-size:${size}px;
-      left:${startX}vw; bottom:-${size}px;
-      animation: ballFloat ${dur}s ${delay}s ease-in-out infinite alternate;
-      opacity: ${0.4 + Math.random() * 0.5};
-    `;
-    container.appendChild(ball);
+  const canvas = document.getElementById('notif-confetti'); // reuse canvas layer
+  if (!canvas) return;
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  canvas.style.display = 'block';
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+
+  // Each ball: horizontal trajectory with parabolic arc
+  const balls = Array.from({ length: 7 }, (_, i) => {
+    const goRight = i % 2 === 0;
+    const size = 28 + Math.random() * 28;
+    const yBase = 0.2 * H + Math.random() * 0.6 * H; // vertical spread
+    const speed = 3 + Math.random() * 3;
+    const arcH = 30 + Math.random() * 80; // arc height
+    const delay = i * 18 + Math.random() * 15; // stagger start
+    return { goRight, size, yBase, speed, arcH, delay,
+      x: goRight ? -size : W + size, progress: 0, spinning: 0 };
+  });
+
+  let frame;
+  let done = false;
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    for (const b of balls) {
+      if (b.delay > 0) { b.delay--; continue; }
+      b.x += b.goRight ? b.speed : -b.speed;
+      b.progress = b.goRight ? b.x / W : 1 - (b.x / W);
+      b.spinning += 0.08;
+      // Parabolic arc: sine curve peaks at mid-travel
+      const arc = Math.sin(b.progress * Math.PI) * b.arcH;
+      const y = b.yBase - arc;
+      ctx.save();
+      ctx.translate(b.x, y);
+      ctx.rotate(b.spinning * (b.goRight ? 1 : -1));
+      ctx.font = `${b.size}px serif`;
+      ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText('⚽', 0, 0);
+      ctx.restore();
+      // Recycle when off screen
+      if ((b.goRight && b.x > W + b.size) || (!b.goRight && b.x < -b.size)) {
+        b.x = b.goRight ? -b.size : W + b.size;
+        b.yBase = 0.2 * H + Math.random() * 0.6 * H;
+        b.speed = 3 + Math.random() * 3;
+        b.arcH = 30 + Math.random() * 80;
+        b.delay = Math.random() * 30;
+      }
+    }
+    if (!done) frame = requestAnimationFrame(draw);
+    else canvas.style.display = 'none';
   }
-  return () => { container.style.display = 'none'; container.innerHTML = ''; };
+  if (frame) cancelAnimationFrame(frame);
+  draw();
+  return () => { done = true; if (frame) cancelAnimationFrame(frame); canvas.style.display = 'none'; };
 }
 
 // ---- Modal system ----
@@ -294,18 +334,42 @@ function finalNotifHtml(match) {
   const meta = TEAM_MASTER_DATA[match.homeTeam];
   const group = meta?.group ? `Group ${meta.group}` : (match.stage || '');
   const s = match._espnStats;
-  const statsHtml = s ? (() => {
-    const ph = Math.round(s.home?.possessionPct ?? s.home?.possession ?? 50);
+  let statsHtml = '';
+  if (s) {
+    const h = s.home || {}, a = s.away || {};
+    const ph = Math.round(h.possessionPct ?? h.possession ?? 50);
     const pa = 100 - ph;
     const hColor = match._espnColors?.home || '#2563EB';
     const aColor = match._espnColors?.away || '#DC2626';
     const barStyle = `background:linear-gradient(to right,${hColor} ${Math.max(0,ph-20)}%,${aColor} ${Math.min(100,ph+20)}%)`;
-    return `<div class="notif-poss">
-      <span style="color:${hColor}">${ph}%</span>
-      <div class="notif-poss-bar" style="${barStyle}"></div>
-      <span style="color:${aColor}">${pa}%</span>
-    </div>`;
-  })() : '';
+    const rows = [];
+    const sh = h.totalShots ?? h.shots, sa = a.totalShots ?? a.shots;
+    if (isFinite(sh) && isFinite(sa)) rows.push([sh, 'Shots', sa]);
+    const oh = h.shotsOnTarget, oa = a.shotsOnTarget;
+    if (isFinite(oh) && isFinite(oa)) rows.push([oh, 'On Target', oa]);
+    const ch = h.wonCorners ?? h.cornerKicks ?? h.corners, ca = a.wonCorners ?? a.cornerKicks ?? a.corners;
+    if (isFinite(ch) && isFinite(ca)) rows.push([ch, 'Corners', ca]);
+    const yh = h.yellowCards ?? 0, ya = a.yellowCards ?? 0;
+    if (yh > 0 || ya > 0) rows.push([`<span class="ycard">${yh}</span>`, 'Yellows', `<span class="ycard">${ya}</span>`]);
+    const rh = h.redCards ?? 0, ra = a.redCards ?? 0;
+    if (rh > 0 || ra > 0) rows.push([`<span class="rcard">${rh}</span>`, 'Reds', `<span class="rcard">${ra}</span>`]);
+    statsHtml = `
+      <div class="notif-poss">
+        <span style="color:${hColor}">${ph}%</span>
+        <div class="notif-poss-bar" style="${barStyle}"></div>
+        <span style="color:${aColor}">${pa}%</span>
+      </div>
+      ${rows.length ? `<div class="notif-stats-grid">${rows.map(([hv,l,av]) =>
+        `<span class="nsg-h">${hv}</span><span class="nsg-l">${l}</span><span class="nsg-a">${av}</span>`
+      ).join('')}</div>` : ''}
+    `;
+  }
+  const scorerLines = [];
+  const ev = match._espnEvents;
+  if (ev) {
+    ev.home?.forEach(g => scorerLines.push(`<span class="notif-scorer-home">⚽ ${g}</span>`));
+    ev.away?.forEach(g => scorerLines.push(`<span class="notif-scorer-away">${g} ⚽</span>`));
+  }
   return `
     <div class="notif-eyebrow">🏁 Full Time</div>
     <div class="notif-teams">
@@ -319,7 +383,8 @@ function finalNotifHtml(match) {
         <span>${match.awayTeam}</span>
       </div>
     </div>
-    <div class="notif-sub">${group}</div>
+    <div class="notif-sub">${group}${match.venue ? ' · ' + match.venue : ''}</div>
+    ${scorerLines.length ? `<div class="notif-scorers">${scorerLines.join('')}</div>` : ''}
     ${statsHtml}
   `;
 }
@@ -1489,14 +1554,17 @@ async function init() {
   // ---- Test / debug harness ----
   const testMatch = {
     matchNum: 0, stage: 'Group Stage', group: 'J',
-    homeTeam: 'Argentina', homeIso: 'ar', homeScore: 1,
-    awayTeam: 'Algeria',   awayIso: 'dz', awayScore: 0,
+    homeTeam: 'Argentina', homeIso: 'ar', homeScore: 2,
+    awayTeam: 'Algeria',   awayIso: 'dz', awayScore: 1,
     venue: 'Arrowhead Stadium, Kansas City',
-    status: 'IN_PLAY',
-    _espnEvents: { home: ['L. Messi 37\''], away: [] },
-    _espnStats: { home: { possessionPct: 62 }, away: { possessionPct: 38 } },
+    status: 'FINISHED',
+    _espnEvents: { home: ['L. Messi 37\'', 'J. Alvarez 78\''], away: ['R. Mahrez 55\''] },
+    _espnStats: {
+      home: { possessionPct: 62, totalShots: 14, shotsOnTarget: 6, wonCorners: 7, yellowCards: 1, redCards: 0 },
+      away: { possessionPct: 38, totalShots: 8,  shotsOnTarget: 3, wonCorners: 3, yellowCards: 2, redCards: 0 },
+    },
     _espnColors: { home: '#75AADB', away: '#006233' },
-    _espnHeadline: null,
+    _espnHeadline: 'Messi and Alvarez lead Argentina past Algeria in Group J thriller.',
   };
 
   window.testNotif = (type) => {
@@ -1504,9 +1572,9 @@ async function init() {
     if (type === 'kickoff') {
       queueNotif({ type: 'kickoff', html: kickoffNotifHtml({ ...testMatch, homeScore: null, awayScore: null, status: 'SCHEDULED' }) });
     } else if (type === 'goal') {
-      queueNotif({ type: 'goal', html: goalNotifHtml(testMatch, 'Argentina', 'L. Messi 37\'') });
+      queueNotif({ type: 'goal', html: goalNotifHtml({ ...testMatch, homeScore: 1, awayScore: 0, status: 'IN_PLAY' }, 'Argentina', 'L. Messi 37\'') });
     } else if (type === 'final') {
-      queueNotif({ type: 'final', html: finalNotifHtml({ ...testMatch, status: 'FINISHED', homeScore: 2, awayScore: 1 }) });
+      queueNotif({ type: 'final', html: finalNotifHtml(testMatch) });
     } else {
       console.log('Usage: testNotif("kickoff" | "goal" | "final")');
     }
