@@ -55,158 +55,58 @@ const SLOT_TO_OPPONENT = {
 function armAudio() {
   if (state._audioArmed) return;
   state._audioArmed = true;
-  state._audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  // Preload audio elements
+  state._audioEls = {
+    whistle:         Object.assign(new Audio('./sounds/whistle.mp3'),        { preload: 'auto' }),
+    cheer:           Object.assign(new Audio('./sounds/cheer.mp3'),           { preload: 'auto' }),
+    double_whistle:  Object.assign(new Audio('./sounds/double-whistle.mp3'), { preload: 'auto' }),
+  };
+  // Also prime a Web Audio context as fallback (in case files fail)
+  try { state._audioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
 }
 document.addEventListener('click', armAudio, { once: true });
 document.addEventListener('keydown', armAudio, { once: true });
 
 function playSound(type) {
-  if (!state._audioArmed || !state._audioCtx) return;
-  const ctx = state._audioCtx;
-  const now = ctx.currentTime;
-
-  // Shared utility: make a short reverb impulse response for space/warmth
-  function makeReverb(duration = 0.4, decay = 2.5) {
-    const len = ctx.sampleRate * duration;
-    const ir = ctx.createBuffer(2, len, ctx.sampleRate);
-    for (let ch = 0; ch < 2; ch++) {
-      const d = ir.getChannelData(ch);
-      for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, decay);
-    }
-    const conv = ctx.createConvolver();
-    conv.buffer = ir;
-    return conv;
+  if (!state._audioArmed) return;
+  const el = state._audioEls?.[type];
+  if (el) {
+    el.currentTime = 0;
+    el.play().catch(() => {}); // ignore if blocked
+    return;
   }
+  // Fallback: synthesize if file not available
+  _playSynthSound(type);
+}
 
-  if (type === 'whistle') {
-    // Referee whistle: Fox 40 style — around 3800Hz with 2nd harmonic and air turbulence
-    const reverb = makeReverb(0.5, 3);
-    reverb.connect(ctx.destination);
-    const masterGain = ctx.createGain();
-    masterGain.connect(reverb);
-    masterGain.connect(ctx.destination); // dry + wet
-
-    // Core fundamental + harmonic
-    [[3820, 1.0], [7640, 0.18], [5730, 0.09]].forEach(([freq, vol]) => {
+function _playSynthSound(type) {
+  const ctx = state._audioCtx;
+  if (!ctx) return;
+  const now = ctx.currentTime;
+  if (type === 'whistle' || type === 'double_whistle') {
+    const times = type === 'whistle' ? [0] : [0, 0.38, 0.76];
+    times.forEach(delay => {
       const osc = ctx.createOscillator();
       const g = ctx.createGain();
-      osc.connect(g); g.connect(masterGain);
-      osc.type = freq < 5000 ? 'sawtooth' : 'sine';
-      osc.frequency.setValueAtTime(freq * 0.97, now);
-      osc.frequency.linearRampToValueAtTime(freq, now + 0.05);
-      // Slight vibrato via detune LFO
-      const lfo = ctx.createOscillator();
-      const lfoGain = ctx.createGain();
-      lfo.frequency.value = 6.5;
-      lfoGain.gain.value = 12;
-      lfo.connect(lfoGain); lfoGain.connect(osc.detune);
-      lfo.start(now); lfo.stop(now + 0.65);
-      g.gain.setValueAtTime(0, now);
-      g.gain.linearRampToValueAtTime(vol * 0.14, now + 0.03);
-      g.gain.setValueAtTime(vol * 0.13, now + 0.55);
-      g.gain.linearRampToValueAtTime(0, now + 0.65);
-      osc.start(now); osc.stop(now + 0.7);
+      osc.connect(g); g.connect(ctx.destination);
+      osc.type = 'sawtooth'; osc.frequency.value = 3800;
+      g.gain.setValueAtTime(0, now + delay);
+      g.gain.linearRampToValueAtTime(0.12, now + delay + 0.03);
+      g.gain.setValueAtTime(0.12, now + delay + 0.22);
+      g.gain.linearRampToValueAtTime(0, now + delay + 0.32);
+      osc.start(now + delay); osc.stop(now + delay + 0.35);
     });
-
-    // Air turbulence layer — highpass-filtered noise for the "pea" rattle
-    const airBuf = ctx.createBuffer(1, ctx.sampleRate * 0.65, ctx.sampleRate);
-    const airData = airBuf.getChannelData(0);
-    for (let i = 0; i < airData.length; i++) airData[i] = Math.random() * 2 - 1;
-    const airSrc = ctx.createBufferSource();
-    airSrc.buffer = airBuf;
-    const hp = ctx.createBiquadFilter();
-    hp.type = 'highpass'; hp.frequency.value = 3000; hp.Q.value = 0.5;
-    const airGain = ctx.createGain();
-    airSrc.connect(hp); hp.connect(airGain); airGain.connect(masterGain);
-    airGain.gain.setValueAtTime(0, now);
-    airGain.gain.linearRampToValueAtTime(0.04, now + 0.03);
-    airGain.gain.linearRampToValueAtTime(0, now + 0.65);
-    airSrc.start(now); airSrc.stop(now + 0.7);
-
-    masterGain.gain.setValueAtTime(1, now);
-    masterGain.gain.linearRampToValueAtTime(0, now + 0.7);
-
-  } else if (type === 'double_whistle') {
-    // Three short blasts — referee full-time signal
-    const reverb = makeReverb(0.6, 2.8);
-    reverb.connect(ctx.destination);
-    [0, 0.38, 0.76].forEach((delay) => {
-      const masterGain = ctx.createGain();
-      masterGain.connect(reverb);
-      masterGain.connect(ctx.destination);
-      [[3750, 0.12], [7500, 0.015]].forEach(([freq, vol]) => {
-        const osc = ctx.createOscillator();
-        const g = ctx.createGain();
-        osc.connect(g); g.connect(masterGain);
-        osc.type = 'sawtooth';
-        osc.frequency.value = freq;
-        const lfo = ctx.createOscillator();
-        const lfoG = ctx.createGain();
-        lfo.frequency.value = 7; lfoG.gain.value = 10;
-        lfo.connect(lfoG); lfoG.connect(osc.detune);
-        lfo.start(now + delay); lfo.stop(now + delay + 0.28);
-        g.gain.setValueAtTime(0, now + delay);
-        g.gain.linearRampToValueAtTime(vol, now + delay + 0.025);
-        g.gain.setValueAtTime(vol, now + delay + 0.2);
-        g.gain.linearRampToValueAtTime(0, now + delay + 0.28);
-        osc.start(now + delay); osc.stop(now + delay + 0.32);
-      });
-      // Air layer per blast
-      const ab = ctx.createBuffer(1, ctx.sampleRate * 0.28, ctx.sampleRate);
-      const ad = ab.getChannelData(0);
-      for (let i = 0; i < ad.length; i++) ad[i] = Math.random() * 2 - 1;
-      const as_ = ctx.createBufferSource(); as_.buffer = ab;
-      const ahp = ctx.createBiquadFilter(); ahp.type = 'highpass'; ahp.frequency.value = 2800;
-      const ag = ctx.createGain();
-      as_.connect(ahp); ahp.connect(ag); ag.connect(masterGain);
-      ag.gain.setValueAtTime(0, now + delay);
-      ag.gain.linearRampToValueAtTime(0.03, now + delay + 0.025);
-      ag.gain.linearRampToValueAtTime(0, now + delay + 0.28);
-      as_.start(now + delay); as_.stop(now + delay + 0.32);
-      masterGain.gain.value = 1;
-    });
-
   } else if (type === 'cheer') {
-    // Crowd cheer — layered pink-ish noise with vocal formant resonances + energy swell
-    const reverb = makeReverb(1.2, 1.8);
-    reverb.connect(ctx.destination);
-    const masterGain = ctx.createGain();
-    masterGain.connect(reverb);
-    masterGain.connect(ctx.destination);
-    masterGain.gain.setValueAtTime(0, now);
-    masterGain.gain.linearRampToValueAtTime(0.9, now + 0.18);
-    masterGain.gain.setValueAtTime(0.9, now + 1.0);
-    masterGain.gain.linearRampToValueAtTime(0, now + 2.2);
-
-    // Multiple noise bands tuned to vocal crowd formants
-    [[280, 1.8, 0.20], [620, 1.4, 0.22], [1050, 1.1, 0.18], [2100, 0.8, 0.10], [3500, 0.5, 0.06]].forEach(([freq, Q, vol]) => {
-      const bufLen = ctx.sampleRate * 2.2;
-      const buf = ctx.createBuffer(1, bufLen, ctx.sampleRate);
-      const data = buf.getChannelData(0);
-      // Pink-ish noise: accumulate for low-frequency emphasis
-      let b0 = 0, b1 = 0, b2 = 0;
-      for (let i = 0; i < bufLen; i++) {
-        const white = Math.random() * 2 - 1;
-        b0 = 0.99886 * b0 + white * 0.0555179;
-        b1 = 0.99332 * b1 + white * 0.0750759;
-        b2 = 0.96900 * b2 + white * 0.1538520;
-        data[i] = (b0 + b1 + b2 + white * 0.5362) * 0.11;
-      }
-      const src = ctx.createBufferSource(); src.buffer = buf;
-      const bpf = ctx.createBiquadFilter();
-      bpf.type = 'bandpass'; bpf.frequency.value = freq; bpf.Q.value = Q;
-      const g = ctx.createGain(); g.gain.value = vol;
-      src.connect(bpf); bpf.connect(g); g.connect(masterGain);
-      src.start(now); src.stop(now + 2.2);
-    });
-
-    // Add rhythmic amplitude modulation — crowd swell feeling
-    const swellLfo = ctx.createOscillator();
-    const swellGain = ctx.createGain();
-    swellLfo.frequency.value = 3.5;
-    swellGain.gain.value = 0.08;
-    swellLfo.connect(swellGain); swellGain.connect(masterGain.gain);
-    swellLfo.start(now); swellLfo.stop(now + 2.2);
+    const buf = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate);
+    const d = buf.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+    const src = ctx.createBufferSource(); src.buffer = buf;
+    const bpf = ctx.createBiquadFilter(); bpf.type = 'bandpass'; bpf.frequency.value = 800;
+    const g = ctx.createGain();
+    src.connect(bpf); bpf.connect(g); g.connect(ctx.destination);
+    g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.2, now + 0.2);
+    g.gain.linearRampToValueAtTime(0, now + 2);
+    src.start(now); src.stop(now + 2);
   }
 }
 
