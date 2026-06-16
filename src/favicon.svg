@@ -1,10 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#2563EB"/>
       <stop offset="100%" stop-color="#7C3AED"/>
     </linearGradient>
+    <clipPath id="ball-clip">
+      <circle cx="50" cy="50" r="33"/>
+    </clipPath>
   </defs>
-  <rect width="32" height="32" rx="7" fill="url(#g)"/>
-  <text x="16" y="23" text-anchor="middle" font-size="20" font-family="serif">⚽</text>
+  <rect width="100" height="100" rx="20" fill="url(#bg)"/>
+  <circle cx="50" cy="50" r="33" fill="white"/>
+  <g clip-path="url(#ball-clip)">
+    <polygon points="50,30 60,38 56,50 44,50 40,38" fill="#111"/>
+    <polygon points="50,17 62,25 60,38 50,30 40,38 38,25" fill="#111"/>
+    <polygon points="44,50 40,38 28,42 26,56 36,62" fill="#111"/>
+    <polygon points="56,50 60,38 72,42 74,56 64,62" fill="#111"/>
+    <polygon points="44,50 36,62 44,72 56,72 64,62 56,50" fill="#111"/>
+  </g>
+  <circle cx="50" cy="50" r="33" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="1"/>
 </svg>
