@@ -2189,3 +2189,7 @@ async function init() {
 }
 
 init();
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/world_cup_dashboard/sw.js').catch(() => {});
+}
