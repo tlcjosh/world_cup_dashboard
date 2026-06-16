@@ -271,20 +271,13 @@ body {
 
 .match-home {
   display: flex; align-items: center; justify-content: flex-end;
-  gap: 10px; min-width: 0;
-  padding: 6px 10px; border-radius: 8px;
-  transition: background .2s;
+  gap: 10px; min-width: 0; padding: 6px 4px;
 }
 
 .match-away {
   display: flex; align-items: center; justify-content: flex-start;
-  gap: 10px; min-width: 0;
-  padding: 6px 10px; border-radius: 8px;
-  transition: background .2s;
+  gap: 10px; min-width: 0; padding: 6px 4px;
 }
-
-.match-home.has-color { background: color-mix(in srgb, var(--team-color) 8%, transparent); }
-.match-away.has-color { background: color-mix(in srgb, var(--team-color) 8%, transparent); }
 
 .team-name {
   font-size: 16px; font-weight: 600;
@@ -318,8 +311,6 @@ body {
 /* Match headline (ESPN recap summary) */
 .match-headline {
   margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
   font-size: 12px; color: var(--ink-2);
   font-style: italic; line-height: 1.5;
 }
@@ -331,9 +322,7 @@ body {
   gap: 2px;
   font-size: 11px;
   color: var(--ink-2);
-  padding-top: 8px;
-  margin-top: 8px;
-  border-top: 1px solid var(--border);
+  margin-top: 10px;
   line-height: 1.7;
 }
 
@@ -345,8 +334,9 @@ body {
 /* ===== MATCH STATS STRIP ===== */
 .match-stats {
   margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
+  background: var(--surface-2);
+  border-radius: 8px;
+  padding: 10px 12px;
 }
 
 .stats-poss {
@@ -656,8 +646,7 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   /* Keep the same 3-col grid as desktop, just tighter */
   .match-teams { gap: 0 6px; padding: 4px 0 6px; }
 
-  /* Smaller padding on team cells so names have more room */
-  .match-home, .match-away { padding: 4px 6px; gap: 6px; }
+  .match-home, .match-away { padding: 4px 2px; gap: 6px; }
 
   /* Flags smaller on mobile to save horizontal space */
   .match-teams img.flag { width: 20px; height: 15px; }
