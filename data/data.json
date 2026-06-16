@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T01:23:49.232Z",
+  "lastUpdated": "2026-06-16T01:43:50.723Z",
   "matches": [
     {
       "matchId": 537327,
@@ -250,7 +250,7 @@
       "awayIso": "nz",
       "venue": "SoFi Stadium, Inglewood",
       "kickoff": "2026-06-16T01:00:00.000Z",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-06-16T01:23:49.232Z",

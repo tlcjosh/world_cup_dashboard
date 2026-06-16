@@ -22,6 +22,8 @@
   --r: 12px;
   --header-h: 64px;
   --bs: 96px; /* bracket slot height */
+  --max-w: 1160px;
+  --grad-green: linear-gradient(135deg, #16A34A 0%, #0EA5E9 100%);
 }
 
 /* ===== RESET ===== */
@@ -136,7 +138,7 @@ body {
 #app-main {
   margin-top: var(--header-h);
   padding: 28px;
-  max-width: 1200px;
+  max-width: var(--max-w);
   margin-left: auto; margin-right: auto;
 }
 
@@ -288,6 +290,7 @@ body {
 .score-sub.live { color: var(--red); }
 .score-sub.ht   { color: var(--blue); }
 .score-sub.vs   { font-size: 12px; color: var(--ink-3); font-weight: 400; }
+.score.vs       { font-size: 14px; color: var(--ink-3); font-weight: 400; }
 
 /* Fixed-width status column — keeps score always centered */
 .match-status {
@@ -384,6 +387,17 @@ img.flag {
 }
 
 /* ===== STANDINGS ===== */
+.standings-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 22px; flex-wrap: wrap; gap: 12px;
+}
+
+.standings-title {
+  font-family: 'Anybody', sans-serif;
+  font-variation-settings: 'wdth' 75;
+  font-size: 40px; font-weight: 900; line-height: 1.1;
+}
+
 .standings-grid { display: flex; flex-direction: column; gap: 16px; }
 
 .standings-mode-label {
@@ -441,6 +455,10 @@ tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
 
 .qualify-legend span { display: flex; align-items: center; gap: 5px; }
 .swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+/* ===== CONDENSED TABLE (dashboard standings widget) ===== */
+.condensed th { padding: 5px 6px; font-size: 10px; }
+.condensed td { padding: 7px 6px; font-size: 12px; }
 
 /* ===== BRACKET ===== */
 .bracket-wrapper { overflow-x: auto; padding-bottom: 12px; }
