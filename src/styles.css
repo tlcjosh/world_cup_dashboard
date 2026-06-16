@@ -704,10 +704,22 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   to   { transform: scale(1);  opacity: 1; }
 }
 
-/* Type-specific modal borders */
-#notif-modal.notif-kickoff { border-top: 5px solid #2563EB; }
-#notif-modal.notif-goal    { border-top: 5px solid #DC2626; }
-#notif-modal.notif-final   { border-top: 5px solid #16A34A; }
+/* Type-specific modal gradient borders */
+#notif-modal.notif-kickoff {
+  border: 4px solid transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+              linear-gradient(135deg, #2563EB 0%, #16A34A 100%) border-box;
+}
+#notif-modal.notif-goal {
+  border: 4px solid transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+              linear-gradient(135deg, #DC2626 0%, #EA580C 100%) border-box;
+}
+#notif-modal.notif-final {
+  border: 4px solid transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+              linear-gradient(135deg, #16A34A 0%, #7C3AED 100%) border-box;
+}
 
 #notif-close {
   position: absolute; top: 14px; right: 16px;
@@ -791,3 +803,19 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 .notif-poss-bar {
   height: 5px; border-radius: 3px;
 }
+
+/* ===== DEBUG PANEL ===== */
+#debug-panel {
+  position: fixed; bottom: 20px; right: 20px; z-index: 9997;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 10px 14px;
+  display: flex; align-items: center; gap: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,.12);
+}
+#debug-panel button {
+  border: 1px solid var(--border); background: var(--surface-2);
+  border-radius: 8px; padding: 5px 10px; font-size: 12px;
+  cursor: pointer; font-weight: 600; color: var(--ink);
+  transition: background .15s;
+}
+#debug-panel button:hover { background: var(--border); }

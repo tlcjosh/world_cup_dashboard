@@ -1489,6 +1489,45 @@ async function init() {
   // data.json: re-fetch every 2 minutes for schedule/standings/knockout updates
   if (state.syncInterval) clearInterval(state.syncInterval);
   state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
+
+  // ---- Test / debug harness ----
+  const testMatch = {
+    matchNum: 0, stage: 'Group Stage', group: 'J',
+    homeTeam: 'Argentina', homeIso: 'ar', homeScore: 1,
+    awayTeam: 'Algeria',   awayIso: 'dz', awayScore: 0,
+    venue: 'Arrowhead Stadium, Kansas City',
+    status: 'IN_PLAY',
+    _espnEvents: { home: ['L. Messi 37\''], away: [] },
+    _espnStats: { home: { possessionPct: 62 }, away: { possessionPct: 38 } },
+    _espnColors: { home: '#75AADB', away: '#006233' },
+    _espnHeadline: null,
+  };
+
+  window.testNotif = (type) => {
+    armAudio();
+    if (type === 'kickoff') {
+      queueNotif({ type: 'kickoff', html: kickoffNotifHtml({ ...testMatch, homeScore: null, awayScore: null, status: 'SCHEDULED' }) });
+    } else if (type === 'goal') {
+      queueNotif({ type: 'goal', html: goalNotifHtml(testMatch, 'Argentina', 'L. Messi 37\'') });
+    } else if (type === 'final') {
+      queueNotif({ type: 'final', html: finalNotifHtml({ ...testMatch, status: 'FINISHED', homeScore: 2, awayScore: 1 }) });
+    } else {
+      console.log('Usage: testNotif("kickoff" | "goal" | "final")');
+    }
+  };
+
+  // Debug panel — only shown when URL contains ?debug
+  if (new URLSearchParams(location.search).has('debug')) {
+    const panel = document.createElement('div');
+    panel.id = 'debug-panel';
+    panel.innerHTML = `
+      <span style="font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--ink-3);text-transform:uppercase;">Test alerts</span>
+      <button onclick="testNotif('kickoff')">⚽ Kickoff</button>
+      <button onclick="testNotif('goal')">🥅 Goal</button>
+      <button onclick="testNotif('final')">🏁 Full Time</button>
+    `;
+    document.body.appendChild(panel);
+  }
 }
 
 init();
