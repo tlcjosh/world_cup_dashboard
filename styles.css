@@ -272,12 +272,19 @@ body {
 .match-home {
   display: flex; align-items: center; justify-content: flex-end;
   gap: 10px; min-width: 0;
+  padding: 6px 10px; border-radius: 8px;
+  transition: background .2s;
 }
 
 .match-away {
   display: flex; align-items: center; justify-content: flex-start;
   gap: 10px; min-width: 0;
+  padding: 6px 10px; border-radius: 8px;
+  transition: background .2s;
 }
+
+.match-home.has-color { background: color-mix(in srgb, var(--team-color) 8%, transparent); }
+.match-away.has-color { background: color-mix(in srgb, var(--team-color) 8%, transparent); }
 
 .team-name {
   font-size: 16px; font-weight: 600;
@@ -354,17 +361,10 @@ body {
 .stats-poss-a { font-size: 11px; font-weight: 700; text-align: center; color: var(--ink); }
 
 .stats-poss-bar {
-  height: 4px;
-  background: rgba(220, 38, 38, .2);
-  border-radius: 2px;
+  height: 5px;
+  border-radius: 3px;
   overflow: hidden;
-}
-
-.stats-poss-fill {
-  height: 100%;
-  background: var(--blue);
-  border-radius: 2px 0 0 2px;
-  transition: width .4s;
+  /* background set inline via team colors */
 }
 
 .stats-poss-lbl {
@@ -647,46 +647,26 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 
   .bracket { min-width: 800px; }
 
-  /* ---- Mobile match card ---- */
-  .match-card { padding: 12px 14px; }
+  /* ---- Mobile match card — keep 3-col grid, scale down ---- */
+  .match-card { padding: 10px 12px; }
 
-  .match-meta-bar { margin-bottom: 8px; }
+  .match-meta-bar { margin-bottom: 6px; }
+  .match-meta-right { max-width: 55%; font-size: 10px; }
 
-  .match-meta-right { max-width: 60%; font-size: 10px; }
+  /* Keep the same 3-col grid as desktop, just tighter */
+  .match-teams { gap: 0 6px; padding: 4px 0 6px; }
 
-  /* On narrow screens collapse the teams row to vertical stack */
-  .match-teams {
-    grid-template-columns: 1fr;
-    gap: 6px;
-    padding-bottom: 6px;
-  }
+  /* Smaller padding on team cells so names have more room */
+  .match-home, .match-away { padding: 4px 6px; gap: 6px; }
 
-  .match-home {
-    justify-content: flex-start;
-    gap: 8px;
-  }
+  /* Flags smaller on mobile to save horizontal space */
+  .match-teams img.flag { width: 20px; height: 15px; }
 
-  .match-away {
-    justify-content: flex-start;
-    gap: 8px;
-  }
+  .team-name { font-size: 13px; }
 
-  .team-name { font-size: 15px; white-space: normal; }
-
-  .score-col {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 6px 0;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    order: -1; /* score above teams on mobile */
-  }
-
-  .score { font-size: 28px; }
-  .score-sub { margin-top: 0; }
+  .score { font-size: 24px; }
+  .score-sub { font-size: 9px; }
 
   /* Stats strip: tighten possession label column on narrow screens */
-  .stats-poss { grid-template-columns: 32px 1fr 32px auto; gap: 0 6px; }
+  .stats-poss { grid-template-columns: 30px 1fr 30px auto; gap: 0 5px; }
 }
