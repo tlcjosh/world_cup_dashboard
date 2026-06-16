@@ -341,7 +341,7 @@ body {
 
 .stats-poss {
   display: grid;
-  grid-template-columns: 36px 1fr 36px auto;
+  grid-template-columns: 36px 1fr 36px;
   align-items: center;
   gap: 0 8px;
   margin-bottom: 8px;
@@ -355,11 +355,6 @@ body {
   border-radius: 3px;
   overflow: hidden;
   /* background set inline via team colors */
-}
-
-.stats-poss-lbl {
-  font-size: 9px; color: var(--ink-3);
-  text-transform: uppercase; letter-spacing: .07em; white-space: nowrap;
 }
 
 .stats-grid {
