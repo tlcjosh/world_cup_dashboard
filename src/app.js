@@ -175,6 +175,19 @@ function mergeESPNData(espnEvents) {
 
     match._espnStats = swapped ? { home: aStats, away: hStats } : { home: hStats, away: aStats };
 
+    // Team colors for possession bar and accents
+    const pickColor = (primary, alternate) => {
+      const hex = (primary || '').replace('#', '');
+      if (hex.length === 6) {
+        const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+        if ((r + g + b) / 3 > 210) return '#' + (alternate || '888888');
+      }
+      return '#' + (primary || '888888');
+    };
+    const hColor = pickColor(homeComp.team.color, homeComp.team.alternateColor);
+    const aColor = pickColor(awayComp.team.color, awayComp.team.alternateColor);
+    match._espnColors = swapped ? { home: aColor, away: hColor } : { home: hColor, away: aColor };
+
     // Headline (recap summary)
     match._espnHeadline = comp.headlines?.[0]?.description || null;
   }
@@ -438,11 +451,15 @@ function espnStatsHtml(match) {
     `<span class="rcard">${rh}</span>`, 'Reds', `<span class="rcard">${ra}</span>`
   ]);
 
+  const hColor = match._espnColors?.home || 'var(--blue)';
+  const aColor = match._espnColors?.away || 'var(--red)';
+  const barStyle = `background: linear-gradient(to right, ${hColor} ${possH}%, ${aColor} ${possH}%)`;
+
   return `<div class="match-stats">
     <div class="stats-poss">
-      <span class="stats-poss-h">${possH}%</span>
-      <div class="stats-poss-bar"><div class="stats-poss-fill" style="width:${possH}%"></div></div>
-      <span class="stats-poss-a">${possA}%</span>
+      <span class="stats-poss-h" style="color:${hColor}">${possH}%</span>
+      <div class="stats-poss-bar" style="${barStyle}"></div>
+      <span class="stats-poss-a" style="color:${aColor}">${possA}%</span>
       <span class="stats-poss-lbl">Possession</span>
     </div>${rows.length ? `<div class="stats-grid">${rows.map(([hv, l, av]) =>
       `<span class="sg-h">${hv}</span><span class="sg-l">${l}</span><span class="sg-a">${av}</span>`
@@ -477,6 +494,11 @@ function matchCardHtml(match, extraLabel) {
   const headlineHtml = match._espnHeadline
     ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
+  const hColor = match._espnColors?.home || null;
+  const aColor = match._espnColors?.away || null;
+  const homeStyle = hColor ? ` style="--team-color:${hColor}"` : '';
+  const awayStyle = aColor ? ` style="--team-color:${aColor}"` : '';
+
   return `
     <div class="match-card ${isLive ? 'live' : ''}">
       <div class="match-meta-bar">
@@ -484,7 +506,7 @@ function matchCardHtml(match, extraLabel) {
         ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
       </div>
       <div class="match-teams">
-        <div class="match-home">
+        <div class="match-home${hColor ? ' has-color' : ''}"${homeStyle}>
           <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
           ${flagImg(match.homeIso, match.homeTeam)}
         </div>
@@ -492,7 +514,7 @@ function matchCardHtml(match, extraLabel) {
           ${scoreHtml}
           ${scoreSubHtml}
         </div>
-        <div class="match-away">
+        <div class="match-away${aColor ? ' has-color' : ''}"${awayStyle}>
           ${flagImg(match.awayIso, match.awayTeam)}
           <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
         </div>
