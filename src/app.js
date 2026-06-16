@@ -206,7 +206,7 @@ function mergeESPNData(espnEvents) {
     setTimeout(() => header.classList.remove('sync-flash'), 500);
   }
 
-  renderView();
+  renderView({ silent: true });
 }
 
 // ===== HELPERS =====
@@ -461,14 +461,13 @@ function espnStatsHtml(match) {
       <span class="stats-poss-h" style="color:${hColor}">${possH}%</span>
       <div class="stats-poss-bar" style="${barStyle}"></div>
       <span class="stats-poss-a" style="color:${aColor}">${possA}%</span>
-      <span class="stats-poss-lbl">Possession</span>
     </div>${rows.length ? `<div class="stats-grid">${rows.map(([hv, l, av]) =>
       `<span class="sg-h">${hv}</span><span class="sg-l">${l}</span><span class="sg-a">${av}</span>`
     ).join('')}</div>` : ''}
   </div>`;
 }
 
-function matchCardHtml(match, extraLabel) {
+function matchCardHtml(match, extraLabel, opts = {}) {
   const isLive = match.status === 'IN_PLAY' || match.status === 'PAUSED';
   const hasScore = isLive || match.status === 'FINISHED';
   const hs = hasScore && match.homeScore !== null && match.homeScore !== undefined ? match.homeScore : null;
@@ -516,7 +515,7 @@ function matchCardHtml(match, extraLabel) {
         </div>
       </div>
       ${hasScore ? espnEventsHtml(match) : ''}
-      ${espnStatsHtml(match)}
+      ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
       ${headlineHtml}
     </div>
   `;
@@ -685,7 +684,7 @@ function renderDashboard() {
             <div class="card-title">Up Next</div>
             <div class="card-meta">Upcoming</div>
           </div>
-          ${upNext.length ? upNext.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No upcoming matches.</div>'}
+          ${upNext.length ? upNext.map(m => matchCardHtml(m, null, { suppressStats: true })).join('') : '<div class="empty-state">No upcoming matches.</div>'}
         </div>
       </div>
     `;
@@ -756,7 +755,7 @@ function renderSchedule() {
     html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      html += matchCardHtml(m, label);
+      html += matchCardHtml(m, label, { suppressStats: true });
     }
   }
 
@@ -992,7 +991,7 @@ function renderBracket() {
 }
 
 // ===== RENDER VIEW =====
-function renderView() {
+function renderView(opts = {}) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
 
@@ -1007,8 +1006,9 @@ function renderView() {
   const main = document.getElementById('app-main');
   if (header && main) main.style.marginTop = header.offsetHeight + 'px';
 
-  // Scroll to top on all views except schedule (which scrolls to today itself)
-  if (state.currentView !== 'schedule') window.scrollTo({ top: 0, behavior: 'instant' });
+  // Scroll to top on all views except schedule (which scrolls to today itself), and not on silent background refreshes
+  const savedScroll = opts.silent ? window.scrollY : null;
+  if (!opts.silent && state.currentView !== 'schedule') window.scrollTo({ top: 0, behavior: 'instant' });
 
   switch (state.currentView) {
     case 'dashboard': renderDashboard(); break;
@@ -1016,6 +1016,8 @@ function renderView() {
     case 'standings': renderStandings(); break;
     case 'bracket': renderBracket(); break;
   }
+
+  if (savedScroll !== null) window.scrollTo({ top: savedScroll, behavior: 'instant' });
 }
 
 // ===== FETCH DATA =====
