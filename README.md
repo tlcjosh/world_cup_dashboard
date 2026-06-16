@@ -64,7 +64,7 @@ world_cup_dashboard/
 │   └── update_tracker.js     # API sync + self-bootstrap (used by Actions)
 ├── src/
 │   ├── index.html            # SPA shell
-│   ├── styles.css            # Dark sports-dashboard theme
+│   ├── styles.css            # Light modern theme (Anybody variable font, gradient accents)
 │   ├── app.js                # All frontend logic (vanilla JS)
 │   └── data/
 │       ├── data.json         # Match data + standings (auto-updated by Actions)
@@ -79,9 +79,24 @@ world_cup_dashboard/
 | View | Description |
 |---|---|
 | **Dashboard** | Live matches with browser-side ticking clock (`45+2′` stoppage time), recent results, next 5 fixtures, team search |
-| **Schedule** | All 104 fixtures grouped by date (Pacific Time), live scores, status badges |
-| **Standings** | Groups A–L tables + 3rd-place wildcard rankings with Official/Live toggle |
-| **Bracket** | Round of 32 → Final grid; Live mode resolves placeholders from computed standings |
+| **Schedule** | All 104 fixtures grouped by date (Pacific Time), live scores, group/stage label, winner highlighting |
+| **Standings** | Groups A–L tables + 3rd-place wildcard rankings with Official/Live toggle; qualification rows color-coded |
+| **Bracket** | Round of 32 → Final grid; slot-based vertical alignment per round; Live mode resolves placeholders from computed standings |
+
+## Design
+
+The UI uses a light, modern design system — no framework, pure CSS custom properties.
+
+| Token | Value |
+|---|---|
+| Background | `#F5F4F0` warm off-white |
+| Surface | `#FFFFFF` cards |
+| Brand gradient | `135deg #2563EB → #7C3AED` (blue → violet) |
+| Live gradient | `135deg #DC2626 → #EA580C` (red → orange) |
+| Heading font | [Anybody](https://fonts.google.com/specimen/Anybody) variable (`wdth 75, weight 900`) |
+| Body font | Inter 400/500/600 |
+
+Match cards use a 5-column CSS grid (`1fr auto 96px auto 1fr`) so the score is always centered regardless of team name length. Completed matches show winner/loser styling on team names. The knockout bracket uses slot-based height doubling so each round's cards align vertically with their feeder matches.
 
 ## Data Flow
 

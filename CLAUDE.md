@@ -15,11 +15,79 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 |---|---|
 | `scripts/update_tracker.js` | Single pipeline script. Bootstraps `data.json` from API if missing; otherwise syncs scores/status. Run by Actions. Has `TEAM_MASTER_DATA` and `BRACKET_TEMPLATE` embedded. |
 | `.github/workflows/sync.yml` | Cron `*/5 * * * *`, inner `sleep 30` loop × 10. Git config runs BEFORE the sync script. Deploy job pushes `src/` to `gh-pages` after sync. |
-| `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. |
+| `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. Render functions: `matchCardHtml()`, `renderDashboard()`, `renderSchedule()`, `renderStandings()`, `renderBracket()`. |
+| `src/styles.css` | Light modern design system. CSS custom properties in `:root`. Anybody variable font for headings (wdth 75, weight 900), Inter for body. |
 | `src/data/data.json` | Auto-updated by Actions. Contains `matches[]`, `standings{}`, `lastUpdated`. Used as schedule backbone and fallback. |
 | `src/data/combinations.json` | Static. 495 entries keyed by 8-letter sorted group string (e.g. `"ABCDEFKL"`). Values map opponent keys (`"1A"` through `"1L"`) to team codes (`"3F"`). Never changes. |
 | `blueprint_data/` | Legacy CSV files. No longer used at runtime — reference only. |
 | `scripts/bootstrap.js` | Legacy CSV parser. No longer used — `update_tracker.js` self-bootstraps from API. |
+
+## Frontend Design System
+
+Light modern theme — no CSS framework. All design tokens live in `:root` in `styles.css`.
+
+### Key CSS Variables
+```css
+--bg: #F5F4F0          /* warm off-white page background */
+--surface: #FFFFFF      /* card surfaces */
+--surface-2: #EEECE8    /* secondary surface (finished badge bg) */
+--border: #E0DDD7       /* subtle borders */
+--ink / --ink-2 / --ink-3  /* text hierarchy */
+--grad-brand: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%)  /* blue→violet */
+--grad-live:  linear-gradient(135deg, #DC2626 0%, #EA580C 100%)  /* red→orange */
+--r: 12px               /* default border-radius */
+--bs: 96px              /* bracket slot base height */
+```
+
+### Fonts
+- **Headings**: `Anybody` variable font, `font-variation-settings: 'wdth' 75; font-weight: 900`. Loaded from Google Fonts with full axis range (`ital,wdth,wght@0,50..100,100..900`).
+- **Body**: `Inter` 400/500/600
+
+### Match Card Layout
+`.match-card` uses `display: flex` with two children:
+1. `.match-inner` — 5-column grid: `1fr auto 96px auto 1fr` (home name | home flag | score | away flag | away name). Ensures score is always centered regardless of name lengths.
+2. `.match-status` — fixed `width: 160px`, right-aligned; contains badge + venue text.
+
+Live cards get a CSS gradient border via `background: linear-gradient(surface, surface) padding-box, grad-live border-box`.
+
+Winner/loser classes on team names: `.team-name.winner` (bold) / `.team-name.loser` (muted).
+
+### Bracket Slot Layout
+Each match in the bracket is wrapped in `.b-slot`. Slot heights double per round so cards center vertically between their feeder matches:
+- `r32`: `height: var(--bs)` (96px)
+- `r16`: `height: calc(2 * var(--bs))`
+- `rqf`: `height: calc(4 * var(--bs))`
+- `rsf` / `rfin`: `height: calc(8 * var(--bs))`
+
+Round containers: `.bracket-round.r32`, `.bracket-round.r16`, etc.
+
+### Standings Row Classes
+- `q1` — 1st place (green left border)
+- `q2` — 2nd place (green left border)
+- `q3` — 3rd place (amber left border, potential wildcard)
+- `wildcard-qualify` — top 8 third-place teams in wildcard table (blue left border)
+
+### CSS Class Reference (app.js → styles.css)
+| Element | Class |
+|---|---|
+| Match card | `.match-card`, `.match-card.live` |
+| 5-col grid | `.match-inner` |
+| Home/away cells | `.match-home`, `.match-away` |
+| Score column | `.score-col > .score`, `.score-sub.live.match-clock` |
+| Status column | `.match-status > .venue` |
+| Team name | `.team-name`, `.team-name.winner`, `.team-name.loser` |
+| Brackets | `.b-match`, `.b-slot`, `.b-team`, `.b-team-name`, `.b-score`, `.b-num`, `.b-div` |
+| Round wrapper | `.bracket-round.r32/.r16/.rqf/.rsf/.rfin` |
+| Group header | `.group-header > .group-pill + .group-name` |
+| Position | `.pos` |
+
+### Badge Classes
+| Status | Class |
+|---|---|
+| Live | `.badge.badge-live` |
+| Half-time | `.badge.badge-ht` |
+| Full-time | `.badge.badge-ft` |
+| Scheduled | `.badge.badge-soon` |
 
 ## Live Score Architecture
 
