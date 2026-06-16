@@ -168,3 +168,5 @@ for (const maskable of [false, true]) {
   writeFileSync(`/tmp/icon-option-b-${suffix}.png`, renderOptionB(maskable).toBuffer('image/png'));
 }
 console.log('done');
+
+export { renderOptionB };
