@@ -11,9 +11,11 @@ A fully responsive single-page web application for tracking FIFA World Cup 2026,
 ```
 ┌─────────────────────────────────────┐
 │  Browser (app.js)                   │
-│  ├─ ESPN API (every 30s)            │  ← primary live score source
-│  │   └─ scores, clock, stats,       │
-│  │      scorers, headlines, colors  │
+│  ├─ ESPN scoreboard (every 30s)     │  ← primary live source
+│  │   └─ scores, clock, events,      │
+│  │      stats, colors, headlines    │
+│  ├─ ESPN summary (per live match)   │  ← live commentary feed
+│  │   └─ last 5 comments cached      │
 │  └─ data.json (every 2 min)         │  ← full schedule + standings fallback
 │      └─ served from GitHub Pages    │
 └─────────────────────────────────────┘
@@ -60,7 +62,7 @@ Push anything to `main`. The workflow will run, bootstrap `data.json` from the A
 world_cup_dashboard/
 ├── .github/workflows/
 │   └── sync.yml              # Cron sync + gh-pages deploy
-├── blueprint_data/           # Legacy CSVs + ESPN API example (reference only)
+├── blueprint_data/           # Legacy CSVs (reference only)
 ├── scripts/
 │   └── update_tracker.js     # API sync + self-bootstrap (used by Actions)
 ├── src/
@@ -70,6 +72,10 @@ world_cup_dashboard/
 │   └── data/
 │       ├── data.json         # Match data + standings (auto-updated by Actions)
 │       └── combinations.json # 3rd-place wildcard lookup (static)
+│   └── sounds/
+│       ├── whistle.mp3       # Kickoff notification sound
+│       ├── cheer.mp3         # Goal notification sound
+│       └── double-whistle.mp3# Full-time notification sound
 ├── package.json
 ├── README.md
 └── CLAUDE.md                 # AI assistant context
@@ -99,51 +105,89 @@ The UI uses a light, modern design system — no framework, pure CSS custom prop
 
 ### Match Card Layout
 
-Each match card uses a two-row structure:
+Each match card uses a layered structure:
 
 1. **`.match-meta-bar`** — `space-between` flex row: status badge (FT/LIVE/HT/kickoff time) on the left, venue on the right.
-2. **`.match-teams`** — 3-column CSS grid (`1fr auto 1fr`): home team (name + flag right-aligned) | centered score col | away team (flag + name left-aligned). Score is 30px Anybody bold.
-
-Below the teams row, ESPN data populates (when available for today's matches):
-- **Goal scorers** — home side left-aligned, away side right-aligned, with ⚽ icon
-- **Stats pill** — inset `rgba(0,0,0,.03)` rounded block with a two-tone possession bar (each team's brand color blending across a 40% gradient zone), plus shots, on-target, corners, and card counts
-- **Headline** — italic ESPN recap summary sentence
+2. **`.match-teams`** — 3-column CSS grid (`1fr auto 1fr`): home team (name + flag right-aligned) | centered score col with live clock | away team (flag + name left-aligned). Score is 30px Anybody bold.
+3. **`.match-events`** — goal scorers when ESPN has `details[]` data. Home scorers left-aligned, away right-aligned, each with ⚽ icon.
+4. **`.match-stats`** — inset pill with two-tone possession bar (each team's ESPN brand color), plus shots, shots on target, corners, and card counts (yellow/red). Shown for any match that has ESPN stat data, not just live ones.
+5. **`.match-headline`** — italic ESPN recap summary sentence.
+6. **Live commentary** — most recent comment from ESPN summary feed, shown beneath stats for in-play matches only.
 
 Completed matches show winner (bold) / loser (muted) styling on team names.
 
 The knockout bracket uses slot-based height doubling so each round's cards align vertically with their feeder matches.
 
-## Data Flow
+## Live Score & Notification System
 
-### Live Scores (ESPN)
-`app.js` polls `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard` every 30 seconds directly from the browser. No API key required — ESPN's public scoreboard API is CORS-friendly. Results are merged into the in-memory match list by team name matching and enrich each match with:
-- Score and status
-- Live clock (`_espnClock`, `_espnPeriod`, `_espnFetchedAt`)
-- Goal scorers (`_espnEvents`)
-- Match statistics (`_espnStats`) — possession, shots, corners, cards
-- Team brand colors (`_espnColors`) — used for the possession gradient bar
-- Recap headline (`_espnHeadline`)
+### ESPN Scoreboard (every 30s)
 
-ESPN re-renders the view on every sync (not just when scores change), so stats and headlines appear immediately on page load.
+`app.js` polls `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard` every 30 seconds directly from the browser. No API key required — ESPN's public scoreboard API is CORS-friendly. Results are merged into the in-memory match list by ESPN team ID (primary) or display name (fallback) and enrich each match with:
 
-If ESPN is unavailable, the app falls back silently to `data.json` data.
+| Field | Description |
+|---|---|
+| `status`, `homeScore`, `awayScore` | Always updated |
+| `_espnClock`, `_espnDisplayClock`, `_espnPeriod`, `_espnFetchedAt` | Live clock — elapsed seconds, formatted string (e.g. `45'+2'`), period number, fetch timestamp for real-time interpolation |
+| `_espnEvents` | Goal scorer labels per side, parsed from `competitions[0].details[]` |
+| `_espnStats` | Possession %, shots, on-target, corners, yellows, reds |
+| `_espnColors` | Hex brand colors for each team, used for the possession gradient bar |
+| `_espnHeadline` | Recap sentence from `competitions[0].headlines[0]` |
+| `espnEventId` | ESPN's match ID, used for commentary and historical detail fetches |
+
+ESPN re-renders the view on every sync (not just when scores change), so stats and headlines appear immediately on page load even for already-finished matches.
+
+**Important quirk**: ESPN's `details[]` (scorer events) updates about 30 seconds before the competitor `score` field. The notification system uses `_seenGoalEvents` to fire the goal modal as soon as a new scorer entry appears, without waiting for the score integer to catch up.
+
+### Live Commentary (per in-play match)
+
+For each in-play match that has an `espnEventId`, a second request goes to the ESPN summary endpoint. The last 5 comments are cached in `match._espnCommentary` and displayed on the live match card.
+
+### Notifications & Sounds
+
+All notifications are browser-side, triggered by comparing ESPN data across poll cycles. Audio is armed on first user gesture to comply with browser autoplay policy.
+
+| Event | Trigger | Sound | Animation |
+|---|---|---|---|
+| **Kickoff** | Match status `SCHEDULED` → `IN_PLAY` | Single whistle | 7 footballs arc across screen |
+| **Goal** | `_espnEvents` array gains a new scorer entry | Cheer | Confetti (90 colored pieces) |
+| **Full time** | Match status → `FINISHED` | Double whistle | — (stat summary shown in notification) |
+
+Sounds fall back to synthesized Web Audio tones if MP3 files fail to load.
+
+### Team Profile Modal
+
+Clicking any team name or flag opens a modal with:
+- Flag, name, group
+- Record: points, W–D–L, GF–GA, current group position
+- Average per-match stats aggregated from ESPN historical data (possession, shots, on target, corners, yellows, reds) — fetched via the ESPN date-scoped scoreboard endpoint and cached per date
+- Full results table with W/L/D badges, score, opponent, date, stage
+
+### Sync Pill
+
+A small pill in the UI shows ESPN sync state: `syncing` → `ok` (with time since last update) or `error`. The hover title shows the football-data.org last-sync timestamp.
 
 ### Schedule / Standings Fallback (data.json)
-`update_tracker.js` runs via GitHub Actions every 5 minutes (inner 30s loop × 10). It fetches football-data.org, updates scores and standings, and commits `data.json`. The frontend re-fetches this file every 2 minutes to pick up any schedule changes or knockout match updates that ESPN's date-scoped scoreboard might not include.
+
+`update_tracker.js` runs via GitHub Actions every 5 minutes (inner 30s loop × 10). It fetches football-data.org, updates scores and standings, and commits `data.json`. The frontend re-fetches this file every 2 minutes to pick up any schedule changes or knockout match updates that ESPN's date-scoped scoreboard doesn't include.
 
 ### Self-Bootstrap
+
 `update_tracker.js` checks for a missing or empty `data.json` on startup. If found, it bootstraps the full dataset from the API (group stage) + a hardcoded bracket template (knockout rounds), then commits. No manual seeding step required.
 
 ### Live Clock
+
 During live matches, the browser ticks the clock forward every second using ESPN's `status.clock` (total elapsed seconds) plus real-time offset since the last fetch. Falls back to `firstHalfStart`/`secondHalfStart` timestamps from `data.json` if ESPN clock data isn't present.
 
 ### Cross-Group Matches
+
 WC2026 groups G and H play cross-group matches in rounds 2 and 3 (e.g. Spain G vs Saudi Arabia H). These count toward each team's **own** group standings. The standings computation uses `TEAM_MASTER_DATA` to look up each team's group, not the match's group field.
 
 ### 3rd-Place Wildcards
+
 8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json`.
 
 ### Bracket Placeholder Resolution
+
 Knockout match team slots use placeholders resolved at render time:
 - `[1A]` → 1st place of Group A
 - `[3ABCDF]` → 3rd-place wildcard (via combinations lookup)

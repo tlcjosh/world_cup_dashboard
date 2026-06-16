@@ -19,6 +19,7 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 | `src/styles.css` | Light modern design system. CSS custom properties in `:root`. Anybody variable font for headings (wdth 75, weight 900), Inter for body. |
 | `src/data/data.json` | Auto-updated by Actions. Contains `matches[]`, `standings{}`, `lastUpdated`. Used as schedule backbone and fallback. |
 | `src/data/combinations.json` | Static. 495 entries keyed by 8-letter sorted group string (e.g. `"ABCDEFKL"`). Values map opponent keys (`"1A"` through `"1L"`) to team codes (`"3F"`). Never changes. |
+| `src/sounds/` | MP3 audio files: `whistle.mp3`, `cheer.mp3`, `double-whistle.mp3`. Played by notifications; fall back to synthesized Web Audio tones if unavailable. |
 | `blueprint_data/` | Legacy CSV files. No longer used at runtime — reference only. |
 | `scripts/bootstrap.js` | Legacy CSV parser. No longer used — `update_tracker.js` self-bootstraps from API. |
 
@@ -66,6 +67,8 @@ Light modern theme — no CSS framework. All design tokens live in `:root` in `s
    Rendered by `espnStatsHtml()` for any match that has ESPN stat data (not just live).
 
 5. **`.match-headline`** (optional) — italic ESPN recap summary sentence.
+
+6. **Live commentary** (optional, in-play only) — most recent comment from ESPN summary endpoint, rendered beneath the headline. Fetched separately via `fetchESPNCommentary()` for each in-play match that has an `espnEventId`; last 5 comments stored in `match._espnCommentary`.
 
 Live cards get a CSS gradient border via `background: linear-gradient(surface, surface) padding-box, grad-live border-box`.
 
@@ -135,15 +138,28 @@ https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard
 ```
 No API key required. CORS-friendly — works directly from browser JS. Returns only **today's** matches, so it overlays live data on top of the full schedule from `data.json`.
 
-`mergeESPNData()` matches ESPN events to `state.matches` by team display name and enriches each match with:
+`mergeESPNData()` matches ESPN events to `state.matches` by **ESPN team ID first** (`ESPN_ID_TO_TEAM` reverse map from `TEAM_MASTER_DATA[team].espnId`), falling back to display name normalization via `ESPN_NAME_MAP`. This ID-first approach avoids name mismatch issues. After matching, enriches each match with:
 - `status`, `homeScore`, `awayScore` — always updated
-- `_espnClock`, `_espnPeriod`, `_espnFetchedAt` — for the live clock tick
-- `_espnEvents` — goal scorer labels parsed from `competitions[0].details[]` (scoring plays only)
-- `_espnStats` — possession, shots, on-target, corners; card counts derived from `details[]` (not stats array)
-- `_espnColors` — team brand colors from `competitors[].team.color/alternateColor`
+- `espnEventId` — ESPN's match ID, used for commentary fetches and historical stat lookups
+- `_espnClock`, `_espnDisplayClock`, `_espnPeriod`, `_espnFetchedAt` — live clock: elapsed seconds, formatted string (e.g. `"45'+2'"`), period, fetch timestamp
+- `_espnEvents` — goal scorer labels parsed from `competitions[0].details[]` (scoring plays only), e.g. `"E. Ashour 20'"`, `"M. Hany 66' (og)"`
+- `_espnStats` — possession %, shots, on-target, corners; card counts derived from `details[]` (not the stats array). Keys: `possessionPct`, `totalShots`, `shotsOnTarget`, `wonCorners`, `yellowCards`, `redCards`.
+- `_espnColors` — hex brand colors for each team; auto-falls back to `alternateColor` when primary is near-white. Used for the possession gradient bar.
 - `_espnHeadline` — recap text from `competitions[0].headlines[0].description`
 
+**Swapped teams**: When ESPN's home/away order differs from `data.json`, a `swapped` flag reverses all score/stat/color assignments.
+
 **Important**: `mergeESPNData()` always calls `renderView()` after every sync (not just when scores change), so stats and headlines appear immediately on first page load even when all matches are already FINISHED.
+
+### ESPN Live Commentary (per in-play match)
+After each scoreboard poll, `fetchESPNCommentary(match)` is called for every in-play match with an `espnEventId`. Hits the ESPN summary endpoint:
+```
+{ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event={espnEventId}
+```
+Parses `data.commentary[]`, sorts by sequence, stores last 5 comments in `match._espnCommentary`. Renders on live match cards beneath the headline. Fails silently if unavailable.
+
+### ESPN Date Cache (historical data)
+`fetchESPNDate(dateStr)` fetches `?dates=YYYYMMDD` and caches the result in `state._espnDateCache[dateStr]`. Used when opening team profile modals to get per-match stat breakdowns for historical matches that are no longer in today's scoreboard feed.
 
 ### Fallback: data.json (every 2 minutes)
 `fetchData()` re-fetches `data.json` every 2 minutes to pick up schedule changes, knockout match updates, and standings corrections. If ESPN is unavailable, data.json is the sole data source.
@@ -152,14 +168,15 @@ No API key required. CORS-friendly — works directly from browser JS. Returns o
 `ESPN_NAME_MAP` in `app.js` normalizes ESPN display names to our `TEAM_MASTER_DATA` keys. Known mismatches:
 - `"Cape Verde"` → `"Cape Verde Islands"`
 
-Add new entries here as mismatches are discovered during the tournament.
+Add new entries here as mismatches are discovered during the tournament. ID-based matching (`espnId` in `TEAM_MASTER_DATA`) takes precedence and bypasses this map entirely.
 
 ### ESPN Status Map
 ESPN status names → our internal status values:
 - `STATUS_SCHEDULED` → `SCHEDULED`
 - `STATUS_FIRST_HALF` / `STATUS_SECOND_HALF` → `IN_PLAY`
-- `STATUS_HALFTIME` → `PAUSED`
+- `STATUS_HALFTIME` / `STATUS_END_PERIOD` / `STATUS_SUSPENDED` / `STATUS_DELAY` → `PAUSED`
 - `STATUS_FULL_TIME` / `STATUS_FINAL_AET` / `STATUS_FINAL_PEN` → `FINISHED`
+- `STATUS_POSTPONED` / `STATUS_CANCELED` / `STATUS_DELAYED` → `SCHEDULED`
 
 ## Data Structures
 
@@ -193,13 +210,16 @@ ESPN status names → our internal status values:
 ### In-memory match fields added by ESPN (not in data.json)
 | Field | Type | Description |
 |---|---|---|
+| `espnEventId` | string | ESPN's match ID. Used for commentary fetches and historical summary lookups. |
 | `_espnClock` | number | Total elapsed seconds from kickoff at last ESPN fetch |
+| `_espnDisplayClock` | string | Formatted clock string, e.g. `"45'+2'"` |
 | `_espnPeriod` | number | 1 = first half, 2 = second half |
-| `_espnFetchedAt` | number | `Date.now()` at last ESPN fetch, for real-time clock tick |
+| `_espnFetchedAt` | number | `Date.now()` at last ESPN fetch, for real-time clock interpolation |
 | `_espnEvents` | `{home:string[], away:string[]}` | Goal scorer labels per side, e.g. `"E. Ashour 20'"`, `"M. Hany 66' (og)"` |
-| `_espnStats` | `{home:{}, away:{}}` | Keyed stat values from `competitors[].statistics[]`. Keys: `possessionPct`, `totalShots`, `shotsOnTarget`, `wonCorners`, `yellowCards`, `redCards`. Values parsed from `displayValue` (float). Cards derived from `details[]`. |
+| `_espnStats` | `{home:{}, away:{}}` | Keyed stat values. Keys: `possessionPct`, `totalShots`, `shotsOnTarget`, `wonCorners`, `yellowCards`, `redCards`. Cards derived from `details[]`, not the stats array. |
 | `_espnColors` | `{home:string, away:string}` | Hex color strings (`#rrggbb`) for each team. Auto-falls back to `alternateColor` when primary is near-white. Used for the possession bar gradient. |
 | `_espnHeadline` | string\|null | Recap summary from `competitions[0].headlines[0].description`. Shown as italic sentence below stats. |
+| `_espnCommentary` | string[]\|null | Last 5 live commentary lines from ESPN summary endpoint. Only populated for in-play matches. |
 
 ### `data.json` standings object
 ```json
@@ -288,6 +308,31 @@ Matches 73–104 (knockout bracket) are hardcoded in `update_tracker.js` as `BRA
 - **Live scores**: ~30 seconds (ESPN, browser-direct)
 - **data.json / standings**: ~5–7 minutes end-to-end (Actions cron → gh-pages deploy)
 
+## Notification & Sound System
+
+Three notification types are queued via `queueNotif()` and displayed one at a time. Audio is armed on the first user click/keydown (browser autoplay policy); falls back to synthesized Web Audio tones if MP3 files fail.
+
+| Event | Trigger | Sound | Animation |
+|---|---|---|---|
+| **Kickoff** | `SCHEDULED` → `IN_PLAY` | `whistle.mp3` (single) | `launchBalls()` — 7 footballs arc across screen |
+| **Goal** | `_espnEvents` array grows (see below) | `cheer.mp3` | `launchConfetti()` — 90 colored pieces |
+| **Full time** | `IN_PLAY`/`PAUSED` → `FINISHED` | `double-whistle.mp3` | — (stat summary shown in notification card) |
+
+### Goal notification timing
+ESPN's `details[]` (scorer events) updates ~30 seconds before the competitor `score` field. The notification system uses two dedup keys to fire immediately:
+- `_seenGoalEvents` — keyed `matchNum:homeEventCount:awayEventCount`. Fires the moment `_espnEvents` gains a new entry, even if the score integer hasn't updated yet. Score shown as `prev+1` if needed.
+- `_seenGoals` — keyed `matchNum:homeScore:awayScore`. Updated on score change to prevent double-firing when the score eventually catches up.
+
+## Team Profile Modal
+
+Clicking any team name or flag (`.team-link`, `.flag-link`) opens `openTeamModal(teamName)` which shows:
+- Flag, name, group assignment
+- Record card: points, W–D–L, GF–GA, current group position
+- **Average per-match stats** aggregated across all finished matches via `fetchESPNDate()` + `parseESPNEventData()` + `teamStatsAggregate()`: possession %, shots, shots on target, corners, yellows, reds. Results cached in `state._espnDateCache`.
+- Full results table: all finished matches with W/L/D badge, score, opponent, date, stage.
+
+Closes on X button, overlay click, or Escape key. Animates in/out with CSS classes `tm-in` / `tm-out`.
+
 ## Known Issues / Watch Points
 1. **ESPN name mismatches**: If a match isn't getting ESPN updates, check `ESPN_NAME_MAP` in `app.js`. Add the mapping and push to fix.
 2. **ESPN scoreboard is date-scoped**: Only returns today's matches. Full 104-match schedule always comes from `data.json`.
@@ -295,6 +340,7 @@ Matches 73–104 (knockout bracket) are hardcoded in `update_tracker.js` as `BRA
 4. **Knockout matchId population**: R32+ matches start with `matchId: null`. Self-healed via name matching once the API returns them.
 5. **Half-time timestamp source**: `firstHalfStart`/`secondHalfStart` are set by the Actions runner clock, not the API — accurate to within one 30-second polling interval. ESPN clock is preferred when available.
 6. **Group standings sort**: always use `Object.keys().sort()` when iterating groups — key order in JSON is not guaranteed
+7. **ESPN events lead the score**: `details[]` populates `_espnEvents` ~30s before the score field updates. The goal notification uses `_seenGoalEvents` (event count key) to fire early; `_seenGoals` (score key) prevents double-firing.
 
 ## Running Locally
 ```bash
