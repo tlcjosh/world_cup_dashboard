@@ -320,6 +320,16 @@ body {
   font-style: italic; line-height: 1.5;
 }
 
+/* Live commentary ticker */
+.match-commentary {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: rgba(220, 38, 38, .06);
+  border-left: 3px solid var(--red);
+  border-radius: 0 6px 6px 0;
+  font-size: 12px; color: var(--ink-2); line-height: 1.5;
+}
+
 /* ===== MATCH EVENTS (goal scorers) ===== */
 .match-events {
   display: grid;
