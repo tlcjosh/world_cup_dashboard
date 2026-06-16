@@ -78,7 +78,7 @@ world_cup_dashboard/
 
 | View | Description |
 |---|---|
-| **Dashboard** | Live matches with browser-side ticking clock (`45+2′` stoppage time), recent results, next 5 fixtures, team search |
+| **Dashboard** | Hero banner with stage/day label and live/today/total stats; full-width Live & Today card; dynamic Group Standings panel for the current live game's group (falls back to most-played group); Up Next card; team search filter |
 | **Schedule** | All 104 fixtures grouped by date (Pacific Time), live scores, group/stage label, winner highlighting |
 | **Standings** | Groups A–L tables + 3rd-place wildcard rankings with Official/Live toggle; qualification rows color-coded |
 | **Bracket** | Round of 32 → Final grid; slot-based vertical alignment per round; Live mode resolves placeholders from computed standings |

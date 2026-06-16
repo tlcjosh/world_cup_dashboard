@@ -15,7 +15,7 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 |---|---|
 | `scripts/update_tracker.js` | Single pipeline script. Bootstraps `data.json` from API if missing; otherwise syncs scores/status. Run by Actions. Has `TEAM_MASTER_DATA` and `BRACKET_TEMPLATE` embedded. |
 | `.github/workflows/sync.yml` | Cron `*/5 * * * *`, inner `sleep 30` loop × 10. Git config runs BEFORE the sync script. Deploy job pushes `src/` to `gh-pages` after sync. |
-| `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. Render functions: `matchCardHtml()`, `renderDashboard()`, `renderSchedule()`, `renderStandings()`, `renderBracket()`. |
+| `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. Render functions: `matchCardHtml()`, `renderDashboard()`, `renderSchedule()`, `renderStandings()`, `renderBracket()`. Dashboard also calls `getTodayMatches()` and `computeStandings()` for the live group widget. |
 | `src/styles.css` | Light modern design system. CSS custom properties in `:root`. Anybody variable font for headings (wdth 75, weight 900), Inter for body. |
 | `src/data/data.json` | Auto-updated by Actions. Contains `matches[]`, `standings{}`, `lastUpdated`. Used as schedule backbone and fallback. |
 | `src/data/combinations.json` | Static. 495 entries keyed by 8-letter sorted group string (e.g. `"ABCDEFKL"`). Values map opponent keys (`"1A"` through `"1L"`) to team codes (`"3F"`). Never changes. |
@@ -35,8 +35,10 @@ Light modern theme — no CSS framework. All design tokens live in `:root` in `s
 --ink / --ink-2 / --ink-3  /* text hierarchy */
 --grad-brand: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%)  /* blue→violet */
 --grad-live:  linear-gradient(135deg, #DC2626 0%, #EA580C 100%)  /* red→orange */
+--grad-green: linear-gradient(135deg, #16A34A 0%, #0EA5E9 100%)  /* green→sky */
 --r: 12px               /* default border-radius */
 --bs: 96px              /* bracket slot base height */
+--max-w: 1160px         /* main content max-width */
 ```
 
 ### Fonts
@@ -67,18 +69,32 @@ Round containers: `.bracket-round.r32`, `.bracket-round.r16`, etc.
 - `q3` — 3rd place (amber left border, potential wildcard)
 - `wildcard-qualify` — top 8 third-place teams in wildcard table (blue left border)
 
+### Dashboard Layout
+The Dashboard view renders:
+1. **Hero** (`.page-hero`) — gradient banner with eyebrow (stage/day), title, and three stat callouts (live count, today count, total matches).
+2. **Live & Today card** — full-width; all matches with `IN_PLAY`/`PAUSED` status plus remaining today's matches. Meta line shows "N in play · N upcoming".
+3. **2-column grid** (`.dashboard-grid`):
+   - **Group Standings** — condensed table (`.condensed`) showing the group of the first live match. Falls back to the most-played group when nothing is live. Label reads "Live group" or "Most played group". Respects `state.liveMode` toggle.
+   - **Up Next** — next 5 scheduled matches.
+4. **Team search** — filters the whole dashboard to a single team's matches.
+
+`getTodayMatches()` filters `state.matches` by Pacific Time date to populate the hero "Today" stat and the Live & Today card.
+
 ### CSS Class Reference (app.js → styles.css)
 | Element | Class |
 |---|---|
+| Hero banner | `.page-hero`, `.hero-eyebrow`, `.hero-title`, `.hero-stats`, `.hero-stat`, `.hero-stat-num`, `.hero-stat-label` |
 | Match card | `.match-card`, `.match-card.live` |
 | 5-col grid | `.match-inner` |
 | Home/away cells | `.match-home`, `.match-away` |
 | Score column | `.score-col > .score`, `.score-sub.live.match-clock` |
 | Status column | `.match-status > .venue` |
 | Team name | `.team-name`, `.team-name.winner`, `.team-name.loser` |
+| Condensed table | `.condensed` (reduced padding, smaller font — used in dashboard standings widget) |
 | Brackets | `.b-match`, `.b-slot`, `.b-team`, `.b-team-name`, `.b-score`, `.b-num`, `.b-div` |
 | Round wrapper | `.bracket-round.r32/.r16/.rqf/.rsf/.rfin` |
 | Group header | `.group-header > .group-pill + .group-name` |
+| Standings header | `.standings-header`, `.standings-title` |
 | Position | `.pos` |
 
 ### Badge Classes
