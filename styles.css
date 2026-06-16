@@ -124,15 +124,28 @@ body {
   background: var(--surface-2); border: 1px solid var(--border);
   border-radius: 99px; padding: 5px 12px;
   font-size: 12px; color: var(--ink-2);
+  cursor: default;
 }
 
-.sync-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; background: linear-gradient(135deg, var(--green), #0EA5E9); }
-.sync-pill[data-sync-state="syncing"] .sync-dot { animation: syncDotPulse 1s ease-in-out infinite; background: linear-gradient(135deg, var(--green), #0EA5E9); }
-.sync-pill[data-sync-state="ok"] .sync-dot { background: linear-gradient(135deg, var(--green), #0EA5E9); animation: none; }
-.sync-pill[data-sync-state="error"] .sync-dot { background: #F59E0B; animation: syncDotPulse 1s ease-in-out infinite; }
-@keyframes syncDotPulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50%       { opacity: 0.4; transform: scale(0.75); }
+.sync-dot { display: none; }
+
+.sync-pill[data-sync-state="ok"] {
+  background: var(--grad-green);
+  border-color: transparent;
+  color: #fff;
+  animation: syncPulse 2.4s ease-in-out infinite;
+}
+
+.sync-pill[data-sync-state="error"] {
+  background: linear-gradient(135deg, #F59E0B 0%, #EA580C 100%);
+  border-color: transparent;
+  color: #fff;
+  animation: syncPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes syncPulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .65; }
 }
 
 /* ===== MAIN ===== */

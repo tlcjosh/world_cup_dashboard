@@ -14,7 +14,8 @@ const state = {
   espnSynced: false,
   // Notification tracking
   _seenMatchStart: new Set(),   // matchNum
-  _seenGoals: new Set(),        // matchNum:homeScore:awayScore
+  _seenGoals: new Set(),        // matchNum:homeScore:awayScore  (score-based dedup)
+  _seenGoalEvents: new Set(),   // matchNum:homeEventCount:awayEventCount (event-based, fires before score)
   _seenMatchEnd: new Set(),     // matchNum
   _audioArmed: false,
   _audioCtx: null,
@@ -96,9 +97,9 @@ function armAudio() {
   state._audioArmed = true;
   // Preload audio elements
   state._audioEls = {
-    whistle:         Object.assign(new Audio('./sounds/whistle.mp3'),        { preload: 'auto' }),
-    cheer:           Object.assign(new Audio('./sounds/cheer.mp3'),           { preload: 'auto' }),
-    double_whistle:  Object.assign(new Audio('./sounds/double-whistle.mp3'), { preload: 'auto' }),
+    whistle:         Object.assign(new Audio('./sounds/whistle.mp3'),        { preload: 'auto', volume: 0.25 }),
+    cheer:           Object.assign(new Audio('./sounds/cheer.mp3'),           { preload: 'auto', volume: 0.25 }),
+    double_whistle:  Object.assign(new Audio('./sounds/double-whistle.mp3'), { preload: 'auto', volume: 0.25 }),
   };
   // Also prime a Web Audio context as fallback (in case files fail)
   try { state._audioCtx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e) {}
@@ -130,8 +131,8 @@ function _playSynthSound(type) {
       osc.connect(g); g.connect(ctx.destination);
       osc.type = 'sawtooth'; osc.frequency.value = 3800;
       g.gain.setValueAtTime(0, now + delay);
-      g.gain.linearRampToValueAtTime(0.12, now + delay + 0.03);
-      g.gain.setValueAtTime(0.12, now + delay + 0.22);
+      g.gain.linearRampToValueAtTime(0.04, now + delay + 0.03);
+      g.gain.setValueAtTime(0.04, now + delay + 0.22);
       g.gain.linearRampToValueAtTime(0, now + delay + 0.32);
       osc.start(now + delay); osc.stop(now + delay + 0.35);
     });
@@ -143,7 +144,7 @@ function _playSynthSound(type) {
     const bpf = ctx.createBiquadFilter(); bpf.type = 'bandpass'; bpf.frequency.value = 800;
     const g = ctx.createGain();
     src.connect(bpf); bpf.connect(g); g.connect(ctx.destination);
-    g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.2, now + 0.2);
+    g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.06, now + 0.2);
     g.gain.linearRampToValueAtTime(0, now + 2);
     src.start(now); src.stop(now + 2);
   }
@@ -504,6 +505,7 @@ async function fetchESPN() {
     setSyncPillState('ok');
   } catch (e) {
     setSyncPillState('error');
+    updateSyncPill(formatLastSync(state.lastUpdated));
     console.error('[ESPN] Sync failed:', e.message);
   }
 }
@@ -753,12 +755,24 @@ function mergeESPNData(espnEvents) {
 
   // ---- Event detection ----
   if (isFirstLoad) {
-    // First ESPN poll — baseline everything as already seen; fire nothing
+    // First ESPN poll — baseline matches that are already past each threshold so we
+    // don't fire stale events on load. SCHEDULED matches are deliberately NOT added
+    // to _seenMatchStart/_seenMatchEnd so their future transitions will still fire.
     for (const m of state.matches) {
-      state._seenMatchStart.add(m.matchNum);
-      state._seenMatchEnd.add(m.matchNum);
+      if (m.status !== 'SCHEDULED') {
+        // Already kicked off (or finished) — suppress kickoff notification
+        state._seenMatchStart.add(m.matchNum);
+      }
+      if (m.status === 'FINISHED') {
+        // Already done — suppress final notification
+        state._seenMatchEnd.add(m.matchNum);
+      }
       if (m.homeScore !== null && m.awayScore !== null) {
         state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
+      }
+      const ev = m._espnEvents;
+      if (ev) {
+        state._seenGoalEvents.add(`${m.matchNum}:${ev.home.length}:${ev.away.length}`);
       }
     }
   } else {
@@ -773,18 +787,44 @@ function mergeESPNData(espnEvents) {
         queueNotif({ type: 'kickoff', html: kickoffNotifHtml(m) });
       }
 
-      // Goal scored — score increased while match is active or just finished
-      if (m.homeScore !== null && m.awayScore !== null &&
-          (m.status === 'IN_PLAY' || m.status === 'PAUSED' || m.status === 'FINISHED')) {
-        const scoreKey = `${m.matchNum}:${m.homeScore}:${m.awayScore}`;
-        if (!state._seenGoals.has(scoreKey) &&
-            (m.homeScore > (prev.homeScore ?? 0) || m.awayScore > (prev.awayScore ?? 0))) {
-          state._seenGoals.add(scoreKey);
-          const homeScored = m.homeScore > (prev.homeScore ?? 0);
-          const scoringTeam = homeScored ? m.homeTeam : m.awayTeam;
-          const scorerList = homeScored ? m._espnEvents?.home : m._espnEvents?.away;
-          const scorerLabel = scorerList?.length ? scorerList[scorerList.length - 1] : '';
-          queueNotif({ type: 'goal', html: goalNotifHtml(m, scoringTeam, scorerLabel) });
+      // Goal scored — fire as soon as ESPN events show a new goal scorer, even if the
+      // score integer hasn't updated yet (ESPN details[] leads the score field by ~30s).
+      if (m.status === 'IN_PLAY' || m.status === 'PAUSED' || m.status === 'FINISHED') {
+        const ev = m._espnEvents;
+        const evHomeLen = ev?.home.length ?? 0;
+        const evAwayLen = ev?.away.length ?? 0;
+        const eventKey = `${m.matchNum}:${evHomeLen}:${evAwayLen}`;
+
+        // Event-based path: new scorer entry appeared before score updated
+        if (ev && !state._seenGoalEvents.has(eventKey)) {
+          // Figure out which side gained an event by comparing to the last seen event counts
+          // Find the previous event key for this match (search seen set)
+          let prevHomeLen = 0, prevAwayLen = 0;
+          for (const k of state._seenGoalEvents) {
+            if (k.startsWith(`${m.matchNum}:`)) {
+              const parts = k.split(':');
+              prevHomeLen = parseInt(parts[1], 10);
+              prevAwayLen = parseInt(parts[2], 10);
+            }
+          }
+          const homeScored = evHomeLen > prevHomeLen;
+          const awayScored = evAwayLen > prevAwayLen;
+          if (homeScored || awayScored) {
+            state._seenGoalEvents.add(eventKey);
+            const scoringTeam = homeScored ? m.homeTeam : m.awayTeam;
+            const scorerList = homeScored ? ev.home : ev.away;
+            const scorerLabel = scorerList.length ? scorerList[scorerList.length - 1] : '';
+            // Use current score if updated, otherwise show prev+1 as best estimate
+            const displayMatch = { ...m };
+            if (homeScored && m.homeScore === (prev.homeScore ?? 0)) displayMatch.homeScore = (prev.homeScore ?? 0) + 1;
+            if (awayScored && m.awayScore === (prev.awayScore ?? 0)) displayMatch.awayScore = (prev.awayScore ?? 0) + 1;
+            queueNotif({ type: 'goal', html: goalNotifHtml(displayMatch, scoringTeam, scorerLabel) });
+          }
+        }
+
+        // Score-based path: deduplicate so we don't double-fire when score catches up
+        if (m.homeScore !== null && m.awayScore !== null) {
+          state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
         }
       }
 
@@ -800,7 +840,7 @@ function mergeESPNData(espnEvents) {
   state.lastUpdated = new Date().toISOString();
   state.espnSynced  = true;
 
-  updateSyncPill('just now (ESPN)');
+  updateSyncPill('just now');
 
   renderView({ silent: true });
 }
@@ -832,20 +872,24 @@ function formatKickoff(isoStr) {
   }
 }
 
-function updateSyncPill(text) {
+function updateSyncPill(espnLabel) {
   const el = document.getElementById('last-sync');
   if (!el) return;
-  el.textContent = text;
   const pill = el.closest('.sync-pill');
-  if (pill && state.fdLastUpdated) {
+  const isError = pill?.dataset.syncState === 'error';
+  el.textContent = isError ? 'ESPN Offline' : 'ESPN Live';
+
+  const parts = [`ESPN: ${espnLabel}`];
+  if (state.fdLastUpdated) {
     const fd = new Date(state.fdLastUpdated);
     const formatted = fd.toLocaleString('en-US', {
       timeZone: 'America/Los_Angeles',
       weekday: 'short', month: 'short', day: 'numeric',
       hour: 'numeric', minute: '2-digit', hour12: true
     });
-    pill.title = `football-data.org last synced: ${formatted} PT`;
+    parts.push(`football-data.org: ${formatted} PT`);
   }
+  if (pill) pill.title = parts.join('\n');
 }
 
 function setSyncPillState(state_) {
