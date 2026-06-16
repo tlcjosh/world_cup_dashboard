@@ -415,8 +415,8 @@ function matchCardHtml(match, extraLabel) {
 function renderDashboard() {
   const el = document.getElementById('view-dashboard');
   const liveMatches = state.matches.filter(m => m.status === 'IN_PLAY' || m.status === 'PAUSED');
-  const finished = state.matches.filter(m => m.status === 'FINISHED').slice(-3);
-  const scheduled = state.matches.filter(m => m.status === 'SCHEDULED').slice(0, 5);
+  const todayMatches = getTodayMatches();
+  const upNext = state.matches.filter(m => m.status === 'SCHEDULED').slice(0, 5);
 
   // Team filter logic
   let filteredMatches = null;
@@ -429,16 +429,13 @@ function renderDashboard() {
   const teamNames = Object.keys(TEAM_MASTER_DATA).sort();
   const datalistHtml = `<datalist id="team-datalist">${teamNames.map(t => `<option value="${t}">`).join('')}</datalist>`;
 
-  let html = `
-    <div class="search-container">
-      <input list="team-datalist" id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
-      ${datalistHtml}
-    </div>
-  `;
-
   if (state.teamFilter && filteredMatches) {
     const meta = TEAM_MASTER_DATA[state.teamFilter];
-    html += `
+    const html = `
+      <div class="search-container">
+        <input list="team-datalist" id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
+        ${datalistHtml}
+      </div>
       <div class="card">
         <div class="card-title">
           ${meta ? flagImg(meta.iso, state.teamFilter) : ''}
@@ -448,30 +445,137 @@ function renderDashboard() {
         ${filteredMatches.length ? filteredMatches.map(matchCardHtml).join('') : '<div class="empty-state">No matches found.</div>'}
       </div>
     `;
+    el.innerHTML = html;
   } else {
-    // Live section
-    if (liveMatches.length) {
-      html += `<div class="card"><div class="card-title">🔴 LIVE NOW</div>${liveMatches.map(matchCardHtml).join('')}</div>`;
-    }
+    // Hero stats
+    const totalMatches = state.matches.length;
+    const liveCount = liveMatches.length;
+    const todayCount = todayMatches.length;
 
-    html += `<div class="dashboard-grid">`;
+    // Determine tournament day / stage eyebrow
+    const finishedCount = state.matches.filter(m => m.status === 'FINISHED').length;
+    const groupStageMatches = state.matches.filter(m => m.stage === 'Group Stage');
+    const inKnockout = state.matches.some(m => m.stage !== 'Group Stage' && (m.status === 'FINISHED' || m.status === 'IN_PLAY'));
+    const stageName = inKnockout ? 'Knockout Stage' : 'Group Stage';
+    const matchDay = groupStageMatches.length ? Math.ceil((finishedCount + liveCount) / Math.max(1, Math.round(groupStageMatches.length / 18))) : 1;
+    const eyebrow = `${stageName} · Day ${Math.max(1, matchDay)}`;
 
-    // Recent Results
-    html += `<div>
-      <div class="section-title">Recent Results</div>
-      ${finished.length ? [...finished].reverse().map(matchCardHtml).join('') : '<div class="empty-state">No results yet.</div>'}
-    </div>`;
+    // Live & Today card — union of live + today's remaining
+    const todayNonLive = todayMatches.filter(m => m.status !== 'IN_PLAY' && m.status !== 'PAUSED');
+    const liveAndToday = [...liveMatches, ...todayNonLive];
+    const liveAndTodayMeta = liveCount > 0
+      ? `${liveCount} in play · ${todayNonLive.filter(m => m.status === 'SCHEDULED').length} upcoming`
+      : `${todayMatches.length} today`;
 
-    // Coming Up
-    html += `<div>
-      <div class="section-title">Coming Up</div>
-      ${scheduled.length ? scheduled.map(matchCardHtml).join('') : '<div class="empty-state">No upcoming matches.</div>'}
-    </div>`;
+    // Dynamic live standings: show group of the first live match; fall back to most-played group
+    const liveGroup = (() => {
+      if (liveMatches.length) {
+        const m = liveMatches[0];
+        return TEAM_MASTER_DATA[m.homeTeam]?.group || TEAM_MASTER_DATA[m.awayTeam]?.group || null;
+      }
+      // Fall back to group with most matches played
+      const counts = {};
+      for (const m of state.matches) {
+        if (m.status === 'FINISHED' && m.stage === 'Group Stage') {
+          const g = TEAM_MASTER_DATA[m.homeTeam]?.group;
+          if (g) counts[g] = (counts[g] || 0) + 1;
+        }
+      }
+      const entries = Object.entries(counts);
+      if (!entries.length) return 'A';
+      return entries.sort((a, b) => b[1] - a[1])[0][0];
+    })();
 
-    html += `</div>`;
+    const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
+    const computedStandings = state.liveMode ? computeStandings(state.matches, statuses) : state.standings;
+    const groupTeams = liveGroup ? (computedStandings[liveGroup] || []) : [];
+    const standingsMetaLabel = liveMatches.length ? 'Live group' : 'Most played group';
+
+    const standingsHtml = `
+      <div class="card-header">
+        <div class="card-title">Group Standings</div>
+        <div class="card-meta">${standingsMetaLabel}</div>
+      </div>
+      <div class="group-header">
+        <div class="group-pill">${liveGroup}</div>
+        <div class="group-name">Group ${liveGroup}</div>
+      </div>
+      <table class="condensed">
+        <thead>
+          <tr>
+            <th colspan="2">Team</th>
+            <th class="num">P</th>
+            <th class="num">GD</th>
+            <th class="num">Pts</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${groupTeams.map((t, i) => {
+            const rowClass = i === 0 ? 'q1' : i === 1 ? 'q2' : i === 2 ? 'q3' : '';
+            return `<tr class="${rowClass}">
+              <td><span class="pos">${i + 1}</span></td>
+              <td><div class="team-cell">${flagImg(t.iso, t.team)}<span>${t.team}</span></div></td>
+              <td class="num">${t.played}</td>
+              <td class="num">${t.gd >= 0 ? '+' + t.gd : t.gd}</td>
+              <td class="num" style="font-weight:700">${t.pts}</td>
+            </tr>`;
+          }).join('')}
+          ${groupTeams.length === 0 ? `<tr><td colspan="5" class="empty-state">No matches played</td></tr>` : ''}
+        </tbody>
+      </table>
+      <div class="qualify-legend">
+        <span><span class="swatch" style="background:var(--green)"></span> Advance</span>
+        <span><span class="swatch" style="background:var(--amber)"></span> 3rd wildcard</span>
+      </div>
+    `;
+
+    const html = `
+      <div class="search-container">
+        <input list="team-datalist" id="team-search" class="search-input" placeholder="Search team..." value="">
+        ${datalistHtml}
+      </div>
+      <div class="page-hero">
+        <div>
+          <div class="hero-eyebrow">${eyebrow}</div>
+          <div class="hero-title">FIFA World Cup 2026</div>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num">${liveCount}</div>
+            <div class="hero-stat-label">Live now</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">${todayCount}</div>
+            <div class="hero-stat-label">Today</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">${totalMatches}</div>
+            <div class="hero-stat-label">Total matches</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column:1/-1; margin-bottom:16px;">
+        <div class="card-header">
+          <div class="card-title">${liveCount > 0 ? '🔴 Live &amp; Today' : 'Today\'s Matches'}</div>
+          <div class="card-meta">${liveAndTodayMeta}</div>
+        </div>
+        ${liveAndToday.length ? liveAndToday.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No matches today.</div>'}
+      </div>
+
+      <div class="dashboard-grid">
+        <div class="card">${standingsHtml}</div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Up Next</div>
+            <div class="card-meta">Upcoming</div>
+          </div>
+          ${upNext.length ? upNext.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No upcoming matches.</div>'}
+        </div>
+      </div>
+    `;
+    el.innerHTML = html;
   }
-
-  el.innerHTML = html;
 
   // Bind team search
   const searchEl = document.getElementById('team-search');
@@ -493,6 +597,16 @@ function renderDashboard() {
       }
     });
   }
+}
+
+function getTodayMatches() {
+  const now = new Date();
+  const todayStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+  return state.matches.filter(m => {
+    if (!m.kickoff) return false;
+    const d = new Date(m.kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+    return d === todayStr;
+  });
 }
 
 // ===== RENDER SCHEDULE =====
