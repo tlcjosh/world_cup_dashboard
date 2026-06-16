@@ -458,14 +458,18 @@ const ESPN_ID_TO_TEAM = Object.fromEntries(
 
 // ESPN status name → our status values
 const ESPN_STATUS_MAP = {
-  'STATUS_SCHEDULED':  'SCHEDULED',
-  'STATUS_FIRST_HALF': 'IN_PLAY',
-  'STATUS_SECOND_HALF':'IN_PLAY',
-  'STATUS_HALFTIME':   'PAUSED',
-  'STATUS_FULL_TIME':  'FINISHED',
-  'STATUS_FINAL_AET':  'FINISHED',
-  'STATUS_FINAL_PEN':  'FINISHED',
-  'STATUS_SUSPENDED':  'PAUSED',
+  'STATUS_SCHEDULED':   'SCHEDULED',
+  'STATUS_FIRST_HALF':  'IN_PLAY',
+  'STATUS_SECOND_HALF': 'IN_PLAY',
+  'STATUS_HALFTIME':    'PAUSED',
+  'STATUS_END_PERIOD':  'PAUSED',   // brief transition between period end and halftime/fulltime call
+  'STATUS_FULL_TIME':   'FINISHED',
+  'STATUS_FINAL_AET':   'FINISHED',
+  'STATUS_FINAL_PEN':   'FINISHED',
+  'STATUS_SUSPENDED':   'PAUSED',
+  'STATUS_POSTPONED':   'SCHEDULED',
+  'STATUS_CANCELED':    'SCHEDULED',
+  'STATUS_DELAY':       'PAUSED',
   'STATUS_DELAYED':    'SCHEDULED',
   'STATUS_POSTPONED':  'SCHEDULED',
 };
@@ -491,7 +495,10 @@ async function fetchESPN() {
     const liveMatches = state.matches.filter(m =>
       (m.status === 'IN_PLAY' || m.status === 'PAUSED') && m.espnEventId
     );
-    await Promise.all(liveMatches.map(fetchESPNCommentary));
+    if (liveMatches.length) {
+      await Promise.all(liveMatches.map(fetchESPNCommentary));
+      renderView({ silent: true }); // re-render now that commentary is loaded
+    }
   } catch (e) {
     console.warn('ESPN sync failed, using data.json:', e.message);
   }
@@ -1676,7 +1683,16 @@ async function fetchData() {
     ]);
     if (!dataRes.ok) throw new Error('data.json fetch failed: ' + dataRes.status);
     const data = await dataRes.json();
-    state.matches = data.matches || [];
+    // Merge data.json fields onto existing match objects, preserving ESPN enrichment
+    const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
+      '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','espnEventId'];
+    const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
+    state.matches = (data.matches || []).map(nm => {
+      const ex = existingByNum.get(nm.matchNum);
+      if (!ex) return nm;
+      const espn = Object.fromEntries(ESPN_FIELDS.filter(k => k in ex).map(k => [k, ex[k]]));
+      return { ...nm, ...espn };
+    });
     state.standings = data.standings || {};
     state.lastUpdated = data.lastUpdated || null;
     state.fdLastUpdated = data.lastUpdated || null;
@@ -2087,7 +2103,7 @@ async function init() {
 
   // ESPN: poll every 30s for live scores
   if (state.espnInterval) clearInterval(state.espnInterval);
-  state.espnInterval = setInterval(fetchESPN, 30000);
+  state.espnInterval = setInterval(fetchESPN, 10000);
 
   // data.json: re-fetch every 2 minutes for schedule/standings/knockout updates
   if (state.syncInterval) clearInterval(state.syncInterval);
