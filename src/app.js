@@ -216,7 +216,7 @@ function flagImg(iso, name) {
   let src = iso;
   if (iso === 'england') src = 'gb-eng';
   else if (iso === 'scotland') src = 'gb-sct';
-  return `<img src="https://flagcdn.com/24x18/${src}.png" alt="${name || iso}" class="flag" onerror="this.style.display='none'">`;
+  return `<img src="https://flagcdn.com/48x36/${src}.png" alt="${name || iso}" class="flag" width="24" height="18" onerror="this.style.display='none'">`;
 }
 
 function formatKickoff(isoStr) {
@@ -544,6 +544,7 @@ function renderDashboard() {
     const html = `
       <div class="search-container">
         <input list="team-datalist" id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
+        ${state.teamFilter ? `<button id="team-search-clear" class="search-clear" aria-label="Clear search">✕</button>` : ''}
         ${datalistHtml}
       </div>
       <div class="card">
@@ -552,7 +553,7 @@ function renderDashboard() {
           ${state.teamFilter}
           ${meta ? `<span class="group-label">Group ${meta.group}</span>` : ''}
         </div>
-        ${filteredMatches.length ? filteredMatches.map(matchCardHtml).join('') : '<div class="empty-state">No matches found.</div>'}
+        ${filteredMatches.length ? filteredMatches.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No matches found.</div>'}
       </div>
     `;
     el.innerHTML = html;
@@ -709,6 +710,13 @@ function renderDashboard() {
         state.teamFilter = null;
         renderDashboard();
       }
+    });
+  }
+  const clearEl = document.getElementById('team-search-clear');
+  if (clearEl) {
+    clearEl.addEventListener('click', () => {
+      state.teamFilter = null;
+      renderDashboard();
     });
   }
 }
@@ -909,15 +917,22 @@ function renderStandings() {
 // ===== RENDER BRACKET =====
 function renderBracket() {
   const el = document.getElementById('view-bracket');
+  const groupMatches = state.matches.filter(m => m.stage === 'Group Stage');
+  const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
+
   const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
-  const computedStandings = state.liveMode ? computeStandings(state.matches, statuses) : state.standings;
-  const thirdPlace = computeThirdPlaceRankings(computedStandings);
+  const resolveGroupSlots = groupStageComplete || state.liveMode;
+  const computedStandings = resolveGroupSlots
+    ? (state.liveMode ? computeStandings(state.matches, statuses) : state.standings)
+    : {};
+  const thirdPlace = resolveGroupSlots ? computeThirdPlaceRankings(computedStandings) : [];
   const topEight = thirdPlace.slice(0, 8);
-  const combinationString = getThirdPlaceCombinationString(topEight);
+  const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(topEight) : '';
 
   function resolveAndRender(placeholder) {
     if (!placeholder) return { name: 'TBD', iso: null };
     if (!placeholder.startsWith('[')) return { name: placeholder, iso: null };
+    if (!resolveGroupSlots) return { name: placeholder.replace(/^\[|\]$/g, ''), iso: null };
     return resolveTeam(placeholder, computedStandings, thirdPlace, combinationString);
   }
 
