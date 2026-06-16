@@ -442,9 +442,19 @@ const ESPN_NAME_MAP = {
   'Republic of Congo': 'Congo DR',
   'Czech Republic': 'Czechia',
   'Korea Republic': 'South Korea',
+  'Republic of Korea': 'South Korea',
   'USA': 'United States',
   'Curacao': 'Curaçao',
+  'Türkiye': 'Turkey',
 };
+
+// Reverse map: ESPN numeric team ID → our TEAM_MASTER_DATA key
+// Used for robust matching that bypasses displayName inconsistencies across ESPN endpoints
+const ESPN_ID_TO_TEAM = Object.fromEntries(
+  Object.entries(TEAM_MASTER_DATA)
+    .filter(([, v]) => v.espnId)
+    .map(([name, v]) => [String(v.espnId), name])
+);
 
 // ESPN status name → our status values
 const ESPN_STATUS_MAP = {
@@ -504,16 +514,31 @@ function kickoffToDateStr(kickoff) {
 }
 
 function findESPNEvent(events, homeTeam, awayTeam) {
+  const homeId = String(TEAM_MASTER_DATA[homeTeam]?.espnId || '');
+  const awayId = String(TEAM_MASTER_DATA[awayTeam]?.espnId || '');
   for (const event of events) {
     const comp = event.competitions?.[0];
     if (!comp) continue;
     const homeComp = comp.competitors.find(c => c.homeAway === 'home');
     const awayComp = comp.competitors.find(c => c.homeAway === 'away');
     if (!homeComp || !awayComp) continue;
+
+    // Primary: match by ESPN team ID (robust across displayName inconsistencies)
+    const hId = String(homeComp.team.id || '');
+    const aId = String(awayComp.team.id || '');
+    const idMatch = homeId && awayId && (
+      (hId === homeId && aId === awayId) ||
+      (hId === awayId && aId === homeId)
+    );
+
+    // Fallback: match by display name (with normalization)
     const h = normalizeESPNName(homeComp.team.displayName);
     const a = normalizeESPNName(awayComp.team.displayName);
-    if ((h === homeTeam && a === awayTeam) || (h === awayTeam && a === homeTeam)) {
-      return { event, comp, homeComp, awayComp, swapped: h === awayTeam };
+    const nameMatch = (h === homeTeam && a === awayTeam) || (h === awayTeam && a === homeTeam);
+
+    if (idMatch || nameMatch) {
+      const swapped = idMatch ? hId === awayId : h === awayTeam;
+      return { event, comp, homeComp, awayComp, swapped };
     }
   }
   return null;
@@ -606,19 +631,29 @@ function mergeESPNData(espnEvents) {
 
     const espnHome = normalizeESPNName(homeComp.team.displayName);
     const espnAway = normalizeESPNName(awayComp.team.displayName);
+    const espnHomeId = String(homeComp.team.id || '');
+    const espnAwayId = String(awayComp.team.id || '');
     const newStatus = mapESPNStatus(comp.status.type.name, comp.status.type.state);
 
-    // Match by team names; handle cross-group where our home/away may be swapped
-    const match = state.matches.find(m =>
-      (m.homeTeam === espnHome && m.awayTeam === espnAway) ||
-      (m.homeTeam === espnAway && m.awayTeam === espnHome)
-    );
+    // Match by ESPN team ID first (robust), fall back to display name
+    const match = state.matches.find(m => {
+      const hId = String(TEAM_MASTER_DATA[m.homeTeam]?.espnId || '');
+      const aId = String(TEAM_MASTER_DATA[m.awayTeam]?.espnId || '');
+      if (hId && aId && espnHomeId && espnAwayId) {
+        return (hId === espnHomeId && aId === espnAwayId) || (hId === espnAwayId && aId === espnHomeId);
+      }
+      return (m.homeTeam === espnHome && m.awayTeam === espnAway) ||
+             (m.homeTeam === espnAway && m.awayTeam === espnHome);
+    });
     if (!match) continue;
 
     // Capture ESPN event ID so we can fetch match summary later
     if (event.id && !match.espnEventId) match.espnEventId = event.id;
 
-    const swapped = match.homeTeam === espnAway;
+    const matchHomeId = String(TEAM_MASTER_DATA[match.homeTeam]?.espnId || '');
+    const swapped = matchHomeId && espnHomeId
+      ? matchHomeId === espnAwayId
+      : match.homeTeam === espnAway;
     const rawHome = parseInt(homeComp.score, 10);
     const rawAway = parseInt(awayComp.score, 10);
     const newHomeScore = newStatus !== 'SCHEDULED' ? (swapped ? rawAway : rawHome) : null;
