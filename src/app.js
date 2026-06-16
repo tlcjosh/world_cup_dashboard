@@ -487,8 +487,27 @@ async function fetchESPN() {
     if (!res.ok) throw new Error('ESPN ' + res.status);
     const data = await res.json();
     mergeESPNData(data.events || []);
+    // Fetch live commentary for any in-play matches that have an ESPN event ID
+    const liveMatches = state.matches.filter(m =>
+      (m.status === 'IN_PLAY' || m.status === 'PAUSED') && m.espnEventId
+    );
+    await Promise.all(liveMatches.map(fetchESPNCommentary));
   } catch (e) {
     console.warn('ESPN sync failed, using data.json:', e.message);
+  }
+}
+
+async function fetchESPNCommentary(match) {
+  try {
+    const res = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${match.espnEventId}`);
+    if (!res.ok) return;
+    const data = await res.json();
+    const items = (data.commentary || [])
+      .filter(c => c.text)
+      .sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
+    match._espnCommentary = items.slice(0, 5); // keep last 5, most recent first
+  } catch (e) {
+    // Non-critical — commentary is a nice-to-have
   }
 }
 
@@ -1088,6 +1107,14 @@ function matchCardHtml(match, extraLabel, opts = {}) {
   const headlineHtml = match._espnHeadline
     ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
+  // Live commentary: most recent item, only on live/paused match cards
+  let commentaryHtml = '';
+  if (isLive && match._espnCommentary?.length) {
+    const latest = match._espnCommentary[0];
+    const timeLabel = latest.time?.displayValue ? `[${latest.time.displayValue}] ` : '';
+    commentaryHtml = `<div class="match-commentary">${timeLabel}${latest.text}</div>`;
+  }
+
   return `
     <div class="match-card ${isLive ? 'live' : ''}" data-matchnum="${match.matchNum}">
       <div class="match-meta-bar">
@@ -1110,6 +1137,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
       </div>
       ${hasScore ? espnEventsHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
+      ${commentaryHtml}
       ${headlineHtml}
     </div>
   `;
