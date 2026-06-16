@@ -46,9 +46,26 @@ Light modern theme — no CSS framework. All design tokens live in `:root` in `s
 - **Body**: `Inter` 400/500/600
 
 ### Match Card Layout
-`.match-card` uses `display: flex` with two children:
-1. `.match-inner` — 5-column grid: `1fr auto 96px auto 1fr` (home name | home flag | score | away flag | away name). Ensures score is always centered regardless of name lengths.
-2. `.match-status` — fixed `width: 160px`, right-aligned; contains badge + venue text.
+`.match-card` is a flex column with this structure:
+
+1. **`.match-meta-bar`** — `space-between` flex row:
+   - Left: `.match-meta-left` — status badge + optional group label
+   - Right: `.match-meta-right` — venue text (small, muted)
+
+2. **`.match-teams`** — 3-column CSS grid: `1fr auto 1fr`
+   - `.match-home` — flex row, right-aligned: team name then flag
+   - `.score-col` — centered; contains `.score` (30px Anybody) and optional `.score-sub.live.match-clock`
+   - `.match-away` — flex row, left-aligned: flag then team name
+
+3. **`.match-events`** (optional) — 2-column grid for goal scorers: `.me-home` left, `.me-away` right. Each scorer is a `.goal-event` span with ⚽ icon. Rendered by `espnEventsHtml()` when match has scored events.
+
+4. **`.match-stats`** (optional) — inset pill (`rgba(0,0,0,.03)` bg, border-radius 8px) containing:
+   - `.stats-poss` grid: home %, possession bar (two-tone team-color gradient), away %, "Possession" label
+   - `.stats-grid`: shot/corner/card rows via `.sg-h` / `.sg-l` / `.sg-a`
+   - `.ycard` / `.rcard` — yellow/red card icons with counts
+   Rendered by `espnStatsHtml()` for any match that has ESPN stat data (not just live).
+
+5. **`.match-headline`** (optional) — italic ESPN recap summary sentence.
 
 Live cards get a CSS gradient border via `background: linear-gradient(surface, surface) padding-box, grad-live border-box`.
 
@@ -85,11 +102,15 @@ The Dashboard view renders:
 |---|---|
 | Hero banner | `.page-hero`, `.hero-eyebrow`, `.hero-title`, `.hero-stats`, `.hero-stat`, `.hero-stat-num`, `.hero-stat-label` |
 | Match card | `.match-card`, `.match-card.live` |
-| 5-col grid | `.match-inner` |
+| Meta bar | `.match-meta-bar`, `.match-meta-left`, `.match-meta-right` |
+| Teams 3-col grid | `.match-teams` |
 | Home/away cells | `.match-home`, `.match-away` |
 | Score column | `.score-col > .score`, `.score-sub.live.match-clock` |
-| Status column | `.match-status > .venue` |
 | Team name | `.team-name`, `.team-name.winner`, `.team-name.loser` |
+| Goal events | `.match-events`, `.me-home`, `.me-away`, `.goal-event` |
+| Stats pill | `.match-stats`, `.stats-poss`, `.stats-poss-bar`, `.stats-grid`, `.sg-h/.sg-l/.sg-a` |
+| Card icons | `.ycard`, `.rcard` |
+| Headline | `.match-headline` |
 | Condensed table | `.condensed` (reduced padding, smaller font — used in dashboard standings widget) |
 | Brackets | `.b-match`, `.b-slot`, `.b-team`, `.b-team-name`, `.b-score`, `.b-num`, `.b-div` |
 | Round wrapper | `.bracket-round.r32/.r16/.rqf/.rsf/.rfin` |
@@ -114,7 +135,15 @@ https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard
 ```
 No API key required. CORS-friendly — works directly from browser JS. Returns only **today's** matches, so it overlays live data on top of the full schedule from `data.json`.
 
-`mergeESPNData()` matches ESPN events to `state.matches` by team display name, updates `status`/`homeScore`/`awayScore`, and stores `_espnClock`/`_espnPeriod`/`_espnFetchedAt` for the live clock tick.
+`mergeESPNData()` matches ESPN events to `state.matches` by team display name and enriches each match with:
+- `status`, `homeScore`, `awayScore` — always updated
+- `_espnClock`, `_espnPeriod`, `_espnFetchedAt` — for the live clock tick
+- `_espnEvents` — goal scorer labels parsed from `competitions[0].details[]` (scoring plays only)
+- `_espnStats` — possession, shots, on-target, corners; card counts derived from `details[]` (not stats array)
+- `_espnColors` — team brand colors from `competitors[].team.color/alternateColor`
+- `_espnHeadline` — recap text from `competitions[0].headlines[0].description`
+
+**Important**: `mergeESPNData()` always calls `renderView()` after every sync (not just when scores change), so stats and headlines appear immediately on first page load even when all matches are already FINISHED.
 
 ### Fallback: data.json (every 2 minutes)
 `fetchData()` re-fetches `data.json` every 2 minutes to pick up schedule changes, knockout match updates, and standings corrections. If ESPN is unavailable, data.json is the sole data source.
@@ -167,6 +196,10 @@ ESPN status names → our internal status values:
 | `_espnClock` | number | Total elapsed seconds from kickoff at last ESPN fetch |
 | `_espnPeriod` | number | 1 = first half, 2 = second half |
 | `_espnFetchedAt` | number | `Date.now()` at last ESPN fetch, for real-time clock tick |
+| `_espnEvents` | `{home:string[], away:string[]}` | Goal scorer labels per side, e.g. `"E. Ashour 20'"`, `"M. Hany 66' (og)"` |
+| `_espnStats` | `{home:{}, away:{}}` | Keyed stat values from `competitors[].statistics[]`. Keys: `possessionPct`, `totalShots`, `shotsOnTarget`, `wonCorners`, `yellowCards`, `redCards`. Values parsed from `displayValue` (float). Cards derived from `details[]`. |
+| `_espnColors` | `{home:string, away:string}` | Hex color strings (`#rrggbb`) for each team. Auto-falls back to `alternateColor` when primary is near-white. Used for the possession bar gradient. |
+| `_espnHeadline` | string\|null | Recap summary from `competitions[0].headlines[0].description`. Shown as italic sentence below stats. |
 
 ### `data.json` standings object
 ```json
