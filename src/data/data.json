@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T23:59:02.141Z",
+  "lastUpdated": "2026-06-16T01:00:30.646Z",
   "matches": [
     {
       "matchId": 537327,
@@ -218,7 +218,7 @@
       "kickoff": "2026-06-15T22:00:00.000Z",
       "homeScore": 1,
       "awayScore": 1,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-15T22:02:08.255Z",
       "secondHalfStart": null
     },
@@ -2073,6 +2073,30 @@
     ],
     "H": [
       {
+        "team": "Saudi Arabia",
+        "iso": "sa",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "Uruguay",
+        "iso": "uy",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
         "team": "Iran",
         "iso": "ir",
         "played": 0,
@@ -2087,30 +2111,6 @@
       {
         "team": "New Zealand",
         "iso": "nz",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "Saudi Arabia",
-        "iso": "sa",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "Uruguay",
-        "iso": "uy",
         "played": 0,
         "won": 0,
         "drawn": 0,
