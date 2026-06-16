@@ -453,7 +453,7 @@ function espnStatsHtml(match) {
 
   const hColor = match._espnColors?.home || 'var(--blue)';
   const aColor = match._espnColors?.away || 'var(--red)';
-  const blur = 10;
+  const blur = 20;
   const barStyle = `background: linear-gradient(to right, ${hColor} ${Math.max(0,possH-blur)}%, ${aColor} ${Math.min(100,possH+blur)}%)`;
 
   return `<div class="match-stats">
