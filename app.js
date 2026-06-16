@@ -332,6 +332,55 @@ function queueNotif(notif) {
   } else {
     showNotif(notif);
   }
+  sendSystemNotification(notif);
+}
+
+// ===== Android/system notifications via the service worker =====
+// Shows a real OS-level notification (works while the PWA/tab is alive in the
+// background — e.g. screen off — but not once Android fully kills the process).
+function sendSystemNotification(notif) {
+  if (!notif.title) return;
+  if (!('serviceWorker' in navigator) || Notification?.permission !== 'granted') return;
+  navigator.serviceWorker.ready.then(reg => {
+    reg.showNotification(notif.title, {
+      body: notif.body || '',
+      icon: './icons/icon-192-any.png',
+      badge: './icons/icon-192-any.png',
+      tag: 'wc2026-' + notif.type,
+      renotify: true,
+      vibrate: [120, 60, 120],
+    });
+  }).catch(() => {});
+}
+
+function updateNotifPermissionBtn() {
+  const btn = document.getElementById('notif-permission-btn');
+  if (!btn) return;
+  if (!('Notification' in window) || !('serviceWorker' in navigator)) {
+    btn.hidden = true;
+    return;
+  }
+  btn.hidden = false;
+  if (Notification.permission === 'granted') {
+    btn.classList.add('enabled');
+    btn.title = 'Android notifications enabled';
+  } else {
+    btn.classList.remove('enabled');
+    btn.title = 'Enable Android notifications';
+  }
+}
+
+function initNotifPermissionBtn() {
+  const btn = document.getElementById('notif-permission-btn');
+  if (!btn) return;
+  updateNotifPermissionBtn();
+  btn.addEventListener('click', async () => {
+    if (!('Notification' in window)) return;
+    if (Notification.permission === 'default') {
+      await Notification.requestPermission();
+    }
+    updateNotifPermissionBtn();
+  });
 }
 
 function kickoffNotifHtml(match) {
@@ -784,7 +833,10 @@ function mergeESPNData(espnEvents) {
       // Match kicked off
       if (prev.status === 'SCHEDULED' && m.status === 'IN_PLAY' && !state._seenMatchStart.has(m.matchNum)) {
         state._seenMatchStart.add(m.matchNum);
-        queueNotif({ type: 'kickoff', html: kickoffNotifHtml(m) });
+        queueNotif({
+          type: 'kickoff', html: kickoffNotifHtml(m),
+          title: '⚽ Kick Off!', body: `${m.homeTeam} vs ${m.awayTeam}`,
+        });
       }
 
       // Goal scored — fire as soon as ESPN events show a new goal scorer, even if the
@@ -818,7 +870,11 @@ function mergeESPNData(espnEvents) {
             const displayMatch = { ...m };
             if (homeScored && m.homeScore === (prev.homeScore ?? 0)) displayMatch.homeScore = (prev.homeScore ?? 0) + 1;
             if (awayScored && m.awayScore === (prev.awayScore ?? 0)) displayMatch.awayScore = (prev.awayScore ?? 0) + 1;
-            queueNotif({ type: 'goal', html: goalNotifHtml(displayMatch, scoringTeam, scorerLabel) });
+            queueNotif({
+              type: 'goal', html: goalNotifHtml(displayMatch, scoringTeam, scorerLabel),
+              title: `⚽ GOAL! ${scoringTeam}`,
+              body: `${scorerLabel ? scorerLabel + ' — ' : ''}${displayMatch.homeTeam} ${displayMatch.homeScore} – ${displayMatch.awayScore} ${displayMatch.awayTeam}`,
+            });
           }
         }
 
@@ -832,7 +888,10 @@ function mergeESPNData(espnEvents) {
       if ((prev.status === 'IN_PLAY' || prev.status === 'PAUSED') &&
           m.status === 'FINISHED' && !state._seenMatchEnd.has(m.matchNum)) {
         state._seenMatchEnd.add(m.matchNum);
-        queueNotif({ type: 'final', html: finalNotifHtml(m) });
+        queueNotif({
+          type: 'final', html: finalNotifHtml(m),
+          title: '🏁 Full Time', body: `${m.homeTeam} ${m.homeScore} – ${m.awayScore} ${m.awayTeam}`,
+        });
       }
     }
   }
@@ -2117,6 +2176,8 @@ async function init() {
     syncMargin();
     new ResizeObserver(syncMargin).observe(header);
   }
+
+  initNotifPermissionBtn();
 
   // Live mode toggle
   const toggle = document.getElementById('live-mode-toggle');
