@@ -3,13 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>⚽ WC2026 Live Dashboard</title>
+  <title>WC2026 Live Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..100,100..900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header id="app-header">
-    <div class="header-left">
-      <h1>⚽ WC2026 Live</h1>
+    <div class="brand">
+      <div class="brand-icon">⚽</div>
+      <div class="brand-name">WC2026 <small>Live Dashboard</small></div>
     </div>
     <nav class="nav-tabs">
       <button class="nav-tab active" data-view="dashboard">Dashboard</button>
@@ -18,14 +22,12 @@
       <button class="nav-tab" data-view="bracket">Bracket</button>
     </nav>
     <div class="header-right">
-      <div class="live-toggle">
-        <label class="toggle-label">
-          <input type="checkbox" id="live-mode-toggle">
-          <span class="toggle-slider"></span>
-          Live Standings
-        </label>
-      </div>
-      <div class="sync-info">
+      <label class="toggle-wrap">
+        <input type="checkbox" id="live-mode-toggle">
+        <div class="toggle-track"><div class="toggle-knob"></div></div>
+        Live Standings
+      </label>
+      <div class="sync-pill">
         <span class="sync-dot"></span>
         <span id="last-sync">Loading...</span>
       </div>
