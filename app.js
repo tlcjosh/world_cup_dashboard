@@ -568,8 +568,18 @@ function renderDashboard() {
     const groupStageMatches = state.matches.filter(m => m.stage === 'Group Stage');
     const inKnockout = state.matches.some(m => m.stage !== 'Group Stage' && (m.status === 'FINISHED' || m.status === 'IN_PLAY'));
     const stageName = inKnockout ? 'Knockout Stage' : 'Group Stage';
-    const matchDay = groupStageMatches.length ? Math.ceil((finishedCount + liveCount) / Math.max(1, Math.round(groupStageMatches.length / 18))) : 1;
-    const eyebrow = `${stageName} · Day ${Math.max(1, matchDay)}`;
+
+    // Match day = number of distinct kickoff dates that have at least one started match
+    const startedDates = new Set(
+      state.matches
+        .filter(m => m.status === 'FINISHED' || m.status === 'IN_PLAY' || m.status === 'PAUSED')
+        .map(m => m.kickoff ? m.kickoff.slice(0, 10) : null)
+        .filter(Boolean)
+    );
+    const matchDay = Math.max(1, startedDates.size);
+
+    const todayLabel = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' });
+    const eyebrow = `${stageName} · Day ${matchDay} · ${todayLabel}`;
 
     // Live & Today card — union of live + today's remaining
     const todayNonLive = todayMatches.filter(m => m.status !== 'IN_PLAY' && m.status !== 'PAUSED');
@@ -664,8 +674,8 @@ function renderDashboard() {
             <div class="hero-stat-label">Today</div>
           </div>
           <div class="hero-stat">
-            <div class="hero-stat-num">${totalMatches}</div>
-            <div class="hero-stat-label">Total matches</div>
+            <div class="hero-stat-num">${finishedCount}</div>
+            <div class="hero-stat-label">Played</div>
           </div>
         </div>
       </div>
@@ -732,7 +742,7 @@ function getTodayMatches() {
 }
 
 // ===== RENDER SCHEDULE =====
-function renderSchedule() {
+function renderSchedule(opts = {}) {
   const el = document.getElementById('view-schedule');
   const matches = state.matches;
 
@@ -769,8 +779,8 @@ function renderSchedule() {
 
   el.innerHTML = html || '<div class="empty-state">No matches to display.</div>';
 
-  // Scroll to today after render
-  if (todayId) {
+  // Scroll to today after render (skip on silent background refreshes)
+  if (todayId && !opts.silent) {
     requestAnimationFrame(() => {
       const todayEl = document.getElementById(todayId);
       if (todayEl) {
@@ -1027,7 +1037,7 @@ function renderView(opts = {}) {
 
   switch (state.currentView) {
     case 'dashboard': renderDashboard(); break;
-    case 'schedule': renderSchedule(); break;
+    case 'schedule': renderSchedule({ silent: opts.silent }); break;
     case 'standings': renderStandings(); break;
     case 'bracket': renderBracket(); break;
   }
