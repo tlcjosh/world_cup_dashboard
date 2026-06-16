@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T02:13:09.662Z",
+  "lastUpdated": "2026-06-16T03:08:11.643Z",
   "matches": [
     {
       "matchId": 537327,
@@ -250,9 +250,9 @@
       "awayIso": "nz",
       "venue": "SoFi Stadium, Inglewood",
       "kickoff": "2026-06-16T01:00:00.000Z",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "PAUSED",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-16T01:23:49.232Z",
       "secondHalfStart": null
     },
@@ -2073,6 +2073,30 @@
     ],
     "H": [
       {
+        "team": "Iran",
+        "iso": "ir",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "team": "New Zealand",
+        "iso": "nz",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1
+      },
+      {
         "team": "Saudi Arabia",
         "iso": "sa",
         "played": 1,
@@ -2095,30 +2119,6 @@
         "ga": 1,
         "gd": 0,
         "pts": 1
-      },
-      {
-        "team": "Iran",
-        "iso": "ir",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "New Zealand",
-        "iso": "nz",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
       }
     ],
     "G": [
