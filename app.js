@@ -453,7 +453,8 @@ function espnStatsHtml(match) {
 
   const hColor = match._espnColors?.home || 'var(--blue)';
   const aColor = match._espnColors?.away || 'var(--red)';
-  const barStyle = `background: linear-gradient(to right, ${hColor} ${possH}%, ${aColor} ${possH}%)`;
+  const blur = 10;
+  const barStyle = `background: linear-gradient(to right, ${hColor} ${Math.max(0,possH-blur)}%, ${aColor} ${Math.min(100,possH+blur)}%)`;
 
   return `<div class="match-stats">
     <div class="stats-poss">
@@ -494,11 +495,6 @@ function matchCardHtml(match, extraLabel) {
   const headlineHtml = match._espnHeadline
     ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
-  const hColor = match._espnColors?.home || null;
-  const aColor = match._espnColors?.away || null;
-  const homeStyle = hColor ? ` style="--team-color:${hColor}"` : '';
-  const awayStyle = aColor ? ` style="--team-color:${aColor}"` : '';
-
   return `
     <div class="match-card ${isLive ? 'live' : ''}">
       <div class="match-meta-bar">
@@ -506,7 +502,7 @@ function matchCardHtml(match, extraLabel) {
         ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
       </div>
       <div class="match-teams">
-        <div class="match-home${hColor ? ' has-color' : ''}"${homeStyle}>
+        <div class="match-home">
           <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
           ${flagImg(match.homeIso, match.homeTeam)}
         </div>
@@ -514,7 +510,7 @@ function matchCardHtml(match, extraLabel) {
           ${scoreHtml}
           ${scoreSubHtml}
         </div>
-        <div class="match-away${aColor ? ' has-color' : ''}"${awayStyle}>
+        <div class="match-away">
           ${flagImg(match.awayIso, match.awayTeam)}
           <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
         </div>
