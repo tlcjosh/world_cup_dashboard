@@ -486,10 +486,14 @@ function renderDashboard() {
       return entries.sort((a, b) => b[1] - a[1])[0][0];
     })();
 
-    const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
-    const computedStandings = state.liveMode ? computeStandings(state.matches, statuses) : state.standings;
+    // Dashboard standings: always live when matches are in play, regardless of global toggle
+    const dashLive = liveMatches.length > 0 || state.liveMode;
+    const dashStatuses = dashLive ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
+    const computedStandings = dashLive ? computeStandings(state.matches, dashStatuses) : state.standings;
     const groupTeams = liveGroup ? (computedStandings[liveGroup] || []) : [];
-    const standingsMetaLabel = liveMatches.length ? 'Live group' : 'Most played group';
+    const standingsMetaLabel = liveMatches.length
+      ? '<span class="badge badge-live" style="font-size:10px;padding:2px 8px;animation:blink 1.6s infinite;">LIVE</span> Live group'
+      : 'Most played group';
 
     const standingsHtml = `
       <div class="card-header">
@@ -621,15 +625,24 @@ function renderSchedule() {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
   for (const m of matches) {
     const dateKey = m.kickoff ? dtf.format(new Date(m.kickoff)) : 'TBD';
     if (!byDate[dateKey]) byDate[dateKey] = [];
     byDate[dateKey].push(m);
   }
 
+  let todayId = null;
   let html = '';
   for (const [date, dayMatches] of Object.entries(byDate)) {
-    html += `<div class="date-header">${date}</div>`;
+    const firstMatch = dayMatches.find(m => m.kickoff);
+    const isToday = firstMatch
+      ? new Date(firstMatch.kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }) === todayStr
+      : false;
+    const id = isToday ? ' id="schedule-today"' : '';
+    if (isToday) todayId = 'schedule-today';
+    html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
       html += matchCardHtml(m, label);
@@ -637,6 +650,18 @@ function renderSchedule() {
   }
 
   el.innerHTML = html || '<div class="empty-state">No matches to display.</div>';
+
+  // Scroll to today after render
+  if (todayId) {
+    requestAnimationFrame(() => {
+      const todayEl = document.getElementById(todayId);
+      if (todayEl) {
+        const headerH = document.getElementById('app-header')?.offsetHeight || 64;
+        const top = todayEl.getBoundingClientRect().top + window.scrollY - headerH - 12;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  }
 }
 
 // ===== RENDER STANDINGS =====
@@ -866,6 +891,14 @@ function renderView() {
   const tabEl = document.querySelector(`.nav-tab[data-view="${state.currentView}"]`);
   if (tabEl) tabEl.classList.add('active');
 
+  // Sync main top margin to actual header height (handles dynamic header height on mobile)
+  const header = document.getElementById('app-header');
+  const main = document.getElementById('app-main');
+  if (header && main) main.style.marginTop = header.offsetHeight + 'px';
+
+  // Scroll to top on all views except schedule (which scrolls to today itself)
+  if (state.currentView !== 'schedule') window.scrollTo({ top: 0, behavior: 'instant' });
+
   switch (state.currentView) {
     case 'dashboard': renderDashboard(); break;
     case 'schedule': renderSchedule(); break;
@@ -942,6 +975,15 @@ async function init() {
       renderView();
     });
   });
+
+  // Keep #app-main margin-top in sync with real header height on resize
+  const header = document.getElementById('app-header');
+  const main = document.getElementById('app-main');
+  if (header && main) {
+    const syncMargin = () => { main.style.marginTop = header.offsetHeight + 'px'; };
+    syncMargin();
+    new ResizeObserver(syncMargin).observe(header);
+  }
 
   // Live mode toggle
   const toggle = document.getElementById('live-mode-toggle');

@@ -136,7 +136,7 @@ body {
 
 /* ===== MAIN ===== */
 #app-main {
-  margin-top: var(--header-h);
+  margin-top: var(--header-h); /* fallback; JS syncs this to real header height */
   padding: 28px;
   max-width: var(--max-w);
   margin-left: auto; margin-right: auto;
@@ -536,7 +536,8 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
     padding: 10px 16px; gap: 8px;
   }
 
-  #app-main { margin-top: 108px; padding: 14px; }
+  /* margin-top set dynamically in JS to match real header height */
+  #app-main { padding: 14px; }
 
   .header-right { order: 3; width: 100%; justify-content: space-between; }
 
@@ -552,8 +553,61 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   .hero-stat-num { font-size: 36px; }
   .hero-stats { gap: 24px; }
 
-  .match-status { width: 120px; }
-  .venue { display: block; }
-
   .bracket { min-width: 800px; }
+
+  /* ---- Stacked match card layout for mobile ---- */
+  .match-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  /* Replace 5-col grid with a stacked 3-row layout:
+     row 1: home team (flag + name, right-aligned)
+     row 2: score centred
+     row 3: away team (flag + name, left-aligned)          */
+  .match-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .match-home {
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .match-away {
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .team-name { font-size: 15px; white-space: normal; }
+
+  .score-col {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .score { font-size: 26px; }
+
+  .score-sub { margin-top: 0; }
+
+  .match-status {
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .venue { text-align: left; }
 }
