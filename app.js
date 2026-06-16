@@ -668,9 +668,10 @@ function mergeESPNData(espnEvents) {
     match.awayScore = newAwayScore;
 
     // ESPN clock: total elapsed seconds from kickoff (capped at 45*60 or 90*60 by ESPN)
-    match._espnClock     = comp.status.clock || 0;
-    match._espnPeriod    = comp.status.period || 1;
-    match._espnFetchedAt = Date.now();
+    match._espnClock        = comp.status.clock || 0;
+    match._espnDisplayClock = comp.status.displayClock || null; // e.g. "45'+2'" during stoppage
+    match._espnPeriod       = comp.status.period || 1;
+    match._espnFetchedAt    = Date.now();
 
     // Goal events for scorer display
     const homeId = homeComp.team.id;
@@ -842,7 +843,11 @@ function getMatchMinute(match) {
   if (match.status === 'PAUSED') return 'HT';
   if (match.status !== 'IN_PLAY') return null;
 
-  // ESPN clock: total elapsed seconds from kickoff, ticked forward since last fetch
+  // ESPN clock: prefer displayClock during stoppage (status.clock freezes at 45:00 / 90:00)
+  if (match._espnDisplayClock && match._espnDisplayClock.includes('+')) {
+    // Format from ESPN: "45'+2'" or "90'+5'" → normalise to "45+2'" / "90+5'"
+    return match._espnDisplayClock.replace("'+", '+').replace(/'+$/, "'").replace(/'\s*$/, "'");
+  }
   if (match._espnClock !== undefined && match._espnFetchedAt) {
     const elapsedSec = match._espnClock + (Date.now() - match._espnFetchedAt) / 1000;
     const min = Math.floor(elapsedSec / 60);
