@@ -193,7 +193,7 @@ function mergeESPNData(espnEvents) {
     setTimeout(() => header.classList.remove('sync-flash'), 500);
   }
 
-  if (changed) renderView();
+  renderView();
 }
 
 // ===== HELPERS =====
