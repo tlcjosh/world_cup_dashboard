@@ -364,12 +364,13 @@ function finalNotifHtml(match) {
       ).join('')}</div>` : ''}
     `;
   }
-  const scorerLines = [];
   const ev = match._espnEvents;
-  if (ev) {
-    ev.home?.forEach(g => scorerLines.push(`<span class="notif-scorer-home">⚽ ${g}</span>`));
-    ev.away?.forEach(g => scorerLines.push(`<span class="notif-scorer-away">${g} ⚽</span>`));
-  }
+  const homeGoals = ev?.home || [];
+  const awayGoals = ev?.away || [];
+  const scorerRows = Array.from({ length: Math.max(homeGoals.length, awayGoals.length) }, (_, i) =>
+    `<span class="notif-scorer-home">${homeGoals[i] ? '⚽ ' + homeGoals[i] : ''}</span>` +
+    `<span class="notif-scorer-away">${awayGoals[i] ? awayGoals[i] + ' ⚽' : ''}</span>`
+  );
   return `
     <div class="notif-eyebrow">🏁 Full Time</div>
     <div class="notif-teams">
@@ -384,7 +385,7 @@ function finalNotifHtml(match) {
       </div>
     </div>
     <div class="notif-sub">${group}${match.venue ? ' · ' + match.venue : ''}</div>
-    ${scorerLines.length ? `<div class="notif-scorers">${scorerLines.join('')}</div>` : ''}
+    ${scorerRows.length ? `<div class="notif-scorers">${scorerRows.join('')}</div>` : ''}
     ${statsHtml}
   `;
 }
