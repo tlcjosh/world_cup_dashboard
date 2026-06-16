@@ -24,18 +24,54 @@ const state = {
 
 // ===== TEAM DATA =====
 const TEAM_MASTER_DATA = {
-  "Mexico": { group: "A", iso: "mx" }, "South Africa": { group: "A", iso: "za" }, "South Korea": { group: "A", iso: "kr" }, "Czechia": { group: "A", iso: "cz" },
-  "Canada": { group: "B", iso: "ca" }, "Bosnia-Herzegovina": { group: "B", iso: "ba" }, "Qatar": { group: "B", iso: "qa" }, "Switzerland": { group: "B", iso: "ch" },
-  "Brazil": { group: "C", iso: "br" }, "Morocco": { group: "C", iso: "ma" }, "Haiti": { group: "C", iso: "ht" }, "Scotland": { group: "C", iso: "scotland" },
-  "United States": { group: "D", iso: "us" }, "Paraguay": { group: "D", iso: "py" }, "Australia": { group: "D", iso: "au" }, "Turkey": { group: "D", iso: "tr" },
-  "Germany": { group: "E", iso: "de" }, "Curaçao": { group: "E", iso: "cw" }, "Ivory Coast": { group: "E", iso: "ci" }, "Ecuador": { group: "E", iso: "ec" },
-  "Netherlands": { group: "F", iso: "nl" }, "Japan": { group: "F", iso: "jp" }, "Sweden": { group: "F", iso: "se" }, "Tunisia": { group: "F", iso: "tn" },
-  "Spain": { group: "G", iso: "es" }, "Cape Verde Islands": { group: "G", iso: "cv" }, "Belgium": { group: "G", iso: "be" }, "Egypt": { group: "G", iso: "eg" },
-  "Saudi Arabia": { group: "H", iso: "sa" }, "Uruguay": { group: "H", iso: "uy" }, "Iran": { group: "H", iso: "ir" }, "New Zealand": { group: "H", iso: "nz" },
-  "France": { group: "I", iso: "fr" }, "Senegal": { group: "I", iso: "sn" }, "Iraq": { group: "I", iso: "iq" }, "Norway": { group: "I", iso: "no" },
-  "Argentina": { group: "J", iso: "ar" }, "Algeria": { group: "J", iso: "dz" }, "Austria": { group: "J", iso: "at" }, "Jordan": { group: "J", iso: "jo" },
-  "Portugal": { group: "K", iso: "pt" }, "Congo DR": { group: "K", iso: "cd" }, "Uzbekistan": { group: "K", iso: "uz" }, "Colombia": { group: "K", iso: "co" },
-  "England": { group: "L", iso: "england" }, "Croatia": { group: "L", iso: "hr" }, "Ghana": { group: "L", iso: "gh" }, "Panama": { group: "L", iso: "pa" }
+  "Mexico":             { group: "A", iso: "mx",       espnId: 203   },
+  "South Africa":       { group: "A", iso: "za",       espnId: 467   },
+  "South Korea":        { group: "A", iso: "kr",       espnId: 451   },
+  "Czechia":            { group: "A", iso: "cz",       espnId: 450   },
+  "Canada":             { group: "B", iso: "ca",       espnId: 206   },
+  "Bosnia-Herzegovina": { group: "B", iso: "ba",       espnId: 452   },
+  "Qatar":              { group: "B", iso: "qa",       espnId: 4398  },
+  "Switzerland":        { group: "B", iso: "ch",       espnId: 475   },
+  "Brazil":             { group: "C", iso: "br",       espnId: 205   },
+  "Morocco":            { group: "C", iso: "ma",       espnId: 2869  },
+  "Haiti":              { group: "C", iso: "ht",       espnId: 2654  },
+  "Scotland":           { group: "C", iso: "scotland", espnId: 580   },
+  "United States":      { group: "D", iso: "us",       espnId: 660   },
+  "Paraguay":           { group: "D", iso: "py",       espnId: 210   },
+  "Australia":          { group: "D", iso: "au",       espnId: 628   },
+  "Turkey":             { group: "D", iso: "tr",       espnId: 465   },
+  "Germany":            { group: "E", iso: "de",       espnId: 481   },
+  "Curaçao":            { group: "E", iso: "cw",       espnId: 11678 },
+  "Ivory Coast":        { group: "E", iso: "ci",       espnId: 4789  },
+  "Ecuador":            { group: "E", iso: "ec",       espnId: 209   },
+  "Netherlands":        { group: "F", iso: "nl",       espnId: 449   },
+  "Japan":              { group: "F", iso: "jp",       espnId: 627   },
+  "Sweden":             { group: "F", iso: "se",       espnId: 466   },
+  "Tunisia":            { group: "F", iso: "tn",       espnId: 659   },
+  "Spain":              { group: "G", iso: "es",       espnId: 164   },
+  "Cape Verde Islands": { group: "G", iso: "cv",       espnId: 2597  },
+  "Belgium":            { group: "G", iso: "be",       espnId: 459   },
+  "Egypt":              { group: "G", iso: "eg",       espnId: 2620  },
+  "Saudi Arabia":       { group: "H", iso: "sa",       espnId: 655   },
+  "Uruguay":            { group: "H", iso: "uy",       espnId: 212   },
+  "Iran":               { group: "H", iso: "ir",       espnId: 469   },
+  "New Zealand":        { group: "H", iso: "nz",       espnId: 2666  },
+  "France":             { group: "I", iso: "fr",       espnId: 478   },
+  "Senegal":            { group: "I", iso: "sn",       espnId: 654   },
+  "Iraq":               { group: "I", iso: "iq",       espnId: 4375  },
+  "Norway":             { group: "I", iso: "no",       espnId: 464   },
+  "Argentina":          { group: "J", iso: "ar",       espnId: 202   },
+  "Algeria":            { group: "J", iso: "dz",       espnId: 624   },
+  "Austria":            { group: "J", iso: "at",       espnId: 474   },
+  "Jordan":             { group: "J", iso: "jo",       espnId: 2917  },
+  "Portugal":           { group: "K", iso: "pt",       espnId: 482   },
+  "Congo DR":           { group: "K", iso: "cd",       espnId: 2850  },
+  "Uzbekistan":         { group: "K", iso: "uz",       espnId: 2570  },
+  "Colombia":           { group: "K", iso: "co",       espnId: 208   },
+  "England":            { group: "L", iso: "england",  espnId: 448   },
+  "Croatia":            { group: "L", iso: "hr",       espnId: 477   },
+  "Ghana":              { group: "L", iso: "gh",       espnId: 4469  },
+  "Panama":             { group: "L", iso: "pa",       espnId: 2659  },
 };
 
 // Maps 3rd-place slot code → which 1st-place group runner they face
@@ -473,6 +509,9 @@ function mergeESPNData(espnEvents) {
       (m.homeTeam === espnAway && m.awayTeam === espnHome)
     );
     if (!match) continue;
+
+    // Capture ESPN event ID so we can fetch match summary later
+    if (event.id && !match.espnEventId) match.espnEventId = event.id;
 
     const swapped = match.homeTeam === espnAway;
     const rawHome = parseInt(homeComp.score, 10);
@@ -920,16 +959,16 @@ function matchCardHtml(match, extraLabel, opts = {}) {
       </div>
       <div class="match-teams">
         <div class="match-home">
-          <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
-          ${flagImg(match.homeIso, match.homeTeam)}
+          <span class="team-name ${homeClass} team-link" data-team="${match.homeTeam || ''}">${match.homeTeam || 'TBD'}</span>
+          <span class="flag-link" data-team="${match.homeTeam || ''}">${flagImg(match.homeIso, match.homeTeam)}</span>
         </div>
         <div class="score-col">
           ${scoreHtml}
           ${scoreSubHtml}
         </div>
         <div class="match-away">
-          ${flagImg(match.awayIso, match.awayTeam)}
-          <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
+          <span class="flag-link" data-team="${match.awayTeam || ''}">${flagImg(match.awayIso, match.awayTeam)}</span>
+          <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
         </div>
       </div>
       ${hasScore ? espnEventsHtml(match) : ''}
@@ -1259,8 +1298,8 @@ function renderStandings() {
         <tr class="${rowClass}">
           <td><span class="pos">${i + 1}</span></td>
           <td>
-            <div class="team-cell">
-              ${flagImg(t.iso, t.team)}
+            <div class="team-cell team-link" data-team="${t.team}" style="cursor:pointer;">
+              <span class="flag-link" data-team="${t.team}">${flagImg(t.iso, t.team)}</span>
               <span>${t.team}</span>
             </div>
           </td>
@@ -1374,15 +1413,15 @@ function renderBracket() {
     return `
       <div class="b-match">
         <div class="b-num">M${match.matchNum}</div>
-        <div class="b-team ${homeWon ? 'winner' : ''}">
-          ${flagImg(home.iso, home.name)}
-          <span class="b-team-name">${home.name}</span>
+        <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
+          <span class="flag-link" data-team="${home.name}">${flagImg(home.iso, home.name)}</span>
+          <span class="b-team-name team-link" data-team="${home.name}">${home.name}</span>
           ${hasScore ? `<span class="b-score">${match.homeScore}</span>` : ''}
         </div>
         <hr class="b-div">
-        <div class="b-team ${awayWon ? 'winner' : ''}">
-          ${flagImg(away.iso, away.name)}
-          <span class="b-team-name">${away.name}</span>
+        <div class="b-team ${awayWon ? 'winner' : ''}" data-team="${away.name}" style="cursor:${TEAM_MASTER_DATA[away.name] ? 'pointer' : 'default'}">
+          <span class="flag-link" data-team="${away.name}">${flagImg(away.iso, away.name)}</span>
+          <span class="b-team-name team-link" data-team="${away.name}">${away.name}</span>
           ${hasScore ? `<span class="b-score">${match.awayScore}</span>` : ''}
         </div>
       </div>
@@ -1518,6 +1557,131 @@ function tick() {
     updateSyncPill(state.espnSynced ? label + ' (ESPN)' : label);
   }
 }
+
+// ===== TEAM MODAL =====
+function teamMatchRows(teamName) {
+  const played = state.matches.filter(m =>
+    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED'
+  );
+  if (!played.length) return '<p style="color:var(--ink-3);font-size:13px;">No results yet.</p>';
+
+  return played.map(m => {
+    const isHome = m.homeTeam === teamName;
+    const opp = isHome ? m.awayTeam : m.homeTeam;
+    const oppIso = isHome ? m.awayIso : m.homeIso;
+    const ts = isHome ? `${m.homeScore}–${m.awayScore}` : `${m.awayScore}–${m.homeScore}`;
+    const myScore = isHome ? m.homeScore : m.awayScore;
+    const oppScore = isHome ? m.awayScore : m.homeScore;
+    const result = myScore > oppScore ? 'W' : myScore < oppScore ? 'L' : 'D';
+    const rc = result === 'W' ? '#16A34A' : result === 'L' ? '#DC2626' : '#CA8A04';
+    const kickoffStr = m.kickoff ? new Date(m.kickoff).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles' }) : '';
+    const label = m.stage === 'Group Stage' ? `Group ${m.group}` : (m.stage || '');
+    return `
+      <div class="tm-result-row">
+        <span class="tm-result-badge" style="background:${rc}">${result}</span>
+        <span class="tm-score">${ts}</span>
+        ${flagImg(oppIso, opp)}
+        <span class="tm-opp">${opp}</span>
+        <span class="tm-meta">${[label, kickoffStr].filter(Boolean).join(' · ')}</span>
+      </div>`;
+  }).join('');
+}
+
+function teamStatsAggregate(teamName) {
+  const finished = state.matches.filter(m =>
+    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED' && m._espnStats
+  );
+  if (!finished.length) return null;
+  let poss = 0, shots = 0, onTarget = 0, corners = 0, yellows = 0, reds = 0, gf = 0, ga = 0;
+  for (const m of finished) {
+    const isHome = m.homeTeam === teamName;
+    const s = isHome ? m._espnStats.home : m._espnStats.away;
+    const os = isHome ? m._espnStats.away : m._espnStats.home;
+    poss     += s.possessionPct || 0;
+    shots    += s.totalShots    || 0;
+    onTarget += s.shotsOnTarget || 0;
+    corners  += s.wonCorners    || 0;
+    yellows  += s.yellowCards   || 0;
+    reds     += s.redCards      || 0;
+    gf += isHome ? (m.homeScore || 0) : (m.awayScore || 0);
+    ga += isHome ? (m.awayScore || 0) : (m.homeScore || 0);
+  }
+  const n = finished.length;
+  return { poss: (poss / n).toFixed(0), shots: (shots / n).toFixed(1), onTarget: (onTarget / n).toFixed(1), corners: (corners / n).toFixed(1), yellows, reds, gf, ga, n };
+}
+
+function openTeamModal(teamName) {
+  if (!teamName || !TEAM_MASTER_DATA[teamName]) return;
+  const meta = TEAM_MASTER_DATA[teamName];
+  const standings = state.standings[meta.group] || [];
+  const standing = standings.find(t => t.team === teamName);
+  const pos = standings.findIndex(t => t.team === teamName) + 1;
+  const agg = teamStatsAggregate(teamName);
+
+  const posLabel = pos === 1 ? '1st' : pos === 2 ? '2nd' : pos === 3 ? '3rd' : pos ? `${pos}th` : '—';
+  const recordHtml = standing
+    ? `<div class="tm-record">
+        <div class="tm-stat"><span class="tm-stat-num">${standing.pts}</span><span class="tm-stat-label">Pts</span></div>
+        <div class="tm-stat"><span class="tm-stat-num">${standing.won}</span><span class="tm-stat-label">W</span></div>
+        <div class="tm-stat"><span class="tm-stat-num">${standing.drawn}</span><span class="tm-stat-label">D</span></div>
+        <div class="tm-stat"><span class="tm-stat-num">${standing.lost}</span><span class="tm-stat-label">L</span></div>
+        <div class="tm-stat"><span class="tm-stat-num">${standing.gf}–${standing.ga}</span><span class="tm-stat-label">GF–GA</span></div>
+        <div class="tm-stat"><span class="tm-stat-num">${posLabel}</span><span class="tm-stat-label">Group ${meta.group}</span></div>
+      </div>`
+    : '';
+
+  const aggHtml = agg ? `
+    <div class="tm-section-label">Avg per match (${agg.n} played)</div>
+    <div class="tm-agg-grid">
+      <div class="tm-stat"><span class="tm-stat-num">${agg.poss}%</span><span class="tm-stat-label">Possession</span></div>
+      <div class="tm-stat"><span class="tm-stat-num">${agg.shots}</span><span class="tm-stat-label">Shots</span></div>
+      <div class="tm-stat"><span class="tm-stat-num">${agg.onTarget}</span><span class="tm-stat-label">On Target</span></div>
+      <div class="tm-stat"><span class="tm-stat-num">${agg.corners}</span><span class="tm-stat-label">Corners</span></div>
+      <div class="tm-stat"><span class="tm-stat-num">${agg.yellows}</span><span class="tm-stat-label">Yellows</span></div>
+      <div class="tm-stat"><span class="tm-stat-num">${agg.reds}</span><span class="tm-stat-label">Reds</span></div>
+    </div>` : '';
+
+  // Remove any existing team modal
+  document.getElementById('team-modal-overlay')?.remove();
+
+  const overlay = document.createElement('div');
+  overlay.id = 'team-modal-overlay';
+  overlay.innerHTML = `
+    <div class="team-modal">
+      <button class="team-modal-close" id="team-modal-close" aria-label="Close">✕</button>
+      <div class="tm-header">
+        ${flagImg(meta.iso, teamName)}
+        <div>
+          <div class="tm-name">${teamName}</div>
+          <div class="tm-sub">Group ${meta.group}</div>
+        </div>
+      </div>
+      ${recordHtml}
+      ${aggHtml}
+      <div class="tm-section-label">Results</div>
+      ${teamMatchRows(teamName)}
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const close = () => {
+    overlay.classList.add('tm-out');
+    overlay.addEventListener('animationend', () => overlay.remove(), { once: true });
+  };
+  document.getElementById('team-modal-close').addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); }, { once: true });
+
+  requestAnimationFrame(() => overlay.classList.add('tm-in'));
+}
+
+// Delegated click handler for team links throughout the app
+document.addEventListener('click', e => {
+  const link = e.target.closest('.team-link, .flag-link');
+  if (!link) return;
+  const teamName = link.dataset.team;
+  if (teamName) { e.stopPropagation(); openTeamModal(teamName); }
+});
 
 // ===== INIT =====
 async function init() {
