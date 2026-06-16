@@ -334,7 +334,7 @@ body {
 /* ===== MATCH STATS STRIP ===== */
 .match-stats {
   margin-top: 10px;
-  background: var(--surface-2);
+  background: rgba(0,0,0,.03);
   border-radius: 8px;
   padding: 10px 12px;
 }
