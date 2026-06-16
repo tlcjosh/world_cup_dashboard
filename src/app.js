@@ -499,8 +499,8 @@ async function fetchESPNDate(dateStr) {
 
 function kickoffToDateStr(kickoff) {
   if (!kickoff) return null;
-  const d = new Date(kickoff);
-  return d.toISOString().slice(0, 10).replace(/-/g, '');
+  // Use Pacific time — same timezone ESPN uses for dates= param
+  return new Date(kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }).replace(/-/g, '');
 }
 
 function findESPNEvent(events, homeTeam, awayTeam) {
