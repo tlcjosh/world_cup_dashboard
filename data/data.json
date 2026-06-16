@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T20:40:22.928Z",
+  "lastUpdated": "2026-06-16T21:47:52.094Z",
   "matches": [
     {
       "matchId": 537327,
@@ -284,9 +284,9 @@
       "awayIso": "sn",
       "venue": "MetLife Stadium, East Rutherford",
       "kickoff": "2026-06-16T19:00:00.000Z",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "IN_PLAY",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-16T19:06:13.498Z",
       "secondHalfStart": "2026-06-16T20:21:45.120Z"
     },
@@ -2175,14 +2175,14 @@
       {
         "team": "France",
         "iso": "fr",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
       },
       {
         "team": "Iraq",
@@ -2211,13 +2211,13 @@
       {
         "team": "Senegal",
         "iso": "sn",
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
         "pts": 0
       }
     ],
