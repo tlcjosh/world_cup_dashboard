@@ -422,7 +422,7 @@ img.flag {
 .date-header:first-child { margin-top: 0; }
 
 /* ===== SEARCH ===== */
-.search-container { margin-bottom: 20px; }
+.search-container { margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
 
 .search-input {
   width: 100%; max-width: 360px;
@@ -435,6 +435,17 @@ img.flag {
 
 .search-input:focus { border-color: var(--blue); }
 .search-input::placeholder { color: var(--ink-3); }
+
+.search-clear {
+  flex-shrink: 0;
+  width: 32px; height: 32px;
+  border: none; border-radius: 50%;
+  background: var(--surface-2); color: var(--ink-2);
+  font-size: 13px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s;
+}
+.search-clear:hover { background: var(--border); }
 
 /* ===== GROUP HEADER ===== */
 .group-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
