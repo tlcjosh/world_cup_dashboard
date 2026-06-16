@@ -20,6 +20,7 @@ const state = {
   _audioCtx: null,
   _notifQueue: [],
   _notifActive: false,
+  _espnDateCache: {},   // YYYYMMDD → events[]
 };
 
 // ===== TEAM DATA =====
@@ -481,6 +482,110 @@ async function fetchESPN() {
   }
 }
 
+async function fetchESPNDate(dateStr) {
+  if (state._espnDateCache[dateStr]) return state._espnDateCache[dateStr];
+  try {
+    const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${dateStr}`);
+    if (!res.ok) throw new Error('ESPN date fetch ' + res.status);
+    const data = await res.json();
+    const events = data.events || [];
+    state._espnDateCache[dateStr] = events;
+    return events;
+  } catch (e) {
+    console.warn('fetchESPNDate failed for', dateStr, e.message);
+    return [];
+  }
+}
+
+function kickoffToDateStr(kickoff) {
+  if (!kickoff) return null;
+  const d = new Date(kickoff);
+  return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
+function findESPNEvent(events, homeTeam, awayTeam) {
+  for (const event of events) {
+    const comp = event.competitions?.[0];
+    if (!comp) continue;
+    const homeComp = comp.competitors.find(c => c.homeAway === 'home');
+    const awayComp = comp.competitors.find(c => c.homeAway === 'away');
+    if (!homeComp || !awayComp) continue;
+    const h = normalizeESPNName(homeComp.team.displayName);
+    const a = normalizeESPNName(awayComp.team.displayName);
+    if ((h === homeTeam && a === awayTeam) || (h === awayTeam && a === homeTeam)) {
+      return { event, comp, homeComp, awayComp, swapped: h === awayTeam };
+    }
+  }
+  return null;
+}
+
+function parseESPNEventData(comp, homeComp, awayComp, swapped) {
+  // Stats
+  const parseStats = (competitor) => {
+    const s = {};
+    for (const stat of (competitor.statistics || [])) {
+      s[stat.name] = parseFloat(stat.displayValue) || 0;
+    }
+    return s;
+  };
+  let hStats = parseStats(swapped ? awayComp : homeComp);
+  let aStats = parseStats(swapped ? homeComp : awayComp);
+
+  const homeId = (swapped ? awayComp : homeComp).team.id;
+
+  // Derive cards from details
+  let homeYellow = 0, awayYellow = 0, homeRed = 0, awayRed = 0;
+  const timeline = [];
+  for (const d of (comp.details || [])) {
+    const isHome = d.team?.id === homeId;
+    if (d.yellowCard) { isHome ? homeYellow++ : awayYellow++; }
+    if (d.redCard)    { isHome ? homeRed++    : awayRed++;    }
+
+    const player = d.athletesInvolved?.[0]?.shortName || d.athletesInvolved?.[0]?.displayName || '';
+    const headshot = d.athletesInvolved?.[0]?.headshot || null;
+    const minute = d.clock?.displayValue || '';
+    const typeText = d.type?.text || '';
+    timeline.push({
+      isHome: swapped ? !isHome : isHome,
+      minute,
+      player,
+      headshot,
+      typeText,
+      isGoal: d.scoringPlay && d.scoreValue > 0,
+      isOwnGoal: d.ownGoal,
+      isPenalty: d.penaltyKick,
+      isYellow: d.yellowCard,
+      isRed: d.redCard,
+    });
+  }
+  hStats.yellowCards = homeYellow;
+  aStats.yellowCards = awayYellow;
+  hStats.redCards    = homeRed;
+  aStats.redCards    = awayRed;
+
+  const colors = {
+    home: pickTeamColor((swapped ? awayComp : homeComp).team),
+    away: pickTeamColor((swapped ? homeComp : awayComp).team),
+  };
+
+  return {
+    stats: { home: hStats, away: aStats },
+    timeline,
+    headline: comp.headlines?.[0]?.description || null,
+    attendance: comp.attendance || null,
+    colors,
+  };
+}
+
+function pickTeamColor(team) {
+  const hex = (team.color || '').replace('#', '');
+  if (hex.length === 6) {
+    const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+    if ((r + g + b) / 3 > 210) return '#' + (team.alternateColor || '888888');
+  }
+  return '#' + (hex || '888888');
+}
+
 function mergeESPNData(espnEvents) {
   let changed = false;
 
@@ -572,16 +677,8 @@ function mergeESPNData(espnEvents) {
     match._espnStats = swapped ? { home: aStats, away: hStats } : { home: hStats, away: aStats };
 
     // Team colors for possession bar and accents
-    const pickColor = (primary, alternate) => {
-      const hex = (primary || '').replace('#', '');
-      if (hex.length === 6) {
-        const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
-        if ((r + g + b) / 3 > 210) return '#' + (alternate || '888888');
-      }
-      return '#' + (primary || '888888');
-    };
-    const hColor = pickColor(homeComp.team.color, homeComp.team.alternateColor);
-    const aColor = pickColor(awayComp.team.color, awayComp.team.alternateColor);
+    const hColor = pickTeamColor(homeComp.team);
+    const aColor = pickTeamColor(awayComp.team);
     match._espnColors = swapped ? { home: aColor, away: hColor } : { home: hColor, away: aColor };
 
     // Headline (recap summary)
@@ -952,7 +1049,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
   return `
-    <div class="match-card ${isLive ? 'live' : ''}">
+    <div class="match-card ${isLive ? 'live' : ''}" data-matchnum="${match.matchNum}">
       <div class="match-meta-bar">
         <div class="match-meta-left">${statusBadge(match)}${extraLabelHtml}</div>
         ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
@@ -1587,37 +1684,54 @@ function teamMatchRows(teamName) {
   }).join('');
 }
 
-function teamStatsAggregate(teamName) {
+function teamStatsAggregate(teamName, espnDataByMatch) {
+  // espnDataByMatch: Map of matchNum → parsed ESPN event data (may be empty for historical)
   const finished = state.matches.filter(m =>
-    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED' && m._espnStats
+    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED'
   );
   if (!finished.length) return null;
-  let poss = 0, shots = 0, onTarget = 0, corners = 0, yellows = 0, reds = 0, gf = 0, ga = 0;
+
+  let poss = 0, shots = 0, onTarget = 0, corners = 0, fouls = 0, yellows = 0, reds = 0, n = 0;
   for (const m of finished) {
     const isHome = m.homeTeam === teamName;
-    const s = isHome ? m._espnStats.home : m._espnStats.away;
-    const os = isHome ? m._espnStats.away : m._espnStats.home;
+    // Prefer fetched historical data, fall back to in-memory ESPN stats
+    const espn = espnDataByMatch?.get(m.matchNum);
+    const s = espn ? (isHome ? espn.stats.home : espn.stats.away)
+                   : (m._espnStats ? (isHome ? m._espnStats.home : m._espnStats.away) : null);
+    if (!s) continue;
     poss     += s.possessionPct || 0;
     shots    += s.totalShots    || 0;
     onTarget += s.shotsOnTarget || 0;
     corners  += s.wonCorners    || 0;
+    fouls    += s.foulsCommitted || 0;
     yellows  += s.yellowCards   || 0;
     reds     += s.redCards      || 0;
-    gf += isHome ? (m.homeScore || 0) : (m.awayScore || 0);
-    ga += isHome ? (m.awayScore || 0) : (m.homeScore || 0);
+    n++;
   }
-  const n = finished.length;
-  return { poss: (poss / n).toFixed(0), shots: (shots / n).toFixed(1), onTarget: (onTarget / n).toFixed(1), corners: (corners / n).toFixed(1), yellows, reds, gf, ga, n };
+  if (!n) return null;
+  return {
+    poss:     (poss / n).toFixed(0),
+    shots:    (shots / n).toFixed(1),
+    onTarget: (onTarget / n).toFixed(1),
+    corners:  (corners / n).toFixed(1),
+    fouls:    (fouls / n).toFixed(1),
+    yellows, reds, n
+  };
 }
 
-function openTeamModal(teamName) {
+async function openTeamModal(teamName) {
   if (!teamName || !TEAM_MASTER_DATA[teamName]) return;
   const meta = TEAM_MASTER_DATA[teamName];
   const standings = state.standings[meta.group] || [];
   const standing = standings.find(t => t.team === teamName);
   const pos = standings.findIndex(t => t.team === teamName) + 1;
-  const agg = teamStatsAggregate(teamName);
 
+  // Remove any existing team modal
+  document.getElementById('team-modal-overlay')?.remove();
+
+  // Show skeleton immediately
+  const overlay = document.createElement('div');
+  overlay.id = 'team-modal-overlay';
   const posLabel = pos === 1 ? '1st' : pos === 2 ? '2nd' : pos === 3 ? '3rd' : pos ? `${pos}th` : '—';
   const recordHtml = standing
     ? `<div class="tm-record">
@@ -1630,22 +1744,6 @@ function openTeamModal(teamName) {
       </div>`
     : '';
 
-  const aggHtml = agg ? `
-    <div class="tm-section-label">Avg per match (${agg.n} played)</div>
-    <div class="tm-agg-grid">
-      <div class="tm-stat"><span class="tm-stat-num">${agg.poss}%</span><span class="tm-stat-label">Possession</span></div>
-      <div class="tm-stat"><span class="tm-stat-num">${agg.shots}</span><span class="tm-stat-label">Shots</span></div>
-      <div class="tm-stat"><span class="tm-stat-num">${agg.onTarget}</span><span class="tm-stat-label">On Target</span></div>
-      <div class="tm-stat"><span class="tm-stat-num">${agg.corners}</span><span class="tm-stat-label">Corners</span></div>
-      <div class="tm-stat"><span class="tm-stat-num">${agg.yellows}</span><span class="tm-stat-label">Yellows</span></div>
-      <div class="tm-stat"><span class="tm-stat-num">${agg.reds}</span><span class="tm-stat-label">Reds</span></div>
-    </div>` : '';
-
-  // Remove any existing team modal
-  document.getElementById('team-modal-overlay')?.remove();
-
-  const overlay = document.createElement('div');
-  overlay.id = 'team-modal-overlay';
   overlay.innerHTML = `
     <div class="team-modal">
       <button class="team-modal-close" id="team-modal-close" aria-label="Close">✕</button>
@@ -1657,7 +1755,7 @@ function openTeamModal(teamName) {
         </div>
       </div>
       ${recordHtml}
-      ${aggHtml}
+      <div id="tm-stats-section" class="tm-loading">Loading stats…</div>
       <div class="tm-section-label">Results</div>
       ${teamMatchRows(teamName)}
     </div>
@@ -1671,8 +1769,195 @@ function openTeamModal(teamName) {
   document.getElementById('team-modal-close').addEventListener('click', close);
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); }, { once: true });
-
   requestAnimationFrame(() => overlay.classList.add('tm-in'));
+
+  // Fetch historical ESPN data for each finished match day
+  const finished = state.matches.filter(m =>
+    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED'
+  );
+  const espnDataByMatch = new Map();
+  if (finished.length) {
+    const dates = [...new Set(finished.map(m => kickoffToDateStr(m.kickoff)).filter(Boolean))];
+    await Promise.all(dates.map(async dateStr => {
+      const events = await fetchESPNDate(dateStr);
+      for (const m of finished) {
+        if (kickoffToDateStr(m.kickoff) !== dateStr) continue;
+        const found = findESPNEvent(events, m.homeTeam, m.awayTeam);
+        if (found) {
+          const parsed = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
+          espnDataByMatch.set(m.matchNum, parsed);
+        }
+      }
+    }));
+  }
+
+  const agg = teamStatsAggregate(teamName, espnDataByMatch);
+  const statsEl = document.getElementById('tm-stats-section');
+  if (statsEl) {
+    statsEl.classList.remove('tm-loading');
+    if (agg) {
+      statsEl.innerHTML = `
+        <div class="tm-section-label">Avg per match (${agg.n} played)</div>
+        <div class="tm-agg-grid">
+          <div class="tm-stat"><span class="tm-stat-num">${agg.poss}%</span><span class="tm-stat-label">Possession</span></div>
+          <div class="tm-stat"><span class="tm-stat-num">${agg.shots}</span><span class="tm-stat-label">Shots</span></div>
+          <div class="tm-stat"><span class="tm-stat-num">${agg.onTarget}</span><span class="tm-stat-label">On Target</span></div>
+          <div class="tm-stat"><span class="tm-stat-num">${agg.corners}</span><span class="tm-stat-label">Corners</span></div>
+          <div class="tm-stat"><span class="tm-stat-num">${agg.fouls}</span><span class="tm-stat-label">Fouls</span></div>
+          <div class="tm-stat"><span class="tm-stat-num">${agg.yellows}</span><span class="tm-stat-label">Yellows</span></div>
+          <div class="tm-stat"><span class="tm-stat-num">${agg.reds}</span><span class="tm-stat-label">Reds</span></div>
+        </div>`;
+    } else {
+      statsEl.innerHTML = '';
+    }
+  }
+}
+
+// ===== MATCH DETAIL MODAL =====
+function matchTimelineHtml(timeline, homeTeam, awayTeam) {
+  if (!timeline.length) return '';
+  const icons = {
+    goal:    '⚽',
+    ownGoal: '⚽ (og)',
+    penalty: '⚽ (pen)',
+    yellow:  '<span class="ycard">Y</span>',
+    red:     '<span class="rcard">R</span>',
+  };
+  const rows = timeline.map(ev => {
+    let icon;
+    if (ev.isGoal && ev.isOwnGoal) icon = icons.ownGoal;
+    else if (ev.isGoal && ev.isPenalty) icon = icons.penalty;
+    else if (ev.isGoal) icon = icons.goal;
+    else if (ev.isRed) icon = icons.red;
+    else if (ev.isYellow) icon = icons.yellow;
+    else return '';
+    const side = ev.isHome ? 'home' : 'away';
+    return `<div class="mdm-tl-row mdm-tl-${side}">
+      <span class="mdm-tl-min">${ev.minute}'</span>
+      <span class="mdm-tl-icon">${icon}</span>
+      <span class="mdm-tl-player">${ev.player}</span>
+    </div>`;
+  }).filter(Boolean);
+  if (!rows.length) return '';
+  return `<div class="tm-section-label">Timeline</div><div class="mdm-timeline">${rows.join('')}</div>`;
+}
+
+function matchDetailStatsHtml(espnData, match) {
+  const { stats, headline } = espnData;
+  const h = stats.home, a = stats.away;
+  const ph = h.possessionPct?.toFixed(0) ?? 0;
+  const pa = a.possessionPct?.toFixed(0) ?? 0;
+  const hColor = espnData.colors?.home || '#2563EB';
+  const aColor = espnData.colors?.away || '#7C3AED';
+  const barStyle = `background: linear-gradient(to right, ${hColor} ${ph}%, ${aColor} ${ph}%)`;
+
+  const rows = [];
+  if (h.totalShots || a.totalShots) rows.push([h.totalShots||0, 'Shots', a.totalShots||0]);
+  if (h.shotsOnTarget || a.shotsOnTarget) rows.push([h.shotsOnTarget||0, 'On Target', a.shotsOnTarget||0]);
+  if (h.wonCorners || a.wonCorners) rows.push([h.wonCorners||0, 'Corners', a.wonCorners||0]);
+  if (h.foulsCommitted || a.foulsCommitted) rows.push([h.foulsCommitted||0, 'Fouls', a.foulsCommitted||0]);
+  const yh = h.yellowCards||0, ya = a.yellowCards||0;
+  if (yh || ya) rows.push([`<span class="ycard">${yh}</span>`, 'Yellows', `<span class="ycard">${ya}</span>`]);
+  const rh = h.redCards||0, ra = a.redCards||0;
+  if (rh || ra) rows.push([`<span class="rcard">${rh}</span>`, 'Reds', `<span class="rcard">${ra}</span>`]);
+
+  return `
+    <div class="tm-section-label">Stats</div>
+    <div class="mdm-poss">
+      <span style="color:${hColor};font-weight:700">${ph}%</span>
+      <div class="mdm-poss-bar" style="${barStyle}"></div>
+      <span style="color:${aColor};font-weight:700">${pa}%</span>
+    </div>
+    <div class="mdm-poss-label">Possession</div>
+    ${rows.length ? `<div class="mdm-stats-grid">${rows.map(([hv,l,av]) =>
+      `<span class="mdm-sg-h">${hv}</span><span class="mdm-sg-l">${l}</span><span class="mdm-sg-a">${av}</span>`
+    ).join('')}</div>` : ''}
+    ${headline ? `<div class="mdm-headline">"${headline}"</div>` : ''}
+  `;
+}
+
+async function openMatchModal(matchNum) {
+  const match = state.matches.find(m => m.matchNum === matchNum);
+  if (!match) return;
+
+  const isHome = true;
+  const homeWon = match.homeScore !== null && match.awayScore !== null && match.homeScore > match.awayScore;
+  const awayWon = match.homeScore !== null && match.awayScore !== null && match.awayScore > match.homeScore;
+  const hasScore = match.status === 'FINISHED' || match.status === 'IN_PLAY' || match.status === 'PAUSED';
+  const stageName = match.stage === 'Group Stage' && match.group ? `Group ${match.group}` : (match.stage || '');
+  const kickoffFmt = match.kickoff
+    ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles', timeZoneName: 'short' })
+    : '';
+
+  document.getElementById('match-modal-overlay')?.remove();
+
+  const overlay = document.createElement('div');
+  overlay.id = 'match-modal-overlay';
+  overlay.innerHTML = `
+    <div class="team-modal match-modal">
+      <button class="team-modal-close" id="match-modal-close" aria-label="Close">✕</button>
+      <div class="mdm-stage">${stageName}</div>
+      <div class="mdm-teams">
+        <div class="mdm-team ${homeWon ? 'winner' : awayWon ? 'loser' : ''}">
+          ${flagImg(match.homeIso, match.homeTeam)}
+          <span class="mdm-team-name">${match.homeTeam}</span>
+        </div>
+        <div class="mdm-score">${hasScore ? `${match.homeScore} – ${match.awayScore}` : 'vs'}</div>
+        <div class="mdm-team ${awayWon ? 'winner' : homeWon ? 'loser' : ''}">
+          <span class="mdm-team-name">${match.awayTeam}</span>
+          ${flagImg(match.awayIso, match.awayTeam)}
+        </div>
+      </div>
+      <div class="mdm-meta">${[kickoffFmt, match.venue].filter(Boolean).join(' · ')}</div>
+      <div id="mdm-body"><div class="tm-loading">Loading match data…</div></div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const close = () => {
+    overlay.classList.add('tm-out');
+    overlay.addEventListener('animationend', () => overlay.remove(), { once: true });
+  };
+  document.getElementById('match-modal-close').addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); }, { once: true });
+  requestAnimationFrame(() => overlay.classList.add('tm-in'));
+
+  const dateStr = kickoffToDateStr(match.kickoff);
+  const body = document.getElementById('mdm-body');
+
+  if (!hasScore || !dateStr) {
+    body.innerHTML = `<div class="mdm-meta" style="margin-top:12px;">No match data available yet.</div>`;
+    return;
+  }
+
+  // Use already-fetched in-memory ESPN data if available (live/today), else fetch historical
+  let espnData = null;
+  if (match._espnStats) {
+    espnData = {
+      stats: match._espnStats,
+      timeline: [], // live feed doesn't include full timeline with minutes in same format
+      headline: match._espnHeadline || null,
+      colors: match._espnColors || null,
+    };
+    // Still fetch historical for full timeline
+    const events = await fetchESPNDate(dateStr);
+    const found = findESPNEvent(events, match.homeTeam, match.awayTeam);
+    if (found) espnData = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
+  } else {
+    const events = await fetchESPNDate(dateStr);
+    const found = findESPNEvent(events, match.homeTeam, match.awayTeam);
+    if (found) espnData = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
+  }
+
+  if (!body) return; // modal may have been closed while fetching
+  if (!espnData) {
+    body.innerHTML = `<div class="mdm-meta" style="margin-top:12px;">ESPN data not available for this match.</div>`;
+    return;
+  }
+
+  const attendance = espnData.attendance ? `<div class="mdm-meta">Attendance: ${espnData.attendance.toLocaleString()}</div>` : '';
+  body.innerHTML = attendance + matchTimelineHtml(espnData.timeline, match.homeTeam, match.awayTeam) + matchDetailStatsHtml(espnData, match);
 }
 
 // Delegated click handler for team links throughout the app
@@ -1681,6 +1966,17 @@ document.addEventListener('click', e => {
   if (!link) return;
   const teamName = link.dataset.team;
   if (teamName) { e.stopPropagation(); openTeamModal(teamName); }
+});
+
+// Delegated click handler for match score column
+document.addEventListener('click', e => {
+  if (e.target.closest('.team-link, .flag-link')) return; // let team handler take it
+  const scoreCol = e.target.closest('.score-col');
+  if (!scoreCol) return;
+  const card = scoreCol.closest('.match-card[data-matchnum]');
+  if (!card) return;
+  const matchNum = parseInt(card.dataset.matchnum, 10);
+  if (matchNum) openMatchModal(matchNum);
 });
 
 // ===== INIT =====
