@@ -11,6 +11,14 @@ const state = {
   syncInterval: null,
   espnInterval: null,
   espnSynced: false,
+  // Notification tracking
+  _seenMatchStart: new Set(),   // matchNum
+  _seenGoals: new Set(),        // matchNum:homeScore:awayScore
+  _seenMatchEnd: new Set(),     // matchNum
+  _audioArmed: false,
+  _audioCtx: null,
+  _notifQueue: [],
+  _notifActive: false,
 };
 
 // ===== TEAM DATA =====
@@ -40,6 +48,285 @@ const SLOT_TO_OPPONENT = {
   "3DEIJL": "1K",
   "3EHIJK": "1L"
 };
+
+// ===== NOTIFICATIONS & ANIMATIONS =====
+
+// Arm audio on first user gesture (browser autoplay policy)
+function armAudio() {
+  if (state._audioArmed) return;
+  state._audioArmed = true;
+  state._audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+}
+document.addEventListener('click', armAudio, { once: true });
+document.addEventListener('keydown', armAudio, { once: true });
+
+function playSound(type) {
+  if (!state._audioArmed || !state._audioCtx) return;
+  const ctx = state._audioCtx;
+  const now = ctx.currentTime;
+
+  if (type === 'whistle') {
+    // Single referee whistle — short sine wave burst
+    [0, 0.05].forEach((delay, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(2700 + i * 120, now + delay);
+      osc.frequency.linearRampToValueAtTime(2900 + i * 120, now + delay + 0.25);
+      gain.gain.setValueAtTime(0, now + delay);
+      gain.gain.linearRampToValueAtTime(0.18, now + delay + 0.04);
+      gain.gain.setValueAtTime(0.18, now + delay + 0.22);
+      gain.gain.linearRampToValueAtTime(0, now + delay + 0.38);
+      osc.start(now + delay); osc.stop(now + delay + 0.4);
+    });
+  } else if (type === 'double_whistle') {
+    // Two short pip-pip for full time
+    [0, 0.28, 0.56].forEach(delay => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.value = 2850;
+      gain.gain.setValueAtTime(0, now + delay);
+      gain.gain.linearRampToValueAtTime(0.16, now + delay + 0.03);
+      gain.gain.setValueAtTime(0.16, now + delay + 0.14);
+      gain.gain.linearRampToValueAtTime(0, now + delay + 0.22);
+      osc.start(now + delay); osc.stop(now + delay + 0.25);
+    });
+  } else if (type === 'cheer') {
+    // Crowd cheer — burst of band-pass filtered noise
+    const bufSize = ctx.sampleRate * 1.8;
+    const buf = ctx.createBuffer(1, bufSize, ctx.sampleRate);
+    const data = buf.getChannelData(0);
+    for (let i = 0; i < bufSize; i++) data[i] = Math.random() * 2 - 1;
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    const bpf = ctx.createBiquadFilter();
+    bpf.type = 'bandpass'; bpf.frequency.value = 900; bpf.Q.value = 0.8;
+    const gain = ctx.createGain();
+    src.connect(bpf); bpf.connect(gain); gain.connect(ctx.destination);
+    gain.gain.setValueAtTime(0, now);
+    gain.gain.linearRampToValueAtTime(0.22, now + 0.12);
+    gain.gain.setValueAtTime(0.22, now + 0.8);
+    gain.gain.linearRampToValueAtTime(0, now + 1.8);
+    src.start(now); src.stop(now + 1.8);
+  }
+}
+
+// ---- Confetti ----
+function launchConfetti() {
+  const canvas = document.getElementById('notif-confetti');
+  if (!canvas) return;
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  canvas.style.display = 'block';
+  const ctx = canvas.getContext('2d');
+  const colors = ['#2563EB','#7C3AED','#DC2626','#EA580C','#16A34A','#F59E0B','#EC4899','#06B6D4'];
+  const pieces = Array.from({ length: 120 }, () => ({
+    x: Math.random() * canvas.width,
+    y: -20 - Math.random() * 200,
+    r: 5 + Math.random() * 6,
+    color: colors[Math.floor(Math.random() * colors.length)],
+    vx: (Math.random() - 0.5) * 3,
+    vy: 2 + Math.random() * 4,
+    spin: (Math.random() - 0.5) * 0.2,
+    angle: Math.random() * Math.PI * 2,
+    shape: Math.random() > 0.4 ? 'rect' : 'circle',
+  }));
+  let frame;
+  let done = false;
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let alive = 0;
+    for (const p of pieces) {
+      p.x += p.vx; p.y += p.vy; p.angle += p.spin; p.vy += 0.06;
+      if (p.y < canvas.height + 20) alive++;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.angle);
+      ctx.fillStyle = p.color;
+      if (p.shape === 'rect') ctx.fillRect(-p.r, -p.r / 2, p.r * 2, p.r);
+      else { ctx.beginPath(); ctx.arc(0, 0, p.r / 2, 0, Math.PI * 2); ctx.fill(); }
+      ctx.restore();
+    }
+    if (alive > 0 && !done) frame = requestAnimationFrame(draw);
+    else canvas.style.display = 'none';
+  }
+  if (frame) cancelAnimationFrame(frame);
+  draw();
+  return () => { done = true; canvas.style.display = 'none'; };
+}
+
+// ---- Floating balls (match start) ----
+function launchBalls() {
+  const container = document.getElementById('notif-balls');
+  if (!container) return;
+  container.innerHTML = '';
+  container.style.display = 'block';
+  for (let i = 0; i < 12; i++) {
+    const ball = document.createElement('span');
+    ball.textContent = '⚽';
+    const size = 24 + Math.random() * 32;
+    const startX = Math.random() * 100;
+    const delay = Math.random() * 2;
+    const dur = 2.5 + Math.random() * 2;
+    ball.style.cssText = `
+      position:absolute; font-size:${size}px;
+      left:${startX}vw; bottom:-${size}px;
+      animation: ballFloat ${dur}s ${delay}s ease-in-out infinite alternate;
+      opacity: ${0.4 + Math.random() * 0.5};
+    `;
+    container.appendChild(ball);
+  }
+  return () => { container.style.display = 'none'; container.innerHTML = ''; };
+}
+
+// ---- Modal system ----
+function buildNotifDOM() {
+  if (document.getElementById('notif-overlay')) return;
+
+  // Confetti canvas (sits above everything)
+  const canvas = document.createElement('canvas');
+  canvas.id = 'notif-confetti';
+  canvas.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:9999;display:none;';
+  document.body.appendChild(canvas);
+
+  // Floating balls container
+  const balls = document.createElement('div');
+  balls.id = 'notif-balls';
+  balls.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:9998;display:none;overflow:hidden;';
+  document.body.appendChild(balls);
+
+  // Overlay backdrop + modal
+  const overlay = document.createElement('div');
+  overlay.id = 'notif-overlay';
+  overlay.innerHTML = `
+    <div id="notif-modal">
+      <button id="notif-close" aria-label="Close">✕</button>
+      <div id="notif-body"></div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  document.getElementById('notif-close').addEventListener('click', dismissNotif);
+  overlay.addEventListener('click', e => { if (e.target === overlay) dismissNotif(); });
+}
+
+let _stopBalls = null;
+let _stopConfetti = null;
+
+function dismissNotif() {
+  const overlay = document.getElementById('notif-overlay');
+  if (overlay) overlay.classList.remove('active');
+  if (_stopBalls) { _stopBalls(); _stopBalls = null; }
+  if (_stopConfetti) { _stopConfetti(); _stopConfetti = null; }
+  // Process next in queue
+  state._notifActive = false;
+  if (state._notifQueue.length) {
+    const next = state._notifQueue.shift();
+    setTimeout(() => showNotif(next), 400);
+  }
+}
+
+function showNotif(notif) {
+  buildNotifDOM();
+  state._notifActive = true;
+  const overlay = document.getElementById('notif-overlay');
+  const body = document.getElementById('notif-body');
+  const modal = document.getElementById('notif-modal');
+  if (!overlay || !body) return;
+
+  modal.className = 'notif-' + notif.type;
+  body.innerHTML = notif.html;
+  overlay.classList.add('active');
+
+  if (notif.type === 'kickoff') {
+    playSound('whistle');
+    _stopBalls = launchBalls();
+  } else if (notif.type === 'goal') {
+    playSound('cheer');
+    _stopConfetti = launchConfetti();
+  } else if (notif.type === 'final') {
+    playSound('double_whistle');
+  }
+}
+
+function queueNotif(notif) {
+  if (state._notifActive) {
+    state._notifQueue.push(notif);
+  } else {
+    showNotif(notif);
+  }
+}
+
+function kickoffNotifHtml(match) {
+  const meta = TEAM_MASTER_DATA[match.homeTeam];
+  const group = meta?.group ? `Group ${meta.group}` : (match.stage || '');
+  return `
+    <div class="notif-eyebrow">⚽ Kick Off!</div>
+    <div class="notif-teams">
+      <div class="notif-team">
+        ${flagImg(match.homeIso, match.homeTeam)}
+        <span>${match.homeTeam}</span>
+      </div>
+      <div class="notif-vs">vs</div>
+      <div class="notif-team">
+        ${flagImg(match.awayIso, match.awayTeam)}
+        <span>${match.awayTeam}</span>
+      </div>
+    </div>
+    <div class="notif-sub">${group}${match.venue ? ' · ' + match.venue : ''}</div>
+  `;
+}
+
+function goalNotifHtml(match, scoringTeam, scorerLabel) {
+  const scoringIso = scoringTeam === match.homeTeam ? match.homeIso : match.awayIso;
+  return `
+    <div class="notif-goal-icon">⚽</div>
+    <div class="notif-eyebrow notif-goal-word">GOAL!</div>
+    <div class="notif-goal-team">
+      ${flagImg(scoringIso, scoringTeam)}
+      <span>${scoringTeam}</span>
+    </div>
+    ${scorerLabel ? `<div class="notif-scorer">${scorerLabel}</div>` : ''}
+    <div class="notif-score">${match.homeTeam} ${match.homeScore} – ${match.awayScore} ${match.awayTeam}</div>
+  `;
+}
+
+function finalNotifHtml(match) {
+  const homeWon = match.homeScore > match.awayScore;
+  const awayWon = match.awayScore > match.homeScore;
+  const meta = TEAM_MASTER_DATA[match.homeTeam];
+  const group = meta?.group ? `Group ${meta.group}` : (match.stage || '');
+  const s = match._espnStats;
+  const statsHtml = s ? (() => {
+    const ph = Math.round(s.home?.possessionPct ?? s.home?.possession ?? 50);
+    const pa = 100 - ph;
+    const hColor = match._espnColors?.home || '#2563EB';
+    const aColor = match._espnColors?.away || '#DC2626';
+    const barStyle = `background:linear-gradient(to right,${hColor} ${Math.max(0,ph-20)}%,${aColor} ${Math.min(100,ph+20)}%)`;
+    return `<div class="notif-poss">
+      <span style="color:${hColor}">${ph}%</span>
+      <div class="notif-poss-bar" style="${barStyle}"></div>
+      <span style="color:${aColor}">${pa}%</span>
+    </div>`;
+  })() : '';
+  return `
+    <div class="notif-eyebrow">🏁 Full Time</div>
+    <div class="notif-teams">
+      <div class="notif-team ${homeWon ? 'winner' : awayWon ? 'loser' : ''}">
+        ${flagImg(match.homeIso, match.homeTeam)}
+        <span>${match.homeTeam}</span>
+      </div>
+      <div class="notif-final-score">${match.homeScore} – ${match.awayScore}</div>
+      <div class="notif-team ${awayWon ? 'winner' : homeWon ? 'loser' : ''}">
+        ${flagImg(match.awayIso, match.awayTeam)}
+        <span>${match.awayTeam}</span>
+      </div>
+    </div>
+    <div class="notif-sub">${group}</div>
+    ${statsHtml}
+  `;
+}
 
 // ===== ESPN INTEGRATION =====
 
@@ -97,6 +384,13 @@ async function fetchESPN() {
 
 function mergeESPNData(espnEvents) {
   let changed = false;
+
+  // Snapshot pre-update state for event detection (skip on first load when seen-sets are empty)
+  const isFirstLoad = state._seenMatchStart.size === 0 && state._seenGoals.size === 0 && state._seenMatchEnd.size === 0;
+  const prevState = {};
+  for (const m of state.matches) {
+    prevState[m.matchNum] = { status: m.status, homeScore: m.homeScore, awayScore: m.awayScore };
+  }
 
   for (const event of espnEvents) {
     const comp = event.competitions?.[0];
@@ -190,6 +484,52 @@ function mergeESPNData(espnEvents) {
 
     // Headline (recap summary)
     match._espnHeadline = comp.headlines?.[0]?.description || null;
+  }
+
+  // ---- Event detection ----
+  if (isFirstLoad) {
+    // First ESPN poll — baseline everything as already seen; fire nothing
+    for (const m of state.matches) {
+      state._seenMatchStart.add(m.matchNum);
+      state._seenMatchEnd.add(m.matchNum);
+      if (m.homeScore !== null && m.awayScore !== null) {
+        state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
+      }
+    }
+  } else {
+    // Subsequent polls — compare prev snapshot vs current state
+    for (const m of state.matches) {
+      const prev = prevState[m.matchNum];
+      if (!prev) continue;
+
+      // Match kicked off
+      if (prev.status === 'SCHEDULED' && m.status === 'IN_PLAY' && !state._seenMatchStart.has(m.matchNum)) {
+        state._seenMatchStart.add(m.matchNum);
+        queueNotif({ type: 'kickoff', html: kickoffNotifHtml(m) });
+      }
+
+      // Goal scored — score increased while match is active or just finished
+      if (m.homeScore !== null && m.awayScore !== null &&
+          (m.status === 'IN_PLAY' || m.status === 'PAUSED' || m.status === 'FINISHED')) {
+        const scoreKey = `${m.matchNum}:${m.homeScore}:${m.awayScore}`;
+        if (!state._seenGoals.has(scoreKey) &&
+            (m.homeScore > (prev.homeScore ?? 0) || m.awayScore > (prev.awayScore ?? 0))) {
+          state._seenGoals.add(scoreKey);
+          const homeScored = m.homeScore > (prev.homeScore ?? 0);
+          const scoringTeam = homeScored ? m.homeTeam : m.awayTeam;
+          const scorerList = homeScored ? m._espnEvents?.home : m._espnEvents?.away;
+          const scorerLabel = scorerList?.length ? scorerList[scorerList.length - 1] : '';
+          queueNotif({ type: 'goal', html: goalNotifHtml(m, scoringTeam, scorerLabel) });
+        }
+      }
+
+      // Match finished
+      if ((prev.status === 'IN_PLAY' || prev.status === 'PAUSED') &&
+          m.status === 'FINISHED' && !state._seenMatchEnd.has(m.matchNum)) {
+        state._seenMatchEnd.add(m.matchNum);
+        queueNotif({ type: 'final', html: finalNotifHtml(m) });
+      }
+    }
   }
 
   state.lastUpdated = new Date().toISOString();
@@ -1149,6 +1489,45 @@ async function init() {
   // data.json: re-fetch every 2 minutes for schedule/standings/knockout updates
   if (state.syncInterval) clearInterval(state.syncInterval);
   state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
+
+  // ---- Test / debug harness ----
+  const testMatch = {
+    matchNum: 0, stage: 'Group Stage', group: 'J',
+    homeTeam: 'Argentina', homeIso: 'ar', homeScore: 1,
+    awayTeam: 'Algeria',   awayIso: 'dz', awayScore: 0,
+    venue: 'Arrowhead Stadium, Kansas City',
+    status: 'IN_PLAY',
+    _espnEvents: { home: ['L. Messi 37\''], away: [] },
+    _espnStats: { home: { possessionPct: 62 }, away: { possessionPct: 38 } },
+    _espnColors: { home: '#75AADB', away: '#006233' },
+    _espnHeadline: null,
+  };
+
+  window.testNotif = (type) => {
+    armAudio();
+    if (type === 'kickoff') {
+      queueNotif({ type: 'kickoff', html: kickoffNotifHtml({ ...testMatch, homeScore: null, awayScore: null, status: 'SCHEDULED' }) });
+    } else if (type === 'goal') {
+      queueNotif({ type: 'goal', html: goalNotifHtml(testMatch, 'Argentina', 'L. Messi 37\'') });
+    } else if (type === 'final') {
+      queueNotif({ type: 'final', html: finalNotifHtml({ ...testMatch, status: 'FINISHED', homeScore: 2, awayScore: 1 }) });
+    } else {
+      console.log('Usage: testNotif("kickoff" | "goal" | "final")');
+    }
+  };
+
+  // Debug panel — only shown when URL contains ?debug
+  if (new URLSearchParams(location.search).has('debug')) {
+    const panel = document.createElement('div');
+    panel.id = 'debug-panel';
+    panel.innerHTML = `
+      <span style="font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--ink-3);text-transform:uppercase;">Test alerts</span>
+      <button onclick="testNotif('kickoff')">⚽ Kickoff</button>
+      <button onclick="testNotif('goal')">🥅 Goal</button>
+      <button onclick="testNotif('final')">🏁 Full Time</button>
+    `;
+    document.body.appendChild(panel);
+  }
 }
 
 init();
