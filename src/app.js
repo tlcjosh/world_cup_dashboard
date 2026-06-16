@@ -7,6 +7,7 @@ const state = {
   currentView: 'dashboard',
   teamFilter: null,
   lastUpdated: null,
+  fdLastUpdated: null,
   tickInterval: null,
   syncInterval: null,
   espnInterval: null,
@@ -597,8 +598,7 @@ function mergeESPNData(espnEvents) {
   state.lastUpdated = new Date().toISOString();
   state.espnSynced  = true;
 
-  const syncEl = document.getElementById('last-sync');
-  if (syncEl) syncEl.textContent = 'just now (ESPN)';
+  updateSyncPill('just now (ESPN)');
 
   const header = document.getElementById('app-header');
   if (header) {
@@ -635,6 +635,22 @@ function formatKickoff(isoStr) {
     }).format(new Date(isoStr));
   } catch (e) {
     return isoStr;
+  }
+}
+
+function updateSyncPill(text) {
+  const el = document.getElementById('last-sync');
+  if (!el) return;
+  el.textContent = text;
+  const pill = el.closest('.sync-pill');
+  if (pill && state.fdLastUpdated) {
+    const fd = new Date(state.fdLastUpdated);
+    const formatted = fd.toLocaleString('en-US', {
+      timeZone: 'America/Los_Angeles',
+      weekday: 'short', month: 'short', day: 'numeric',
+      hour: 'numeric', minute: '2-digit', hour12: true
+    });
+    pill.title = `football-data.org last synced: ${formatted} PT`;
   }
 }
 
@@ -1459,16 +1475,14 @@ async function fetchData() {
     state.matches = data.matches || [];
     state.standings = data.standings || {};
     state.lastUpdated = data.lastUpdated || null;
+    state.fdLastUpdated = data.lastUpdated || null;
 
     if (combRes.ok) {
       state.combinations = await combRes.json();
     }
 
     // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
-    if (!state.espnSynced) {
-      const syncEl = document.getElementById('last-sync');
-      if (syncEl) syncEl.textContent = formatLastSync(state.lastUpdated);
-    }
+    if (!state.espnSynced) updateSyncPill(formatLastSync(state.lastUpdated));
 
     // Flash header
     const header = document.getElementById('app-header');
@@ -1499,10 +1513,9 @@ function tick() {
   });
 
   // Also update last-sync display
-  const syncEl = document.getElementById('last-sync');
-  if (syncEl && state.lastUpdated) {
+  if (state.lastUpdated) {
     const label = formatLastSync(state.lastUpdated);
-    syncEl.textContent = state.espnSynced ? label + ' (ESPN)' : label;
+    updateSyncPill(state.espnSynced ? label + ' (ESPN)' : label);
   }
 }
 
