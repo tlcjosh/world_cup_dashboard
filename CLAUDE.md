@@ -68,7 +68,7 @@ Light modern theme — no CSS framework. All design tokens live in `:root` in `s
 
 5. **`.match-headline`** (optional) — italic ESPN recap summary sentence.
 
-6. **Live commentary** (optional, in-play only) — most recent comment from ESPN summary endpoint, rendered beneath the headline. Fetched separately via `fetchESPNCommentary()` for each in-play match that has an `espnEventId`; last 5 comments stored in `match._espnCommentary`.
+6. **Live commentary** (optional, in-play only) — most recent comment from ESPN summary endpoint, rendered beneath the headline, with `‹`/`›` scroll buttons (`.mc-btn`) and an `N/total` counter (`.mc-count`) to step back through older comments. Fetched separately via `fetchESPNCommentary()` for each in-play match that has an `espnEventId`; last 5 comments stored in `match._espnCommentary`. Rendered by `commentaryInnerHtml()`, which tracks the displayed comment by `match._commentarySeq` (not a raw index) so the position survives refetches, snapping back to the latest comment if it scrolls out of the 5-item buffer. The fade-in on text change is the `mc-fade-in` keyframe animation, replayed via the `.mc-anim` class toggle.
 
 Live cards get a CSS gradient border via `background: linear-gradient(surface, surface) padding-box, grad-live border-box`.
 
@@ -114,6 +114,7 @@ The Dashboard view renders:
 | Stats pill | `.match-stats`, `.stats-poss`, `.stats-poss-bar`, `.stats-grid`, `.sg-h/.sg-l/.sg-a` |
 | Card icons | `.ycard`, `.rcard` |
 | Headline | `.match-headline` |
+| Live commentary | `.match-commentary`, `.mc-text`, `.mc-nav`, `.mc-btn`, `.mc-count`, `.mc-anim` |
 | Condensed table | `.condensed` (reduced padding, smaller font — used in dashboard standings widget) |
 | Brackets | `.b-match`, `.b-slot`, `.b-team`, `.b-team-name`, `.b-score`, `.b-num`, `.b-div` |
 | Round wrapper | `.bracket-round.r32/.r16/.rqf/.rsf/.rfin` |
@@ -157,6 +158,8 @@ After each scoreboard poll, `fetchESPNCommentary(match)` is called for every in-
 {ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event={espnEventId}
 ```
 Parses `data.commentary[]`, sorts by sequence, stores last 5 comments in `match._espnCommentary`. Renders on live match cards beneath the headline. Fails silently if unavailable.
+
+**Scrolling through commentary**: each card shows one comment at a time (latest by default) plus `‹`/`›` buttons to step through the buffered last 5. A delegated click handler (`.mc-btn`) finds the match by `data-matchnum`, moves `match._commentarySeq` to the next/previous item's `sequence`, and re-renders just that card's `.match-commentary` node (via `commentaryInnerHtml()`) rather than the whole view, replaying the `mc-fade-in` animation. `_commentarySeq` is preserved across `mergeESPNData()` (object mutated in place) and across `fetchData()`'s `data.json` merges (listed in `ESPN_FIELDS`), so a user's scroll position survives both the 30s ESPN poll and the 2-minute data.json refresh — unless the comment they were viewing ages out of the 5-item buffer, in which case it snaps back to the latest comment.
 
 ### ESPN Date Cache (historical data)
 `fetchESPNDate(dateStr)` fetches `?dates=YYYYMMDD` and caches the result in `state._espnDateCache[dateStr]`. Used when opening team profile modals to get per-match stat breakdowns for historical matches that are no longer in today's scoreboard feed.
@@ -220,6 +223,7 @@ ESPN status names → our internal status values:
 | `_espnColors` | `{home:string, away:string}` | Hex color strings (`#rrggbb`) for each team. Auto-falls back to `alternateColor` when primary is near-white. Used for the possession bar gradient. |
 | `_espnHeadline` | string\|null | Recap summary from `competitions[0].headlines[0].description`. Shown as italic sentence below stats. |
 | `_espnCommentary` | string[]\|null | Last 5 live commentary lines from ESPN summary endpoint. Only populated for in-play matches. |
+| `_commentarySeq` | number\|undefined | `sequence` of the commentary item currently displayed (user's scroll position). Undefined = show latest (index 0). |
 
 ### `data.json` standings object
 ```json
