@@ -6,5 +6,10 @@
   "scripts": {
     "update": "node scripts/update_tracker.js"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "canvas": "^3.2.3"
+  }
 }
