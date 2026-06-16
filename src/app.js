@@ -138,8 +138,9 @@ function mergeESPNData(espnEvents) {
 
     // Goal events for scorer display
     const homeId = homeComp.team.id;
+    const details = comp.details || [];
     const matchEvents = { home: [], away: [] };
-    for (const d of (comp.details || [])) {
+    for (const d of details) {
       if (!d.scoreValue || d.scoreValue < 1) continue;
       const player = d.athletesInvolved?.[0]?.shortName || d.athletesInvolved?.[0]?.displayName || '';
       const time   = d.clock?.displayValue || '';
@@ -150,12 +151,32 @@ function mergeESPNData(espnEvents) {
     if (swapped) [matchEvents.home, matchEvents.away] = [matchEvents.away, matchEvents.home];
     match._espnEvents = matchEvents;
 
-    // Team stats for live stats strip
+    // Team stats — ESPN uses displayValue (string), not value
     const hStats = {};
-    for (const s of (homeComp.statistics || [])) hStats[s.name] = s.value ?? null;
+    for (const s of (homeComp.statistics || [])) {
+      hStats[s.name] = s.value !== undefined ? s.value : parseFloat(s.displayValue);
+    }
     const aStats = {};
-    for (const s of (awayComp.statistics || [])) aStats[s.name] = s.value ?? null;
+    for (const s of (awayComp.statistics || [])) {
+      aStats[s.name] = s.value !== undefined ? s.value : parseFloat(s.displayValue);
+    }
+
+    // Derive card counts from details (not in stats array)
+    let homeYellow = 0, awayYellow = 0, homeRed = 0, awayRed = 0;
+    for (const d of details) {
+      const isHome = d.team?.id === homeId;
+      if (d.yellowCard) { isHome ? homeYellow++ : awayYellow++; }
+      if (d.redCard)    { isHome ? homeRed++    : awayRed++;    }
+    }
+    hStats.yellowCards = homeYellow;
+    aStats.yellowCards = awayYellow;
+    hStats.redCards    = homeRed;
+    aStats.redCards    = awayRed;
+
     match._espnStats = swapped ? { home: aStats, away: hStats } : { home: hStats, away: aStats };
+
+    // Headline (recap summary)
+    match._espnHeadline = comp.headlines?.[0]?.description || null;
   }
 
   state.lastUpdated = new Date().toISOString();
@@ -391,27 +412,30 @@ function espnEventsHtml(match) {
 }
 
 function espnStatsHtml(match) {
-  if (match.status !== 'IN_PLAY' && match.status !== 'PAUSED') return '';
   const s = match._espnStats;
   if (!s) return '';
   const h = s.home || {};
   const a = s.away || {};
   const poss = h.possessionPct ?? h.possession ?? null;
-  if (poss === null && h.totalShots === undefined && h.shots === undefined) return '';
+  if (!isFinite(poss) && !isFinite(h.totalShots) && !isFinite(h.shots)) return '';
 
-  const possH = poss !== null ? Math.round(poss) : 50;
+  const possH = isFinite(poss) ? Math.round(poss) : 50;
   const possA = 100 - possH;
 
   const rows = [];
   const sh = h.totalShots ?? h.shots, sa = a.totalShots ?? a.shots;
-  if (sh != null && sa != null) rows.push([sh, 'Shots', sa]);
+  if (isFinite(sh) && isFinite(sa)) rows.push([sh, 'Shots', sa]);
   const oh = h.shotsOnTarget, oa = a.shotsOnTarget;
-  if (oh != null && oa != null) rows.push([oh, 'On target', oa]);
-  const ch = h.cornerKicks ?? h.corners, ca = a.cornerKicks ?? a.corners;
-  if (ch != null && ca != null) rows.push([ch, 'Corners', ca]);
-  const yh = h.yellowCards, ya = a.yellowCards;
-  if (yh != null && ya != null) rows.push([
+  if (isFinite(oh) && isFinite(oa)) rows.push([oh, 'On target', oa]);
+  const ch = h.wonCorners ?? h.cornerKicks ?? h.corners, ca = a.wonCorners ?? a.cornerKicks ?? a.corners;
+  if (isFinite(ch) && isFinite(ca)) rows.push([ch, 'Corners', ca]);
+  const yh = h.yellowCards ?? 0, ya = a.yellowCards ?? 0;
+  if (yh > 0 || ya > 0) rows.push([
     `<span class="ycard">${yh}</span>`, 'Yellows', `<span class="ycard">${ya}</span>`
+  ]);
+  const rh = h.redCards ?? 0, ra = a.redCards ?? 0;
+  if (rh > 0 || ra > 0) rows.push([
+    `<span class="rcard">${rh}</span>`, 'Reds', `<span class="rcard">${ra}</span>`
   ]);
 
   return `<div class="match-stats">
@@ -449,33 +473,33 @@ function matchCardHtml(match, extraLabel) {
   }
 
   const venueText = match.venue || '';
-  const labelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
+  const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
+  const headlineHtml = match._espnHeadline
+    ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
   return `
     <div class="match-card ${isLive ? 'live' : ''}">
-      <div class="match-top">
-        <div class="match-inner">
-          <div class="match-home">
-            <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
-            ${flagImg(match.homeIso, match.homeTeam)}
-          </div>
-          <div class="score-col">
-            ${scoreHtml}
-            ${scoreSubHtml}
-          </div>
-          <div class="match-away">
-            ${flagImg(match.awayIso, match.awayTeam)}
-            <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
-          </div>
+      <div class="match-meta-bar">
+        <div class="match-meta-left">${statusBadge(match)}${extraLabelHtml}</div>
+        ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
+      </div>
+      <div class="match-teams">
+        <div class="match-home">
+          <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
+          ${flagImg(match.homeIso, match.homeTeam)}
         </div>
-        <div class="match-status">
-          ${statusBadge(match)}
-          ${labelHtml}
-          ${venueText ? `<div class="venue">${venueText}</div>` : ''}
+        <div class="score-col">
+          ${scoreHtml}
+          ${scoreSubHtml}
+        </div>
+        <div class="match-away">
+          ${flagImg(match.awayIso, match.awayTeam)}
+          <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
         </div>
       </div>
       ${hasScore ? espnEventsHtml(match) : ''}
       ${espnStatsHtml(match)}
+      ${headlineHtml}
     </div>
   `;
 }
