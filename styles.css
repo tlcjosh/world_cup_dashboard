@@ -854,16 +854,19 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 }
 .flag-link { display: inline-flex; align-items: center; }
 
-/* ===== TEAM MODAL ===== */
-#team-modal-overlay {
+/* ===== TEAM & MATCH MODAL SHARED OVERLAY ===== */
+#team-modal-overlay,
+#match-modal-overlay {
   position: fixed; inset: 0; z-index: 10000;
   background: rgba(0,0,0,.55); backdrop-filter: blur(4px);
   display: flex; align-items: center; justify-content: center;
   padding: 20px;
   opacity: 0;
 }
-#team-modal-overlay.tm-in { animation: tmFadeIn .2s ease forwards; }
-#team-modal-overlay.tm-out { animation: tmFadeOut .18s ease forwards; }
+#team-modal-overlay.tm-in,
+#match-modal-overlay.tm-in  { animation: tmFadeIn .2s ease forwards; }
+#team-modal-overlay.tm-out,
+#match-modal-overlay.tm-out { animation: tmFadeOut .18s ease forwards; }
 @keyframes tmFadeIn  { from { opacity: 0; } to { opacity: 1; } }
 @keyframes tmFadeOut { from { opacity: 1; } to { opacity: 0; } }
 
