@@ -356,44 +356,56 @@ function statusBadge(match) {
     return `<span class="badge badge-ht">HT</span>`;
   }
   if (match.status === 'FINISHED') {
-    return `<span class="badge badge-finished">FT</span>`;
+    return `<span class="badge badge-ft">FT</span>`;
   }
-  return `<span class="badge badge-scheduled">${match.kickoff ? formatKickoff(match.kickoff) : 'TBD'}</span>`;
+  return `<span class="badge badge-soon">${match.kickoff ? formatKickoff(match.kickoff) : 'TBD'}</span>`;
 }
 
-function scoreDisplay(match) {
-  if (match.status === 'FINISHED' || match.status === 'IN_PLAY' || match.status === 'PAUSED') {
-    const hs = match.homeScore !== null && match.homeScore !== undefined ? match.homeScore : '-';
-    const as = match.awayScore !== null && match.awayScore !== undefined ? match.awayScore : '-';
-    return `<span class="match-score">${hs} – ${as}</span>`;
-  }
-  return `<span class="match-score vs">vs</span>`;
-}
-
-function matchCardHtml(match) {
+function matchCardHtml(match, extraLabel) {
   const isLive = match.status === 'IN_PLAY' || match.status === 'PAUSED';
-  const minute = isLive ? getMatchMinute(match) : null;
-  const clockHtml = (match.status === 'IN_PLAY')
-    ? `<span class="match-clock" data-matchnum="${match.matchNum}">${minute || '1\''}</span>`
-    : (match.status === 'PAUSED' ? `<span class="match-clock">HT</span>` : '');
+  const hasScore = isLive || match.status === 'FINISHED';
+  const hs = hasScore && match.homeScore !== null && match.homeScore !== undefined ? match.homeScore : null;
+  const as = hasScore && match.awayScore !== null && match.awayScore !== undefined ? match.awayScore : null;
+  const homeWon = hs !== null && as !== null && hs > as;
+  const awayWon = hs !== null && as !== null && as > hs;
+  const homeClass = homeWon ? 'winner' : awayWon ? 'loser' : '';
+  const awayClass = awayWon ? 'winner' : homeWon ? 'loser' : '';
+
+  const scoreHtml = hasScore
+    ? `<div class="score">${hs !== null ? hs : '-'} – ${as !== null ? as : '-'}</div>`
+    : `<div class="score vs">vs</div>`;
+
+  let scoreSubHtml = '';
+  if (match.status === 'IN_PLAY') {
+    const minute = getMatchMinute(match);
+    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${minute || '1\''}</div>`;
+  } else if (match.status === 'PAUSED') {
+    scoreSubHtml = `<div class="score-sub live match-clock">HT</div>`;
+  }
+
+  const venueText = match.venue || '';
+  const labelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
 
   return `
     <div class="match-card ${isLive ? 'live' : ''}">
-      <div class="match-teams">
-        <div class="match-team">
+      <div class="match-inner">
+        <div class="match-home">
+          <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
           ${flagImg(match.homeIso, match.homeTeam)}
-          <span class="match-team-name">${match.homeTeam || 'TBD'}</span>
         </div>
-        ${scoreDisplay(match)}
-        <div class="match-team">
+        <div class="score-col">
+          ${scoreHtml}
+          ${scoreSubHtml}
+        </div>
+        <div class="match-away">
           ${flagImg(match.awayIso, match.awayTeam)}
-          <span class="match-team-name">${match.awayTeam || 'TBD'}</span>
+          <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
         </div>
-        ${clockHtml}
       </div>
-      <div class="match-meta">
+      <div class="match-status">
         ${statusBadge(match)}
-        <div class="match-venue">${match.venue || ''}</div>
+        ${labelHtml}
+        ${venueText ? `<div class="venue">${venueText}</div>` : ''}
       </div>
     </div>
   `;
@@ -505,32 +517,8 @@ function renderSchedule() {
   for (const [date, dayMatches] of Object.entries(byDate)) {
     html += `<div class="date-header">${date}</div>`;
     for (const m of dayMatches) {
-      const isLive = m.status === 'IN_PLAY' || m.status === 'PAUSED';
-      const minute = isLive ? getMatchMinute(m) : null;
-      const clockHtml = (m.status === 'IN_PLAY')
-        ? `<span class="match-clock" data-matchnum="${m.matchNum}">${minute || '1\''}</span>`
-        : (m.status === 'PAUSED' ? `<span class="match-clock">HT</span>` : '');
-
-      html += `
-        <div class="match-card ${isLive ? 'live' : ''}">
-          <div class="match-teams">
-            <div class="match-team">
-              ${flagImg(m.homeIso, m.homeTeam)}
-              <span class="match-team-name">${m.homeTeam || 'TBD'}</span>
-            </div>
-            ${scoreDisplay(m)}
-            <div class="match-team">
-              ${flagImg(m.awayIso, m.awayTeam)}
-              <span class="match-team-name">${m.awayTeam || 'TBD'}</span>
-            </div>
-            ${clockHtml}
-          </div>
-          <div class="match-meta">
-            ${statusBadge(m)}
-            <div class="match-venue">${m.venue || ''}</div>
-          </div>
-        </div>
-      `;
+      const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
+      html += matchCardHtml(m, label);
     }
   }
 
@@ -547,8 +535,8 @@ function renderStandings() {
     ? `<span class="standings-mode-label live-mode">Live (includes in-play)</span>`
     : `<span class="standings-mode-label official">Official (finished only)</span>`;
 
-  let html = `<div style="display:flex;align-items:center;margin-bottom:12px;gap:8px;">
-    <span style="font-size:15px;font-weight:700;">Group Standings</span>
+  let html = `<div class="standings-header">
+    <span class="standings-title">Group Standings</span>
     ${modeLabel}
   </div>`;
 
@@ -558,8 +546,9 @@ function renderStandings() {
     const teams = computedStandings[grp] || [];
     html += `
       <div class="card" style="padding:0;overflow:hidden;">
-        <div style="padding:10px 12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;">
-          <span class="group-label">Group ${grp}</span>
+        <div class="group-header" style="padding:10px 14px;border-bottom:1px solid var(--border);margin-bottom:0;">
+          <div class="group-pill">${grp}</div>
+          <div class="group-name">Group ${grp}</div>
         </div>
         <table>
           <thead>
@@ -580,10 +569,10 @@ function renderStandings() {
     `;
     for (let i = 0; i < teams.length; i++) {
       const t = teams[i];
-      const rowClass = i < 2 ? 'qualify-auto' : i === 2 ? 'qualify-3rd' : '';
+      const rowClass = i === 0 ? 'q1' : i === 1 ? 'q2' : i === 2 ? 'q3' : '';
       html += `
         <tr class="${rowClass}">
-          <td><span class="pos-num">${i + 1}</span></td>
+          <td><span class="pos">${i + 1}</span></td>
           <td>
             <div class="team-cell">
               ${flagImg(t.iso, t.team)}
@@ -607,7 +596,11 @@ function renderStandings() {
     html += `</tbody></table></div>`;
   }
 
-  html += `</div>`;
+  html += `</div>
+  <div class="qualify-legend">
+    <span><span class="swatch" style="background:var(--green);"></span> Auto qualify (1st/2nd)</span>
+    <span><span class="swatch" style="background:var(--amber);"></span> Third place (best 8 advance)</span>
+  </div>`;
 
   // Third-place wildcard section
   const thirdPlace = computeThirdPlaceRankings(computedStandings);
@@ -679,7 +672,7 @@ function renderBracket() {
     return resolveTeam(placeholder, computedStandings, thirdPlace, combinationString);
   }
 
-  function bracketMatchHtml(match) {
+  function bMatchHtml(match) {
     const home = resolveAndRender(match.homeTeam);
     const away = resolveAndRender(match.awayTeam);
     const hasScore = match.status === 'FINISHED' || match.status === 'IN_PLAY' || match.status === 'PAUSED';
@@ -687,21 +680,25 @@ function renderBracket() {
     const awayWon = hasScore && match.awayScore > match.homeScore;
 
     return `
-      <div class="bracket-match">
-        <div class="bracket-match-num">M${match.matchNum}</div>
-        <div class="bracket-team ${homeWon ? 'winner' : ''}">
+      <div class="b-match">
+        <div class="b-num">M${match.matchNum}</div>
+        <div class="b-team ${homeWon ? 'winner' : ''}">
           ${flagImg(home.iso, home.name)}
-          <span class="bracket-team-name">${home.name}</span>
-          ${hasScore ? `<span class="bracket-score">${match.homeScore}</span>` : ''}
+          <span class="b-team-name">${home.name}</span>
+          ${hasScore ? `<span class="b-score">${match.homeScore}</span>` : ''}
         </div>
-        <hr class="bracket-divider">
-        <div class="bracket-team ${awayWon ? 'winner' : ''}">
+        <hr class="b-div">
+        <div class="b-team ${awayWon ? 'winner' : ''}">
           ${flagImg(away.iso, away.name)}
-          <span class="bracket-team-name">${away.name}</span>
-          ${hasScore ? `<span class="bracket-score">${match.awayScore}</span>` : ''}
+          <span class="b-team-name">${away.name}</span>
+          ${hasScore ? `<span class="b-score">${match.awayScore}</span>` : ''}
         </div>
       </div>
     `;
+  }
+
+  function bSlot(match) {
+    return `<div class="b-slot">${bMatchHtml(match)}</div>`;
   }
 
   const r32 = state.matches.filter(m => m.stage === 'Round of 32');
@@ -713,36 +710,31 @@ function renderBracket() {
 
   let html = `<div class="bracket-wrapper"><div class="bracket">`;
 
-  // Round of 32
-  html += `<div class="bracket-round">
-    <div class="bracket-round-title">Round of 32</div>
-    ${r32.map(bracketMatchHtml).join('')}
+  html += `<div class="bracket-round r32">
+    <div class="round-label">Round of 32</div>
+    ${r32.map(bSlot).join('')}
   </div>`;
 
-  // Round of 16
-  html += `<div class="bracket-round">
-    <div class="bracket-round-title">Round of 16</div>
-    ${r16.map(bracketMatchHtml).join('')}
+  html += `<div class="bracket-round r16">
+    <div class="round-label">Round of 16</div>
+    ${r16.map(bSlot).join('')}
   </div>`;
 
-  // Quarterfinals
-  html += `<div class="bracket-round">
-    <div class="bracket-round-title">Quarterfinals</div>
-    ${qf.map(bracketMatchHtml).join('')}
+  html += `<div class="bracket-round rqf">
+    <div class="round-label">Quarterfinals</div>
+    ${qf.map(bSlot).join('')}
   </div>`;
 
-  // Semifinals
-  html += `<div class="bracket-round">
-    <div class="bracket-round-title">Semifinals</div>
-    ${sf.map(bracketMatchHtml).join('')}
+  html += `<div class="bracket-round rsf">
+    <div class="round-label">Semifinals</div>
+    ${sf.map(bSlot).join('')}
   </div>`;
 
-  // Final + 3rd Place
-  html += `<div class="bracket-round">
-    <div class="bracket-round-title">Final</div>
-    ${final.map(bracketMatchHtml).join('')}
-    <div class="bracket-round-title" style="margin-top:16px;">3rd Place</div>
-    ${thirdPlaceMatch.map(bracketMatchHtml).join('')}
+  html += `<div class="bracket-round rfin">
+    <div class="round-label">Final</div>
+    ${final.map(bSlot).join('')}
+    <div class="round-label" style="margin-top:16px;">3rd Place</div>
+    ${thirdPlaceMatch.map(bSlot).join('')}
   </div>`;
 
   html += `</div></div>`;
