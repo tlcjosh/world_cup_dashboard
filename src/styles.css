@@ -234,11 +234,15 @@ body {
   padding: 14px 20px;
   margin-bottom: 10px;
   display: flex; flex-direction: column; gap: 0;
-  transition: background .12s;
+  transition: background .15s, box-shadow .15s, transform .15s;
 }
 
 .match-card:last-child { margin-bottom: 0; }
-.match-card:hover { background: var(--surface-2); }
+.match-card:hover {
+  background: linear-gradient(135deg, rgba(37,99,235,.07) 0%, rgba(124,58,237,.07) 100%), var(--surface);
+  box-shadow: 0 4px 16px rgba(0,0,0,.08), 0 1px 4px rgba(0,0,0,.04);
+  transform: translateY(-1px);
+}
 
 .match-card.live {
   border-color: transparent;
@@ -384,8 +388,7 @@ body {
 /* ===== FLAGS ===== */
 img.flag {
   width: 28px; height: 20px;
-  object-fit: cover; border-radius: 2px;
-  flex-shrink: 0; border: 1px solid var(--border);
+  flex-shrink: 0;
   vertical-align: middle;
 }
 
