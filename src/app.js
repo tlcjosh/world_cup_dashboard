@@ -135,6 +135,27 @@ function mergeESPNData(espnEvents) {
     match._espnClock     = comp.status.clock || 0;
     match._espnPeriod    = comp.status.period || 1;
     match._espnFetchedAt = Date.now();
+
+    // Goal events for scorer display
+    const homeId = homeComp.team.id;
+    const matchEvents = { home: [], away: [] };
+    for (const d of (comp.details || [])) {
+      if (!d.scoreValue || d.scoreValue < 1) continue;
+      const player = d.athletesInvolved?.[0]?.shortName || d.athletesInvolved?.[0]?.displayName || '';
+      const time   = d.clock?.displayValue || '';
+      const suffix = d.ownGoal ? ' (og)' : d.penaltyKick ? ' (pen)' : '';
+      const label  = ([player, time].filter(Boolean).join(' ') + suffix).trim();
+      if (label) matchEvents[d.team?.id === homeId ? 'home' : 'away'].push(label);
+    }
+    if (swapped) [matchEvents.home, matchEvents.away] = [matchEvents.away, matchEvents.home];
+    match._espnEvents = matchEvents;
+
+    // Team stats for live stats strip
+    const hStats = {};
+    for (const s of (homeComp.statistics || [])) hStats[s.name] = s.value ?? null;
+    const aStats = {};
+    for (const s of (awayComp.statistics || [])) aStats[s.name] = s.value ?? null;
+    match._espnStats = swapped ? { home: aStats, away: hStats } : { home: hStats, away: aStats };
   }
 
   state.lastUpdated = new Date().toISOString();
@@ -361,6 +382,50 @@ function statusBadge(match) {
   return `<span class="badge badge-soon">${match.kickoff ? formatKickoff(match.kickoff) : 'TBD'}</span>`;
 }
 
+function espnEventsHtml(match) {
+  const ev = match._espnEvents;
+  if (!ev || (!ev.home.length && !ev.away.length)) return '';
+  const homeHtml = ev.home.map(g => `<span class="goal-event">⚽ ${g}</span>`).join('');
+  const awayHtml = ev.away.map(g => `<span class="goal-event">${g} ⚽</span>`).join('');
+  return `<div class="match-events"><div class="me-home">${homeHtml}</div><div class="me-away">${awayHtml}</div></div>`;
+}
+
+function espnStatsHtml(match) {
+  if (match.status !== 'IN_PLAY' && match.status !== 'PAUSED') return '';
+  const s = match._espnStats;
+  if (!s) return '';
+  const h = s.home || {};
+  const a = s.away || {};
+  const poss = h.possessionPct ?? h.possession ?? null;
+  if (poss === null && h.totalShots === undefined && h.shots === undefined) return '';
+
+  const possH = poss !== null ? Math.round(poss) : 50;
+  const possA = 100 - possH;
+
+  const rows = [];
+  const sh = h.totalShots ?? h.shots, sa = a.totalShots ?? a.shots;
+  if (sh != null && sa != null) rows.push([sh, 'Shots', sa]);
+  const oh = h.shotsOnTarget, oa = a.shotsOnTarget;
+  if (oh != null && oa != null) rows.push([oh, 'On target', oa]);
+  const ch = h.cornerKicks ?? h.corners, ca = a.cornerKicks ?? a.corners;
+  if (ch != null && ca != null) rows.push([ch, 'Corners', ca]);
+  const yh = h.yellowCards, ya = a.yellowCards;
+  if (yh != null && ya != null) rows.push([
+    `<span class="ycard">${yh}</span>`, 'Yellows', `<span class="ycard">${ya}</span>`
+  ]);
+
+  return `<div class="match-stats">
+    <div class="stats-poss">
+      <span class="stats-poss-h">${possH}%</span>
+      <div class="stats-poss-bar"><div class="stats-poss-fill" style="width:${possH}%"></div></div>
+      <span class="stats-poss-a">${possA}%</span>
+      <span class="stats-poss-lbl">Possession</span>
+    </div>${rows.length ? `<div class="stats-grid">${rows.map(([hv, l, av]) =>
+      `<span class="sg-h">${hv}</span><span class="sg-l">${l}</span><span class="sg-a">${av}</span>`
+    ).join('')}</div>` : ''}
+  </div>`;
+}
+
 function matchCardHtml(match, extraLabel) {
   const isLive = match.status === 'IN_PLAY' || match.status === 'PAUSED';
   const hasScore = isLive || match.status === 'FINISHED';
@@ -388,25 +453,29 @@ function matchCardHtml(match, extraLabel) {
 
   return `
     <div class="match-card ${isLive ? 'live' : ''}">
-      <div class="match-inner">
-        <div class="match-home">
-          <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
-          ${flagImg(match.homeIso, match.homeTeam)}
+      <div class="match-top">
+        <div class="match-inner">
+          <div class="match-home">
+            <span class="team-name ${homeClass}">${match.homeTeam || 'TBD'}</span>
+            ${flagImg(match.homeIso, match.homeTeam)}
+          </div>
+          <div class="score-col">
+            ${scoreHtml}
+            ${scoreSubHtml}
+          </div>
+          <div class="match-away">
+            ${flagImg(match.awayIso, match.awayTeam)}
+            <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
+          </div>
         </div>
-        <div class="score-col">
-          ${scoreHtml}
-          ${scoreSubHtml}
-        </div>
-        <div class="match-away">
-          ${flagImg(match.awayIso, match.awayTeam)}
-          <span class="team-name ${awayClass}">${match.awayTeam || 'TBD'}</span>
+        <div class="match-status">
+          ${statusBadge(match)}
+          ${labelHtml}
+          ${venueText ? `<div class="venue">${venueText}</div>` : ''}
         </div>
       </div>
-      <div class="match-status">
-        ${statusBadge(match)}
-        ${labelHtml}
-        ${venueText ? `<div class="venue">${venueText}</div>` : ''}
-      </div>
+      ${hasScore ? espnEventsHtml(match) : ''}
+      ${espnStatsHtml(match)}
     </div>
   `;
 }
