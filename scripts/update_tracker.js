@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -6,6 +6,8 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const DATA_PATH = join(__dirname, '..', 'src', 'data', 'data.json');
+const FIFA_RANKINGS_PATH = join(__dirname, '..', 'src', 'data', 'fifa_rankings.json');
+const BLUEPRINT_DIR = join(__dirname, '..', 'blueprint_data');
 
 const TEAM_MASTER_DATA = {
   "Mexico": { group: "A", iso: "mx", espnId: 203, fifaRank: 14 }, "South Africa": { group: "A", iso: "za", espnId: 467, fifaRank: 60 }, "South Korea": { group: "A", iso: "kr", espnId: 451, fifaRank: 25 }, "Czechia": { group: "A", iso: "cz", espnId: 450, fifaRank: 40 },
@@ -189,8 +191,72 @@ function cleanName(name) {
   return name.toString().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^\w\s]/gi, '').trim().toLowerCase();
 }
 
+// Our team name -> FIFA's 3-letter team code (used to match against the ranking page,
+// since 7 of 48 teams have name mismatches, e.g. FIFA's "Korea Republic" vs our "South Korea").
+const FIFA_CODE_MAP = {
+  "Mexico": "MEX", "South Africa": "RSA", "South Korea": "KOR", "Czechia": "CZE",
+  "Canada": "CAN", "Bosnia-Herzegovina": "BIH", "Qatar": "QAT", "Switzerland": "SUI",
+  "Brazil": "BRA", "Morocco": "MAR", "Haiti": "HAI", "Scotland": "SCO",
+  "United States": "USA", "Paraguay": "PAR", "Australia": "AUS", "Turkey": "TUR",
+  "Germany": "GER", "Curaçao": "CUW", "Ivory Coast": "CIV", "Ecuador": "ECU",
+  "Netherlands": "NED", "Japan": "JPN", "Sweden": "SWE", "Tunisia": "TUN",
+  "Belgium": "BEL", "Egypt": "EGY", "Iran": "IRN", "New Zealand": "NZL",
+  "Saudi Arabia": "KSA", "Uruguay": "URU", "Spain": "ESP", "Cape Verde Islands": "CPV",
+  "France": "FRA", "Senegal": "SEN", "Iraq": "IRQ", "Norway": "NOR",
+  "Argentina": "ARG", "Algeria": "ALG", "Austria": "AUT", "Jordan": "JOR",
+  "Portugal": "POR", "Congo DR": "COD", "Uzbekistan": "UZB", "Colombia": "COL",
+  "England": "ENG", "Croatia": "CRO", "Ghana": "GHA", "Panama": "PAN",
+};
+
+// Loaded once at startup from src/data/fifa_rankings.json (if present), refreshed in-memory
+// by syncFifaRankings() below when a newer blueprint_data/fifa_rankings_*.html shows up.
+let FIFA_RANKS = {};
+try { FIFA_RANKS = JSON.parse(readFileSync(FIFA_RANKINGS_PATH, 'utf8')).ranks || {}; } catch { /* none yet */ }
+
 function fifaRankOf(team) {
-  return TEAM_MASTER_DATA[team]?.fifaRank ?? 9999;
+  return FIFA_RANKS[team] ?? TEAM_MASTER_DATA[team]?.fifaRank ?? 9999;
+}
+
+// Parses FIFA's official ranking page HTML, matching against stable CSS class patterns:
+// rank in custom-rank-cell_rankNumber__*, team 3-letter code in the fifa-world-ranking/{CODE}
+// link href, in that order within each <tr>. Returns { code: rank }.
+function parseFifaRankingsHtml(html) {
+  const re = /custom-rank-cell_rankNumber__[^"]*">(\d+)<\/h3>.*?fifa-world-ranking\/([A-Z]{3})\?gender=men/gs;
+  const codeToRank = {};
+  let m;
+  while ((m = re.exec(html))) {
+    if (!(m[2] in codeToRank)) codeToRank[m[2]] = parseInt(m[1], 10);
+  }
+  return codeToRank;
+}
+
+// Looks for the most recently dated fifa_rankings_YYYY-MM-DD.html snapshot in blueprint_data/
+// (filenames sort chronologically as strings) and, if it's newer than the one we last parsed,
+// re-parses it and writes src/data/fifa_rankings.json. FIFA updates the official ranking
+// several times during the tournament — this is the only step needed to pick up a refresh:
+// drop a new dated HTML snapshot in blueprint_data/ and the next cron run does the rest.
+function syncFifaRankings() {
+  let files;
+  try { files = readdirSync(BLUEPRINT_DIR); } catch { return; }
+  const snapshots = files.filter(f => /^fifa_rankings_\d{4}-\d{2}-\d{2}\.html$/.test(f)).sort();
+  const latest = snapshots[snapshots.length - 1];
+  if (!latest) return;
+
+  let currentSource = null;
+  try { currentSource = JSON.parse(readFileSync(FIFA_RANKINGS_PATH, 'utf8')).source; } catch { /* none yet */ }
+  if (latest === currentSource) return false; // already up to date
+
+  const html = readFileSync(join(BLUEPRINT_DIR, latest), 'utf8');
+  const codeToRank = parseFifaRankingsHtml(html);
+  const ranks = {};
+  for (const [team, code] of Object.entries(FIFA_CODE_MAP)) {
+    if (codeToRank[code] != null) ranks[team] = codeToRank[code];
+  }
+  const asOf = latest.match(/(\d{4}-\d{2}-\d{2})/)?.[1] || null;
+  writeFileSync(FIFA_RANKINGS_PATH, JSON.stringify({ asOf, source: latest, ranks }, null, 2));
+  FIFA_RANKS = ranks;
+  console.log(`FIFA rankings updated from ${latest} (${Object.keys(ranks).length}/${Object.keys(FIFA_CODE_MAP).length} teams matched)`);
+  return true;
 }
 
 // FIFA's official group-stage tiebreaker order: pts -> GD -> GF -> head-to-head mini-league
@@ -356,6 +422,10 @@ async function main() {
   const apiMatches = apiData.matches || [];
   const now = new Date().toISOString();
 
+  // Pick up a newer blueprint_data/fifa_rankings_*.html snapshot, if one has been added,
+  // before computing standings below. No-op (and no commit) if nothing newer is present.
+  const fifaRankingsChanged = syncFifaRankings();
+
   // Bootstrap if data.json is missing or empty
   const needsBootstrap = !existsSync(DATA_PATH) ||
     (() => { try { return JSON.parse(readFileSync(DATA_PATH, 'utf8')).matches?.length === 0; } catch { return true; } })();
@@ -365,7 +435,8 @@ async function main() {
     const data = bootstrapFromApi(apiMatches, now);
     writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
     try {
-      execSync(`git add src/data/data.json && git commit -m "chore: bootstrap match data from API [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
+      const fifaAdd = fifaRankingsChanged ? 'src/data/fifa_rankings.json ' : '';
+      execSync(`git add src/data/data.json ${fifaAdd}&& git commit -m "chore: bootstrap match data from API [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
     } catch (e) {
       console.error('Git commit failed:', e.message);
     }
@@ -428,9 +499,10 @@ async function main() {
   const newJson = JSON.stringify(current, null, 2);
   writeFileSync(DATA_PATH, newJson);
 
-  if (newJson !== oldJson) {
+  if (newJson !== oldJson || fifaRankingsChanged) {
     try {
-      execSync(`git add src/data/data.json && git commit -m "chore: sync match data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
+      const fifaAdd = fifaRankingsChanged ? 'src/data/fifa_rankings.json ' : '';
+      execSync(`git add src/data/data.json ${fifaAdd}&& git commit -m "chore: sync match data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
     } catch (e) {
       console.error('Git commit failed:', e.message);
     }

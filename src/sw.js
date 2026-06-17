@@ -1,4 +1,4 @@
-const CACHE = 'wc2026-v9';
+const CACHE = 'wc2026-v10';
 const PRECACHE = [
   '/world_cup_dashboard/',
   '/world_cup_dashboard/styles.css',
@@ -6,6 +6,7 @@ const PRECACHE = [
   '/world_cup_dashboard/vendor/idiomorph.esm.js',
   '/world_cup_dashboard/data/data.json',
   '/world_cup_dashboard/data/combinations.json',
+  '/world_cup_dashboard/data/fifa_rankings.json',
   '/world_cup_dashboard/favicon.svg',
   '/world_cup_dashboard/manifest.json',
   '/world_cup_dashboard/icons/icon-192-any.png',
@@ -32,7 +33,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   // Network-first for API calls and data.json; cache-first for static assets
   const url = new URL(e.request.url);
-  const isData = url.pathname.endsWith('data.json') || url.hostname.includes('espn') || url.hostname.includes('football-data');
+  const isData = url.pathname.endsWith('data.json') || url.pathname.endsWith('fifa_rankings.json') || url.hostname.includes('espn') || url.hostname.includes('football-data');
   if (isData) {
     e.respondWith(
       fetch(e.request).catch(() => caches.match(e.request))

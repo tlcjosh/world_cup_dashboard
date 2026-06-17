@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v9';
-const APP_UPDATED = '2026-06-17 17:33 UTC';
+const APP_VERSION = 'v10';
+const APP_UPDATED = '2026-06-17 18:00 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -17,6 +17,7 @@ const state = {
   matches: [],
   standings: {},
   combinations: {},
+  fifaRankings: {},
   liveMode: false,
   currentView: 'dashboard',
   teamFilter: null,
@@ -587,15 +588,18 @@ async function fetchESPNCommentary(match) {
     const res = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${match.espnEventId}`);
     if (!res.ok) return;
     const data = await res.json();
-    const items = (data.commentary || [])
-      .filter(c => c.text)
-      .sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
+    const fresh = (data.commentary || []).filter(c => c.text);
     // Re-look-up the match by matchNum rather than writing to the captured `match`
     // reference directly: fetchData() replaces state.matches with new objects on every
     // data.json change, so by the time this fetch resolves the passed-in object may no
     // longer be part of state.matches, silently losing the write.
     const current = state.matches.find(m => m.matchNum === match.matchNum);
-    if (current) current._espnCommentary = items.slice(0, 5); // keep last 5, most recent first
+    if (!current) return;
+    // Merge into the full history by sequence (ESPN returns the whole commentary feed on
+    // every poll, not just new items) — keyed by sequence so re-fetches dedupe cleanly.
+    const bySeq = new Map((current._espnCommentary || []).map(c => [c.sequence, c]));
+    for (const c of fresh) bySeq.set(c.sequence, c);
+    current._espnCommentary = [...bySeq.values()].sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
   } catch (e) {
     // Non-critical — commentary is a nice-to-have
   }
@@ -1067,8 +1071,12 @@ function getMatchMinute(match) {
   return '1\'';
 }
 
+// Prefers the dynamic ranking fetched from data/fifa_rankings.json (refreshed by
+// update_tracker.js whenever a newer blueprint_data/fifa_rankings_*.html shows up) over
+// the snapshot baked into TEAM_MASTER_DATA at deploy time, so a mid-tournament FIFA
+// ranking update can take effect without needing a new app.js deploy.
 function fifaRankOf(team) {
-  return TEAM_MASTER_DATA[team]?.fifaRank ?? 9999;
+  return state.fifaRankings[team] ?? TEAM_MASTER_DATA[team]?.fifaRank ?? 9999;
 }
 
 // FIFA's official group-stage tiebreaker order: pts -> GD -> GF -> head-to-head mini-league
@@ -1300,9 +1308,12 @@ function espnStatsHtml(match) {
 }
 
 // Renders the text + scroll controls for a match's live commentary.
-// Tracks position by `_commentarySeq` (not raw index) so the displayed
-// comment stays put across refetches as long as it's still in the buffer;
-// snaps back to the latest comment if it scrolls out of the last-5 window.
+// Tracks position by `_commentarySeq` (not raw index) so new comments arriving
+// mid-scroll don't yank the user away from the one they're viewing; defaults to
+// the latest comment (idx 0) whenever `_commentarySeq` is unset/not found. The
+// full commentary history is retained (see fetchESPNCommentary), and
+// scheduleCommentaryResume() snaps back to the latest after a period of
+// inactivity following manual navigation.
 function commentaryInnerHtml(match) {
   const items = match._espnCommentary;
   if (!items?.length) return '';
@@ -1317,7 +1328,33 @@ function commentaryInnerHtml(match) {
       <span class="mc-count">${idx + 1}/${items.length}</span>
       <button class="mc-btn" data-matchnum="${match.matchNum}" data-dir="-1" ${idx === 0 ? 'disabled' : ''} aria-label="Newer comment" title="Newer">›</button>
     </div>` : '';
-  return `<span class="mc-text">${timeLabel}${item.text}</span>${navHtml}`;
+  return `<span class="mc-icon">📰</span><span class="mc-text">${timeLabel}${item.text}</span>${navHtml}`;
+}
+
+// How long to wait after the user last manually navigated commentary before
+// snapping back to showing the latest comment.
+const COMMENTARY_RESUME_MS = 15000;
+const commentaryResumeTimers = new Map();
+
+// Schedules a snap-back-to-latest for a match's commentary after a period of
+// inactivity following manual navigation. Re-looks-up the match by matchNum
+// when the timer fires (not a closed-over reference) since state.matches is
+// wholesale-replaced by fetchData() on every data.json poll.
+function scheduleCommentaryResume(matchNum) {
+  clearTimeout(commentaryResumeTimers.get(matchNum));
+  const timer = setTimeout(() => {
+    commentaryResumeTimers.delete(matchNum);
+    const match = state.matches.find(m => m.matchNum === matchNum);
+    if (!match?._espnCommentary?.length) return;
+    match._commentarySeq = match._espnCommentary[0].sequence;
+    document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
+      node.classList.remove('mc-anim');
+      void node.offsetWidth;
+      node.innerHTML = commentaryInnerHtml(match);
+      node.classList.add('mc-anim');
+    });
+  }, COMMENTARY_RESUME_MS);
+  commentaryResumeTimers.set(matchNum, timer);
 }
 
 function matchCardHtml(match, extraLabel, opts = {}) {
@@ -1920,6 +1957,18 @@ async function fetchCombinations() {
   }
 }
 
+// fifa_rankings.json is regenerated by update_tracker.js whenever a newer FIFA ranking
+// snapshot is added to blueprint_data/ — fetch it once on startup, same as combinations.json.
+// Falls back to the TEAM_MASTER_DATA snapshot (see fifaRankOf) if this 404s or is stale.
+async function fetchFifaRankings() {
+  try {
+    const res = await fetch('./data/fifa_rankings.json');
+    if (res.ok) state.fifaRankings = (await res.json()).ranks || {};
+  } catch (e) {
+    console.error('fifa_rankings.json fetch error:', e);
+  }
+}
+
 async function fetchData() {
   if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
   state._dataFetchInFlight = true;
@@ -2358,6 +2407,12 @@ document.addEventListener('click', e => {
     node.innerHTML = commentaryInnerHtml(match);
     node.classList.add('mc-anim');
   });
+  if (idx === 0) {
+    clearTimeout(commentaryResumeTimers.get(matchNum));
+    commentaryResumeTimers.delete(matchNum);
+  } else {
+    scheduleCommentaryResume(matchNum);
+  }
 });
 
 // ===== INIT =====
@@ -2395,7 +2450,7 @@ async function init() {
 
   // Initial load: data.json (full schedule + standings) and the static
   // combinations.json lookup table (fetched once, never refetched) in parallel.
-  await Promise.all([fetchCombinations(), fetchData()]);
+  await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchData()]);
 
   // Initial ESPN sync — overlays live scores immediately
   await fetchESPN();
