@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T20:29:58.352Z",
+  "lastUpdated": "2026-06-17T22:33:11.422Z",
   "matches": [
     {
       "matchId": 537327,
@@ -388,11 +388,13 @@
       "awayIso": "hr",
       "venue": "AT&T Stadium, Arlington",
       "kickoff": "2026-06-17T20:00:00.000Z",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "IN_PLAY",
+      "homeScore": 4,
+      "awayScore": 2,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-17T20:29:58.352Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": 0,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537410,
@@ -2353,27 +2355,14 @@
       {
         "team": "England",
         "iso": "england",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
-      },
-      {
-        "team": "Croatia",
-        "iso": "hr",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 3,
         "fairPlayPoints": 0
       },
       {
@@ -2399,6 +2388,19 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
+        "pts": 0,
+        "fairPlayPoints": 0
+      },
+      {
+        "team": "Croatia",
+        "iso": "hr",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
         "pts": 0,
         "fairPlayPoints": 0
       }
