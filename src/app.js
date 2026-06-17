@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v11.1';
-const APP_UPDATED = '2026-06-17 19:36 UTC';
+const APP_VERSION = 'v11.2';
+const APP_UPDATED = '2026-06-17 22:26 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1001,7 +1001,7 @@ function updateSyncPill(espnLabel) {
   if (!el) return;
   const pill = el.closest('.sync-pill');
   const isError = pill?.dataset.syncState === 'error';
-  el.textContent = isError ? 'ESPN Offline' : 'ESPN Live';
+  el.textContent = isError ? 'Updates Paused' : 'Live Updates';
 
   const parts = [`ESPN: ${espnLabel}`];
   if (state.fdLastUpdated) {
@@ -1019,6 +1019,15 @@ function updateSyncPill(espnLabel) {
 function setSyncPillState(state_) {
   const pill = document.querySelector('.sync-pill');
   if (pill) pill.dataset.syncState = state_;
+}
+
+function updateLiveModeFab() {
+  const fab = document.getElementById('live-mode-fab');
+  if (!fab) return;
+  fab.classList.toggle('live', state.liveMode);
+  fab.setAttribute('aria-pressed', String(state.liveMode));
+  const label = fab.querySelector('.fab-label');
+  if (label) label.textContent = state.liveMode ? 'Live' : 'Official';
 }
 
 function formatLastSync(isoStr) {
@@ -1397,7 +1406,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
 
   // Live commentary: most recent item by default, scrollable via nav controls, only on live/paused match cards
   let commentaryHtml = '';
-  if (isLive && match._espnCommentary?.length) {
+  if (isLive && !opts.suppressStats && match._espnCommentary?.length) {
     commentaryHtml = `<div class="match-commentary mc-anim" data-matchnum="${match.matchNum}">${commentaryInnerHtml(match)}</div>`;
   }
 
@@ -1784,16 +1793,16 @@ function renderStandings() {
       <div class="card" style="margin-top:24px;">
         <div class="card-title">Third-Place Wildcard Rankings</div>
         <p class="note-text" style="margin-bottom:10px;">Best 8 of 12 third-place teams advance to Round of 32</p>
-        <table>
+        <table class="wildcard-table">
           <thead>
             <tr>
               <th style="width:28px;">#</th>
               <th>Team</th>
               <th class="num">Group</th>
-              <th class="num">P</th>
-              <th class="num">W</th>
-              <th class="num">D</th>
-              <th class="num">L</th>
+              <th class="num wc-wdl">P</th>
+              <th class="num wc-wdl">W</th>
+              <th class="num wc-wdl">D</th>
+              <th class="num wc-wdl">L</th>
               <th class="num">GF</th>
               <th class="num">GA</th>
               <th class="num">GD</th>
@@ -1815,10 +1824,10 @@ function renderStandings() {
             </div>
           </td>
           <td class="num"><span class="group-label">${t.groupLetter}</span></td>
-          <td class="num">${t.played}</td>
-          <td class="num">${t.won}</td>
-          <td class="num">${t.drawn}</td>
-          <td class="num">${t.lost}</td>
+          <td class="num wc-wdl">${t.played}</td>
+          <td class="num wc-wdl">${t.won}</td>
+          <td class="num wc-wdl">${t.drawn}</td>
+          <td class="num wc-wdl">${t.lost}</td>
           <td class="num">${t.gf}</td>
           <td class="num">${t.ga}</td>
           <td class="num">${t.gd >= 0 ? '+' + t.gd : t.gd}</td>
@@ -1914,9 +1923,13 @@ function renderBracket() {
 
   html += `<div class="bracket-round rfin">
     <div class="round-label">Final</div>
-    ${final.map(bSlot).join('')}
-    <div class="round-label" style="margin-top:16px;">3rd Place</div>
-    ${thirdPlaceMatch.map(bSlot).join('')}
+    <div class="rfin-body">
+      <div class="final-slot">${final.map(bMatchHtml).join('')}</div>
+      <div class="third-wrap">
+        <div class="round-label third-label">3rd Place</div>
+        ${thirdPlaceMatch.map(bMatchHtml).join('')}
+      </div>
+    </div>
   </div>`;
 
   html += `</div></div>`;
@@ -2128,7 +2141,7 @@ function teamUpcomingRows(teamName) {
         <span class="tm-score">${isLive ? 'Live' : dateLabel}</span>
         ${flagImg(oppIso, opp)}
         <span class="tm-opp">${opp}</span>
-        <span class="tm-meta">${[label, timeLabel, m.venue].filter(Boolean).join(' · ')}</span>
+        <span class="tm-meta">${[label, timeLabel].filter(Boolean).join(' · ')}</span>
       </div>`;
   }).join('');
   return rows;
@@ -2202,7 +2215,7 @@ async function openTeamModal(teamName) {
         ${flagImg(meta.iso, teamName)}
         <div>
           <div class="tm-name">${teamName}</div>
-          <div class="tm-sub">Group ${meta.group}</div>
+          <div class="tm-sub">Group ${meta.group} · FIFA Rank #${fifaRankOf(teamName)}</div>
         </div>
       </div>
       ${recordHtml}
@@ -2477,7 +2490,10 @@ async function init() {
   const header = document.getElementById('app-header');
   const main = document.getElementById('app-main');
   if (header && main) {
-    const syncMargin = () => { main.style.marginTop = header.offsetHeight + 'px'; };
+    const syncMargin = () => {
+      main.style.marginTop = header.offsetHeight + 'px';
+      document.documentElement.style.setProperty('--header-h-actual', header.offsetHeight + 'px');
+    };
     syncMargin();
     new ResizeObserver(syncMargin).observe(header);
   }
@@ -2487,13 +2503,15 @@ async function init() {
   const footer = document.getElementById('app-footer');
   if (footer) footer.textContent = `WC2026 Dashboard ${APP_VERSION} · Updated ${APP_UPDATED}`;
 
-  // Live mode toggle
-  const toggle = document.getElementById('live-mode-toggle');
-  if (toggle) {
-    toggle.addEventListener('change', () => {
-      state.liveMode = toggle.checked;
+  // Live mode toggle (floating button)
+  const fab = document.getElementById('live-mode-fab');
+  if (fab) {
+    fab.addEventListener('click', () => {
+      state.liveMode = !state.liveMode;
+      updateLiveModeFab();
       renderView();
     });
+    updateLiveModeFab();
   }
 
   // Initial load: data.json (full schedule + standings) and the static
