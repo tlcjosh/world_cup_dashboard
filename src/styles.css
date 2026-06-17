@@ -352,6 +352,53 @@ body {
   border-left: 3px solid var(--red);
   border-radius: 0 6px 6px 0;
   font-size: 12px; color: var(--ink-2); line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.match-commentary .mc-text { flex: 1; }
+
+.match-commentary.mc-anim .mc-text {
+  animation: mc-fade-in .35s ease;
+}
+
+@keyframes mc-fade-in {
+  from { opacity: 0; transform: translateY(2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.mc-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.mc-btn {
+  border: none;
+  background: rgba(220, 38, 38, .12);
+  color: var(--red);
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.mc-btn:hover:not(:disabled) { background: rgba(220, 38, 38, .22); }
+.mc-btn:disabled { opacity: .35; cursor: default; }
+
+.mc-count {
+  font-size: 10px;
+  color: var(--ink-3);
+  min-width: 24px;
+  text-align: center;
 }
 
 /* ===== MATCH EVENTS (goal scorers) ===== */

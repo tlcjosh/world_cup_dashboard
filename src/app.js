@@ -1191,6 +1191,27 @@ function espnStatsHtml(match) {
   </div>`;
 }
 
+// Renders the text + scroll controls for a match's live commentary.
+// Tracks position by `_commentarySeq` (not raw index) so the displayed
+// comment stays put across refetches as long as it's still in the buffer;
+// snaps back to the latest comment if it scrolls out of the last-5 window.
+function commentaryInnerHtml(match) {
+  const items = match._espnCommentary;
+  if (!items?.length) return '';
+  let idx = items.findIndex(c => c.sequence === match._commentarySeq);
+  if (idx === -1) idx = 0;
+  match._commentarySeq = items[idx].sequence;
+  const item = items[idx];
+  const timeLabel = item.time?.displayValue ? `[${item.time.displayValue}] ` : '';
+  const navHtml = items.length > 1 ? `
+    <div class="mc-nav">
+      <button class="mc-btn" data-matchnum="${match.matchNum}" data-dir="1" ${idx >= items.length - 1 ? 'disabled' : ''} aria-label="Older comment" title="Older">‹</button>
+      <span class="mc-count">${idx + 1}/${items.length}</span>
+      <button class="mc-btn" data-matchnum="${match.matchNum}" data-dir="-1" ${idx === 0 ? 'disabled' : ''} aria-label="Newer comment" title="Newer">›</button>
+    </div>` : '';
+  return `<span class="mc-text">${timeLabel}${item.text}</span>${navHtml}`;
+}
+
 function matchCardHtml(match, extraLabel, opts = {}) {
   const isLive = match.status === 'IN_PLAY' || match.status === 'PAUSED';
   const hasScore = isLive || match.status === 'FINISHED';
@@ -1218,12 +1239,10 @@ function matchCardHtml(match, extraLabel, opts = {}) {
   const headlineHtml = match._espnHeadline
     ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
-  // Live commentary: most recent item, only on live/paused match cards
+  // Live commentary: most recent item by default, scrollable via nav controls, only on live/paused match cards
   let commentaryHtml = '';
   if (isLive && match._espnCommentary?.length) {
-    const latest = match._espnCommentary[0];
-    const timeLabel = latest.time?.displayValue ? `[${latest.time.displayValue}] ` : '';
-    commentaryHtml = `<div class="match-commentary">${timeLabel}${latest.text}</div>`;
+    commentaryHtml = `<div class="match-commentary mc-anim" data-matchnum="${match.matchNum}">${commentaryInnerHtml(match)}</div>`;
   }
 
   return `
@@ -1789,7 +1808,7 @@ async function fetchData() {
     const data = await dataRes.json();
     // Merge data.json fields onto existing match objects, preserving ESPN enrichment
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
-      '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','espnEventId'];
+      '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq','espnEventId'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
@@ -2156,6 +2175,28 @@ document.addEventListener('click', e => {
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
   if (matchNum) openMatchModal(matchNum);
+});
+
+// Delegated click handler for live commentary scroll controls (prev/next comment)
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.mc-btn');
+  if (!btn || btn.disabled) return;
+  e.stopPropagation();
+  const matchNum = parseInt(btn.dataset.matchnum, 10);
+  const dir = parseInt(btn.dataset.dir, 10);
+  const match = state.matches.find(m => m.matchNum === matchNum);
+  if (!match?._espnCommentary?.length) return;
+  const items = match._espnCommentary;
+  let idx = items.findIndex(c => c.sequence === match._commentarySeq);
+  if (idx === -1) idx = 0;
+  idx = Math.max(0, Math.min(items.length - 1, idx + dir));
+  match._commentarySeq = items[idx].sequence;
+  document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
+    node.classList.remove('mc-anim');
+    void node.offsetWidth; // restart fade animation
+    node.innerHTML = commentaryInnerHtml(match);
+    node.classList.add('mc-anim');
+  });
 });
 
 // ===== INIT =====
