@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T23:21:23.771Z",
+  "lastUpdated": "2026-06-17T00:04:10.383Z",
   "matches": [
     {
       "matchId": 537327,
@@ -302,8 +302,8 @@
       "venue": "Gillette Stadium, Foxborough",
       "kickoff": "2026-06-16T22:00:00.000Z",
       "homeScore": 1,
-      "awayScore": 2,
-      "status": "IN_PLAY",
+      "awayScore": 4,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-16T22:29:29.708Z",
       "secondHalfStart": "2026-06-16T23:15:28.269Z"
     },
@@ -2173,6 +2173,18 @@
     ],
     "I": [
       {
+        "team": "Norway",
+        "iso": "no",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 3
+      },
+      {
         "team": "France",
         "iso": "fr",
         "played": 1,
@@ -2185,30 +2197,6 @@
         "pts": 3
       },
       {
-        "team": "Iraq",
-        "iso": "iq",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
-        "team": "Norway",
-        "iso": "no",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
         "team": "Senegal",
         "iso": "sn",
         "played": 1,
@@ -2218,6 +2206,18 @@
         "gf": 1,
         "ga": 3,
         "gd": -2,
+        "pts": 0
+      },
+      {
+        "team": "Iraq",
+        "iso": "iq",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
         "pts": 0
       }
     ],
