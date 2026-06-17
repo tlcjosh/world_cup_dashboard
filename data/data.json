@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T19:38:10.877Z",
+  "lastUpdated": "2026-06-17T20:29:58.352Z",
   "matches": [
     {
       "matchId": 537327,
@@ -388,10 +388,10 @@
       "awayIso": "hr",
       "venue": "AT&T Stadium, Arlington",
       "kickoff": "2026-06-17T20:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-17T20:29:58.352Z",
       "secondHalfStart": null
     },
     {
