@@ -706,6 +706,41 @@ function parseESPNEventData(comp, homeComp, awayComp, swapped) {
   };
 }
 
+// FIFA fair play disciplinary points (group-stage tiebreaker), per athlete per match:
+//   1 yellow card                 => -1
+//   indirect red (second yellow)  => -3
+//   straight red                  => -4
+//   yellow card + straight red    => -5
+// NOTE: ESPN's details[] doesn't carry an explicit "second yellow" flag. We can't
+// reliably distinguish an indirect red (-3) from a yellow+straight-red (-5) when an
+// athlete has exactly one yellow and one red logged in the same match — we treat
+// that ambiguous case as the indirect red (-3), since it's the far more common
+// real-world occurrence. Flagged here for manual verification against a real example
+// if it ever shows up, since this hasn't been validated end-to-end yet. Mirrors the
+// identical function in scripts/update_tracker.js.
+function classifyMatchFairPlay(details, ourHomeTeamId) {
+  const byAthlete = new Map();
+  for (const d of details) {
+    if (!d.yellowCard && !d.redCard) continue;
+    const athlete = d.athletesInvolved?.[0];
+    const key = athlete?.id || athlete?.displayName || `${d.team?.id}:${d.clock?.value}`;
+    const isHome = d.team?.id === ourHomeTeamId;
+    if (!byAthlete.has(key)) byAthlete.set(key, { isHome, yellow: 0, red: 0 });
+    const entry = byAthlete.get(key);
+    if (d.yellowCard) entry.yellow++;
+    if (d.redCard) entry.red++;
+  }
+  let home = 0, away = 0;
+  for (const { isHome, yellow, red } of byAthlete.values()) {
+    let deduction = 0;
+    if (red >= 1) deduction = yellow >= 1 ? -3 : -4;
+    else if (yellow >= 2) deduction = -3;
+    else if (yellow === 1) deduction = -1;
+    if (isHome) home += deduction; else away += deduction;
+  }
+  return { home, away };
+}
+
 function pickTeamColor(team) {
   const hex = (team.color || '').replace('#', '');
   if (hex.length === 6) {
@@ -815,6 +850,12 @@ function mergeESPNData(espnEvents) {
     aStats.redCards    = awayRed;
 
     match._espnStats = swapped ? { home: aStats, away: hStats } : { home: hStats, away: aStats };
+
+    // Fair play tiebreak points — live preview while the match is tracked by ESPN.
+    // Self-corrects on the next 10s poll as details[] fills in (same lag as goal events).
+    const fp = classifyMatchFairPlay(details, swapped ? awayComp.team.id : homeId);
+    match.homeFairPlay = fp.home;
+    match.awayFairPlay = fp.away;
 
     // Team colors for possession bar and accents
     const hColor = pickTeamColor(homeComp.team);
@@ -1025,15 +1066,15 @@ function computeStandings(matches, includeStatuses = ['FINISHED']) {
   const standings = {};
   for (const m of matches) {
     if (m.stage !== 'Group Stage') continue;
-    for (const [team, iso, scored, conceded] of [
-      [m.homeTeam, m.homeIso, m.homeScore, m.awayScore],
-      [m.awayTeam, m.awayIso, m.awayScore, m.homeScore]
+    for (const [team, iso, scored, conceded, fairPlay] of [
+      [m.homeTeam, m.homeIso, m.homeScore, m.awayScore, m.homeFairPlay],
+      [m.awayTeam, m.awayIso, m.awayScore, m.homeScore, m.awayFairPlay]
     ]) {
       const g = TEAM_MASTER_DATA[team]?.group;
       if (!team || !g) continue;
       if (!standings[g]) standings[g] = {};
       if (!standings[g][team]) {
-        standings[g][team] = { team, iso, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 };
+        standings[g][team] = { team, iso, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0, fairPlayPoints: 0 };
       }
       if (includeStatuses.includes(m.status)) {
         const s = standings[g][team];
@@ -1041,6 +1082,7 @@ function computeStandings(matches, includeStatuses = ['FINISHED']) {
         s.gf += scored ?? 0;
         s.ga += conceded ?? 0;
         s.gd = s.gf - s.ga;
+        s.fairPlayPoints += fairPlay ?? 0;
         if (scored > conceded) { s.won++; s.pts += 3; }
         else if (scored === conceded) { s.drawn++; s.pts += 1; }
         else s.lost++;
@@ -1050,7 +1092,7 @@ function computeStandings(matches, includeStatuses = ['FINISHED']) {
   const result = {};
   for (const [g, teams] of Object.entries(standings)) {
     result[g] = Object.values(teams).sort((a, b) =>
-      b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.team.localeCompare(b.team)
+      b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || a.team.localeCompare(b.team)
     );
   }
   return result;
@@ -1063,7 +1105,7 @@ function computeThirdPlaceRankings(standings) {
       thirds.push({ ...teams[2], groupLetter: grp });
     }
   }
-  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.team.localeCompare(b.team));
+  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || a.team.localeCompare(b.team));
   return thirds;
 }
 
@@ -1847,7 +1889,7 @@ async function fetchData() {
     // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq','espnEventId'];
-    const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore'];
+    const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
