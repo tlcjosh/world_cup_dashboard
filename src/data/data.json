@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T04:24:35.633Z",
+  "lastUpdated": "2026-06-17T06:55:07.737Z",
   "matches": [
     {
       "matchId": 537327,
@@ -335,9 +335,9 @@
       "awayIso": "jo",
       "venue": "Levi's Stadium, Santa Clara",
       "kickoff": "2026-06-17T03:59:00.000Z",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "IN_PLAY",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-17T04:24:35.633Z",
       "secondHalfStart": null
     },
@@ -2237,25 +2237,25 @@
       {
         "team": "Austria",
         "iso": "at",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
       },
       {
         "team": "Jordan",
         "iso": "jo",
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
         "pts": 0
       },
       {
