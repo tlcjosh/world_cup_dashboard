@@ -2,7 +2,7 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v12';
+const APP_VERSION = 'v11.2';
 const APP_UPDATED = '2026-06-17 22:26 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
