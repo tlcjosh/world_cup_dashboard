@@ -592,13 +592,21 @@ img.flag {
   font-size: 40px; font-weight: 900; line-height: 1.1;
 }
 
-.standings-grid { display: flex; flex-direction: column; gap: 16px; }
+.standings-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: start; }
+
+@media (min-width: 700px) {
+  .standings-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1100px) {
+  .standings-grid { grid-template-columns: repeat(3, 1fr); }
+}
 
 /* Keep stat columns aligned across all group tables, regardless of team name length */
 .standings-grid table { table-layout: fixed; }
 .standings-grid th:nth-child(1), .standings-grid td:nth-child(1) { width: 28px; }
 .standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: auto; }
-.standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 38px; }
+.standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 34px; font-size: 12px; }
 
 .standings-mode-label {
   font-size: 12px; padding: 3px 10px; border-radius: 99px; margin-left: auto;
@@ -661,7 +669,10 @@ tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
 .condensed td { padding: 7px 6px; font-size: 12px; }
 
 /* ===== BRACKET ===== */
-.bracket-wrapper { overflow-x: auto; padding-bottom: 12px; }
+/* overflow-y stays visible so this isn't its own vertical scroll container —
+   otherwise the round-label sticky positioning below sticks to this box
+   instead of the page, and never actually pins to the viewport */
+.bracket-wrapper { overflow-x: auto; overflow-y: visible; padding-bottom: 12px; }
 
 .bracket { display: flex; gap: 8px; min-width: 960px; align-items: flex-start; }
 
@@ -687,15 +698,15 @@ tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
 .rqf .b-slot { height: calc(4 * var(--bs)); }
 .rsf .b-slot { height: calc(8 * var(--bs)); }
 
-/* Final round: final match centered in the full column height (vertically
-   between the two semifinal slots above); 3rd place anchored at the bottom */
+/* Final round: Final + 3rd Place stacked together and centered as a pair in
+   the full column height (vertically between the two semifinal slots above),
+   so both are visible in the same scroll position */
 .rfin-body { position: relative; height: calc(16 * var(--bs)); }
-.rfin-body .final-slot {
+.rfin-body .final-group {
   position: absolute; top: 50%; left: 0; right: 0;
   transform: translateY(-50%);
 }
-.rfin-body .third-wrap { position: absolute; left: 0; right: 0; bottom: 0; }
-.rfin-body .round-label.third-label { position: static; margin-bottom: 8px; background: none; }
+.rfin-body .round-label.third-label { position: static; margin: 16px 0 8px; background: none; }
 
 .b-match {
   width: 100%;
