@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v11.2';
-const APP_UPDATED = '2026-06-17 22:26 UTC';
+const APP_VERSION = 'v11.3';
+const APP_UPDATED = '2026-06-17 22:55 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1924,8 +1924,8 @@ function renderBracket() {
   html += `<div class="bracket-round rfin">
     <div class="round-label">Final</div>
     <div class="rfin-body">
-      <div class="final-slot">${final.map(bMatchHtml).join('')}</div>
-      <div class="third-wrap">
+      <div class="final-group">
+        <div class="final-slot">${final.map(bMatchHtml).join('')}</div>
         <div class="round-label third-label">3rd Place</div>
         ${thirdPlaceMatch.map(bMatchHtml).join('')}
       </div>
@@ -2105,7 +2105,7 @@ function teamMatchRows(teamName) {
     const result = myScore > oppScore ? 'W' : myScore < oppScore ? 'L' : 'D';
     const rc = result === 'W' ? '#16A34A' : result === 'L' ? '#DC2626' : '#CA8A04';
     const kickoffStr = m.kickoff ? new Date(m.kickoff).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles' }) : '';
-    const label = m.stage === 'Group Stage' ? `Group ${m.group}` : (m.stage || '');
+    const label = m.stage || '';
     return `
       <div class="tm-result-row">
         <span class="tm-result-badge" style="background:${rc}">${result}</span>
@@ -2134,14 +2134,14 @@ function teamUpcomingRows(teamName) {
     const timeLabel = m.kickoff
       ? new Date(m.kickoff).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles', timeZoneName: 'short' })
       : '';
-    const label = m.stage === 'Group Stage' ? `Group ${m.group}` : (m.stage || '');
+    const label = m.stage || '';
+    const whenLabel = isLive ? 'Live' : [dateLabel, timeLabel].filter(Boolean).join(', ');
     return `
       <div class="tm-result-row">
         <span class="tm-result-badge" style="background:${isLive ? '#DC2626' : '#94A3B8'}">${isLive ? '●' : 'vs'}</span>
-        <span class="tm-score">${isLive ? 'Live' : dateLabel}</span>
         ${flagImg(oppIso, opp)}
         <span class="tm-opp">${opp}</span>
-        <span class="tm-meta">${[label, timeLabel].filter(Boolean).join(' · ')}</span>
+        <span class="tm-meta">${[label, whenLabel].filter(Boolean).join(' · ')}</span>
       </div>`;
   }).join('');
   return rows;
