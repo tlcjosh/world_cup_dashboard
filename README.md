@@ -186,9 +186,9 @@ A small pill in the UI shows ESPN sync state: `syncing` → `ok` (with time sinc
 
 During live matches, the browser ticks the clock forward every second using ESPN's `status.clock` (total elapsed seconds) plus real-time offset since the last fetch. Falls back to `firstHalfStart`/`secondHalfStart` timestamps from `data.json` if ESPN clock data isn't present.
 
-### Cross-Group Matches
+### Group Source of Truth
 
-WC2026 groups G and H play cross-group matches in rounds 2 and 3 (e.g. Spain G vs Saudi Arabia H). These count toward each team's **own** group standings. The standings computation uses `TEAM_MASTER_DATA` to look up each team's group, not the match's group field.
+The standings computation always looks up each team's group via `TEAM_MASTER_DATA`, not the match's `group` field (which is only set cosmetically, at match creation, for the Schedule view's label). This guarantees group totals stay correct even if a match's cached label is ever wrong — which is exactly what happened with Groups G/H: `TEAM_MASTER_DATA` had Spain/Cape Verde Islands and Iran/New Zealand swapped between the two groups, which a previous pass had misdiagnosed as an intentional "cross-group match" format quirk. There is no such quirk in WC2026 — once the swap was corrected, every match in the schedule resolves to a standard intra-group fixture.
 
 ### 3rd-Place Wildcards
 

@@ -1,5 +1,10 @@
 import { Idiomorph } from './vendor/idiomorph.esm.js';
 
+// Bump both of these (and src/sw.js's CACHE string) on every change to a static
+// frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
+const APP_VERSION = 'v8';
+const APP_UPDATED = '2026-06-17 16:17 UTC';
+
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
 // on every poll). Render functions still build plain HTML strings as before.
@@ -61,14 +66,14 @@ const TEAM_MASTER_DATA = {
   "Japan":              { group: "F", iso: "jp",       espnId: 627   },
   "Sweden":             { group: "F", iso: "se",       espnId: 466   },
   "Tunisia":            { group: "F", iso: "tn",       espnId: 659   },
-  "Spain":              { group: "G", iso: "es",       espnId: 164   },
-  "Cape Verde Islands": { group: "G", iso: "cv",       espnId: 2597  },
   "Belgium":            { group: "G", iso: "be",       espnId: 459   },
   "Egypt":              { group: "G", iso: "eg",       espnId: 2620  },
+  "Iran":               { group: "G", iso: "ir",       espnId: 469   },
+  "New Zealand":        { group: "G", iso: "nz",       espnId: 2666  },
   "Saudi Arabia":       { group: "H", iso: "sa",       espnId: 655   },
   "Uruguay":            { group: "H", iso: "uy",       espnId: 212   },
-  "Iran":               { group: "H", iso: "ir",       espnId: 469   },
-  "New Zealand":        { group: "H", iso: "nz",       espnId: 2666  },
+  "Spain":              { group: "H", iso: "es",       espnId: 164   },
+  "Cape Verde Islands": { group: "H", iso: "cv",       espnId: 2597  },
   "France":             { group: "I", iso: "fr",       espnId: 478   },
   "Senegal":            { group: "I", iso: "sn",       espnId: 654   },
   "Iraq":               { group: "I", iso: "iq",       espnId: 4375  },
@@ -2329,6 +2334,9 @@ async function init() {
   }
 
   initNotifPermissionBtn();
+
+  const footer = document.getElementById('app-footer');
+  if (footer) footer.textContent = `WC2026 Dashboard ${APP_VERSION} · Updated ${APP_UPDATED}`;
 
   // Live mode toggle
   const toggle = document.getElementById('live-mode-toggle');

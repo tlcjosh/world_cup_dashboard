@@ -15,7 +15,7 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 |---|---|
 | `scripts/update_tracker.js` | Single pipeline script. Bootstraps `data.json` from API if missing; otherwise syncs scores/status, then syncs fair play points for newly-finished matches via ESPN. Run by Actions. Has `TEAM_MASTER_DATA` (with `espnId` per team), `ESPN_NAME_MAP`, and `BRACKET_TEMPLATE` embedded. |
 | `.github/workflows/sync.yml` | Cron `*/5 * * * *`, inner `sleep 30` loop × 10. Git config runs BEFORE the sync script. Deploy job pushes `src/` to `gh-pages` after sync. |
-| `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. Render functions: `matchCardHtml()`, `renderDashboard()`, `renderSchedule()`, `renderStandings()`, `renderBracket()`. Dashboard also calls `getTodayMatches()` and `computeStandings()` for the live group widget. |
+| `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. Render functions: `matchCardHtml()`, `renderDashboard()`, `renderSchedule()`, `renderStandings()`, `renderBracket()`. Dashboard also calls `getTodayMatches()` and `computeStandings()` for the live group widget. Top of file also has `APP_VERSION`/`APP_UPDATED`, rendered into the footer — **bump on every `src/` change**, see "PWA / Service Worker" below. |
 | `src/styles.css` | Light modern design system. CSS custom properties in `:root`. Anybody variable font for headings (wdth 75, weight 900), Inter for body. |
 | `src/data/data.json` | Auto-updated by Actions. Contains `matches[]`, `standings{}`, `lastUpdated`. Used as schedule backbone and fallback. |
 | `src/data/combinations.json` | Static. 495 entries keyed by 8-letter sorted group string (e.g. `"ABCDEFKL"`). Values map opponent keys (`"1A"` through `"1L"`) to team codes (`"3F"`). Never changes. |
@@ -261,16 +261,16 @@ Teams sorted: pts → gd → gf → fair play → team name alphabetically. `fai
 
 ## Tournament Logic
 
-### Cross-Group Matches (WC2026 format)
-Groups G and H (and possibly others) play cross-group matches in rounds 2 and 3. For example, Spain (G) plays Saudi Arabia (H). These count toward each team's **own** group standings — Spain's result goes to Group G, Saudi Arabia's to Group H.
-
-**Critical**: `computeStandings()` in both `update_tracker.js` and `app.js` uses `TEAM_MASTER_DATA[team].group` to determine each team's group — NOT the match's `group` field. This is what makes cross-group matches score correctly.
+### Group Source of Truth
+`computeStandings()` in both `update_tracker.js` and `app.js` uses `TEAM_MASTER_DATA[team].group` to determine each team's group — NOT the match's `group` field (which is only set once, cosmetically, at match creation for the Schedule view's group label). This is defensive: it guarantees standings are always computed from the single source of truth for group membership, regardless of what's cached on a given match record.
 
 ESPN's `altGameNote` field (e.g. `"FIFA World Cup, Group H"`) reflects the home team's group — consistent with our `data.json` convention.
 
-### Group Assignments (Groups G & H — easy to confuse)
-- **Group G**: Spain, Cape Verde Islands, Belgium, Egypt
-- **Group H**: Saudi Arabia, Uruguay, Iran, New Zealand
+**Note on history**: an earlier version of this doc described a "Cross-Group Matches (WC2026 format)" quirk where Groups G and H supposedly played cross-group fixtures in rounds 2–3. That was a misdiagnosis — there is no such format quirk in WC2026. It was a previous Claude session rationalizing the symptom of a real data bug: `TEAM_MASTER_DATA` had Spain/Cape Verde Islands and Iran/New Zealand swapped between groups G and H (see Known Issues below). Once the swap was corrected, every match in the schedule resolves to a standard intra-group fixture — zero actual cross-group matches exist anywhere in the 104-match schedule.
+
+### Group Assignments (Groups G & H — easy to mix up, see Known Issues)
+- **Group G**: New Zealand, Iran, Belgium, Egypt
+- **Group H**: Uruguay, Saudi Arabia, Spain, Cape Verde Islands
 
 ### 3rd-Place Wildcard
 8 of 12 third-place teams advance. Logic in `app.js` → `computeThirdPlaceRankings()`:
@@ -386,19 +386,31 @@ The app is installable (manifest.json + icons) and registers `src/sw.js` (`navig
 
 `skipWaiting()` + `clients.claim()` are already wired up in `install`/`activate`, so once the version *is* bumped, the new worker takes over without requiring users to fully close/reopen the app.
 
+### CRITICAL: update the version footer on every change
+
+`src/app.js` has two constants near the top:
+```js
+const APP_VERSION = 'v8';
+const APP_UPDATED = '2026-06-17 16:17 UTC';
+```
+Rendered into `<footer id="app-footer">` (in `src/index.html`, styled in `src/styles.css`) on init, as "WC2026 Dashboard vN · Updated <timestamp>". This exists so the user can confirm — by reloading the live site — that a deploy actually reached them, independent of whether they can see the underlying change. It's the same problem the service worker cache-bust rule solves, so treat it as one combined step:
+
+**On every commit that changes any file under `src/`, bump `APP_VERSION` (matching the new `src/sw.js` `CACHE` version, e.g. both go `v8` → `v9`) and set `APP_UPDATED` to the current UTC date/time (`date -u +"%Y-%m-%d %H:%M UTC"`).** After merging to `main` and the Actions deploy completes, report the new version number to the user so they can verify the live site shows it.
+
 ### Android system notifications
 `sendSystemNotification()` calls `serviceWorkerRegistration.showNotification()` (real OS-level notification, works while the PWA/tab is alive in the background but not once Android fully kills the process) alongside the existing in-page toast from `queueNotif()`. Gated on `Notification.permission === 'granted'`. The bell icon (`#notif-permission-btn`, managed by `initNotifPermissionBtn()`/`updateNotifPermissionBtn()`) lets the user opt in; hidden entirely if the browser lacks `Notification` or `serviceWorker` support.
 
 ## Known Issues / Watch Points
 1. **ESPN name mismatches**: If a match isn't getting ESPN updates, check `ESPN_NAME_MAP` in `app.js`. Add the mapping and push to fix.
 2. **ESPN scoreboard is date-scoped**: Only returns today's matches. Full 104-match schedule always comes from `data.json`.
-3. **Cross-group match standings**: must use `TEAM_MASTER_DATA[team].group`, not `m.group` — see above
+3. **Group source of truth**: always use `TEAM_MASTER_DATA[team].group`, not `m.group`, when computing standings — see "Group Source of Truth" above
 4. **Knockout matchId population**: R32+ matches start with `matchId: null`. Self-healed via name matching once the API returns them.
 5. **Half-time timestamp source**: `firstHalfStart`/`secondHalfStart` are set by the Actions runner clock, not the API — accurate to within one 30-second polling interval. ESPN clock is preferred when available.
 6. **Group standings sort**: always use `Object.keys().sort()` when iterating groups — key order in JSON is not guaranteed
 7. **ESPN events lead the score**: `details[]` populates `_espnEvents` ~30s before the score field updates. The goal notification uses `_seenGoalEvents` (event count key) to fire early; `_seenGoals` (score key) prevents double-firing.
 8. **Stale service worker cache**: any deploy that changes `styles.css`/`app.js`/`index.html`/icons without also bumping `CACHE` in `src/sw.js` will look like it had no effect on any previously-visited client (browser tab or installed PWA) — see "PWA / Service Worker" above. If a shipped UI change "isn't showing up," check this first before assuming a deploy or rendering bug.
 9. **Fair play yellow+red ambiguity**: `classifyMatchFairPlay()` can't tell a straight red apart from a second-yellow dismissal when ESPN logs exactly one yellow and one red for the same athlete in the same match — it assumes second-yellow (`-3`) since that's the common case. Unvalidated against a confirmed real second-yellow example; revisit if a fair-play total looks off by 2 points.
+10. **(Fixed 2026-06-17) Group G/H team swap**: `TEAM_MASTER_DATA` had Spain & Cape Verde Islands assigned to Group G and Iran & New Zealand assigned to Group H — backwards from FIFA's official lettering (verified against fifa.com and blueprint CSV cross-checks for all other groups). Corrected to G: New Zealand, Iran, Belgium, Egypt / H: Uruguay, Saudi Arabia, Spain, Cape Verde Islands, in both `app.js` and `update_tracker.js`, plus the cosmetic `group` field on the 6 affected matches and the `standings.G`/`standings.H` rows already committed in `data.json`. This swap was the root cause of the (now-removed) "Cross-Group Matches" documentation — see "Group Source of Truth" above. If group lettering ever looks suspicious again, sanity-check `TEAM_MASTER_DATA` against the live FIFA standings page, not just internal consistency.
 
 ## Running Locally
 ```bash
