@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T13:55:53.902Z",
+  "lastUpdated": "2026-06-17T15:59:00.430Z",
   "matches": [
     {
       "matchId": 537327,
@@ -16,7 +16,9 @@
       "awayScore": 0,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -5,
+      "awayFairPlay": -10
     },
     {
       "matchId": 537328,
@@ -33,7 +35,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537333,
@@ -50,7 +54,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -2,
+      "awayFairPlay": -3
     },
     {
       "matchId": 537345,
@@ -67,7 +73,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": -5
     },
     {
       "matchId": 537340,
@@ -84,7 +92,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": -3
     },
     {
       "matchId": 537346,
@@ -118,7 +128,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -2,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537334,
@@ -135,7 +147,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -2,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537352,
@@ -152,7 +166,9 @@
       "awayScore": 0,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -3,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537351,
@@ -169,7 +185,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": 0,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537357,
@@ -186,7 +204,9 @@
       "awayScore": 2,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -3,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537358,
@@ -203,7 +223,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": 0,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537370,
@@ -220,7 +242,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-15T22:02:08.255Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537369,
@@ -237,7 +261,9 @@
       "awayScore": 0,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-15T16:00:00.000Z",
-      "secondHalfStart": "2026-06-15T17:05:59.000Z"
+      "secondHalfStart": "2026-06-15T17:05:59.000Z",
+      "homeFairPlay": -1,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537364,
@@ -254,7 +280,9 @@
       "awayScore": 2,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-16T01:23:49.232Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537363,
@@ -271,7 +299,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": "2026-06-15T20:08:13.899Z"
+      "secondHalfStart": "2026-06-15T20:08:13.899Z",
+      "homeFairPlay": -2,
+      "awayFairPlay": -2
     },
     {
       "matchId": 537391,
@@ -288,7 +318,9 @@
       "awayScore": 1,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-16T19:06:13.498Z",
-      "secondHalfStart": "2026-06-16T20:21:45.120Z"
+      "secondHalfStart": "2026-06-16T20:21:45.120Z",
+      "homeFairPlay": 0,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537392,
@@ -305,7 +337,9 @@
       "awayScore": 4,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-16T22:29:29.708Z",
-      "secondHalfStart": "2026-06-16T23:15:28.269Z"
+      "secondHalfStart": "2026-06-16T23:15:28.269Z",
+      "homeFairPlay": -1,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537397,
@@ -322,7 +356,9 @@
       "awayScore": 0,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-17T01:45:04.071Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": 0,
+      "awayFairPlay": 0
     },
     {
       "matchId": 537398,
@@ -1782,7 +1818,8 @@
         "gf": 2,
         "ga": 0,
         "gd": 2,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": -5
       },
       {
         "team": "South Korea",
@@ -1794,7 +1831,8 @@
         "gf": 2,
         "ga": 1,
         "gd": 1,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": -1
       },
       {
         "team": "Czechia",
@@ -1806,7 +1844,8 @@
         "gf": 1,
         "ga": 2,
         "gd": -1,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "South Africa",
@@ -1818,13 +1857,14 @@
         "gf": 0,
         "ga": 2,
         "gd": -2,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": -10
       }
     ],
     "B": [
       {
-        "team": "Bosnia-Herzegovina",
-        "iso": "ba",
+        "team": "Switzerland",
+        "iso": "ch",
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -1832,7 +1872,8 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -1
       },
       {
         "team": "Canada",
@@ -1844,7 +1885,8 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -2
       },
       {
         "team": "Qatar",
@@ -1856,11 +1898,12 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -2
       },
       {
-        "team": "Switzerland",
-        "iso": "ch",
+        "team": "Bosnia-Herzegovina",
+        "iso": "ba",
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -1868,7 +1911,8 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -3
       }
     ],
     "D": [
@@ -1882,7 +1926,8 @@
         "gf": 4,
         "ga": 1,
         "gd": 3,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": -1
       },
       {
         "team": "Australia",
@@ -1894,7 +1939,8 @@
         "gf": 2,
         "ga": 0,
         "gd": 2,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "Turkey",
@@ -1906,7 +1952,8 @@
         "gf": 0,
         "ga": 2,
         "gd": -2,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Paraguay",
@@ -1918,7 +1965,8 @@
         "gf": 1,
         "ga": 4,
         "gd": -3,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": -5
       }
     ],
     "C": [
@@ -1932,19 +1980,8 @@
         "gf": 1,
         "ga": 0,
         "gd": 1,
-        "pts": 3
-      },
-      {
-        "team": "Brazil",
-        "iso": "br",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
+        "pts": 3,
+        "fairPlayPoints": -3
       },
       {
         "team": "Morocco",
@@ -1956,7 +1993,21 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": 0
+      },
+      {
+        "team": "Brazil",
+        "iso": "br",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "fairPlayPoints": -2
       },
       {
         "team": "Haiti",
@@ -1968,7 +2019,8 @@
         "gf": 0,
         "ga": 1,
         "gd": -1,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": -1
       }
     ],
     "E": [
@@ -1982,7 +2034,8 @@
         "gf": 7,
         "ga": 1,
         "gd": 6,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "Ivory Coast",
@@ -1994,7 +2047,8 @@
         "gf": 1,
         "ga": 0,
         "gd": 1,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": -3
       },
       {
         "team": "Ecuador",
@@ -2006,7 +2060,8 @@
         "gf": 0,
         "ga": 1,
         "gd": -1,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": -1
       },
       {
         "team": "Curaçao",
@@ -2018,7 +2073,8 @@
         "gf": 1,
         "ga": 7,
         "gd": -6,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       }
     ],
     "F": [
@@ -2032,7 +2088,8 @@
         "gf": 5,
         "ga": 1,
         "gd": 4,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "Japan",
@@ -2044,7 +2101,8 @@
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": 0
       },
       {
         "team": "Netherlands",
@@ -2056,7 +2114,8 @@
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -3
       },
       {
         "team": "Tunisia",
@@ -2068,22 +2127,11 @@
         "gf": 1,
         "ga": 5,
         "gd": -4,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": -1
       }
     ],
     "H": [
-      {
-        "team": "Saudi Arabia",
-        "iso": "sa",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
-      },
       {
         "team": "Uruguay",
         "iso": "uy",
@@ -2094,7 +2142,21 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": 0
+      },
+      {
+        "team": "Saudi Arabia",
+        "iso": "sa",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "fairPlayPoints": -1
       },
       {
         "team": "Cape Verde Islands",
@@ -2106,7 +2168,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -1
       },
       {
         "team": "Spain",
@@ -2118,22 +2181,11 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -1
       }
     ],
     "G": [
-      {
-        "team": "Iran",
-        "iso": "ir",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "pts": 1
-      },
       {
         "team": "New Zealand",
         "iso": "nz",
@@ -2144,7 +2196,21 @@
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": 0
+      },
+      {
+        "team": "Iran",
+        "iso": "ir",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1,
+        "fairPlayPoints": -1
       },
       {
         "team": "Belgium",
@@ -2156,7 +2222,8 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -2
       },
       {
         "team": "Egypt",
@@ -2168,7 +2235,8 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "pts": 1
+        "pts": 1,
+        "fairPlayPoints": -2
       }
     ],
     "I": [
@@ -2182,7 +2250,8 @@
         "gf": 4,
         "ga": 1,
         "gd": 3,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "France",
@@ -2194,7 +2263,8 @@
         "gf": 3,
         "ga": 1,
         "gd": 2,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "Senegal",
@@ -2206,7 +2276,8 @@
         "gf": 1,
         "ga": 3,
         "gd": -2,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Iraq",
@@ -2218,7 +2289,8 @@
         "gf": 1,
         "ga": 4,
         "gd": -3,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": -1
       }
     ],
     "J": [
@@ -2232,7 +2304,8 @@
         "gf": 3,
         "ga": 0,
         "gd": 3,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "Austria",
@@ -2244,7 +2317,8 @@
         "gf": 3,
         "ga": 1,
         "gd": 2,
-        "pts": 3
+        "pts": 3,
+        "fairPlayPoints": 0
       },
       {
         "team": "Jordan",
@@ -2256,7 +2330,8 @@
         "gf": 1,
         "ga": 3,
         "gd": -2,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Algeria",
@@ -2268,7 +2343,8 @@
         "gf": 0,
         "ga": 3,
         "gd": -3,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       }
     ],
     "L": [
@@ -2282,7 +2358,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "England",
@@ -2294,7 +2371,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Ghana",
@@ -2306,7 +2384,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Panama",
@@ -2318,7 +2397,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       }
     ],
     "K": [
@@ -2332,7 +2412,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Congo DR",
@@ -2344,7 +2425,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Portugal",
@@ -2356,7 +2438,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       },
       {
         "team": "Uzbekistan",
@@ -2368,7 +2451,8 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "pts": 0
+        "pts": 0,
+        "fairPlayPoints": 0
       }
     ]
   }
