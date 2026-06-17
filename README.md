@@ -62,7 +62,7 @@ Push anything to `main`. The workflow will run, bootstrap `data.json` from the A
 world_cup_dashboard/
 ├── .github/workflows/
 │   └── sync.yml              # Cron sync + gh-pages deploy
-├── blueprint_data/           # Legacy CSVs + ESPN example payloads (reference only)
+├── blueprint_data/           # Legacy CSVs + ESPN example payloads (reference only); fifa_rankings_*.html is the live source of TEAM_MASTER_DATA's fifaRank field
 ├── scripts/
 │   └── update_tracker.js     # API sync + self-bootstrap + fair play sync (used by Actions)
 ├── src/
@@ -192,7 +192,16 @@ The standings computation always looks up each team's group via `TEAM_MASTER_DAT
 
 ### 3rd-Place Wildcards
 
-8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf → fair play), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json`.
+8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf → fair play → FIFA World Ranking, since head-to-head doesn't apply across different groups), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json`.
+
+### FIFA World Ranking & Head-to-Head Tiebreaker
+
+Full official FIFA group-stage tiebreaker order: points → goal difference → goals scored → head-to-head mini-league among tied teams → fair play points → FIFA World Ranking position → alphabetical (last resort; FIFA's actual procedure is a literal drawing of lots, which can't be replicated programmatically).
+
+- **`fifaRank`**: a static field on every team in `TEAM_MASTER_DATA` (both `app.js` and `update_tracker.js`), sourced from a manually-saved snapshot of FIFA's official ranking page at `blueprint_data/fifa_rankings_2026-06-17.html`. Matched to our team names via FIFA's 3-letter team codes (more reliable than display names — 7 of 48 teams have name mismatches, e.g. "Korea Republic" vs. "South Korea").
+- **Head-to-head mini-league**: `sortStandingsWithHeadToHead()` sorts a group's teams by pts → gd → gf, then clusters together any teams that are still exactly tied. For clusters of 2+ teams, `resolveHeadToHead()` recomputes a mini pts/gd/gf table using only the matches played between members of that cluster, and re-sorts the cluster by that. If the mini-league still can't separate them (e.g. a closed 3-way cycle of 1-0 results), it falls through to fair play → FIFA ranking → alphabetical.
+- **Cross-group comparisons** (3rd-place wildcard ranking) skip head-to-head entirely, since teams in different groups never play each other in the group stage — straight to fair play → FIFA ranking.
+- **Refreshing rankings**: FIFA updates the official ranking several times during the tournament. There's currently no automated refresh — to update, save a fresh copy of the ranking page HTML to `blueprint_data/`, re-parse it, and update the `fifaRank` values in both `TEAM_MASTER_DATA` copies.
 
 ### Fair Play Tiebreaker
 

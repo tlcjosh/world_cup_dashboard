@@ -8,18 +8,18 @@ const __dirname = dirname(__filename);
 const DATA_PATH = join(__dirname, '..', 'src', 'data', 'data.json');
 
 const TEAM_MASTER_DATA = {
-  "Mexico": { group: "A", iso: "mx", espnId: 203 }, "South Africa": { group: "A", iso: "za", espnId: 467 }, "South Korea": { group: "A", iso: "kr", espnId: 451 }, "Czechia": { group: "A", iso: "cz", espnId: 450 },
-  "Canada": { group: "B", iso: "ca", espnId: 206 }, "Bosnia-Herzegovina": { group: "B", iso: "ba", espnId: 452 }, "Qatar": { group: "B", iso: "qa", espnId: 4398 }, "Switzerland": { group: "B", iso: "ch", espnId: 475 },
-  "Brazil": { group: "C", iso: "br", espnId: 205 }, "Morocco": { group: "C", iso: "ma", espnId: 2869 }, "Haiti": { group: "C", iso: "ht", espnId: 2654 }, "Scotland": { group: "C", iso: "scotland", espnId: 580 },
-  "United States": { group: "D", iso: "us", espnId: 660 }, "Paraguay": { group: "D", iso: "py", espnId: 210 }, "Australia": { group: "D", iso: "au", espnId: 628 }, "Turkey": { group: "D", iso: "tr", espnId: 465 },
-  "Germany": { group: "E", iso: "de", espnId: 481 }, "Curaçao": { group: "E", iso: "cw", espnId: 11678 }, "Ivory Coast": { group: "E", iso: "ci", espnId: 4789 }, "Ecuador": { group: "E", iso: "ec", espnId: 209 },
-  "Netherlands": { group: "F", iso: "nl", espnId: 449 }, "Japan": { group: "F", iso: "jp", espnId: 627 }, "Sweden": { group: "F", iso: "se", espnId: 466 }, "Tunisia": { group: "F", iso: "tn", espnId: 659 },
-  "Belgium": { group: "G", iso: "be", espnId: 459 }, "Egypt": { group: "G", iso: "eg", espnId: 2620 }, "Iran": { group: "G", iso: "ir", espnId: 469 }, "New Zealand": { group: "G", iso: "nz", espnId: 2666 },
-  "Saudi Arabia": { group: "H", iso: "sa", espnId: 655 }, "Uruguay": { group: "H", iso: "uy", espnId: 212 }, "Spain": { group: "H", iso: "es", espnId: 164 }, "Cape Verde Islands": { group: "H", iso: "cv", espnId: 2597 },
-  "France": { group: "I", iso: "fr", espnId: 478 }, "Senegal": { group: "I", iso: "sn", espnId: 654 }, "Iraq": { group: "I", iso: "iq", espnId: 4375 }, "Norway": { group: "I", iso: "no", espnId: 464 },
-  "Argentina": { group: "J", iso: "ar", espnId: 202 }, "Algeria": { group: "J", iso: "dz", espnId: 624 }, "Austria": { group: "J", iso: "at", espnId: 474 }, "Jordan": { group: "J", iso: "jo", espnId: 2917 },
-  "Portugal": { group: "K", iso: "pt", espnId: 482 }, "Congo DR": { group: "K", iso: "cd", espnId: 2850 }, "Uzbekistan": { group: "K", iso: "uz", espnId: 2570 }, "Colombia": { group: "K", iso: "co", espnId: 208 },
-  "England": { group: "L", iso: "england", espnId: 448 }, "Croatia": { group: "L", iso: "hr", espnId: 477 }, "Ghana": { group: "L", iso: "gh", espnId: 4469 }, "Panama": { group: "L", iso: "pa", espnId: 2659 }
+  "Mexico": { group: "A", iso: "mx", espnId: 203, fifaRank: 14 }, "South Africa": { group: "A", iso: "za", espnId: 467, fifaRank: 60 }, "South Korea": { group: "A", iso: "kr", espnId: 451, fifaRank: 25 }, "Czechia": { group: "A", iso: "cz", espnId: 450, fifaRank: 40 },
+  "Canada": { group: "B", iso: "ca", espnId: 206, fifaRank: 30 }, "Bosnia-Herzegovina": { group: "B", iso: "ba", espnId: 452, fifaRank: 64 }, "Qatar": { group: "B", iso: "qa", espnId: 4398, fifaRank: 56 }, "Switzerland": { group: "B", iso: "ch", espnId: 475, fifaRank: 19 },
+  "Brazil": { group: "C", iso: "br", espnId: 205, fifaRank: 6 }, "Morocco": { group: "C", iso: "ma", espnId: 2869, fifaRank: 7 }, "Haiti": { group: "C", iso: "ht", espnId: 2654, fifaRank: 83 }, "Scotland": { group: "C", iso: "scotland", espnId: 580, fifaRank: 42 },
+  "United States": { group: "D", iso: "us", espnId: 660, fifaRank: 17 }, "Paraguay": { group: "D", iso: "py", espnId: 210, fifaRank: 41 }, "Australia": { group: "D", iso: "au", espnId: 628, fifaRank: 27 }, "Turkey": { group: "D", iso: "tr", espnId: 465, fifaRank: 22 },
+  "Germany": { group: "E", iso: "de", espnId: 481, fifaRank: 10 }, "Curaçao": { group: "E", iso: "cw", espnId: 11678, fifaRank: 82 }, "Ivory Coast": { group: "E", iso: "ci", espnId: 4789, fifaRank: 33 }, "Ecuador": { group: "E", iso: "ec", espnId: 209, fifaRank: 23 },
+  "Netherlands": { group: "F", iso: "nl", espnId: 449, fifaRank: 8 }, "Japan": { group: "F", iso: "jp", espnId: 627, fifaRank: 18 }, "Sweden": { group: "F", iso: "se", espnId: 466, fifaRank: 38 }, "Tunisia": { group: "F", iso: "tn", espnId: 659, fifaRank: 45 },
+  "Belgium": { group: "G", iso: "be", espnId: 459, fifaRank: 9 }, "Egypt": { group: "G", iso: "eg", espnId: 2620, fifaRank: 29 }, "Iran": { group: "G", iso: "ir", espnId: 469, fifaRank: 20 }, "New Zealand": { group: "G", iso: "nz", espnId: 2666, fifaRank: 85 },
+  "Saudi Arabia": { group: "H", iso: "sa", espnId: 655, fifaRank: 61 }, "Uruguay": { group: "H", iso: "uy", espnId: 212, fifaRank: 16 }, "Spain": { group: "H", iso: "es", espnId: 164, fifaRank: 2 }, "Cape Verde Islands": { group: "H", iso: "cv", espnId: 2597, fifaRank: 67 },
+  "France": { group: "I", iso: "fr", espnId: 478, fifaRank: 3 }, "Senegal": { group: "I", iso: "sn", espnId: 654, fifaRank: 15 }, "Iraq": { group: "I", iso: "iq", espnId: 4375, fifaRank: 57 }, "Norway": { group: "I", iso: "no", espnId: 464, fifaRank: 31 },
+  "Argentina": { group: "J", iso: "ar", espnId: 202, fifaRank: 1 }, "Algeria": { group: "J", iso: "dz", espnId: 624, fifaRank: 28 }, "Austria": { group: "J", iso: "at", espnId: 474, fifaRank: 24 }, "Jordan": { group: "J", iso: "jo", espnId: 2917, fifaRank: 63 },
+  "Portugal": { group: "K", iso: "pt", espnId: 482, fifaRank: 5 }, "Congo DR": { group: "K", iso: "cd", espnId: 2850, fifaRank: 46 }, "Uzbekistan": { group: "K", iso: "uz", espnId: 2570, fifaRank: 50 }, "Colombia": { group: "K", iso: "co", espnId: 208, fifaRank: 13 },
+  "England": { group: "L", iso: "england", espnId: 448, fifaRank: 4 }, "Croatia": { group: "L", iso: "hr", espnId: 477, fifaRank: 11 }, "Ghana": { group: "L", iso: "gh", espnId: 4469, fifaRank: 73 }, "Panama": { group: "L", iso: "pa", espnId: 2659, fifaRank: 34 }
 };
 
 // ESPN display name -> our TEAM_MASTER_DATA key (kept in sync with the same map in src/app.js)
@@ -189,6 +189,51 @@ function cleanName(name) {
   return name.toString().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^\w\s]/gi, '').trim().toLowerCase();
 }
 
+function fifaRankOf(team) {
+  return TEAM_MASTER_DATA[team]?.fifaRank ?? 9999;
+}
+
+// FIFA's official group-stage tiebreaker order: pts -> GD -> GF -> head-to-head mini-league
+// (pts -> GD -> GF, group-stage matches between the tied teams only) -> fair play points ->
+// FIFA World Ranking position -> alphabetical (last-resort, should rarely matter).
+function sortStandingsWithHeadToHead(teams, groupMatches) {
+  const baseSorted = [...teams].sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+  const result = [];
+  let i = 0;
+  while (i < baseSorted.length) {
+    let j = i + 1;
+    while (j < baseSorted.length &&
+      baseSorted[j].pts === baseSorted[i].pts && baseSorted[j].gd === baseSorted[i].gd && baseSorted[j].gf === baseSorted[i].gf) j++;
+    const cluster = baseSorted.slice(i, j);
+    result.push(...(cluster.length > 1 ? resolveHeadToHead(cluster, groupMatches) : cluster));
+    i = j;
+  }
+  return result;
+}
+
+function resolveHeadToHead(cluster, groupMatches) {
+  const names = new Set(cluster.map(t => t.team));
+  const mini = {};
+  for (const t of cluster) mini[t.team] = { pts: 0, gf: 0, ga: 0 };
+  for (const m of groupMatches) {
+    if (!names.has(m.homeTeam) || !names.has(m.awayTeam)) continue;
+    const h = mini[m.homeTeam], a = mini[m.awayTeam];
+    const hs = m.homeScore ?? 0, as = m.awayScore ?? 0;
+    h.gf += hs; h.ga += as;
+    a.gf += as; a.ga += hs;
+    if (hs > as) h.pts += 3;
+    else if (hs === as) { h.pts += 1; a.pts += 1; }
+    else a.pts += 3;
+  }
+  return [...cluster].sort((a, b) => {
+    const ma = mini[a.team], mb = mini[b.team];
+    return (mb.pts - ma.pts) || ((mb.gf - mb.ga) - (ma.gf - ma.ga)) || (mb.gf - ma.gf) ||
+      ((b.fairPlayPoints || 0) - (a.fairPlayPoints || 0)) ||
+      (fifaRankOf(a.team) - fifaRankOf(b.team)) ||
+      a.team.localeCompare(b.team);
+  });
+}
+
 function computeStandings(matches) {
   const standings = {};
   for (const m of matches) {
@@ -216,9 +261,9 @@ function computeStandings(matches) {
   }
   const result = {};
   for (const [g, teams] of Object.entries(standings)) {
-    result[g] = Object.values(teams).sort((a, b) =>
-      b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || a.team.localeCompare(b.team)
-    );
+    const groupMatches = matches.filter(m => m.stage === 'Group Stage' && m.status === 'FINISHED' &&
+      TEAM_MASTER_DATA[m.homeTeam]?.group === g && TEAM_MASTER_DATA[m.awayTeam]?.group === g);
+    result[g] = sortStandingsWithHeadToHead(Object.values(teams), groupMatches);
   }
   return result;
 }

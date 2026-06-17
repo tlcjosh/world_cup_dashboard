@@ -24,7 +24,7 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 | `src/manifest.json` | PWA manifest (name, icons, theme color, display mode) — enables "Add to Home Screen" / Android install. |
 | `src/icons/`, `src/favicon.ico`, `src/favicon.svg` | App icons for the PWA manifest, favicon, and notification icon/badge. |
 | `src/vendor/idiomorph.esm.js` | Vendored [Idiomorph](https://github.com/bigskysoftware/idiomorph) DOM-morphing library (`morphInto()` in `app.js`). Patches existing DOM nodes to match newly-rendered HTML instead of replacing `innerHTML` wholesale — avoids flag image re-decode flicker and restarting in-flight CSS animations (e.g. the live-card gradient border, sync pill pulse) on every poll. |
-| `blueprint_data/` | Legacy CSV files. No longer used at runtime — reference only. |
+| `blueprint_data/` | Legacy CSV files — no longer used at runtime, reference only. **Exception**: `fifa_rankings_*.html` is a manually-saved snapshot of FIFA's official world ranking page and is the live data source for the `fifaRank` field baked into `TEAM_MASTER_DATA` in both `app.js` and `update_tracker.js`. See "FIFA World Ranking & Head-to-Head Tiebreaker" below. |
 | `scripts/bootstrap.js` | Legacy CSV parser. No longer used — `update_tracker.js` self-bootstraps from API. |
 
 ## Frontend Design System
@@ -257,7 +257,7 @@ ESPN status names → our internal status values:
   ]
 }
 ```
-Teams sorted: pts → gd → gf → fair play → team name alphabetically. `fairPlayPoints` is the sum of `homeFairPlay`/`awayFairPlay` across the team's matches, computed by `computeStandings()`.
+Teams sorted: pts → gd → gf → head-to-head mini-league → fair play → FIFA World Ranking → team name alphabetically. `fairPlayPoints` is the sum of `homeFairPlay`/`awayFairPlay` across the team's matches, computed by `computeStandings()`.
 
 ## Tournament Logic
 
@@ -275,7 +275,7 @@ ESPN's `altGameNote` field (e.g. `"FIFA World Cup, Group H"`) reflects the home 
 ### 3rd-Place Wildcard
 8 of 12 third-place teams advance. Logic in `app.js` → `computeThirdPlaceRankings()`:
 1. Get position-3 team from each group's standings
-2. Sort all 12 by pts → gd → gf → fair play
+2. Sort all 12 by pts → gd → gf → fair play → FIFA World Ranking (no head-to-head — these teams are in different groups and never play each other in the group stage)
 3. Top 8 qualify; their group letters sorted alphabetically = combination string (e.g. `"ABCDEFKL"`)
 4. `combinations.json[combString]` maps `"1A"` ... `"1L"` → `"3X"` team codes
 
@@ -319,8 +319,18 @@ Group standings (and the 3rd-place wildcard ranking) use FIFA's disciplinary-poi
 - **Backend (permanent)**: `update_tracker.js`'s `syncFairPlayPoints()` fetches ESPN's date-scoped scoreboard once per matchday (only for newly-`FINISHED` Group Stage matches missing these fields), finds the matching event via `findESPNEvent()` (ESPN team ID first, `ESPN_NAME_MAP` fallback — same pattern as `app.js`), and bakes the result into `data.json` permanently. Card events never change after the final whistle, so each match is fetched only once, ever. This required porting `espnId` (added to every `TEAM_MASTER_DATA` entry), `ESPN_NAME_MAP`, and ESPN-fetch helpers into `update_tracker.js`, which previously had no ESPN integration at all.
 - **Known limitation**: ESPN's `details[]` doesn't flag "this red card was a second yellow" explicitly. When a single athlete has exactly one yellow and one red logged in the same match, `classifyMatchFairPlay()` assumes it's an indirect red (`-3`) rather than yellow + straight red (`-5`), since that's the far more common real case — this hasn't been validated against a confirmed second-yellow example yet.
 
+### FIFA World Ranking & Head-to-Head Tiebreaker
+Full official FIFA group-stage tiebreaker order, as implemented: points → goal difference → goals scored → head-to-head mini-league among tied teams → fair play points → FIFA World Ranking position → alphabetical (last resort — FIFA's actual final tiebreaker is a literal drawing of lots, which can't be replicated programmatically).
+
+- **`fifaRank`**: a static field added to every entry in `TEAM_MASTER_DATA` (both `app.js` and `update_tracker.js`), e.g. `"Argentina": { group: "J", iso: "ar", espnId: 202, fifaRank: 1 }`. Lower number = higher-ranked team. `fifaRankOf(team)` returns `9999` for any team missing the field (defensive fallback, should never trigger since all 48 teams are populated).
+- **Data source**: manually-saved HTML snapshot of FIFA's official ranking page (`blueprint_data/fifa_rankings_YYYY-MM-DD.html`, currently `2026-06-17`), since `inside.fifa.com`'s backend API is undocumented and the legacy `fifa.com/api/ranking-overview` endpoint is dead (returns a custom 404 page, not a bot block). Parsed via regex against stable CSS class patterns (`custom-rank-cell_rankNumber__*`, `fifa-world-ranking/{CODE}?gender=men`, `custom-points-cell_points__*`). Matched to our team names via FIFA's 3-letter codes (not display names — 7 of 48 teams have name mismatches, e.g. FIFA's "Korea Republic" vs. our "South Korea", "IR Iran" vs. "Iran", "Cabo Verde" vs. "Cape Verde Islands").
+- **Refreshing**: FIFA updates the official ranking several times during the tournament (per FIFA's site). There is currently **no automated refresh** — to update, save a fresh ranking page snapshot to `blueprint_data/`, re-parse it, and update the `fifaRank` values in both `TEAM_MASTER_DATA` copies by hand. Revisit if this becomes too frequent to do manually.
+- **Head-to-head mini-league** (group standings only): `sortStandingsWithHeadToHead(teams, groupMatches)` first sorts by pts → gd → gf, then walks the sorted list clustering consecutive teams with identical pts/gd/gf. Clusters of size 1 pass through unchanged. For clusters of 2+, `resolveHeadToHead(cluster, groupMatches)` builds a mini standings table using only matches played between cluster members, sorts by that mini-league's pts → gd → gf, and falls through to fair play → FIFA ranking → alphabetical if the mini-league still can't separate them (handles FIFA's documented edge case: a closed cyclic tie, e.g. three teams each winning one and losing one against each other, where head-to-head mathematically cannot discriminate).
+- **Cross-group rankings** (3rd-place wildcard) skip head-to-head entirely since the tied teams are in different groups and never played each other — straight to fair play → FIFA ranking → alphabetical.
+- Implemented identically in `app.js` and `update_tracker.js` (`fifaRankOf`, `sortStandingsWithHeadToHead`, `resolveHeadToHead`), called from `computeStandings()` in both files.
+
 ## TEAM_MASTER_DATA
-All 48 teams with group assignments and ISO codes are embedded in both `scripts/update_tracker.js` and `src/app.js`. If you change a group assignment, update **both** files.
+All 48 teams with group assignments, ISO codes, ESPN IDs, and FIFA ranking (`fifaRank`) are embedded in both `scripts/update_tracker.js` and `src/app.js`. If you change a group assignment or `fifaRank` value, update **both** files.
 - Scotland: `iso: "scotland"` → flag rendered as `gb-sct` on flagcdn.com
 - England: `iso: "england"` → flag rendered as `gb-eng` on flagcdn.com
 - All others: standard 2-letter ISO → `https://flagcdn.com/24x18/{iso}.png`
