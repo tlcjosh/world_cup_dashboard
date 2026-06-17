@@ -1,8 +1,9 @@
-const CACHE = 'wc2026-v4';
+const CACHE = 'wc2026-v5';
 const PRECACHE = [
   '/world_cup_dashboard/',
   '/world_cup_dashboard/styles.css',
   '/world_cup_dashboard/app.js',
+  '/world_cup_dashboard/vendor/idiomorph.esm.js',
   '/world_cup_dashboard/data/data.json',
   '/world_cup_dashboard/data/combinations.json',
   '/world_cup_dashboard/favicon.svg',

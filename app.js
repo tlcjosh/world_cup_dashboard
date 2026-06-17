@@ -1,3 +1,12 @@
+import { Idiomorph } from './vendor/idiomorph.esm.js';
+
+// Patches `el`'s children to match `html` instead of destroying/rebuilding the
+// subtree (avoids image re-decode flicker and restarting in-flight CSS animations
+// on every poll). Render functions still build plain HTML strings as before.
+function morphInto(el, html) {
+  Idiomorph.morph(el, html, { morphStyle: 'innerHTML' });
+}
+
 // ===== STATE =====
 const state = {
   matches: [],
@@ -12,9 +21,10 @@ const state = {
   syncInterval: null,
   espnInterval: null,
   espnSynced: false,
+  _espnFetchInFlight: false,
+  _dataFetchInFlight: false,
   // Notification tracking
   _seenMatchStart: new Set(),   // matchNum
-  _seenGoals: new Set(),        // matchNum:homeScore:awayScore  (score-based dedup)
   _seenGoalEvents: new Set(),   // matchNum:homeEventCount:awayEventCount (event-based, fires before score)
   _seenMatchEnd: new Set(),     // matchNum
   _audioArmed: false,
@@ -537,6 +547,8 @@ function mapESPNStatus(typeName, typeState) {
 }
 
 async function fetchESPN() {
+  if (state._espnFetchInFlight) return; // avoid overlapping polls if a previous one is slow
+  state._espnFetchInFlight = true;
   setSyncPillState('syncing');
   try {
     const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
@@ -553,9 +565,14 @@ async function fetchESPN() {
     }
     setSyncPillState('ok');
   } catch (e) {
+    // ESPN unreachable — drop the "is ESPN authoritative" flag so fetchData() falls
+    // back to football-data.org's values instead of trusting now-unconfirmed ESPN data.
+    state.espnSynced = false;
     setSyncPillState('error');
     updateSyncPill(formatLastSync(state.lastUpdated));
     console.error('[ESPN] Sync failed:', e.message);
+  } finally {
+    state._espnFetchInFlight = false;
   }
 }
 
@@ -696,7 +713,7 @@ function mergeESPNData(espnEvents) {
   let changed = false;
 
   // Snapshot pre-update state for event detection (skip on first load when seen-sets are empty)
-  const isFirstLoad = state._seenMatchStart.size === 0 && state._seenGoals.size === 0 && state._seenMatchEnd.size === 0;
+  const isFirstLoad = state._seenMatchStart.size === 0 && state._seenGoalEvents.size === 0 && state._seenMatchEnd.size === 0;
   const prevState = {};
   for (const m of state.matches) {
     prevState[m.matchNum] = { status: m.status, homeScore: m.homeScore, awayScore: m.awayScore };
@@ -816,9 +833,6 @@ function mergeESPNData(espnEvents) {
         // Already done — suppress final notification
         state._seenMatchEnd.add(m.matchNum);
       }
-      if (m.homeScore !== null && m.awayScore !== null) {
-        state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
-      }
       const ev = m._espnEvents;
       if (ev) {
         state._seenGoalEvents.add(`${m.matchNum}:${ev.home.length}:${ev.away.length}`);
@@ -876,11 +890,6 @@ function mergeESPNData(espnEvents) {
               body: `${scorerLabel ? scorerLabel + ' — ' : ''}${displayMatch.homeTeam} ${displayMatch.homeScore} – ${displayMatch.awayScore} ${displayMatch.awayTeam}`,
             });
           }
-        }
-
-        // Score-based path: deduplicate so we don't double-fire when score catches up
-        if (m.homeScore !== null && m.awayScore !== null) {
-          state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
         }
       }
 
@@ -1308,7 +1317,7 @@ function renderDashboard() {
         ${filteredMatches.length ? filteredMatches.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No matches found.</div>'}
       </div>
     `;
-    el.innerHTML = html;
+    morphInto(el, html);
   } else {
     // Hero stats
     const totalMatches = state.matches.length;
@@ -1451,7 +1460,7 @@ function renderDashboard() {
         </div>
       </div>
     `;
-    el.innerHTML = html;
+    morphInto(el, html);
   }
 
   // Bind team search
@@ -1529,7 +1538,7 @@ function renderSchedule(opts = {}) {
     }
   }
 
-  el.innerHTML = html || '<div class="empty-state">No matches to display.</div>';
+  morphInto(el, html || '<div class="empty-state">No matches to display.</div>');
 
   // Scroll to today after render (skip on silent background refreshes)
   if (todayId && !opts.silent) {
@@ -1673,7 +1682,7 @@ function renderStandings() {
     html += `</tbody></table></div>`;
   }
 
-  el.innerHTML = html;
+  morphInto(el, html);
 }
 
 // ===== RENDER BRACKET =====
@@ -1764,7 +1773,7 @@ function renderBracket() {
   </div>`;
 
   html += `</div></div>`;
-  el.innerHTML = html;
+  morphInto(el, html);
 }
 
 // ===== RENDER VIEW =====
@@ -1798,40 +1807,92 @@ function renderView(opts = {}) {
 }
 
 // ===== FETCH DATA =====
-async function fetchData() {
+
+// combinations.json is static (495 fixed group-letter entries, never changes at
+// runtime) — fetch it once on startup instead of re-downloading/re-parsing it on
+// every fetchData() poll.
+async function fetchCombinations() {
   try {
-    const [dataRes, combRes] = await Promise.all([
-      fetch('./data/data.json?' + Date.now()),
-      fetch('./data/combinations.json?' + Date.now()),
-    ]);
-    if (!dataRes.ok) throw new Error('data.json fetch failed: ' + dataRes.status);
-    const data = await dataRes.json();
-    // Merge data.json fields onto existing match objects, preserving ESPN enrichment
+    const res = await fetch('./data/combinations.json');
+    if (res.ok) state.combinations = await res.json();
+  } catch (e) {
+    console.error('combinations.json fetch error:', e);
+  }
+}
+
+async function fetchData() {
+  if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
+  state._dataFetchInFlight = true;
+  try {
+    const res = await fetch('./data/data.json?' + Date.now());
+    if (!res.ok) throw new Error('data.json fetch failed: ' + res.status);
+    const data = await res.json();
+
+    // The Actions cron only commits data.json every ~5 minutes, but we poll it every
+    // 2 — most ticks see byte-identical content. Skip the match/standings rebuild and
+    // re-render entirely when nothing has actually changed since the last fetch.
+    if (data.lastUpdated && data.lastUpdated === state.fdLastUpdated) return;
+
+    // Merge data.json onto existing match objects. While ESPN is reachable, it's the
+    // source of truth for any match it's actively tracking (espnEventId set) — its
+    // status/score/clock/stats take precedence over football-data.org's data.json,
+    // which is only authoritative once ESPN is unreachable, or for matches ESPN
+    // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq','espnEventId'];
+    const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
       if (!ex) return nm;
-      const espn = Object.fromEntries(ESPN_FIELDS.filter(k => k in ex).map(k => [k, ex[k]]));
+      const fields = (state.espnSynced && ex.espnEventId) ? [...ESPN_FIELDS, ...ESPN_AUTHORITATIVE_FIELDS] : ESPN_FIELDS;
+      const espn = Object.fromEntries(fields.filter(k => k in ex).map(k => [k, ex[k]]));
       return { ...nm, ...espn };
     });
     state.standings = data.standings || {};
     state.lastUpdated = data.lastUpdated || null;
     state.fdLastUpdated = data.lastUpdated || null;
 
-    if (combRes.ok) {
-      state.combinations = await combRes.json();
-    }
-
     // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
     if (!state.espnSynced) updateSyncPill(formatLastSync(state.lastUpdated));
 
-    renderView();
+    // Silent: this can fire mid-session (initial load, background poll, or a
+    // resume re-sync) and must never yank the user's scroll position to the top.
+    renderView({ silent: true });
   } catch (e) {
     console.error('fetchData error:', e);
+  } finally {
+    state._dataFetchInFlight = false;
   }
 }
+
+// ===== RESUME / VISIBILITY =====
+// Installed Android PWAs throttle or fully suspend setInterval timers while
+// backgrounded (screen off, app switched away). Without an explicit resume
+// hook, the UI sits on stale data — wrong score, stale live badge, stale
+// commentary — until the next throttled timer eventually fires. Force an
+// immediate re-sync whenever the page becomes visible/focused again, and
+// restart the interval timers so their next tick is measured from "now"
+// instead of from whenever they last fired before being suspended.
+function restartPollIntervals() {
+  if (state.espnInterval) clearInterval(state.espnInterval);
+  state.espnInterval = setInterval(fetchESPN, 10000);
+  if (state.syncInterval) clearInterval(state.syncInterval);
+  state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
+}
+
+async function resyncNow() {
+  await Promise.all([fetchData(), fetchESPN()]); // each guards its own re-entrancy
+  restartPollIntervals();
+}
+
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') resyncNow();
+});
+window.addEventListener('online', resyncNow);
+// `persisted` is true only for back/forward-cache restores (the common case when
+// resuming an installed PWA on Android), not for the initial page load.
+window.addEventListener('pageshow', (e) => { if (e.persisted) resyncNow(); });
 
 // ===== TICK =====
 function tick() {
@@ -2229,8 +2290,9 @@ async function init() {
     });
   }
 
-  // Initial load from data.json (full schedule + standings)
-  await fetchData();
+  // Initial load: data.json (full schedule + standings) and the static
+  // combinations.json lookup table (fetched once, never refetched) in parallel.
+  await Promise.all([fetchCombinations(), fetchData()]);
 
   // Initial ESPN sync — overlays live scores immediately
   await fetchESPN();
@@ -2239,13 +2301,10 @@ async function init() {
   if (state.tickInterval) clearInterval(state.tickInterval);
   state.tickInterval = setInterval(tick, 1000);
 
-  // ESPN: poll every 30s for live scores
-  if (state.espnInterval) clearInterval(state.espnInterval);
-  state.espnInterval = setInterval(fetchESPN, 10000);
-
-  // data.json: re-fetch every 2 minutes for schedule/standings/knockout updates
-  if (state.syncInterval) clearInterval(state.syncInterval);
-  state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
+  // ESPN: poll every 10s for live scores; data.json: re-fetch every 2 minutes
+  // for schedule/standings/knockout updates. Also restarted on resume from
+  // background — see RESUME / VISIBILITY above.
+  restartPollIntervals();
 
   // ---- Test / debug harness ----
   const testMatch = {

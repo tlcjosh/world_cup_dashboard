@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T01:45:04.071Z",
+  "lastUpdated": "2026-06-17T04:24:35.633Z",
   "matches": [
     {
       "matchId": 537327,
@@ -318,9 +318,9 @@
       "awayIso": "dz",
       "venue": "Arrowhead Stadium, Kansas City",
       "kickoff": "2026-06-17T01:00:00.000Z",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-17T01:45:04.071Z",
       "secondHalfStart": null
     },
@@ -335,10 +335,10 @@
       "awayIso": "jo",
       "venue": "Levi's Stadium, Santa Clara",
       "kickoff": "2026-06-17T03:59:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-17T04:24:35.633Z",
       "secondHalfStart": null
     },
     {
@@ -2223,28 +2223,16 @@
     ],
     "J": [
       {
-        "team": "Algeria",
-        "iso": "dz",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0
-      },
-      {
         "team": "Argentina",
         "iso": "ar",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gf": 0,
+        "gf": 3,
         "ga": 0,
-        "gd": 0,
-        "pts": 0
+        "gd": 3,
+        "pts": 3
       },
       {
         "team": "Austria",
@@ -2268,6 +2256,18 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
+        "pts": 0
+      },
+      {
+        "team": "Algeria",
+        "iso": "dz",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 0,
+        "ga": 3,
+        "gd": -3,
         "pts": 0
       }
     ],
