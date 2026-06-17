@@ -1,4 +1,4 @@
-const CACHE = 'wc2026-v3';
+const CACHE = 'wc2026-v4';
 const PRECACHE = [
   '/world_cup_dashboard/',
   '/world_cup_dashboard/styles.css',
@@ -11,6 +11,7 @@ const PRECACHE = [
   '/world_cup_dashboard/icons/icon-512-any.png',
   '/world_cup_dashboard/icons/icon-192.png',
   '/world_cup_dashboard/icons/icon-512.png',
+  '/world_cup_dashboard/icons/badge-192.png',
 ];
 
 self.addEventListener('install', e => {

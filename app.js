@@ -345,7 +345,7 @@ function sendSystemNotification(notif) {
     reg.showNotification(notif.title, {
       body: notif.body || '',
       icon: './icons/icon-192-any.png',
-      badge: './icons/icon-192-any.png',
+      badge: './icons/badge-192.png',
       tag: 'wc2026-' + notif.type,
       renotify: true,
       vibrate: [120, 60, 120],
