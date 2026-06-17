@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:33:51.436Z",
+  "lastUpdated": "2026-06-17T19:05:15.602Z",
   "matches": [
     {
       "matchId": 537327,
@@ -424,9 +424,11 @@
       "kickoff": "2026-06-17T17:00:00.000Z",
       "homeScore": 1,
       "awayScore": 1,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-17T17:02:27.820Z",
-      "secondHalfStart": "2026-06-17T18:12:22.369Z"
+      "secondHalfStart": "2026-06-17T18:12:22.369Z",
+      "homeFairPlay": -3,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537404,
@@ -2403,34 +2405,34 @@
     ],
     "K": [
       {
+        "team": "Congo DR",
+        "iso": "cd",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1,
+        "fairPlayPoints": -1
+      },
+      {
         "team": "Portugal",
         "iso": "pt",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
+        "pts": 1,
+        "fairPlayPoints": -3
       },
       {
         "team": "Colombia",
         "iso": "co",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
-      },
-      {
-        "team": "Congo DR",
-        "iso": "cd",
         "played": 0,
         "won": 0,
         "drawn": 0,
