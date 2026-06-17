@@ -1,7 +1,7 @@
 # World Cup 2026 Dashboard — Claude Context
 
 ## What This Is
-A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend polls ESPN's public scoreboard API every 30 seconds directly from the browser for live scores. GitHub Actions backs this up by polling football-data.org every 5 minutes and committing `src/data/data.json`, which the frontend uses for the full match schedule and standings. No backend server.
+A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend polls ESPN's public scoreboard API every 10 seconds directly from the browser for live scores. GitHub Actions backs this up by polling football-data.org every 5 minutes and committing `src/data/data.json`, which the frontend uses for the full match schedule and standings. No backend server.
 
 ## Repo & Deployment
 - **Repo**: `tlcjosh/world_cup_dashboard` (public)
@@ -13,7 +13,7 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 
 | File | Role |
 |---|---|
-| `scripts/update_tracker.js` | Single pipeline script. Bootstraps `data.json` from API if missing; otherwise syncs scores/status. Run by Actions. Has `TEAM_MASTER_DATA` and `BRACKET_TEMPLATE` embedded. |
+| `scripts/update_tracker.js` | Single pipeline script. Bootstraps `data.json` from API if missing; otherwise syncs scores/status, then syncs fair play points for newly-finished matches via ESPN. Run by Actions. Has `TEAM_MASTER_DATA` (with `espnId` per team), `ESPN_NAME_MAP`, and `BRACKET_TEMPLATE` embedded. |
 | `.github/workflows/sync.yml` | Cron `*/5 * * * *`, inner `sleep 30` loop × 10. Git config runs BEFORE the sync script. Deploy job pushes `src/` to `gh-pages` after sync. |
 | `src/app.js` | Entire frontend. Vanilla ES module, no framework. Has its own `TEAM_MASTER_DATA` copy. Includes ESPN integration block at the top. Render functions: `matchCardHtml()`, `renderDashboard()`, `renderSchedule()`, `renderStandings()`, `renderBracket()`. Dashboard also calls `getTodayMatches()` and `computeStandings()` for the live group widget. |
 | `src/styles.css` | Light modern design system. CSS custom properties in `:root`. Anybody variable font for headings (wdth 75, weight 900), Inter for body. |
@@ -144,7 +144,7 @@ The Dashboard view renders:
 
 ## Live Score Architecture
 
-### Primary: ESPN API (browser-side, every 30s)
+### Primary: ESPN API (browser-side, every 10s)
 `fetchESPN()` in `app.js` polls:
 ```
 https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard
@@ -159,6 +159,7 @@ No API key required. CORS-friendly — works directly from browser JS. Returns o
 - `_espnStats` — possession %, shots, on-target, corners; card counts derived from `details[]` (not the stats array). Keys: `possessionPct`, `totalShots`, `shotsOnTarget`, `wonCorners`, `yellowCards`, `redCards`.
 - `_espnColors` — hex brand colors for each team; auto-falls back to `alternateColor` when primary is near-white. Used for the possession gradient bar.
 - `_espnHeadline` — recap text from `competitions[0].headlines[0].description`
+- `homeFairPlay`, `awayFairPlay` — FIFA fair-play disciplinary deduction for this match only (e.g. `-1`, `-4`), derived from `competitions[0].details[]` card events via `classifyMatchFairPlay()`. Live preview while ESPN is tracking the match; see "Fair Play Tiebreaker" below.
 
 **Swapped teams**: When ESPN's home/away order differs from `data.json`, a `swapped` flag reverses all score/stat/color assignments.
 
@@ -171,7 +172,7 @@ After each scoreboard poll, `fetchESPNCommentary(match)` is called for every in-
 ```
 Parses `data.commentary[]`, sorts by sequence, stores last 5 comments in `match._espnCommentary`. Renders on live match cards beneath the headline. Fails silently if unavailable.
 
-**Scrolling through commentary**: each card shows one comment at a time (latest by default) plus `‹`/`›` buttons to step through the buffered last 5. A delegated click handler (`.mc-btn`) finds the match by `data-matchnum`, moves `match._commentarySeq` to the next/previous item's `sequence`, and re-renders just that card's `.match-commentary` node (via `commentaryInnerHtml()`) rather than the whole view, replaying the `mc-fade-in` animation. `_commentarySeq` is preserved across `mergeESPNData()` (object mutated in place) and across `fetchData()`'s `data.json` merges (listed in `ESPN_FIELDS`), so a user's scroll position survives both the 30s ESPN poll and the 2-minute data.json refresh — unless the comment they were viewing ages out of the 5-item buffer, in which case it snaps back to the latest comment.
+**Scrolling through commentary**: each card shows one comment at a time (latest by default) plus `‹`/`›` buttons to step through the buffered last 5. A delegated click handler (`.mc-btn`) finds the match by `data-matchnum`, moves `match._commentarySeq` to the next/previous item's `sequence`, and re-renders just that card's `.match-commentary` node (via `commentaryInnerHtml()`) rather than the whole view, replaying the `mc-fade-in` animation. `_commentarySeq` is preserved across `mergeESPNData()` (object mutated in place) and across `fetchData()`'s `data.json` merges (listed in `ESPN_FIELDS`), so a user's scroll position survives both the 10s ESPN poll and the 2-minute data.json refresh — unless the comment they were viewing ages out of the 5-item buffer, in which case it snaps back to the latest comment.
 
 ### ESPN Date Cache (historical data)
 `fetchESPNDate(dateStr)` fetches `?dates=YYYYMMDD` and caches the result in `state._espnDateCache[dateStr]`. Used when opening team profile modals to get per-match stat breakdowns for historical matches that are no longer in today's scoreboard feed.
@@ -246,16 +247,17 @@ ESPN status names → our internal status values:
 | `_espnHeadline` | string\|null | Recap summary from `competitions[0].headlines[0].description`. Shown as italic sentence below stats. |
 | `_espnCommentary` | string[]\|null | Last 5 live commentary lines from ESPN summary endpoint. Only populated for in-play matches. |
 | `_commentarySeq` | number\|undefined | `sequence` of the commentary item currently displayed (user's scroll position). Undefined = show latest (index 0). |
+| `homeFairPlay`, `awayFairPlay` | number | FIFA fair-play disciplinary deduction for this match only, e.g. `-1`, `-4`. Set live by `mergeESPNData()` (preview) and permanently by `update_tracker.js`'s `syncFairPlayPoints()` once the match is `FINISHED`. See "Fair Play Tiebreaker" below. |
 
 ### `data.json` standings object
 ```json
 {
   "A": [
-    { "team": "Mexico", "iso": "mx", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0, "gd": 2, "pts": 3 }
+    { "team": "Mexico", "iso": "mx", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0, "gd": 2, "pts": 3, "fairPlayPoints": -1 }
   ]
 }
 ```
-Teams sorted: pts → gd → gf → team name alphabetically.
+Teams sorted: pts → gd → gf → fair play → team name alphabetically. `fairPlayPoints` is the sum of `homeFairPlay`/`awayFairPlay` across the team's matches, computed by `computeStandings()`.
 
 ## Tournament Logic
 
@@ -273,7 +275,7 @@ ESPN's `altGameNote` field (e.g. `"FIFA World Cup, Group H"`) reflects the home 
 ### 3rd-Place Wildcard
 8 of 12 third-place teams advance. Logic in `app.js` → `computeThirdPlaceRankings()`:
 1. Get position-3 team from each group's standings
-2. Sort all 12 by pts → gd → gf
+2. Sort all 12 by pts → gd → gf → fair play
 3. Top 8 qualify; their group letters sorted alphabetically = combination string (e.g. `"ABCDEFKL"`)
 4. `combinations.json[combString]` maps `"1A"` ... `"1L"` → `"3X"` team codes
 
@@ -306,6 +308,16 @@ Falls back to `firstHalfStart`/`secondHalfStart` timestamps from `data.json` if 
 - **Live**: standings computed from `FINISHED` + `IN_PLAY` + `PAUSED` (uses current score)
 - Toggle affects: Standings view, 3rd-place wildcard table, Bracket placeholder resolution
 - State stored in `state.liveMode` (boolean), toggled via `#live-mode-toggle` checkbox
+- Fair play points need no special-casing for this toggle: `homeFairPlay`/`awayFairPlay` are summed inside the same `includeStatuses`-gated loop as pts/gd/gf in `computeStandings()`, so in-progress cards are picked up automatically in Live mode and ignored in Official mode, just like the current score.
+
+### Fair Play Tiebreaker
+Group standings (and the 3rd-place wildcard ranking) use FIFA's disciplinary-points tiebreaker as the 4th sort key, after points → goal difference → goals for and before alphabetical fallback: 1 yellow card = `-1`, an indirect red (second yellow) = `-3`, a straight red = `-4`, a yellow plus a straight red in the same match = `-5`. Less negative wins.
+
+- **Source**: football-data.org has no card data at all, so this is computed entirely from ESPN's `competitions[0].details[]` — the same array already used for goal scorers and the live stats pill. `classifyMatchFairPlay(details, ourHomeTeamId)` groups card events by athlete within a match to tell straight reds apart from second-yellow dismissals. Implemented identically in both `app.js` and `scripts/update_tracker.js`.
+- **Per-match, not per-team-total**: each match stores `homeFairPlay`/`awayFairPlay` (the deduction for that match only, e.g. `-1`, `-4`), exactly like `homeScore`/`awayScore`. `computeStandings()` sums these into each team's `fairPlayPoints`.
+- **Frontend (live)**: `mergeESPNData()` in `app.js` derives `homeFairPlay`/`awayFairPlay` from the same 10s ESPN poll already used for live scores/stats, for any match it's actively tracking — a live preview that self-corrects on the next poll as `details[]` fills in (same lag behavior as goal events). `ESPN_AUTHORITATIVE_FIELDS` in `fetchData()` includes both fields so data.json never clobbers the live ESPN value while a match is tracked.
+- **Backend (permanent)**: `update_tracker.js`'s `syncFairPlayPoints()` fetches ESPN's date-scoped scoreboard once per matchday (only for newly-`FINISHED` Group Stage matches missing these fields), finds the matching event via `findESPNEvent()` (ESPN team ID first, `ESPN_NAME_MAP` fallback — same pattern as `app.js`), and bakes the result into `data.json` permanently. Card events never change after the final whistle, so each match is fetched only once, ever. This required porting `espnId` (added to every `TEAM_MASTER_DATA` entry), `ESPN_NAME_MAP`, and ESPN-fetch helpers into `update_tracker.js`, which previously had no ESPN integration at all.
+- **Known limitation**: ESPN's `details[]` doesn't flag "this red card was a second yellow" explicitly. When a single athlete has exactly one yellow and one red logged in the same match, `classifyMatchFairPlay()` assumes it's an indirect red (`-3`) rather than yellow + straight red (`-5`), since that's the far more common real case — this hasn't been validated against a confirmed second-yellow example yet.
 
 ## TEAM_MASTER_DATA
 All 48 teams with group assignments and ISO codes are embedded in both `scripts/update_tracker.js` and `src/app.js`. If you change a group assignment, update **both** files.
@@ -331,7 +343,7 @@ Matches 73–104 (knockout bracket) are hardcoded in `update_tracker.js` as `BRA
 - Self-heals `matchId: null` entries on knockout matches via name matching
 
 ## Update Latency
-- **Live scores**: ~30 seconds (ESPN, browser-direct)
+- **Live scores**: ~10 seconds (ESPN, browser-direct)
 - **data.json / standings**: ~5–7 minutes end-to-end (Actions cron → gh-pages deploy)
 
 ## Notification & Sound System
@@ -386,6 +398,7 @@ The app is installable (manifest.json + icons) and registers `src/sw.js` (`navig
 6. **Group standings sort**: always use `Object.keys().sort()` when iterating groups — key order in JSON is not guaranteed
 7. **ESPN events lead the score**: `details[]` populates `_espnEvents` ~30s before the score field updates. The goal notification uses `_seenGoalEvents` (event count key) to fire early; `_seenGoals` (score key) prevents double-firing.
 8. **Stale service worker cache**: any deploy that changes `styles.css`/`app.js`/`index.html`/icons without also bumping `CACHE` in `src/sw.js` will look like it had no effect on any previously-visited client (browser tab or installed PWA) — see "PWA / Service Worker" above. If a shipped UI change "isn't showing up," check this first before assuming a deploy or rendering bug.
+9. **Fair play yellow+red ambiguity**: `classifyMatchFairPlay()` can't tell a straight red apart from a second-yellow dismissal when ESPN logs exactly one yellow and one red for the same athlete in the same match — it assumes second-yellow (`-3`) since that's the common case. Unvalidated against a confirmed real second-yellow example; revisit if a fair-play total looks off by 2 points.
 
 ## Running Locally
 ```bash

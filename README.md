@@ -11,7 +11,7 @@ A fully responsive single-page web application for tracking FIFA World Cup 2026,
 ```
 ┌─────────────────────────────────────┐
 │  Browser (app.js)                   │
-│  ├─ ESPN scoreboard (every 30s)     │  ← primary live source
+│  ├─ ESPN scoreboard (every 10s)     │  ← primary live source
 │  │   └─ scores, clock, events,      │
 │  │      stats, colors, headlines    │
 │  ├─ ESPN summary (per live match)   │  ← live commentary feed
@@ -39,7 +39,7 @@ A fully responsive single-page web application for tracking FIFA World Cup 2026,
 └─────────────────────────────────────┘
 ```
 
-**Update latency**: Live scores update every ~30 seconds via ESPN directly in the browser. The data.json fallback (GitHub Pages deploy) has ~5–7 minute end-to-end latency.
+**Update latency**: Live scores update every ~10 seconds via ESPN directly in the browser. The data.json fallback (GitHub Pages deploy) has ~5–7 minute end-to-end latency.
 
 ## Setup
 
@@ -62,9 +62,9 @@ Push anything to `main`. The workflow will run, bootstrap `data.json` from the A
 world_cup_dashboard/
 ├── .github/workflows/
 │   └── sync.yml              # Cron sync + gh-pages deploy
-├── blueprint_data/           # Legacy CSVs (reference only)
+├── blueprint_data/           # Legacy CSVs + ESPN example payloads (reference only)
 ├── scripts/
-│   └── update_tracker.js     # API sync + self-bootstrap (used by Actions)
+│   └── update_tracker.js     # API sync + self-bootstrap + fair play sync (used by Actions)
 ├── src/
 │   ├── index.html            # SPA shell
 │   ├── styles.css            # Light modern theme (Anybody variable font, gradient accents)
@@ -125,9 +125,9 @@ The knockout bracket uses slot-based height doubling so each round's cards align
 
 ## Live Score & Notification System
 
-### ESPN Scoreboard (every 30s)
+### ESPN Scoreboard (every 10s)
 
-`app.js` polls `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard` every 30 seconds directly from the browser. No API key required — ESPN's public scoreboard API is CORS-friendly. Results are merged into the in-memory match list by ESPN team ID (primary) or display name (fallback) and enrich each match with:
+`app.js` polls `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard` every 10 seconds directly from the browser. No API key required — ESPN's public scoreboard API is CORS-friendly. Results are merged into the in-memory match list by ESPN team ID (primary) or display name (fallback) and enrich each match with:
 
 | Field | Description |
 |---|---|
@@ -138,6 +138,7 @@ The knockout bracket uses slot-based height doubling so each round's cards align
 | `_espnColors` | Hex brand colors for each team, used for the possession gradient bar |
 | `_espnHeadline` | Recap sentence from `competitions[0].headlines[0]` |
 | `espnEventId` | ESPN's match ID, used for commentary and historical detail fetches |
+| `homeFairPlay`, `awayFairPlay` | FIFA fair-play disciplinary deduction for this match (e.g. `-1`, `-4`), derived from `competitions[0].details[]` card events. Live preview while ESPN is tracking the match; baked into `data.json` permanently by `update_tracker.js` once `FINISHED`. See "Fair Play Tiebreaker" below. |
 
 ESPN re-renders the view on every sync (not just when scores change), so stats and headlines appear immediately on page load even for already-finished matches.
 
@@ -191,7 +192,17 @@ WC2026 groups G and H play cross-group matches in rounds 2 and 3 (e.g. Spain G v
 
 ### 3rd-Place Wildcards
 
-8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json`.
+8 of 12 third-place teams advance. The qualifying combination is determined by ranking all 12 third-place teams (pts → gd → gf → fair play), taking the top 8, sorting their group letters alphabetically (e.g. `"ABCDEFKL"`), and looking up the resulting string in `combinations.json`.
+
+### Fair Play Tiebreaker
+
+Group standings (and the 3rd-place wildcard ranking) use FIFA's disciplinary-points tiebreaker as the 4th sort key, after points → goal difference → goals for and before alphabetical fallback: 1 yellow card = `-1`, an indirect red (second yellow) = `-3`, a straight red = `-4`, a yellow plus a straight red in the same match = `-5`. Less negative wins.
+
+- **Source**: football-data.org has no card data at all, so this is computed entirely from ESPN's `competitions[0].details[]` (the same array already used for goal scorers and the live stats pill). `classifyMatchFairPlay()` groups card events by athlete within a match to tell straight reds apart from second-yellow dismissals.
+- **Per-match, not per-team-total**: each match stores `homeFairPlay`/`awayFairPlay` (the deduction for that match only, e.g. `-1`, `-4`), exactly like `homeScore`/`awayScore`. `computeStandings()` sums these into each team's `fairPlayPoints`, gated by the same `includeStatuses` filter as everything else — so the Live Standings toggle picks up in-progress cards automatically, with no special-casing.
+- **Frontend (live)**: `app.js` derives `homeFairPlay`/`awayFairPlay` from the same 10s ESPN poll already used for live scores/stats, for any match it's actively tracking — a live preview that self-corrects on the next poll as `details[]` fills in (same lag behavior as goal events).
+- **Backend (permanent)**: `update_tracker.js` fetches ESPN's date-scoped scoreboard once per matchday, only for newly-`FINISHED` group stage matches missing these fields, and bakes the result into `data.json` permanently — card events never change after the final whistle, so each match is only fetched once, ever.
+- **Known limitation**: ESPN's `details[]` doesn't flag "this red card was a second yellow" explicitly. When a single athlete has exactly one yellow and one red logged in the same match, `classifyMatchFairPlay()` assumes it's an indirect red (`-3`) rather than yellow + straight red (`-5`), since that's the far more common real case — this hasn't been validated against a confirmed second-yellow example yet.
 
 ### Bracket Placeholder Resolution
 
