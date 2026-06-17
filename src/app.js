@@ -549,7 +549,8 @@ function mapESPNStatus(typeName, typeState) {
 async function fetchESPN() {
   if (state._espnFetchInFlight) return; // avoid overlapping polls if a previous one is slow
   state._espnFetchInFlight = true;
-  setSyncPillState('syncing');
+  // Note: no "syncing" pill state here — there's no distinct visual style for it, so
+  // setting it would just flash the pill back to its neutral base style every poll.
   try {
     const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
     if (!res.ok) throw new Error('ESPN ' + res.status);
@@ -584,7 +585,12 @@ async function fetchESPNCommentary(match) {
     const items = (data.commentary || [])
       .filter(c => c.text)
       .sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
-    match._espnCommentary = items.slice(0, 5); // keep last 5, most recent first
+    // Re-look-up the match by matchNum rather than writing to the captured `match`
+    // reference directly: fetchData() replaces state.matches with new objects on every
+    // data.json change, so by the time this fetch resolves the passed-in object may no
+    // longer be part of state.matches, silently losing the write.
+    const current = state.matches.find(m => m.matchNum === match.matchNum);
+    if (current) current._espnCommentary = items.slice(0, 5); // keep last 5, most recent first
   } catch (e) {
     // Non-critical — commentary is a nice-to-have
   }
@@ -1245,7 +1251,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
-  const headlineHtml = match._espnHeadline
+  const headlineHtml = match._espnHeadline && !opts.suppressStats
     ? `<div class="match-headline">${match._espnHeadline}</div>` : '';
 
   // Live commentary: most recent item by default, scrollable via nav controls, only on live/paused match cards
@@ -1274,7 +1280,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
           <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
         </div>
       </div>
-      ${hasScore ? espnEventsHtml(match) : ''}
+      ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
       ${commentaryHtml}
       ${headlineHtml}
