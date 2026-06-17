@@ -147,7 +147,7 @@ ESPN re-renders the view on every sync (not just when scores change), so stats a
 
 ### Live Commentary (per in-play match)
 
-For each in-play match that has an `espnEventId`, a second request goes to the ESPN summary endpoint. All commentary received over the course of the match is merged by `sequence` and cached in `match._espnCommentary` (no cap — ESPN's summary endpoint returns the full feed on every poll, so later fetches just dedupe into the same buffer). The match card always shows the most recent comment by default; the user can scroll back through older ones with the `‹`/`›` buttons, and the view automatically snaps back to the latest comment after 15 seconds of no scroll activity, or immediately if a new comment arrives while already viewing the latest.
+For each in-play match that has an `espnEventId`, a second request goes to the ESPN summary endpoint. All commentary received over the course of the match is merged by `sequence` and cached in `match._espnCommentary` (no cap — ESPN's summary endpoint returns the full feed on every poll, so later fetches just dedupe into the same buffer). The match card always shows the most recent comment by default; the user can scroll back through older ones with the `‹`/`›` buttons, and the view automatically snaps back to the latest comment after 15 seconds of no scroll activity. While showing the latest comment, position is tracked as "unset" rather than a snapshot of which comment was newest at the time — so it keeps dynamically following whatever is actually newest as further comments arrive, instead of freezing once one more comment shows up.
 
 ### Notifications & Sounds
 

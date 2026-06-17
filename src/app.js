@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v11';
-const APP_UPDATED = '2026-06-17 18:29 UTC';
+const APP_VERSION = 'v11.1';
+const APP_UPDATED = '2026-06-17 19:36 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1322,12 +1322,15 @@ function commentaryInnerHtml(match) {
   // regular re-render self-heals back to the latest comment once the inactivity
   // window has elapsed, since this check runs on every render, not just the timer.
   if (match._commentaryLastNav && Date.now() - match._commentaryLastNav >= COMMENTARY_RESUME_MS) {
-    match._commentarySeq = items[0].sequence;
+    match._commentarySeq = null;
     match._commentaryLastNav = null;
   }
   let idx = items.findIndex(c => c.sequence === match._commentarySeq);
   if (idx === -1) idx = 0;
-  match._commentarySeq = items[idx].sequence;
+  // Only pin _commentarySeq to a concrete value when scrolled away from the latest.
+  // Leaving it null/unset at idx 0 means we keep dynamically tracking whatever is
+  // newest as further comments arrive, instead of freezing on today's "latest".
+  match._commentarySeq = idx === 0 ? null : items[idx].sequence;
   const item = items[idx];
   const timeLabel = item.time?.displayValue ? `[${item.time.displayValue}] ` : '';
   const navHtml = items.length > 1 ? `
@@ -1354,7 +1357,7 @@ function scheduleCommentaryResume(matchNum) {
     commentaryResumeTimers.delete(matchNum);
     const match = state.matches.find(m => m.matchNum === matchNum);
     if (!match?._espnCommentary?.length) return;
-    match._commentarySeq = match._espnCommentary[0].sequence;
+    match._commentarySeq = null;
     document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
       node.classList.remove('mc-anim');
       void node.offsetWidth;
@@ -2441,7 +2444,9 @@ document.addEventListener('click', e => {
   let idx = items.findIndex(c => c.sequence === match._commentarySeq);
   if (idx === -1) idx = 0;
   idx = Math.max(0, Math.min(items.length - 1, idx + dir));
-  match._commentarySeq = items[idx].sequence;
+  // Leave _commentarySeq null at idx 0 so we keep dynamically tracking the newest
+  // comment as more arrive, rather than freezing on a snapshot of "latest right now".
+  match._commentarySeq = idx === 0 ? null : items[idx].sequence;
   document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
     node.classList.remove('mc-anim');
     void node.offsetWidth; // restart fade animation
