@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v10';
-const APP_UPDATED = '2026-06-17 18:00 UTC';
+const APP_VERSION = 'v11';
+const APP_UPDATED = '2026-06-17 18:29 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1317,6 +1317,14 @@ function espnStatsHtml(match) {
 function commentaryInnerHtml(match) {
   const items = match._espnCommentary;
   if (!items?.length) return '';
+  // Timestamp-based fallback: even if the setTimeout in scheduleCommentaryResume()
+  // never fires (e.g. dropped during a backgrounded-tab timer throttle), every
+  // regular re-render self-heals back to the latest comment once the inactivity
+  // window has elapsed, since this check runs on every render, not just the timer.
+  if (match._commentaryLastNav && Date.now() - match._commentaryLastNav >= COMMENTARY_RESUME_MS) {
+    match._commentarySeq = items[0].sequence;
+    match._commentaryLastNav = null;
+  }
   let idx = items.findIndex(c => c.sequence === match._commentarySeq);
   if (idx === -1) idx = 0;
   match._commentarySeq = items[idx].sequence;
@@ -1988,7 +1996,8 @@ async function fetchData() {
     // which is only authoritative once ESPN is unreachable, or for matches ESPN
     // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
-      '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq','espnEventId'];
+      '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq',
+      '_commentaryLastNav','espnEventId'];
     const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
@@ -2092,6 +2101,36 @@ function teamMatchRows(teamName) {
   }).join('');
 }
 
+function teamUpcomingRows(teamName) {
+  const upcoming = state.matches.filter(m =>
+    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status !== 'FINISHED'
+  ).sort((a, b) => new Date(a.kickoff) - new Date(b.kickoff));
+  if (!upcoming.length) return '';
+
+  const rows = upcoming.map(m => {
+    const isHome = m.homeTeam === teamName;
+    const opp = isHome ? m.awayTeam : m.homeTeam;
+    const oppIso = isHome ? m.awayIso : m.homeIso;
+    const isLive = m.status === 'IN_PLAY' || m.status === 'PAUSED';
+    const dateLabel = m.kickoff
+      ? new Date(m.kickoff).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles' })
+      : 'TBD';
+    const timeLabel = m.kickoff
+      ? new Date(m.kickoff).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles', timeZoneName: 'short' })
+      : '';
+    const label = m.stage === 'Group Stage' ? `Group ${m.group}` : (m.stage || '');
+    return `
+      <div class="tm-result-row">
+        <span class="tm-result-badge" style="background:${isLive ? '#DC2626' : '#94A3B8'}">${isLive ? '●' : 'vs'}</span>
+        <span class="tm-score">${isLive ? 'Live' : dateLabel}</span>
+        ${flagImg(oppIso, opp)}
+        <span class="tm-opp">${opp}</span>
+        <span class="tm-meta">${[label, timeLabel, m.venue].filter(Boolean).join(' · ')}</span>
+      </div>`;
+  }).join('');
+  return rows;
+}
+
 function teamStatsAggregate(teamName, espnDataByMatch) {
   // espnDataByMatch: Map of matchNum → parsed ESPN event data (may be empty for historical)
   const finished = state.matches.filter(m =>
@@ -2141,6 +2180,7 @@ async function openTeamModal(teamName) {
   const overlay = document.createElement('div');
   overlay.id = 'team-modal-overlay';
   const posLabel = pos === 1 ? '1st' : pos === 2 ? '2nd' : pos === 3 ? '3rd' : pos ? `${pos}th` : '—';
+  const upcomingHtml = teamUpcomingRows(teamName);
   const recordHtml = standing
     ? `<div class="tm-record">
         <div class="tm-stat"><span class="tm-stat-num">${standing.pts}</span><span class="tm-stat-label">Pts</span></div>
@@ -2164,6 +2204,7 @@ async function openTeamModal(teamName) {
       </div>
       ${recordHtml}
       <div id="tm-stats-section" class="tm-loading">Loading stats…</div>
+      ${upcomingHtml ? `<div class="tm-section-label">Upcoming</div>${upcomingHtml}` : ''}
       <div class="tm-section-label">Results</div>
       ${teamMatchRows(teamName)}
     </div>
@@ -2410,7 +2451,9 @@ document.addEventListener('click', e => {
   if (idx === 0) {
     clearTimeout(commentaryResumeTimers.get(matchNum));
     commentaryResumeTimers.delete(matchNum);
+    match._commentaryLastNav = null;
   } else {
+    match._commentaryLastNav = Date.now();
     scheduleCommentaryResume(matchNum);
   }
 });
