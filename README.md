@@ -69,6 +69,11 @@ world_cup_dashboard/
 │   ├── index.html            # SPA shell
 │   ├── styles.css            # Light modern theme (Anybody variable font, gradient accents)
 │   ├── app.js                # All frontend logic (vanilla JS)
+│   ├── sw.js                 # Service worker — caching + Android system notifications
+│   ├── manifest.json         # PWA manifest (installability)
+│   ├── icons/                # PWA/notification icons
+│   ├── vendor/
+│   │   └── idiomorph.esm.js  # DOM-morphing lib, avoids flicker on re-render
 │   └── data/
 │       ├── data.json         # Match data + standings (auto-updated by Actions)
 │       └── combinations.json # 3rd-place wildcard lookup (static)
@@ -154,6 +159,8 @@ All notifications are browser-side, triggered by comparing ESPN data across poll
 
 Sounds fall back to synthesized Web Audio tones if MP3 files fail to load.
 
+Each notification is also dispatched as a real OS-level notification via the service worker (works while the PWA/tab is alive in the background, e.g. screen off, but not once Android fully kills the process) if the user has granted permission via the bell icon in the header.
+
 ### Team Profile Modal
 
 Clicking any team name or flag opens a modal with:
@@ -193,6 +200,16 @@ Knockout match team slots use placeholders resolved at render time:
 - `[3ABCDF]` → 3rd-place wildcard (via combinations lookup)
 - `[W73]` → winner of match #73
 - `[L101]` → loser of match #101 (3rd-place match)
+
+## PWA & Caching
+
+The app is installable (Add to Home Screen) via `manifest.json` and a service worker (`src/sw.js`):
+
+- **Data/API requests** (`data.json`, ESPN, football-data.org) — network-first, falls back to cache offline.
+- **Static assets** (`index.html`, `app.js`, `styles.css`, vendor/icons) — cache-first, served from cache indefinitely with no network revalidation.
+- Installed PWAs/background tabs get real OS-level notifications via `ServiceWorkerRegistration.showNotification()`, gated on a permission toggle in the header (the bell icon).
+
+**⚠️ Cache-busting rule**: the service worker only re-fetches static assets when its own `CACHE` version string (in `src/sw.js`) changes. **Any change to `styles.css`, `app.js`, `index.html`, vendored JS, icons, or `manifest.json` must bump that version** (e.g. `wc2026-v6` → `wc2026-v7`), or every client that's previously visited the site — browser tab or installed PWA — will silently keep serving the old cached files indefinitely. There's no error or warning; the change will just look like it never happened.
 
 ## Development
 

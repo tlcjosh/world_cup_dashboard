@@ -20,6 +20,10 @@ A "Dynamic Static" single-page app tracking FIFA World Cup 2026. The frontend po
 | `src/data/data.json` | Auto-updated by Actions. Contains `matches[]`, `standings{}`, `lastUpdated`. Used as schedule backbone and fallback. |
 | `src/data/combinations.json` | Static. 495 entries keyed by 8-letter sorted group string (e.g. `"ABCDEFKL"`). Values map opponent keys (`"1A"` through `"1L"`) to team codes (`"3F"`). Never changes. |
 | `src/sounds/` | MP3 audio files: `whistle.mp3`, `cheer.mp3`, `double-whistle.mp3`. Played by notifications; fall back to synthesized Web Audio tones if unavailable. |
+| `src/sw.js` | Service worker. Cache-first for static assets, network-first for data/API calls. Powers installability and Android system notifications. **Bump its `CACHE` version string any time a static file changes** — see "PWA / Service Worker" below. |
+| `src/manifest.json` | PWA manifest (name, icons, theme color, display mode) — enables "Add to Home Screen" / Android install. |
+| `src/icons/`, `src/favicon.ico`, `src/favicon.svg` | App icons for the PWA manifest, favicon, and notification icon/badge. |
+| `src/vendor/idiomorph.esm.js` | Vendored [Idiomorph](https://github.com/bigskysoftware/idiomorph) DOM-morphing library (`morphInto()` in `app.js`). Patches existing DOM nodes to match newly-rendered HTML instead of replacing `innerHTML` wholesale — avoids flag image re-decode flicker and restarting in-flight CSS animations (e.g. the live-card gradient border, sync pill pulse) on every poll. |
 | `blueprint_data/` | Legacy CSV files. No longer used at runtime — reference only. |
 | `scripts/bootstrap.js` | Legacy CSV parser. No longer used — `update_tracker.js` self-bootstraps from API. |
 
@@ -130,6 +134,14 @@ The Dashboard view renders:
 | Full-time | `.badge.badge-ft` |
 | Scheduled | `.badge.badge-soon` |
 
+### Mobile Header Layout (`@media (max-width: 768px)`)
+`#app-header` wraps into 3 stacked rows via flexbox `order`:
+1. `.brand` (left) + `.header-right` — notification bell + sync pill (right)
+2. `.toggle-wrap` (Live Standings toggle) — centered, full width. Hidden via `#app-header[data-view="schedule"] .toggle-wrap { display: none }` since `state.liveMode` only affects Dashboard/Standings/Bracket, not Schedule.
+3. `.nav-tabs` — full-width row of equal-width (`flex: 1`) nav buttons
+
+`renderView()` sets `header.dataset.view = state.currentView` on every render so the CSS above can target the active view. Desktop layout (`.header-right { order: 3 }`, toggle inline) is untouched above the breakpoint.
+
 ## Live Score Architecture
 
 ### Primary: ESPN API (browser-side, every 30s)
@@ -165,7 +177,17 @@ Parses `data.commentary[]`, sorts by sequence, stores last 5 comments in `match.
 `fetchESPNDate(dateStr)` fetches `?dates=YYYYMMDD` and caches the result in `state._espnDateCache[dateStr]`. Used when opening team profile modals to get per-match stat breakdowns for historical matches that are no longer in today's scoreboard feed.
 
 ### Fallback: data.json (every 2 minutes)
-`fetchData()` re-fetches `data.json` every 2 minutes to pick up schedule changes, knockout match updates, and standings corrections. If ESPN is unavailable, data.json is the sole data source.
+`fetchData()` re-fetches `data.json` every 2 minutes to pick up schedule changes, knockout match updates, and standings corrections.
+
+- **Source-of-truth precedence**: while ESPN is reachable (`state.espnSynced`), it's authoritative for any match it's actively tracking (`espnEventId` set) — `status`/`homeScore`/`awayScore` plus clock/stats/events/commentary fields (`ESPN_FIELDS` / `ESPN_AUTHORITATIVE_FIELDS` in `fetchData()`) are preserved from the in-memory match rather than overwritten by data.json. data.json becomes authoritative only once ESPN is unreachable, or for matches ESPN's date-scoped scoreboard doesn't cover at all.
+- **No-op skip**: if `data.lastUpdated` is unchanged since the last fetch (most 2-minute ticks, since Actions only commits every ~5 minutes), `fetchData()` returns immediately without rebuilding matches/standings or re-rendering.
+- `combinations.json` is fetched once at startup (`fetchCombinations()`), not on every poll — it's static and never changes at runtime.
+
+### PWA Resume Handling
+Installed Android PWAs throttle or fully suspend `setInterval` timers while backgrounded (screen off, app switched away), leaving the UI on stale data until the next throttled tick. `resyncNow()` forces an immediate `fetchData()` + `fetchESPN()` and restarts both poll intervals (so their next tick is measured from "now"), triggered by:
+- `visibilitychange` → `visible`
+- `online` event
+- `pageshow` with `event.persisted` true (back/forward-cache restore — the common case when resuming an installed PWA)
 
 ### ESPN Team Name Map
 `ESPN_NAME_MAP` in `app.js` normalizes ESPN display names to our `TEAM_MASTER_DATA` keys. Known mismatches:
@@ -337,6 +359,24 @@ Clicking any team name or flag (`.team-link`, `.flag-link`) opens `openTeamModal
 
 Closes on X button, overlay click, or Escape key. Animates in/out with CSS classes `tm-in` / `tm-out`.
 
+## PWA / Service Worker
+
+The app is installable (manifest.json + icons) and registers `src/sw.js` (`navigator.serviceWorker.register('/world_cup_dashboard/sw.js')` near the bottom of `app.js`).
+
+### Caching strategy
+- **Data/API requests** (`data.json`, ESPN hostnames, football-data.org) — network-first, falling back to cache only if the fetch fails.
+- **Everything else** (`index.html`, `app.js`, `styles.css`, `vendor/idiomorph.esm.js`, icons, manifest) — **cache-first, with no network revalidation**. Once an asset is cached under the current `CACHE` version, it is served from cache indefinitely until that version changes.
+
+### CRITICAL: bump the cache version on every static-file change
+`CACHE` in `src/sw.js` is a hardcoded version string (`wc2026-vN`). The `activate` handler deletes old-versioned caches and `install` re-precaches everything — but only when a **new version of `sw.js` itself** is detected by the browser. If `sw.js`'s bytes are unchanged, no install/activate cycle runs at all, even if `styles.css`/`app.js`/`index.html` changed and were deployed.
+
+**Whenever you change `src/styles.css`, `src/app.js`, `src/index.html`, `src/vendor/idiomorph.esm.js`, `src/manifest.json`, or any file in `src/icons/`, bump the `CACHE` version in `src/sw.js` (e.g. `wc2026-v6` → `wc2026-v7`) in the same change.** Forgetting this means every client that has previously visited the site — desktop browser, mobile browser, and the installed Android PWA alike — keeps serving the old cached assets forever, with no visible error; the change will look like it "didn't do anything," even though it deployed correctly. (This happened: the mobile header layout, schedule-data-leak, and commentary-race fixes all shipped without a version bump, so they silently failed to reach already-visited clients until `CACHE` was bumped to `v6`.)
+
+`skipWaiting()` + `clients.claim()` are already wired up in `install`/`activate`, so once the version *is* bumped, the new worker takes over without requiring users to fully close/reopen the app.
+
+### Android system notifications
+`sendSystemNotification()` calls `serviceWorkerRegistration.showNotification()` (real OS-level notification, works while the PWA/tab is alive in the background but not once Android fully kills the process) alongside the existing in-page toast from `queueNotif()`. Gated on `Notification.permission === 'granted'`. The bell icon (`#notif-permission-btn`, managed by `initNotifPermissionBtn()`/`updateNotifPermissionBtn()`) lets the user opt in; hidden entirely if the browser lacks `Notification` or `serviceWorker` support.
+
 ## Known Issues / Watch Points
 1. **ESPN name mismatches**: If a match isn't getting ESPN updates, check `ESPN_NAME_MAP` in `app.js`. Add the mapping and push to fix.
 2. **ESPN scoreboard is date-scoped**: Only returns today's matches. Full 104-match schedule always comes from `data.json`.
@@ -345,6 +385,7 @@ Closes on X button, overlay click, or Escape key. Animates in/out with CSS class
 5. **Half-time timestamp source**: `firstHalfStart`/`secondHalfStart` are set by the Actions runner clock, not the API — accurate to within one 30-second polling interval. ESPN clock is preferred when available.
 6. **Group standings sort**: always use `Object.keys().sort()` when iterating groups — key order in JSON is not guaranteed
 7. **ESPN events lead the score**: `details[]` populates `_espnEvents` ~30s before the score field updates. The goal notification uses `_seenGoalEvents` (event count key) to fire early; `_seenGoals` (score key) prevents double-firing.
+8. **Stale service worker cache**: any deploy that changes `styles.css`/`app.js`/`index.html`/icons without also bumping `CACHE` in `src/sw.js` will look like it had no effect on any previously-visited client (browser tab or installed PWA) — see "PWA / Service Worker" above. If a shipped UI change "isn't showing up," check this first before assuming a deploy or rendering bug.
 
 ## Running Locally
 ```bash
