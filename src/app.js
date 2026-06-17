@@ -25,7 +25,6 @@ const state = {
   _dataFetchInFlight: false,
   // Notification tracking
   _seenMatchStart: new Set(),   // matchNum
-  _seenGoals: new Set(),        // matchNum:homeScore:awayScore  (score-based dedup)
   _seenGoalEvents: new Set(),   // matchNum:homeEventCount:awayEventCount (event-based, fires before score)
   _seenMatchEnd: new Set(),     // matchNum
   _audioArmed: false,
@@ -566,6 +565,9 @@ async function fetchESPN() {
     }
     setSyncPillState('ok');
   } catch (e) {
+    // ESPN unreachable — drop the "is ESPN authoritative" flag so fetchData() falls
+    // back to football-data.org's values instead of trusting now-unconfirmed ESPN data.
+    state.espnSynced = false;
     setSyncPillState('error');
     updateSyncPill(formatLastSync(state.lastUpdated));
     console.error('[ESPN] Sync failed:', e.message);
@@ -711,7 +713,7 @@ function mergeESPNData(espnEvents) {
   let changed = false;
 
   // Snapshot pre-update state for event detection (skip on first load when seen-sets are empty)
-  const isFirstLoad = state._seenMatchStart.size === 0 && state._seenGoals.size === 0 && state._seenMatchEnd.size === 0;
+  const isFirstLoad = state._seenMatchStart.size === 0 && state._seenGoalEvents.size === 0 && state._seenMatchEnd.size === 0;
   const prevState = {};
   for (const m of state.matches) {
     prevState[m.matchNum] = { status: m.status, homeScore: m.homeScore, awayScore: m.awayScore };
@@ -831,9 +833,6 @@ function mergeESPNData(espnEvents) {
         // Already done — suppress final notification
         state._seenMatchEnd.add(m.matchNum);
       }
-      if (m.homeScore !== null && m.awayScore !== null) {
-        state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
-      }
       const ev = m._espnEvents;
       if (ev) {
         state._seenGoalEvents.add(`${m.matchNum}:${ev.home.length}:${ev.away.length}`);
@@ -891,11 +890,6 @@ function mergeESPNData(espnEvents) {
               body: `${scorerLabel ? scorerLabel + ' — ' : ''}${displayMatch.homeTeam} ${displayMatch.homeScore} – ${displayMatch.awayScore} ${displayMatch.awayTeam}`,
             });
           }
-        }
-
-        // Score-based path: deduplicate so we don't double-fire when score catches up
-        if (m.homeScore !== null && m.awayScore !== null) {
-          state._seenGoals.add(`${m.matchNum}:${m.homeScore}:${m.awayScore}`);
         }
       }
 
@@ -1813,33 +1807,51 @@ function renderView(opts = {}) {
 }
 
 // ===== FETCH DATA =====
+
+// combinations.json is static (495 fixed group-letter entries, never changes at
+// runtime) — fetch it once on startup instead of re-downloading/re-parsing it on
+// every fetchData() poll.
+async function fetchCombinations() {
+  try {
+    const res = await fetch('./data/combinations.json');
+    if (res.ok) state.combinations = await res.json();
+  } catch (e) {
+    console.error('combinations.json fetch error:', e);
+  }
+}
+
 async function fetchData() {
   if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
   state._dataFetchInFlight = true;
   try {
-    const [dataRes, combRes] = await Promise.all([
-      fetch('./data/data.json?' + Date.now()),
-      fetch('./data/combinations.json?' + Date.now()),
-    ]);
-    if (!dataRes.ok) throw new Error('data.json fetch failed: ' + dataRes.status);
-    const data = await dataRes.json();
-    // Merge data.json fields onto existing match objects, preserving ESPN enrichment
+    const res = await fetch('./data/data.json?' + Date.now());
+    if (!res.ok) throw new Error('data.json fetch failed: ' + res.status);
+    const data = await res.json();
+
+    // The Actions cron only commits data.json every ~5 minutes, but we poll it every
+    // 2 — most ticks see byte-identical content. Skip the match/standings rebuild and
+    // re-render entirely when nothing has actually changed since the last fetch.
+    if (data.lastUpdated && data.lastUpdated === state.fdLastUpdated) return;
+
+    // Merge data.json onto existing match objects. While ESPN is reachable, it's the
+    // source of truth for any match it's actively tracking (espnEventId set) — its
+    // status/score/clock/stats take precedence over football-data.org's data.json,
+    // which is only authoritative once ESPN is unreachable, or for matches ESPN
+    // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq','espnEventId'];
+    const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
       if (!ex) return nm;
-      const espn = Object.fromEntries(ESPN_FIELDS.filter(k => k in ex).map(k => [k, ex[k]]));
+      const fields = (state.espnSynced && ex.espnEventId) ? [...ESPN_FIELDS, ...ESPN_AUTHORITATIVE_FIELDS] : ESPN_FIELDS;
+      const espn = Object.fromEntries(fields.filter(k => k in ex).map(k => [k, ex[k]]));
       return { ...nm, ...espn };
     });
     state.standings = data.standings || {};
     state.lastUpdated = data.lastUpdated || null;
     state.fdLastUpdated = data.lastUpdated || null;
-
-    if (combRes.ok) {
-      state.combinations = await combRes.json();
-    }
 
     // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
     if (!state.espnSynced) updateSyncPill(formatLastSync(state.lastUpdated));
@@ -2278,8 +2290,9 @@ async function init() {
     });
   }
 
-  // Initial load from data.json (full schedule + standings)
-  await fetchData();
+  // Initial load: data.json (full schedule + standings) and the static
+  // combinations.json lookup table (fetched once, never refetched) in parallel.
+  await Promise.all([fetchCombinations(), fetchData()]);
 
   // Initial ESPN sync — overlays live scores immediately
   await fetchESPN();
