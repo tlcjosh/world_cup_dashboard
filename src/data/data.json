@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:05:54.605Z",
+  "lastUpdated": "2026-06-17T18:12:22.369Z",
   "matches": [
     {
       "matchId": 537327,
@@ -424,9 +424,9 @@
       "kickoff": "2026-06-17T17:00:00.000Z",
       "homeScore": 1,
       "awayScore": 1,
-      "status": "PAUSED",
+      "status": "IN_PLAY",
       "firstHalfStart": "2026-06-17T17:02:27.820Z",
-      "secondHalfStart": null
+      "secondHalfStart": "2026-06-17T18:12:22.369Z"
     },
     {
       "matchId": 537404,
@@ -2159,8 +2159,8 @@
         "fairPlayPoints": -1
       },
       {
-        "team": "Cape Verde Islands",
-        "iso": "cv",
+        "team": "Spain",
+        "iso": "es",
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -2172,8 +2172,8 @@
         "fairPlayPoints": -1
       },
       {
-        "team": "Spain",
-        "iso": "es",
+        "team": "Cape Verde Islands",
+        "iso": "cv",
         "played": 1,
         "won": 0,
         "drawn": 1,
@@ -2349,19 +2349,6 @@
     ],
     "L": [
       {
-        "team": "Croatia",
-        "iso": "hr",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
-      },
-      {
         "team": "England",
         "iso": "england",
         "played": 0,
@@ -2375,8 +2362,8 @@
         "fairPlayPoints": 0
       },
       {
-        "team": "Ghana",
-        "iso": "gh",
+        "team": "Croatia",
+        "iso": "hr",
         "played": 0,
         "won": 0,
         "drawn": 0,
@@ -2399,9 +2386,35 @@
         "gd": 0,
         "pts": 0,
         "fairPlayPoints": 0
+      },
+      {
+        "team": "Ghana",
+        "iso": "gh",
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "fairPlayPoints": 0
       }
     ],
     "K": [
+      {
+        "team": "Portugal",
+        "iso": "pt",
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 0,
+        "fairPlayPoints": 0
+      },
       {
         "team": "Colombia",
         "iso": "co",
@@ -2418,19 +2431,6 @@
       {
         "team": "Congo DR",
         "iso": "cd",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
-      },
-      {
-        "team": "Portugal",
-        "iso": "pt",
         "played": 0,
         "won": 0,
         "drawn": 0,
