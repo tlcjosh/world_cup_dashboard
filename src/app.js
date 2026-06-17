@@ -1796,6 +1796,7 @@ function renderView(opts = {}) {
   // Sync main top margin to actual header height (handles dynamic header height on mobile)
   const header = document.getElementById('app-header');
   const main = document.getElementById('app-main');
+  if (header) header.dataset.view = state.currentView; // lets CSS hide the live-mode toggle on views it doesn't affect (e.g. Schedule)
   if (header && main) main.style.marginTop = header.offsetHeight + 'px';
 
   // Scroll to top on all views except schedule (which scrolls to today itself), and not on silent background refreshes

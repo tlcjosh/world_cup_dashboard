@@ -707,14 +707,24 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   #app-header {
     flex-wrap: wrap; height: auto;
     padding: 10px 16px; gap: 8px;
+    justify-content: space-between;
   }
 
   /* margin-top set dynamically in JS to match real header height */
   #app-main { padding: 14px; }
 
-  .header-right { order: 3; width: 100%; justify-content: space-between; }
+  /* Row 1: brand (left) + bell/sync-pill (right) */
+  .brand { order: 1; }
+  .header-right { order: 2; width: auto; gap: 8px; }
 
-  .nav-tab { padding: 6px 12px; font-size: 13px; }
+  /* Row 2: live-mode toggle — only meaningful on views that use it
+     (Dashboard's live group widget, Standings, Bracket); hidden on Schedule */
+  .toggle-wrap { order: 3; width: 100%; justify-content: center; }
+  #app-header[data-view="schedule"] .toggle-wrap { display: none; }
+
+  /* Row 3: nav tabs — bottom-most, full width, equal-width buttons */
+  .nav-tabs { order: 4; width: 100%; gap: 6px; }
+  .nav-tab { flex: 1; padding: 10px 6px; font-size: 14px; text-align: center; }
 
   .page-hero {
     flex-direction: column; align-items: flex-start;
