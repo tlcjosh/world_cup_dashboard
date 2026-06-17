@@ -166,6 +166,16 @@ body {
   margin-left: auto; margin-right: auto;
 }
 
+/* ===== FOOTER ===== */
+#app-footer {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 12px 28px 28px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--ink-3);
+}
+
 /* ===== VIEWS ===== */
 .view { display: none; }
 .view.active { display: block; animation: fadeIn .2s ease-out; }
