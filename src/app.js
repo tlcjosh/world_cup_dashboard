@@ -1,3 +1,12 @@
+import { Idiomorph } from './vendor/idiomorph.esm.js';
+
+// Patches `el`'s children to match `html` instead of destroying/rebuilding the
+// subtree (avoids image re-decode flicker and restarting in-flight CSS animations
+// on every poll). Render functions still build plain HTML strings as before.
+function morphInto(el, html) {
+  Idiomorph.morph(el, html, { morphStyle: 'innerHTML' });
+}
+
 // ===== STATE =====
 const state = {
   matches: [],
@@ -12,6 +21,8 @@ const state = {
   syncInterval: null,
   espnInterval: null,
   espnSynced: false,
+  _espnFetchInFlight: false,
+  _dataFetchInFlight: false,
   // Notification tracking
   _seenMatchStart: new Set(),   // matchNum
   _seenGoals: new Set(),        // matchNum:homeScore:awayScore  (score-based dedup)
@@ -537,6 +548,8 @@ function mapESPNStatus(typeName, typeState) {
 }
 
 async function fetchESPN() {
+  if (state._espnFetchInFlight) return; // avoid overlapping polls if a previous one is slow
+  state._espnFetchInFlight = true;
   setSyncPillState('syncing');
   try {
     const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
@@ -556,6 +569,8 @@ async function fetchESPN() {
     setSyncPillState('error');
     updateSyncPill(formatLastSync(state.lastUpdated));
     console.error('[ESPN] Sync failed:', e.message);
+  } finally {
+    state._espnFetchInFlight = false;
   }
 }
 
@@ -1308,7 +1323,7 @@ function renderDashboard() {
         ${filteredMatches.length ? filteredMatches.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No matches found.</div>'}
       </div>
     `;
-    el.innerHTML = html;
+    morphInto(el, html);
   } else {
     // Hero stats
     const totalMatches = state.matches.length;
@@ -1451,7 +1466,7 @@ function renderDashboard() {
         </div>
       </div>
     `;
-    el.innerHTML = html;
+    morphInto(el, html);
   }
 
   // Bind team search
@@ -1529,7 +1544,7 @@ function renderSchedule(opts = {}) {
     }
   }
 
-  el.innerHTML = html || '<div class="empty-state">No matches to display.</div>';
+  morphInto(el, html || '<div class="empty-state">No matches to display.</div>');
 
   // Scroll to today after render (skip on silent background refreshes)
   if (todayId && !opts.silent) {
@@ -1673,7 +1688,7 @@ function renderStandings() {
     html += `</tbody></table></div>`;
   }
 
-  el.innerHTML = html;
+  morphInto(el, html);
 }
 
 // ===== RENDER BRACKET =====
@@ -1764,7 +1779,7 @@ function renderBracket() {
   </div>`;
 
   html += `</div></div>`;
-  el.innerHTML = html;
+  morphInto(el, html);
 }
 
 // ===== RENDER VIEW =====
@@ -1799,6 +1814,8 @@ function renderView(opts = {}) {
 
 // ===== FETCH DATA =====
 async function fetchData() {
+  if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
+  state._dataFetchInFlight = true;
   try {
     const [dataRes, combRes] = await Promise.all([
       fetch('./data/data.json?' + Date.now()),
@@ -1827,11 +1844,43 @@ async function fetchData() {
     // Update sync info — if ESPN has been syncing, don't overwrite with older timestamp
     if (!state.espnSynced) updateSyncPill(formatLastSync(state.lastUpdated));
 
-    renderView();
+    // Silent: this can fire mid-session (initial load, background poll, or a
+    // resume re-sync) and must never yank the user's scroll position to the top.
+    renderView({ silent: true });
   } catch (e) {
     console.error('fetchData error:', e);
+  } finally {
+    state._dataFetchInFlight = false;
   }
 }
+
+// ===== RESUME / VISIBILITY =====
+// Installed Android PWAs throttle or fully suspend setInterval timers while
+// backgrounded (screen off, app switched away). Without an explicit resume
+// hook, the UI sits on stale data — wrong score, stale live badge, stale
+// commentary — until the next throttled timer eventually fires. Force an
+// immediate re-sync whenever the page becomes visible/focused again, and
+// restart the interval timers so their next tick is measured from "now"
+// instead of from whenever they last fired before being suspended.
+function restartPollIntervals() {
+  if (state.espnInterval) clearInterval(state.espnInterval);
+  state.espnInterval = setInterval(fetchESPN, 10000);
+  if (state.syncInterval) clearInterval(state.syncInterval);
+  state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
+}
+
+async function resyncNow() {
+  await Promise.all([fetchData(), fetchESPN()]); // each guards its own re-entrancy
+  restartPollIntervals();
+}
+
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') resyncNow();
+});
+window.addEventListener('online', resyncNow);
+// `persisted` is true only for back/forward-cache restores (the common case when
+// resuming an installed PWA on Android), not for the initial page load.
+window.addEventListener('pageshow', (e) => { if (e.persisted) resyncNow(); });
 
 // ===== TICK =====
 function tick() {
@@ -2239,13 +2288,10 @@ async function init() {
   if (state.tickInterval) clearInterval(state.tickInterval);
   state.tickInterval = setInterval(tick, 1000);
 
-  // ESPN: poll every 30s for live scores
-  if (state.espnInterval) clearInterval(state.espnInterval);
-  state.espnInterval = setInterval(fetchESPN, 10000);
-
-  // data.json: re-fetch every 2 minutes for schedule/standings/knockout updates
-  if (state.syncInterval) clearInterval(state.syncInterval);
-  state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
+  // ESPN: poll every 10s for live scores; data.json: re-fetch every 2 minutes
+  // for schedule/standings/knockout updates. Also restarted on resume from
+  // background — see RESUME / VISIBILITY above.
+  restartPollIntervals();
 
   // ---- Test / debug harness ----
   const testMatch = {
