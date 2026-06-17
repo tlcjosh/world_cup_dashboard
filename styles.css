@@ -357,15 +357,17 @@ body {
 /* Live commentary ticker */
 .match-commentary {
   margin-top: 10px;
-  padding: 8px 10px;
-  background: rgba(220, 38, 38, .06);
-  border-left: 3px solid var(--red);
-  border-radius: 0 6px 6px 0;
+  padding-top: 8px;
   font-size: 12px; color: var(--ink-2); line-height: 1.5;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 8px;
+}
+
+.match-commentary .mc-icon {
+  flex-shrink: 0;
+  font-size: 13px;
+  opacity: .6;
 }
 
 .match-commentary .mc-text { flex: 1; }
@@ -388,8 +390,8 @@ body {
 
 .mc-btn {
   border: none;
-  background: rgba(220, 38, 38, .12);
-  color: var(--red);
+  background: var(--surface-2);
+  color: var(--ink-2);
   width: 20px; height: 20px;
   border-radius: 50%;
   font-size: 13px;
@@ -401,7 +403,7 @@ body {
   padding: 0;
 }
 
-.mc-btn:hover:not(:disabled) { background: rgba(220, 38, 38, .22); }
+.mc-btn:hover:not(:disabled) { background: var(--border); }
 .mc-btn:disabled { opacity: .35; cursor: default; }
 
 .mc-count {

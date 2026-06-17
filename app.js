@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v8';
-const APP_UPDATED = '2026-06-17 16:17 UTC';
+const APP_VERSION = 'v10';
+const APP_UPDATED = '2026-06-17 18:00 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -17,6 +17,7 @@ const state = {
   matches: [],
   standings: {},
   combinations: {},
+  fifaRankings: {},
   liveMode: false,
   currentView: 'dashboard',
   teamFilter: null,
@@ -42,54 +43,54 @@ const state = {
 
 // ===== TEAM DATA =====
 const TEAM_MASTER_DATA = {
-  "Mexico":             { group: "A", iso: "mx",       espnId: 203   },
-  "South Africa":       { group: "A", iso: "za",       espnId: 467   },
-  "South Korea":        { group: "A", iso: "kr",       espnId: 451   },
-  "Czechia":            { group: "A", iso: "cz",       espnId: 450   },
-  "Canada":             { group: "B", iso: "ca",       espnId: 206   },
-  "Bosnia-Herzegovina": { group: "B", iso: "ba",       espnId: 452   },
-  "Qatar":              { group: "B", iso: "qa",       espnId: 4398  },
-  "Switzerland":        { group: "B", iso: "ch",       espnId: 475   },
-  "Brazil":             { group: "C", iso: "br",       espnId: 205   },
-  "Morocco":            { group: "C", iso: "ma",       espnId: 2869  },
-  "Haiti":              { group: "C", iso: "ht",       espnId: 2654  },
-  "Scotland":           { group: "C", iso: "scotland", espnId: 580   },
-  "United States":      { group: "D", iso: "us",       espnId: 660   },
-  "Paraguay":           { group: "D", iso: "py",       espnId: 210   },
-  "Australia":          { group: "D", iso: "au",       espnId: 628   },
-  "Turkey":             { group: "D", iso: "tr",       espnId: 465   },
-  "Germany":            { group: "E", iso: "de",       espnId: 481   },
-  "Curaçao":            { group: "E", iso: "cw",       espnId: 11678 },
-  "Ivory Coast":        { group: "E", iso: "ci",       espnId: 4789  },
-  "Ecuador":            { group: "E", iso: "ec",       espnId: 209   },
-  "Netherlands":        { group: "F", iso: "nl",       espnId: 449   },
-  "Japan":              { group: "F", iso: "jp",       espnId: 627   },
-  "Sweden":             { group: "F", iso: "se",       espnId: 466   },
-  "Tunisia":            { group: "F", iso: "tn",       espnId: 659   },
-  "Belgium":            { group: "G", iso: "be",       espnId: 459   },
-  "Egypt":              { group: "G", iso: "eg",       espnId: 2620  },
-  "Iran":               { group: "G", iso: "ir",       espnId: 469   },
-  "New Zealand":        { group: "G", iso: "nz",       espnId: 2666  },
-  "Saudi Arabia":       { group: "H", iso: "sa",       espnId: 655   },
-  "Uruguay":            { group: "H", iso: "uy",       espnId: 212   },
-  "Spain":              { group: "H", iso: "es",       espnId: 164   },
-  "Cape Verde Islands": { group: "H", iso: "cv",       espnId: 2597  },
-  "France":             { group: "I", iso: "fr",       espnId: 478   },
-  "Senegal":            { group: "I", iso: "sn",       espnId: 654   },
-  "Iraq":               { group: "I", iso: "iq",       espnId: 4375  },
-  "Norway":             { group: "I", iso: "no",       espnId: 464   },
-  "Argentina":          { group: "J", iso: "ar",       espnId: 202   },
-  "Algeria":            { group: "J", iso: "dz",       espnId: 624   },
-  "Austria":            { group: "J", iso: "at",       espnId: 474   },
-  "Jordan":             { group: "J", iso: "jo",       espnId: 2917  },
-  "Portugal":           { group: "K", iso: "pt",       espnId: 482   },
-  "Congo DR":           { group: "K", iso: "cd",       espnId: 2850  },
-  "Uzbekistan":         { group: "K", iso: "uz",       espnId: 2570  },
-  "Colombia":           { group: "K", iso: "co",       espnId: 208   },
-  "England":            { group: "L", iso: "england",  espnId: 448   },
-  "Croatia":            { group: "L", iso: "hr",       espnId: 477   },
-  "Ghana":              { group: "L", iso: "gh",       espnId: 4469  },
-  "Panama":             { group: "L", iso: "pa",       espnId: 2659  },
+  "Mexico":             { group: "A", iso: "mx",       espnId: 203,   fifaRank: 14 },
+  "South Africa":       { group: "A", iso: "za",       espnId: 467,   fifaRank: 60 },
+  "South Korea":        { group: "A", iso: "kr",       espnId: 451,   fifaRank: 25 },
+  "Czechia":            { group: "A", iso: "cz",       espnId: 450,   fifaRank: 40 },
+  "Canada":             { group: "B", iso: "ca",       espnId: 206,   fifaRank: 30 },
+  "Bosnia-Herzegovina": { group: "B", iso: "ba",       espnId: 452,   fifaRank: 64 },
+  "Qatar":              { group: "B", iso: "qa",       espnId: 4398,  fifaRank: 56 },
+  "Switzerland":        { group: "B", iso: "ch",       espnId: 475,   fifaRank: 19 },
+  "Brazil":             { group: "C", iso: "br",       espnId: 205,   fifaRank: 6  },
+  "Morocco":            { group: "C", iso: "ma",       espnId: 2869,  fifaRank: 7  },
+  "Haiti":              { group: "C", iso: "ht",       espnId: 2654,  fifaRank: 83 },
+  "Scotland":           { group: "C", iso: "scotland", espnId: 580,   fifaRank: 42 },
+  "United States":      { group: "D", iso: "us",       espnId: 660,   fifaRank: 17 },
+  "Paraguay":           { group: "D", iso: "py",       espnId: 210,   fifaRank: 41 },
+  "Australia":          { group: "D", iso: "au",       espnId: 628,   fifaRank: 27 },
+  "Turkey":             { group: "D", iso: "tr",       espnId: 465,   fifaRank: 22 },
+  "Germany":            { group: "E", iso: "de",       espnId: 481,   fifaRank: 10 },
+  "Curaçao":            { group: "E", iso: "cw",       espnId: 11678, fifaRank: 82 },
+  "Ivory Coast":        { group: "E", iso: "ci",       espnId: 4789,  fifaRank: 33 },
+  "Ecuador":            { group: "E", iso: "ec",       espnId: 209,   fifaRank: 23 },
+  "Netherlands":        { group: "F", iso: "nl",       espnId: 449,   fifaRank: 8  },
+  "Japan":              { group: "F", iso: "jp",       espnId: 627,   fifaRank: 18 },
+  "Sweden":             { group: "F", iso: "se",       espnId: 466,   fifaRank: 38 },
+  "Tunisia":            { group: "F", iso: "tn",       espnId: 659,   fifaRank: 45 },
+  "Belgium":            { group: "G", iso: "be",       espnId: 459,   fifaRank: 9  },
+  "Egypt":              { group: "G", iso: "eg",       espnId: 2620,  fifaRank: 29 },
+  "Iran":               { group: "G", iso: "ir",       espnId: 469,   fifaRank: 20 },
+  "New Zealand":        { group: "G", iso: "nz",       espnId: 2666,  fifaRank: 85 },
+  "Saudi Arabia":       { group: "H", iso: "sa",       espnId: 655,   fifaRank: 61 },
+  "Uruguay":            { group: "H", iso: "uy",       espnId: 212,   fifaRank: 16 },
+  "Spain":              { group: "H", iso: "es",       espnId: 164,   fifaRank: 2  },
+  "Cape Verde Islands": { group: "H", iso: "cv",       espnId: 2597,  fifaRank: 67 },
+  "France":             { group: "I", iso: "fr",       espnId: 478,   fifaRank: 3  },
+  "Senegal":            { group: "I", iso: "sn",       espnId: 654,   fifaRank: 15 },
+  "Iraq":               { group: "I", iso: "iq",       espnId: 4375,  fifaRank: 57 },
+  "Norway":             { group: "I", iso: "no",       espnId: 464,   fifaRank: 31 },
+  "Argentina":          { group: "J", iso: "ar",       espnId: 202,   fifaRank: 1  },
+  "Algeria":            { group: "J", iso: "dz",       espnId: 624,   fifaRank: 28 },
+  "Austria":            { group: "J", iso: "at",       espnId: 474,   fifaRank: 24 },
+  "Jordan":             { group: "J", iso: "jo",       espnId: 2917,  fifaRank: 63 },
+  "Portugal":           { group: "K", iso: "pt",       espnId: 482,   fifaRank: 5  },
+  "Congo DR":           { group: "K", iso: "cd",       espnId: 2850,  fifaRank: 46 },
+  "Uzbekistan":         { group: "K", iso: "uz",       espnId: 2570,  fifaRank: 50 },
+  "Colombia":           { group: "K", iso: "co",       espnId: 208,   fifaRank: 13 },
+  "England":            { group: "L", iso: "england",  espnId: 448,   fifaRank: 4  },
+  "Croatia":            { group: "L", iso: "hr",       espnId: 477,   fifaRank: 11 },
+  "Ghana":              { group: "L", iso: "gh",       espnId: 4469,  fifaRank: 73 },
+  "Panama":             { group: "L", iso: "pa",       espnId: 2659,  fifaRank: 34 },
 };
 
 // Maps 3rd-place slot code → which 1st-place group runner they face
@@ -587,15 +588,18 @@ async function fetchESPNCommentary(match) {
     const res = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${match.espnEventId}`);
     if (!res.ok) return;
     const data = await res.json();
-    const items = (data.commentary || [])
-      .filter(c => c.text)
-      .sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
+    const fresh = (data.commentary || []).filter(c => c.text);
     // Re-look-up the match by matchNum rather than writing to the captured `match`
     // reference directly: fetchData() replaces state.matches with new objects on every
     // data.json change, so by the time this fetch resolves the passed-in object may no
     // longer be part of state.matches, silently losing the write.
     const current = state.matches.find(m => m.matchNum === match.matchNum);
-    if (current) current._espnCommentary = items.slice(0, 5); // keep last 5, most recent first
+    if (!current) return;
+    // Merge into the full history by sequence (ESPN returns the whole commentary feed on
+    // every poll, not just new items) — keyed by sequence so re-fetches dedupe cleanly.
+    const bySeq = new Map((current._espnCommentary || []).map(c => [c.sequence, c]));
+    for (const c of fresh) bySeq.set(c.sequence, c);
+    current._espnCommentary = [...bySeq.values()].sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
   } catch (e) {
     // Non-critical — commentary is a nice-to-have
   }
@@ -1067,6 +1071,55 @@ function getMatchMinute(match) {
   return '1\'';
 }
 
+// Prefers the dynamic ranking fetched from data/fifa_rankings.json (refreshed by
+// update_tracker.js whenever a newer blueprint_data/fifa_rankings_*.html shows up) over
+// the snapshot baked into TEAM_MASTER_DATA at deploy time, so a mid-tournament FIFA
+// ranking update can take effect without needing a new app.js deploy.
+function fifaRankOf(team) {
+  return state.fifaRankings[team] ?? TEAM_MASTER_DATA[team]?.fifaRank ?? 9999;
+}
+
+// FIFA's official group-stage tiebreaker order: pts -> GD -> GF -> head-to-head mini-league
+// (pts -> GD -> GF, group-stage matches between the tied teams only) -> fair play points ->
+// FIFA World Ranking position -> alphabetical (last-resort, should rarely matter).
+function sortStandingsWithHeadToHead(teams, groupMatches) {
+  const baseSorted = [...teams].sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+  const result = [];
+  let i = 0;
+  while (i < baseSorted.length) {
+    let j = i + 1;
+    while (j < baseSorted.length &&
+      baseSorted[j].pts === baseSorted[i].pts && baseSorted[j].gd === baseSorted[i].gd && baseSorted[j].gf === baseSorted[i].gf) j++;
+    const cluster = baseSorted.slice(i, j);
+    result.push(...(cluster.length > 1 ? resolveHeadToHead(cluster, groupMatches) : cluster));
+    i = j;
+  }
+  return result;
+}
+
+function resolveHeadToHead(cluster, groupMatches) {
+  const names = new Set(cluster.map(t => t.team));
+  const mini = {};
+  for (const t of cluster) mini[t.team] = { pts: 0, gf: 0, ga: 0 };
+  for (const m of groupMatches) {
+    if (!names.has(m.homeTeam) || !names.has(m.awayTeam)) continue;
+    const h = mini[m.homeTeam], a = mini[m.awayTeam];
+    const hs = m.homeScore ?? 0, as = m.awayScore ?? 0;
+    h.gf += hs; h.ga += as;
+    a.gf += as; a.ga += hs;
+    if (hs > as) h.pts += 3;
+    else if (hs === as) { h.pts += 1; a.pts += 1; }
+    else a.pts += 3;
+  }
+  return [...cluster].sort((a, b) => {
+    const ma = mini[a.team], mb = mini[b.team];
+    return (mb.pts - ma.pts) || ((mb.gf - mb.ga) - (ma.gf - ma.ga)) || (mb.gf - ma.gf) ||
+      ((b.fairPlayPoints || 0) - (a.fairPlayPoints || 0)) ||
+      (fifaRankOf(a.team) - fifaRankOf(b.team)) ||
+      a.team.localeCompare(b.team);
+  });
+}
+
 function computeStandings(matches, includeStatuses = ['FINISHED']) {
   const standings = {};
   for (const m of matches) {
@@ -1096,9 +1149,9 @@ function computeStandings(matches, includeStatuses = ['FINISHED']) {
   }
   const result = {};
   for (const [g, teams] of Object.entries(standings)) {
-    result[g] = Object.values(teams).sort((a, b) =>
-      b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || a.team.localeCompare(b.team)
-    );
+    const groupMatches = matches.filter(m => m.stage === 'Group Stage' && includeStatuses.includes(m.status) &&
+      TEAM_MASTER_DATA[m.homeTeam]?.group === g && TEAM_MASTER_DATA[m.awayTeam]?.group === g);
+    result[g] = sortStandingsWithHeadToHead(Object.values(teams), groupMatches);
   }
   return result;
 }
@@ -1110,7 +1163,8 @@ function computeThirdPlaceRankings(standings) {
       thirds.push({ ...teams[2], groupLetter: grp });
     }
   }
-  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || a.team.localeCompare(b.team));
+  // Cross-group comparison: head-to-head doesn't apply (different groups), so fall straight to fair play -> FIFA ranking.
+  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || (fifaRankOf(a.team) - fifaRankOf(b.team)) || a.team.localeCompare(b.team));
   return thirds;
 }
 
@@ -1254,9 +1308,12 @@ function espnStatsHtml(match) {
 }
 
 // Renders the text + scroll controls for a match's live commentary.
-// Tracks position by `_commentarySeq` (not raw index) so the displayed
-// comment stays put across refetches as long as it's still in the buffer;
-// snaps back to the latest comment if it scrolls out of the last-5 window.
+// Tracks position by `_commentarySeq` (not raw index) so new comments arriving
+// mid-scroll don't yank the user away from the one they're viewing; defaults to
+// the latest comment (idx 0) whenever `_commentarySeq` is unset/not found. The
+// full commentary history is retained (see fetchESPNCommentary), and
+// scheduleCommentaryResume() snaps back to the latest after a period of
+// inactivity following manual navigation.
 function commentaryInnerHtml(match) {
   const items = match._espnCommentary;
   if (!items?.length) return '';
@@ -1271,7 +1328,33 @@ function commentaryInnerHtml(match) {
       <span class="mc-count">${idx + 1}/${items.length}</span>
       <button class="mc-btn" data-matchnum="${match.matchNum}" data-dir="-1" ${idx === 0 ? 'disabled' : ''} aria-label="Newer comment" title="Newer">›</button>
     </div>` : '';
-  return `<span class="mc-text">${timeLabel}${item.text}</span>${navHtml}`;
+  return `<span class="mc-icon">📰</span><span class="mc-text">${timeLabel}${item.text}</span>${navHtml}`;
+}
+
+// How long to wait after the user last manually navigated commentary before
+// snapping back to showing the latest comment.
+const COMMENTARY_RESUME_MS = 15000;
+const commentaryResumeTimers = new Map();
+
+// Schedules a snap-back-to-latest for a match's commentary after a period of
+// inactivity following manual navigation. Re-looks-up the match by matchNum
+// when the timer fires (not a closed-over reference) since state.matches is
+// wholesale-replaced by fetchData() on every data.json poll.
+function scheduleCommentaryResume(matchNum) {
+  clearTimeout(commentaryResumeTimers.get(matchNum));
+  const timer = setTimeout(() => {
+    commentaryResumeTimers.delete(matchNum);
+    const match = state.matches.find(m => m.matchNum === matchNum);
+    if (!match?._espnCommentary?.length) return;
+    match._commentarySeq = match._espnCommentary[0].sequence;
+    document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
+      node.classList.remove('mc-anim');
+      void node.offsetWidth;
+      node.innerHTML = commentaryInnerHtml(match);
+      node.classList.add('mc-anim');
+    });
+  }, COMMENTARY_RESUME_MS);
+  commentaryResumeTimers.set(matchNum, timer);
 }
 
 function matchCardHtml(match, extraLabel, opts = {}) {
@@ -1874,6 +1957,18 @@ async function fetchCombinations() {
   }
 }
 
+// fifa_rankings.json is regenerated by update_tracker.js whenever a newer FIFA ranking
+// snapshot is added to blueprint_data/ — fetch it once on startup, same as combinations.json.
+// Falls back to the TEAM_MASTER_DATA snapshot (see fifaRankOf) if this 404s or is stale.
+async function fetchFifaRankings() {
+  try {
+    const res = await fetch('./data/fifa_rankings.json');
+    if (res.ok) state.fifaRankings = (await res.json()).ranks || {};
+  } catch (e) {
+    console.error('fifa_rankings.json fetch error:', e);
+  }
+}
+
 async function fetchData() {
   if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
   state._dataFetchInFlight = true;
@@ -2312,6 +2407,12 @@ document.addEventListener('click', e => {
     node.innerHTML = commentaryInnerHtml(match);
     node.classList.add('mc-anim');
   });
+  if (idx === 0) {
+    clearTimeout(commentaryResumeTimers.get(matchNum));
+    commentaryResumeTimers.delete(matchNum);
+  } else {
+    scheduleCommentaryResume(matchNum);
+  }
 });
 
 // ===== INIT =====
@@ -2349,7 +2450,7 @@ async function init() {
 
   // Initial load: data.json (full schedule + standings) and the static
   // combinations.json lookup table (fetched once, never refetched) in parallel.
-  await Promise.all([fetchCombinations(), fetchData()]);
+  await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchData()]);
 
   // Initial ESPN sync — overlays live scores immediately
   await fetchESPN();
