@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v11.3';
-const APP_UPDATED = '2026-06-17 22:55 UTC';
+const APP_VERSION = 'v11.4';
+const APP_UPDATED = '2026-06-17 23:25 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1899,30 +1899,33 @@ function renderBracket() {
   const final = state.matches.filter(m => m.stage === 'Final');
   const thirdPlaceMatch = state.matches.filter(m => m.stage === 'Third Place');
 
-  let html = `<div class="bracket-wrapper"><div class="bracket">`;
+  let html = `<div class="bracket-header-row"><div class="bracket-header-row-inner">
+    <div class="bracket-round-title">Round of 32</div>
+    <div class="bracket-round-title">Round of 16</div>
+    <div class="bracket-round-title">Quarterfinals</div>
+    <div class="bracket-round-title">Semifinals</div>
+    <div class="bracket-round-title">Final</div>
+  </div></div>`;
+
+  html += `<div class="bracket-wrapper"><div class="bracket">`;
 
   html += `<div class="bracket-round r32">
-    <div class="round-label">Round of 32</div>
     ${r32.map(bSlot).join('')}
   </div>`;
 
   html += `<div class="bracket-round r16">
-    <div class="round-label">Round of 16</div>
     ${r16.map(bSlot).join('')}
   </div>`;
 
   html += `<div class="bracket-round rqf">
-    <div class="round-label">Quarterfinals</div>
     ${qf.map(bSlot).join('')}
   </div>`;
 
   html += `<div class="bracket-round rsf">
-    <div class="round-label">Semifinals</div>
     ${sf.map(bSlot).join('')}
   </div>`;
 
   html += `<div class="bracket-round rfin">
-    <div class="round-label">Final</div>
     <div class="rfin-body">
       <div class="final-group">
         <div class="final-slot">${final.map(bMatchHtml).join('')}</div>
@@ -1934,6 +1937,18 @@ function renderBracket() {
 
   html += `</div></div>`;
   morphInto(el, html);
+
+  // Keep the frozen header row's horizontal position in sync with the
+  // match columns below it, since it lives outside .bracket-wrapper's
+  // scroll container (see CSS comment on .bracket-header-row).
+  const wrapper = el.querySelector('.bracket-wrapper');
+  const headerInner = el.querySelector('.bracket-header-row-inner');
+  if (wrapper && headerInner && !wrapper.dataset.scrollSynced) {
+    wrapper.dataset.scrollSynced = '1';
+    wrapper.addEventListener('scroll', () => {
+      el.querySelector('.bracket-header-row-inner').style.transform = `translateX(${-wrapper.scrollLeft}px)`;
+    });
+  }
 }
 
 // ===== RENDER VIEW =====
