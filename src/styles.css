@@ -104,29 +104,33 @@ body {
 .notif-permission-btn:hover { background: var(--border); }
 .notif-permission-btn.enabled { background: var(--grad-green); border-color: transparent; }
 
-/* Toggle — pure CSS using hidden checkbox */
-.toggle-wrap {
+/* Floating Live/Official standings toggle — consistent position across all views */
+.live-mode-fab {
+  position: fixed; right: 20px; bottom: 20px; z-index: 9996;
   display: flex; align-items: center; gap: 8px;
-  font-size: 13px; color: var(--ink-2);
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 99px; padding: 10px 16px 10px 12px;
+  font-size: 13px; font-weight: 600; color: var(--ink-2);
   cursor: pointer; user-select: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12);
+  transition: background .15s, border-color .15s, color .15s, box-shadow .15s;
+}
+.live-mode-fab:hover { box-shadow: 0 6px 20px rgba(0,0,0,.16); }
+
+.live-mode-fab .fab-dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--ink-3); flex-shrink: 0;
+  transition: background .15s;
 }
 
-.toggle-wrap input[type="checkbox"] { display: none; }
-
-.toggle-track {
-  width: 36px; height: 20px;
-  background: var(--border); border-radius: 10px;
-  position: relative; transition: background .2s; flex-shrink: 0;
+.live-mode-fab.live {
+  background: var(--grad-green); border-color: transparent; color: #fff;
+}
+.live-mode-fab.live .fab-dot {
+  background: #fff; animation: blink 1.6s infinite;
 }
 
-.toggle-knob {
-  width: 16px; height: 16px; background: #fff; border-radius: 50%;
-  position: absolute; top: 2px; left: 2px;
-  transition: transform .2s;
-}
-
-.toggle-wrap input:checked + .toggle-track { background: var(--green); }
-.toggle-wrap input:checked + .toggle-track .toggle-knob { transform: translateX(16px); }
+#app-header[data-view="schedule"] ~ .live-mode-fab { display: none; }
 
 /* Sync pill */
 .sync-pill {
@@ -329,6 +333,7 @@ body {
 .score-col {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   flex-shrink: 0;
+  position: relative;
 }
 
 .score {
@@ -339,7 +344,11 @@ body {
 }
 
 .score-sub {
-  font-size: 10px; font-weight: 600; margin-top: 4px; letter-spacing: .02em;
+  font-size: 10px; font-weight: 600; letter-spacing: .02em;
+  position: absolute;
+  top: 100%;
+  margin-top: 4px;
+  white-space: nowrap;
 }
 
 .score-sub.live { color: var(--red); }
@@ -585,6 +594,12 @@ img.flag {
 
 .standings-grid { display: flex; flex-direction: column; gap: 16px; }
 
+/* Keep stat columns aligned across all group tables, regardless of team name length */
+.standings-grid table { table-layout: fixed; }
+.standings-grid th:nth-child(1), .standings-grid td:nth-child(1) { width: 28px; }
+.standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: auto; }
+.standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 38px; }
+
 .standings-mode-label {
   font-size: 12px; padding: 3px 10px; border-radius: 99px; margin-left: auto;
 }
@@ -657,6 +672,11 @@ tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
   font-size: 10px; font-weight: 700; color: var(--ink-3);
   text-transform: uppercase; letter-spacing: .07em;
   text-align: center; margin-bottom: 8px; flex-shrink: 0;
+  position: sticky;
+  top: var(--header-h-actual, var(--header-h));
+  z-index: 5;
+  background: var(--bg);
+  padding: 6px 0;
 }
 
 /* Slot — vertically centers card in its allocated height */
@@ -666,7 +686,16 @@ tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
 .r16 .b-slot { height: calc(2 * var(--bs)); }
 .rqf .b-slot { height: calc(4 * var(--bs)); }
 .rsf .b-slot { height: calc(8 * var(--bs)); }
-.rfin .b-slot { height: calc(8 * var(--bs)); }
+
+/* Final round: final match centered in the full column height (vertically
+   between the two semifinal slots above); 3rd place anchored at the bottom */
+.rfin-body { position: relative; height: calc(16 * var(--bs)); }
+.rfin-body .final-slot {
+  position: absolute; top: 50%; left: 0; right: 0;
+  transform: translateY(-50%);
+}
+.rfin-body .third-wrap { position: absolute; left: 0; right: 0; bottom: 0; }
+.rfin-body .round-label.third-label { position: static; margin-bottom: 8px; background: none; }
 
 .b-match {
   width: 100%;
@@ -729,26 +758,23 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   .brand { order: 1; }
   .header-right { order: 2; width: auto; gap: 8px; }
 
-  /* Row 2: live-mode toggle — only meaningful on views that use it
-     (Dashboard's live group widget, Standings, Bracket); hidden on Schedule */
-  .toggle-wrap { order: 3; width: 100%; justify-content: center; }
-  #app-header[data-view="schedule"] .toggle-wrap { display: none; }
-
-  /* Row 3: nav tabs — bottom-most, full width, equal-width buttons */
-  .nav-tabs { order: 4; width: 100%; gap: 6px; }
+  /* Row 2: nav tabs — bottom-most, full width, equal-width buttons */
+  .nav-tabs { order: 3; width: 100%; gap: 6px; }
   .nav-tab { flex: 1; padding: 10px 6px; font-size: 14px; text-align: center; }
 
   .page-hero {
-    flex-direction: column; align-items: flex-start;
+    flex-direction: column; align-items: center; text-align: center;
     gap: 20px; padding: 24px;
   }
 
   .page-hero::after { display: none; }
   .hero-title { font-size: 38px; }
   .hero-stat-num { font-size: 36px; }
-  .hero-stats { gap: 24px; }
+  .hero-stats { gap: 12px; width: 100%; justify-content: space-between; }
 
   .bracket { min-width: 800px; }
+
+  .live-mode-fab { right: 14px; bottom: 14px; padding: 9px 14px 9px 11px; font-size: 12px; }
 
   /* ---- Mobile match card — keep 3-col grid, scale down ---- */
   .match-card { padding: 10px 12px; }
@@ -771,6 +797,19 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 
   /* Stats strip: tighten possession label column on narrow screens */
   .stats-poss { grid-template-columns: 30px 1fr 30px auto; gap: 0 5px; }
+
+  /* Wildcard rankings table: drop W/D/L before the page is forced to scroll horizontally */
+  .wc-wdl { display: none; }
+  table { font-size: 12px; }
+  th, td { padding: 7px 5px; }
+}
+
+@media (max-width: 480px) {
+  /* GF/GA also collapse on very narrow screens, keeping only Group/GD/Pts */
+  .standings-grid table th:nth-child(7),
+  .standings-grid table td:nth-child(7),
+  .standings-grid table th:nth-child(8),
+  .standings-grid table td:nth-child(8) { display: none; }
 }
 
 /* ===== NOTIFICATIONS ===== */
@@ -975,7 +1014,7 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 
 .team-modal {
   background: var(--surface); border-radius: var(--r);
-  padding: 24px; max-width: 620px; width: 100%;
+  padding: 24px; max-width: 450px; width: 100%;
   max-height: 85vh; overflow-y: auto;
   box-shadow: 0 24px 80px rgba(0,0,0,.25);
   position: relative;
@@ -1003,10 +1042,11 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 .tm-sub { font-size: 12px; color: var(--ink-3); margin-top: 2px; }
 
 .tm-record {
-  display: flex; gap: 8px; flex-wrap: wrap;
+  display: flex; gap: 8px;
   background: var(--surface-2); border-radius: 10px;
   padding: 12px 14px; margin-bottom: 16px;
 }
+.tm-record .tm-stat { flex: 1; }
 .tm-stat {
   display: flex; flex-direction: column; align-items: center; gap: 2px;
   min-width: 40px;
