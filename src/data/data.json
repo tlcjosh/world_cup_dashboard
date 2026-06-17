@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T17:02:27.820Z",
+  "lastUpdated": "2026-06-17T18:05:54.605Z",
   "matches": [
     {
       "matchId": 537327,
@@ -422,9 +422,9 @@
       "awayIso": "cd",
       "venue": "NRG Stadium, Houston",
       "kickoff": "2026-06-17T17:00:00.000Z",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "IN_PLAY",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "PAUSED",
       "firstHalfStart": "2026-06-17T17:02:27.820Z",
       "secondHalfStart": null
     },
