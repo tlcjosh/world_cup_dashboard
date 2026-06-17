@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T00:16:31.025Z",
+  "lastUpdated": "2026-06-17T01:45:04.071Z",
   "matches": [
     {
       "matchId": 537327,
@@ -318,10 +318,10 @@
       "awayIso": "dz",
       "venue": "Arrowhead Stadium, Kansas City",
       "kickoff": "2026-06-17T01:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-17T01:45:04.071Z",
       "secondHalfStart": null
     },
     {
