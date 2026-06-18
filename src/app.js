@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v11.4';
-const APP_UPDATED = '2026-06-17 23:25 UTC';
+const APP_VERSION = 'v12';
+const APP_UPDATED = '2026-06-18 00:29 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1377,6 +1377,34 @@ function scheduleCommentaryResume(matchNum) {
   commentaryResumeTimers.set(matchNum, timer);
 }
 
+// Steps a match's displayed commentary item by `dir` (1 = older, -1 = newer).
+// Shared by the ‹/› button click handler and the commentary swipe gesture.
+function navigateCommentary(matchNum, dir) {
+  const match = state.matches.find(m => m.matchNum === matchNum);
+  if (!match?._espnCommentary?.length) return;
+  const items = match._espnCommentary;
+  let idx = items.findIndex(c => c.sequence === match._commentarySeq);
+  if (idx === -1) idx = 0;
+  idx = Math.max(0, Math.min(items.length - 1, idx + dir));
+  // Leave _commentarySeq null at idx 0 so we keep dynamically tracking the newest
+  // comment as more arrive, rather than freezing on a snapshot of "latest right now".
+  match._commentarySeq = idx === 0 ? null : items[idx].sequence;
+  document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
+    node.classList.remove('mc-anim');
+    void node.offsetWidth; // restart fade animation
+    node.innerHTML = commentaryInnerHtml(match);
+    node.classList.add('mc-anim');
+  });
+  if (idx === 0) {
+    clearTimeout(commentaryResumeTimers.get(matchNum));
+    commentaryResumeTimers.delete(matchNum);
+    match._commentaryLastNav = null;
+  } else {
+    match._commentaryLastNav = Date.now();
+    scheduleCommentaryResume(matchNum);
+  }
+}
+
 function matchCardHtml(match, extraLabel, opts = {}) {
   const isLive = match.status === 'IN_PLAY' || match.status === 'PAUSED';
   const hasScore = isLive || match.status === 'FINISHED';
@@ -2464,32 +2492,53 @@ document.addEventListener('click', e => {
   const btn = e.target.closest('.mc-btn');
   if (!btn || btn.disabled) return;
   e.stopPropagation();
-  const matchNum = parseInt(btn.dataset.matchnum, 10);
-  const dir = parseInt(btn.dataset.dir, 10);
-  const match = state.matches.find(m => m.matchNum === matchNum);
-  if (!match?._espnCommentary?.length) return;
-  const items = match._espnCommentary;
-  let idx = items.findIndex(c => c.sequence === match._commentarySeq);
-  if (idx === -1) idx = 0;
-  idx = Math.max(0, Math.min(items.length - 1, idx + dir));
-  // Leave _commentarySeq null at idx 0 so we keep dynamically tracking the newest
-  // comment as more arrive, rather than freezing on a snapshot of "latest right now".
-  match._commentarySeq = idx === 0 ? null : items[idx].sequence;
-  document.querySelectorAll(`.match-commentary[data-matchnum="${matchNum}"]`).forEach(node => {
-    node.classList.remove('mc-anim');
-    void node.offsetWidth; // restart fade animation
-    node.innerHTML = commentaryInnerHtml(match);
-    node.classList.add('mc-anim');
-  });
-  if (idx === 0) {
-    clearTimeout(commentaryResumeTimers.get(matchNum));
-    commentaryResumeTimers.delete(matchNum);
-    match._commentaryLastNav = null;
-  } else {
-    match._commentaryLastNav = Date.now();
-    scheduleCommentaryResume(matchNum);
-  }
+  navigateCommentary(parseInt(btn.dataset.matchnum, 10), parseInt(btn.dataset.dir, 10));
 });
+
+// ===== SWIPE GESTURES =====
+// Delegated on document (not attached per-node) since match cards and view
+// containers are wholesale-replaced/re-rendered on every poll — node-level
+// listeners would be lost on the next refresh.
+const SWIPE_MIN_DISTANCE = 50; // px
+const SWIPE_MAX_OFF_AXIS_RATIO = 0.6; // vertical drift allowed, relative to horizontal distance
+const NAV_VIEW_ORDER = ['dashboard', 'schedule', 'standings', 'bracket'];
+
+let swipeStartX = null, swipeStartY = null, swipeStartTarget = null;
+
+document.addEventListener('touchstart', e => {
+  if (e.touches.length !== 1) return;
+  swipeStartX = e.touches[0].clientX;
+  swipeStartY = e.touches[0].clientY;
+  swipeStartTarget = e.target;
+}, { passive: true });
+
+document.addEventListener('touchend', e => {
+  if (swipeStartX === null) return;
+  const touch = e.changedTouches[0];
+  const dx = touch.clientX - swipeStartX;
+  const dy = touch.clientY - swipeStartY;
+  const startTarget = swipeStartTarget;
+  swipeStartX = swipeStartY = swipeStartTarget = null;
+  if (Math.abs(dx) < SWIPE_MIN_DISTANCE || Math.abs(dy) > Math.abs(dx) * SWIPE_MAX_OFF_AXIS_RATIO) return;
+
+  // Swiping over live commentary steps through comment history instead of
+  // changing views: left mirrors the ‹ "Older" button, right mirrors › "Newer".
+  const commentaryEl = startTarget?.closest?.('.match-commentary');
+  if (commentaryEl) {
+    navigateCommentary(parseInt(commentaryEl.dataset.matchnum, 10), dx < 0 ? 1 : -1);
+    return;
+  }
+
+  // Don't hijack horizontal swipes inside the bracket view — its rounds
+  // scroll horizontally via native overflow and need the gesture themselves.
+  if (startTarget?.closest?.('.bracket-wrapper')) return;
+
+  const idx = NAV_VIEW_ORDER.indexOf(state.currentView);
+  const nextIdx = idx + (dx < 0 ? 1 : -1);
+  if (nextIdx < 0 || nextIdx >= NAV_VIEW_ORDER.length) return;
+  state.currentView = NAV_VIEW_ORDER[nextIdx];
+  renderView();
+}, { passive: true });
 
 // ===== INIT =====
 async function init() {
