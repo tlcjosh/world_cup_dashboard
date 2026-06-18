@@ -171,6 +171,12 @@ async function syncMatchStats(matches) {
     m.awayFouls = parseTeamStat(ourAwayComp, 'foulsCommitted');
     m.homeSaves = parseTeamStat(ourHomeComp, 'saves');
     m.awaySaves = parseTeamStat(ourAwayComp, 'saves');
+    m.homeCorners = parseTeamStat(ourHomeComp, 'wonCorners');
+    m.awayCorners = parseTeamStat(ourAwayComp, 'wonCorners');
+    m.homeOffsides = parseTeamStat(ourHomeComp, 'offsides');
+    m.awayOffsides = parseTeamStat(ourAwayComp, 'offsides');
+    m.homePenaltyGoals = parseTeamStat(ourHomeComp, 'penaltyKickGoals');
+    m.awayPenaltyGoals = parseTeamStat(ourAwayComp, 'penaltyKickGoals');
 
     if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
       const fp = classifyMatchFairPlay(details, ourHomeId);
