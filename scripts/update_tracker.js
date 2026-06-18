@@ -115,15 +115,23 @@ function classifyMatchFairPlay(details, ourHomeTeamId) {
   return { home, away };
 }
 
-// Fills in homeFairPlay/awayFairPlay for newly-FINISHED group stage matches from ESPN's
-// date-scoped scoreboard (football-data.org has no disciplinary data at all). Once a
-// match has these fields set they're never re-fetched — card events don't change after
-// the final whistle, so this only costs one ESPN call per matchday, the first time any
-// of that day's matches finish.
-async function syncFairPlayPoints(matches) {
+function parseTeamStat(competitor, statName) {
+  const stat = (competitor.statistics || []).find(s => s.name === statName);
+  if (!stat) return 0;
+  return stat.value !== undefined ? stat.value : (parseFloat(stat.displayValue) || 0);
+}
+
+// Fills in permanent match stats (cards, fouls, saves, and — group stage only —
+// fair play deduction points) for newly-FINISHED matches from ESPN's date-scoped
+// scoreboard (football-data.org has no card/stat data at all). Once a match has
+// homeYellowCards set it's never re-fetched — these don't change after the final
+// whistle, so this only costs one ESPN call per matchday, the first time any of
+// that day's matches finish.
+async function syncMatchStats(matches) {
   const pending = matches.filter(m =>
-    m.stage === 'Group Stage' && m.status === 'FINISHED' &&
-    (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')
+    m.status === 'FINISHED' &&
+    (typeof m.homeYellowCards !== 'number' ||
+     (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')))
   );
   if (!pending.length) return;
 
@@ -136,7 +144,7 @@ async function syncFairPlayPoints(matches) {
         const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${dateStr}`);
         dateCache.set(dateStr, res.ok ? ((await res.json()).events || []) : []);
       } catch (e) {
-        console.warn('ESPN fair play fetch failed for', dateStr, e.message);
+        console.warn('ESPN match stats fetch failed for', dateStr, e.message);
         dateCache.set(dateStr, []);
       }
     }
@@ -144,10 +152,31 @@ async function syncFairPlayPoints(matches) {
     const found = findESPNEvent(events, m.homeTeam, m.awayTeam);
     if (!found) continue; // not in ESPN's window yet — retry on the next sync
 
-    const ourHomeId = (found.swapped ? found.awayComp : found.homeComp).team.id;
-    const fp = classifyMatchFairPlay(found.comp.details || [], ourHomeId);
-    m.homeFairPlay = fp.home;
-    m.awayFairPlay = fp.away;
+    const ourHomeComp = found.swapped ? found.awayComp : found.homeComp;
+    const ourAwayComp = found.swapped ? found.homeComp : found.awayComp;
+    const ourHomeId = ourHomeComp.team.id;
+    const details = found.comp.details || [];
+
+    let homeYellow = 0, awayYellow = 0, homeRed = 0, awayRed = 0;
+    for (const d of details) {
+      const isHome = d.team?.id === ourHomeId;
+      if (d.yellowCard) { isHome ? homeYellow++ : awayYellow++; }
+      if (d.redCard)    { isHome ? homeRed++    : awayRed++;    }
+    }
+    m.homeYellowCards = homeYellow;
+    m.awayYellowCards = awayYellow;
+    m.homeRedCards    = homeRed;
+    m.awayRedCards    = awayRed;
+    m.homeFouls = parseTeamStat(ourHomeComp, 'foulsCommitted');
+    m.awayFouls = parseTeamStat(ourAwayComp, 'foulsCommitted');
+    m.homeSaves = parseTeamStat(ourHomeComp, 'saves');
+    m.awaySaves = parseTeamStat(ourAwayComp, 'saves');
+
+    if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
+      const fp = classifyMatchFairPlay(details, ourHomeId);
+      m.homeFairPlay = fp.home;
+      m.awayFairPlay = fp.away;
+    }
   }
 }
 
@@ -492,7 +521,7 @@ async function main() {
     }
   }
 
-  await syncFairPlayPoints(current.matches);
+  await syncMatchStats(current.matches);
   current.standings = computeStandings(current.matches);
   current.lastUpdated = now;
 
