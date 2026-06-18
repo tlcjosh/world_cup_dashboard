@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T21:11:49.477Z",
+  "lastUpdated": "2026-06-18T23:05:01.599Z",
   "matches": [
     {
       "matchId": 537327,
@@ -18,7 +18,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -5,
-      "awayFairPlay": -10
+      "awayFairPlay": -10,
+      "homeYellowCards": 1,
+      "awayYellowCards": 2,
+      "homeRedCards": 1,
+      "awayRedCards": 2,
+      "homeFouls": 12,
+      "awayFouls": 11,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537328,
@@ -37,7 +45,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 1,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 9,
+      "awayFouls": 16,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537333,
@@ -56,7 +72,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -2,
-      "awayFairPlay": -3
+      "awayFairPlay": -3,
+      "homeYellowCards": 2,
+      "awayYellowCards": 3,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 10,
+      "awayFouls": 20,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537345,
@@ -75,7 +99,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": -5
+      "awayFairPlay": -5,
+      "homeYellowCards": 1,
+      "awayYellowCards": 5,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 13,
+      "awayFouls": 17,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537340,
@@ -94,7 +126,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": -3
+      "awayFairPlay": -3,
+      "homeYellowCards": 1,
+      "awayYellowCards": 3,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 23,
+      "awayFouls": 21,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537346,
@@ -130,7 +170,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -2,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 2,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 16,
+      "awayFouls": 14,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537334,
@@ -149,7 +197,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -2,
-      "awayFairPlay": -1
+      "awayFairPlay": -1,
+      "homeYellowCards": 2,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 12,
+      "awayFouls": 11,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537352,
@@ -168,7 +224,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -3,
-      "awayFairPlay": -1
+      "awayFairPlay": -1,
+      "homeYellowCards": 3,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 10,
+      "awayFouls": 13,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537351,
@@ -187,7 +251,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": 0,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 0,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 18,
+      "awayFouls": 11,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537357,
@@ -206,7 +278,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -3,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 3,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 7,
+      "awayFouls": 7,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537358,
@@ -225,7 +305,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": 0,
-      "awayFairPlay": -1
+      "awayFairPlay": -1,
+      "homeYellowCards": 0,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 10,
+      "awayFouls": 8,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537370,
@@ -244,7 +332,15 @@
       "firstHalfStart": "2026-06-15T22:02:08.255Z",
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 1,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 11,
+      "awayFouls": 6,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537369,
@@ -263,7 +359,15 @@
       "firstHalfStart": "2026-06-15T16:00:00.000Z",
       "secondHalfStart": "2026-06-15T17:05:59.000Z",
       "homeFairPlay": -1,
-      "awayFairPlay": -1
+      "awayFairPlay": -1,
+      "homeYellowCards": 1,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 10,
+      "awayFouls": 1,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537364,
@@ -282,7 +386,15 @@
       "firstHalfStart": "2026-06-16T01:23:49.232Z",
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 1,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 10,
+      "awayFouls": 8,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537363,
@@ -301,7 +413,15 @@
       "firstHalfStart": null,
       "secondHalfStart": "2026-06-15T20:08:13.899Z",
       "homeFairPlay": -2,
-      "awayFairPlay": -2
+      "awayFairPlay": -2,
+      "homeYellowCards": 2,
+      "awayYellowCards": 2,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 15,
+      "awayFouls": 15,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537391,
@@ -320,7 +440,15 @@
       "firstHalfStart": "2026-06-16T19:06:13.498Z",
       "secondHalfStart": "2026-06-16T20:21:45.120Z",
       "homeFairPlay": 0,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 0,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 5,
+      "awayFouls": 9,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537392,
@@ -339,7 +467,15 @@
       "firstHalfStart": "2026-06-16T22:29:29.708Z",
       "secondHalfStart": "2026-06-16T23:15:28.269Z",
       "homeFairPlay": -1,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 1,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 12,
+      "awayFouls": 13,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537397,
@@ -358,7 +494,15 @@
       "firstHalfStart": "2026-06-17T01:45:04.071Z",
       "secondHalfStart": null,
       "homeFairPlay": 0,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 0,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 13,
+      "awayFouls": 8,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537398,
@@ -394,7 +538,15 @@
       "firstHalfStart": "2026-06-17T20:29:58.352Z",
       "secondHalfStart": null,
       "homeFairPlay": 0,
-      "awayFairPlay": 0
+      "awayFairPlay": 0,
+      "homeYellowCards": 0,
+      "awayYellowCards": 0,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 10,
+      "awayFouls": 12,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537410,
@@ -413,7 +565,15 @@
       "firstHalfStart": "2026-06-17T23:26:44.709Z",
       "secondHalfStart": "2026-06-18T00:41:52.701Z",
       "homeFairPlay": -1,
-      "awayFairPlay": -2
+      "awayFairPlay": -2,
+      "homeYellowCards": 1,
+      "awayYellowCards": 2,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 9,
+      "awayFouls": 11,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537403,
@@ -432,7 +592,15 @@
       "firstHalfStart": "2026-06-17T17:02:27.820Z",
       "secondHalfStart": "2026-06-17T18:12:22.369Z",
       "homeFairPlay": -3,
-      "awayFairPlay": -1
+      "awayFairPlay": -1,
+      "homeYellowCards": 3,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 9,
+      "awayFouls": 10,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537404,
@@ -451,7 +619,15 @@
       "firstHalfStart": "2026-06-18T03:39:57.851Z",
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": -1
+      "awayFairPlay": -1,
+      "homeYellowCards": 1,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 14,
+      "awayFouls": 11,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537329,
@@ -470,7 +646,15 @@
       "firstHalfStart": "2026-06-18T16:05:40.289Z",
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": -2
+      "awayFairPlay": -2,
+      "homeYellowCards": 1,
+      "awayYellowCards": 2,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 12,
+      "awayFouls": 10,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537335,
@@ -489,7 +673,15 @@
       "firstHalfStart": null,
       "secondHalfStart": null,
       "homeFairPlay": -1,
-      "awayFairPlay": -6
+      "awayFairPlay": -6,
+      "homeYellowCards": 1,
+      "awayYellowCards": 2,
+      "homeRedCards": 0,
+      "awayRedCards": 1,
+      "homeFouls": 7,
+      "awayFouls": 18,
+      "homeSaves": 0,
+      "awaySaves": 0
     },
     {
       "matchId": 537336,
@@ -502,9 +694,9 @@
       "awayIso": "qa",
       "venue": "BC Place, Vancouver",
       "kickoff": "2026-06-18T22:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "PAUSED",
       "firstHalfStart": null,
       "secondHalfStart": null
     },

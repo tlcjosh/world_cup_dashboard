@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v12.4';
-const APP_UPDATED = '2026-06-18 20:58 UTC';
+const APP_VERSION = 'v13';
+const APP_UPDATED = '2026-06-18 23:03 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -26,6 +26,8 @@ const state = {
   tickInterval: null,
   syncInterval: null,
   espnInterval: null,
+  heroStatInterval: null,
+  _heroStatIdx: 0,
   espnSynced: false,
   _espnFetchInFlight: false,
   _dataFetchInFlight: false,
@@ -884,6 +886,19 @@ function mergeESPNData(espnEvents) {
     match.homeFairPlay = fp.home;
     match.awayFairPlay = fp.away;
 
+    // Permanent-shaped stat fields (cards/fouls/saves) for the hero stat pool — live
+    // preview while ESPN tracks the match, same precedence pattern as homeFairPlay.
+    // update_tracker.js's syncMatchStats() bakes these in permanently once FINISHED.
+    const finalHStats = match._espnStats.home, finalAStats = match._espnStats.away;
+    match.homeYellowCards = finalHStats.yellowCards;
+    match.awayYellowCards = finalAStats.yellowCards;
+    match.homeRedCards    = finalHStats.redCards;
+    match.awayRedCards    = finalAStats.redCards;
+    match.homeFouls = finalHStats.foulsCommitted ?? 0;
+    match.awayFouls = finalAStats.foulsCommitted ?? 0;
+    match.homeSaves = finalHStats.saves ?? 0;
+    match.awaySaves = finalAStats.saves ?? 0;
+
     // Team colors for possession bar and accents
     const hColor = pickTeamColor(homeComp.team);
     const aColor = pickTeamColor(awayComp.team);
@@ -1490,6 +1505,46 @@ function matchCardHtml(match, extraLabel, opts = {}) {
   `;
 }
 
+// Pool of rotating hero stats (everything except "Played", which stays pinned).
+// Each entry only included once its underlying data is actually known — cards/fouls/
+// saves lag behind goals since they depend on ESPN's stats array or update_tracker.js's
+// backend sync, same lag the fair-play preview already has.
+function computeHeroStats() {
+  let goals = 0, playedForGoals = 0, highestScoring = 0, cleanSheets = 0;
+  let fouls = 0, foulsKnown = 0, saves = 0, savesKnown = 0, cards = 0, cardsKnown = 0;
+  for (const m of state.matches) {
+    if (m.homeScore == null || m.awayScore == null) continue;
+    const total = m.homeScore + m.awayScore;
+    goals += total;
+    playedForGoals++;
+    if (total > highestScoring) highestScoring = total;
+    if (m.homeScore === 0) cleanSheets++;
+    if (m.awayScore === 0) cleanSheets++;
+    if (typeof m.homeFouls === 'number' && typeof m.awayFouls === 'number') {
+      fouls += m.homeFouls + m.awayFouls;
+      foulsKnown++;
+    }
+    if (typeof m.homeSaves === 'number' && typeof m.awaySaves === 'number') {
+      saves += m.homeSaves + m.awaySaves;
+      savesKnown++;
+    }
+    if (typeof m.homeYellowCards === 'number' && typeof m.awayYellowCards === 'number') {
+      cards += m.homeYellowCards + m.awayYellowCards + (m.homeRedCards || 0) + (m.awayRedCards || 0);
+      cardsKnown++;
+    }
+  }
+  const pool = [
+    { num: goals, label: 'Goals scored' },
+    { num: playedForGoals ? (goals / playedForGoals).toFixed(1) : '0.0', label: 'Goals / match' },
+    { num: cleanSheets, label: 'Clean sheets' },
+  ];
+  if (highestScoring > 0) pool.push({ num: highestScoring, label: 'Highest-scoring match' });
+  if (cardsKnown) pool.push({ num: cards, label: 'Cards shown' });
+  if (foulsKnown) pool.push({ num: fouls, label: 'Fouls committed' });
+  if (savesKnown) pool.push({ num: saves, label: 'Saves' });
+  return pool;
+}
+
 // ===== RENDER DASHBOARD =====
 function renderDashboard() {
   const el = document.getElementById('view-dashboard');
@@ -1534,6 +1589,10 @@ function renderDashboard() {
 
     // Determine tournament day / stage eyebrow
     const finishedCount = state.matches.filter(m => m.status === 'FINISHED').length;
+    const heroStatPool = computeHeroStats();
+    const rotatingStats = heroStatPool.length
+      ? [0, 1].map(off => heroStatPool[(state._heroStatIdx + off) % heroStatPool.length])
+      : [{ num: liveCount, label: 'Live now' }, { num: todayCount, label: 'Today' }];
     const groupStageMatches = state.matches.filter(m => m.stage === 'Group Stage');
     const inKnockout = state.matches.some(m => m.stage !== 'Group Stage' && (m.status === 'FINISHED' || m.status === 'IN_PLAY'));
     const stageName = inKnockout ? 'Knockout Stage' : 'Group Stage';
@@ -1635,17 +1694,14 @@ function renderDashboard() {
         </div>
         <div class="hero-stats">
           <div class="hero-stat">
-            <div class="hero-stat-num">${liveCount}</div>
-            <div class="hero-stat-label">Live now</div>
-          </div>
-          <div class="hero-stat">
-            <div class="hero-stat-num">${todayCount}</div>
-            <div class="hero-stat-label">Today</div>
-          </div>
-          <div class="hero-stat">
             <div class="hero-stat-num">${finishedCount}</div>
             <div class="hero-stat-label">Played</div>
           </div>
+          ${rotatingStats.map(s => `
+          <div class="hero-stat">
+            <div class="hero-stat-num">${s.num}</div>
+            <div class="hero-stat-label">${s.label}</div>
+          </div>`).join('')}
         </div>
       </div>
 
@@ -2092,7 +2148,8 @@ async function fetchData() {
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq',
       '_commentaryLastNav','espnEventId'];
-    const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay'];
+    const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay',
+      'homeYellowCards', 'awayYellowCards', 'homeRedCards', 'awayRedCards', 'homeFouls', 'awayFouls', 'homeSaves', 'awaySaves'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
@@ -2629,6 +2686,14 @@ async function init() {
   // for schedule/standings/knockout updates. Also restarted on resume from
   // background — see RESUME / VISIBILITY above.
   restartPollIntervals();
+
+  // Rotate the hero stat pool every 8s. Purely cosmetic (no fetch involved), so
+  // unlike the poll intervals above it doesn't need restarting on PWA resume —
+  // a few missed rotations while backgrounded is harmless.
+  state.heroStatInterval = setInterval(() => {
+    state._heroStatIdx++;
+    if (state.currentView === 'dashboard' && !state.teamFilter) renderView({ silent: true });
+  }, 8000);
 
   // ---- Test / debug harness ----
   const testMatch = {
