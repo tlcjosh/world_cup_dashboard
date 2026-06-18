@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T23:12:15.771Z",
+  "lastUpdated": "2026-06-18T23:43:47.979Z",
   "matches": [
     {
       "matchId": 537327,
@@ -694,7 +694,7 @@
       "awayIso": "qa",
       "venue": "BC Place, Vancouver",
       "kickoff": "2026-06-18T22:00:00.000Z",
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 0,
       "status": "IN_PLAY",
       "firstHalfStart": null,
