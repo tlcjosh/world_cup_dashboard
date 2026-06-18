@@ -277,7 +277,8 @@ body {
 }
 
 .match-card:last-child { margin-bottom: 0; }
-.match-card:hover {
+.match-card.clickable { cursor: pointer; }
+.match-card.clickable:hover {
   background: linear-gradient(135deg, rgba(37,99,235,.07) 0%, rgba(124,58,237,.07) 100%), var(--surface);
   box-shadow: 0 4px 16px rgba(0,0,0,.08), 0 1px 4px rgba(0,0,0,.04);
   transform: translateY(-1px);
@@ -598,15 +599,15 @@ img.flag {
   .standings-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 1100px) {
-  .standings-grid { grid-template-columns: repeat(3, 1fr); }
-}
-
 /* Keep stat columns aligned across all group tables, regardless of team name length */
 .standings-grid table { table-layout: fixed; }
 .standings-grid th:nth-child(1), .standings-grid td:nth-child(1) { width: 28px; }
 .standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: auto; }
 .standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 34px; font-size: 12px; }
+
+/* Match the breathing room of the third-place wildcard table (.card default padding) */
+.standings-grid th:first-child, .standings-grid td:first-child { padding-left: 14px; }
+.standings-grid th:last-child, .standings-grid td:last-child { padding-right: 14px; }
 
 .standings-mode-label {
   font-size: 12px; padding: 3px 10px; border-radius: 99px; margin-left: auto;
@@ -1020,8 +1021,22 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 .team-link, .flag-link {
   cursor: pointer;
 }
-.team-link:hover {
-  text-decoration: underline; text-underline-offset: 2px;
+
+/* Gradient underline hints clickability without adding a new element or color
+   to the team name's own text. Faded green at rest, bright live-red/orange on
+   hover/focus. background-image (not text-decoration) so the gradient renders. */
+.team-link {
+  text-decoration: none;
+  background-image: var(--grad-green);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  padding-bottom: 2px;
+  transition: background-image .15s, background-size .15s;
+}
+.team-link:hover, .team-link:focus-visible {
+  background-image: var(--grad-live);
+  background-size: 100% 2px;
 }
 .flag-link { display: inline-flex; align-items: center; }
 
@@ -1190,6 +1205,5 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   margin-top: 14px; line-height: 1.5; border-top: 1px solid var(--border); padding-top: 12px;
 }
 
-/* Score column clickable hint */
-.score-col { cursor: pointer; }
-.score-col:hover .score { text-decoration: underline; text-underline-offset: 3px; }
+/* Score column clickable hint — only meaningful when the card itself is clickable */
+.match-card.clickable .score-col:hover .score { text-decoration: underline; text-underline-offset: 3px; }
