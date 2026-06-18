@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T03:39:57.851Z",
+  "lastUpdated": "2026-06-18T04:54:12.603Z",
   "matches": [
     {
       "matchId": 537327,
@@ -446,10 +446,12 @@
       "venue": "Estadio Azteca, Mexico City",
       "kickoff": "2026-06-18T02:00:00.000Z",
       "homeScore": 1,
-      "awayScore": 2,
-      "status": "IN_PLAY",
+      "awayScore": 3,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-18T03:39:57.851Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537329,
@@ -2409,6 +2411,19 @@
     ],
     "K": [
       {
+        "team": "Colombia",
+        "iso": "co",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3,
+        "fairPlayPoints": -1
+      },
+      {
         "team": "Congo DR",
         "iso": "cd",
         "played": 1,
@@ -2435,30 +2450,17 @@
         "fairPlayPoints": -3
       },
       {
-        "team": "Colombia",
-        "iso": "co",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
-      },
-      {
         "team": "Uzbekistan",
         "iso": "uz",
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
         "pts": 0,
-        "fairPlayPoints": 0
+        "fairPlayPoints": -1
       }
     ]
   }
