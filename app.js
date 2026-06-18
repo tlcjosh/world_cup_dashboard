@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v12';
-const APP_UPDATED = '2026-06-18 00:29 UTC';
+const APP_VERSION = 'v12.1';
+const APP_UPDATED = '2026-06-18 03:37 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -2522,10 +2522,11 @@ document.addEventListener('touchend', e => {
   if (Math.abs(dx) < SWIPE_MIN_DISTANCE || Math.abs(dy) > Math.abs(dx) * SWIPE_MAX_OFF_AXIS_RATIO) return;
 
   // Swiping over live commentary steps through comment history instead of
-  // changing views: left mirrors the ‹ "Older" button, right mirrors › "Newer".
+  // changing views: swipe right to go back to older comments (like a "back"
+  // gesture), swipe left to return to newer ones.
   const commentaryEl = startTarget?.closest?.('.match-commentary');
   if (commentaryEl) {
-    navigateCommentary(parseInt(commentaryEl.dataset.matchnum, 10), dx < 0 ? 1 : -1);
+    navigateCommentary(parseInt(commentaryEl.dataset.matchnum, 10), dx < 0 ? -1 : 1);
     return;
   }
 
@@ -2573,7 +2574,7 @@ async function init() {
     fab.addEventListener('click', () => {
       state.liveMode = !state.liveMode;
       updateLiveModeFab();
-      renderView();
+      renderView({ silent: true }); // toggling shouldn't jerk the page back to the top
     });
     updateLiveModeFab();
   }
