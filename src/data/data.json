@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T16:44:30.277Z",
+  "lastUpdated": "2026-06-18T18:35:35.591Z",
   "matches": [
     {
       "matchId": 537327,
@@ -465,10 +465,12 @@
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "kickoff": "2026-06-18T16:00:00.000Z",
       "homeScore": 1,
-      "awayScore": 0,
-      "status": "IN_PLAY",
+      "awayScore": 1,
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-18T16:05:40.289Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": -2
     },
     {
       "matchId": 537335,
@@ -1845,28 +1847,28 @@
       {
         "team": "Czechia",
         "iso": "cz",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
-        "gf": 1,
-        "ga": 2,
+        "gf": 2,
+        "ga": 3,
         "gd": -1,
-        "pts": 0,
-        "fairPlayPoints": 0
+        "pts": 1,
+        "fairPlayPoints": -1
       },
       {
         "team": "South Africa",
         "iso": "za",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
-        "gf": 0,
-        "ga": 2,
+        "gf": 1,
+        "ga": 3,
         "gd": -2,
-        "pts": 0,
-        "fairPlayPoints": -10
+        "pts": 1,
+        "fairPlayPoints": -12
       }
     ],
     "B": [
