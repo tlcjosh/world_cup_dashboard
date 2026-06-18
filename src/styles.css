@@ -507,6 +507,13 @@ img.flag {
 .badge-live { background: var(--grad-live); color: #fff; animation: blink 1.6s infinite; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.75} }
 
+/* Small dot next to a team name in standings, flagging a match in progress */
+.live-dot {
+  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--grad-live); flex-shrink: 0; margin-left: 2px;
+  animation: blink 1.6s infinite;
+}
+
 .badge-ht       { background: rgba(37,99,235,.10); color: var(--blue); }
 .badge-ft       { background: var(--surface-2); color: var(--ink-3); }
 .badge-finished { background: var(--surface-2); color: var(--ink-3); } /* alias */
@@ -595,7 +602,7 @@ img.flag {
 
 .standings-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: start; }
 
-@media (min-width: 700px) {
+@media (min-width: 1050px) {
   .standings-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
@@ -605,9 +612,10 @@ img.flag {
 .standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: auto; }
 .standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 34px; font-size: 12px; }
 
-/* Match the breathing room of the third-place wildcard table (.card default padding) */
-.standings-grid th:first-child, .standings-grid td:first-child { padding-left: 14px; }
-.standings-grid th:last-child, .standings-grid td:last-child { padding-right: 14px; }
+/* Inset the table from the card edges (table-wrap below) to match the
+   breathing room of the third-place wildcard table (.card default padding),
+   without disturbing the fixed per-column widths above. */
+.standings-grid .table-wrap { padding: 0 14px 10px; }
 
 .standings-mode-label {
   font-size: 12px; padding: 3px 10px; border-radius: 99px; margin-left: auto;
@@ -639,15 +647,19 @@ td { padding: 9px 8px; border-bottom: 1px solid var(--border); }
 tr:last-child td { border-bottom: none; }
 tr:hover td { background: var(--surface-2); }
 
-/* Qualification borders — new class names */
+/* Qualification borders — gradient accents matching the live/brand palette */
 tr.q1 td:first-child,
-tr.q2 td:first-child        { border-left: 3px solid var(--green); }
-tr.q3 td:first-child         { border-left: 3px solid var(--amber); }
-
-/* Old class names (backwards compat) */
-tr.qualify-auto td:first-child { border-left: 3px solid var(--green); }
-tr.qualify-3rd  td:first-child { border-left: 3px solid var(--amber); }
-tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
+tr.q2 td:first-child,
+tr.qualify-auto td:first-child {
+  border-style: solid; border-width: 0 0 0 3px; border-color: transparent;
+  border-image-source: var(--grad-green); border-image-slice: 1;
+}
+tr.q3 td:first-child,
+tr.qualify-3rd td:first-child,
+tr.wildcard-qualify td:first-child {
+  border-style: solid; border-width: 0 0 0 3px; border-color: transparent;
+  border-image-source: var(--grad-live); border-image-slice: 1;
+}
 
 .pos, .pos-num {
   font-size: 11px; color: var(--ink-3); font-weight: 700;
@@ -1022,21 +1034,8 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   cursor: pointer;
 }
 
-/* Gradient underline hints clickability without adding a new element or color
-   to the team name's own text. Faded green at rest, bright live-red/orange on
-   hover/focus. background-image (not text-decoration) so the gradient renders. */
-.team-link {
-  text-decoration: none;
-  background-image: var(--grad-green);
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  padding-bottom: 2px;
-  transition: background-image .15s, background-size .15s;
-}
 .team-link:hover, .team-link:focus-visible {
-  background-image: var(--grad-live);
-  background-size: 100% 2px;
+  text-decoration: underline; text-underline-offset: 2px;
 }
 .flag-link { display: inline-flex; align-items: center; }
 

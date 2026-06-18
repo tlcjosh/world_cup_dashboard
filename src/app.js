@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v12.2';
-const APP_UPDATED = '2026-06-18 16:03 UTC';
+const APP_VERSION = 'v12.1';
+const APP_UPDATED = '2026-06-18 03:37 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1600,8 +1600,8 @@ function renderDashboard() {
         </tbody>
       </table>
       <div class="qualify-legend">
-        <span><span class="swatch" style="background:var(--green)"></span> Advance</span>
-        <span><span class="swatch" style="background:var(--amber)"></span> 3rd wildcard</span>
+        <span><span class="swatch" style="background:var(--grad-green)"></span> Advance</span>
+        <span><span class="swatch" style="background:var(--grad-live)"></span> 3rd wildcard</span>
       </div>
     `;
 
@@ -1758,6 +1758,14 @@ function renderStandings() {
     ${modeLabel}
   </div>`;
 
+  const liveTeams = new Set();
+  for (const m of state.matches) {
+    if (m.status === 'IN_PLAY' || m.status === 'PAUSED') {
+      if (m.homeTeam) liveTeams.add(m.homeTeam);
+      if (m.awayTeam) liveTeams.add(m.awayTeam);
+    }
+  }
+
   html += `<div class="standings-grid">`;
 
   for (const grp of 'ABCDEFGHIJKL'.split('')) {
@@ -1768,6 +1776,7 @@ function renderStandings() {
           <div class="group-pill">${grp}</div>
           <div class="group-name">Group ${grp}</div>
         </div>
+        <div class="table-wrap">
         <table>
           <thead>
             <tr>
@@ -1788,6 +1797,7 @@ function renderStandings() {
     for (let i = 0; i < teams.length; i++) {
       const t = teams[i];
       const rowClass = i === 0 ? 'q1' : i === 1 ? 'q2' : i === 2 ? 'q3' : '';
+      const liveDot = liveTeams.has(t.team) ? '<span class="live-dot" title="Currently playing"></span>' : '';
       html += `
         <tr class="${rowClass}">
           <td><span class="pos">${i + 1}</span></td>
@@ -1795,6 +1805,7 @@ function renderStandings() {
             <div class="team-cell">
               <span class="flag-link" data-team="${t.team}">${flagImg(t.iso, t.team)}</span>
               <span class="team-link" data-team="${t.team}">${t.team}</span>
+              ${liveDot}
             </div>
           </td>
           <td class="num">${t.played}</td>
@@ -1811,13 +1822,13 @@ function renderStandings() {
     if (teams.length === 0) {
       html += `<tr><td colspan="10" class="empty-state">No matches played</td></tr>`;
     }
-    html += `</tbody></table></div>`;
+    html += `</tbody></table></div></div>`;
   }
 
   html += `</div>
   <div class="qualify-legend">
-    <span><span class="swatch" style="background:var(--green);"></span> Auto qualify (1st/2nd)</span>
-    <span><span class="swatch" style="background:var(--amber);"></span> Third place (best 8 advance)</span>
+    <span><span class="swatch" style="background:var(--grad-green);"></span> Auto qualify (1st/2nd)</span>
+    <span><span class="swatch" style="background:var(--grad-live);"></span> Third place (best 8 advance)</span>
   </div>`;
 
   // Third-place wildcard section
