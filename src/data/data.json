@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T18:49:01.452Z",
+  "lastUpdated": "2026-06-18T21:11:49.477Z",
   "matches": [
     {
       "matchId": 537327,
@@ -483,11 +483,13 @@
       "awayIso": "ba",
       "venue": "SoFi Stadium, Inglewood",
       "kickoff": "2026-06-18T19:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeFairPlay": -1,
+      "awayFairPlay": -6
     },
     {
       "matchId": 537336,
@@ -1875,15 +1877,15 @@
       {
         "team": "Switzerland",
         "iso": "ch",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
-        "fairPlayPoints": -1
+        "gf": 5,
+        "ga": 2,
+        "gd": 3,
+        "pts": 4,
+        "fairPlayPoints": -2
       },
       {
         "team": "Canada",
@@ -1914,15 +1916,15 @@
       {
         "team": "Bosnia-Herzegovina",
         "iso": "ba",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "lost": 1,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
         "pts": 1,
-        "fairPlayPoints": -3
+        "fairPlayPoints": -9
       }
     ],
     "D": [
