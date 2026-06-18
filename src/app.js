@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v13.1';
-const APP_UPDATED = '2026-06-18 23:42 UTC';
+const APP_VERSION = 'v13.2';
+const APP_UPDATED = '2026-06-18 23:59 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -602,6 +602,23 @@ async function fetchESPNCommentary(match) {
     const bySeq = new Map((current._espnCommentary || []).map(c => [c.sequence, c]));
     for (const c of fresh) bySeq.set(c.sequence, c);
     current._espnCommentary = [...bySeq.values()].sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
+
+    // saves/passPct live only in this summary endpoint's boxscore.teams[], not the
+    // scoreboard endpoint's stats array — piggyback on this already-scheduled fetch
+    // rather than adding a separate poll. Same live-preview pattern as homeFairPlay;
+    // update_tracker.js's syncMatchStats() bakes the permanent value in once FINISHED.
+    const boxTeams = data.boxscore?.teams || [];
+    const homeId = String(TEAM_MASTER_DATA[current.homeTeam]?.espnId || '');
+    const awayId = String(TEAM_MASTER_DATA[current.awayTeam]?.espnId || '');
+    const homeBox = boxTeams.find(t => String(t.team?.id || '') === homeId);
+    const awayBox = boxTeams.find(t => String(t.team?.id || '') === awayId);
+    const boxStat = (teamEntry, name) => {
+      const stat = (teamEntry?.statistics || []).find(s => s.name === name);
+      if (!stat) return undefined;
+      return stat.value !== undefined ? stat.value : parseFloat(stat.displayValue);
+    };
+    if (homeBox) { current.homeSaves = boxStat(homeBox, 'saves'); current.homePassPct = boxStat(homeBox, 'passPct'); }
+    if (awayBox) { current.awaySaves = boxStat(awayBox, 'saves'); current.awayPassPct = boxStat(awayBox, 'passPct'); }
   } catch (e) {
     // Non-critical — commentary is a nice-to-have
   }
@@ -886,10 +903,13 @@ function mergeESPNData(espnEvents) {
     match.homeFairPlay = fp.home;
     match.awayFairPlay = fp.away;
 
-    // Permanent-shaped stat fields (cards/fouls/saves/corners/pass accuracy) for the
-    // hero stat pool — live preview while ESPN tracks the match, same precedence
-    // pattern as homeFairPlay. update_tracker.js's syncMatchStats() bakes these in
-    // permanently once FINISHED.
+    // Permanent-shaped stat fields (cards/fouls/corners) for the hero stat pool —
+    // live preview while ESPN tracks the match, same precedence pattern as
+    // homeFairPlay. update_tracker.js's syncMatchStats() bakes these in permanently
+    // once FINISHED. NOTE: saves/passPct are NOT in this scoreboard endpoint's stats
+    // array at all (verified against blueprint_data) — they only exist in the
+    // /summary endpoint's boxscore.teams[], so they're set separately by
+    // fetchESPNCommentary() below rather than here.
     const finalHStats = match._espnStats.home, finalAStats = match._espnStats.away;
     match.homeYellowCards = finalHStats.yellowCards;
     match.awayYellowCards = finalAStats.yellowCards;
@@ -897,12 +917,8 @@ function mergeESPNData(espnEvents) {
     match.awayRedCards    = finalAStats.redCards;
     match.homeFouls = finalHStats.foulsCommitted ?? 0;
     match.awayFouls = finalAStats.foulsCommitted ?? 0;
-    match.homeSaves = finalHStats.saves ?? 0;
-    match.awaySaves = finalAStats.saves ?? 0;
     match.homeCorners = finalHStats.wonCorners ?? 0;
     match.awayCorners = finalAStats.wonCorners ?? 0;
-    match.homePassPct = finalHStats.passPct ?? 0;
-    match.awayPassPct = finalAStats.passPct ?? 0;
 
     // Team colors for possession bar and accents
     const hColor = pickTeamColor(homeComp.team);
