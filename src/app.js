@@ -626,6 +626,24 @@ function kickoffToDateStr(kickoff) {
   return new Date(kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }).replace(/-/g, '');
 }
 
+function shiftDateStr(dateStr, days) {
+  const d = new Date(`${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
+// Late-night Pacific kickoffs (e.g. 8:59 PM PDT) can land on a different calendar
+// day than ESPN's own `dates=` scoping for the same event, so a single Pacific-date
+// lookup can come up empty. Try the computed date first, then the adjacent days.
+async function findESPNEventNearDate(dateStr, homeTeam, awayTeam) {
+  for (const candidate of [dateStr, shiftDateStr(dateStr, 1), shiftDateStr(dateStr, -1)]) {
+    const events = await fetchESPNDate(candidate);
+    const found = findESPNEvent(events, homeTeam, awayTeam);
+    if (found) return found;
+  }
+  return null;
+}
+
 function findESPNEvent(events, homeTeam, awayTeam) {
   const homeId = String(TEAM_MASTER_DATA[homeTeam]?.espnId || '');
   const awayId = String(TEAM_MASTER_DATA[awayTeam]?.espnId || '');
@@ -2302,16 +2320,13 @@ async function openTeamModal(teamName) {
   );
   const espnDataByMatch = new Map();
   if (finished.length) {
-    const dates = [...new Set(finished.map(m => kickoffToDateStr(m.kickoff)).filter(Boolean))];
-    await Promise.all(dates.map(async dateStr => {
-      const events = await fetchESPNDate(dateStr);
-      for (const m of finished) {
-        if (kickoffToDateStr(m.kickoff) !== dateStr) continue;
-        const found = findESPNEvent(events, m.homeTeam, m.awayTeam);
-        if (found) {
-          const parsed = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
-          espnDataByMatch.set(m.matchNum, parsed);
-        }
+    await Promise.all(finished.map(async m => {
+      const dateStr = kickoffToDateStr(m.kickoff);
+      if (!dateStr) return;
+      const found = await findESPNEventNearDate(dateStr, m.homeTeam, m.awayTeam);
+      if (found) {
+        const parsed = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
+        espnDataByMatch.set(m.matchNum, parsed);
       }
     }));
   }
@@ -2397,7 +2412,7 @@ function matchDetailStatsHtml(espnData, match) {
     ${rows.length ? `<div class="mdm-stats-grid">${rows.map(([hv,l,av]) =>
       `<span class="mdm-sg-h">${hv}</span><span class="mdm-sg-l">${l}</span><span class="mdm-sg-a">${av}</span>`
     ).join('')}</div>` : ''}
-    ${headline ? `<div class="mdm-headline">"${headline}"</div>` : ''}
+    ${headline ? `<div class="mdm-headline">${headline}</div>` : ''}
   `;
 }
 
@@ -2465,13 +2480,17 @@ async function openMatchModal(matchNum) {
       headline: match._espnHeadline || null,
       colors: match._espnColors || null,
     };
-    // Still fetch historical for full timeline
-    const events = await fetchESPNDate(dateStr);
-    const found = findESPNEvent(events, match.homeTeam, match.awayTeam);
-    if (found) espnData = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
+    // Still fetch historical for full timeline. The historical re-fetch sometimes lacks
+    // a headline that was present during live tracking (ESPN doesn't always backfill it),
+    // so keep the live one as a fallback rather than letting the overwrite drop it.
+    const liveHeadline = espnData.headline;
+    const found = await findESPNEventNearDate(dateStr, match.homeTeam, match.awayTeam);
+    if (found) {
+      espnData = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
+      espnData.headline = espnData.headline || liveHeadline;
+    }
   } else {
-    const events = await fetchESPNDate(dateStr);
-    const found = findESPNEvent(events, match.homeTeam, match.awayTeam);
+    const found = await findESPNEventNearDate(dateStr, match.homeTeam, match.awayTeam);
     if (found) espnData = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
   }
 
