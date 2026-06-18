@@ -96,14 +96,20 @@ Round containers: `.bracket-round.r32`, `.bracket-round.r16`, etc.
 
 ### Dashboard Layout
 The Dashboard view renders:
-1. **Hero** (`.page-hero`) — gradient banner with eyebrow (stage/day), title, and three stat callouts (live count, today count, total matches).
+1. **Hero** (`.page-hero`) — gradient banner with eyebrow (stage/day), title, and three stat callouts: "Played" (pinned) plus two rotating stats — see "Dashboard Hero Stats" below.
 2. **Live & Today card** — full-width; all matches with `IN_PLAY`/`PAUSED` status plus remaining today's matches. Meta line shows "N in play · N upcoming".
 3. **2-column grid** (`.dashboard-grid`):
    - **Group Standings** — condensed table (`.condensed`) showing the group of the first live match. Falls back to the most-played group when nothing is live. Label reads "Live group" or "Most played group". Respects `state.liveMode` toggle.
    - **Up Next** — next 5 scheduled matches.
 4. **Team search** — filters the whole dashboard to a single team's matches.
 
-`getTodayMatches()` filters `state.matches` by Pacific Time date to populate the hero "Today" stat and the Live & Today card.
+`getTodayMatches()` filters `state.matches` by Pacific Time date to populate the "N in play · N upcoming" meta line and the Live & Today card.
+
+### Dashboard Hero Stats
+The first hero slot is pinned to "Played" (count of `FINISHED` matches). The other two slots rotate through a pool built by `computeHeroStats()`: Goals scored, Goals/match, Clean sheets, Highest-scoring match, Cards shown, Fouls committed, Saves. Card/foul/save entries are only added to the pool once at least one match has that data (`cardsKnown`/`foulsKnown`/`savesKnown` counters) — early in the tournament, before any ESPN stats exist, the pool falls back to just the always-available goals/clean-sheets stats.
+
+- **Rotation**: `state._heroStatIdx` is a module-level counter (persisted across renders, not reset per poll), advanced by its own `setInterval` (8s, set up in `init()` as `state.heroStatInterval`) that calls `renderView({ silent: true })`. Since rendering goes through `morphInto`, only the changed `.hero-stat-num`/`.hero-stat-label` text nodes patch — no flicker, same idiomorph diffing used elsewhere. Two pool entries are shown at once: `pool[idx % pool.length]` and `pool[(idx+1) % pool.length]`, so they read as one coherent pair advancing together rather than independent timers. This interval doesn't need restarting on PWA resume (unlike the ESPN/data.json poll intervals) since it's purely cosmetic — a few missed rotations while backgrounded is harmless.
+- **Data source**: goals/clean-sheets/highest-scoring-match come straight from `homeScore`/`awayScore`, always present on any `FINISHED` or in-progress match. Cards/fouls/saves come from the `homeYellowCards`/`homeFouls`/`homeSaves`-style fields described in "In-memory match fields added by ESPN" above — live preview while ESPN tracks a match, permanent once `update_tracker.js`'s `syncMatchStats()` bakes them in.
 
 ### CSS Class Reference (app.js → styles.css)
 | Element | Class |
@@ -161,6 +167,7 @@ No API key required. CORS-friendly — works directly from browser JS. Returns o
 - `_espnColors` — hex brand colors for each team; auto-falls back to `alternateColor` when primary is near-white. Used for the possession gradient bar.
 - `_espnHeadline` — recap text from `competitions[0].headlines[0].description`
 - `homeFairPlay`, `awayFairPlay` — FIFA fair-play disciplinary deduction for this match only (e.g. `-1`, `-4`), derived from `competitions[0].details[]` card events via `classifyMatchFairPlay()`. Live preview while ESPN is tracking the match; see "Fair Play Tiebreaker" below.
+- `homeYellowCards`, `awayYellowCards`, `homeRedCards`, `awayRedCards`, `homeFouls`, `awayFouls`, `homeSaves`, `awaySaves` — raw per-match counts (not deduction points) promoted to top-level fields from `_espnStats`/the card-counting loop above. Live preview while ESPN tracks the match; permanent once `update_tracker.js`'s `syncMatchStats()` bakes them in after `FINISHED`. Feeds the Dashboard hero's rotating stat pool — see "Dashboard Hero Stats" below.
 
 **Swapped teams**: When ESPN's home/away order differs from `data.json`, a `swapped` flag reverses all score/stat/color assignments.
 
@@ -250,7 +257,9 @@ ESPN status names → our internal status values:
 | `_espnHeadline` | string\|null | Recap summary from `competitions[0].headlines[0].description`. Shown as italic sentence below stats. |
 | `_espnCommentary` | string[]\|null | Full live commentary history from ESPN summary endpoint, merged by `sequence` (no cap). Only populated for in-play matches. |
 | `_commentarySeq` | number\|undefined | `sequence` of the commentary item currently displayed (user's scroll position). Undefined = show latest (index 0). |
-| `homeFairPlay`, `awayFairPlay` | number | FIFA fair-play disciplinary deduction for this match only, e.g. `-1`, `-4`. Set live by `mergeESPNData()` (preview) and permanently by `update_tracker.js`'s `syncFairPlayPoints()` once the match is `FINISHED`. See "Fair Play Tiebreaker" below. |
+| `homeFairPlay`, `awayFairPlay` | number | FIFA fair-play disciplinary deduction for this match only, e.g. `-1`, `-4`. Set live by `mergeESPNData()` (preview) and permanently by `update_tracker.js`'s `syncMatchStats()` once the match is `FINISHED`. See "Fair Play Tiebreaker" below. |
+| `homeYellowCards`, `awayYellowCards`, `homeRedCards`, `awayRedCards` | number | Raw card counts for this match (not deduction points). Same live-preview / permanent-backfill pattern as `homeFairPlay`. |
+| `homeFouls`, `awayFouls`, `homeSaves`, `awaySaves` | number | Per-match totals pulled straight through from ESPN's `statistics[]` array (`foulsCommitted`, `saves`). Same live-preview / permanent-backfill pattern as `homeFairPlay`. |
 
 ### `data.json` standings object
 ```json
@@ -319,7 +328,7 @@ Group standings (and the 3rd-place wildcard ranking) use FIFA's disciplinary-poi
 - **Source**: football-data.org has no card data at all, so this is computed entirely from ESPN's `competitions[0].details[]` — the same array already used for goal scorers and the live stats pill. `classifyMatchFairPlay(details, ourHomeTeamId)` groups card events by athlete within a match to tell straight reds apart from second-yellow dismissals. Implemented identically in both `app.js` and `scripts/update_tracker.js`.
 - **Per-match, not per-team-total**: each match stores `homeFairPlay`/`awayFairPlay` (the deduction for that match only, e.g. `-1`, `-4`), exactly like `homeScore`/`awayScore`. `computeStandings()` sums these into each team's `fairPlayPoints`.
 - **Frontend (live)**: `mergeESPNData()` in `app.js` derives `homeFairPlay`/`awayFairPlay` from the same 10s ESPN poll already used for live scores/stats, for any match it's actively tracking — a live preview that self-corrects on the next poll as `details[]` fills in (same lag behavior as goal events). `ESPN_AUTHORITATIVE_FIELDS` in `fetchData()` includes both fields so data.json never clobbers the live ESPN value while a match is tracked.
-- **Backend (permanent)**: `update_tracker.js`'s `syncFairPlayPoints()` fetches ESPN's date-scoped scoreboard once per matchday (only for newly-`FINISHED` Group Stage matches missing these fields), finds the matching event via `findESPNEvent()` (ESPN team ID first, `ESPN_NAME_MAP` fallback — same pattern as `app.js`), and bakes the result into `data.json` permanently. Card events never change after the final whistle, so each match is fetched only once, ever. This required porting `espnId` (added to every `TEAM_MASTER_DATA` entry), `ESPN_NAME_MAP`, and ESPN-fetch helpers into `update_tracker.js`, which previously had no ESPN integration at all.
+- **Backend (permanent)**: `update_tracker.js`'s `syncMatchStats()` fetches ESPN's date-scoped scoreboard once per matchday (only for newly-`FINISHED` Group Stage matches missing these fields), finds the matching event via `findESPNEvent()` (ESPN team ID first, `ESPN_NAME_MAP` fallback — same pattern as `app.js`), and bakes the result into `data.json` permanently. Card events never change after the final whistle, so each match is fetched only once, ever. This required porting `espnId` (added to every `TEAM_MASTER_DATA` entry), `ESPN_NAME_MAP`, and ESPN-fetch helpers into `update_tracker.js`, which previously had no ESPN integration at all. `syncMatchStats()` also persists raw card counts, fouls, and saves for **every** finished match regardless of stage (not just Group Stage) — see "Dashboard Hero Stats" below.
 - **Known limitation**: ESPN's `details[]` doesn't flag "this red card was a second yellow" explicitly. When a single athlete has exactly one yellow and one red logged in the same match, `classifyMatchFairPlay()` assumes it's an indirect red (`-3`) rather than yellow + straight red (`-5`), since that's the far more common real case — this hasn't been validated against a confirmed second-yellow example yet.
 
 ### FIFA World Ranking & Head-to-Head Tiebreaker
