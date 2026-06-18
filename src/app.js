@@ -1772,7 +1772,7 @@ function renderStandings() {
     const teams = computedStandings[grp] || [];
     html += `
       <div class="card" style="padding:0;overflow:hidden;">
-        <div class="group-header" style="padding:10px 14px;border-bottom:1px solid var(--border);margin-bottom:0;">
+        <div class="group-header" style="padding:10px 14px;margin-bottom:0;">
           <div class="group-pill">${grp}</div>
           <div class="group-name">Group ${grp}</div>
         </div>

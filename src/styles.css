@@ -606,11 +606,18 @@ img.flag {
   .standings-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* Keep stat columns aligned across all group tables, regardless of team name length */
+/* Keep stat columns aligned across all group tables, regardless of team name length.
+   All columns get an explicit width (none left "auto") so table-layout: fixed
+   scales them proportionally to fill the available width, spreading the stat
+   columns out evenly instead of bunching them at the right edge. */
 .standings-grid table { table-layout: fixed; }
 .standings-grid th:nth-child(1), .standings-grid td:nth-child(1) { width: 28px; }
-.standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: auto; }
+.standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: 90px; }
 .standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 34px; font-size: 12px; }
+
+@media (min-width: 1050px) {
+  .standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: 175px; }
+}
 
 /* Inset the table from the card edges (table-wrap below) to match the
    breathing room of the third-place wildcard table (.card default padding),
@@ -647,18 +654,20 @@ td { padding: 9px 8px; border-bottom: 1px solid var(--border); }
 tr:last-child td { border-bottom: none; }
 tr:hover td { background: var(--surface-2); }
 
-/* Qualification borders — gradient accents matching the live/brand palette */
-tr.q1 td:first-child,
-tr.q2 td:first-child,
-tr.qualify-auto td:first-child {
-  border-style: solid; border-width: 0 0 0 3px; border-color: transparent;
-  border-image-source: var(--grad-green); border-image-slice: 1;
+/* Qualification borders — gradient accents matching the live/brand palette.
+   Plain border-image is dropped by browsers on cells under border-collapse:
+   collapse, so the accent is painted with a pseudo-element instead. */
+tr.q1 td:first-child, tr.q2 td:first-child, tr.qualify-auto td:first-child,
+tr.q3 td:first-child, tr.qualify-3rd td:first-child, tr.wildcard-qualify td:first-child {
+  position: relative;
 }
-tr.q3 td:first-child,
-tr.qualify-3rd td:first-child,
-tr.wildcard-qualify td:first-child {
-  border-style: solid; border-width: 0 0 0 3px; border-color: transparent;
-  border-image-source: var(--grad-live); border-image-slice: 1;
+tr.q1 td:first-child::before, tr.q2 td:first-child::before, tr.qualify-auto td:first-child::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--grad-green);
+}
+tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard-qualify td:first-child::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--grad-live);
 }
 
 .pos, .pos-num {
