@@ -437,6 +437,12 @@ FD_API_TOKEN=xxx node scripts/update_tracker.js
 npx serve src/
 ```
 
+### Iterating on a feature branch without touching the live site
+`sync.yml`'s `deploy` job hardcodes `ref: main`, so there's no way to get a branch onto `gh-pages` without merging to `main` first. For UI/CSS/JS iteration, **`npx serve src/` against the checked-out branch is the fast loop** — ESPN polling is browser-direct and `data.json` is just a static file already committed in the branch, so everything works locally with no backend, no auth, and no deploy. Edit, refresh the tab, repeat. Only merge to `main` once a change is verified locally.
+
+## Version Bumps
+Per "PWA / Service Worker" above, `APP_VERSION`/`APP_UPDATED` (`src/app.js`) and `CACHE` (`src/sw.js`) need to move together on every `src/` change that reaches `main`. **While iterating on a feature branch, hold off on bumping these** until the user explicitly asks to merge/pull into `main` — bump them as the last step right before that merge, not on every intermediate commit, so the version number stays meaningful as "what's actually live."
+
 ## Deployment
 1. Push to `main` → triggers workflow → syncs data → deploys to `gh-pages`
 2. GitHub Pages serves `gh-pages` branch root
