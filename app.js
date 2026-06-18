@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v12.1';
-const APP_UPDATED = '2026-06-18 03:37 UTC';
+const APP_VERSION = 'v12.2';
+const APP_UPDATED = '2026-06-18 16:43 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1438,8 +1438,14 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     commentaryHtml = `<div class="match-commentary mc-anim" data-matchnum="${match.matchNum}">${commentaryInnerHtml(match)}</div>`;
   }
 
+  // Stats are shown inline for live matches everywhere except the Schedule view
+  // (which always suppresses them) — in that case the card itself opens the
+  // match modal; otherwise the inline stats are the "details" already.
+  const showsLiveStats = isLive && !opts.suppressStats;
+  const clickable = !showsLiveStats;
+
   return `
-    <div class="match-card ${isLive ? 'live' : ''}" data-matchnum="${match.matchNum}">
+    <div class="match-card ${isLive ? 'live' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}">
       <div class="match-meta-bar">
         <div class="match-meta-left">${statusBadge(match)}${extraLabelHtml}</div>
         ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
@@ -1594,8 +1600,8 @@ function renderDashboard() {
         </tbody>
       </table>
       <div class="qualify-legend">
-        <span><span class="swatch" style="background:var(--green)"></span> Advance</span>
-        <span><span class="swatch" style="background:var(--amber)"></span> 3rd wildcard</span>
+        <span><span class="swatch" style="background:var(--grad-green)"></span> Advance</span>
+        <span><span class="swatch" style="background:var(--grad-live)"></span> 3rd wildcard</span>
       </div>
     `;
 
@@ -1752,16 +1758,25 @@ function renderStandings() {
     ${modeLabel}
   </div>`;
 
+  const liveTeams = new Set();
+  for (const m of state.matches) {
+    if (m.status === 'IN_PLAY' || m.status === 'PAUSED') {
+      if (m.homeTeam) liveTeams.add(m.homeTeam);
+      if (m.awayTeam) liveTeams.add(m.awayTeam);
+    }
+  }
+
   html += `<div class="standings-grid">`;
 
   for (const grp of 'ABCDEFGHIJKL'.split('')) {
     const teams = computedStandings[grp] || [];
     html += `
       <div class="card" style="padding:0;overflow:hidden;">
-        <div class="group-header" style="padding:10px 14px;border-bottom:1px solid var(--border);margin-bottom:0;">
+        <div class="group-header" style="padding:10px 14px;margin-bottom:0;">
           <div class="group-pill">${grp}</div>
           <div class="group-name">Group ${grp}</div>
         </div>
+        <div class="table-wrap">
         <table>
           <thead>
             <tr>
@@ -1782,13 +1797,15 @@ function renderStandings() {
     for (let i = 0; i < teams.length; i++) {
       const t = teams[i];
       const rowClass = i === 0 ? 'q1' : i === 1 ? 'q2' : i === 2 ? 'q3' : '';
+      const liveDot = liveTeams.has(t.team) ? '<span class="live-dot" title="Currently playing"></span>' : '';
       html += `
         <tr class="${rowClass}">
           <td><span class="pos">${i + 1}</span></td>
           <td>
-            <div class="team-cell team-link" data-team="${t.team}" style="cursor:pointer;">
+            <div class="team-cell">
               <span class="flag-link" data-team="${t.team}">${flagImg(t.iso, t.team)}</span>
-              <span>${t.team}</span>
+              <span class="team-link" data-team="${t.team}">${t.team}</span>
+              ${liveDot}
             </div>
           </td>
           <td class="num">${t.played}</td>
@@ -1805,13 +1822,13 @@ function renderStandings() {
     if (teams.length === 0) {
       html += `<tr><td colspan="10" class="empty-state">No matches played</td></tr>`;
     }
-    html += `</tbody></table></div>`;
+    html += `</tbody></table></div></div>`;
   }
 
   html += `</div>
   <div class="qualify-legend">
-    <span><span class="swatch" style="background:var(--green);"></span> Auto qualify (1st/2nd)</span>
-    <span><span class="swatch" style="background:var(--amber);"></span> Third place (best 8 advance)</span>
+    <span><span class="swatch" style="background:var(--grad-green);"></span> Auto qualify (1st/2nd)</span>
+    <span><span class="swatch" style="background:var(--grad-live);"></span> Third place (best 8 advance)</span>
   </div>`;
 
   // Third-place wildcard section
@@ -2476,12 +2493,11 @@ document.addEventListener('click', e => {
   if (teamName) { e.stopPropagation(); openTeamModal(teamName); }
 });
 
-// Delegated click handler for match score column
+// Delegated click handler for match cards — whole card opens the match modal
+// except live cards already showing inline stats (no .clickable class there).
 document.addEventListener('click', e => {
-  if (e.target.closest('.team-link, .flag-link')) return; // let team handler take it
-  const scoreCol = e.target.closest('.score-col');
-  if (!scoreCol) return;
-  const card = scoreCol.closest('.match-card[data-matchnum]');
+  if (e.target.closest('.team-link, .flag-link, .mc-btn')) return; // let those handlers take it
+  const card = e.target.closest('.match-card.clickable[data-matchnum]');
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
   if (matchNum) openMatchModal(matchNum);

@@ -277,7 +277,8 @@ body {
 }
 
 .match-card:last-child { margin-bottom: 0; }
-.match-card:hover {
+.match-card.clickable { cursor: pointer; }
+.match-card.clickable:hover {
   background: linear-gradient(135deg, rgba(37,99,235,.07) 0%, rgba(124,58,237,.07) 100%), var(--surface);
   box-shadow: 0 4px 16px rgba(0,0,0,.08), 0 1px 4px rgba(0,0,0,.04);
   transform: translateY(-1px);
@@ -506,6 +507,13 @@ img.flag {
 .badge-live { background: var(--grad-live); color: #fff; animation: blink 1.6s infinite; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.75} }
 
+/* Small dot next to a team name in standings, flagging a match in progress */
+.live-dot {
+  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--grad-live); flex-shrink: 0; margin-left: 2px;
+  animation: blink 1.6s infinite;
+}
+
 .badge-ht       { background: rgba(37,99,235,.10); color: var(--blue); }
 .badge-ft       { background: var(--surface-2); color: var(--ink-3); }
 .badge-finished { background: var(--surface-2); color: var(--ink-3); } /* alias */
@@ -594,19 +602,27 @@ img.flag {
 
 .standings-grid { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: start; }
 
-@media (min-width: 700px) {
+@media (min-width: 1050px) {
   .standings-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 1100px) {
-  .standings-grid { grid-template-columns: repeat(3, 1fr); }
-}
-
-/* Keep stat columns aligned across all group tables, regardless of team name length */
+/* Keep stat columns aligned across all group tables, regardless of team name length.
+   All columns get an explicit width (none left "auto") so table-layout: fixed
+   scales them proportionally to fill the available width, spreading the stat
+   columns out evenly instead of bunching them at the right edge. */
 .standings-grid table { table-layout: fixed; }
 .standings-grid th:nth-child(1), .standings-grid td:nth-child(1) { width: 28px; }
-.standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: auto; }
+.standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: 90px; }
 .standings-grid th:nth-child(n+3), .standings-grid td:nth-child(n+3) { width: 34px; font-size: 12px; }
+
+@media (min-width: 1050px) {
+  .standings-grid th:nth-child(2), .standings-grid td:nth-child(2) { width: 175px; }
+}
+
+/* Inset the table from the card edges (table-wrap below) to match the
+   breathing room of the third-place wildcard table (.card default padding),
+   without disturbing the fixed per-column widths above. */
+.standings-grid .table-wrap { padding: 0 14px 10px; }
 
 .standings-mode-label {
   font-size: 12px; padding: 3px 10px; border-radius: 99px; margin-left: auto;
@@ -638,15 +654,21 @@ td { padding: 9px 8px; border-bottom: 1px solid var(--border); }
 tr:last-child td { border-bottom: none; }
 tr:hover td { background: var(--surface-2); }
 
-/* Qualification borders — new class names */
-tr.q1 td:first-child,
-tr.q2 td:first-child        { border-left: 3px solid var(--green); }
-tr.q3 td:first-child         { border-left: 3px solid var(--amber); }
-
-/* Old class names (backwards compat) */
-tr.qualify-auto td:first-child { border-left: 3px solid var(--green); }
-tr.qualify-3rd  td:first-child { border-left: 3px solid var(--amber); }
-tr.wildcard-qualify td:first-child { border-left: 3px solid var(--blue); }
+/* Qualification borders — gradient accents matching the live/brand palette.
+   Plain border-image is dropped by browsers on cells under border-collapse:
+   collapse, so the accent is painted with a pseudo-element instead. */
+tr.q1 td:first-child, tr.q2 td:first-child, tr.qualify-auto td:first-child,
+tr.q3 td:first-child, tr.qualify-3rd td:first-child, tr.wildcard-qualify td:first-child {
+  position: relative;
+}
+tr.q1 td:first-child::before, tr.q2 td:first-child::before, tr.qualify-auto td:first-child::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--grad-green);
+}
+tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard-qualify td:first-child::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--grad-live);
+}
 
 .pos, .pos-num {
   font-size: 11px; color: var(--ink-3); font-weight: 700;
@@ -1020,7 +1042,8 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 .team-link, .flag-link {
   cursor: pointer;
 }
-.team-link:hover {
+
+.team-link:hover, .team-link:focus-visible {
   text-decoration: underline; text-underline-offset: 2px;
 }
 .flag-link { display: inline-flex; align-items: center; }
@@ -1190,6 +1213,5 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   margin-top: 14px; line-height: 1.5; border-top: 1px solid var(--border); padding-top: 12px;
 }
 
-/* Score column clickable hint */
-.score-col { cursor: pointer; }
-.score-col:hover .score { text-decoration: underline; text-underline-offset: 3px; }
+/* Score column clickable hint — only meaningful when the card itself is clickable */
+.match-card.clickable .score-col:hover .score { text-decoration: underline; text-underline-offset: 3px; }
