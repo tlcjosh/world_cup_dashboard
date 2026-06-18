@@ -127,10 +127,32 @@ function parseTeamStat(competitor, statName) {
 // homeYellowCards set it's never re-fetched — these don't change after the final
 // whistle, so this only costs one ESPN call per matchday, the first time any of
 // that day's matches finish.
+// saves/passPct never appear in the scoreboard endpoint's competitor.statistics[]
+// array (verified against blueprint_data) — only fouls/corners/cards live there.
+// They only exist in the /summary endpoint's boxscore.teams[], so they need a
+// separate per-match fetch keyed by ESPN event id.
+async function fetchESPNBoxscore(eventId) {
+  try {
+    const res = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${eventId}`);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return data.boxscore?.teams || [];
+  } catch (e) {
+    console.warn('ESPN boxscore fetch failed for event', eventId, e.message);
+    return [];
+  }
+}
+
 async function syncMatchStats(matches) {
   const pending = matches.filter(m =>
     m.status === 'FINISHED' &&
     (typeof m.homeYellowCards !== 'number' ||
+     // homeSaves/homePassPct were briefly baked in as a hardcoded 0/0 by a prior bug
+     // (read from the wrong ESPN endpoint) — this re-syncs any match still showing
+     // that exact "both teams, both fields, all zero" signature. A real match with
+     // zero completed passes on both sides is not possible, so this is safe to use
+     // as a one-time self-healing marker; it naturally stops matching once corrected.
+     (m.homeSaves === 0 && m.awaySaves === 0 && m.homePassPct === 0 && m.awayPassPct === 0) ||
      (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')))
   );
   if (!pending.length) return;
@@ -155,6 +177,7 @@ async function syncMatchStats(matches) {
     const ourHomeComp = found.swapped ? found.awayComp : found.homeComp;
     const ourAwayComp = found.swapped ? found.homeComp : found.awayComp;
     const ourHomeId = ourHomeComp.team.id;
+    const ourAwayId = ourAwayComp.team.id;
     const details = found.comp.details || [];
 
     let homeYellow = 0, awayYellow = 0, homeRed = 0, awayRed = 0;
@@ -169,12 +192,16 @@ async function syncMatchStats(matches) {
     m.awayRedCards    = awayRed;
     m.homeFouls = parseTeamStat(ourHomeComp, 'foulsCommitted');
     m.awayFouls = parseTeamStat(ourAwayComp, 'foulsCommitted');
-    m.homeSaves = parseTeamStat(ourHomeComp, 'saves');
-    m.awaySaves = parseTeamStat(ourAwayComp, 'saves');
     m.homeCorners = parseTeamStat(ourHomeComp, 'wonCorners');
     m.awayCorners = parseTeamStat(ourAwayComp, 'wonCorners');
-    m.homePassPct = parseTeamStat(ourHomeComp, 'passPct');
-    m.awayPassPct = parseTeamStat(ourAwayComp, 'passPct');
+
+    const boxTeams = await fetchESPNBoxscore(found.comp.id);
+    const homeBox = boxTeams.find(t => String(t.team?.id) === String(ourHomeId));
+    const awayBox = boxTeams.find(t => String(t.team?.id) === String(ourAwayId));
+    m.homeSaves = homeBox ? parseTeamStat(homeBox, 'saves') : 0;
+    m.awaySaves = awayBox ? parseTeamStat(awayBox, 'saves') : 0;
+    m.homePassPct = homeBox ? parseTeamStat(homeBox, 'passPct') : 0;
+    m.awayPassPct = awayBox ? parseTeamStat(awayBox, 'passPct') : 0;
 
     if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
       const fp = classifyMatchFairPlay(details, ourHomeId);
