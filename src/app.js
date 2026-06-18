@@ -886,8 +886,8 @@ function mergeESPNData(espnEvents) {
     match.homeFairPlay = fp.home;
     match.awayFairPlay = fp.away;
 
-    // Permanent-shaped stat fields (cards/fouls/saves/corners/offsides/penalties) for
-    // the hero stat pool — live preview while ESPN tracks the match, same precedence
+    // Permanent-shaped stat fields (cards/fouls/saves/corners/pass accuracy) for the
+    // hero stat pool — live preview while ESPN tracks the match, same precedence
     // pattern as homeFairPlay. update_tracker.js's syncMatchStats() bakes these in
     // permanently once FINISHED.
     const finalHStats = match._espnStats.home, finalAStats = match._espnStats.away;
@@ -901,10 +901,8 @@ function mergeESPNData(espnEvents) {
     match.awaySaves = finalAStats.saves ?? 0;
     match.homeCorners = finalHStats.wonCorners ?? 0;
     match.awayCorners = finalAStats.wonCorners ?? 0;
-    match.homeOffsides = finalHStats.offsides ?? 0;
-    match.awayOffsides = finalAStats.offsides ?? 0;
-    match.homePenaltyGoals = finalHStats.penaltyKickGoals ?? 0;
-    match.awayPenaltyGoals = finalAStats.penaltyKickGoals ?? 0;
+    match.homePassPct = finalHStats.passPct ?? 0;
+    match.awayPassPct = finalAStats.passPct ?? 0;
 
     // Team colors for possession bar and accents
     const hColor = pickTeamColor(homeComp.team);
@@ -1515,12 +1513,12 @@ function matchCardHtml(match, extraLabel, opts = {}) {
 // Pool of rotating hero stats, including "Played" — all three hero slots rotate
 // together through this pool (see the heroStatInterval setup in init()). Each entry
 // is only included once its underlying data is actually known — cards/fouls/saves/
-// corners/offsides/penalties lag behind goals since they depend on ESPN's stats array
+// corners/pass-accuracy lag behind goals since they depend on ESPN's stats array
 // or update_tracker.js's backend sync, same lag the fair-play preview already has.
 function computeHeroStats() {
   let played = 0, goals = 0, highestScoring = 0, cleanSheets = 0;
   let fouls = 0, foulsKnown = 0, saves = 0, savesKnown = 0, cards = 0, cardsKnown = 0;
-  let corners = 0, cornersKnown = 0, offsides = 0, offsidesKnown = 0, penalties = 0, penaltiesKnown = 0;
+  let corners = 0, cornersKnown = 0, passPctSum = 0, passPctKnown = 0;
   for (const m of state.matches) {
     if (m.homeScore == null || m.awayScore == null) continue;
     const total = m.homeScore + m.awayScore;
@@ -1545,13 +1543,9 @@ function computeHeroStats() {
       corners += m.homeCorners + m.awayCorners;
       cornersKnown++;
     }
-    if (typeof m.homeOffsides === 'number' && typeof m.awayOffsides === 'number') {
-      offsides += m.homeOffsides + m.awayOffsides;
-      offsidesKnown++;
-    }
-    if (typeof m.homePenaltyGoals === 'number' && typeof m.awayPenaltyGoals === 'number') {
-      penalties += m.homePenaltyGoals + m.awayPenaltyGoals;
-      penaltiesKnown++;
+    if (typeof m.homePassPct === 'number' && typeof m.awayPassPct === 'number') {
+      passPctSum += m.homePassPct + m.awayPassPct;
+      passPctKnown += 2;
     }
   }
   const pool = [
@@ -1565,8 +1559,7 @@ function computeHeroStats() {
   if (foulsKnown) pool.push({ num: fouls, label: 'Fouls committed' });
   if (savesKnown) pool.push({ num: saves, label: 'Saves' });
   if (cornersKnown) pool.push({ num: corners, label: 'Corners won' });
-  if (offsidesKnown) pool.push({ num: offsides, label: 'Offsides' });
-  if (penaltiesKnown) pool.push({ num: penalties, label: 'Penalties scored' });
+  if (passPctKnown) pool.push({ num: (passPctSum / passPctKnown * 100).toFixed(1) + '%', label: 'Pass accuracy' });
   return pool;
 }
 
@@ -2168,7 +2161,7 @@ async function fetchData() {
       '_commentaryLastNav','espnEventId'];
     const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay',
       'homeYellowCards', 'awayYellowCards', 'homeRedCards', 'awayRedCards', 'homeFouls', 'awayFouls', 'homeSaves', 'awaySaves',
-      'homeCorners', 'awayCorners', 'homeOffsides', 'awayOffsides', 'homePenaltyGoals', 'awayPenaltyGoals'];
+      'homeCorners', 'awayCorners', 'homePassPct', 'awayPassPct'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
