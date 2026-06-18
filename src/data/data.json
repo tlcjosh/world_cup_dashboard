@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T00:41:52.701Z",
+  "lastUpdated": "2026-06-18T03:39:57.851Z",
   "matches": [
     {
       "matchId": 537327,
@@ -407,11 +407,13 @@
       "awayIso": "pa",
       "venue": "BMO Field, Toronto",
       "kickoff": "2026-06-17T23:00:00.000Z",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-17T23:26:44.709Z",
-      "secondHalfStart": "2026-06-18T00:41:52.701Z"
+      "secondHalfStart": "2026-06-18T00:41:52.701Z",
+      "homeFairPlay": -1,
+      "awayFairPlay": -2
     },
     {
       "matchId": 537403,
@@ -443,10 +445,10 @@
       "awayIso": "co",
       "venue": "Estadio Azteca, Mexico City",
       "kickoff": "2026-06-18T02:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-18T03:39:57.851Z",
       "secondHalfStart": null
     },
     {
@@ -2366,30 +2368,30 @@
         "fairPlayPoints": 0
       },
       {
-        "team": "Panama",
-        "iso": "pa",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "pts": 0,
-        "fairPlayPoints": 0
-      },
-      {
         "team": "Ghana",
         "iso": "gh",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "drawn": 0,
         "lost": 0,
-        "gf": 0,
+        "gf": 1,
         "ga": 0,
-        "gd": 0,
+        "gd": 1,
+        "pts": 3,
+        "fairPlayPoints": -1
+      },
+      {
+        "team": "Panama",
+        "iso": "pa",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
         "pts": 0,
-        "fairPlayPoints": 0
+        "fairPlayPoints": -2
       },
       {
         "team": "Croatia",
