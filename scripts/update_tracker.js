@@ -123,11 +123,13 @@ function parseTeamStat(competitor, statName) {
 
 // Unlike parseTeamStat() above (used for scoreboard-endpoint fields that are always
 // present for any date), the /summary endpoint's boxscore.teams[] statistics array
-// comes back empty for matches old enough to have aged out of ESPN's "recent" window
-// (confirmed: every matchup more than a couple hours past final whistle returns []
-// here, vs. a live match's ~28 populated stats) — returning 0 in that case would bake
-// a false "literally zero saves" into a 7-1 scoreline. Returns undefined instead so the
-// caller can leave the field unset rather than writing a fabricated zero.
+// can come back empty for a match — sometimes transiently, not always permanently (a
+// diagnostic probe against a match more than a week past its final whistle found the
+// array fully repopulated with 28 stats per team, contradicting the earlier assumption
+// that this data permanently disappears a few hours after the match finishes).
+// Returning 0 in the empty case would bake a false "literally zero saves" into a 7-1
+// scoreline, so this returns undefined instead, letting the caller leave the field
+// unset and retry on a later sync.
 function parseBoxscoreStat(teamEntry, statName) {
   const stat = (teamEntry?.statistics || []).find(s => s.name === statName);
   if (!stat) return undefined;
@@ -156,90 +158,15 @@ async function fetchESPNBoxscore(eventId) {
   }
 }
 
-// ---- TEMPORARY DIAGNOSTIC (remove once answered) ----
-// Investigating Known Issues #12: why does /summary's boxscore.teams[].statistics[]
-// come back empty for matches more than a few hours old? Probes ESPN's lower-level
-// core.api.espn.com host (a different API tier than the site.api one we use
-// everywhere else, also used to power espn.com's own historical box score pages —
-// so the underlying data may not actually be deleted, just absent from this
-// particular convenience payload) plus a couple of site.api variants, against a
-// known old finished match. Logs raw findings to the Actions run log for inspection.
-async function runEspnDiagnostics() {
-  const TEST_DATE = '20260611'; // Mexico vs South Africa, matchNum 1 — long finished
-  const TEST_HOME = 'Mexico', TEST_AWAY = 'South Africa';
-  console.log(`[DIAGNOSTIC] Probing ESPN endpoints for ${TEST_HOME} vs ${TEST_AWAY} (${TEST_DATE})`);
-  try {
-    const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${TEST_DATE}`);
-    if (!res.ok) { console.log('[DIAGNOSTIC] scoreboard fetch failed', res.status); return; }
-    const events = (await res.json()).events || [];
-    const found = findESPNEvent(events, TEST_HOME, TEST_AWAY);
-    if (!found) { console.log('[DIAGNOSTIC] could not find match in scoreboard for', TEST_DATE); return; }
-    const eventId = found.comp.id;
-    const homeId = found.swapped ? found.awayComp.team.id : found.homeComp.team.id;
-    const awayId = found.swapped ? found.homeComp.team.id : found.awayComp.team.id;
-    console.log('[DIAGNOSTIC] eventId=', eventId, 'homeId=', homeId, 'awayId=', awayId);
-
-    // 1. Re-confirm exactly what's empty/present in the site.api /summary payload
-    try {
-      const sres = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${eventId}`);
-      const sdata = sres.ok ? await sres.json() : null;
-      const boxTeams = sdata?.boxscore?.teams || [];
-      console.log('[DIAGNOSTIC] site.api /summary status', sres.status, '- boxscore.teams count', boxTeams.length);
-      for (const t of boxTeams) {
-        console.log('[DIAGNOSTIC]   team', t.team?.id, t.team?.displayName, '- statistics count', (t.statistics || []).length);
-      }
-      console.log('[DIAGNOSTIC] leaders present:', Array.isArray(sdata?.leaders), '- count', sdata?.leaders?.length);
-      console.log('[DIAGNOSTIC] keyEvents present:', Array.isArray(sdata?.keyEvents), '- count', sdata?.keyEvents?.length);
-      console.log('[DIAGNOSTIC] rosters present:', Array.isArray(sdata?.rosters), '- count', sdata?.rosters?.length);
-      for (const r of sdata?.rosters || []) {
-        const sampleStatCount = (r.roster?.[0]?.stats || []).length;
-        console.log('[DIAGNOSTIC]   roster team', r.team?.id, '- players', (r.roster || []).length, '- sample player stat count', sampleStatCount);
-      }
-    } catch (e) {
-      console.log('[DIAGNOSTIC] site.api /summary error', e.message);
-    }
-
-    // 2. Try ESPN's lower-level core.api host for per-competitor statistics
-    const coreCandidates = [
-      `https://core.api.espn.com/v2/sports/soccer/leagues/606/events/${eventId}/competitions/${eventId}/competitors/${homeId}/statistics`,
-      `https://core.api.espn.com/v2/sports/soccer/leagues/fifa.world/events/${eventId}/competitions/${eventId}/competitors/${homeId}/statistics`,
-      `https://core.api.espn.com/v2/sports/soccer/leagues/606/events/${eventId}/competitions/${eventId}`,
-    ];
-    for (const url of coreCandidates) {
-      try {
-        const cres = await fetch(url);
-        const text = await cres.text();
-        console.log('[DIAGNOSTIC] core.api', url, '->', cres.status, '- bodyLen', text.length, '- hasSaves', text.includes('"saves"'));
-        if (cres.ok && text.length < 4000) console.log('[DIAGNOSTIC]   body sample:', text.slice(0, 1500));
-      } catch (e) {
-        console.log('[DIAGNOSTIC] core.api', url, '- error', e.message);
-      }
-    }
-
-    // 3. Try the site.web.api.espn.com host variant of the same summary endpoint
-    try {
-      const wres = await fetch(`https://site.web.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
-      const wtext = await wres.text();
-      console.log('[DIAGNOSTIC] site.web.api summary ->', wres.status, '- bodyLen', wtext.length, '- hasSaves', wtext.includes('"saves"'));
-    } catch (e) {
-      console.log('[DIAGNOSTIC] site.web.api summary error', e.message);
-    }
-  } catch (e) {
-    console.log('[DIAGNOSTIC] top-level error', e.message);
-  }
-  console.log('[DIAGNOSTIC] Done.');
-}
-
 async function syncMatchStats(matches) {
   const pending = matches.filter(m =>
     m.status === 'FINISHED' &&
     (typeof m.homeYellowCards !== 'number' ||
-     // homeSaves/homePassPct were briefly baked in as a hardcoded 0/0 by a prior bug
-     // (read from the wrong ESPN endpoint) — this re-syncs any match still showing
-     // that exact "both teams, both fields, all zero" signature. A real match with
-     // zero completed passes on both sides is not possible, so this is safe to use
-     // as a one-time self-healing marker; it naturally stops matching once corrected.
-     (m.homeSaves === 0 && m.awaySaves === 0 && m.homePassPct === 0 && m.awayPassPct === 0) ||
+     // homeSaves can still be undefined if ESPN's boxscore stats for this match
+     // weren't populated on a prior sync (or briefly emptied out and haven't
+     // repopulated yet) — retrying here lets saves/passPct backfill once ESPN's
+     // data comes back, instead of permanently giving up after one miss.
+     typeof m.homeSaves === 'undefined' ||
      (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')))
   );
   if (!pending.length) return;
@@ -558,8 +485,6 @@ function bootstrapFromApi(apiMatches, now) {
 }
 
 async function main() {
-  await runEspnDiagnostics(); // TEMPORARY — see comment above its definition
-
   const token = process.env.FD_API_TOKEN;
   if (!token) {
     console.log('No FD_API_TOKEN set, skipping API fetch');
