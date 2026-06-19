@@ -121,6 +121,19 @@ function parseTeamStat(competitor, statName) {
   return stat.value !== undefined ? stat.value : (parseFloat(stat.displayValue) || 0);
 }
 
+// Unlike parseTeamStat() above (used for scoreboard-endpoint fields that are always
+// present for any date), the /summary endpoint's boxscore.teams[] statistics array
+// comes back empty for matches old enough to have aged out of ESPN's "recent" window
+// (confirmed: every matchup more than a couple hours past final whistle returns []
+// here, vs. a live match's ~28 populated stats) — returning 0 in that case would bake
+// a false "literally zero saves" into a 7-1 scoreline. Returns undefined instead so the
+// caller can leave the field unset rather than writing a fabricated zero.
+function parseBoxscoreStat(teamEntry, statName) {
+  const stat = (teamEntry?.statistics || []).find(s => s.name === statName);
+  if (!stat) return undefined;
+  return stat.value !== undefined ? stat.value : parseFloat(stat.displayValue);
+}
+
 // Fills in permanent match stats (cards, fouls, saves, and — group stage only —
 // fair play deduction points) for newly-FINISHED matches from ESPN's date-scoped
 // scoreboard (football-data.org has no card/stat data at all). Once a match has
@@ -198,10 +211,13 @@ async function syncMatchStats(matches) {
     const boxTeams = await fetchESPNBoxscore(found.comp.id);
     const homeBox = boxTeams.find(t => String(t.team?.id) === String(ourHomeId));
     const awayBox = boxTeams.find(t => String(t.team?.id) === String(ourAwayId));
-    m.homeSaves = homeBox ? parseTeamStat(homeBox, 'saves') : 0;
-    m.awaySaves = awayBox ? parseTeamStat(awayBox, 'saves') : 0;
-    m.homePassPct = homeBox ? parseTeamStat(homeBox, 'passPct') : 0;
-    m.awayPassPct = awayBox ? parseTeamStat(awayBox, 'passPct') : 0;
+    // Explicitly assign (rather than skip) even when undefined: JSON.stringify drops
+    // undefined keys on write, so this also clears any false zero already baked in by
+    // the prior bug for matches ESPN no longer serves boxscore stats for.
+    m.homeSaves = parseBoxscoreStat(homeBox, 'saves');
+    m.awaySaves = parseBoxscoreStat(awayBox, 'saves');
+    m.homePassPct = parseBoxscoreStat(homeBox, 'passPct');
+    m.awayPassPct = parseBoxscoreStat(awayBox, 'passPct');
 
     if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
       const fp = classifyMatchFairPlay(details, ourHomeId);
