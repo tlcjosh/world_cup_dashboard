@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T02:53:20.114Z",
+  "lastUpdated": "2026-06-19T07:28:53.960Z",
   "matches": [
     {
       "matchId": 537327,
@@ -727,9 +727,23 @@
       "kickoff": "2026-06-19T01:00:00.000Z",
       "homeScore": 1,
       "awayScore": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-19T02:08:27.080Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "homeYellowCards": 0,
+      "awayYellowCards": 2,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeFouls": 9,
+      "awayFouls": 7,
+      "homeCorners": 1,
+      "awayCorners": 2,
+      "homeSaves": 2,
+      "awaySaves": 3,
+      "homePassPct": 0.8,
+      "awayPassPct": 0.8,
+      "homeFairPlay": 0,
+      "awayFairPlay": -2
     },
     {
       "matchId": 537341,
@@ -2029,28 +2043,28 @@
       {
         "team": "Mexico",
         "iso": "mx",
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0,
-        "gd": 2,
-        "pts": 3,
+        "gd": 3,
+        "pts": 6,
         "fairPlayPoints": -5
       },
       {
         "team": "South Korea",
         "iso": "kr",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "gf": 2,
-        "ga": 1,
-        "gd": 1,
+        "ga": 2,
+        "gd": 0,
         "pts": 3,
-        "fairPlayPoints": -1
+        "fairPlayPoints": -3
       },
       {
         "team": "Czechia",
