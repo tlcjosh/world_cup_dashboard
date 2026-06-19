@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v14';
-const APP_UPDATED = '2026-06-19 16:33 UTC';
+const APP_VERSION = 'v14.1';
+const APP_UPDATED = '2026-06-19 17:25 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1369,18 +1369,18 @@ function computeClinchStatus(matches, standings) {
     for (const team of teamsInGroup) {
       const verdict = groupVerdict[team];
       if (verdict === 'won') {
-        result[team] = { icon: 'check', label: `Clinched Group ${g} win` };
+        result[team] = { icon: 'position', label: `Clinched Group ${g} win` };
       } else if (verdict === 'advanced') {
-        result[team] = { icon: 'check', label: 'Clinched knockout berth (top 2)' };
+        result[team] = { icon: 'knockout', label: 'Clinched knockout berth (top 2)' };
       } else if (verdict === 'top3Locked' && team === currentThird) {
         const threatsBeatFloor = others.filter(og => groupMaxCeiling[og] >= floorPts[team]).length;
         if (threatsBeatFloor < 8) {
-          result[team] = { icon: 'check', label: 'Clinched wildcard berth (3rd-place ranking)' };
+          result[team] = { icon: 'knockout', label: 'Clinched wildcard berth (3rd-place ranking)' };
         }
       } else if (verdict === 'outOfTop2') {
         const threatsBeatCeiling = others.filter(og => groupMaxCeiling[og] > ceilingPts[team]).length;
         if (threatsBeatCeiling >= 8) {
-          result[team] = { icon: 'cross', label: 'Eliminated -- cannot reach the knockout stage' };
+          result[team] = { icon: 'eliminated', label: 'Eliminated -- cannot reach the knockout stage' };
         }
       }
     }
@@ -2025,7 +2025,7 @@ function renderSchedule(opts = {}) {
 function clinchDotHtml(team, clinchStatus) {
   const entry = clinchStatus[team];
   if (!entry) return '';
-  return `<span class="clinch-dot ${entry.icon}" title="${entry.label}">${entry.icon === 'check' ? '✓' : '✕'}</span>`;
+  return `<span class="clinch-dot ${entry.icon}" title="${entry.label}">${entry.icon === 'eliminated' ? '✕' : '✓'}</span>`;
 }
 
 // ===== RENDER STANDINGS =====
@@ -2115,8 +2115,9 @@ function renderStandings() {
   <div class="qualify-legend">
     <span><span class="swatch" style="background:var(--grad-green);"></span> Auto qualify (1st/2nd)</span>
     <span><span class="swatch" style="background:var(--grad-live);"></span> Third place (best 8 advance)</span>
-    <span><span class="clinch-legend-swatch check">✓</span> Clinched</span>
-    <span><span class="clinch-legend-swatch cross">✕</span> Eliminated</span>
+    <span><span class="clinch-legend-swatch position">✓</span> Group win clinched</span>
+    <span><span class="clinch-legend-swatch knockout">✓</span> Knockout clinched</span>
+    <span><span class="clinch-legend-swatch eliminated">✕</span> Eliminated</span>
   </div>`;
 
   // Third-place wildcard section
