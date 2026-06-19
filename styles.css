@@ -514,6 +514,33 @@ img.flag {
   animation: blink 1.6s infinite;
 }
 
+/* Anchors a clinch-dot badge to a team's flag (see below) without adding any
+   width to the row -- keeps long team names from overflowing into the next
+   column on narrow/mobile layouts. */
+.team-flag-wrap { position: relative; display: inline-flex; flex-shrink: 0; }
+
+/* Small corner badge on a team's flag, flagging a mathematically clinched
+   (check) or eliminated (cross) outcome -- see computeClinchStatus. Pinned to
+   the flag itself (not the team name) so it never competes for row space. */
+.clinch-dot {
+  position: absolute; bottom: -3px; right: -3px;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 11px; height: 11px; border-radius: 50%;
+  border: 1.5px solid var(--surface);
+  font-size: 7px; font-weight: 900; color: #fff; line-height: 1;
+}
+.clinch-dot.check { background: var(--green); }
+.clinch-dot.cross { background: var(--ink-3); }
+
+/* Standalone (non-badge) version of the dots above, for the qualify-legend key. */
+.clinch-legend-swatch {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0;
+  font-size: 7px; font-weight: 900; color: #fff; line-height: 1;
+}
+.clinch-legend-swatch.check { background: var(--green); }
+.clinch-legend-swatch.cross { background: var(--ink-3); }
+
 .badge-ht       { background: rgba(37,99,235,.10); color: var(--blue); }
 .badge-ft       { background: var(--surface-2); color: var(--ink-3); }
 .badge-finished { background: var(--surface-2); color: var(--ink-3); } /* alias */
