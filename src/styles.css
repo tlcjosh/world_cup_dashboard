@@ -520,8 +520,9 @@ img.flag {
 .team-flag-wrap { position: relative; display: inline-flex; flex-shrink: 0; }
 
 /* Small corner badge on a team's flag, flagging a mathematically clinched
-   (check) or eliminated (cross) outcome -- see computeClinchStatus. Pinned to
-   the flag itself (not the team name) so it never competes for row space. */
+   group win (position), clinched knockout berth (knockout), or elimination
+   -- see computeClinchStatus. Pinned to the flag itself (not the team name)
+   so it never competes for row space. */
 .clinch-dot {
   position: absolute; bottom: -3px; right: -3px;
   display: inline-flex; align-items: center; justify-content: center;
@@ -529,8 +530,9 @@ img.flag {
   border: 1.5px solid var(--surface);
   font-size: 7px; font-weight: 900; color: #fff; line-height: 1;
 }
-.clinch-dot.check { background: var(--green); }
-.clinch-dot.cross { background: var(--ink-3); }
+.clinch-dot.position { background: var(--blue); }
+.clinch-dot.knockout { background: var(--green); }
+.clinch-dot.eliminated { background: var(--ink-3); }
 
 /* Standalone (non-badge) version of the dots above, for the qualify-legend key. */
 .clinch-legend-swatch {
@@ -538,8 +540,9 @@ img.flag {
   width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0;
   font-size: 7px; font-weight: 900; color: #fff; line-height: 1;
 }
-.clinch-legend-swatch.check { background: var(--green); }
-.clinch-legend-swatch.cross { background: var(--ink-3); }
+.clinch-legend-swatch.position { background: var(--blue); }
+.clinch-legend-swatch.knockout { background: var(--green); }
+.clinch-legend-swatch.eliminated { background: var(--ink-3); }
 
 .badge-ht       { background: rgba(37,99,235,.10); color: var(--blue); }
 .badge-ft       { background: var(--surface-2); color: var(--ink-3); }
@@ -706,11 +709,11 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
 
 /* Qualify legend */
 .qualify-legend {
-  display: flex; gap: 16px;
+  display: flex; flex-wrap: wrap; gap: 8px 16px;
   font-size: 11px; color: var(--ink-3); margin-top: 10px;
 }
 
-.qualify-legend span { display: flex; align-items: center; gap: 5px; }
+.qualify-legend span { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
 .swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
 
 /* ===== CONDENSED TABLE (dashboard standings widget) ===== */
