@@ -1247,6 +1247,147 @@ function computeThirdPlaceRankings(standings) {
   return thirds;
 }
 
+// Replays a group's matches with one win/draw/loss combination applied to its
+// still-undecided matches (1-0 / 0-0 / 0-1 representative scorelines -- exact
+// margins aren't modeled, see computeClinchStatus below), then runs the result
+// through the same tiebreaker pipeline real standings use.
+function simulateGroupOutcome(groupMatches, remaining, choices) {
+  const scoreFor = [[1, 0], [0, 0], [0, 1]];
+  const scoreByMatchId = new Map(remaining.map((m, i) => [m.matchId, scoreFor[choices[i]]]));
+  const synth = groupMatches.map(m => {
+    if (m.status === 'FINISHED') return m;
+    const [hs, as] = scoreByMatchId.get(m.matchId);
+    return { ...m, status: 'FINISHED', homeScore: hs, awayScore: as, homeFairPlay: 0, awayFairPlay: 0 };
+  });
+  const teams = {};
+  for (const m of synth) {
+    for (const [team, iso, scored, conceded, fairPlay] of [
+      [m.homeTeam, m.homeIso, m.homeScore, m.awayScore, m.homeFairPlay],
+      [m.awayTeam, m.awayIso, m.awayScore, m.homeScore, m.awayFairPlay]
+    ]) {
+      if (!teams[team]) teams[team] = { team, iso, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0, fairPlayPoints: 0 };
+      const s = teams[team];
+      s.played++;
+      s.gf += scored ?? 0;
+      s.ga += conceded ?? 0;
+      s.gd = s.gf - s.ga;
+      s.fairPlayPoints += fairPlay ?? 0;
+      if (scored > conceded) { s.won++; s.pts += 3; }
+      else if (scored === conceded) { s.drawn++; s.pts += 1; }
+      else s.lost++;
+    }
+  }
+  return sortStandingsWithHeadToHead(Object.values(teams), synth);
+}
+
+// Determines, per team, whether a group-stage outcome is already mathematically
+// guaranteed -- regardless of how the group's remaining matches play out --
+// and surfaces it as a single badge: clinched (group win / knockout berth /
+// wildcard berth) or eliminated.
+//
+// Group position (win group / auto-qualify top 2 / can't reach top 2) is exact:
+// a single group is a closed system of at most 6 round-robin matches among the
+// same 4 teams, so every win/draw/loss combination of its remaining matches
+// (at most 3^6 = 729) is brute-forced through the real tiebreaker pipeline
+// (sortStandingsWithHeadToHead). Remaining matches are simulated with one
+// representative scoreline per outcome (1-0 / 0-0 / 0-1) rather than every
+// possible margin, so a clinch/elimination that would only be true (or only
+// false) because of an extreme-blowout-dependent GD tiebreaker isn't modeled --
+// an accepted simplification in the same spirit as the fair-play yellow/red
+// ambiguity documented elsewhere in this file.
+//
+// Wildcard (3rd-place, top 8 of 12): brute-forcing all 12 groups together is
+// combinatorially infeasible, so this uses a points-only bound instead. Every
+// team has a ceiling (current pts + 3 x remaining group matches) and a floor
+// (current pts, nothing more added); each *other* group's threat is its own
+// highest ceiling, since whichever of its 4 teams ends up 3rd there isn't known
+// yet. A team's wildcard spot is clinched only once fewer than 8 other groups'
+// threats can even match its floor, and a team is wildcard-eliminated only once
+// at least 8 other groups' threats already exceed its ceiling -- conservative
+// by construction, so it trades earlier certainty for zero false positives.
+function computeClinchStatus(matches, standings) {
+  const groupMatchesByGroup = {};
+  for (const m of matches) {
+    if (m.stage !== 'Group Stage') continue;
+    const g = TEAM_MASTER_DATA[m.homeTeam]?.group;
+    if (!g) continue;
+    (groupMatchesByGroup[g] ||= []).push(m);
+  }
+
+  const guaranteedPositions = {};
+  const floorPts = {}, ceilingPts = {};
+
+  for (const groupMatches of Object.values(groupMatchesByGroup)) {
+    const finished = groupMatches.filter(m => m.status === 'FINISHED');
+    const remaining = groupMatches.filter(m => m.status !== 'FINISHED');
+    const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
+
+    for (const team of teamsInGroup) {
+      const playedPts = finished.reduce((sum, m) => {
+        if (m.homeTeam === team) return sum + (m.homeScore > m.awayScore ? 3 : m.homeScore === m.awayScore ? 1 : 0);
+        if (m.awayTeam === team) return sum + (m.awayScore > m.homeScore ? 3 : m.awayScore === m.homeScore ? 1 : 0);
+        return sum;
+      }, 0);
+      const remainingForTeam = remaining.filter(m => m.homeTeam === team || m.awayTeam === team).length;
+      floorPts[team] = playedPts;
+      ceilingPts[team] = playedPts + 3 * remainingForTeam;
+      guaranteedPositions[team] = new Set();
+    }
+
+    const n = remaining.length;
+    const total = Math.pow(3, n);
+    for (let s = 0; s < total; s++) {
+      const choices = [];
+      let rem = s;
+      for (let i = 0; i < n; i++) { choices.push(rem % 3); rem = Math.floor(rem / 3); }
+      const sorted = simulateGroupOutcome(groupMatches, remaining, choices);
+      sorted.forEach((t, idx) => guaranteedPositions[t.team].add(idx));
+    }
+  }
+
+  const groupVerdict = {};
+  for (const [team, positions] of Object.entries(guaranteedPositions)) {
+    const all = [...positions];
+    if (all.every(p => p === 0)) groupVerdict[team] = 'won';
+    else if (all.every(p => p <= 1)) groupVerdict[team] = 'advanced';
+    else if (all.every(p => p <= 2)) groupVerdict[team] = 'top3Locked';
+    else if (all.every(p => p >= 2)) groupVerdict[team] = 'outOfTop2';
+  }
+
+  const groupMaxCeiling = {};
+  for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
+    const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
+    groupMaxCeiling[g] = Math.max(...teamsInGroup.map(t => ceilingPts[t] ?? 0));
+  }
+
+  const result = {};
+  for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
+    const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
+    const others = Object.keys(groupMaxCeiling).filter(og => og !== g);
+    const currentThird = (standings[g] || [])[2]?.team;
+
+    for (const team of teamsInGroup) {
+      const verdict = groupVerdict[team];
+      if (verdict === 'won') {
+        result[team] = { icon: 'check', label: `Clinched Group ${g} win` };
+      } else if (verdict === 'advanced') {
+        result[team] = { icon: 'check', label: 'Clinched knockout berth (top 2)' };
+      } else if (verdict === 'top3Locked' && team === currentThird) {
+        const threatsBeatFloor = others.filter(og => groupMaxCeiling[og] >= floorPts[team]).length;
+        if (threatsBeatFloor < 8) {
+          result[team] = { icon: 'check', label: 'Clinched wildcard berth (3rd-place ranking)' };
+        }
+      } else if (verdict === 'outOfTop2') {
+        const threatsBeatCeiling = others.filter(og => groupMaxCeiling[og] > ceilingPts[team]).length;
+        if (threatsBeatCeiling >= 8) {
+          result[team] = { icon: 'cross', label: 'Eliminated -- cannot reach the knockout stage' };
+        }
+      }
+    }
+  }
+  return result;
+}
+
 function getThirdPlaceCombinationString(topEight) {
   // topEight is array of group letters (up to 8)
   const letters = topEight.map(t => t.groupLetter || t).sort();
@@ -1877,11 +2018,22 @@ function renderSchedule(opts = {}) {
   }
 }
 
+// Small inline dot used in standings rows to flag a clinched or eliminated
+// outcome -- always derived from the official (finished-only) record via
+// computeClinchStatus, independent of the Live/Official toggle, since
+// "clinched" should never hinge on an in-progress score.
+function clinchDotHtml(team, clinchStatus) {
+  const entry = clinchStatus[team];
+  if (!entry) return '';
+  return `<span class="clinch-dot ${entry.icon}" title="${entry.label}">${entry.icon === 'check' ? '✓' : '✕'}</span>`;
+}
+
 // ===== RENDER STANDINGS =====
 function renderStandings() {
   const el = document.getElementById('view-standings');
   const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
   const computedStandings = state.liveMode ? computeStandings(state.matches, statuses) : state.standings;
+  const clinchStatus = computeClinchStatus(state.matches, state.standings);
 
   const modeLabel = state.liveMode
     ? `<span class="standings-mode-label live-mode">Live (includes in-play)</span>`
@@ -1937,7 +2089,7 @@ function renderStandings() {
           <td><span class="pos">${i + 1}</span></td>
           <td>
             <div class="team-cell">
-              <span class="flag-link" data-team="${t.team}">${flagImg(t.iso, t.team)}</span>
+              <span class="flag-link team-flag-wrap" data-team="${t.team}">${flagImg(t.iso, t.team)}${clinchDotHtml(t.team, clinchStatus)}</span>
               <span class="team-link" data-team="${t.team}">${t.team}</span>
               ${liveDot}
             </div>
@@ -1963,6 +2115,8 @@ function renderStandings() {
   <div class="qualify-legend">
     <span><span class="swatch" style="background:var(--grad-green);"></span> Auto qualify (1st/2nd)</span>
     <span><span class="swatch" style="background:var(--grad-live);"></span> Third place (best 8 advance)</span>
+    <span><span class="clinch-legend-swatch check">✓</span> Clinched</span>
+    <span><span class="clinch-legend-swatch cross">✕</span> Eliminated</span>
   </div>`;
 
   // Third-place wildcard section
@@ -1998,7 +2152,7 @@ function renderStandings() {
           <td><span class="pos-num">${i + 1}</span></td>
           <td>
             <div class="team-cell">
-              ${flagImg(t.iso, t.team)}
+              <span class="team-flag-wrap">${flagImg(t.iso, t.team)}${clinchDotHtml(t.team, clinchStatus)}</span>
               <span>${t.team}</span>
             </div>
           </td>
