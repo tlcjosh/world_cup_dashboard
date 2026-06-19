@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T00:00:09.719Z",
+  "lastUpdated": "2026-06-19T02:08:27.080Z",
   "matches": [
     {
       "matchId": 537327,
@@ -696,9 +696,23 @@
       "kickoff": "2026-06-18T22:00:00.000Z",
       "homeScore": 6,
       "awayScore": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": "2026-06-18T23:12:15.771Z"
+      "secondHalfStart": "2026-06-18T23:12:15.771Z",
+      "homeYellowCards": 1,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 2,
+      "homeFouls": 9,
+      "awayFouls": 10,
+      "homeCorners": 19,
+      "awayCorners": 1,
+      "homeSaves": 0,
+      "awaySaves": 4,
+      "homePassPct": 0.9,
+      "awayPassPct": 0.6,
+      "homeFairPlay": -1,
+      "awayFairPlay": -9
     },
     {
       "matchId": 537330,
@@ -711,10 +725,10 @@
       "awayIso": "kr",
       "venue": "Estadio Akron, Zapopan",
       "kickoff": "2026-06-19T01:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-19T02:08:27.080Z",
       "secondHalfStart": null
     },
     {
@@ -2067,6 +2081,19 @@
     ],
     "B": [
       {
+        "team": "Canada",
+        "iso": "ca",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 4,
+        "fairPlayPoints": -3
+      },
+      {
         "team": "Switzerland",
         "iso": "ch",
         "played": 2,
@@ -2077,32 +2104,6 @@
         "ga": 2,
         "gd": 3,
         "pts": 4,
-        "fairPlayPoints": -2
-      },
-      {
-        "team": "Canada",
-        "iso": "ca",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
-        "fairPlayPoints": -2
-      },
-      {
-        "team": "Qatar",
-        "iso": "qa",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
         "fairPlayPoints": -2
       },
       {
@@ -2117,6 +2118,19 @@
         "gd": -3,
         "pts": 1,
         "fairPlayPoints": -9
+      },
+      {
+        "team": "Qatar",
+        "iso": "qa",
+        "played": 2,
+        "won": 0,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 1,
+        "fairPlayPoints": -11
       }
     ],
     "D": [
