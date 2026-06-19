@@ -156,6 +156,80 @@ async function fetchESPNBoxscore(eventId) {
   }
 }
 
+// ---- TEMPORARY DIAGNOSTIC (remove once answered) ----
+// Investigating Known Issues #12: why does /summary's boxscore.teams[].statistics[]
+// come back empty for matches more than a few hours old? Probes ESPN's lower-level
+// core.api.espn.com host (a different API tier than the site.api one we use
+// everywhere else, also used to power espn.com's own historical box score pages —
+// so the underlying data may not actually be deleted, just absent from this
+// particular convenience payload) plus a couple of site.api variants, against a
+// known old finished match. Logs raw findings to the Actions run log for inspection.
+async function runEspnDiagnostics() {
+  const TEST_DATE = '20260611'; // Mexico vs South Africa, matchNum 1 — long finished
+  const TEST_HOME = 'Mexico', TEST_AWAY = 'South Africa';
+  console.log(`[DIAGNOSTIC] Probing ESPN endpoints for ${TEST_HOME} vs ${TEST_AWAY} (${TEST_DATE})`);
+  try {
+    const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${TEST_DATE}`);
+    if (!res.ok) { console.log('[DIAGNOSTIC] scoreboard fetch failed', res.status); return; }
+    const events = (await res.json()).events || [];
+    const found = findESPNEvent(events, TEST_HOME, TEST_AWAY);
+    if (!found) { console.log('[DIAGNOSTIC] could not find match in scoreboard for', TEST_DATE); return; }
+    const eventId = found.comp.id;
+    const homeId = found.swapped ? found.awayComp.team.id : found.homeComp.team.id;
+    const awayId = found.swapped ? found.homeComp.team.id : found.awayComp.team.id;
+    console.log('[DIAGNOSTIC] eventId=', eventId, 'homeId=', homeId, 'awayId=', awayId);
+
+    // 1. Re-confirm exactly what's empty/present in the site.api /summary payload
+    try {
+      const sres = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${eventId}`);
+      const sdata = sres.ok ? await sres.json() : null;
+      const boxTeams = sdata?.boxscore?.teams || [];
+      console.log('[DIAGNOSTIC] site.api /summary status', sres.status, '- boxscore.teams count', boxTeams.length);
+      for (const t of boxTeams) {
+        console.log('[DIAGNOSTIC]   team', t.team?.id, t.team?.displayName, '- statistics count', (t.statistics || []).length);
+      }
+      console.log('[DIAGNOSTIC] leaders present:', Array.isArray(sdata?.leaders), '- count', sdata?.leaders?.length);
+      console.log('[DIAGNOSTIC] keyEvents present:', Array.isArray(sdata?.keyEvents), '- count', sdata?.keyEvents?.length);
+      console.log('[DIAGNOSTIC] rosters present:', Array.isArray(sdata?.rosters), '- count', sdata?.rosters?.length);
+      for (const r of sdata?.rosters || []) {
+        const sampleStatCount = (r.roster?.[0]?.stats || []).length;
+        console.log('[DIAGNOSTIC]   roster team', r.team?.id, '- players', (r.roster || []).length, '- sample player stat count', sampleStatCount);
+      }
+    } catch (e) {
+      console.log('[DIAGNOSTIC] site.api /summary error', e.message);
+    }
+
+    // 2. Try ESPN's lower-level core.api host for per-competitor statistics
+    const coreCandidates = [
+      `https://core.api.espn.com/v2/sports/soccer/leagues/606/events/${eventId}/competitions/${eventId}/competitors/${homeId}/statistics`,
+      `https://core.api.espn.com/v2/sports/soccer/leagues/fifa.world/events/${eventId}/competitions/${eventId}/competitors/${homeId}/statistics`,
+      `https://core.api.espn.com/v2/sports/soccer/leagues/606/events/${eventId}/competitions/${eventId}`,
+    ];
+    for (const url of coreCandidates) {
+      try {
+        const cres = await fetch(url);
+        const text = await cres.text();
+        console.log('[DIAGNOSTIC] core.api', url, '->', cres.status, '- bodyLen', text.length, '- hasSaves', text.includes('"saves"'));
+        if (cres.ok && text.length < 4000) console.log('[DIAGNOSTIC]   body sample:', text.slice(0, 1500));
+      } catch (e) {
+        console.log('[DIAGNOSTIC] core.api', url, '- error', e.message);
+      }
+    }
+
+    // 3. Try the site.web.api.espn.com host variant of the same summary endpoint
+    try {
+      const wres = await fetch(`https://site.web.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
+      const wtext = await wres.text();
+      console.log('[DIAGNOSTIC] site.web.api summary ->', wres.status, '- bodyLen', wtext.length, '- hasSaves', wtext.includes('"saves"'));
+    } catch (e) {
+      console.log('[DIAGNOSTIC] site.web.api summary error', e.message);
+    }
+  } catch (e) {
+    console.log('[DIAGNOSTIC] top-level error', e.message);
+  }
+  console.log('[DIAGNOSTIC] Done.');
+}
+
 async function syncMatchStats(matches) {
   const pending = matches.filter(m =>
     m.status === 'FINISHED' &&
@@ -484,6 +558,8 @@ function bootstrapFromApi(apiMatches, now) {
 }
 
 async function main() {
+  await runEspnDiagnostics(); // TEMPORARY — see comment above its definition
+
   const token = process.env.FD_API_TOKEN;
   if (!token) {
     console.log('No FD_API_TOKEN set, skipping API fetch');
