@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v13.2';
-const APP_UPDATED = '2026-06-18 23:59 UTC';
+const APP_VERSION = 'v13.3';
+const APP_UPDATED = '2026-06-19 14:07 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -2220,6 +2220,15 @@ async function fetchData() {
       const fields = (state.espnSynced && ex.espnEventId) ? [...ESPN_FIELDS, ...ESPN_AUTHORITATIVE_FIELDS] : ESPN_FIELDS;
       const espn = Object.fromEntries(fields.filter(k => k in ex).map(k => [k, ex[k]]));
       return { ...nm, ...espn };
+    });
+    // matchNum is assigned at backend bootstrap via a global UTC-chronological sort, which
+    // doesn't line up with the Pacific-Time calendar-day grouping the Schedule/Dashboard views
+    // use — two matches can land under the same PT day but cross a UTC-midnight boundary, putting
+    // them out of order. Sort by actual kickoff instant (timezone-agnostic) so every consumer of
+    // state.matches sees correct chronological order without needing its own sort.
+    state.matches.sort((a, b) => {
+      if (!a.kickoff || !b.kickoff) return 0;
+      return new Date(a.kickoff) - new Date(b.kickoff);
     });
     state.standings = data.standings || {};
     state.lastUpdated = data.lastUpdated || null;
