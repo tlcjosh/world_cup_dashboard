@@ -52,6 +52,21 @@ function kickoffToDateStr(kickoff) {
   return new Date(kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }).replace(/-/g, '');
 }
 
+function shiftDateStr(dateStr, days) {
+  const y = Number(dateStr.slice(0, 4)), mo = Number(dateStr.slice(4, 6)) - 1, d = Number(dateStr.slice(6, 8));
+  const dt = new Date(Date.UTC(y, mo, d));
+  dt.setUTCDate(dt.getUTCDate() + days);
+  return dt.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
+// Matches kicking off right around midnight UTC can land on a different ESPN
+// `dates=` bucket than our PT-converted kickoff date (e.g. a 03:59 UTC kickoff is
+// still "yesterday" in PT but ESPN may file it under the UTC day) — try the
+// kickoff date first, then the adjacent days, before giving up for this sync.
+function candidateDates(baseDateStr) {
+  return [baseDateStr, shiftDateStr(baseDateStr, -1), shiftDateStr(baseDateStr, 1)];
+}
+
 function findESPNEvent(events, homeTeam, awayTeam) {
   const homeId = String(TEAM_MASTER_DATA[homeTeam]?.espnId || '');
   const awayId = String(TEAM_MASTER_DATA[awayTeam]?.espnId || '');
@@ -115,66 +130,88 @@ function classifyMatchFairPlay(details, ourHomeTeamId) {
   return { home, away };
 }
 
-function parseTeamStat(competitor, statName) {
-  const stat = (competitor.statistics || []).find(s => s.name === statName);
-  if (!stat) return 0;
-  return stat.value !== undefined ? stat.value : (parseFloat(stat.displayValue) || 0);
-}
-
-// Unlike parseTeamStat() above (used for scoreboard-endpoint fields that are always
-// present for any date), the /summary endpoint's boxscore.teams[] statistics array
-// can come back empty for a match — sometimes transiently, not always permanently (a
-// diagnostic probe against a match more than a week past its final whistle found the
-// array fully repopulated with 28 stats per team, contradicting the earlier assumption
-// that this data permanently disappears a few hours after the match finishes).
-// Returning 0 in the empty case would bake a false "literally zero saves" into a 7-1
-// scoreline, so this returns undefined instead, letting the caller leave the field
-// unset and retry on a later sync.
+// The /summary endpoint's boxscore.teams[] statistics array can come back empty
+// for a match — confirmed transient rather than permanent (a match over a week
+// past its final whistle was found fully repopulated with ~28 stats per team).
+// Returning 0 in the empty case would bake a false "literally zero saves" into a
+// 7-1 scoreline, so this returns undefined instead, letting the caller leave the
+// field unset and retry on a later sync.
 function parseBoxscoreStat(teamEntry, statName) {
   const stat = (teamEntry?.statistics || []).find(s => s.name === statName);
   if (!stat) return undefined;
   return stat.value !== undefined ? stat.value : parseFloat(stat.displayValue);
 }
 
-// Fills in permanent match stats (cards, fouls, saves, and — group stage only —
-// fair play deduction points) for newly-FINISHED matches from ESPN's date-scoped
-// scoreboard (football-data.org has no card/stat data at all). Once a match has
-// homeYellowCards set it's never re-fetched — these don't change after the final
-// whistle, so this only costs one ESPN call per matchday, the first time any of
-// that day's matches finish.
-// saves/passPct never appear in the scoreboard endpoint's competitor.statistics[]
-// array (verified against blueprint_data) — only fouls/corners/cards live there.
-// They only exist in the /summary endpoint's boxscore.teams[], so they need a
-// separate per-match fetch keyed by ESPN event id.
-async function fetchESPNBoxscore(eventId) {
-  try {
-    const res = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${eventId}`);
-    if (!res.ok) return [];
-    const data = await res.json();
-    return data.boxscore?.teams || [];
-  } catch (e) {
-    console.warn('ESPN boxscore fetch failed for event', eventId, e.message);
-    return [];
+// Every per-match stat we persist, sourced entirely from the /summary endpoint's
+// boxscore.teams[].statistics[] — one fetch covers cards/fouls/corners (previously
+// pulled from a separate scoreboard call) plus saves/passPct and everything below,
+// which only exist in this endpoint at all.
+const BOXSCORE_STAT_FIELDS = [
+  ['foulsCommitted', 'Fouls'],
+  ['yellowCards', 'YellowCards'],
+  ['redCards', 'RedCards'],
+  ['wonCorners', 'Corners'],
+  ['possessionPct', 'Possession'],
+  ['saves', 'Saves'],
+  ['passPct', 'PassPct'],
+  ['totalShots', 'Shots'],
+  ['shotsOnTarget', 'ShotsOnTarget'],
+  ['totalTackles', 'Tackles'],
+  ['interceptions', 'Interceptions'],
+  ['totalClearance', 'Clearances'],
+  ['totalCrosses', 'Crosses'],
+  ['totalLongBalls', 'LongBalls'],
+];
+
+function applyBoxscoreStats(m, homeBox, awayBox) {
+  for (const [statName, suffix] of BOXSCORE_STAT_FIELDS) {
+    m[`home${suffix}`] = parseBoxscoreStat(homeBox, statName);
+    m[`away${suffix}`] = parseBoxscoreStat(awayBox, statName);
   }
 }
 
-async function syncMatchStats(matches) {
-  const pending = matches.filter(m =>
-    m.status === 'FINISHED' &&
-    (typeof m.homeYellowCards !== 'number' ||
-     // homeSaves can still be undefined if ESPN's boxscore stats for this match
-     // weren't populated on a prior sync (or briefly emptied out and haven't
-     // repopulated yet) — retrying here lets saves/passPct backfill once ESPN's
-     // data comes back, instead of permanently giving up after one miss.
-     typeof m.homeSaves === 'undefined' ||
-     (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')))
-  );
-  if (!pending.length) return;
+async function fetchESPNSummary(eventId) {
+  try {
+    const res = await fetch(`${ESPN_SCOREBOARD_URL.replace('/scoreboard', '/summary')}?event=${eventId}`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) {
+    console.warn('ESPN summary fetch failed for event', eventId, e.message);
+    return null;
+  }
+}
 
-  const dateCache = new Map();
-  for (const m of pending) {
-    const dateStr = kickoffToDateStr(m.kickoff);
-    if (!dateStr) continue;
+// Resolves everything syncMatchStats() needs for one match: which side is "ours"
+// (home/away can be swapped between ESPN and our data), the card-event details
+// array (for fair-play classification), and the boxscore stats for both teams.
+//
+// Once a match has a persisted espnEventId (set by a prior sync, or in future by
+// the frontend's live merge), this is a single /summary?event= call — no need to
+// re-search the date-scoped scoreboard at all. Matches without one yet fall back
+// to the discovery search across a small window of candidate dates.
+async function resolveEventContext(m, dateCache) {
+  if (m.espnEventId) {
+    const summary = await fetchESPNSummary(m.espnEventId);
+    const comp = summary?.header?.competitions?.[0];
+    const homeComp = comp?.competitors?.find(c => c.homeAway === 'home');
+    const awayComp = comp?.competitors?.find(c => c.homeAway === 'away');
+    if (!comp || !homeComp || !awayComp) return null;
+    const expectedHomeId = String(TEAM_MASTER_DATA[m.homeTeam]?.espnId || '');
+    const swapped = expectedHomeId ? String(homeComp.team.id) !== expectedHomeId : false;
+    const ourHomeComp = swapped ? awayComp : homeComp;
+    const ourAwayComp = swapped ? homeComp : awayComp;
+    return {
+      eventId: m.espnEventId,
+      details: comp.details || [],
+      ourHomeId: ourHomeComp.team.id,
+      ourAwayId: ourAwayComp.team.id,
+      boxTeams: summary.boxscore?.teams || [],
+    };
+  }
+
+  const baseDate = kickoffToDateStr(m.kickoff);
+  if (!baseDate) return null;
+  for (const dateStr of candidateDates(baseDate)) {
     if (!dateCache.has(dateStr)) {
       try {
         const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${dateStr}`);
@@ -184,44 +221,57 @@ async function syncMatchStats(matches) {
         dateCache.set(dateStr, []);
       }
     }
-    const events = dateCache.get(dateStr);
-    const found = findESPNEvent(events, m.homeTeam, m.awayTeam);
-    if (!found) continue; // not in ESPN's window yet — retry on the next sync
+    const found = findESPNEvent(dateCache.get(dateStr), m.homeTeam, m.awayTeam);
+    if (!found) continue;
 
+    const eventId = found.comp.id;
+    const summary = await fetchESPNSummary(eventId);
     const ourHomeComp = found.swapped ? found.awayComp : found.homeComp;
     const ourAwayComp = found.swapped ? found.homeComp : found.awayComp;
-    const ourHomeId = ourHomeComp.team.id;
-    const ourAwayId = ourAwayComp.team.id;
-    const details = found.comp.details || [];
+    return {
+      eventId,
+      details: found.comp.details || [],
+      ourHomeId: ourHomeComp.team.id,
+      ourAwayId: ourAwayComp.team.id,
+      boxTeams: summary?.boxscore?.teams || [],
+    };
+  }
+  return null; // not in ESPN's window yet — retry on a later sync
+}
 
-    let homeYellow = 0, awayYellow = 0, homeRed = 0, awayRed = 0;
-    for (const d of details) {
-      const isHome = d.team?.id === ourHomeId;
-      if (d.yellowCard) { isHome ? homeYellow++ : awayYellow++; }
-      if (d.redCard)    { isHome ? homeRed++    : awayRed++;    }
-    }
-    m.homeYellowCards = homeYellow;
-    m.awayYellowCards = awayYellow;
-    m.homeRedCards    = homeRed;
-    m.awayRedCards    = awayRed;
-    m.homeFouls = parseTeamStat(ourHomeComp, 'foulsCommitted');
-    m.awayFouls = parseTeamStat(ourAwayComp, 'foulsCommitted');
-    m.homeCorners = parseTeamStat(ourHomeComp, 'wonCorners');
-    m.awayCorners = parseTeamStat(ourAwayComp, 'wonCorners');
+// Fills in permanent match stats (cards, fouls, corners, saves, shots, and —
+// group stage only — fair play deduction points) for FINISHED matches. Once a
+// match has every field below populated it's never re-fetched — none of this
+// changes after the final whistle, so each match costs at most one ESPN call,
+// ever (plus the one-time discovery search for matches without a cached
+// espnEventId yet).
+function isStatsComplete(m) {
+  return typeof m.homeYellowCards === 'number' &&
+    typeof m.homeSaves !== 'undefined' &&
+    typeof m.homeShots !== 'undefined' &&
+    (m.stage !== 'Group Stage' || (typeof m.homeFairPlay === 'number' && typeof m.awayFairPlay === 'number'));
+}
 
-    const boxTeams = await fetchESPNBoxscore(found.comp.id);
-    const homeBox = boxTeams.find(t => String(t.team?.id) === String(ourHomeId));
-    const awayBox = boxTeams.find(t => String(t.team?.id) === String(ourAwayId));
+async function syncMatchStats(matches) {
+  const pending = matches.filter(m => m.status === 'FINISHED' && !isStatsComplete(m));
+  if (!pending.length) return;
+
+  const dateCache = new Map();
+  for (const m of pending) {
+    const ctx = await resolveEventContext(m, dateCache);
+    if (!ctx) continue; // not in ESPN's window yet — retry on the next sync
+
+    m.espnEventId = ctx.eventId;
+
+    const homeBox = ctx.boxTeams.find(t => String(t.team?.id) === String(ctx.ourHomeId));
+    const awayBox = ctx.boxTeams.find(t => String(t.team?.id) === String(ctx.ourAwayId));
     // Explicitly assign (rather than skip) even when undefined: JSON.stringify drops
     // undefined keys on write, so this also clears any false zero already baked in by
-    // the prior bug for matches ESPN no longer serves boxscore stats for.
-    m.homeSaves = parseBoxscoreStat(homeBox, 'saves');
-    m.awaySaves = parseBoxscoreStat(awayBox, 'saves');
-    m.homePassPct = parseBoxscoreStat(homeBox, 'passPct');
-    m.awayPassPct = parseBoxscoreStat(awayBox, 'passPct');
+    // a prior sync that hit an empty boxscore before this field existed.
+    applyBoxscoreStats(m, homeBox, awayBox);
 
     if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
-      const fp = classifyMatchFairPlay(details, ourHomeId);
+      const fp = classifyMatchFairPlay(ctx.details, ctx.ourHomeId);
       m.homeFairPlay = fp.home;
       m.awayFairPlay = fp.away;
     }

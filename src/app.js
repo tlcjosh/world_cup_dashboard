@@ -919,6 +919,22 @@ function mergeESPNData(espnEvents) {
     match.awayFouls = finalAStats.foulsCommitted ?? 0;
     match.homeCorners = finalHStats.wonCorners ?? 0;
     match.awayCorners = finalAStats.wonCorners ?? 0;
+    match.homePossession = finalHStats.possessionPct ?? 0;
+    match.awayPossession = finalAStats.possessionPct ?? 0;
+    match.homeShots = finalHStats.totalShots ?? 0;
+    match.awayShots = finalAStats.totalShots ?? 0;
+    match.homeShotsOnTarget = finalHStats.shotsOnTarget ?? 0;
+    match.awayShotsOnTarget = finalAStats.shotsOnTarget ?? 0;
+    match.homeTackles = finalHStats.totalTackles ?? 0;
+    match.awayTackles = finalAStats.totalTackles ?? 0;
+    match.homeInterceptions = finalHStats.interceptions ?? 0;
+    match.awayInterceptions = finalAStats.interceptions ?? 0;
+    match.homeClearances = finalHStats.totalClearance ?? 0;
+    match.awayClearances = finalAStats.totalClearance ?? 0;
+    match.homeCrosses = finalHStats.totalCrosses ?? 0;
+    match.awayCrosses = finalAStats.totalCrosses ?? 0;
+    match.homeLongBalls = finalHStats.totalLongBalls ?? 0;
+    match.awayLongBalls = finalAStats.totalLongBalls ?? 0;
 
     // Team colors for possession bar and accents
     const hColor = pickTeamColor(homeComp.team);
@@ -1535,6 +1551,8 @@ function computeHeroStats() {
   let played = 0, goals = 0, highestScoring = 0, cleanSheets = 0;
   let fouls = 0, foulsKnown = 0, saves = 0, savesKnown = 0, cards = 0, cardsKnown = 0;
   let corners = 0, cornersKnown = 0, passPctSum = 0, passPctKnown = 0;
+  let shotsOnTarget = 0, shotsOnTargetKnown = 0, tackles = 0, tacklesKnown = 0;
+  let interceptions = 0, interceptionsKnown = 0;
   for (const m of state.matches) {
     if (m.homeScore == null || m.awayScore == null) continue;
     const total = m.homeScore + m.awayScore;
@@ -1563,6 +1581,18 @@ function computeHeroStats() {
       passPctSum += m.homePassPct + m.awayPassPct;
       passPctKnown += 2;
     }
+    if (typeof m.homeShotsOnTarget === 'number' && typeof m.awayShotsOnTarget === 'number') {
+      shotsOnTarget += m.homeShotsOnTarget + m.awayShotsOnTarget;
+      shotsOnTargetKnown++;
+    }
+    if (typeof m.homeTackles === 'number' && typeof m.awayTackles === 'number') {
+      tackles += m.homeTackles + m.awayTackles;
+      tacklesKnown++;
+    }
+    if (typeof m.homeInterceptions === 'number' && typeof m.awayInterceptions === 'number') {
+      interceptions += m.homeInterceptions + m.awayInterceptions;
+      interceptionsKnown++;
+    }
   }
   const pool = [
     { num: played, label: 'Played' },
@@ -1576,6 +1606,9 @@ function computeHeroStats() {
   if (savesKnown) pool.push({ num: saves, label: 'Saves' });
   if (cornersKnown) pool.push({ num: corners, label: 'Corners won' });
   if (passPctKnown) pool.push({ num: (passPctSum / passPctKnown * 100).toFixed(1) + '%', label: 'Pass accuracy' });
+  if (shotsOnTargetKnown) pool.push({ num: shotsOnTarget, label: 'Shots on target' });
+  if (tacklesKnown) pool.push({ num: tackles, label: 'Tackles won' });
+  if (interceptionsKnown) pool.push({ num: interceptions, label: 'Interceptions' });
   return pool;
 }
 
@@ -2177,7 +2210,9 @@ async function fetchData() {
       '_commentaryLastNav','espnEventId'];
     const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay',
       'homeYellowCards', 'awayYellowCards', 'homeRedCards', 'awayRedCards', 'homeFouls', 'awayFouls', 'homeSaves', 'awaySaves',
-      'homeCorners', 'awayCorners', 'homePassPct', 'awayPassPct'];
+      'homeCorners', 'awayCorners', 'homePassPct', 'awayPassPct', 'homeShots', 'awayShots', 'homeShotsOnTarget', 'awayShotsOnTarget',
+      'homeTackles', 'awayTackles', 'homeInterceptions', 'awayInterceptions', 'homeClearances', 'awayClearances',
+      'homeCrosses', 'awayCrosses', 'homeLongBalls', 'awayLongBalls', 'homePossession', 'awayPossession', 'espnEventId'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
@@ -2310,8 +2345,13 @@ function teamUpcomingRows(teamName) {
   return rows;
 }
 
-function teamStatsAggregate(teamName, espnDataByMatch) {
-  // espnDataByMatch: Map of matchNum → parsed ESPN event data (may be empty for historical)
+// Reads straight from state.matches — homeShots/homePossession/etc. are populated
+// either live (mergeESPNData(), while ESPN tracks the match) or permanently
+// (update_tracker.js's syncMatchStats(), once FINISHED), so no ESPN fetch is needed
+// here at all. This used to fire one historical ESPN lookup per finished match
+// every time a team modal opened; now it's free, since the data is already cached
+// in data.json by the time a match is finished.
+function teamStatsAggregate(teamName) {
   const finished = state.matches.filter(m =>
     (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED'
   );
@@ -2320,18 +2360,15 @@ function teamStatsAggregate(teamName, espnDataByMatch) {
   let poss = 0, shots = 0, onTarget = 0, corners = 0, fouls = 0, yellows = 0, reds = 0, n = 0;
   for (const m of finished) {
     const isHome = m.homeTeam === teamName;
-    // Prefer fetched historical data, fall back to in-memory ESPN stats
-    const espn = espnDataByMatch?.get(m.matchNum);
-    const s = espn ? (isHome ? espn.stats.home : espn.stats.away)
-                   : (m._espnStats ? (isHome ? m._espnStats.home : m._espnStats.away) : null);
-    if (!s) continue;
-    poss     += s.possessionPct || 0;
-    shots    += s.totalShots    || 0;
-    onTarget += s.shotsOnTarget || 0;
-    corners  += s.wonCorners    || 0;
-    fouls    += s.foulsCommitted || 0;
-    yellows  += s.yellowCards   || 0;
-    reds     += s.redCards      || 0;
+    const myShots = isHome ? m.homeShots : m.awayShots;
+    if (typeof myShots !== 'number') continue; // not yet synced — skip rather than dilute the average
+    poss     += (isHome ? m.homePossession      : m.awayPossession)      || 0;
+    shots    += myShots;
+    onTarget += (isHome ? m.homeShotsOnTarget   : m.awayShotsOnTarget)   || 0;
+    corners  += (isHome ? m.homeCorners         : m.awayCorners)        || 0;
+    fouls    += (isHome ? m.homeFouls           : m.awayFouls)          || 0;
+    yellows  += (isHome ? m.homeYellowCards     : m.awayYellowCards)    || 0;
+    reds     += (isHome ? m.homeRedCards        : m.awayRedCards)       || 0;
     n++;
   }
   if (!n) return null;
@@ -2399,24 +2436,7 @@ async function openTeamModal(teamName) {
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); }, { once: true });
   requestAnimationFrame(() => overlay.classList.add('tm-in'));
 
-  // Fetch historical ESPN data for each finished match day
-  const finished = state.matches.filter(m =>
-    (m.homeTeam === teamName || m.awayTeam === teamName) && m.status === 'FINISHED'
-  );
-  const espnDataByMatch = new Map();
-  if (finished.length) {
-    await Promise.all(finished.map(async m => {
-      const dateStr = kickoffToDateStr(m.kickoff);
-      if (!dateStr) return;
-      const found = await findESPNEventNearDate(dateStr, m.homeTeam, m.awayTeam);
-      if (found) {
-        const parsed = parseESPNEventData(found.comp, found.homeComp, found.awayComp, found.swapped);
-        espnDataByMatch.set(m.matchNum, parsed);
-      }
-    }));
-  }
-
-  const agg = teamStatsAggregate(teamName, espnDataByMatch);
+  const agg = teamStatsAggregate(teamName);
   const statsEl = document.getElementById('tm-stats-section');
   if (statsEl) {
     statsEl.classList.remove('tm-loading');
