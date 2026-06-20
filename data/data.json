@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T20:39:34.596Z",
+  "lastUpdated": "2026-06-20T21:54:49.068Z",
   "matches": [
     {
       "matchId": 537327,
@@ -1548,7 +1548,7 @@
       "awayIso": "ci",
       "venue": "BMO Field, Toronto",
       "kickoff": "2026-06-20T20:00:00.000Z",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-06-20T20:39:34.596Z",

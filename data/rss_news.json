@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-20T20:39:35.149Z",
+  "asOf": "2026-06-20T21:54:49.336Z",
   "items": [
     {
       "headline": "Germany v Côte d’Ivoire: World Cup 2026 – live",
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 20:28:08 GMT",
+      "pubDate": "Sat, 20 Jun 2026 21:43:33 GMT",
       "teams": [
         "Germany"
       ]
@@ -31,6 +31,24 @@
       "pubDate": "Sat, 20 Jun 2026 20:17:41 GMT",
       "teams": [
         "England"
+      ]
+    },
+    {
+      "headline": "Scotland expects: What is behind McTominay's understated World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 20 Jun 2026 20:16:11 GMT",
+      "teams": [
+        "Scotland"
       ]
     },
     {
@@ -495,25 +513,6 @@
         "United States",
         "France",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Almiron first player sent off for covering mouth",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14c1/live/734838a0-6c5c-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 04:45:25 GMT",
-      "teams": [
-        "Paraguay",
-        "Turkey"
       ]
     }
   ]
