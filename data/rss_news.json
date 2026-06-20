@@ -1,6 +1,86 @@
 {
-  "asOf": "2026-06-20T18:13:48.014Z",
+  "asOf": "2026-06-20T19:03:41.045Z",
   "items": [
+    {
+      "headline": "Netherlands 5-1 Sweden: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/20/netherlands-v-sweden-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 18:58:27 GMT",
+      "teams": [
+        "Netherlands",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Germany v Côte d’Ivoire: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/20/germany-v-cote-divoire-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 18:55:04 GMT",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Gakpo fires home the 100th goal of this World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cn75dex8dg7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f105/live/95400d00-6cd6-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 20 Jun 2026 18:48:15 GMT",
+      "teams": [
+        "Netherlands",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Rashford and Rice give England boost for Ghana with Saka set for bench again",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/20/rashford-and-rice-give-england-boost-for-ghana-but-saka-set-for-bench-again"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 18:19:07 GMT",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Scotland’s World Cup destiny is in their own hands but lack of gamechangers shows | Ewan Murray",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/20/scotland-2026-world-cup-destiny-morocco-brazil-steve-clarke"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 18:13:50 GMT",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Scotland"
+      ]
+    },
     {
       "headline": "Saka trains alone as England prepare for Ghana game",
       "links": {
@@ -35,21 +115,6 @@
       "source": "BBC Sport",
       "pubDate": "Sat, 20 Jun 2026 17:57:23 GMT",
       "teams": [
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "Netherlands v Sweden: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/20/netherlands-v-sweden-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 17:52:26 GMT",
-      "teams": [
-        "Netherlands",
         "Sweden"
       ]
     },
@@ -355,7 +420,7 @@
       ]
     },
     {
-      "headline": "World Cup first sees Almiron sent off for covering mouth",
+      "headline": "World Cup first as Almiron sent off for covering mouth",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/videos/c17y0977klgo?at_medium=RSS&at_campaign=rss"
@@ -437,80 +502,6 @@
       "source": "The Guardian",
       "pubDate": "Sat, 20 Jun 2026 04:00:52 GMT",
       "teams": []
-    },
-    {
-      "headline": "Cunha scores twice as Brazil beat Haiti",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cy04ly9rk22o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a04e/live/9cabd120-6c52-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 03:06:22 GMT",
-      "teams": [
-        "Brazil",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Brazil sweep into form as Cunha’s quickfire double sparks World Cup win over Haiti",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/brazil-haiti-world-cup-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 03:05:05 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "'Big decisions went against Scotland'",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/c1myz9xye7xo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7b0/live/d10815e0-6c44-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 01:23:25 GMT",
-      "teams": [
-        "Morocco",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Morocco 'got away with one' - McGinn",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/c5yzl0jxkd3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a5c/live/ae348710-6c44-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 01:19:36 GMT",
-      "teams": [
-        "Morocco",
-        "Scotland"
-      ]
     }
   ]
 }
