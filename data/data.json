@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T04:49:01.061Z",
+  "lastUpdated": "2026-06-20T08:16:55.861Z",
   "matches": [
     {
       "matchId": 537327,
@@ -1454,9 +1454,40 @@
       "kickoff": "2026-06-20T03:59:00.000Z",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-20T04:49:01.061Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760443",
+      "homeFouls": 14,
+      "awayFouls": 15,
+      "homeYellowCards": 1,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 1,
+      "homeCorners": 12,
+      "awayCorners": 0,
+      "homePossession": 78.5,
+      "awayPossession": 21.5,
+      "homeSaves": 1,
+      "awaySaves": 5,
+      "homePassPct": 0.9,
+      "awayPassPct": 0.5,
+      "homeShots": 32,
+      "awayShots": 7,
+      "homeShotsOnTarget": 5,
+      "awayShotsOnTarget": 2,
+      "homeTackles": 17,
+      "awayTackles": 25,
+      "homeInterceptions": 6,
+      "awayInterceptions": 9,
+      "homeClearances": 29,
+      "awayClearances": 48,
+      "homeCrosses": 42,
+      "awayCrosses": 6,
+      "homeLongBalls": 42,
+      "awayLongBalls": 64,
+      "homeFairPlay": -2,
+      "awayFairPlay": -5
     },
     {
       "matchId": 537348,
@@ -2868,30 +2899,30 @@
         "fairPlayPoints": -4
       },
       {
-        "team": "Turkey",
-        "iso": "tr",
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gf": 0,
-        "ga": 2,
-        "gd": -2,
-        "pts": 0,
-        "fairPlayPoints": -1
-      },
-      {
         "team": "Paraguay",
         "iso": "py",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "gf": 1,
+        "gf": 2,
         "ga": 4,
+        "gd": -2,
+        "pts": 3,
+        "fairPlayPoints": -10
+      },
+      {
+        "team": "Turkey",
+        "iso": "tr",
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 0,
+        "ga": 3,
         "gd": -3,
         "pts": 0,
-        "fairPlayPoints": -5
+        "fairPlayPoints": -3
       }
     ],
     "C": [
