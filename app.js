@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v14.1';
-const APP_UPDATED = '2026-06-19 17:25 UTC';
+const APP_VERSION = 'v15';
+const APP_UPDATED = '2026-06-20 14:51 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1280,21 +1280,114 @@ function simulateGroupOutcome(groupMatches, remaining, choices) {
   return sortStandingsWithHeadToHead(Object.values(teams), synth);
 }
 
+// Brute-forces every win/draw/loss combination of each group's still-undecided
+// matches (at most 3^6 = 729, since a group is a closed 4-team/6-match round
+// robin) through the real tiebreaker pipeline (sortStandingsWithHeadToHead),
+// and records, per team, the full Set of final-position indices (0 = 1st ...
+// 3 = 4th) that turn up across every simulated outcome. A team whose set
+// collapses to a single value has that exact position mathematically locked
+// in -- see computeLockedPositions -- while computeClinchStatus below derives
+// its coarser won/advanced/eliminated verdicts from the same sets. Remaining
+// matches are simulated with one representative scoreline per outcome (1-0 /
+// 0-0 / 0-1) rather than every possible margin, so a result that would only
+// be true (or only false) because of an extreme-blowout-dependent GD
+// tiebreaker isn't modeled -- an accepted simplification in the same spirit
+// as the fair-play yellow/red ambiguity documented elsewhere in this file.
+function computeGuaranteedPositions(matches) {
+  const groupMatchesByGroup = {};
+  for (const m of matches) {
+    if (m.stage !== 'Group Stage') continue;
+    const g = TEAM_MASTER_DATA[m.homeTeam]?.group;
+    if (!g) continue;
+    (groupMatchesByGroup[g] ||= []).push(m);
+  }
+
+  const guaranteedPositions = {};
+  for (const groupMatches of Object.values(groupMatchesByGroup)) {
+    const remaining = groupMatches.filter(m => m.status !== 'FINISHED');
+    const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
+    for (const team of teamsInGroup) guaranteedPositions[team] = new Set();
+
+    const n = remaining.length;
+    const total = Math.pow(3, n);
+    for (let s = 0; s < total; s++) {
+      const choices = [];
+      let rem = s;
+      for (let i = 0; i < n; i++) { choices.push(rem % 3); rem = Math.floor(rem / 3); }
+      const sorted = simulateGroupOutcome(groupMatches, remaining, choices);
+      sorted.forEach((t, idx) => guaranteedPositions[t.team].add(idx));
+    }
+  }
+  return { guaranteedPositions, groupMatchesByGroup };
+}
+
+// Maps each team to its exact group-finish position (0 = 1st, 1 = 2nd, ...)
+// only when every simulated remaining-match outcome agrees -- i.e. mathematically
+// locked in, not just "currently sitting there." Teams without a locked position
+// are omitted. Used by applyBracketResolutions to fill Round of 32 slots ([1A],
+// [2A], ...) ahead of the group stage actually finishing.
+//
+// Deliberately stops at exact group position, not the cross-group wildcard
+// slots ([3ABCDF]-style): pinning a *specific* team into a wildcard bracket
+// slot requires every one of the 12 groups' 3rd-place identity to be locked
+// simultaneously (so the combinations.json lookup key can't still shift), which
+// in practice only happens once the whole group stage is over anyway -- the
+// same gate renderBracket() already applies, so there's nothing incremental to
+// gain there the way there is for group winner/runner-up slots.
+function computeLockedPositions(matches) {
+  const { guaranteedPositions } = computeGuaranteedPositions(matches);
+  const locked = {};
+  for (const [team, positions] of Object.entries(guaranteedPositions)) {
+    if (positions.size === 1) locked[team] = [...positions][0];
+  }
+  return locked;
+}
+
+// Patches Round of 32 placeholder slots ([1A], [2B], ...) with the real team
+// name/iso the moment that team's group finish is mathematically locked --
+// well before the group stage actually completes. This both fills in the
+// Bracket view early (resolveAndRender there already treats any non-bracket-
+// code string as a resolved team, so no separate render path is needed) and,
+// more importantly, gets real team names onto state.matches well ahead of
+// kickoff so mergeESPNData()'s ID/name-based matching can find the fixture
+// the moment ESPN starts tracking it -- that matching requires homeTeam/
+// awayTeam to already hold real names, not placeholder codes. Wildcard
+// ([3ABCDF]-style) and [W]/[L] slots are left untouched; see
+// computeLockedPositions for why wildcard slots can't resolve any earlier
+// than today's groupStageComplete gate.
+function applyBracketResolutions(matches) {
+  const locked = computeLockedPositions(matches);
+  const byGroupPos = {};
+  for (const [team, pos] of Object.entries(locked)) {
+    if (pos > 1) continue; // only 1st/2nd feed Round of 32 slots directly
+    const grp = TEAM_MASTER_DATA[team]?.group;
+    if (!grp) continue;
+    (byGroupPos[grp] ||= {})[pos] = team;
+  }
+
+  for (const m of matches) {
+    if (m.stage !== 'Round of 32') continue;
+    for (const side of ['home', 'away']) {
+      const code = (m[`${side}Team`] || '').match(/^\[([1-4])([A-L])\]$/);
+      if (!code) continue;
+      const pos = parseInt(code[1], 10) - 1;
+      const grp = code[2];
+      const team = byGroupPos[grp]?.[pos];
+      if (!team) continue;
+      m[`${side}Team`] = team;
+      m[`${side}Iso`] = TEAM_MASTER_DATA[team]?.iso || null;
+      m[`_${side}BracketResolved`] = true;
+    }
+  }
+}
+
 // Determines, per team, whether a group-stage outcome is already mathematically
 // guaranteed -- regardless of how the group's remaining matches play out --
 // and surfaces it as a single badge: clinched (group win / knockout berth /
 // wildcard berth) or eliminated.
 //
-// Group position (win group / auto-qualify top 2 / can't reach top 2) is exact:
-// a single group is a closed system of at most 6 round-robin matches among the
-// same 4 teams, so every win/draw/loss combination of its remaining matches
-// (at most 3^6 = 729) is brute-forced through the real tiebreaker pipeline
-// (sortStandingsWithHeadToHead). Remaining matches are simulated with one
-// representative scoreline per outcome (1-0 / 0-0 / 0-1) rather than every
-// possible margin, so a clinch/elimination that would only be true (or only
-// false) because of an extreme-blowout-dependent GD tiebreaker isn't modeled --
-// an accepted simplification in the same spirit as the fair-play yellow/red
-// ambiguity documented elsewhere in this file.
+// Group position verdicts (win group / auto-qualify top 2 / can't reach top 2)
+// reuse the exact per-team position sets from computeGuaranteedPositions.
 //
 // Wildcard (3rd-place, top 8 of 12): brute-forcing all 12 groups together is
 // combinatorially infeasible, so this uses a points-only bound instead. Every
@@ -1306,17 +1399,9 @@ function simulateGroupOutcome(groupMatches, remaining, choices) {
 // at least 8 other groups' threats already exceed its ceiling -- conservative
 // by construction, so it trades earlier certainty for zero false positives.
 function computeClinchStatus(matches, standings) {
-  const groupMatchesByGroup = {};
-  for (const m of matches) {
-    if (m.stage !== 'Group Stage') continue;
-    const g = TEAM_MASTER_DATA[m.homeTeam]?.group;
-    if (!g) continue;
-    (groupMatchesByGroup[g] ||= []).push(m);
-  }
+  const { guaranteedPositions, groupMatchesByGroup } = computeGuaranteedPositions(matches);
 
-  const guaranteedPositions = {};
   const floorPts = {}, ceilingPts = {};
-
   for (const groupMatches of Object.values(groupMatchesByGroup)) {
     const finished = groupMatches.filter(m => m.status === 'FINISHED');
     const remaining = groupMatches.filter(m => m.status !== 'FINISHED');
@@ -1331,17 +1416,6 @@ function computeClinchStatus(matches, standings) {
       const remainingForTeam = remaining.filter(m => m.homeTeam === team || m.awayTeam === team).length;
       floorPts[team] = playedPts;
       ceilingPts[team] = playedPts + 3 * remainingForTeam;
-      guaranteedPositions[team] = new Set();
-    }
-
-    const n = remaining.length;
-    const total = Math.pow(3, n);
-    for (let s = 0; s < total; s++) {
-      const choices = [];
-      let rem = s;
-      for (let i = 0; i < n; i++) { choices.push(rem % 3); rem = Math.floor(rem / 3); }
-      const sorted = simulateGroupOutcome(groupMatches, remaining, choices);
-      sorted.forEach((t, idx) => guaranteedPositions[t.team].add(idx));
     }
   }
 
@@ -2190,31 +2264,43 @@ function renderBracket() {
   const topEight = thirdPlace.slice(0, 8);
   const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(topEight) : '';
 
-  function resolveAndRender(placeholder) {
-    if (!placeholder) return { name: 'TBD', iso: null };
-    if (!placeholder.startsWith('[')) return { name: placeholder, iso: null };
-    if (!resolveGroupSlots) return { name: placeholder.replace(/^\[|\]$/g, ''), iso: null };
-    return resolveTeam(placeholder, computedStandings, thirdPlace, combinationString);
+  // bracketResolved: true when applyBracketResolutions() (clinch-math driven,
+  // ahead of groupStageComplete) put this name here, as opposed to it being a
+  // raw unresolved placeholder or a name resolved through the normal
+  // resolveTeam() path below. Surfaced as a "confirmed" badge distinct from
+  // live-mode's speculative fill -- see applyBracketResolutions for why.
+  function resolveAndRender(placeholder, bracketResolved) {
+    if (!placeholder) return { name: 'TBD', iso: null, confirmed: false };
+    if (!placeholder.startsWith('[')) {
+      return {
+        name: placeholder,
+        iso: TEAM_MASTER_DATA[placeholder]?.iso || null,
+        confirmed: !!bracketResolved && !groupStageComplete,
+      };
+    }
+    if (!resolveGroupSlots) return { name: placeholder.replace(/^\[|\]$/g, ''), iso: null, confirmed: false };
+    return { ...resolveTeam(placeholder, computedStandings, thirdPlace, combinationString), confirmed: false };
   }
 
   function bMatchHtml(match) {
-    const home = resolveAndRender(match.homeTeam);
-    const away = resolveAndRender(match.awayTeam);
+    const home = resolveAndRender(match.homeTeam, match._homeBracketResolved);
+    const away = resolveAndRender(match.awayTeam, match._awayBracketResolved);
     const hasScore = match.status === 'FINISHED' || match.status === 'IN_PLAY' || match.status === 'PAUSED';
     const homeWon = hasScore && match.homeScore > match.awayScore;
     const awayWon = hasScore && match.awayScore > match.homeScore;
+    const confirmedDot = `<span class="clinch-dot position" title="Clinched — mathematically locked in, official fixture pending">✓</span>`;
 
     return `
       <div class="b-match">
         <div class="b-num">M${match.matchNum}</div>
         <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
-          <span class="flag-link" data-team="${home.name}">${flagImg(home.iso, home.name)}</span>
+          <span class="flag-link team-flag-wrap" data-team="${home.name}">${flagImg(home.iso, home.name)}${home.confirmed ? confirmedDot : ''}</span>
           <span class="b-team-name team-link" data-team="${home.name}">${home.name}</span>
           ${hasScore ? `<span class="b-score">${match.homeScore}</span>` : ''}
         </div>
         <hr class="b-div">
         <div class="b-team ${awayWon ? 'winner' : ''}" data-team="${away.name}" style="cursor:${TEAM_MASTER_DATA[away.name] ? 'pointer' : 'default'}">
-          <span class="flag-link" data-team="${away.name}">${flagImg(away.iso, away.name)}</span>
+          <span class="flag-link team-flag-wrap" data-team="${away.name}">${flagImg(away.iso, away.name)}${away.confirmed ? confirmedDot : ''}</span>
           <span class="b-team-name team-link" data-team="${away.name}">${away.name}</span>
           ${hasScore ? `<span class="b-score">${match.awayScore}</span>` : ''}
         </div>
@@ -2385,6 +2471,12 @@ async function fetchData() {
       if (!a.kickoff || !b.kickoff) return 0;
       return new Date(a.kickoff) - new Date(b.kickoff);
     });
+    // Fill in any Round of 32 slot whose group position is now mathematically
+    // locked, ahead of the group stage actually completing -- see
+    // applyBracketResolutions for why. Must re-run every poll since
+    // state.matches was just rebuilt fresh from data.json above.
+    applyBracketResolutions(state.matches);
+
     state.standings = data.standings || {};
     state.lastUpdated = data.lastUpdated || null;
     state.fdLastUpdated = data.lastUpdated || null;
