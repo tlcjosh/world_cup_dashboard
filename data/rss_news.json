@@ -1,18 +1,35 @@
 {
-  "asOf": "2026-06-20T21:54:49.336Z",
+  "asOf": "2026-06-20T23:13:53.443Z",
   "items": [
     {
-      "headline": "Germany v Côte d’Ivoire: World Cup 2026 – live",
+      "headline": "Ecuador v Curaçao: World Cup 2026 – live",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/20/germany-v-cote-divoire-world-cup-2026-live"
+          "href": "https://www.theguardian.com/football/live/2026/jun/20/ecuador-v-curacao-world-cup-2026-live"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 21:43:33 GMT",
+      "pubDate": "Sat, 20 Jun 2026 22:49:24 GMT",
       "teams": [
-        "Germany"
+        "Germany",
+        "Curaçao",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Deniz Undav’s double earns Germany dramatic late win against Côte d’Ivoire",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/20/germany-cote-divoire-group-e-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 22:17:44 GMT",
+      "teams": [
+        "Germany",
+        "Curaçao"
       ]
     },
     {
@@ -491,28 +508,6 @@
       "teams": [
         "Paraguay",
         "Turkey"
-      ]
-    },
-    {
-      "headline": "World Cup still waits for real Brazil to show up",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5689/live/00103b40-6c60-11f1-b82a-692809b60f7f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 04:54:22 GMT",
-      "teams": [
-        "Brazil",
-        "Haiti",
-        "United States",
-        "France",
-        "Argentina"
       ]
     }
   ]
