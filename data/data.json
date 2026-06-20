@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T00:20:14.488Z",
+  "lastUpdated": "2026-06-20T04:49:01.061Z",
   "matches": [
     {
       "matchId": 537327,
@@ -1356,11 +1356,42 @@
       "awayIso": "ht",
       "venue": "Lincoln Financial Field, Philadelphia",
       "kickoff": "2026-06-20T01:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760444",
+      "homeFouls": 13,
+      "awayFouls": 14,
+      "homeYellowCards": 1,
+      "awayYellowCards": 3,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeCorners": 4,
+      "awayCorners": 4,
+      "homePossession": 56.7,
+      "awayPossession": 43.3,
+      "homeSaves": 3,
+      "awaySaves": 2,
+      "homePassPct": 0.9,
+      "awayPassPct": 0.8,
+      "homeShots": 8,
+      "awayShots": 7,
+      "homeShotsOnTarget": 5,
+      "awayShotsOnTarget": 3,
+      "homeTackles": 21,
+      "awayTackles": 16,
+      "homeInterceptions": 10,
+      "awayInterceptions": 9,
+      "homeClearances": 14,
+      "awayClearances": 22,
+      "homeCrosses": 9,
+      "awayCrosses": 11,
+      "homeLongBalls": 44,
+      "awayLongBalls": 57,
+      "homeFairPlay": -1,
+      "awayFairPlay": -3
     },
     {
       "matchId": 537342,
@@ -1421,10 +1452,10 @@
       "awayIso": "py",
       "venue": "Levi's Stadium, Santa Clara",
       "kickoff": "2026-06-20T03:59:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-20T04:49:01.061Z",
       "secondHalfStart": null
     },
     {
@@ -2865,6 +2896,19 @@
     ],
     "C": [
       {
+        "team": "Brazil",
+        "iso": "br",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 4,
+        "fairPlayPoints": -3
+      },
+      {
         "team": "Morocco",
         "iso": "ma",
         "played": 2,
@@ -2891,30 +2935,17 @@
         "fairPlayPoints": -4
       },
       {
-        "team": "Brazil",
-        "iso": "br",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
-        "fairPlayPoints": -2
-      },
-      {
         "team": "Haiti",
         "iso": "ht",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 0,
-        "ga": 1,
-        "gd": -1,
+        "ga": 4,
+        "gd": -4,
         "pts": 0,
-        "fairPlayPoints": -1
+        "fairPlayPoints": -4
       }
     ],
     "E": [
