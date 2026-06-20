@@ -1,21 +1,6 @@
 {
-  "asOf": "2026-06-20T19:03:41.045Z",
+  "asOf": "2026-06-20T20:39:35.149Z",
   "items": [
-    {
-      "headline": "Netherlands 5-1 Sweden: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/20/netherlands-v-sweden-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 18:58:27 GMT",
-      "teams": [
-        "Netherlands",
-        "Sweden"
-      ]
-    },
     {
       "headline": "Germany v Côte d’Ivoire: World Cup 2026 – live",
       "links": {
@@ -25,9 +10,61 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 18:55:04 GMT",
+      "pubDate": "Sat, 20 Jun 2026 20:28:08 GMT",
       "teams": [
         "Germany"
+      ]
+    },
+    {
+      "headline": "Cooling hoodies help England staff combat World Cup heat",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cwy0gn19zqlo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c9/live/1a5813d0-6ce0-11f1-aa77-e37ebac005b3.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 20 Jun 2026 20:17:41 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Scotland 0-1 Morocco: Unique angles and behind the scenes",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/videos/c0ly473g3dgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66eb/live/205dd350-6ce0-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 20 Jun 2026 19:45:21 GMT",
+      "teams": [
+        "Morocco",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "The brilliant Michael Olise represents a key faultline in history of French football | Jonathan Wilson",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/20/michael-olise-france-world-cup-didier-deschamps"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 19:00:09 GMT",
+      "teams": [
+        "France",
+        "Senegal"
       ]
     },
     {
@@ -478,30 +515,6 @@
         "Paraguay",
         "Turkey"
       ]
-    },
-    {
-      "headline": "I don’t like the World Cup hydration breaks but trust me – they help the coaches | Emma Hayes",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/i-dont-like-the-world-cup-hydration-breaks-but-trust-me-they-help-the-coaches"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 04:00:53 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Cold War Steve on … the arrival of the World Cup superheroes",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/picture/2026/jun/20/cold-war-steve-on-the-arrival-of-the-world-cup-superheroes"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 04:00:52 GMT",
-      "teams": []
     }
   ]
 }
