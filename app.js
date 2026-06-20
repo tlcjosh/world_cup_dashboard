@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v16.1';
-const APP_UPDATED = '2026-06-20 17:50 UTC';
+const APP_VERSION = 'v17';
+const APP_UPDATED = '2026-06-20 18:12 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -19,6 +19,7 @@ const state = {
   combinations: {},
   fifaRankings: {},
   espnNews: [],
+  rssNews: [],
   liveMode: false,
   currentView: 'dashboard',
   teamFilter: null,
@@ -2454,6 +2455,21 @@ async function fetchESPNNews() {
   }
 }
 
+// Supplemental news from BBC Sport / The Guardian RSS feeds, baked into a static
+// JSON file server-side by update_tracker.js (these hosts don't set CORS headers,
+// so they can't be fetched directly from the browser) — same once-on-startup
+// pattern as combinations.json/fifa_rankings.json. Each item already carries a
+// `teams` array (substring-matched against TEAM_MASTER_DATA names) in lieu of
+// ESPN's structured category IDs.
+async function fetchRssNews() {
+  try {
+    const res = await fetch('./data/rss_news.json');
+    if (res.ok) state.rssNews = (await res.json()).items || [];
+  } catch (e) {
+    console.error('rss_news.json fetch error:', e);
+  }
+}
+
 function newsCategoryIds(article, type) {
   return (article.categories || [])
     .filter(c => c.type === type)
@@ -2461,19 +2477,24 @@ function newsCategoryIds(article, type) {
 }
 
 // News mentioning a given team, most recent first (ESPN's feed is already sorted that way).
+// Supplemented with rss_news.json items (BBC Sport / The Guardian, baked in server-side by
+// update_tracker.js) tagged with this team via plain substring matching — see "teams" on
+// each rss_news.json item. RSS items are appended after ESPN's so ESPN (richer, ID-matched)
+// results always come first.
 function getTeamNews(teamName, limit = 3) {
   const espnId = TEAM_MASTER_DATA[teamName]?.espnId;
-  if (!espnId || !state.espnNews.length) return [];
-  return state.espnNews
-    .filter(a => newsCategoryIds(a, 'team').includes(espnId))
-    .slice(0, limit);
+  const espnArticles = espnId
+    ? state.espnNews.filter(a => newsCategoryIds(a, 'team').includes(espnId))
+    : [];
+  const rssArticles = state.rssNews.filter(a => a.teams?.includes(teamName));
+  return [...espnArticles, ...rssArticles].slice(0, limit);
 }
 
 // News tagged with this specific match's ESPN event, falling back to news
 // mentioning either team once the dedicated event coverage runs out (or for
 // matches ESPN hasn't started tracking yet, which have no espnEventId at all).
+// Supplemented with rss_news.json items mentioning either team, same as getTeamNews().
 function getMatchNews(match, limit = 3) {
-  if (!state.espnNews.length) return [];
   let articles = [];
   if (match.espnEventId) {
     const eventId = Number(match.espnEventId);
@@ -2487,6 +2508,11 @@ function getMatchNews(match, limit = 3) {
       return (homeId && ids.includes(homeId)) || (awayId && ids.includes(awayId));
     });
   }
+  if (articles.length < limit) {
+    const rssArticles = state.rssNews.filter(a =>
+      a.teams?.includes(match.homeTeam) || a.teams?.includes(match.awayTeam));
+    articles = [...articles, ...rssArticles];
+  }
   return articles.slice(0, limit);
 }
 
@@ -2497,7 +2523,10 @@ function newsListHtml(articles) {
     const img = a.images?.[0]?.url;
     return `<a class="news-item" href="${link}" target="_blank" rel="noopener noreferrer">
       ${img ? `<img class="news-thumb" src="${img}" alt="">` : '<span class="news-thumb news-thumb-placeholder">📰</span>'}
-      <span class="news-headline">${a.headline}</span>
+      <span class="news-text">
+        <span class="news-headline">${a.headline}</span>
+        ${a.source ? `<span class="news-source">${a.source}</span>` : ''}
+      </span>
     </a>`;
   }).join('')}</div>`;
 }
@@ -3054,7 +3083,7 @@ async function init() {
 
   // Initial load: data.json (full schedule + standings) and the static
   // combinations.json lookup table (fetched once, never refetched) in parallel.
-  await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchESPNNews(), fetchData()]);
+  await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchESPNNews(), fetchRssNews(), fetchData()]);
 
   // Initial ESPN sync — overlays live scores immediately
   await fetchESPN();
