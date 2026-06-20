@@ -1187,6 +1187,14 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 }
 .news-headline { font-size: 12.5px; line-height: 1.35; color: var(--ink-2); }
 
+/* Compact variant when news is rendered inline inside a match card
+   (Dashboard's Live & Today / Up Next), rather than in a modal */
+.match-card .news-list {
+  margin-top: 10px; margin-bottom: 0; gap: 6px;
+}
+.match-card .news-item { padding: 6px; }
+.match-card .news-thumb { width: 40px; height: 30px; }
+
 /* ===== MATCH DETAIL MODAL ===== */
 .match-modal { max-width: 480px; }
 
