@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v16';
-const APP_UPDATED = '2026-06-20 17:27 UTC';
+const APP_VERSION = 'v16.1';
+const APP_UPDATED = '2026-06-20 17:50 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1731,6 +1731,11 @@ function matchCardHtml(match, extraLabel, opts = {}) {
   const showsLiveStats = isLive && !opts.suppressStats;
   const clickable = !showsLiveStats;
 
+  // News is opt-in per call site (Dashboard's Live & Today / Up Next cards) and
+  // never shown on a currently-live match — that's what the commentary/stats
+  // blocks above are for.
+  const newsHtml = opts.showNews && !isLive ? newsListHtml(getMatchNews(match, 1)) : '';
+
   return `
     <div class="match-card ${isLive ? 'live' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}">
       <div class="match-meta-bar">
@@ -1755,6 +1760,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
       ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
       ${commentaryHtml}
       ${headlineHtml}
+      ${newsHtml}
     </div>
   `;
 }
@@ -1987,7 +1993,7 @@ function renderDashboard() {
           <div class="card-title">${liveCount > 0 ? '🔴 Live &amp; Today' : 'Today\'s Matches'}</div>
           <div class="card-meta">${liveAndTodayMeta}</div>
         </div>
-        ${liveAndToday.length ? liveAndToday.map(m => matchCardHtml(m)).join('') : '<div class="empty-state">No matches today.</div>'}
+        ${liveAndToday.length ? liveAndToday.map(m => matchCardHtml(m, null, { showNews: true })).join('') : '<div class="empty-state">No matches today.</div>'}
       </div>
 
       <div class="dashboard-grid">
@@ -1997,7 +2003,7 @@ function renderDashboard() {
             <div class="card-title">Up Next</div>
             <div class="card-meta">Upcoming</div>
           </div>
-          ${upNext.length ? upNext.map(m => matchCardHtml(m, null, { suppressStats: true }) + newsListHtml(getMatchNews(m, 1))).join('') : '<div class="empty-state">No upcoming matches.</div>'}
+          ${upNext.length ? upNext.map(m => matchCardHtml(m, null, { suppressStats: true, showNews: true })).join('') : '<div class="empty-state">No upcoming matches.</div>'}
         </div>
       </div>
     `;
@@ -2947,7 +2953,7 @@ document.addEventListener('click', e => {
 // Delegated click handler for match cards — whole card opens the match modal
 // except live cards already showing inline stats (no .clickable class there).
 document.addEventListener('click', e => {
-  if (e.target.closest('.team-link, .flag-link, .mc-btn')) return; // let those handlers take it
+  if (e.target.closest('.team-link, .flag-link, .mc-btn, .news-item')) return; // let those handlers take it
   const card = e.target.closest('.match-card.clickable[data-matchnum]');
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
