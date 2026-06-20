@@ -1,0 +1,7 @@
+{
+  "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams/202/news",
+  "fetchedAt": "2026-06-20T16:50:22.115Z",
+  "status": 200,
+  "ok": true,
+  "body": {}
+}

@@ -1,0 +1,1501 @@
+{
+  "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/news",
+  "fetchedAt": "2026-06-20T16:50:20.555Z",
+  "status": 200,
+  "ok": true,
+  "body": {
+    "header": "FIFA World Cup News",
+    "link": {
+      "language": "en",
+      "rel": [
+        "index",
+        "desktop",
+        "league"
+      ],
+      "href": "https://www.espn.com/football/worldcup/",
+      "text": "All FIFA World Cup News",
+      "shortText": "All News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    "articles": [
+      {
+        "id": 49127063,
+        "nowId": "1-49127063",
+        "contentKey": "49127063-1-293-1",
+        "dataSourceIdentifier": "e3cd6e5ef736e",
+        "type": "Media",
+        "headline": "The Netherlands fans turn Houston into a sea of orange",
+        "description": "The Netherlands fans turn Houston into a sea of orange",
+        "lastModified": "2026-06-20T16:48:44Z",
+        "published": "2026-06-20T16:48:44Z",
+        "images": [
+          {
+            "name": "The Netherlands fans turn Houston into a sea of orange",
+            "caption": "The Netherlands fans turn Houston into a sea of orange",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0620/dm_260620_The_Netherlands_fans_turn_Houston_into_a_sea_of_orange/dm_260620_The_Netherlands_fans_turn_Houston_into_a_sea_of_orange.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72577,
+            "type": "team",
+            "uid": "s:600~t:449",
+            "guid": "6236b2ae-6d80-4bff-5c4f-3573ac94bec8",
+            "description": "Netherlands",
+            "sportId": 600,
+            "teamId": 449,
+            "team": {
+              "id": 449,
+              "description": "Netherlands",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/449/netherlands"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/449/netherlands"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "event",
+            "uid": "s:600~l:606~e:760447",
+            "guid": "ce3e9c00-7956-3ec7-ae73-b60abf23ae4e",
+            "description": "Sweden @ Netherlands",
+            "eventId": 760447,
+            "event": {
+              "id": 760447,
+              "sport": "soccer",
+              "league": "fifa.world",
+              "description": "Sweden @ Netherlands"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "6236b2ae-6d80-4bff-5c4f-3573ac94bec8"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "ce3e9c00-7956-3ec7-ae73-b60abf23ae4e"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/49127063/the-netherlands-fans-turn-houston-sea-orange",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/49127063/the-netherlands-fans-turn-houston-sea-orange",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=e3cd6e5ef736e"
+              }
+            }
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/49127063"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/208adc05-0c05-4e46-822e-0a26193f7920"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=49127063&videoDSI=e3cd6e5ef736e"
+          }
+        }
+      },
+      {
+        "id": 49111773,
+        "nowId": "1-49111773",
+        "contentKey": "49111773-1-5-1",
+        "dataSourceIdentifier": "faa57788c0fd8",
+        "type": "HeadlineNews",
+        "headline": "Antoine Semenyo says Ghana players want to 'prove a point' against England at FIFA World Cup",
+        "description": "After their dramatic 1-0 victory over Panama on Wednesday night, Antoine Semenyo says Ghana will head into their FIFA World Cup showdown with England looking to 'prove a point'.",
+        "lastModified": "2026-06-20T16:26:15Z",
+        "published": "2026-06-20T16:26:15Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "e01f87f453059",
+            "id": 49111819,
+            "type": "header",
+            "name": "Antoine Semenyo [1296x729]",
+            "caption": "Antoine Semenyo was the picture of joy when Ghana scored during injury time to beat Panama at the FIFA World Cup.",
+            "credit": "Darrian Traynor/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0618/r1675778_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "caption": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0618/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72595,
+            "type": "team",
+            "uid": "s:600~t:4469",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27",
+            "description": "Ghana",
+            "sportId": 600,
+            "teamId": 4469,
+            "team": {
+              "id": 4469,
+              "description": "Ghana",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 247891,
+            "type": "athlete",
+            "uid": "s:600~a:273292",
+            "guid": "ed520531-3344-157f-7be2-dec0351d41db",
+            "description": "Antoine Semenyo",
+            "sportId": 600,
+            "athleteId": 273292,
+            "athlete": {
+              "id": 273292,
+              "description": "Antoine Semenyo",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/273292/antoine-semenyo"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/273292/antoine-semenyo"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142287,
+            "type": "team",
+            "uid": "s:600~t:382",
+            "guid": "94fd5d7e-35b1-9d52-c9f2-4a37259bea36",
+            "description": "Manchester City",
+            "sportId": 600,
+            "teamId": 382,
+            "team": {
+              "id": 382,
+              "description": "Manchester City",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/382/manchester-city"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/382/manchester-city"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72576,
+            "type": "team",
+            "uid": "s:600~t:448",
+            "guid": "217dee4e-6974-a197-49a2-afda6e1788c9",
+            "description": "England",
+            "sportId": 600,
+            "teamId": 448,
+            "team": {
+              "id": 448,
+              "description": "England",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/448/england"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/448/england"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 137781,
+            "type": "league",
+            "uid": "s:600~l:700",
+            "guid": "6949f3af-300c-35f1-beab-b95669eedd38",
+            "description": "English Premier League",
+            "sportId": 600,
+            "leagueId": 23,
+            "league": {
+              "id": 700,
+              "description": "English Premier League",
+              "abbreviation": "Premier League",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/eng.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/eng.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27"
+          },
+          {
+            "type": "guid",
+            "guid": "ed520531-3344-157f-7be2-dec0351d41db"
+          },
+          {
+            "type": "guid",
+            "guid": "94fd5d7e-35b1-9d52-c9f2-4a37259bea36"
+          },
+          {
+            "type": "guid",
+            "guid": "217dee4e-6974-a197-49a2-afda6e1788c9"
+          },
+          {
+            "type": "guid",
+            "guid": "6949f3af-300c-35f1-beab-b95669eedd38"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/espn/story/_/id/49111773/antoine-semenyo-says-ghana-players-want-prove-point-england-fifa-world-cup"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=49111773"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49111773"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49111773"
+            }
+          }
+        }
+      },
+      {
+        "id": 49116820,
+        "nowId": "1-49116820",
+        "contentKey": "49116820-1-6-1",
+        "dataSourceIdentifier": "00b85d5ca94c3",
+        "type": "Story",
+        "headline": "England vs. Ghana: Kick-off time, team news, how to watch FIFA World Cup clash",
+        "description": "Ghana under Carlos Queiroz have many players who will be a known quantity for England, but the Black Stars pose a threat at the World Cup.",
+        "lastModified": "2026-06-20T16:26:56Z",
+        "published": "2026-06-20T16:26:56Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "33fda894aca95",
+            "id": 49118827,
+            "type": "header",
+            "name": "Ghana England [1296x729]",
+            "credit": "ESPN/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0619/r1676261_1296x729_16-9.png"
+          },
+          {
+            "type": "Media",
+            "name": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "caption": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0618/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72595,
+            "type": "team",
+            "uid": "s:600~t:4469",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27",
+            "description": "Ghana",
+            "sportId": 600,
+            "teamId": 4469,
+            "team": {
+              "id": 4469,
+              "description": "Ghana",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72576,
+            "type": "team",
+            "uid": "s:600~t:448",
+            "guid": "217dee4e-6974-a197-49a2-afda6e1788c9",
+            "description": "England",
+            "sportId": 600,
+            "teamId": 448,
+            "team": {
+              "id": 448,
+              "description": "England",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/448/england"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/448/england"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 248222,
+            "type": "athlete",
+            "uid": "s:600~a:189972",
+            "guid": "30aa0685-442b-25e7-b310-de7d458ee2a9",
+            "description": "Thomas Partey",
+            "sportId": 600,
+            "athleteId": 189972,
+            "athlete": {
+              "id": 189972,
+              "description": "Thomas Partey",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/189972/thomas-partey"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/189972/thomas-partey"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 247891,
+            "type": "athlete",
+            "uid": "s:600~a:273292",
+            "guid": "ed520531-3344-157f-7be2-dec0351d41db",
+            "description": "Antoine Semenyo",
+            "sportId": 600,
+            "athleteId": 273292,
+            "athlete": {
+              "id": 273292,
+              "description": "Antoine Semenyo",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/273292/antoine-semenyo"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/273292/antoine-semenyo"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 250037,
+            "type": "athlete",
+            "uid": "s:600~a:142200",
+            "guid": "66b16016-7a3a-434f-ae82-e767fc5fac88",
+            "description": "Harry Kane",
+            "sportId": 600,
+            "athleteId": 142200,
+            "athlete": {
+              "id": 142200,
+              "description": "Harry Kane",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/142200/harry-kane"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/142200/harry-kane"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 702974,
+            "type": "contributor",
+            "guid": "8bdbfcb7-37ef-3a8f-817c-e30ebcf3eeba",
+            "description": "200305 COLUMNIST PROFILE Leonard Solms",
+            "slug": "200305-columnist-profile-leonard-solms",
+            "contributor": {
+              "id": 3846,
+              "description": "200305 COLUMNIST PROFILE Leonard Solms"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27"
+          },
+          {
+            "type": "guid",
+            "guid": "217dee4e-6974-a197-49a2-afda6e1788c9"
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "30aa0685-442b-25e7-b310-de7d458ee2a9"
+          },
+          {
+            "type": "guid",
+            "guid": "ed520531-3344-157f-7be2-dec0351d41db"
+          },
+          {
+            "type": "guid",
+            "guid": "66b16016-7a3a-434f-ae82-e767fc5fac88"
+          },
+          {
+            "type": "guid",
+            "guid": "8bdbfcb7-37ef-3a8f-817c-e30ebcf3eeba"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/espn/story/_/id/49116820/kick-team-news-how-watch-fifa-world-cup-clash"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=49116820"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49116820"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49116820"
+            }
+          }
+        },
+        "byline": "Leonard Solms"
+      },
+      {
+        "id": 49118544,
+        "nowId": "1-49118544",
+        "contentKey": "49118544-1-6-1",
+        "dataSourceIdentifier": "76c8e0b188e21",
+        "type": "Story",
+        "headline": "Ghana's Caleb Yirenkyi credits 'intensity' in training for Black Stars success",
+        "description": "Ghana's teenage midfielder Caleb Yirenkyi says his stoppage time goal, which helped Ghana secure a valuable FIFA World Cup win over Panama, was the product of weeks of intense work on the training ground.",
+        "lastModified": "2026-06-20T16:25:43Z",
+        "published": "2026-06-20T16:25:43Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "79e394240923c",
+            "id": 49118597,
+            "type": "header",
+            "name": "Caleb Yirenkyi [1296x729]",
+            "caption": "Caleb Yirenkyi attends Ghana training at the FIFA World Cup.",
+            "credit": "Ezra Shaw - FIFA/FIFA via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0619/r1676242_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "caption": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0618/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72595,
+            "type": "team",
+            "uid": "s:600~t:4469",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27",
+            "description": "Ghana",
+            "sportId": 600,
+            "teamId": 4469,
+            "team": {
+              "id": 4469,
+              "description": "Ghana",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 671211,
+            "type": "athlete",
+            "uid": "s:600~a:387659",
+            "guid": "78c15c05-709a-373a-862c-43fe373c6204",
+            "description": "Caleb Yirenkyi",
+            "sportId": 600,
+            "athleteId": 387659,
+            "athlete": {
+              "id": 387659,
+              "description": "Caleb Yirenkyi",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/387659/caleb-yirenkyi"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/387659/caleb-yirenkyi"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 702572,
+            "type": "contributor",
+            "guid": "7f42bd43-1439-35bc-996c-0ed94c48868c",
+            "description": "180531 COLUMNIST PROFILE Colin Udoh",
+            "slug": "180531-columnist-profile-colin-udoh",
+            "contributor": {
+              "id": 3336,
+              "description": "180531 COLUMNIST PROFILE Colin Udoh"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27"
+          },
+          {
+            "type": "guid",
+            "guid": "78c15c05-709a-373a-862c-43fe373c6204"
+          },
+          {
+            "type": "guid",
+            "guid": "7f42bd43-1439-35bc-996c-0ed94c48868c"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/espn/story/_/id/49118544/ghana-caleb-yirenkyi-credits-intensity-training-black-stars-success"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=49118544"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49118544"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49118544"
+            }
+          }
+        },
+        "byline": "Colin Udoh"
+      },
+      {
+        "id": 49106350,
+        "nowId": "1-49106350",
+        "contentKey": "49106350-1-6-1",
+        "dataSourceIdentifier": "a6fed0307d50d",
+        "type": "Story",
+        "headline": "Re-ranking Africa's World Cup teams after their opening matches",
+        "description": "With everyone having played once, how have their performances stacked up against our original list, and what does a revised ranking look like now?",
+        "lastModified": "2026-06-20T15:47:26Z",
+        "published": "2026-06-20T15:47:26Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "dce04850900af",
+            "id": 49106301,
+            "type": "header",
+            "name": "Vozinha [1296x729] - Copy",
+            "caption": "Cape Verde dented Spain's FIFA World Cup title ambition.",
+            "alt": "Vozinha #1 of Cabo Verde applaud fans after the 0-0 draw during the FIFA World Cup 2026 Group H match between Spain and Cabo Verde at Atlanta Stadium on June 15, 2026 in Atlanta, Georgia.",
+            "credit": "Buda Mendes/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0615/r1673689_1296x729_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "55a3cdbd3a201",
+            "id": 49106346,
+            "type": "header",
+            "name": "Herve Renard Tunisia [1296x729] - Copy",
+            "caption": "Tunisia appointed new head coach Herve Renard one defeat into their 2026 FIFA World Cup campaign.",
+            "credit": "Azael Rodriguez/FIFA via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0617/r1674922_1296x729_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "8fd62cbd9a6fd",
+            "id": 49106293,
+            "type": "header",
+            "name": "Congo celeb vs Portugal [1296x729] - Copy",
+            "caption": "Congo DR impressed with a 1-1 draw with Portugal at the 2026 FIFA World Cup.",
+            "alt": "Cedric Bakambu #17 of DR Congo leaps on top of teammates to celebrate a goal by Yoane Wissa #20 of DR Congo during the FIFA World Cup 2026 Group K match between Portugal and Congo DR on June 17, 2026, at Houston Stadium in Houston, Texas.",
+            "credit": "David Buono/Icon Sportswire via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0617/r1674979_1296x729_16-9.jpg"
+          },
+          {
+            "dataSourceIdentifier": "99da764efcadb",
+            "id": 49106323,
+            "type": "header",
+            "name": "Mbappe fouled v Senegal no penalty 260616 [1296x729] - Copy",
+            "caption": "Senegal were no match for Kylian Mbappe and France.",
+            "credit": "CHARLY TRIBALLEAU / AFP via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0616/r1674352_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "caption": "Semenyo: Ghana want to 'prove a point' vs. England",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0618/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU/dm_260618_COM_SOC_Presser_Semenyo_Ghana_want_to_prove_a_point_vs_England_20260618_GLOBAL_FIFA_WORLD_CU.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72580,
+            "type": "team",
+            "uid": "s:600~t:467",
+            "guid": "d4889543-c668-800d-56fa-542c10023978",
+            "description": "South Africa",
+            "sportId": 600,
+            "teamId": 467,
+            "team": {
+              "id": 467,
+              "description": "South Africa",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/467/south-africa"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/467/south-africa"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142461,
+            "type": "team",
+            "uid": "s:600~t:2597",
+            "guid": "d4df09fe-4066-fc4a-ab3d-03e0e19653f3",
+            "description": "Cape Verde",
+            "sportId": 600,
+            "teamId": 2597,
+            "team": {
+              "id": 2597,
+              "description": "Cape Verde",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72596,
+            "type": "team",
+            "uid": "s:600~t:4789",
+            "guid": "6fcf839e-eb1a-be06-675f-a22ee120dcdb",
+            "description": "Ivory Coast",
+            "sportId": 600,
+            "teamId": 4789,
+            "team": {
+              "id": 4789,
+              "description": "Ivory Coast",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4789/ivory-coast"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4789/ivory-coast"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142317,
+            "type": "team",
+            "uid": "s:600~t:2869",
+            "guid": "a6945df8-27b1-9615-af13-7379154954b9",
+            "description": "Morocco",
+            "sportId": 600,
+            "teamId": 2869,
+            "team": {
+              "id": 2869,
+              "description": "Morocco",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2869/morocco"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2869/morocco"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72595,
+            "type": "team",
+            "uid": "s:600~t:4469",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27",
+            "description": "Ghana",
+            "sportId": 600,
+            "teamId": 4469,
+            "team": {
+              "id": 4469,
+              "description": "Ghana",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/4469/ghana"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142454,
+            "type": "team",
+            "uid": "s:600~t:654",
+            "guid": "3d969454-cda7-bf55-21fb-33a8c2ca21ee",
+            "description": "Senegal",
+            "sportId": 600,
+            "teamId": 654,
+            "team": {
+              "id": 654,
+              "description": "Senegal",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/654/senegal"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/654/senegal"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142399,
+            "type": "team",
+            "uid": "s:600~t:659",
+            "guid": "11090cca-6664-482e-ceb7-3b70b3297cc7",
+            "description": "Tunisia",
+            "sportId": 600,
+            "teamId": 659,
+            "team": {
+              "id": 659,
+              "description": "Tunisia",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/659/tunisia"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/659/tunisia"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72588,
+            "type": "team",
+            "uid": "s:600~t:624",
+            "guid": "5a9aa911-bb70-d5d4-2c03-166d0fe0dc3c",
+            "description": "Algeria",
+            "sportId": 600,
+            "teamId": 624,
+            "team": {
+              "id": 624,
+              "description": "Algeria",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/624/algeria"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/624/algeria"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142351,
+            "type": "team",
+            "uid": "s:600~t:2620",
+            "guid": "1326a2f9-1a26-1d6d-67b2-bb34d1c726ce",
+            "description": "Egypt",
+            "sportId": 600,
+            "teamId": 2620,
+            "team": {
+              "id": 2620,
+              "description": "Egypt",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2620/egypt"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2620/egypt"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 702571,
+            "type": "contributor",
+            "guid": "f13d8b66-caf7-3a9a-ada3-7e83964ffbbc",
+            "description": "180530 COLUMNIST PROFILE Ed Dove",
+            "slug": "180530-columnist-profile-ed-dove",
+            "contributor": {
+              "id": 3335,
+              "description": "180530 COLUMNIST PROFILE Ed Dove"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "d4889543-c668-800d-56fa-542c10023978"
+          },
+          {
+            "type": "guid",
+            "guid": "d4df09fe-4066-fc4a-ab3d-03e0e19653f3"
+          },
+          {
+            "type": "guid",
+            "guid": "6fcf839e-eb1a-be06-675f-a22ee120dcdb"
+          },
+          {
+            "type": "guid",
+            "guid": "a6945df8-27b1-9615-af13-7379154954b9"
+          },
+          {
+            "type": "guid",
+            "guid": "ff586f4a-c356-4a04-88a8-450cc2a5ad27"
+          },
+          {
+            "type": "guid",
+            "guid": "3d969454-cda7-bf55-21fb-33a8c2ca21ee"
+          },
+          {
+            "type": "guid",
+            "guid": "11090cca-6664-482e-ceb7-3b70b3297cc7"
+          },
+          {
+            "type": "guid",
+            "guid": "5a9aa911-bb70-d5d4-2c03-166d0fe0dc3c"
+          },
+          {
+            "type": "guid",
+            "guid": "1326a2f9-1a26-1d6d-67b2-bb34d1c726ce"
+          },
+          {
+            "type": "guid",
+            "guid": "f13d8b66-caf7-3a9a-ada3-7e83964ffbbc"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/espn/story/_/id/49106350/re-ranking-africa-world-cup-teams-their-opening-matches"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=49106350"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49106350"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49106350"
+            }
+          }
+        },
+        "byline": "Ed Dove"
+      },
+      {
+        "id": 49121158,
+        "nowId": "1-49121158",
+        "contentKey": "49121158-1-5-1",
+        "dataSourceIdentifier": "aa30c278b4e7d",
+        "type": "HeadlineNews",
+        "headline": "Tunisia must be 'collectively perfect' against Japan says emergency head coach Herve Renard",
+        "description": "Tunisia will take inspiration from Cape Verde's draw with Spain as they look to launch their FIFA World Cup salvage act against Japan in Monterrey on Saturday, according to newly appointed head coach Herve Renard.",
+        "lastModified": "2026-06-20T15:46:56Z",
+        "published": "2026-06-20T15:46:56Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "10f0934a90509",
+            "id": 49121178,
+            "type": "header",
+            "name": "Herve Renard [1296x729]",
+            "caption": "Herve Renard speaks at the press conference ahead of Tunisia vs Japan.",
+            "credit": "Julio Cesar AGUILAR / AFP via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0620/r1676376_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Why did Tunisia hire Herve Renard to replace Sabri Lamouchi?",
+            "caption": "Why did Tunisia hire Herve Renard to replace Sabri Lamouchi?",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Analysis_Why_did_Tunisia_hire_Herve_Renard_to_replace_Sabri_Lamouchi3F__GLOBAL_2026-06-16/dm_260616_COM_SOC_Analysis_Why_did_Tunisia_hire_Herve_Renard_to_replace_Sabri_Lamouchi3F__GLOBAL_2026-06-16.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 142399,
+            "type": "team",
+            "uid": "s:600~t:659",
+            "guid": "11090cca-6664-482e-ceb7-3b70b3297cc7",
+            "description": "Tunisia",
+            "sportId": 600,
+            "teamId": 659,
+            "team": {
+              "id": 659,
+              "description": "Tunisia",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/659/tunisia"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/659/tunisia"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72589,
+            "type": "team",
+            "uid": "s:600~t:627",
+            "guid": "2b08760f-e2eb-50c1-872e-2baa869daefa",
+            "description": "Japan",
+            "sportId": 600,
+            "teamId": 627,
+            "team": {
+              "id": 627,
+              "description": "Japan",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/627/japan"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/627/japan"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 702571,
+            "type": "contributor",
+            "guid": "f13d8b66-caf7-3a9a-ada3-7e83964ffbbc",
+            "description": "180530 COLUMNIST PROFILE Ed Dove",
+            "slug": "180530-columnist-profile-ed-dove",
+            "contributor": {
+              "id": 3335,
+              "description": "180530 COLUMNIST PROFILE Ed Dove"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "11090cca-6664-482e-ceb7-3b70b3297cc7"
+          },
+          {
+            "type": "guid",
+            "guid": "2b08760f-e2eb-50c1-872e-2baa869daefa"
+          },
+          {
+            "type": "guid",
+            "guid": "f13d8b66-caf7-3a9a-ada3-7e83964ffbbc"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/espn/story/_/id/49121158/tunisia-collectively-perfect-japan-says-emergency-head-coach-herve-renard"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=49121158"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49121158"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49121158"
+            }
+          }
+        },
+        "byline": "Ed Dove"
+      }
+    ]
+  }
+}
