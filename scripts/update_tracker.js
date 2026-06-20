@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const DATA_PATH = join(__dirname, '..', 'src', 'data', 'data.json');
 const FIFA_RANKINGS_PATH = join(__dirname, '..', 'src', 'data', 'fifa_rankings.json');
+const RSS_NEWS_PATH = join(__dirname, '..', 'src', 'data', 'rss_news.json');
 const BLUEPRINT_DIR = join(__dirname, '..', 'blueprint_data');
 
 const TEAM_MASTER_DATA = {
@@ -386,6 +387,93 @@ function syncFifaRankings() {
   return true;
 }
 
+// Supplemental news sources beyond ESPN's article API (which app.js fetches
+// directly from the browser). These hosts don't set CORS headers, so they're
+// fetched here (GitHub Actions has unrestricted network) and baked into a
+// static JSON file the frontend can fetch like any other src/data/*.json file.
+const RSS_FEEDS = [
+  { name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml' },
+  { name: 'The Guardian', url: 'https://www.theguardian.com/football/rss' },
+];
+
+const TEAM_NAMES = Object.keys(TEAM_MASTER_DATA);
+
+function decodeRssEntities(s) {
+  return s
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .trim();
+}
+
+function parseRssItems(xml) {
+  const items = [];
+  const itemRe = /<item>([\s\S]*?)<\/item>/g;
+  let m;
+  while ((m = itemRe.exec(xml))) {
+    const block = m[1];
+    const title = decodeRssEntities(block.match(/<title>([\s\S]*?)<\/title>/)?.[1] || '');
+    const link = decodeRssEntities(block.match(/<link>([\s\S]*?)<\/link>/)?.[1] || '');
+    const description = decodeRssEntities(block.match(/<description>([\s\S]*?)<\/description>/)?.[1] || '');
+    const pubDate = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1]?.trim() || null;
+    const image = block.match(/<media:thumbnail[^>]*url="([^"]+)"/)?.[1]
+      || block.match(/<enclosure[^>]*url="([^"]+)"[^>]*type="image/)?.[1]
+      || null;
+    if (title && link) items.push({ title, link, description, pubDate, image });
+  }
+  return items;
+}
+
+// RSS feeds carry no team/event IDs, unlike ESPN's structured categories[] —
+// this is the closest equivalent: a case-insensitive substring match of every
+// TEAM_MASTER_DATA name against the article's title+description.
+function matchTeams(text) {
+  const lower = text.toLowerCase();
+  return TEAM_NAMES.filter(team => lower.includes(team.toLowerCase()));
+}
+
+async function fetchRssFeed(feed) {
+  try {
+    const res = await fetch(feed.url);
+    if (!res.ok) return [];
+    const xml = await res.text();
+    const items = parseRssItems(xml);
+    // Scoped to World Cup relevance only, to avoid pulling general club-football
+    // noise from these feeds' broader football coverage.
+    return items
+      .filter(it => /world cup/i.test(it.title) || /world cup/i.test(it.description))
+      .map(it => ({
+        headline: it.title,
+        links: { web: { href: it.link } },
+        images: it.image ? [{ url: it.image }] : [],
+        source: feed.name,
+        pubDate: it.pubDate,
+        teams: matchTeams(`${it.title} ${it.description}`),
+      }));
+  } catch (e) {
+    console.warn('RSS fetch failed for', feed.name, e.message);
+    return [];
+  }
+}
+
+async function syncRssNews() {
+  const results = await Promise.all(RSS_FEEDS.map(fetchRssFeed));
+  const items = results.flat()
+    .sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0))
+    .slice(0, 30);
+
+  let currentLinks = null;
+  try {
+    currentLinks = JSON.parse(readFileSync(RSS_NEWS_PATH, 'utf8')).items.map(i => i.links.web.href).join(',');
+  } catch { /* none yet */ }
+  const newLinks = items.map(i => i.links.web.href).join(',');
+  if (newLinks === currentLinks) return false;
+
+  writeFileSync(RSS_NEWS_PATH, JSON.stringify({ asOf: new Date().toISOString(), items }, null, 2));
+  console.log(`RSS news updated: ${items.length} World Cup-related items from ${RSS_FEEDS.length} feeds`);
+  return true;
+}
+
 // FIFA's official group-stage tiebreaker order: pts -> GD -> GF -> head-to-head mini-league
 // (pts -> GD -> GF, group-stage matches between the tied teams only) -> fair play points ->
 // FIFA World Ranking position -> alphabetical (last-resort, should rarely matter).
@@ -553,6 +641,10 @@ async function main() {
   // before computing standings below. No-op (and no commit) if nothing newer is present.
   const fifaRankingsChanged = syncFifaRankings();
 
+  // Refresh the supplemental RSS news feed (BBC Sport, The Guardian), filtered
+  // to World Cup-related items. No-op (and no commit) if nothing changed.
+  const rssNewsChanged = await syncRssNews();
+
   // Bootstrap if data.json is missing or empty
   const needsBootstrap = !existsSync(DATA_PATH) ||
     (() => { try { return JSON.parse(readFileSync(DATA_PATH, 'utf8')).matches?.length === 0; } catch { return true; } })();
@@ -563,7 +655,8 @@ async function main() {
     writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
     try {
       const fifaAdd = fifaRankingsChanged ? 'src/data/fifa_rankings.json ' : '';
-      execSync(`git add src/data/data.json ${fifaAdd}&& git commit -m "chore: bootstrap match data from API [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
+      const rssAdd = rssNewsChanged ? 'src/data/rss_news.json ' : '';
+      execSync(`git add src/data/data.json ${fifaAdd}${rssAdd}&& git commit -m "chore: bootstrap match data from API [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
     } catch (e) {
       console.error('Git commit failed:', e.message);
     }
@@ -626,10 +719,11 @@ async function main() {
   const newJson = JSON.stringify(current, null, 2);
   writeFileSync(DATA_PATH, newJson);
 
-  if (newJson !== oldJson || fifaRankingsChanged) {
+  if (newJson !== oldJson || fifaRankingsChanged || rssNewsChanged) {
     try {
       const fifaAdd = fifaRankingsChanged ? 'src/data/fifa_rankings.json ' : '';
-      execSync(`git add src/data/data.json ${fifaAdd}&& git commit -m "chore: sync match data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
+      const rssAdd = rssNewsChanged ? 'src/data/rss_news.json ' : '';
+      execSync(`git add src/data/data.json ${fifaAdd}${rssAdd}&& git commit -m "chore: sync match data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]" && git push`, { stdio: 'inherit' });
     } catch (e) {
       console.error('Git commit failed:', e.message);
     }
