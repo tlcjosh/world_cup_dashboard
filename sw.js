@@ -1,4 +1,4 @@
-const CACHE = 'wc2026-v15';
+const CACHE = 'wc2026-v16';
 const PRECACHE = [
   '/world_cup_dashboard/',
   '/world_cup_dashboard/styles.css',
