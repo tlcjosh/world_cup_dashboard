@@ -1166,6 +1166,27 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 .tm-opp { font-weight: 500; flex: 1; }
 .tm-meta { font-size: 11px; color: var(--ink-3); white-space: nowrap; }
 
+/* ===== NEWS HEADLINES (team modal, match modal, dashboard Up Next) ===== */
+.news-list {
+  display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px;
+}
+.news-list:last-child { margin-bottom: 0; }
+.news-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px; border-radius: var(--r);
+  background: rgba(0, 0, 0, .03); text-decoration: none; color: var(--ink);
+  transition: background .15s;
+}
+.news-item:hover { background: rgba(0, 0, 0, .06); }
+.news-thumb {
+  width: 48px; height: 36px; object-fit: cover; border-radius: 6px;
+  flex-shrink: 0; background: var(--surface-2);
+}
+.news-thumb-placeholder {
+  display: flex; align-items: center; justify-content: center; font-size: 16px;
+}
+.news-headline { font-size: 12.5px; line-height: 1.35; color: var(--ink-2); }
+
 /* ===== MATCH DETAIL MODAL ===== */
 .match-modal { max-width: 480px; }
 

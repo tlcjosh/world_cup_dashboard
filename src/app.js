@@ -18,6 +18,7 @@ const state = {
   standings: {},
   combinations: {},
   fifaRankings: {},
+  espnNews: [],
   liveMode: false,
   currentView: 'dashboard',
   teamFilter: null,
@@ -500,6 +501,7 @@ function finalNotifHtml(match) {
 // ===== ESPN INTEGRATION =====
 
 const ESPN_SCOREBOARD_URL = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard';
+const ESPN_NEWS_URL = ESPN_SCOREBOARD_URL.replace('/scoreboard', '/news') + '?limit=50';
 
 // ESPN display name → our TEAM_MASTER_DATA key (add entries as mismatches are discovered)
 const ESPN_NAME_MAP = {
@@ -1995,7 +1997,7 @@ function renderDashboard() {
             <div class="card-title">Up Next</div>
             <div class="card-meta">Upcoming</div>
           </div>
-          ${upNext.length ? upNext.map(m => matchCardHtml(m, null, { suppressStats: true })).join('') : '<div class="empty-state">No upcoming matches.</div>'}
+          ${upNext.length ? upNext.map(m => matchCardHtml(m, null, { suppressStats: true }) + newsListHtml(getMatchNews(m, 1))).join('') : '<div class="empty-state">No upcoming matches.</div>'}
         </div>
       </div>
     `;
@@ -2428,6 +2430,72 @@ async function fetchFifaRankings() {
   }
 }
 
+// ESPN's general news feed for the tournament — fetched once on startup, same
+// pattern as combinations.json/fifa_rankings.json. Each article's categories[]
+// array tags it with team/event IDs that line up with TEAM_MASTER_DATA[team].espnId
+// and match.espnEventId, so team/match relevance is filtered client-side rather
+// than relying on ESPN's server-side team/event news endpoints (which don't work
+// for soccer — confirmed via blueprint_data/espn_news_probe).
+async function fetchESPNNews() {
+  try {
+    const res = await fetch(ESPN_NEWS_URL);
+    if (res.ok) {
+      const data = await res.json();
+      state.espnNews = data.articles || [];
+    }
+  } catch (e) {
+    console.error('ESPN news fetch error:', e);
+  }
+}
+
+function newsCategoryIds(article, type) {
+  return (article.categories || [])
+    .filter(c => c.type === type)
+    .map(c => type === 'team' ? c.teamId : c.eventId);
+}
+
+// News mentioning a given team, most recent first (ESPN's feed is already sorted that way).
+function getTeamNews(teamName, limit = 3) {
+  const espnId = TEAM_MASTER_DATA[teamName]?.espnId;
+  if (!espnId || !state.espnNews.length) return [];
+  return state.espnNews
+    .filter(a => newsCategoryIds(a, 'team').includes(espnId))
+    .slice(0, limit);
+}
+
+// News tagged with this specific match's ESPN event, falling back to news
+// mentioning either team once the dedicated event coverage runs out (or for
+// matches ESPN hasn't started tracking yet, which have no espnEventId at all).
+function getMatchNews(match, limit = 3) {
+  if (!state.espnNews.length) return [];
+  let articles = [];
+  if (match.espnEventId) {
+    const eventId = Number(match.espnEventId);
+    articles = state.espnNews.filter(a => newsCategoryIds(a, 'event').includes(eventId));
+  }
+  if (!articles.length) {
+    const homeId = TEAM_MASTER_DATA[match.homeTeam]?.espnId;
+    const awayId = TEAM_MASTER_DATA[match.awayTeam]?.espnId;
+    articles = state.espnNews.filter(a => {
+      const ids = newsCategoryIds(a, 'team');
+      return (homeId && ids.includes(homeId)) || (awayId && ids.includes(awayId));
+    });
+  }
+  return articles.slice(0, limit);
+}
+
+function newsListHtml(articles) {
+  if (!articles.length) return '';
+  return `<div class="news-list">${articles.map(a => {
+    const link = a.links?.web?.href;
+    const img = a.images?.[0]?.url;
+    return `<a class="news-item" href="${link}" target="_blank" rel="noopener noreferrer">
+      ${img ? `<img class="news-thumb" src="${img}" alt="">` : '<span class="news-thumb news-thumb-placeholder">📰</span>'}
+      <span class="news-headline">${a.headline}</span>
+    </a>`;
+  }).join('')}</div>`;
+}
+
 async function fetchData() {
   if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
   state._dataFetchInFlight = true;
@@ -2653,6 +2721,7 @@ async function openTeamModal(teamName) {
   overlay.id = 'team-modal-overlay';
   const posLabel = pos === 1 ? '1st' : pos === 2 ? '2nd' : pos === 3 ? '3rd' : pos ? `${pos}th` : '—';
   const upcomingHtml = teamUpcomingRows(teamName);
+  const newsHtml = newsListHtml(getTeamNews(teamName));
   const recordHtml = standing
     ? `<div class="tm-record">
         <div class="tm-stat"><span class="tm-stat-num">${standing.pts}</span><span class="tm-stat-label">Pts</span></div>
@@ -2676,6 +2745,7 @@ async function openTeamModal(teamName) {
       </div>
       ${recordHtml}
       <div id="tm-stats-section" class="tm-loading">Loading stats…</div>
+      ${newsHtml ? `<div class="tm-section-label">News</div>${newsHtml}` : ''}
       ${upcomingHtml ? `<div class="tm-section-label">Upcoming</div>${upcomingHtml}` : ''}
       <div class="tm-section-label">Results</div>
       ${teamMatchRows(teamName)}
@@ -2810,6 +2880,7 @@ async function openMatchModal(matchNum) {
         </div>
       </div>
       <div class="mdm-meta">${[kickoffFmt, match.venue].filter(Boolean).join(' · ')}</div>
+      ${(() => { const n = newsListHtml(getMatchNews(match)); return n ? `<div class="tm-section-label">News</div>${n}` : ''; })()}
       <div id="mdm-body"><div class="tm-loading">Loading match data…</div></div>
     </div>
   `;
@@ -2977,7 +3048,7 @@ async function init() {
 
   // Initial load: data.json (full schedule + standings) and the static
   // combinations.json lookup table (fetched once, never refetched) in parallel.
-  await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchData()]);
+  await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchESPNNews(), fetchData()]);
 
   // Initial ESPN sync — overlays live scores immediately
   await fetchESPN();
