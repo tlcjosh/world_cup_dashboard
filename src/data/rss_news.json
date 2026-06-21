@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-21T18:05:08.153Z",
+  "asOf": "2026-06-21T20:00:41.403Z",
   "items": [
     {
       "headline": "Belgium v Iran: World Cup 2026 – live",
@@ -10,25 +10,80 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 18:01:28 GMT",
+      "pubDate": "Sun, 21 Jun 2026 19:46:21 GMT",
       "teams": [
         "Belgium",
         "Iran"
       ]
     },
     {
-      "headline": "Spain 4-0 Saudi Arabia: World Cup 2026 – live",
+      "headline": "Lamine Yamal shows why this could be his World Cup",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/spain-v-saudi-arabia-world-cup-2026-live"
+          "href": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f75/live/5b34b430-6da8-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 19:27:01 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal is Spain's main man - Rooney analysis",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/clye4lmd3zzo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e77a/live/e4b0b9c0-6da3-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 19:24:06 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal on target as Spain put four past Saudi Arabia",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cze9g190rz1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0580/live/3b268090-6da0-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 18:51:44 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "From Times Square to England squad: Trevoh Chalobah realises World Cup dream",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/from-times-square-to-england-squad-trevoh-chalobah-realises-world-cup-dream"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 18:00:21 GMT",
+      "pubDate": "Sun, 21 Jun 2026 18:00:36 GMT",
       "teams": [
-        "Saudi Arabia",
-        "Spain"
+        "England"
       ]
     },
     {
@@ -51,7 +106,7 @@
       ]
     },
     {
-      "headline": "'He's arrived' - Yamal scores the opener for Spain",
+      "headline": "'He's arrived' - Lamine Yamal scores the opener for Spain",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/videos/c1jyr87472jo?at_medium=RSS&at_campaign=rss"
@@ -458,55 +513,6 @@
       "pubDate": "Sun, 21 Jun 2026 03:14:41 GMT",
       "teams": [
         "Ecuador"
-      ]
-    },
-    {
-      "headline": "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 02:35:43 GMT",
-      "teams": [
-        "Curaçao",
-        "Ecuador",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Rice feels like he will get an assist at every corner",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cj6g1dnr12yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c7/live/60a03720-6d06-11f1-b622-5db122690c78.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 01:03:54 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "England offer rare peek behind the curtain with no place to hide under Tuchel",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/england-world-cup-training-intensity-peek-behind-curtain-thomas-tuchel"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 00:58:34 GMT",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     }
   ]
