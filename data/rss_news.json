@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-21T14:42:58.213Z",
+  "asOf": "2026-06-21T16:22:46.709Z",
   "items": [
     {
       "headline": "Spain v Saudi Arabia: World Cup 2026 – live",
@@ -10,28 +10,45 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 14:30:52 GMT",
+      "pubDate": "Sun, 21 Jun 2026 16:16:30 GMT",
       "teams": [
         "Saudi Arabia",
         "Spain"
       ]
     },
     {
-      "headline": "World Cup 2026: Egypt manager denies Salah rift; Spain screening scrapped due to Madrid heat – live",
+      "headline": "VAR official who made hand gesture returns to World Cup duty",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
+          "href": "https://www.bbc.com/sport/football/articles/cr5jv508qd7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f73/live/314f8770-6903-11f1-9f9e-71137dc50e9c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 15:58:46 GMT",
+      "teams": [
+        "Egypt",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Declan Rice reveals he has played through hamstring nerve pain for six months",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/england-declan-rice-hamstring-nerve-pain-arsenal-schedule-world-cup"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 14:25:39 GMT",
+      "pubDate": "Sun, 21 Jun 2026 15:30:59 GMT",
       "teams": [
-        "Belgium",
-        "Egypt",
-        "Iran",
-        "Uruguay",
-        "Spain"
+        "England",
+        "Croatia",
+        "Ghana"
       ]
     },
     {
@@ -51,7 +68,7 @@
       "teams": []
     },
     {
-      "headline": "The beauty of sharing the first World Cup with your child",
+      "headline": "The beauty of sharing your child's first World Cup",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss"
@@ -493,20 +510,6 @@
       "teams": [
         "Germany",
         "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "‘Gary, that’s my job’: Lineker makes ITV presenting cameo on World Cup coverage",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/gary-lineker-itv-presenting-cameo-world-cup-coverage"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 21:50:36 GMT",
-      "teams": [
-        "Germany"
       ]
     }
   ]
