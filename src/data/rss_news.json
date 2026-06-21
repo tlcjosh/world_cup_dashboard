@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-06-21T10:21:23.185Z",
+  "asOf": "2026-06-21T12:24:13.095Z",
   "items": [
     {
-      "headline": "World Cup 2026: Infantino criticised over private jet use; Curaçao secure historic point – live",
+      "headline": "World Cup 2026: Spain screening in Madrid scrapped due to heat; Curaçao keeper ‘deserves statue’ – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 10:14:29 GMT",
+      "pubDate": "Sun, 21 Jun 2026 12:11:29 GMT",
       "teams": [
         "Curaçao",
         "Belgium",
@@ -18,6 +18,39 @@
         "Iran",
         "Uruguay",
         "Spain"
+      ]
+    },
+    {
+      "headline": "Thomas Partey in spotlight as he faces England and former Arsenal teammates after rape charges",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/thomas-partey-england-ghana-handshake"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 11:11:47 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "All three England keepers played there - Carlisle's role in trio's rise",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/ckg4qw57d4do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac9e/live/4957c8e0-6bf7-11f1-8bf6-931d18012412.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 10:43:54 GMT",
+      "teams": [
+        "England"
       ]
     },
     {
@@ -488,41 +521,6 @@
       "teams": [
         "Netherlands",
         "Sweden"
-      ]
-    },
-    {
-      "headline": "Scotland’s World Cup destiny is in their own hands but lack of gamechangers shows | Ewan Murray",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/scotland-2026-world-cup-destiny-morocco-brazil-steve-clarke"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 18:13:50 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Saka trains alone as England prepare for Ghana game",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cr47wqdq26lo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed1e/live/7d2c8b10-6cce-11f1-af86-f18c6df0a749.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 18:02:39 GMT",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     }
   ]
