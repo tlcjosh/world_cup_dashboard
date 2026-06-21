@@ -1,6 +1,147 @@
 {
-  "asOf": "2026-06-21T21:38:59.219Z",
+  "asOf": "2026-06-21T22:49:47.694Z",
   "items": [
+    {
+      "headline": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cjwg6le7193o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/820c/live/00476270-6dc1-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 22:46:33 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Uruguay v Cape Verde: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 22:46:29 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Tuchel not afraid to shout at players - Watkins",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b76/live/001d88c0-6dc0-11f1-bb27-aba127c3e7aa.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 22:04:05 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Ten-man Belgium remain winless after draw with Iran",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cy06gxjnx3lo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0af/live/baff2750-6db8-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 21:55:21 GMT",
+      "teams": [
+        "Belgium",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/kylian-mbappe-hungry-for-golden-boot-battle-with-messi-as-he-sings-les-bleus"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 21:47:01 GMT",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Does it matter if Scotland lose and still make history?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c23/live/5cac2940-6db9-11f1-a4ca-7b7f0c2cb38a.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 21:39:43 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Does it matter if Scotland lose and still make history?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c23/live/5cac2940-6db9-11f1-a4ca-7b7f0c2cb38a.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 21:39:43 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "VAR rules out Iran's Weghorst-esque goal",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cx24y5ympdjo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9446/live/845bc4a0-6db9-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 21:39:38 GMT",
+      "teams": [
+        "Iran",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Proposals to keep 'crown jewel' sports free on streaming services",
       "links": {
@@ -16,20 +157,6 @@
       "source": "BBC Sport",
       "pubDate": "Sun, 21 Jun 2026 21:33:39 GMT",
       "teams": []
-    },
-    {
-      "headline": "Uruguay v Cape Verde: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 21:27:43 GMT",
-      "teams": [
-        "Uruguay"
-      ]
     },
     {
       "headline": "Iran frustrate 10-man Belgium in World Cup stalemate as Nathan Ngoy sees red",
@@ -73,7 +200,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e77a/live/e4b0b9c0-6da3-11f1-b1db-af71d47507d6.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ed1/live/663e78a0-6dbe-11f1-8546-8f19e4fe30f4.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -391,125 +518,6 @@
       "teams": [
         "Japan",
         "Tunisia"
-      ]
-    },
-    {
-      "headline": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT",
-      "teams": [
-        "Japan",
-        "Sweden",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 14",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c3e2wj9ppy4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95af/live/abb60bd0-64ec-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 06:12:41 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Brian Brobbey bags a brace and Deniz Undav, supersub: World Cup Daily – podcast",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/audio/2026/jun/21/brian-brobbey-netherlands-sweden-germany-deniz-undav-curacao-ecuador"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 05:15:02 GMT",
-      "teams": [
-        "Germany",
-        "Ecuador",
-        "Netherlands",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "Goalline technology denies Japan goal by fractions",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cgevqpe33jvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a4/live/58788cc0-6d2c-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 05:01:44 GMT",
-      "teams": [
-        "Japan",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "Australia’s Jackson Irvine has no sympathy for Paraguay after historic World Cup red card",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/australias-jackson-irvine-has-no-sympathy-for-paraguay-after-historic-world-cup-red-card"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 04:50:24 GMT",
-      "teams": [
-        "Paraguay",
-        "Australia",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Meet the record-equalling keeper who helped Curacao make history",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cvg58z9gl34o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6da1/live/cc8be0e0-6d26-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 04:29:28 GMT",
-      "teams": [
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "The 2026 World Cup team of the tournament so far (without the superstars)",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/the-2026-world-cup-team-of-the-tournament-so-far-without-the-superstars"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Spain",
-        "Portugal"
       ]
     }
   ]
