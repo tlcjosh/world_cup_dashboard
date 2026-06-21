@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v17';
-const APP_UPDATED = '2026-06-20 18:12 UTC';
+const APP_VERSION = 'v17.1';
+const APP_UPDATED = '2026-06-21 04:49 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -563,7 +563,7 @@ async function fetchESPN() {
   // Note: no "syncing" pill state here — there's no distinct visual style for it, so
   // setting it would just flash the pill back to its neutral base style every poll.
   try {
-    const res = await fetch(ESPN_SCOREBOARD_URL + '?_=' + Date.now());
+    const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${espnTodayDateRange()}&_=${Date.now()}`);
     if (!res.ok) throw new Error('ESPN ' + res.status);
     const data = await res.json();
     mergeESPNData(data.events || []);
@@ -652,6 +652,18 @@ function shiftDateStr(dateStr, days) {
   const d = new Date(`${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}T12:00:00Z`);
   d.setUTCDate(d.getUTCDate() + days);
   return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
+// fetchESPN()'s live poll omits `dates=` entirely and relies on ESPN's own default
+// "today" boundary, which isn't anchored to Pacific time. A late-night Pacific kickoff
+// (e.g. 8:59 PM PDT, 11:59 PM EDT) can fall on ESPN's previous scoreboard day, so once
+// ESPN's boundary ticks over the live match silently drops out of the default response
+// even though it's still in play. Request an explicit ±1 day window (Pacific-anchored,
+// same basis as kickoffToDateStr/getTodayMatches) so today's matches are never excluded
+// regardless of which day-boundary convention ESPN's default actually uses.
+function espnTodayDateRange() {
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }).replace(/-/g, '');
+  return `${shiftDateStr(todayStr, -1)}-${shiftDateStr(todayStr, 1)}`;
 }
 
 // Late-night Pacific kickoffs (e.g. 8:59 PM PDT) can land on a different calendar
