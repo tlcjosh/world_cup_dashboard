@@ -1,19 +1,103 @@
 {
-  "asOf": "2026-06-21T01:42:30.924Z",
+  "asOf": "2026-06-21T04:51:26.480Z",
   "items": [
     {
-      "headline": "Ecuador v Curaçao: World Cup 2026 – live",
+      "headline": "Tunisia v Japan: World Cup 2026 – live",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/20/ecuador-v-curacao-world-cup-2026-live"
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/fifa-world-cup-2026-live-tunisia-v-japan-updates-tun-vs-jpn-group-f-match-score-latest"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 01:29:32 GMT",
+      "pubDate": "Sun, 21 Jun 2026 04:44:21 GMT",
+      "teams": [
+        "Japan",
+        "Tunisia"
+      ]
+    },
+    {
+      "headline": "Meet the record-equalling keeper who helped Curacao make history",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cvg58z9gl34o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6da1/live/cc8be0e0-6d26-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 04:29:28 GMT",
+      "teams": [
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "The 2026 World Cup team of the tournament so far (without the superstars)",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/the-2026-world-cup-team-of-the-tournament-so-far-without-the-superstars"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Impenetrable Room inspires Curacao to first World Cup point",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/c3dyvklky1mo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/989e/live/515dc050-6d17-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 03:14:41 GMT",
+      "teams": [
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Curaçao stand firm and claim historic first World Cup point against Ecuador",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 02:35:43 GMT",
       "teams": [
         "Curaçao",
-        "Ecuador"
+        "Ecuador",
+        "Netherlands"
       ]
     },
     {
@@ -102,22 +186,6 @@
       ]
     },
     {
-      "headline": "Lamine Yamal a genius ‘like Dalí or Michelangelo’, says Spain’s De la Fuente",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/lamine-yamal-genius-salvador-dali-michelangelo-spain-luis-de-la-fuente-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 22:48:23 GMT",
-      "teams": [
-        "United States",
-        "Saudi Arabia",
-        "Spain"
-      ]
-    },
-    {
       "headline": "Undav scores twice as Germany fight back to beat Ivory Coast",
       "links": {
         "web": {
@@ -146,20 +214,6 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Sat, 20 Jun 2026 22:17:44 GMT",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "‘Gary, that’s my job’: Lineker makes ITV presenting cameo on World Cup coverage",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/gary-lineker-itv-presenting-cameo-world-cup-coverage"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 21:50:36 GMT",
       "teams": [
         "Germany"
       ]
@@ -217,6 +271,25 @@
       "teams": [
         "Morocco",
         "Scotland"
+      ]
+    },
+    {
+      "headline": "Netherlands thrash Sweden to all but guarantee last-32 place",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/c17yl58xlpdo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c4a/live/9f160a30-6cdd-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 20 Jun 2026 19:36:30 GMT",
+      "teams": [
+        "Netherlands",
+        "Sweden"
       ]
     },
     {
@@ -337,21 +410,6 @@
       "teams": []
     },
     {
-      "headline": "Down but not out: Socceroos take heart from positives in defeat to USA | Jack Snape",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/down-but-not-out-socceroos-take-heart-from-positives-in-defeat-to-usa"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 15:00:04 GMT",
-      "teams": [
-        "Paraguay",
-        "Australia"
-      ]
-    },
-    {
       "headline": "Boston bounce sends Scotland to Miami with hope and no fear",
       "links": {
         "web": {
@@ -453,57 +511,6 @@
       "source": "BBC Sport",
       "pubDate": "Sat, 20 Jun 2026 11:39:00 GMT",
       "teams": []
-    },
-    {
-      "headline": "David Raya: ‘When you lose a Champions League final it destroys you inside’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/david-raya-when-you-lose-a-champions-league-final-it-destroys-you-inside"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 11:00:04 GMT",
-      "teams": [
-        "New Zealand",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "'Everything I do is for you' - how tragedy is driving Diomande",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg04xer94eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09b3/live/ad64bcc0-6bbc-11f1-8e5f-879143928516.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 08:56:58 GMT",
-      "teams": [
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "White House in talks over Iran travel restrictions",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c5yz70gjy3xo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9210/live/46b2f1d0-6bae-11f1-8e5f-879143928516.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 08:52:50 GMT",
-      "teams": [
-        "Iran"
-      ]
     }
   ]
 }
