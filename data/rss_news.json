@@ -1,8 +1,23 @@
 {
-  "asOf": "2026-06-21T16:22:46.709Z",
+  "asOf": "2026-06-21T18:05:08.153Z",
   "items": [
     {
-      "headline": "Spain v Saudi Arabia: World Cup 2026 – live",
+      "headline": "Belgium v Iran: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/belgium-v-iran-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 18:01:28 GMT",
+      "teams": [
+        "Belgium",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Spain 4-0 Saudi Arabia: World Cup 2026 – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/21/spain-v-saudi-arabia-world-cup-2026-live"
@@ -10,7 +25,45 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 16:16:30 GMT",
+      "pubDate": "Sun, 21 Jun 2026 18:00:21 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Brazil preview and is the World Cup catching fire in USA?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nt9cg7?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0gf9mfx.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 16:46:00 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "'He's arrived' - Yamal scores the opener for Spain",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/c1jyr87472jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/497d/live/defe68e0-6d8c-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 16:31:27 GMT",
       "teams": [
         "Saudi Arabia",
         "Spain"
@@ -375,6 +428,21 @@
       ]
     },
     {
+      "headline": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain"
+      ]
+    },
+    {
       "headline": "Impenetrable Room inspires Curacao to first World Cup point",
       "links": {
         "web": {
@@ -439,77 +507,6 @@
       "teams": [
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "From factory floor to World Cup star - Germany's super-sub Undav",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c8r2pm4xrxro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eca3/live/4db43390-6d07-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 00:22:07 GMT",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Fastest World Cup to 100 goals in 68 years - are balls and breaks behind it?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cvglnkw1l93o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbca/live/6f5805b0-6ceb-11f1-8fed-b71bf98a91c0.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 23:46:26 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Doku criticised over plan to return home for birth",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9f0/live/437e5230-6cf7-11f1-a2f0-b979aaa59223.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 23:21:21 GMT",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Undav scores twice as Germany fight back to beat Ivory Coast",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/ced40yzdy4eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad75/live/3486a530-6cf6-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 22:45:52 GMT",
-      "teams": [
-        "Germany",
-        "Ivory Coast"
       ]
     }
   ]
