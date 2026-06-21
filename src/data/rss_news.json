@@ -1,8 +1,27 @@
 {
-  "asOf": "2026-06-21T04:51:26.480Z",
+  "asOf": "2026-06-21T06:33:34.593Z",
   "items": [
     {
-      "headline": "Tunisia v Japan: World Cup 2026 – live",
+      "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cx260v333plo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/547c/live/34d20aa0-6d39-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 06:25:15 GMT",
+      "teams": [
+        "Japan",
+        "Tunisia"
+      ]
+    },
+    {
+      "headline": "Tunisia 0-4 Japan: World Cup 2026 – live reaction",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/21/fifa-world-cup-2026-live-tunisia-v-japan-updates-tun-vs-jpn-group-f-match-score-latest"
@@ -10,10 +29,78 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 04:44:21 GMT",
+      "pubDate": "Sun, 21 Jun 2026 06:25:04 GMT",
       "teams": [
         "Japan",
         "Tunisia"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 14",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c3e2wj9ppy4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95af/live/abb60bd0-64ec-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 06:12:41 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Brian Brobbey bags a brace and Deniz Undav, supersub: World Cup Daily – podcast",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/audio/2026/jun/21/brian-brobbey-netherlands-sweden-germany-deniz-undav-curacao-ecuador"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 05:15:02 GMT",
+      "teams": [
+        "Germany",
+        "Ecuador",
+        "Netherlands",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Goalline technology denies Japan goal by fractions",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cgevqpe33jvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a4/live/58788cc0-6d2c-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 05:01:44 GMT",
+      "teams": [
+        "Japan",
+        "Tunisia"
+      ]
+    },
+    {
+      "headline": "Australia’s Jackson Irvine has no sympathy for Paraguay after historic World Cup red card",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/australias-jackson-irvine-has-no-sympathy-for-paraguay-after-historic-world-cup-red-card"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 04:50:24 GMT",
+      "teams": [
+        "Paraguay",
+        "Australia",
+        "Turkey"
       ]
     },
     {
@@ -426,91 +513,6 @@
       "teams": [
         "Scotland"
       ]
-    },
-    {
-      "headline": "Why Kane is different at this World Cup - Shearer",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/crr87vwrwwlo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a69c/live/a4d23930-6cbf-11f1-95c0-035571ba4bec.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 13:24:12 GMT",
-      "teams": [
-        "Qatar",
-        "England"
-      ]
-    },
-    {
-      "headline": "Football Daily | Turkey need another rebrand after failing to take flight at World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/turkey-exit-tears-world-cup-2026-football-daily-newsletter"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 13:22:15 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Australia",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Curacao's trailblazer doctor on football's big stage",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg08ewg9l2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 12:35:17 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Oh, brother! The sibling rivals lining up for different World Cup teams",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ce3ev0v7ge4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce42/live/9ffa7e10-6b2d-11f1-858e-3f275ac14006.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 11:55:37 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Why are so many World Cup goals being scored late?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cly9q9nrgdxo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8110/live/ca9c98b0-6be1-11f1-95c7-b58617a2924f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 11:39:00 GMT",
-      "teams": []
     }
   ]
 }
