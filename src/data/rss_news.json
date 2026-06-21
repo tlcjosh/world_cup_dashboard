@@ -1,16 +1,46 @@
 {
-  "asOf": "2026-06-21T20:00:41.403Z",
+  "asOf": "2026-06-21T21:38:59.219Z",
   "items": [
     {
-      "headline": "Belgium v Iran: World Cup 2026 – live",
+      "headline": "Proposals to keep 'crown jewel' sports free on streaming services",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/belgium-v-iran-world-cup-2026-live"
+          "href": "https://www.bbc.com/sport/articles/cjdgy5xvpd5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a53/live/6afb3f60-6da8-11f1-ad73-af954e6a3145.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 21:33:39 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Uruguay v Cape Verde: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 19:46:21 GMT",
+      "pubDate": "Sun, 21 Jun 2026 21:27:43 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Iran frustrate 10-man Belgium in World Cup stalemate as Nathan Ngoy sees red",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/belgium-iran-world-cup-group-g-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 21:16:20 GMT",
       "teams": [
         "Belgium",
         "Iran"
@@ -480,39 +510,6 @@
         "Canada",
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Impenetrable Room inspires Curacao to first World Cup point",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/c3dyvklky1mo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/989e/live/515dc050-6d17-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 03:14:41 GMT",
-      "teams": [
-        "Ecuador"
       ]
     }
   ]
