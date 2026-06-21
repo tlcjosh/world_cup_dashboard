@@ -1,8 +1,23 @@
 {
-  "asOf": "2026-06-21T12:24:13.095Z",
+  "asOf": "2026-06-21T14:42:58.213Z",
   "items": [
     {
-      "headline": "World Cup 2026: Spain screening in Madrid scrapped due to heat; Curaçao keeper ‘deserves statue’ – live",
+      "headline": "Spain v Saudi Arabia: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/spain-v-saudi-arabia-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 14:30:52 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Egypt manager denies Salah rift; Spain screening scrapped due to Madrid heat – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
@@ -10,14 +25,98 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 12:11:29 GMT",
+      "pubDate": "Sun, 21 Jun 2026 14:25:39 GMT",
       "teams": [
-        "Curaçao",
         "Belgium",
         "Egypt",
         "Iran",
         "Uruguay",
         "Spain"
+      ]
+    },
+    {
+      "headline": "The World Cup records that look set to be broken",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cpv3kkv4z4mo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 13:55:05 GMT",
+      "teams": []
+    },
+    {
+      "headline": "The beauty of sharing the first World Cup with your child",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/734e/live/2dc74eb0-6d6f-11f1-a2ba-775ae811ce10.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 13:27:51 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Football Daily | Guns for hire and gegenpress eggheads bring World Cup subplots aplenty",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/football-daily-geopolitics-world-cup-maverick-managerial-matchups"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 13:26:56 GMT",
+      "teams": []
+    },
+    {
+      "headline": "What have we learned from Scotland's World Cup so far?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f3/live/7cd59ef0-6d72-11f1-a2ba-775ae811ce10.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 13:14:21 GMT",
+      "teams": [
+        "Morocco",
+        "Haiti",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "What have we learned from Scotland's World Cup so far as Brazil test looms?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f3/live/7cd59ef0-6d72-11f1-a2ba-775ae811ce10.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 13:14:21 GMT",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Haiti",
+        "Scotland"
       ]
     },
     {
@@ -105,6 +204,20 @@
       "source": "BBC Sport",
       "pubDate": "Sun, 21 Jun 2026 09:25:46 GMT",
       "teams": []
+    },
+    {
+      "headline": "The French aristocrat and the all-American idiot: Henry v Lalas is the World Cup’s most compelling battle",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/thierry-henry-alexi-lalas-fox-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 09:00:27 GMT",
+      "teams": [
+        "Iran"
+      ]
     },
     {
       "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
@@ -225,21 +338,6 @@
       "pubDate": "Sun, 21 Jun 2026 04:29:28 GMT",
       "teams": [
         "Ecuador"
-      ]
-    },
-    {
-      "headline": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Spain"
       ]
     },
     {
@@ -398,129 +496,17 @@
       ]
     },
     {
-      "headline": "Cooling hoodies help England staff combat World Cup heat",
+      "headline": "‘Gary, that’s my job’: Lineker makes ITV presenting cameo on World Cup coverage",
       "links": {
         "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cwy0gn19zqlo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c9/live/1a5813d0-6ce0-11f1-aa77-e37ebac005b3.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 20:17:41 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Scotland expects: What is behind McTominay's understated World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 20:16:11 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Scotland expects: What is behind McTominay's understated World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 20:16:11 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Scotland 0-1 Morocco: Unique angles and behind the scenes",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/videos/c0ly473g3dgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66eb/live/205dd350-6ce0-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 19:45:21 GMT",
-      "teams": [
-        "Morocco",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Netherlands thrash Sweden to all but guarantee last-32 place",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/c17yl58xlpdo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c4a/live/9f160a30-6cdd-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 19:36:30 GMT",
-      "teams": [
-        "Netherlands",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "The brilliant Michael Olise represents a key faultline in history of French football | Jonathan Wilson",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/michael-olise-france-world-cup-didier-deschamps"
+          "href": "https://www.theguardian.com/football/2026/jun/20/gary-lineker-itv-presenting-cameo-world-cup-coverage"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 19:00:09 GMT",
+      "pubDate": "Sat, 20 Jun 2026 21:50:36 GMT",
       "teams": [
-        "France",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Gakpo fires home the 100th goal of this World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cn75dex8dg7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f105/live/95400d00-6cd6-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 18:48:15 GMT",
-      "teams": [
-        "Netherlands",
-        "Sweden"
+        "Germany"
       ]
     }
   ]
