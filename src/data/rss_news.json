@@ -1,6 +1,78 @@
 {
-  "asOf": "2026-06-21T06:33:34.593Z",
+  "asOf": "2026-06-21T10:21:23.185Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Infantino criticised over private jet use; Curaçao secure historic point – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 10:14:29 GMT",
+      "teams": [
+        "Curaçao",
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Dutch royals enjoy two big results in one World Cup day",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c4gydq973nqo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ba7/live/8e13eaf0-6d4f-11f1-8706-d941bf9d0475.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 09:45:57 GMT",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Just's rise from Austrian second tier to World Cup breakout star",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cr7pr9j23dyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3ed/live/87f26560-6986-11f1-ac49-cbb0d85207cb.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 09:44:29 GMT",
+      "teams": [
+        "Scotland",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "World Cup quiz: Name every Golden Boot winner",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/ckgpjw4wd21o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c8/live/eb8d44c0-6812-11f1-8e1d-bbbb1017d210.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 09:25:46 GMT",
+      "teams": []
+    },
     {
       "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
       "links": {
@@ -21,17 +93,18 @@
       ]
     },
     {
-      "headline": "Tunisia 0-4 Japan: World Cup 2026 – live reaction",
+      "headline": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/fifa-world-cup-2026-live-tunisia-v-japan-updates-tun-vs-jpn-group-f-match-score-latest"
+          "href": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 06:25:04 GMT",
+      "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT",
       "teams": [
         "Japan",
+        "Sweden",
         "Tunisia"
       ]
     },
@@ -172,7 +245,7 @@
       ]
     },
     {
-      "headline": "Curaçao stand firm and claim historic first World Cup point against Ecuador",
+      "headline": "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report"
@@ -292,20 +365,6 @@
       ]
     },
     {
-      "headline": "Deniz Undav’s double earns Germany dramatic late win against Côte d’Ivoire",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/germany-cote-divoire-group-e-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 22:17:44 GMT",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
       "headline": "Cooling hoodies help England staff combat World Cup heat",
       "links": {
         "web": {
@@ -321,6 +380,24 @@
       "pubDate": "Sat, 20 Jun 2026 20:17:41 GMT",
       "teams": [
         "England"
+      ]
+    },
+    {
+      "headline": "Scotland expects: What is behind McTominay's understated World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c78yn1gzy6do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/a666e320-6ce4-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 20 Jun 2026 20:16:11 GMT",
+      "teams": [
+        "Scotland"
       ]
     },
     {
@@ -414,20 +491,6 @@
       ]
     },
     {
-      "headline": "Take me home: why Country Roads has struck a chord at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/take-me-home-country-roads-world-cup-usmnt"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 18:45:16 GMT",
-      "teams": [
-        "Australia"
-      ]
-    },
-    {
       "headline": "Scotland’s World Cup destiny is in their own hands but lack of gamechangers shows | Ewan Murray",
       "links": {
         "web": {
@@ -460,58 +523,6 @@
       "teams": [
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "Brobbey scores twice against Sweden",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cvgq90lvyklo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d59a/live/71022ee0-6ccd-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 17:57:23 GMT",
-      "teams": [
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "How does qualification for the World Cup knockout stage work?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cp8l6zj8441o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca7e/live/406b0410-6cbd-11f1-9fea-e751269afdb9.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 16:24:00 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Boston bounce sends Scotland to Miami with hope and no fear",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c0my8z7vpg3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71e5/live/620d4300-6cb6-11f1-9fea-e751269afdb9.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 14:43:39 GMT",
-      "teams": [
-        "Scotland"
       ]
     }
   ]
