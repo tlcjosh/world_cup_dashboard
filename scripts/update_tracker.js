@@ -402,6 +402,24 @@ const RSS_FEEDS = [
 
 const TEAM_NAMES = Object.keys(TEAM_MASTER_DATA);
 
+// RSS prose rarely uses our exact TEAM_MASTER_DATA key — outlets favor common/
+// colloquial names ("USA", "Czech Republic", "Bosnia") over official ones. Extra
+// substrings to also check per team, on top of the team's own full name. Kept
+// conservative (no single ambiguous tokens like "Korea" or "Congo" alone, which
+// would cross-match North Korea / Congo-Brazzaville coverage).
+const TEAM_NAME_ALIASES = {
+  'United States': ['USA', 'U.S.', 'Team USA', 'US Soccer'],
+  'South Korea': ['Korea Republic'],
+  'Czechia': ['Czech Republic'],
+  'Bosnia-Herzegovina': ['Bosnia'],
+  'Ivory Coast': ["Côte d'Ivoire", "Cote d'Ivoire"],
+  'Congo DR': ['DR Congo', 'Democratic Republic of Congo', 'DRC'],
+  'Cape Verde Islands': ['Cape Verde', 'Cabo Verde'],
+  'Curaçao': ['Curacao'],
+  'Turkey': ['Türkiye', 'Turkiye'],
+  'Saudi Arabia': ['Saudi'],
+};
+
 function decodeRssEntities(s) {
   return s
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -430,10 +448,14 @@ function parseRssItems(xml) {
 
 // RSS feeds carry no team/event IDs, unlike ESPN's structured categories[] —
 // this is the closest equivalent: a case-insensitive substring match of every
-// TEAM_MASTER_DATA name against the article's title+description.
+// TEAM_MASTER_DATA name (plus common aliases — see TEAM_NAME_ALIASES) against
+// the article's title+description.
 function matchTeams(text) {
   const lower = text.toLowerCase();
-  return TEAM_NAMES.filter(team => lower.includes(team.toLowerCase()));
+  return TEAM_NAMES.filter(team => {
+    const names = [team, ...(TEAM_NAME_ALIASES[team] || [])];
+    return names.some(n => lower.includes(n.toLowerCase()));
+  });
 }
 
 async function fetchRssFeed(feed) {
@@ -460,21 +482,40 @@ async function fetchRssFeed(feed) {
   }
 }
 
+// Each feed's RSS endpoint only ever returns its current ~20-50 latest items —
+// there's no historical lookup. Previously this function overwrote
+// rss_news.json with just that latest batch every sync, so once an article
+// scrolled off a feed's live RSS it was gone forever from our data too,
+// leaving older matches' news with nothing but ESPN. Now it accumulates: every
+// previously-saved item is kept (deduped by link) and merged with whatever's
+// newly fetched, so the archive only grows across the tournament and old
+// matches keep their RSS coverage. Capped defensively at MAX_RSS_ARCHIVE so a
+// full tournament's worth of items can't grow the file unboundedly; well above
+// what a one-month tournament across 6 feeds actually produces.
+const MAX_RSS_ARCHIVE = 1000;
+
 async function syncRssNews() {
   const results = await Promise.all(RSS_FEEDS.map(fetchRssFeed));
-  const items = results.flat()
-    .sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0))
-    .slice(0, 30);
+  const fetched = results.flat();
 
-  let currentLinks = null;
+  let existing = [];
   try {
-    currentLinks = JSON.parse(readFileSync(RSS_NEWS_PATH, 'utf8')).items.map(i => i.links.web.href).join(',');
+    existing = JSON.parse(readFileSync(RSS_NEWS_PATH, 'utf8')).items || [];
   } catch { /* none yet */ }
+
+  const byLink = new Map(existing.map(i => [i.links.web.href, i]));
+  for (const item of fetched) byLink.set(item.links.web.href, item);
+
+  const items = [...byLink.values()]
+    .sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0))
+    .slice(0, MAX_RSS_ARCHIVE);
+
+  const currentLinks = existing.map(i => i.links.web.href).join(',');
   const newLinks = items.map(i => i.links.web.href).join(',');
   if (newLinks === currentLinks) return false;
 
   writeFileSync(RSS_NEWS_PATH, JSON.stringify({ asOf: new Date().toISOString(), items }, null, 2));
-  console.log(`RSS news updated: ${items.length} World Cup-related items from ${RSS_FEEDS.length} feeds`);
+  console.log(`RSS news updated: ${items.length} World Cup-related items archived (${fetched.length} fetched this sync) from ${RSS_FEEDS.length} feeds`);
   return true;
 }
 
