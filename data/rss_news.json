@@ -1,22 +1,6 @@
 {
-  "asOf": "2026-06-22T16:07:07.444Z",
+  "asOf": "2026-06-22T16:43:07.587Z",
   "items": [
-    {
-      "headline": "World Cup 2026: Cape Verde celebrations; Norway v Senegal weather warning; L’Équipe apologises to Doku – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/22/world-cup-2026-cape-verde-continue-remarkable-story-messi-mbappe-and-haaland-return-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 16:03:00 GMT",
-      "teams": [
-        "Iran",
-        "Senegal",
-        "Norway"
-      ]
-    },
     {
       "headline": "Argentina v Austria: World Cup 2026 – live",
       "links": {
@@ -26,11 +10,47 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 16:01:31 GMT",
+      "pubDate": "Mon, 22 Jun 2026 16:32:59 GMT",
       "teams": [
         "Argentina",
-        "Austria"
+        "Austria",
+        "Jordan"
       ]
+    },
+    {
+      "headline": "Why Saudi Arabia and Iraq flags are not laid down at World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cdjk2nny7peo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b704/live/29577190-6e58-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 16:29:58 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "What is BBC's 3D Live Match Experience and how does it work?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/articles/ckg5lx6d5pxo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bce/live/879a3ca0-6e4f-11f1-8e1d-bbbb1017d210.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 16:23:40 GMT",
+      "teams": []
     },
     {
       "headline": "A history of World Cup red cards: high feet, lost heads and a covered mouth",
@@ -361,25 +381,6 @@
         "Brazil",
         "Morocco",
         "Scotland"
-      ]
-    },
-    {
-      "headline": "Meet the Belfast man aiming to upset England with Ghana",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cgqj7q25q35o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a811/live/44667bf0-6d7e-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 06:53:49 GMT",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     },
     {
