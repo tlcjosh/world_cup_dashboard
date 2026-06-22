@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-06-22T11:17:40.211Z",
+  "asOf": "2026-06-22T16:07:07.444Z",
   "items": [
     {
-      "headline": "World Cup 2026: Cape Verde’s story continues; L’Équipe apologises to Doku over ‘disgusting’ comments – live",
+      "headline": "World Cup 2026: Cape Verde celebrations; Norway v Senegal weather warning; L’Équipe apologises to Doku – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/22/world-cup-2026-cape-verde-continue-remarkable-story-messi-mbappe-and-haaland-return-live"
@@ -10,10 +10,142 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 10:58:17 GMT",
+      "pubDate": "Mon, 22 Jun 2026 16:03:00 GMT",
       "teams": [
-        "Iran"
+        "Iran",
+        "Senegal",
+        "Norway"
       ]
+    },
+    {
+      "headline": "Argentina v Austria: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/argentina-v-austria-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 16:01:31 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "A history of World Cup red cards: high feet, lost heads and a covered mouth",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/world-cup-red-cards-history"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 15:15:24 GMT",
+      "teams": [
+        "Mexico",
+        "South Africa",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "African teams have a point to prove at this World Cup. How are they faring?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/africa-is-out-to-prove-a-point-at-this-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 14:40:55 GMT",
+      "teams": [
+        "Qatar",
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Is VAR being used differently at the World Cup vs the Premier League?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cy06881596wo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e26/live/4034d590-6e41-11f1-8a85-d1d176b992ab.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 14:39:42 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Football Daily | Uruguay misfire and leave Bielsa-ball in danger of kicking the bucket",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/uruguay-bielsa-ball-world-cup-football-daily-newsletter"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 14:22:49 GMT",
+      "teams": [
+        "Tunisia",
+        "Saudi Arabia",
+        "Uruguay",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Germany defender Schlotterbeck out of World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e9b/live/1484a940-6e30-11f1-9fdc-51e252bb92b4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 12:47:20 GMT",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 12:01:44 GMT",
+      "teams": []
+    },
+    {
+      "headline": "More than the Score",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0ntdxyd?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntdxzt.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 11:38:00 GMT",
+      "teams": []
     },
     {
       "headline": "Madueke's remarkable season - from petition to World Cup starter",
@@ -31,6 +163,20 @@
       "pubDate": "Mon, 22 Jun 2026 10:47:17 GMT",
       "teams": [
         "England"
+      ]
+    },
+    {
+      "headline": "The Hotspot | Aramco’s petrodollar backing of World Cup leaves stain of sportswashing",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/sport/2026/jun/22/aramco-petrodollar-world-cup-football-sportswashing-the-hotspot"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 10:39:10 GMT",
+      "teams": [
+        "Saudi Arabia"
       ]
     },
     {
@@ -218,7 +364,7 @@
       ]
     },
     {
-      "headline": "From Belfast to the World Cup - McDermott's American odyssey",
+      "headline": "Meet the Belfast man aiming to upset England with Ghana",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/articles/cgqj7q25q35o?at_medium=RSS&at_campaign=rss"
@@ -349,23 +495,6 @@
       ]
     },
     {
-      "headline": "Past and present World Cups collide as Beiranvand first gives Iran inspiration, then hope | Alexander Abnos",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/world-cup-iran-goalkeeper-alireza-beiranvand"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 02:03:57 GMT",
-      "teams": [
-        "Belgium",
-        "Iran",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
       "headline": "One of World Cup's great stories - can Cape Verde become legends?",
       "links": {
         "web": {
@@ -381,150 +510,6 @@
       "pubDate": "Mon, 22 Jun 2026 01:53:23 GMT",
       "teams": [
         "Uruguay"
-      ]
-    },
-    {
-      "headline": "Unbeaten Iran will go down in history - Ghalenoei",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03e9/live/e9674050-6dcc-11f1-81d6-99f5ebd04f90.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 00:24:24 GMT",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Saka trains with England squad before Ghana match",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eda/live/70789fc0-6dce-11f1-897a-fb9cd481447f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 00:13:38 GMT",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Cape Verde fan goes wild live on BBC News as his country scores",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0109/live/d88f5710-6dca-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 23:53:13 GMT",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cjwg6le7193o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/820c/live/00476270-6dc1-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 22:46:33 GMT",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Tuchel not afraid to shout at England players - Watkins",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e3/live/52b1f510-6e1c-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 22:04:05 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Ten-man Belgium remain winless after draw with Iran",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cy06gxjnx3lo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0af/live/baff2750-6db8-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:55:21 GMT",
-      "teams": [
-        "Belgium",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/kylian-mbappe-hungry-for-golden-boot-battle-with-messi-as-he-sings-les-bleus"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 21:47:01 GMT",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "Does it matter if Scotland lose and still make history?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:39:43 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
       ]
     }
   ]
