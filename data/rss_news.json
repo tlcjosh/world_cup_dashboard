@@ -1,6 +1,53 @@
 {
-  "asOf": "2026-06-21T22:49:47.694Z",
+  "asOf": "2026-06-22T00:03:57.687Z",
   "items": [
+    {
+      "headline": "Uruguay v Cape Verde: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 00:01:32 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "New Zealand v Egypt: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/fifa-world-cup-2026-live-new-zealand-v-egypt-updates-nzl-vs-egy-group-g-match-score-latest"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 00:00:46 GMT",
+      "teams": [
+        "Egypt",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Cape Verde fan goes wild over first goal  live on BBC News",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0109/live/d88f5710-6dca-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 23:53:13 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
     {
       "headline": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
       "links": {
@@ -15,20 +62,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Sun, 21 Jun 2026 22:46:33 GMT",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Uruguay v Cape Verde: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 22:46:29 GMT",
       "teams": [
         "Uruguay"
       ]
@@ -159,7 +192,7 @@
       "teams": []
     },
     {
-      "headline": "Iran frustrate 10-man Belgium in World Cup stalemate as Nathan Ngoy sees red",
+      "headline": "Iran’s Beiranvand denies 10-man Belgium in World Cup draw as Nathan Ngoy sees red",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/21/belgium-iran-world-cup-group-g-match-report"
@@ -169,6 +202,7 @@
       "source": "The Guardian",
       "pubDate": "Sun, 21 Jun 2026 21:16:20 GMT",
       "teams": [
+        "Curaçao",
         "Belgium",
         "Iran"
       ]
@@ -486,39 +520,6 @@
       "source": "BBC Sport",
       "pubDate": "Sun, 21 Jun 2026 09:25:46 GMT",
       "teams": []
-    },
-    {
-      "headline": "The French aristocrat and the all-American idiot: Henry v Lalas is the World Cup’s most compelling battle",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/thierry-henry-alexi-lalas-fox-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 09:00:27 GMT",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cx260v333plo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/547c/live/34d20aa0-6d39-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 06:25:15 GMT",
-      "teams": [
-        "Japan",
-        "Tunisia"
-      ]
     }
   ]
 }
