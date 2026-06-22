@@ -2320,10 +2320,14 @@ function renderBracket() {
     const homeWon = hasScore && match.homeScore > match.awayScore;
     const awayWon = hasScore && match.awayScore > match.homeScore;
     const confirmedDot = `<span class="clinch-dot position" title="Clinched — mathematically locked in, official fixture pending">✓</span>`;
+    const metaText = [
+      match.kickoff ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) : '',
+      match.venue,
+    ].filter(Boolean).join(' · ');
 
     return `
-      <div class="b-match">
-        <div class="b-num">M${match.matchNum}</div>
+      <div class="b-match" data-matchnum="${match.matchNum}" title="${metaText}">
+        ${metaText ? `<div class="b-meta">${metaText}</div>` : ''}
         <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
           <span class="flag-link team-flag-wrap" data-team="${home.name}">${flagImg(home.iso, home.name)}${home.confirmed ? confirmedDot : ''}</span>
           <span class="b-team-name team-link" data-team="${home.name}">${home.name}</span>
@@ -3089,6 +3093,15 @@ document.addEventListener('click', e => {
 document.addEventListener('click', e => {
   if (e.target.closest('.team-link, .flag-link, .mc-btn, .news-item, .news-btn')) return; // let those handlers take it
   const card = e.target.closest('.match-card.clickable[data-matchnum]');
+  if (!card) return;
+  const matchNum = parseInt(card.dataset.matchnum, 10);
+  if (matchNum) openMatchModal(matchNum);
+});
+
+// Delegated click handler for bracket match cards — whole card opens the match modal.
+document.addEventListener('click', e => {
+  if (e.target.closest('.team-link, .flag-link')) return;
+  const card = e.target.closest('.b-match[data-matchnum]');
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
   if (matchNum) openMatchModal(matchNum);
