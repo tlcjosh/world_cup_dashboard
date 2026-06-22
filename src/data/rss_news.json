@@ -1,6 +1,271 @@
 {
-  "asOf": "2026-06-22T05:27:48.206Z",
+  "asOf": "2026-06-22T11:17:40.211Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Cape Verde’s story continues; L’Équipe apologises to Doku over ‘disgusting’ comments – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/world-cup-2026-cape-verde-continue-remarkable-story-messi-mbappe-and-haaland-return-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 10:58:17 GMT",
+      "teams": [
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Madueke's remarkable season - from petition to World Cup starter",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38b4/live/8b578340-6dc1-11f1-99a1-adc31e23373a.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 10:47:17 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Iran leave note asking for peace after Belgium draw",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80f1/live/cc9a4d00-6e1c-11f1-806d-d1ff7e093f07.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 09:54:09 GMT",
+      "teams": [
+        "Belgium",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Ask pundits McCann & Crichton your World Cup questions",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c8j2pm834xeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5954/live/7071ba50-698e-11f1-ab9f-5746431126cc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 09:50:49 GMT",
+      "teams": [
+        "Scotland",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Ask pundits McCann & Crichton your World Cup questions",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c8j2pm834xeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5954/live/7071ba50-698e-11f1-ab9f-5746431126cc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 09:50:49 GMT",
+      "teams": [
+        "Scotland",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Who are ya? Behind the scenes of the official World Cup portrait photographs",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/behind-the-scenes-official-world-cup-portrait-photographs"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 09:39:23 GMT",
+      "teams": [
+        "Belgium",
+        "Uruguay",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "A defender's view on how to stop the World Cup's best strikers",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 08:10:21 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Name the seven Scotland survivors from Clarke's first squad",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/770e/live/4d5fb100-64ae-11f1-b1db-af71d47507d6.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 07:46:18 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Name the seven Scotland survivors from Clarke's first squad",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/770e/live/4d5fb100-64ae-11f1-b1db-af71d47507d6.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 07:46:18 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "How sweltering Scotland can handle World Cup heat",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 07:43:16 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "How sweltering Scotland can handle World Cup heat",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 07:43:16 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Podcast: Frustration vs potential - can Scotland step up against Brazil?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0ntcfks?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntczf5.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 07:17:00 GMT",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "From Belfast to the World Cup - McDermott's American odyssey",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cgqj7q25q35o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a811/live/44667bf0-6d7e-11f1-a2ba-775ae811ce10.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 06:53:49 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Cape Verde do it again and Lamine Yamal spurs on Spain | World Cup Daily",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jun/22/cape-verde-do-it-again-and-lamine-yamal-spurs-on-spain-world-cup-daily"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 06:31:08 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 15",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c0k21483m76o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c65c/live/1f5bc250-64ed-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 06:02:45 GMT",
+      "teams": []
+    },
     {
       "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
       "links": {
@@ -66,24 +331,6 @@
       ]
     },
     {
-      "headline": "Messi and Argentina ready to turn up the heat after fast World Cup start",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/lionel-messi-argentina-austria-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 02:10:16 GMT",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "Algeria",
-        "Austria",
-        "England"
-      ]
-    },
-    {
       "headline": "Cape Verde continue to surprise with entertaining Uruguay draw",
       "links": {
         "web": {
@@ -134,22 +381,6 @@
       "pubDate": "Mon, 22 Jun 2026 01:53:23 GMT",
       "teams": [
         "Uruguay"
-      ]
-    },
-    {
-      "headline": "Cape Verde produce another World Cup shock as Varela strike seals Uruguay draw",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/cape-verde-uruguay-world-cup-group-h-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 00:28:46 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Uruguay",
-        "Spain"
       ]
     },
     {
@@ -226,7 +457,7 @@
       ]
     },
     {
-      "headline": "Tuchel not afraid to shout at players - Watkins",
+      "headline": "Tuchel not afraid to shout at England players - Watkins",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss"
@@ -234,7 +465,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b76/live/001d88c0-6dc0-11f1-bb27-aba127c3e7aa.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e3/live/52b1f510-6e1c-11f1-b1db-af71d47507d6.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -286,7 +517,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c23/live/5cac2940-6db9-11f1-a4ca-7b7f0c2cb38a.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -295,228 +526,6 @@
         "Brazil",
         "Scotland"
       ]
-    },
-    {
-      "headline": "Does it matter if Scotland lose and still make history?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c23/live/5cac2940-6db9-11f1-a4ca-7b7f0c2cb38a.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:39:43 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "VAR rules out Iran's Weghorst-esque goal",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cx24y5ympdjo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9446/live/845bc4a0-6db9-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:39:38 GMT",
-      "teams": [
-        "Iran",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Proposals to keep 'crown jewel' sports free on streaming services",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/articles/cjdgy5xvpd5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a53/live/6afb3f60-6da8-11f1-ad73-af954e6a3145.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:33:39 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Lamine Yamal shows why this could be his World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f75/live/5b34b430-6da8-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 19:27:01 GMT",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal is Spain's main man - Rooney analysis",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/clye4lmd3zzo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ed1/live/663e78a0-6dbe-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 19:24:06 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal on target as Spain put four past Saudi Arabia",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cze9g190rz1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0580/live/3b268090-6da0-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 18:51:44 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "From Times Square to England squad: Trevoh Chalobah realises World Cup dream",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/from-times-square-to-england-squad-trevoh-chalobah-realises-world-cup-dream"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 18:00:36 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Brazil preview and is the World Cup catching fire in USA?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0nt9cg7?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0gf9mfx.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 16:46:00 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "'He's arrived' - Lamine Yamal scores the opener for Spain",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/c1jyr87472jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/497d/live/defe68e0-6d8c-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 16:31:27 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Declan Rice reveals he has played through hamstring nerve pain for six months",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/england-declan-rice-hamstring-nerve-pain-arsenal-schedule-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 15:30:59 GMT",
-      "teams": [
-        "England",
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "The World Cup records that look set to be broken",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cpv3kkv4z4mo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:55:05 GMT",
-      "teams": []
-    },
-    {
-      "headline": "The beauty of sharing your child's first World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/734e/live/2dc74eb0-6d6f-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:27:51 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Football Daily | Guns for hire and gegenpress eggheads bring World Cup subplots aplenty",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/football-daily-geopolitics-world-cup-maverick-managerial-matchups"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 13:26:56 GMT",
-      "teams": []
     }
   ]
 }
