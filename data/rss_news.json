@@ -1,37 +1,196 @@
 {
-  "asOf": "2026-06-22T00:03:57.687Z",
+  "asOf": "2026-06-22T05:27:48.206Z",
   "items": [
     {
-      "headline": "Uruguay v Cape Verde: World Cup 2026 – live",
+      "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/21/uruguay-v-cape-verde-world-cup-2026-live"
+          "href": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss"
         }
       },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 00:01:32 GMT",
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 04:23:40 GMT",
       "teams": [
-        "Uruguay"
+        "Egypt"
       ]
     },
     {
-      "headline": "New Zealand v Egypt: World Cup 2026 – live",
+      "headline": "Maybe this World Cup will bring the best out of the US, not the worst | Barney Ronay",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/22/fifa-world-cup-2026-live-new-zealand-v-egypt-updates-nzl-vs-egy-group-g-match-score-latest"
+          "href": "https://www.theguardian.com/football/2026/jun/22/world-cup-2026-us-united-states-usa-co-host-nation"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 00:00:46 GMT",
+      "pubDate": "Mon, 22 Jun 2026 04:00:50 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Salah scores to help Egypt to first World Cup win",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/videos/c74ydzpe274o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d6/live/11c2a910-6dee-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 03:56:28 GMT",
       "teams": [
         "Egypt",
         "New Zealand"
       ]
     },
     {
-      "headline": "Cape Verde fan goes wild over first goal  live on BBC News",
+      "headline": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/new-zealand-egypt-world-cup-group-g-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 03:11:14 GMT",
+      "teams": [
+        "Egypt",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Messi and Argentina ready to turn up the heat after fast World Cup start",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/lionel-messi-argentina-austria-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 02:10:16 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cape Verde continue to surprise with entertaining Uruguay draw",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f579/live/4c12a160-6ddf-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 02:05:22 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Past and present World Cups collide as Beiranvand first gives Iran inspiration, then hope | Alexander Abnos",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/world-cup-iran-goalkeeper-alireza-beiranvand"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 02:03:57 GMT",
+      "teams": [
+        "Belgium",
+        "Iran",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "One of World Cup's great stories - can Cape Verde become legends?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 01:53:23 GMT",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Cape Verde produce another World Cup shock as Varela strike seals Uruguay draw",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/cape-verde-uruguay-world-cup-group-h-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 00:28:46 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Unbeaten Iran will go down in history - Ghalenoei",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03e9/live/e9674050-6dcc-11f1-81d6-99f5ebd04f90.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 00:24:24 GMT",
+      "teams": [
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Saka trains with England squad before Ghana match",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eda/live/70789fc0-6dce-11f1-897a-fb9cd481447f.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 00:13:38 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Cape Verde fan goes wild live on BBC News as his country scores",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss"
@@ -192,22 +351,6 @@
       "teams": []
     },
     {
-      "headline": "Iran’s Beiranvand denies 10-man Belgium in World Cup draw as Nathan Ngoy sees red",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/belgium-iran-world-cup-group-g-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 21:16:20 GMT",
-      "teams": [
-        "Curaçao",
-        "Belgium",
-        "Iran"
-      ]
-    },
-    {
       "headline": "Lamine Yamal shows why this could be his World Cup",
       "links": {
         "web": {
@@ -316,25 +459,6 @@
       ]
     },
     {
-      "headline": "VAR official who made hand gesture returns to World Cup duty",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cr5jv508qd7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f73/live/314f8770-6903-11f1-9f9e-71137dc50e9c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 15:58:46 GMT",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
       "headline": "Declan Rice reveals he has played through hamstring nerve pain for six months",
       "links": {
         "web": {
@@ -392,133 +516,6 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Sun, 21 Jun 2026 13:26:56 GMT",
-      "teams": []
-    },
-    {
-      "headline": "What have we learned from Scotland's World Cup so far?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f3/live/7cd59ef0-6d72-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:14:21 GMT",
-      "teams": [
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "What have we learned from Scotland's World Cup so far as Brazil test looms?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f3/live/7cd59ef0-6d72-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:14:21 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Thomas Partey in spotlight as he faces England and former Arsenal teammates after rape charges",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/thomas-partey-england-ghana-handshake"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 11:11:47 GMT",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "All three England keepers played there - Carlisle's role in trio's rise",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg4qw57d4do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac9e/live/4957c8e0-6bf7-11f1-8bf6-931d18012412.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 10:43:54 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Dutch royals enjoy two big results in one World Cup day",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c4gydq973nqo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ba7/live/8e13eaf0-6d4f-11f1-8706-d941bf9d0475.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 09:45:57 GMT",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Just's rise from Austrian second tier to World Cup breakout star",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cr7pr9j23dyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3ed/live/87f26560-6986-11f1-ac49-cbb0d85207cb.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 09:44:29 GMT",
-      "teams": [
-        "Scotland",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup quiz: Name every Golden Boot winner",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckgpjw4wd21o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c8/live/eb8d44c0-6812-11f1-8e1d-bbbb1017d210.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 09:25:46 GMT",
       "teams": []
     }
   ]
