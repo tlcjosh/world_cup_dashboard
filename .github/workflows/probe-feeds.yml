@@ -1,0 +1,38 @@
+name: Probe News Feeds
+
+# One-off diagnostic, manually triggered. Fetches candidate RSS feeds
+# (Fox Sports, NYT, CBS Sports, plus a few other US-reachable candidates)
+# and commits the raw responses to blueprint_data/feed_probes/ for
+# inspection, since GitHub Actions runners have unrestricted network
+# access unlike the sandboxed dev environment. Not part of the
+# recurring data sync pipeline — see sync.yml for that.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+      - name: Probe feeds
+        run: node scripts/probe_feeds.js
+
+      - name: Commit probe results
+        run: |
+          git add blueprint_data/feed_probes
+          git diff --staged --quiet || git commit -m "chore: probe news feeds [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+          git push
