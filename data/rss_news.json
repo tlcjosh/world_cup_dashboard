@@ -1,6 +1,66 @@
 {
-  "asOf": "2026-06-22T22:44:58.043Z",
+  "asOf": "2026-06-22T23:19:16.427Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Which third-place team will the United States play in the Round of 32?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-which-third-place-team-will-the-united-states-play-in-the-round-of-32-230920481.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:09:20 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Miss it? CBF unveil detailed schedule for six Brasileirão rounds",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/miss-cbf-unveil-detailed-schedule-230700881.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:07:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Fans Have Rare 'Privilege' To See Lionel Messi Rewrite World Cup History",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/clarence-seedorf-reacts-lionel-messis-historic-performance-its-privilege"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi2.0.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:06:47 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Ghana’s Thomas Partey speaks for first time since being denied Canada visa at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ghana-thomas-partey-speaks-first-171600502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:01:08 +0000",
+      "teams": [
+        "Canada",
+        "Ghana",
+        "Panama"
+      ]
+    },
     {
       "headline": "France v Iraq: second half delayed by storm at World Cup 2026 – live",
       "links": {
@@ -10,9 +70,57 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 22:32:48 GMT",
+      "pubDate": "Mon, 22 Jun 2026 23:00:50 GMT",
       "teams": [
         "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Alexi Lalas' World Cup Power Rankings: Do Mbappé, France Topple Messi's Argentina?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-power-rankings-usmnt-argentina-france-messi"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/alexi-power-ranking-wc.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:52:36 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "📸 After record, Messi's photo dump hails Argentina in the Copa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/record-messis-photo-dump-hails-224800439.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 22:48:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Michael Olise matches a Kylian Mbappé record 👑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/michael-olise-matches-kylian-mbapp-224100875.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 22:41:00 +0000",
+      "teams": [
         "Iraq"
       ]
     },
@@ -29,24 +137,6 @@
       "teams": [
         "France",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "Fans Have Rare Privilege To See Lionel Messi Rewrite World Cup History",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/clarence-seedorf-reacts-lionel-messis-historic-performance-its-privilege"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi2.0.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 18:19:41 -0400",
-      "teams": [
-        "Argentina"
       ]
     },
     {
@@ -1458,22 +1548,6 @@
       "teams": [
         "Egypt",
         "New Zealand"
-      ]
-    },
-    {
-      "headline": "Ghana’s Thomas Partey speaks for first time since being denied Canada visa at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ghana-thomas-partey-speaks-first-171600502.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:16:00 +0000",
-      "teams": [
-        "Canada",
-        "Ghana",
-        "Panama"
       ]
     },
     {
