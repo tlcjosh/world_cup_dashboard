@@ -2460,11 +2460,28 @@ async function fetchESPNNews() {
     const res = await fetch(ESPN_NEWS_URL);
     if (res.ok) {
       const data = await res.json();
-      state.espnNews = data.articles || [];
+      // ESPN's article objects carry no source label of their own (unlike rss_news.json
+      // items, which are tagged per-feed by update_tracker.js) — stamp one on so every
+      // news badge, ESPN included, shows where it came from. See newsListHtml().
+      state.espnNews = (data.articles || []).map(a => ({ ...a, source: a.source || 'ESPN' }));
     }
   } catch (e) {
     console.error('ESPN news fetch error:', e);
   }
+}
+
+// Common recency key across ESPN articles (`published`) and rss_news.json items (`pubDate`).
+function articleTimestamp(a) {
+  return new Date(a.published || a.pubDate || 0).getTime();
+}
+
+// Interleaves articles from multiple sources by actual recency, rather than listing
+// one source's results in full before ever showing another's — see getTeamNews()/
+// getMatchNews() for why this matters: with limit=1 (used on match cards), a naive
+// "ESPN first, RSS only once ESPN runs out" order meant RSS items never got a chance
+// to show at all whenever ESPN had any article for that team/match.
+function mergeNewsByRecency(...lists) {
+  return lists.flat().sort((a, b) => articleTimestamp(b) - articleTimestamp(a));
 }
 
 // Supplemental news from BBC Sport / The Guardian RSS feeds, baked into a static
@@ -2499,7 +2516,7 @@ function getTeamNews(teamName, limit = 3) {
     ? state.espnNews.filter(a => newsCategoryIds(a, 'team').includes(espnId))
     : [];
   const rssArticles = state.rssNews.filter(a => a.teams?.includes(teamName));
-  return [...espnArticles, ...rssArticles].slice(0, limit);
+  return mergeNewsByRecency(espnArticles, rssArticles).slice(0, limit);
 }
 
 // News tagged with this specific match's ESPN event, falling back to news
@@ -2507,25 +2524,22 @@ function getTeamNews(teamName, limit = 3) {
 // matches ESPN hasn't started tracking yet, which have no espnEventId at all).
 // Supplemented with rss_news.json items mentioning either team, same as getTeamNews().
 function getMatchNews(match, limit = 3) {
-  let articles = [];
+  let espnArticles = [];
   if (match.espnEventId) {
     const eventId = Number(match.espnEventId);
-    articles = state.espnNews.filter(a => newsCategoryIds(a, 'event').includes(eventId));
+    espnArticles = state.espnNews.filter(a => newsCategoryIds(a, 'event').includes(eventId));
   }
-  if (!articles.length) {
+  if (!espnArticles.length) {
     const homeId = TEAM_MASTER_DATA[match.homeTeam]?.espnId;
     const awayId = TEAM_MASTER_DATA[match.awayTeam]?.espnId;
-    articles = state.espnNews.filter(a => {
+    espnArticles = state.espnNews.filter(a => {
       const ids = newsCategoryIds(a, 'team');
       return (homeId && ids.includes(homeId)) || (awayId && ids.includes(awayId));
     });
   }
-  if (articles.length < limit) {
-    const rssArticles = state.rssNews.filter(a =>
-      a.teams?.includes(match.homeTeam) || a.teams?.includes(match.awayTeam));
-    articles = [...articles, ...rssArticles];
-  }
-  return articles.slice(0, limit);
+  const rssArticles = state.rssNews.filter(a =>
+    a.teams?.includes(match.homeTeam) || a.teams?.includes(match.awayTeam));
+  return mergeNewsByRecency(espnArticles, rssArticles).slice(0, limit);
 }
 
 function newsListHtml(articles) {
