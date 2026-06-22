@@ -1,6 +1,754 @@
 {
-  "asOf": "2026-06-22T17:43:56.313Z",
+  "asOf": "2026-06-22T19:47:21.053Z",
   "items": [
+    {
+      "headline": "🚨 France v Iraq: official line-ups!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-v-iraq-official-line-193600603.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:36:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Lionel Messi’s historic World Cup moment sheds light on a vital quality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-historic-world-cup-193406343.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:34:06 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Messi adds another goal to his collection after breaking record",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/crm041dzjg8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf0c/live/2102e8a0-6e6f-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 19:27:31 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "World Cup Knockout Round: Who's Advanced Out Of The Group Stage?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-knockout-round-who-advances-usmnt"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/97099c5d-4fdfe8d8-messi-1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 15:23:58 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Argentina Inches Closer To Clinching Group",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/arg-622.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 15:22:18 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings: Lionel Messi leads race after breaking all-time scoring record",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:21:37 +0000",
+      "teams": [
+        "Senegal",
+        "Algeria",
+        "Austria",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Lionel Messi breaks World Cup scoring record in Argentina v Austria",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-breaks-world-cup-174253832.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:19:36 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:18:07 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-becomes-world-cup-time-183723671.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:18:06 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads Pack After Historic Goal",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/06474c3d-messi-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 15:16:58 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Irrepressible Messi breaks World Cup scoring record as Argentina beat Austria",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/argentina-austria-world-cup-group-j-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 19:16:25 GMT",
+      "teams": [
+        "United States",
+        "Argentina",
+        "Austria",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Schedule: Kickoff times, dates, fixture list, how to live stream, watch on TV",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:15:58 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi breaks all-time men's World Cup goal scoring record for Argentina vs. Austria",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messi-breaks-all-time-mens-world-cup-goal-scoring-record-for-argentina-vs-austria/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/c618ccdd-c28d-466e-a551-0d9705690f4c/untitled-design-2026-06-22t134945-628.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:12:14 +0000",
+      "teams": [
+        "Germany",
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cvg7nx477pvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e3b/live/da3e5cc0-6a3f-11f1-924d-c9a0db71699c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 19:08:00 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Most World Cup Goals All Time: Messi Takes Over Top Spot In History",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/most-world-cup-goals-all-time-messi-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 15:07:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 15:05:01 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Arda Guler’s World Cup heartbreak comes with silver lining for Real Madrid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arda-guler-world-cup-heartbreak-190500191.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Boot: Messi Favored After Breaking Klose's Record",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-622.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 15:04:05 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Watch as record-breaking Messi scores twice as Argentina beat Austria",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-face-austria-messi-looks-163503548.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:03:16 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Lionel Messi now has 18 World Cup goals as Argentina takes down Austria 2-0",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/lionel-messi-now-has-18-world-cup-goals-as-argentina-takes-down-austria-2-0-190217249.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:02:17 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Argentina beat Austria on another special day for Lionel Messi; watch 🎥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-beat-austria-another-special-190200723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:02:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "France vs. Iraq odds, prediction, time: 2026 World Cup picks from expert on 21-10 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-iraq-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/07/883ea6bb-04f7-4309-ad41-f706bdaa26b4/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:00:44 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "France v Iraq: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/france-v-iraq-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 19:00:19 GMT",
+      "teams": [
+        "Australia",
+        "Iran",
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:59:50 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup Buzz: Germany's Nico Schlotterbeck Ruled Out for Remainder of World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ded2073d-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 14:55:20 -0400",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Gates open after bad weather affects France-Iraq tie",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cn4d7g5xxw8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e445/live/4443f560-6e66-11f1-8210-9f83f81a69da.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 18:49:50 GMT",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Mo Salah dropped a statement and it's glorious news for Liverpool",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mo-salah-dropped-statement-glorious-184000797.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:40:00 +0000",
+      "teams": [
+        "Egypt",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Doku returning to World Cup after birth of first child",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/football-united-behind-doku-childbirth-100120727.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:36:07 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Lamine Yamal and Christian Pulisic latest updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:35:13 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ligue 1 club will demand at least €70 million for Real Madrid midfield target &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ligue-1-club-demand-least-183500458.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:35:00 +0000",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:33:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Pochettino Changed American Soccer Forever, Portugal Under Pressure & England's Attack",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/pochettino-changed-american-soccer-forever-portugal-under-pressure--englands-attack-183328646.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:33:28 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway",
+        "Argentina",
+        "Austria",
+        "Portugal",
+        "Uzbekistan",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Semenyo and Ghana aim to emulate 2010 World Cup heroes as they face England",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/antoine-semenyo-ghana-2010-world-cup-team-england"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 18:33:10 GMT",
+      "teams": [
+        "Uruguay",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Merlin the duck unruffled after meeting president of Mexico, Claudia Sheinbaum",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/merlin-the-duck-unruffled-after-meeting-president-of-mexico-claudia-sheinbaum"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 18:23:06 GMT",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Raphinha&#8217;s camp hits back at former World Cup winner&#8217;s claims: &#8216;You&#8217;ll have to explain these lies&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/raphinha-camp-hits-back-former-182000544.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:20:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "How Ferguson became Scotland's most influential World Cup player",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ferguson-became-scotlands-most-influential-173908593.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:14:00 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "All of Messi's record-breaking 17 World Cup goals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c52/live/d78f1720-6e64-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Portugal vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/portugal-uzbekistan-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/4a2c4ace-3b21-4bee-8278-a1c5a74cadd4/cristiano-ronaldo.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:06:55 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "'Brilliant finish' - Messi becomes all-time leading World Cup scorer",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/c70y7kdjd8do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/824b/live/cd0153f0-6e63-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 18:00:49 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel brings The Surge to make England genuine World Cup threat",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/thomas-tuchel-brings-the-surge-to-make-england-genuine-world-cup-threat"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 18:00:17 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "The special tattoo Nico O’Reilly is hoping to add after England’s World Cup campaign",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/special-tattoo-nico-o-reilly-180014754.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:00:14 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Confirmed: Barcelona legend Lionel Messi becomes the highest goalscorer in World Cup history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/confirmed-barcelona-legend-lionel-messi-180000585.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 18:00:00 +0000",
+      "teams": [
+        "Germany",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Doku returning to World Cup after birth of first child",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9172/live/b485fa40-6d70-11f1-a2ba-775ae811ce10.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 17:59:38 GMT",
+      "teams": []
+    },
+    {
+      "headline": "GOAT's World Cup History: Messi Stands Alone As Top World Cup Goalscorer",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/mls/lionel-messi-goals-world-cup-argentina-assists-mls-inter-miami-stats"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9-messi-tracker-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 13:55:12 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Norway vs. Senegal odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/norway-senegal-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/89a58035-5de9-4443-aac1-2b21f82e9825/erling-haaland-norway-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:52:36 +0000",
+      "teams": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Lionel Messi sets all-time World Cup goals record with Argentina's opener against Austria (video)",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-sets-time-world-174800736.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:48:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
     {
       "headline": "Lionel Messi sets World Cup record against Austria with his 17th career goal",
       "links": {
@@ -17,7 +765,7 @@
       ]
     },
     {
-      "headline": "Lionel Messi Breaks All-Time FIFA Men's World Cup Scoring Record Against Austria",
+      "headline": "Lionel Messi Breaks All-Time FIFA World Cup Scoring Record Against Austria",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/lionel-messi-world-cup-goals-record-klose-mbappe"
@@ -251,21 +999,6 @@
       ]
     },
     {
-      "headline": "Argentina face Austria as Messi looks to break World Cup scoring record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-face-austria-messi-looks-163503548.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 16:35:03 +0000",
-      "teams": [
-        "Argentina",
-        "Austria"
-      ]
-    },
-    {
       "headline": "Why Saudi Arabia and Iraq flags are not laid down at World Cup",
       "links": {
         "web": {
@@ -346,26 +1079,6 @@
         "United States",
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: USA, Mexico, Germany First To Clinch Groups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/alex-619.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 12:08:02 -0400",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Germany"
       ]
     },
     {
@@ -453,22 +1166,6 @@
       "teams": [
         "France"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot: Mbappé Favored; Several Superstars Chasing",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-616.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 11:50:36 -0400",
-      "teams": []
     },
     {
       "headline": "📋 Messi on for the record? Argentina named for second Copa test",
@@ -998,26 +1695,6 @@
       ]
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 22 Jun 2026 09:15:15 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
       "headline": "France vs. Iraq: How to Watch, TV Channel, Live Stream, Time",
       "links": {
         "web": {
@@ -1179,22 +1856,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: David, Undav And Messi Lead The Pack",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8124c10e-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 01:30:50 -0400",
-      "teams": []
-    },
-    {
       "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
       "links": {
         "web": {
@@ -1265,41 +1926,6 @@
       ]
     },
     {
-      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 22 Jun 2026 03:40:38 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Schedule: Kickoff times, dates, fixture list, how to live stream, watch on TV",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 22 Jun 2026 03:37:27 +0000",
-      "teams": []
-    },
-    {
       "headline": "World Cup Roundup: Spain Makes Statement; Belgium's Struggles Continue",
       "links": {
         "web": {
@@ -1320,24 +1946,6 @@
       ]
     },
     {
-      "headline": "World Cup Buzz: A Special Day Ends With a Special Gift For Spain's Lamine Yamal",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ded2073d-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 21 Jun 2026 23:14:48 -0400",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
       "headline": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
       "links": {
         "web": {
@@ -1351,22 +1959,6 @@
         "Egypt",
         "New Zealand"
       ]
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 21 Jun 2026 23:04:48 -0400",
-      "teams": []
     },
     {
       "headline": "Where In The World Cup Is Jameis Winston?",
