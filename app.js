@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v19';
-const APP_UPDATED = '2026-06-22 17:42 UTC';
+const APP_VERSION = 'v19.1';
+const APP_UPDATED = '2026-06-22 22:43 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -542,8 +542,7 @@ const ESPN_STATUS_MAP = {
   'STATUS_POSTPONED':   'SCHEDULED',
   'STATUS_CANCELED':    'SCHEDULED',
   'STATUS_DELAY':       'PAUSED',
-  'STATUS_DELAYED':    'SCHEDULED',
-  'STATUS_POSTPONED':  'SCHEDULED',
+  'STATUS_DELAYED':     'PAUSED',
 };
 
 function normalizeESPNName(name) {
