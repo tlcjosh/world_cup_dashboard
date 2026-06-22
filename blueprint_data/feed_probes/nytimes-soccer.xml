@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Sports &gt; Soccer</title>
+    <link>https://www.nytimes.com/section/sports/soccer</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/Soccer.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2026 The New York Times Company</copyright>
+    <lastBuildDate>Mon, 22 Jun 2026 16:44:35 +0000</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 10:55:11 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Sports &gt; Soccer</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/sports/soccer</link>
+    </image>
+    <item>
+      <title>Soccer Watchalongs Like Stretford Paddock Offer a Broadcast Alternative</title>
+      <link>https://www.nytimes.com/2023/11/25/style/soccer-watchalongs.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/25/style/soccer-watchalongs.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/25/style/soccer-watchalongs.html" rel="standout"></atom:link>
+      <description>Soccer fans are tuning out broadcasts in favor of watchalongs: streaming parties where you hear what you want to hear and see everything except the game.</description>
+      <dc:creator>Rory Smith</dc:creator>
+      <pubDate>Sat, 25 Nov 2023 05:05:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Video Recordings, Downloads and Streaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Manchester United (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Liverpool (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tottenham Hotspur (Soccer Team)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/23/multimedia/23watchalongs-soccer-pic1-jkgt/23watchalongs-soccer-pic1-jkgt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Rory Smith/The New York Times</media:credit>
+      <media:description>Watchalongs like Stretford Paddock’s have become big business, with full-scale production crews and hundreds of thousands of subscribers.</media:description>
+    </item>
+    <item>
+      <title>The Premier League Needs a Commissioner</title>
+      <link>https://www.nytimes.com/2023/11/24/world/europe/premier-league-manchester-city-liverpool.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/24/world/europe/premier-league-manchester-city-liverpool.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/24/world/europe/premier-league-manchester-city-liverpool.html" rel="standout"></atom:link>
+      <description>Allowing clubs to block rule changes and money to delay punishments feeds the perception that the same rules do not apply to everyone.</description>
+      <dc:creator>Rory Smith</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 18:08:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Liverpool (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Manchester City (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Messi, Lionel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ronaldo, Cristiano</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2023/11/24/multimedia/24rory-trophy-pwlz/24rory-trophy-pwlz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jason Cairnduff/Action Images, via Reuters</media:credit>
+      <media:description>The richest prize money can buy.</media:description>
+    </item>
+    <item>
+      <title>Messi Surcharge: Red Bulls, Other M.L.S. Teams to Charge More for Miami Games</title>
+      <link>https://www.nytimes.com/2023/11/22/sports/soccer/lionel-messi-ticket-price-red-bulls-mls.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/22/sports/soccer/lionel-messi-ticket-price-red-bulls-mls.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/22/sports/soccer/lionel-messi-ticket-price-red-bulls-mls.html" rel="standout"></atom:link>
+      <description>A Red Bulls promotion has some fine print: If Inter Miami is the opponent, you get a different game.</description>
+      <dc:creator>Victor Mather</dc:creator>
+      <pubDate>Wed, 22 Nov 2023 18:52:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Messi, Lionel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Inter Miami (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York Red Bulls (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Major League Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Box Office Sales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/22/multimedia/22xp-redbulls-hbfv/22xp-redbulls-hbfv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Brad Penner/USA Today Sports, via Reuters</media:credit>
+      <media:description>Lionel Messi in a game against the New York Red Bulls in August.</media:description>
+    </item>
+    <item>
+      <title>Swedish Soccer Prioritized Fans Over Finances. Now, Business Is Booming.</title>
+      <link>https://www.nytimes.com/2023/11/19/world/europe/sweden-soccer.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/19/world/europe/sweden-soccer.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/19/world/europe/sweden-soccer.html" rel="standout"></atom:link>
+      <description>While most of Europe’s leagues engage in a Sisyphean quest to source as much money as possible, Sweden has chosen a different model. But its rewards come with risk.</description>
+      <dc:creator>Rory Smith</dc:creator>
+      <pubDate>Sun, 19 Nov 2023 09:42:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Finances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Allsvenskan (Swedish Soccer League)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sweden</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Elfsborg (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Malmo (Soccer Team)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/18/multimedia/18sweden-soccer-blzj/18sweden-soccer-blzj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Betina Garcia for The New York Times</media:credit>
+      <media:description>Supporters of Malmo, the Swedish soccer team, set off so many flares during the season finale against Elfsborg this month that the match had to be stopped for 30 minutes.</media:description>
+    </item>
+    <item>
+      <title>North Korea’s Han Kwang-song Returns to International Soccer</title>
+      <link>https://www.nytimes.com/2023/11/23/world/asia/han-kwang-song-north-korea-world-cup.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/23/world/asia/han-kwang-song-north-korea-world-cup.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/23/world/asia/han-kwang-song-north-korea-world-cup.html" rel="standout"></atom:link>
+      <description>Han Kwang-song’s recent appearances in World Cup qualifiers were his first ones overseas since 2020, when U.N. sanctions led to an involuntary career break.</description>
+      <dc:creator>Mike Ives and John Yoon</dc:creator>
+      <pubDate>Fri, 24 Nov 2023 04:28:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Han Kwang-song (1998- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Juventus (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Al-Duhail (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Qatar</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/22/multimedia/00xp-northkorea-soccer-mbzv/00xp-northkorea-soccer-mbzv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nyein Chan Naing/EPA, via Shutterstock</media:credit>
+      <media:description>Han Kwang-song of North Korea, center, playing in a 2026 World Cup qualifier in Yangon, Myanmar, this week. </media:description>
+    </item>
+    <item>
+      <title>How FIFA Handed Saudi Arabia the 2034 World Cup</title>
+      <link>https://www.nytimes.com/2023/11/15/world/middleeast/saudi-arabia-fifa-world-cup.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/15/world/middleeast/saudi-arabia-fifa-world-cup.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/15/world/middleeast/saudi-arabia-fifa-world-cup.html" rel="standout"></atom:link>
+      <description>FIFA’s president, Gianni Infantino, cheered a plan to take soccer’s richest event to the kingdom. He has said little about his years of work to make that happen.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Wed, 15 Nov 2023 18:27:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2034 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Infantino, Gianni</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mohammed bin Salman (1985- )</category>
+      <media:content height="634" medium="image" url="https://static01.nyt.com/images/2023/11/13/world/00soccer-saudi-wpgq/00soccer-saudi-wpgq-mediumSquareAt3X.jpg" width="634"></media:content>
+      <media:credit>Amin Mohammad Jamali/Getty Images</media:credit>
+      <media:description>Gianni Infantino, the FIFA president, with Mohammed bin Salman, the crown prince of Saudi Arabia, at the 2022 World Cup.</media:description>
+    </item>
+    <item>
+      <title>Xabi Alonso Isn’t Coming to Save Your Team. Not Yet.</title>
+      <link>https://www.nytimes.com/2023/11/17/world/europe/xabi-alonso-leverkusen.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/17/world/europe/xabi-alonso-leverkusen.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/17/world/europe/xabi-alonso-leverkusen.html" rel="standout"></atom:link>
+      <description>The patience of Alonso, the Bayer Leverkusen manager, says a lot about him, and just as much about a sport perpetually chasing the next big thing.</description>
+      <dc:creator>Rory Smith</dc:creator>
+      <pubDate>Fri, 17 Nov 2023 17:40:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alonso, Xabi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coaches and Managers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Bayer Leverkusen (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">UEFA Champions League (Soccer)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/17/multimedia/17rory-xabi-mlch/17rory-xabi-mlch-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Ina Fassbender/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Xabi Alonso, top of the Bundesliga but still taking his time.</media:description>
+    </item>
+    <item>
+      <title>Everton Docked 10 Points, a Premier League Record, in Financial Case</title>
+      <link>https://www.nytimes.com/2023/11/17/world/europe/everton-points-deduction.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/17/world/europe/everton-points-deduction.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/17/world/europe/everton-points-deduction.html" rel="standout"></atom:link>
+      <description>The penalty adds to the problems of a team operating under a mountain of debt. It vowed to appeal.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Fri, 17 Nov 2023 17:38:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Everton (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Finances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fines (Penalties)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">777 Partners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Credit and Debt</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/11/17/multimedia/17everton-qmfv/17everton-qmfv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Adam Vaughan/EPA, via Shutterstock</media:credit>
+      <media:description>Everton’s points deduction dropped the team to 19th place in the 20-team Premier League. </media:description>
+    </item>
+    <item>
+      <title>Megan Rapinoe, Emma Hayes and a Women’s Soccer Crossroads</title>
+      <link>https://www.nytimes.com/2023/11/10/world/megan-rapinoe-nwsl-final.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/11/10/world/megan-rapinoe-nwsl-final.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/11/10/world/megan-rapinoe-nwsl-final.html" rel="standout"></atom:link>
+      <description>Rapinoe, who helped define U.S. soccer for a decade, is retiring after this week’s N.W.S.L. final. Hayes, the Chelsea coach, will try to put her stamp on it next.</description>
+      <dc:creator>Rory Smith</dc:creator>
+      <pubDate>Fri, 10 Nov 2023 17:44:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hayes, Emma (1976- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coaches and Managers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Chelsea (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rapinoe, Megan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2023/11/10/multimedia/10rory-rapinoe-cphq/10rory-rapinoe-cphq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Lindsey Wasson/Associated Press</media:credit>
+      <media:description>Megan Rapinoe will play her final club game on Saturday, for OL Reign in the N.W.S.L. final.</media:description>
+    </item>
+    <item>
+      <title>Saudi Arabia Is Sole Bidder for 2034 World Cup</title>
+      <link>https://www.nytimes.com/2023/10/31/world/middleeast/saudi-arabia-world-cup-2034.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/10/31/world/middleeast/saudi-arabia-world-cup-2034.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/10/31/world/middleeast/saudi-arabia-world-cup-2034.html" rel="standout"></atom:link>
+      <description>Australia announced it would not bid, clearing the way for the Saudis to bring soccer’s biggest tournament back to the Gulf.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Tue, 31 Oct 2023 16:24:37 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2034 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/10/31/multimedia/00saudi-worldcup-fmtw/00saudi-worldcup-fmtw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Carl Recine/Reuters</media:credit>
+      <media:description>Argentina won the World Cup in Qatar last year. The 2034 tournament is expected to return to the Gulf.</media:description>
+    </item>
+    <item>
+      <title>How Lionel Messi Made a Pink Jersey Soccer’s Must-Have Item</title>
+      <link>https://www.nytimes.com/2023/10/23/business/lionel-messi-inter-miami-jersey.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/10/23/business/lionel-messi-inter-miami-jersey.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/10/23/business/lionel-messi-inter-miami-jersey.html" rel="standout"></atom:link>
+      <description>In the span of three months, the soccer superstar has made Inter Miami’s eye-catching jersey the hottest piece of sports merchandise on the planet.</description>
+      <dc:creator>Kevin Draper and Rory Smith</dc:creator>
+      <pubDate>Mon, 23 Oct 2023 20:47:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Messi, Lionel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Inter Miami (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">adidas AG</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Major League Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Fanatics Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Advertising and Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Uniforms</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2023/10/19/multimedia/00Messi-Pink-01-hfzq/00Messi-Pink-01-hfzq-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Eric Hartline/USA Today Sports, via Reuters Con</media:credit>
+      <media:description>Within days of Lionel Messi’s announcement that he would join Inter Miami, stores and suppliers had asked Adidas for nearly half a million jerseys.</media:description>
+    </item>
+    <item>
+      <title>FIFA Bans Luis Rubiales, Former Soccer Chief in Spain, for 3 Years</title>
+      <link>https://www.nytimes.com/2023/10/30/world/europe/fifa-luis-rubiales-ban-spain-soccer.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/10/30/world/europe/fifa-luis-rubiales-ban-spain-soccer.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/10/30/world/europe/fifa-luis-rubiales-ban-spain-soccer.html" rel="standout"></atom:link>
+      <description>Luis Rubiales, who led the country’s soccer federation, departed in disgrace after he forcibly kissed a player after the Women’s World Cup final.</description>
+      <dc:creator>Cassandra Vinograd and Tariq Panja</dc:creator>
+      <pubDate>Mon, 30 Oct 2023 15:27:21 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women&#39;s World Cup (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2022 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rubiales, Luis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hermoso, Jennifer (1990- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Royal Spanish Football Federation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2023/10/30/multimedia/30spain-soccer-01-tmlz/30spain-soccer-01-tmlz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Manu Fernandez/Associated Press</media:credit>
+      <media:description>Luis Rubiales in Madrid last August with members of Spain’s women’s soccer team after their victory in the World Cup.</media:description>
+    </item>
+    <item>
+      <title>Everton, 777 and the Business of Premier League Soccer</title>
+      <link>https://www.nytimes.com/2023/10/10/world/europe/everton-777-premier-league.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/10/10/world/europe/everton-777-premier-league.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/10/10/world/europe/everton-777-premier-league.html" rel="standout"></atom:link>
+      <description>777 Partners had been scooping up big-name soccer teams for two years when it bid for Everton. Doubts about its finances could kill the deal.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Wed, 11 Oct 2023 18:44:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Everton (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Vasco da Gama</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">777 Partners</category>
+      <media:content height="1272" medium="image" url="https://static01.nyt.com/images/2023/10/06/multimedia/00soccer-777-fhzb/00soccer-777-fhzb-mediumSquareAt3X.jpg" width="1272"></media:content>
+      <media:credit>Peter Byrne/PA Images, via Getty Images</media:credit>
+      <media:description>The 777 Partners co-owners Josh Wander, center, and Steven Pasko, in gray sweater, in the director’s box at Everton in September. Their bid to take control of the club is under review.</media:description>
+    </item>
+    <item>
+      <title>Everton Sale Stalls Amid New Questions About 777 Partners</title>
+      <link>https://www.nytimes.com/2023/10/18/world/europe/everton-sale-777-partners.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2023/10/18/world/europe/everton-sale-777-partners.html</guid>
+      <atom:link href="https://www.nytimes.com/2023/10/18/world/europe/everton-sale-777-partners.html" rel="standout"></atom:link>
+      <description>The U.S. firm bidding for the Premier League club, 777 Partners, has failed to provide required information to a British regulator.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Wed, 18 Oct 2023 04:00:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Everton (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">777 Partners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Financial Conduct Authority (Great Britain)</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2023/10/18/multimedia/18Soccer-Everton-2-ftbz/18Soccer-Everton-2-ftbz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alex Livesey/Getty Images</media:credit>
+      <media:description>A sliding Everton player during a Premier League match against Tottenham in April. Everton’s finances are so dire that the club requires monthly infusions of millions of dollars to keep operating.</media:description>
+    </item>
+    <item>
+      <title>Canada’s postcard moment at the World Cup is more than the team’s victory.</title>
+      <link>https://www.nytimes.com/2026/06/20/world/canada/canadas-postcard-moment-at-the-world-cup-is-more-than-the-teams-victory.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/20/world/canada/canadas-postcard-moment-at-the-world-cup-is-more-than-the-teams-victory.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/20/world/canada/canadas-postcard-moment-at-the-world-cup-is-more-than-the-teams-victory.html" rel="standout"></atom:link>
+      <description></description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Sat, 20 Jun 2026 18:47:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sports Injuries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Qatar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kone, Ismael</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saliba, Nathan</category>
+      <media:content height="1260" medium="image" url="https://static01.nyt.com/images/2026/07/17/multimedia/17world-cup-canada-moment-zmkp/17world-cup-canada-moment-zmkp-mediumSquareAt3X.jpg" width="1261"></media:content>
+      <media:credit>Agustin Marcarian/Reuters</media:credit>
+      <media:description>Nathan Saliba, a player with Canada’s team who replaced the midfielder Ismaël Koné after his injury, held up a team jersey with his teammate’s surname and number, after scoring a goal.</media:description>
+    </item>
+    <item>
+      <title>Seattle Is Now a World Cup Draw: ‘Just a Great Soccer City’</title>
+      <link>https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html" rel="standout"></atom:link>
+      <description>Seattle has become a leading American soccer city with successful professional franchises and a devoted fan base.</description>
+      <dc:creator>Anna Griffin and Ruth Fremson</dc:creator>
+      <pubDate>Sat, 20 Jun 2026 02:13:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Seattle (Wash)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stadiums and Arenas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Major League Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Seattle Reign</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Seattle Sounders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/06/19/multimedia/19nat-worldcup-seattle-top-cmfl/19nat-worldcup-seattle-top-cmfl-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:description>Lumen Field has become a major U.S. soccer venue as the home of the Seattle Sounders of M.L.S. and the Seattle Reign of the N.W.S.L.</media:description>
+    </item>
+    <item>
+      <title>Excited for World Cup? Stream 14 Great Soccer Movies.</title>
+      <link>https://www.nytimes.com/2026/06/19/movies/world-cup-soccer-movies-streaming.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/19/movies/world-cup-soccer-movies-streaming.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/19/movies/world-cup-soccer-movies-streaming.html" rel="standout"></atom:link>
+      <description>The beautiful game is the inspiring setting for films from countries large (Brazil) and small (Cape Verde). Watch them while the World Cup is in full swing.</description>
+      <dc:creator>Carlos Aguilar</dc:creator>
+      <pubDate>Fri, 19 Jun 2026 20:51:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Bend It Like Beckham (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Diamantino (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">En el Septimo Dia (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Escape to Victory (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Hermano (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Offside (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Shaolin Soccer (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Cup (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">What Do We See When We Look at the Sky? (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">A Barefoot Dream (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Boys in Kichute (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Damned United (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dribbling Fate (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Mario (Movie)</category>
+      <media:content height="720" medium="image" url="https://static01.nyt.com/images/2026/06/20/arts/19cul-world-cup-films-beckham/19cul-world-cup-films-beckham-mediumSquareAt3X.jpg" width="720"></media:content>
+      <media:credit>Kintop Pictures</media:credit>
+      <media:description>Keira Knightley, left, and Parminder Nagra in “Bend It Like Beckham.”</media:description>
+    </item>
+    <item>
+      <title>World Cup Puts Spotlight on L.A.’s Mexican-Korean Kinship</title>
+      <link>https://www.nytimes.com/2026/06/19/us/world-cup-koreatown-mexico-korea.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/19/us/world-cup-koreatown-mexico-korea.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/19/us/world-cup-koreatown-mexico-korea.html" rel="standout"></atom:link>
+      <description>The bond between the two communities was on display at a packed Koreatown watch party for the match between South Korea and Mexico on Thursday.</description>
+      <dc:creator>Orlando Mayorquín and Gabriela Bhaskar</dc:creator>
+      <pubDate>Fri, 19 Jun 2026 15:02:54 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Korean-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mexican-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parties (Social)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Korean Food (Cuisine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Koreatown (Los Angeles, Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Los Angeles (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/06/19/multimedia/19nat-worldcup-koreatown-01-cgpw/19nat-worldcup-koreatown-01-cgpw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:description>Fans gathered on Thursday in the Koreatown neighborhood of Los Angeles to watch the World Cup match between Mexico and South Korea on big screens.</media:description>
+    </item>
+    <item>
+      <title>Many World Cup Fans Would Rather Skip the Hydration Breaks</title>
+      <link>https://www.nytimes.com/2026/06/18/us/world-cup-hydration-breaks.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/18/us/world-cup-hydration-breaks.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/18/us/world-cup-hydration-breaks.html" rel="standout"></atom:link>
+      <description>It’s hot in North America in June, but fans are griping that the breaks that have been added to each half are an excuse for the networks to show more ads.</description>
+      <dc:creator>Victor Mather</dc:creator>
+      <pubDate>Thu, 18 Jun 2026 16:56:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dehydration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-eafs</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2026/06/18/multimedia/18xp-hydrate-01-bwlc/18xp-hydrate-01-bwlc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Benoit Tessier/Reuters</media:credit>
+      <media:description>Even in Toronto, World Cup play is paused once each half for a “hydration break.”</media:description>
+    </item>
+    <item>
+      <title>Team Medic Recounts Iran’s ‘Stressful’ World Cup Debut in L.A.</title>
+      <link>https://www.nytimes.com/2026/06/17/world/middleeast/iran-world-cup-united-states.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/17/world/middleeast/iran-world-cup-united-states.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/17/world/middleeast/iran-world-cup-united-states.html" rel="standout"></atom:link>
+      <description>A member of Iran’s medical team says the team endured delays, multiple security searches and a rushed exit, frustrating players and officials.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Thu, 18 Jun 2026 16:03:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">live-detached</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">US and Israeli Attack on Iran (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Customs and Border Protection (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-open-access-from-nl</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/06/18/multimedia/18int-worldcup-iran-conditions-mhpg/18int-worldcup-iran-conditions-mhpg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Daniel Cole/Reuters</media:credit>
+      <media:description>Iran’s Saeid Ezatolahi receiving medical attention during the match against New Zealand at SoFi Stadium in Inglewood, Calif., on Monday.</media:description>
+    </item>
+    <item>
+      <title>Messi scoring a third goal in the Argentina-Algeria match.</title>
+      <link>https://www.nytimes.com/article/world-cup-messi-goal-argentina-algeria.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/article/world-cup-messi-goal-argentina-algeria.html</guid>
+      <atom:link href="https://www.nytimes.com/article/world-cup-messi-goal-argentina-algeria.html" rel="standout"></atom:link>
+      <description></description>
+      <pubDate>Wed, 17 Jun 2026 16:48:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">live-detached</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2006 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Records and Achievements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Messi, Lionel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Argentina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Algeria</category>
+    </item>
+    <item>
+      <title>The World Cup Gives Kansas City a Rare Turn in the Global Spotlight</title>
+      <link>https://www.nytimes.com/2026/06/17/us/world-cup-kansas-city-messi-argentina.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/17/us/world-cup-kansas-city-messi-argentina.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/17/us/world-cup-kansas-city-messi-argentina.html" rel="standout"></atom:link>
+      <description>The tournament brings unique challenges and upsides for Kansas City, the smallest U.S. metro area to host matches.</description>
+      <dc:creator>Mitch Smith</dc:creator>
+      <pubDate>Thu, 18 Jun 2026 08:52:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">live-detached</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transit Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stadiums and Arenas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Algeria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Argentina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kansas City (Mo)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Messi, Lionel</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/06/19/multimedia/17world-cup-kc-argentina-wgpt-print1/17world-cup-kc-argentina-wgpt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Bernadett Szabo/Reuters</media:credit>
+      <media:description>Argentina fans celebrate after the match in Kansas City, Mo., on Tuesday.</media:description>
+    </item>
+    <item>
+      <title>Merlin, the Duck in a Mexico World Cup Team Jersey, Finds Unexpected Fame</title>
+      <link>https://www.nytimes.com/2026/06/16/world/americas/duck-mexico-world-cup-merlin.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/16/world/americas/duck-mexico-world-cup-merlin.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/16/world/americas/duck-mexico-world-cup-merlin.html" rel="standout"></atom:link>
+      <description>The feathered pet has waddled his way into the pantheon of famous animals associated with the soccer tournament.</description>
+      <dc:creator>Victor Mather</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 18:53:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ducks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico City (Mexico)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Uniforms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <media:content height="1080" medium="image" url="https://static01.nyt.com/images/2026/06/16/world/americas/merlin-duck-cover/merlin-duck-cover-mediumSquareAt3X.jpg" width="1080"></media:content>
+      <media:credit>Marco Ugarte, via Associated Press</media:credit>
+    </item>
+    <item>
+      <title>Why Team Iran Is in a Tough Spot at the World Cup</title>
+      <link>https://www.nytimes.com/2026/06/16/world/middleeast/world-cup-iran-new-zealand-protests.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/16/world/middleeast/world-cup-iran-new-zealand-protests.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/16/world/middleeast/world-cup-iran-new-zealand-protests.html" rel="standout"></atom:link>
+      <description>At its first game in Los Angeles, the men’s national team drew spectators who weren’t coming for the soccer, but rather to protest the regime in Tehran.</description>
+      <dc:creator>Tariq Panja</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 17:00:14 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">live-detached</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">US and Israeli Attack on Iran (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Los Angeles (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Iranian-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Taj, Mehdi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-open-access-from-nl</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/06/16/multimedia/16int-worldcup-iran-us-lvpm/16int-worldcup-iran-us-lvpm-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Gabriela Bhaskar/The New York Times</media:credit>
+      <media:description>Fans holding Iran’s pre-revolutionary flag at SoFi Stadium near Los Angeles on Monday.</media:description>
+    </item>
+    <item>
+      <title>‘We’ve Arrived!’: Cape Verde Fans Exult in World Cup Draw With Spain</title>
+      <link>https://www.nytimes.com/2026/06/15/us/cape-verde-spain-draw-world-cup.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/06/15/us/cape-verde-spain-draw-world-cup.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/06/15/us/cape-verde-spain-draw-world-cup.html" rel="standout"></atom:link>
+      <description>Cape Verde, a tiny island nation off the West African coast, is among the smallest countries to ever qualify for the World Cup. Fans marveled that it held the line against a tournament favorite.</description>
+      <dc:creator>Rick Rojas</dc:creator>
+      <pubDate>Mon, 15 Jun 2026 19:53:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cape Verde</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2026 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Atlanta (Ga)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-open-access-from-nl</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/06/15/multimedia/15nat-worldcup-capeverde-draw-01-hmvb/15nat-worldcup-capeverde-draw-01-hmvb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Brett Davis/Imagn, via Reuters</media:credit>
+      <media:description>For supporters of the Cape Verde national team, just making it to the World Cup and playing Spain, one of the world’s top-ranked teams, felt like history in the making.</media:description>
+    </item>
+  </channel>
+</rss>

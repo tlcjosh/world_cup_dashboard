@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/rss/rssRender.xsl"?>
+    <rss version='2.0'>
+    <channel>
+       <title>SkySports | News</title>
+       <link>http://www.skysports.com</link>
+       <description>Sports News</description>
+       <language>en-gb</language>
+       <lastBuildDate>Mon, 22 Jun 2026 17:44:30 BST</lastBuildDate>
+       <copyright>Copyright 2026, BSKYB. All Rights Reserved.</copyright>
+       <category></category>
+       <image>
+            <title>Sky Sports</title>
+            <url>https://www.skysports.com/images/site/ss-logo-07.gif</url>
+            <link>https://www.skysports.com</link>
+       </image>
+       <ttl>120</ttl>
+       	<item>
+           <title><![CDATA[Box office battles, O'Brien dominance & draw bias | Royal Ascot reflections]]></title>
+           <description><![CDATA[Kevin Blake reflects on a magnificent five days of Royal Ascot, nominating his highlights and covering some of the week&#8217;s big talking points.]]></description>
+           <link>https://www.skysports.com/racing/news/12040/13556802/royal-ascot-kevin-blake-reflects-on-box-office-battles-aidan-obrien-dominance-and-draw-bias-debate</link>
+           <pubDate>Mon, 22 Jun 2026 16:39:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/06/1920x1080/skysports-kevin-blake-take_7280238.jpg?20260622165023" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Draper wins opening match at Eastbourne under new coach Murray]]></title>
+           <description><![CDATA[Jack Draper beat lucky loser Marcos Giron 6-4 7-6 (7-5) in an impressive straight sets first-round victory at the Eastbourne Open in his first game under new coach Andy Murray.]]></description>
+           <link>https://www.skysports.com/tennis/news/12040/13556677/eastbourne-open-britains-jack-draper-defeats-marcos-giron-in-first-match-under-new-coach-andy-murray</link>
+           <pubDate>Mon, 22 Jun 2026 16:14:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-jack-draper-tennis_7280175.jpg?20260622155025" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Warren: No venue for Fury-AJ yet, but no danger of collapse]]></title>
+           <description><![CDATA[Tyson Fury&#8217;s heavyweight super-fight with Anthony Joshua is not in danger of collapse, insists Frank Warren.]]></description>
+           <link>https://www.skysports.com/boxing/news/12040/13556806/tyson-fury-vs-anthony-joshua-no-confirmed-venue-for-heavyweight-super-fight-but-no-danger-of-collapse-says-frank-warren</link>
+           <pubDate>Mon, 22 Jun 2026 16:57:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/05/1920x1080/skysports-tyson-fury-anthony-joshua_7254263.jpg?20260520191715" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Ex-Wimbledon champ given four-year ban for refusing anti-doping test]]></title>
+           <description><![CDATA[Former Wimbledon champion Marketa Vondrousova has been suspended from tennis for four years for refusing an anti-doping test.]]></description>
+           <link>https://www.skysports.com/tennis/news/12040/13556775/former-wimbledon-champion-marketa-vondrousova-banned-for-four-years-for-refusing-anti-doping-test-last-year</link>
+           <pubDate>Mon, 22 Jun 2026 15:47:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e2.365dm.com/23/07/1920x1080/skysports-tennis-vondrousova_6219988.jpg?20230716072846" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[City close in on £17m deal for Maresca ]]></title>
+           <description><![CDATA[Manchester City are close to completing a deal to appoint Enzo Maresca as head coach, according to Sky in Italy.   ]]></description>
+           <link>https://www.skysports.com/football/news/12040/13545794/enzo-maresca-to-man-city-pep-guardiolas-successor-lined-up-as-former-chelsea-boss-agrees-to-take-over-at-etihad-stadium</link>
+           <pubDate>Tue, 19 May 2026 09:37:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/05/1920x1080/skysports-graphic-enzo-maresca_7253099.jpg?20260519131305" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Norris: Ferrari would 'embarrass' everyone with better engine]]></title>
+           <description><![CDATA[Lando Norris believes Ferrari would "embarrass" the rest of the Formula 1 field if they had a better engine.]]></description>
+           <link>https://www.skysports.com/f1/news/12040/13554290/lando-norris-mclaren-driver-says-ferrari-would-embarrass-everyone-with-better-f1-engine-after-barcelona-win</link>
+           <pubDate>Mon, 22 Jun 2026 15:00:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/06/1920x1080/skysports-f1-charles-leclerc_7274092.jpg?20260615122902" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Spygate reunion, derbies & the biggest mismatch ever?! 10 EFL games to get excited about]]></title>
+           <description><![CDATA[The 2026/27 EFL season fixtures will be announced on Thursday, June 25.]]></description>
+           <link>https://www.skysports.com/football/news/12040/13550733/efl-2026-27-spygate-reunion-derbies-galore-the-biggest-mismatch-ever-10-games-to-get-excited-about-this-season</link>
+           <pubDate>Mon, 22 Jun 2026 12:00:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/06/1920x1080/skysports-west-ham-millwall_7268911.jpg?20260609103526" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Carra: England can't afford to rest Rice, but Saka shouldn't be risked]]></title>
+           <description><![CDATA[Jamie Carragher says England can't afford to drop Declan Rice against Ghana despite concerns over his fitness, but believes Bukayo Saka should not be risked.]]></description>
+           <link>https://www.skysports.com/football/news/12040/13556733/england-world-cup-latest-jamie-carragher-says-thomas-tuchel-cant-afford-to-drop-declan-rice-against-ghana-despite-fitness-concerns</link>
+           <pubDate>Mon, 22 Jun 2026 13:05:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-declan-rice-england_7276366.jpg?20260618072807" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Cape Verde are the story of this World Cup - are they everyone's second team?]]></title>
+           <description><![CDATA[Those waking up on Monday morning in the UK will look at one particular result and be stunned. "Cape Verde did it again?!" was probably your reaction.]]></description>
+           <link>https://www.skysports.com/football/news/12040/13556552/cape-verde-at-the-world-cup-african-nation-have-gained-the-hearts-of-the-world-as-everyones-second-team-after-brave-draw-with-uruguay</link>
+           <pubDate>Mon, 22 Jun 2026 07:00:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-cape-verde_7279636.jpg?20260622015903" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Could Eubank Jr launch comeback in Nigeria?]]></title>
+           <description><![CDATA[Chris Eubank Jr has travelled to Nigeria as he considers options for his return to boxing.]]></description>
+           <link>https://www.skysports.com/boxing/news/12040/13556069/chris-eubank-jr-british-boxer-in-nigeria-as-he-considers-options-for-return-to-ring-for-first-fight-since-conor-benn-defeat</link>
+           <pubDate>Sat, 20 Jun 2026 11:22:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-boxing-2026-chris-eubank-jr_7278472.jpg?20260620112817" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Messi aiming to break more records in Argentina vs Austria LIVE! ]]></title>
+           <description><![CDATA[]]></description>
+           <link>https://www.skysports.com/football/argentina-vs-austria/live/549808</link>
+           <pubDate>Mon, 22 Jun 2026 08:35:00 BST</pubDate>
+           <category>Liveblog</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/06/1920x1080/skysports-lionel-messi-argentina_7275437.jpg?20260617044242" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA['Good can come from bad' - Why Clark deserves praise for 'awesome' US Open win]]></title>
+           <description><![CDATA[Code of contact is a hot topic right now in the men's game and Wyndham Clark is a good example of when boundaries are put in place, good can come from it.]]></description>
+           <link>https://www.skysports.com/golf/news/12040/13556752/us-open-golf-how-wyndham-clark-completed-major-redemption-and-overcame-negativity-by-closing-out-shinnecock-hills-win</link>
+           <pubDate>Mon, 22 Jun 2026 17:00:00 BST</pubDate>
+           <category>Article/Blog</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-wyndham-clark-golf_7280122.jpg?20260622144411" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[WOW! That's the first punch | Boxing's FASTEST Knockouts]]></title>
+           <description><![CDATA[A selection of the fastest knockouts ever to happen in a boxing ring!]]></description>
+           <link>https://www.skysports.com/watch/video/13554664/wow-thats-the-first-punch-boxings-fastest-knockouts</link>
+           <pubDate>Mon, 22 Jun 2026 07:00:00 BST</pubDate>
+           <category>Video</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/06/1920x1080/skysports-boxing-fastest-knockouts_7275076.jpg?20260616160000" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Go for Guehi? Tuchel's centre-back dilemma]]></title>
+           <description><![CDATA[England's attack caught fire against Croatia but their defence in Dallas was far less convincing.]]></description>
+           <link>https://www.skysports.com/football/news/12040/13555793/world-cup-2026-england-boss-thomas-tuchel-has-marc-guehi-pushing-for-recall-after-uncertain-john-stones-ezri-konsa-performances-against-croatia</link>
+           <pubDate>Mon, 22 Jun 2026 10:00:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-guehi-marc-john-stones_7277814.jpg?20260619145223" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Coles earns first England call-up for India T20 series]]></title>
+           <description><![CDATA[All-rounder James Coles has been called up by England for the first time after being named in the 17-man squad for the T20I series against India.]]></description>
+           <link>https://www.skysports.com/cricket/news/12040/13556787/england-cricket-james-coles-earns-first-england-t20-call-up-as-sonny-baker-jordan-cox-recalled-to-squad-for-india-series</link>
+           <pubDate>Mon, 22 Jun 2026 16:07:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e2.365dm.com/26/03/1920x1080/skysports-james-coles-sussex_7191536.jpg?20260313173407" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[George to captain England in Nations Championship as Itoje rested]]></title>
+           <description><![CDATA[England head coach Steve Borthwick has rested captain Maro Itoje for the inaugural Nations Championship, with Jamie George set to lead the side for their summer fixtures against South Africa, Fiji, and Argentina.]]></description>
+           <link>https://www.skysports.com/rugby-union/news/12040/13556776/england-rugby-berhard-janse-van-rensburg-set-to-make-debut-as-maro-itoje-rested-for-nations-championship</link>
+           <pubDate>Mon, 22 Jun 2026 15:36:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/02/1920x1080/skysports-maro-itoje-england_7170865.jpg?20260221134543" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[England's unsurprising defeat sets up tantalising decider with all eyes on Stokes]]></title>
+           <description><![CDATA[&#8203;&#8203;&#8203;&#8203;&#8203;Ben Stokes and Gus Atkinson made it beyond 12 o'clock. Shame England's batters couldn't do likewise.]]></description>
+           <link>https://www.skysports.com/cricket/news/12040/13556506/england-predictably-beaten-at-the-oval-after-two-weeks-of-chaos-with-ben-stokes-now-back-for-series-decider-vs-new-zealand-at-trent-bridge</link>
+           <pubDate>Mon, 22 Jun 2026 07:00:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e1.365dm.com/26/06/1920x1080/skysports-ben-stokes-england-test-cricket_7279496.jpg?20260621201012" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA['Not where it needed to be' - Scheffler rues errors in failed Grand Slam bid]]></title>
+           <description><![CDATA[Scottie Scheffler was left to rue another slow start to a tournament after falling short in his first attempt to complete the career Grand Slam at the US Open.]]></description>
+           <link>https://www.skysports.com/golf/news/12040/13556481/us-open-scottie-scheffler-rues-slow-start-to-major-after-missing-out-on-grand-slam-and-praises-wyndham-clarks-win</link>
+           <pubDate>Mon, 22 Jun 2026 06:30:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-scottie-scheffler_7279560.jpg?20260621215810" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Mercedes to discuss Antonelli-Russell battles amid Hamilton title threat]]></title>
+           <description><![CDATA[Mercedes boss Toto Wolff says the team will discuss how Kimi Antonelli and George Russell race each other going forward due to the possible championship threat from Lewis Hamilton.]]></description>
+           <link>https://www.skysports.com/f1/news/12040/13554590/mercedes-to-discuss-kimi-antonelli-george-russell-racing-rules-as-lewis-hamilton-ferrari-title-threat-grows-ahead-of-austrian-gp</link>
+           <pubDate>Mon, 22 Jun 2026 06:00:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e0.365dm.com/26/06/1920x1080/skysports-george-russell-kimi-antonelli_7276411.jpg?20260618082728" length="123456" />
+      </item>
+      	<item>
+           <title><![CDATA[Stokes and Atkinson cleared by Cricket Regulator over nightclub incident ]]></title>
+           <description><![CDATA[The independent Cricket Regulator has taken no action against Ben Stokes and Gus Atkinson over the nightclub incident which led to them missing last week&#8217;s Test against New Zealand, finding "insufficient evidence" against the pair.]]></description>
+           <link>https://www.skysports.com/cricket/news/12040/13556753/ben-stokes-england-captain-and-gus-atkinson-cleared-of-charges-by-cricket-regulator-after-investigation-into-nightclub-incident</link>
+           <pubDate>Mon, 22 Jun 2026 14:27:00 BST</pubDate>
+           <category>News Story</category>
+           <enclosure type="image/jpg" url="https://e2.365dm.com/26/06/1920x1080/skysports-ben-stokes_7269854.jpg?20260610105622" length="123456" />
+      </item>
+            </channel>
+      </rss>
+ 

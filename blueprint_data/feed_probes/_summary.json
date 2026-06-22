@@ -1,0 +1,86 @@
+{
+  "probedAt": "2026-06-22T16:44:36.317Z",
+  "results": [
+    {
+      "name": "fox-sports",
+      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs%2Fsoccer%2Csoccer%2Fepl%2Fleague%2F1%2Csoccer%2Fmls%2Fleague%2F5%2Csoccer%2Fucl%2Fleague%2F7%2Csoccer%2Feuropa%2Fleague%2F8%2Csoccer%2Fwc%2Fleague%2F12%2Csoccer%2Feuro%2Fleague%2F13%2Csoccer%2Fwwc%2Fleague%2F14%2Csoccer%2Fnwsl%2Fleague%2F20%2Csoccer%2Fcwc%2Fleague%2F26%2Csoccer%2Fgold_cup%2Fleague%2F32%2Csoccer%2Funl%2Fleague%2F67",
+      "status": 200,
+      "ok": true,
+      "bytes": 118949,
+      "error": null,
+      "itemCount": 23
+    },
+    {
+      "name": "nytimes-soccer",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Soccer.xml",
+      "status": 200,
+      "ok": true,
+      "bytes": 49985,
+      "error": null,
+      "itemCount": 25
+    },
+    {
+      "name": "cbssports-soccer",
+      "url": "https://www.cbssports.com/rss/headlines/soccer/",
+      "status": 200,
+      "ok": true,
+      "bytes": 37415,
+      "error": null,
+      "itemCount": 36
+    },
+    {
+      "name": "bbc-football",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "status": 200,
+      "ok": true,
+      "bytes": 65570,
+      "error": null,
+      "itemCount": 86
+    },
+    {
+      "name": "guardian-football",
+      "url": "https://www.theguardian.com/football/rss",
+      "status": 200,
+      "ok": true,
+      "bytes": 240880,
+      "error": null,
+      "itemCount": 69
+    },
+    {
+      "name": "sportingnews-soccer",
+      "url": "https://www.sportingnews.com/us/soccer/rss",
+      "status": 404,
+      "ok": false,
+      "bytes": 0,
+      "error": null,
+      "itemCount": null
+    },
+    {
+      "name": "skysports-football",
+      "url": "https://www.skysports.com/rss/12040",
+      "status": 200,
+      "ok": true,
+      "bytes": 16051,
+      "error": null,
+      "itemCount": 20
+    },
+    {
+      "name": "yahoo-soccer",
+      "url": "https://sports.yahoo.com/soccer/rss/",
+      "status": 200,
+      "ok": true,
+      "bytes": 258336,
+      "error": null,
+      "itemCount": 50
+    },
+    {
+      "name": "espn-soccer",
+      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "status": 202,
+      "ok": true,
+      "bytes": 0,
+      "error": null,
+      "itemCount": 0
+    }
+  ]
+}
