@@ -394,6 +394,10 @@ function syncFifaRankings() {
 const RSS_FEEDS = [
   { name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/football/rss.xml' },
   { name: 'The Guardian', url: 'https://www.theguardian.com/football/rss' },
+  { name: 'Fox Sports', url: 'https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30&tags=fs%2Fsoccer%2Csoccer%2Fepl%2Fleague%2F1%2Csoccer%2Fmls%2Fleague%2F5%2Csoccer%2Fucl%2Fleague%2F7%2Csoccer%2Feuropa%2Fleague%2F8%2Csoccer%2Fwc%2Fleague%2F12%2Csoccer%2Feuro%2Fleague%2F13%2Csoccer%2Fwwc%2Fleague%2F14%2Csoccer%2Fnwsl%2Fleague%2F20%2Csoccer%2Fcwc%2Fleague%2F26%2Csoccer%2Fgold_cup%2Fleague%2F32%2Csoccer%2Funl%2Fleague%2F67' },
+  { name: 'NY Times', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Soccer.xml' },
+  { name: 'CBS Sports', url: 'https://www.cbssports.com/rss/headlines/soccer/' },
+  { name: 'Yahoo Sports', url: 'https://sports.yahoo.com/soccer/rss/' },
 ];
 
 const TEAM_NAMES = Object.keys(TEAM_MASTER_DATA);
@@ -402,7 +406,7 @@ function decodeRssEntities(s) {
   return s
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"').replace(/&#0?39;/g, "'")
     .trim();
 }
 
