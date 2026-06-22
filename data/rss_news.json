@@ -1,6 +1,602 @@
 {
-  "asOf": "2026-06-22T19:47:21.053Z",
+  "asOf": "2026-06-22T21:53:18.675Z",
   "items": [
+    {
+      "headline": "France v Iraq: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/france-v-iraq-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 21:49:04 GMT",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "📸 The ruthless Messi-Mbappé duel sets the internet alight 🔥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ruthless-messi-mbapp-duel-sets-214500378.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "From retirement to records - another immortal Messi moment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/retirement-records-another-immortal-messi-214405098.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:44:05 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "From retirement to records - another immortal Messi moment",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c74y1vypn2wo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cff4/live/cced6d10-6e7f-11f1-8637-75e41a933d57.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 21:43:58 GMT",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings: Lionel Messi leads race after breaking all-time scoring record",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:37:00 +0000",
+      "teams": [
+        "Senegal",
+        "Algeria",
+        "Austria",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:36:09 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:35:44 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Scottish World Cup fans issue warning to England counterparts about ‘expensive’ Boston before Ghana clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scottish-world-cup-fans-issue-213424782.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:34:24 +0000",
+      "teams": [
+        "Scotland",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Lionel Messi's 2026 World Cup Goals As He Continues Breaking Records, Ranked",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/messi-2026-world-cup-goals-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-1-58.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:24:18 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi’s historic World Cup moment sheds light on a vital quality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-historic-world-cup-193406343.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:23:40 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Wanted by Barça and Real, Julián Álvarez wants out of Atlético",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wanted-bar-real-juli-n-212300783.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:23:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Fans delayed entry as bad weather affects France-Iraq tie",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fans-told-not-travel-france-182553056.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:08:52 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Fans delayed entry as bad weather affects France-Iraq tie",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cn4d7g5xxw8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e445/live/4443f560-6e66-11f1-8210-9f83f81a69da.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 21:08:47 GMT",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "USMNT’s Alex Zendejas, yet to play at World Cup, readies for his moment: ‘I’m sure it’ll come’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/usmnt-alex-zendejas-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 21:04:23 GMT",
+      "teams": [
+        "Mexico",
+        "Paraguay",
+        "Australia",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "USMNT’s Alex Zendejas, yet to play at World Cup, readies for his moment: ‘I’m sure it’ll come’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usmnt-alex-zendejas-yet-play-210423170.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:04:23 +0000",
+      "teams": [
+        "Paraguay",
+        "Australia"
+      ]
+    },
+    {
+      "headline": "🎙️ Scaloni: people are buzzing and enjoying it",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scaloni-people-buzzing-enjoying-210300850.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:03:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Argentinian national treasure Lionel Messi stands alone at goalscoring pinnacle | Pablo Iglesias Maurer",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/argentinian-national-treasure-lionel-messi-world-cup-goal-record"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 21:01:26 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Serbian TV pundit causes outrage with racist comment during Belgium game",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/serbian-tv-pundit-rade-bogdanovic-causes-outrage-racist-comment-belgium-iran-world-cup-game"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 21:00:28 GMT",
+      "teams": [
+        "Belgium",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Irrepressible Messi breaks World Cup scoring record as Argentina beat Austria",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/argentina-austria-world-cup-group-j-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 20:50:59 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Club World Cup: Mbappé sets a record from kick-off 🔥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/club-world-cup-mbapp-sets-204600241.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:46:00 +0000",
+      "teams": [
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-becomes-world-cup-time-183723671.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:36:56 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Christian Pulisic Returns To Training With US After Missing World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-injury-update-usmnt-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/f23dd5ee-pulisic1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 16:36:41 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Big Bets Report: Prediction Markets Ramp Up World Cup Wagering",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/big-bets-report-prediction-markets-ramp-up-world-cup-wagering"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ed4bd797-artboard-1-10.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 16:34:55 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Kylian Mbappé reaches century of France caps",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbapp-reaches-century-france-203000845.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:30:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Lamine Yamal and Christian Pulisic latest updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:29:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Messi makes World Cup history as Argentina reach last 32",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/c0ey1l0z2r8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50d4/live/4d87e460-6e70-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 20:29:31 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Best Of World Cup: Top Fan Moments, From England's Rodeo Fans To Messi Duck",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 16:17:15 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "These World Cup cities will spend the most on power bills to host matches",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-cities-spend-most-201340201.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:13:40 +0000",
+      "teams": []
+    },
+    {
+      "headline": "TV pundit Bogdanovic apologises for racist comments",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tv-pundit-bogdanovic-apologises-racist-200716034.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:07:16 +0000",
+      "teams": []
+    },
+    {
+      "headline": "TV pundit Bogdanovic apologises for racist comments",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cvg74ke150zo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d2d/live/d4cf0460-6e72-11f1-af12-adba0638fbd4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 20:07:11 GMT",
+      "teams": []
+    },
+    {
+      "headline": "🎥 WC highlights: scoring record despite pen miss! Messi's cheat code",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wc-highlights-scoring-record-despite-200500112.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:05:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds, best bets: Mbappe, Haaland among best bets for Monday",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-best-bets-mbappe-haaland-among-best-bets-for-monday/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/57216adc-e75c-467f-b40c-8232d34ebd59/kylian-mbappe-france-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:01:22 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for Monday's matches include France-Iraq, Norway-Senegal",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-mondays-matches-include-france-iraq-norway-senegal/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/7b169683-bfe3-47a3-85b7-d6f58fcad4c7/haaland.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:01:13 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Lionel Messi Gets 9/10 | Argentina Players Rated In Win Vs Austria After La Pulga Goes Past Klose’s World Cup Record",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-gets-9-10-195500171.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:55:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Ghana's Partey ready to play against England",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c75y4kqgn1wo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e92a/live/189d38c0-6e72-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 19:50:09 GMT",
+      "teams": [
+        "Canada",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "World Cup official line-ups: France vs Iraq, Maignan, Rabiot and Kone start",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-official-line-ups-195000950.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:50:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "What other records could fall as Messi pulls clear at top?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-records-look-set-135510718.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:45:31 +0000",
+      "teams": []
+    },
+    {
+      "headline": "L’Équipe apologises to Belgian footballer Jérémy Doku for presenter’s comments",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/lequipe-apologises-belgium-footballer-jeremy-doku-birth-child-presenter-comments"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 19:40:42 GMT",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Trump’s World Cup czar explains why the president hasn’t made an appearance at any games",
+      "links": {
+        "web": {
+          "href": "https://www.yahoo.com/news/politics/articles/trump-world-cup-czar-explains-193812044.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 19:38:12 +0000",
+      "teams": []
+    },
     {
       "headline": "🚨 France v Iraq: official line-ups!",
       "links": {
@@ -14,21 +610,6 @@
       "teams": [
         "France",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "Lionel Messi’s historic World Cup moment sheds light on a vital quality",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-historic-world-cup-193406343.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 19:34:06 +0000",
-      "teams": [
-        "Argentina",
-        "Austria"
       ]
     },
     {
@@ -85,23 +666,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 golden boot standings: Lionel Messi leads race after breaking all-time scoring record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 19:21:37 +0000",
-      "teams": [
-        "Senegal",
-        "Algeria",
-        "Austria",
-        "Croatia"
-      ]
-    },
-    {
       "headline": "Lionel Messi breaks World Cup scoring record in Argentina v Austria",
       "links": {
         "web": {
@@ -136,18 +700,6 @@
       ]
     },
     {
-      "headline": "Messi becomes World Cup all-time leading scorer - how has he stayed at the top?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-becomes-world-cup-time-183723671.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 19:18:06 +0000",
-      "teams": []
-    },
-    {
       "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads Pack After Historic Goal",
       "links": {
         "web": {
@@ -162,23 +714,6 @@
       "source": "Fox Sports",
       "pubDate": "Mon, 22 Jun 2026 15:16:58 -0400",
       "teams": []
-    },
-    {
-      "headline": "Irrepressible Messi breaks World Cup scoring record as Argentina beat Austria",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/argentina-austria-world-cup-group-j-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 19:16:25 GMT",
-      "teams": [
-        "United States",
-        "Argentina",
-        "Austria",
-        "England"
-      ]
     },
     {
       "headline": "2026 FIFA World Cup Schedule: Kickoff times, dates, fixture list, how to live stream, watch on TV",
@@ -357,23 +892,6 @@
       ]
     },
     {
-      "headline": "France v Iraq: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/22/france-v-iraq-world-cup-2026-live-updates"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 19:00:19 GMT",
-      "teams": [
-        "Australia",
-        "Iran",
-        "France",
-        "Iraq"
-      ]
-    },
-    {
       "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
       "links": {
         "web": {
@@ -412,25 +930,6 @@
       ]
     },
     {
-      "headline": "Gates open after bad weather affects France-Iraq tie",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cn4d7g5xxw8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e445/live/4443f560-6e66-11f1-8210-9f83f81a69da.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 18:49:50 GMT",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
       "headline": "Mo Salah dropped a statement and it's glorious news for Liverpool",
       "links": {
         "web": {
@@ -455,18 +954,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 22 Jun 2026 18:36:07 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Lamine Yamal and Christian Pulisic latest updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 18:35:13 +0000",
       "teams": []
     },
     {
@@ -584,7 +1071,7 @@
       ]
     },
     {
-      "headline": "All of Messi's record-breaking 17 World Cup goals",
+      "headline": "All of Messi's record-breaking 18 World Cup goals",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss"
@@ -2034,6 +2521,23 @@
       ]
     },
     {
+      "headline": "Cape Verde produce another World Cup shock as Varela strike seals Uruguay draw",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/22/cape-verde-uruguay-world-cup-group-h-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 00:28:46 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
       "headline": "Unbeaten Iran will go down in history - Ghalenoei",
       "links": {
         "web": {
@@ -2597,6 +3101,20 @@
       ]
     },
     {
+      "headline": "The French aristocrat and the all-American idiot: Henry v Lalas is the World Cup’s most compelling battle",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/21/thierry-henry-alexi-lalas-fox-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 21 Jun 2026 09:00:27 GMT",
+      "teams": [
+        "Iran"
+      ]
+    },
+    {
       "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
       "links": {
         "web": {
@@ -2739,6 +3257,21 @@
       "pubDate": "Sat, 20 Jun 2026 20:16:11 GMT",
       "teams": [
         "Scotland"
+      ]
+    },
+    {
+      "headline": "The brilliant Michael Olise represents a key faultline in history of French football | Jonathan Wilson",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/20/michael-olise-france-world-cup-didier-deschamps"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 20 Jun 2026 19:00:09 GMT",
+      "teams": [
+        "France",
+        "Senegal"
       ]
     },
     {
@@ -3105,6 +3638,23 @@
       "teams": [
         "Brazil",
         "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Life in Hollywood bubble plays second fiddle to US need for World Cup success | Max Rushden",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/19/life-hollywood-bubble-second-fiddle-us-need-for-world-cup-success"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 19 Jun 2026 17:05:44 GMT",
+      "teams": [
+        "Brazil",
+        "Australia",
+        "Germany",
+        "England"
       ]
     },
     {
