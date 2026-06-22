@@ -1746,8 +1746,18 @@ function matchCardHtml(match, extraLabel, opts = {}) {
 
   // News is opt-in per call site (Dashboard's Live & Today / Up Next cards) and
   // never shown on a currently-live match — that's what the commentary/stats
-  // blocks above are for.
-  const newsHtml = opts.showNews && !isLive ? newsListHtml(getMatchNews(match, 1)) : '';
+  // blocks above are for. Cache the fetched list on the match object so the
+  // nav-button/swipe handlers (which fire well after this render) scroll
+  // through the same set rather than recomputing (and reshuffling) it.
+  let newsHtml = '';
+  if (opts.showNews && !isLive) {
+    const articles = getMatchNews(match, 5);
+    match._newsArticles = articles;
+    if (articles.length) {
+      newsHtml = `<div class="match-news mc-anim" data-matchnum="${match.matchNum}">${newsScrollInnerHtml(match, articles)}</div>`;
+      ensureNewsAdvance(match.matchNum);
+    }
+  }
 
   return `
     <div class="match-card ${isLive ? 'live' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}">
@@ -2557,6 +2567,75 @@ function newsListHtml(articles) {
   }).join('')}</div>`;
 }
 
+// ===== SCROLLING NEWS WIDGET (match cards) =====
+// Like the live commentary ticker, but for the small news block shown on
+// non-live match cards: ‹/› buttons that wrap around instead of disabling at
+// the ends, swipe support, and a 10s auto-advance that pauses on hover and
+// restarts (not resets the position, just the countdown) on manual navigation.
+// No item counter — wrap-around makes "N/total" less meaningful than it is
+// for commentary, which never wraps.
+const NEWS_ADVANCE_MS = 10000;
+const newsAdvanceTimers = new Map(); // matchNum -> intervalId
+const newsHoverPaused = new Set();   // matchNums currently hovered
+
+function newsScrollInnerHtml(match, articles) {
+  if (!articles?.length) return '';
+  const len = articles.length;
+  let idx = ((match._newsIdx ?? 0) % len + len) % len;
+  match._newsIdx = idx;
+  const a = articles[idx];
+  const link = a.links?.web?.href;
+  const img = a.images?.[0]?.url;
+  const navHtml = len > 1 ? `
+    <div class="news-nav">
+      <button class="news-btn" data-matchnum="${match.matchNum}" data-dir="-1" aria-label="Previous news">‹</button>
+      <button class="news-btn" data-matchnum="${match.matchNum}" data-dir="1" aria-label="Next news">›</button>
+    </div>` : '';
+  return `<a class="news-item news-scroll-item" href="${link}" target="_blank" rel="noopener noreferrer">
+      ${img ? `<img class="news-thumb" src="${img}" alt="">` : '<span class="news-thumb news-thumb-placeholder">📰</span>'}
+      <span class="news-text">
+        <span class="news-headline">${a.headline}</span>
+        ${a.source ? `<span class="news-source">${a.source}</span>` : ''}
+      </span>
+    </a>${navHtml}`;
+}
+
+function startNewsAdvance(matchNum) {
+  clearInterval(newsAdvanceTimers.get(matchNum));
+  const timer = setInterval(() => {
+    if (newsHoverPaused.has(matchNum)) return;
+    navigateNews(matchNum, 1);
+  }, NEWS_ADVANCE_MS);
+  newsAdvanceTimers.set(matchNum, timer);
+}
+
+// Only (re)starts the timer the first time a match's news widget is rendered —
+// repeated calls on every poll/re-render would otherwise keep resetting the
+// 10s countdown before it ever fires.
+function ensureNewsAdvance(matchNum) {
+  if (newsAdvanceTimers.has(matchNum)) return;
+  startNewsAdvance(matchNum);
+}
+
+// Steps a match's displayed news item by `dir` (wraps around at either end).
+// Shared by the ‹/› button click handler and the news swipe gesture.
+function navigateNews(matchNum, dir) {
+  const match = state.matches.find(m => m.matchNum === matchNum);
+  const articles = match?._newsArticles;
+  if (!match || !articles?.length) return;
+  const len = articles.length;
+  match._newsIdx = ((match._newsIdx ?? 0) + dir) % len;
+  if (match._newsIdx < 0) match._newsIdx += len;
+  document.querySelectorAll(`.match-news[data-matchnum="${matchNum}"]`).forEach(node => {
+    node.classList.remove('mc-anim');
+    void node.offsetWidth; // restart fade animation
+    node.innerHTML = newsScrollInnerHtml(match, articles);
+    node.classList.add('mc-anim');
+  });
+  // Manual navigation resets the auto-advance countdown (not the position).
+  startNewsAdvance(matchNum);
+}
+
 async function fetchData() {
   if (state._dataFetchInFlight) return; // avoid overlapping polls if a previous one is slow
   state._dataFetchInFlight = true;
@@ -2806,10 +2885,10 @@ async function openTeamModal(teamName) {
       </div>
       ${recordHtml}
       <div id="tm-stats-section" class="tm-loading">Loading stats…</div>
-      ${newsHtml ? `<div class="tm-section-label">News</div>${newsHtml}` : ''}
       ${upcomingHtml ? `<div class="tm-section-label">Upcoming</div>${upcomingHtml}` : ''}
       <div class="tm-section-label">Results</div>
       ${teamMatchRows(teamName)}
+      ${newsHtml ? `<div class="tm-section-label">News</div>${newsHtml}` : ''}
     </div>
   `;
   document.body.appendChild(overlay);
@@ -2941,8 +3020,8 @@ async function openMatchModal(matchNum) {
         </div>
       </div>
       <div class="mdm-meta">${[kickoffFmt, match.venue].filter(Boolean).join(' · ')}</div>
-      ${(() => { const n = newsListHtml(getMatchNews(match)); return n ? `<div class="tm-section-label">News</div>${n}` : ''; })()}
       <div id="mdm-body"><div class="tm-loading">Loading match data…</div></div>
+      ${(() => { const n = newsListHtml(getMatchNews(match)); return n ? `<div class="tm-section-label">News</div>${n}` : ''; })()}
     </div>
   `;
   document.body.appendChild(overlay);
@@ -3008,7 +3087,7 @@ document.addEventListener('click', e => {
 // Delegated click handler for match cards — whole card opens the match modal
 // except live cards already showing inline stats (no .clickable class there).
 document.addEventListener('click', e => {
-  if (e.target.closest('.team-link, .flag-link, .mc-btn, .news-item')) return; // let those handlers take it
+  if (e.target.closest('.team-link, .flag-link, .mc-btn, .news-item, .news-btn')) return; // let those handlers take it
   const card = e.target.closest('.match-card.clickable[data-matchnum]');
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
@@ -3021,6 +3100,30 @@ document.addEventListener('click', e => {
   if (!btn || btn.disabled) return;
   e.stopPropagation();
   navigateCommentary(parseInt(btn.dataset.matchnum, 10), parseInt(btn.dataset.dir, 10));
+});
+
+// Delegated click handler for the news widget's scroll controls (prev/next, wraps)
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.news-btn');
+  if (!btn) return;
+  e.preventDefault();
+  e.stopPropagation();
+  navigateNews(parseInt(btn.dataset.matchnum, 10), parseInt(btn.dataset.dir, 10));
+});
+
+// Pause/resume the news widget's auto-advance on hover. mouseover/mouseout
+// (not mouseenter/mouseleave, which don't bubble) delegated on document since
+// .match-news nodes are replaced/morphed on every poll. el.contains(relatedTarget)
+// filters out moves between the widget's own children.
+document.addEventListener('mouseover', e => {
+  const el = e.target.closest('.match-news');
+  if (!el || el.contains(e.relatedTarget)) return;
+  newsHoverPaused.add(parseInt(el.dataset.matchnum, 10));
+});
+document.addEventListener('mouseout', e => {
+  const el = e.target.closest('.match-news');
+  if (!el || el.contains(e.relatedTarget)) return;
+  newsHoverPaused.delete(parseInt(el.dataset.matchnum, 10));
 });
 
 // ===== SWIPE GESTURES =====
@@ -3055,6 +3158,14 @@ document.addEventListener('touchend', e => {
   const commentaryEl = startTarget?.closest?.('.match-commentary');
   if (commentaryEl) {
     navigateCommentary(parseInt(commentaryEl.dataset.matchnum, 10), dx < 0 ? -1 : 1);
+    return;
+  }
+
+  // Swiping over the news widget steps through its (wrap-around) item list:
+  // swipe left for next, swipe right for previous.
+  const newsEl = startTarget?.closest?.('.match-news');
+  if (newsEl) {
+    navigateNews(parseInt(newsEl.dataset.matchnum, 10), dx < 0 ? 1 : -1);
     return;
   }
 
