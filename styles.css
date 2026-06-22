@@ -1197,6 +1197,38 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 .match-card .news-item { padding: 6px; }
 .match-card .news-thumb { width: 40px; height: 30px; }
 
+/* Scrolling single-item news widget (match cards) — pairs a .news-item with
+   wrap-around ‹/› controls, same visual language as .match-commentary/.mc-nav. */
+.match-news {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.match-news .news-scroll-item { flex: 1; margin-bottom: 0; }
+.match-news.mc-anim .news-text { animation: mc-fade-in .35s ease; }
+.news-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.news-btn {
+  border: none;
+  background: var(--surface-2);
+  color: var(--ink-2);
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.news-btn:hover { background: var(--border); }
+
 /* ===== MATCH DETAIL MODAL ===== */
 .match-modal { max-width: 480px; }
 
