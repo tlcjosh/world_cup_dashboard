@@ -1,8 +1,125 @@
 {
-  "asOf": "2026-06-22T17:31:49.517Z",
+  "asOf": "2026-06-22T17:43:56.313Z",
   "items": [
     {
-      "headline": "Messi misses penalty, misses chance to be World Cups' top scorer",
+      "headline": "Lionel Messi sets World Cup record against Austria with his 17th career goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/lionel-messi-sets-world-cup-record-against-austria-with-his-17th-career-goal-174253433.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:42:53 +0000",
+      "teams": [
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Lionel Messi Breaks All-Time FIFA Men's World Cup Scoring Record Against Austria",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-world-cup-goals-record-klose-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/9b0e51d9-messi-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 13:39:47 -0400",
+      "teams": [
+        "Austria"
+      ]
+    },
+    {
+      "headline": "How Ferguson became Scotland's most influential World Cup player",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 17:39:02 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Argentina v Austria: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/argentina-v-austria-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 17:33:28 GMT",
+      "teams": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "'He is human' - Messi misses from the spot as he chases scoring record",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/videos/cy5vlgnkr0go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/863e/live/8776ff60-6e5e-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 22 Jun 2026 17:32:59 GMT",
+      "teams": [
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Portugal star urges teammates to use Cristiano Ronaldo as inspiration to get World Cup campaign back on track",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/portugal-star-urges-teammates-cristiano-173243822.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:32:43 +0000",
+      "teams": [
+        "Portugal",
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "Club World Cup: Messi sets historic record... thanks to missed penalty 😭",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/club-world-cup-messi-sets-172800271.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 17:28:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Messi misses pen and loses chance to stand alone as World Cup top scorer",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/messi-misses-penalty-misses-chance-171900307.html"
@@ -28,23 +145,6 @@
       "teams": [
         "Egypt",
         "New Zealand"
-      ]
-    },
-    {
-      "headline": "Argentina v Austria: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/22/argentina-v-austria-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 17:17:48 GMT",
-      "teams": [
-        "Argentina",
-        "Algeria",
-        "Austria",
-        "Panama"
       ]
     },
     {
@@ -1887,6 +1987,24 @@
       ]
     },
     {
+      "headline": "All three England keepers played there - Carlisle's role in trio's rise",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/ckg4qw57d4do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac9e/live/4957c8e0-6bf7-11f1-8bf6-931d18012412.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 21 Jun 2026 10:43:54 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
       "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
       "links": {
         "web": {
@@ -2860,7 +2978,7 @@
       "teams": []
     },
     {
-      "headline": "How to watch the World Cup on the BBC and ITV",
+      "headline": "Where to watch the World Cup on the BBC and ITV",
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss"
