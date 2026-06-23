@@ -2353,8 +2353,21 @@ function renderBracket() {
     return `<div class="b-slot">${bMatchHtml(match)}</div>`;
   }
 
-  const r32 = state.matches.filter(m => m.stage === 'Round of 32');
-  const r16 = state.matches.filter(m => m.stage === 'Round of 16');
+  // Round of 32 / Round of 16 matchNums are assigned chronologically (by kickoff
+  // date/venue, per BRACKET_TEMPLATE), not by bracket-tree position. The slot
+  // heights below double per round on the assumption that array index k of a
+  // round is fed by indices 2k/2k+1 of the previous round, so rendering in raw
+  // matchNum order misaligns the visual tree (e.g. match 94 — the real feeder
+  // for match 81's winner — would render one slot below where match 81/82's
+  // column actually sits). These orders are derived from the [W##] feeder
+  // references baked into BRACKET_TEMPLATE and verified against the official
+  // bracket graphic; QF/SF/Final matchNums already happen to be in tree order.
+  const R32_TREE_ORDER = [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87];
+  const R16_TREE_ORDER = [89, 90, 93, 94, 91, 92, 95, 96];
+  const byTreeOrder = order => (a, b) => order.indexOf(a.matchNum) - order.indexOf(b.matchNum);
+
+  const r32 = state.matches.filter(m => m.stage === 'Round of 32').sort(byTreeOrder(R32_TREE_ORDER));
+  const r16 = state.matches.filter(m => m.stage === 'Round of 16').sort(byTreeOrder(R16_TREE_ORDER));
   const qf = state.matches.filter(m => m.stage === 'Quarterfinals');
   const sf = state.matches.filter(m => m.stage === 'Semifinals');
   const final = state.matches.filter(m => m.stage === 'Final');
