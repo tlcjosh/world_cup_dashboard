@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T19:29:49.734Z",
+  "lastUpdated": "2026-06-23T21:17:44.032Z",
   "matches": [
     {
       "matchId": 537327,
@@ -2124,10 +2124,10 @@
       "awayIso": "gh",
       "venue": "Gillette Stadium, Foxborough",
       "kickoff": "2026-06-23T20:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-23T21:17:44.032Z",
       "secondHalfStart": null
     },
     {
