@@ -2031,34 +2031,6 @@ function renderDashboard() {
     `;
     morphInto(el, html);
   }
-
-  // Bind team search
-  const searchEl = document.getElementById('team-search');
-  if (searchEl) {
-    searchEl.addEventListener('change', (e) => {
-      const val = e.target.value.trim();
-      if (TEAM_MASTER_DATA[val]) {
-        state.teamFilter = val;
-      } else if (!val) {
-        state.teamFilter = null;
-      }
-      renderDashboard();
-    });
-    searchEl.addEventListener('input', (e) => {
-      const val = e.target.value.trim();
-      if (!val) {
-        state.teamFilter = null;
-        renderDashboard();
-      }
-    });
-  }
-  const clearEl = document.getElementById('team-search-clear');
-  if (clearEl) {
-    clearEl.addEventListener('click', () => {
-      state.teamFilter = null;
-      renderDashboard();
-    });
-  }
 }
 
 function getTodayMatches() {
@@ -3140,6 +3112,35 @@ document.addEventListener('click', e => {
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
   if (matchNum) openMatchModal(matchNum);
+});
+
+// Delegated handlers for the Dashboard's team search input — delegated on document
+// (not bound inside renderDashboard) since #team-search/#team-search-clear are
+// re-rendered on every renderDashboard() call (including the calls these very
+// handlers trigger); binding directly to the element each render stacked a fresh
+// listener on top of the old one every time, growing without bound and eventually
+// crashing the page.
+document.addEventListener('change', e => {
+  if (e.target.id !== 'team-search') return;
+  const val = e.target.value.trim();
+  if (TEAM_MASTER_DATA[val]) {
+    state.teamFilter = val;
+  } else if (!val) {
+    state.teamFilter = null;
+  }
+  renderDashboard();
+});
+document.addEventListener('input', e => {
+  if (e.target.id !== 'team-search') return;
+  if (!e.target.value.trim()) {
+    state.teamFilter = null;
+    renderDashboard();
+  }
+});
+document.addEventListener('click', e => {
+  if (!e.target.closest('#team-search-clear')) return;
+  state.teamFilter = null;
+  renderDashboard();
 });
 
 // Delegated click handler for live commentary scroll controls (prev/next comment)
