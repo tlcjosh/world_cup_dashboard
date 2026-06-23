@@ -130,7 +130,6 @@ body {
   background: #fff; animation: blink 1.6s infinite;
 }
 
-#app-header[data-view="schedule"] ~ .live-mode-fab { display: none; }
 
 /* Sync pill */
 .sync-pill {
@@ -553,6 +552,18 @@ img.flag {
 /* ===== LIVE CLOCK (tick target) ===== */
 .match-clock { /* styled via .score-sub.live — this class just marks the tick target */ }
 
+/* ===== SCHEDULE HEADER ===== */
+.schedule-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 4px; flex-wrap: wrap; gap: 12px;
+}
+
+.schedule-title {
+  font-family: 'Anybody', sans-serif;
+  font-variation-settings: 'wdth' 75;
+  font-size: 26px; font-weight: 900;
+}
+
 /* ===== DATE HEADER ===== */
 .date-header {
   display: flex; align-items: center; gap: 12px;
@@ -575,7 +586,16 @@ img.flag {
   padding: 10px 16px; font-size: 14px; color: var(--ink);
   outline: none; font-family: 'Inter', sans-serif;
   transition: border-color .15s;
+  /* Suppress the browser's native dual-chevron combobox indicator that Chrome/Edge
+     draw on any <input list="..."> (datalist) field — our own bordered, rounded
+     input already signals "this is a field," and the native indicator rendered on
+     top of it looked like a doubled-up arrow artifact. Typing/focusing still shows
+     datalist suggestions; only the extra clickable chevron icon is removed. */
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
 }
+
+.search-input::-webkit-calendar-picker-indicator { display: none; }
+
 
 .search-input:focus { border-color: var(--blue); }
 .search-input::placeholder { color: var(--ink-3); }

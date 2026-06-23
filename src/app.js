@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v19.1';
-const APP_UPDATED = '2026-06-22 22:43 UTC';
+const APP_VERSION = 'v19.2';
+const APP_UPDATED = '2026-06-23 17:41 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1879,7 +1879,7 @@ function renderDashboard() {
     const meta = TEAM_MASTER_DATA[state.teamFilter];
     const html = `
       <div class="search-container">
-        <input list="team-datalist" id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
+        <input id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
         ${state.teamFilter ? `<button id="team-search-clear" class="search-clear" aria-label="Clear search">✕</button>` : ''}
         ${datalistHtml}
       </div>
@@ -2031,34 +2031,6 @@ function renderDashboard() {
     `;
     morphInto(el, html);
   }
-
-  // Bind team search
-  const searchEl = document.getElementById('team-search');
-  if (searchEl) {
-    searchEl.addEventListener('change', (e) => {
-      const val = e.target.value.trim();
-      if (TEAM_MASTER_DATA[val]) {
-        state.teamFilter = val;
-      } else if (!val) {
-        state.teamFilter = null;
-      }
-      renderDashboard();
-    });
-    searchEl.addEventListener('input', (e) => {
-      const val = e.target.value.trim();
-      if (!val) {
-        state.teamFilter = null;
-        renderDashboard();
-      }
-    });
-  }
-  const clearEl = document.getElementById('team-search-clear');
-  if (clearEl) {
-    clearEl.addEventListener('click', () => {
-      state.teamFilter = null;
-      renderDashboard();
-    });
-  }
 }
 
 function getTodayMatches() {
@@ -2076,23 +2048,56 @@ function renderSchedule(opts = {}) {
   const el = document.getElementById('view-schedule');
   const matches = state.matches;
 
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
+  // Same Live/Official resolution used by the Bracket view — resolves knockout
+  // placeholder slots (e.g. "[1A]", "[W73]") to actual team names once the group
+  // stage is complete, or speculatively while Live mode is on.
+  const groupMatches = state.matches.filter(m => m.stage === 'Group Stage');
+  const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
+  const resolveGroupSlots = groupStageComplete || state.liveMode;
+  const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
+  const computedStandings = resolveGroupSlots
+    ? (state.liveMode ? computeStandings(state.matches, statuses) : state.standings)
+    : {};
+  const thirdPlace = resolveGroupSlots ? computeThirdPlaceRankings(computedStandings) : [];
+  const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(thirdPlace.slice(0, 8)) : '';
+
+  function resolvedMatch(m) {
+    if (!m.homeTeam?.startsWith('[') && !m.awayTeam?.startsWith('[')) return m;
+    if (!resolveGroupSlots) return m;
+    const home = m.homeTeam?.startsWith('[') ? resolveTeam(m.homeTeam, computedStandings, thirdPlace, combinationString) : null;
+    const away = m.awayTeam?.startsWith('[') ? resolveTeam(m.awayTeam, computedStandings, thirdPlace, combinationString) : null;
+    return {
+      ...m,
+      homeTeam: home ? home.name : m.homeTeam,
+      homeIso: home ? home.iso : m.homeIso,
+      awayTeam: away ? away.name : m.awayTeam,
+      awayIso: away ? away.iso : m.awayIso,
+    };
+  }
+
   // Group by local Pacific date
   const byDate = {};
   const dtf = new Intl.DateTimeFormat('en-US', {
     timeZone: 'America/Los_Angeles',
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
-
-  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
-
   for (const m of matches) {
     const dateKey = m.kickoff ? dtf.format(new Date(m.kickoff)) : 'TBD';
     if (!byDate[dateKey]) byDate[dateKey] = [];
     byDate[dateKey].push(m);
   }
 
+  const modeLabel = state.liveMode
+    ? `<span class="standings-mode-label live-mode">Live (includes in-play)</span>`
+    : `<span class="standings-mode-label official">Official (finished only)</span>`;
+  let html = `<div class="schedule-header">
+    <span class="schedule-title">Schedule</span>
+    ${modeLabel}
+  </div>`;
+
   let todayId = null;
-  let html = '';
   for (const [date, dayMatches] of Object.entries(byDate)) {
     const firstMatch = dayMatches.find(m => m.kickoff);
     const isToday = firstMatch
@@ -2103,20 +2108,22 @@ function renderSchedule(opts = {}) {
     html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      html += matchCardHtml(m, label, { suppressStats: true });
+      html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true });
     }
   }
 
   morphInto(el, html || '<div class="empty-state">No matches to display.</div>');
 
-  // Scroll to today after render (skip on silent background refreshes)
+  // Land at today's section instantly (no animation) on a fresh navigation to this
+  // tab, so it reads as "this is where the page starts" rather than a visible jump.
+  // Silent background refreshes never touch scroll position.
   if (todayId && !opts.silent) {
     requestAnimationFrame(() => {
       const todayEl = document.getElementById(todayId);
       if (todayEl) {
         const headerH = document.getElementById('app-header')?.offsetHeight || 64;
         const top = todayEl.getBoundingClientRect().top + window.scrollY - headerH - 12;
-        window.scrollTo({ top, behavior: 'smooth' });
+        window.scrollTo({ top, behavior: 'instant' });
       }
     });
   }
@@ -2422,7 +2429,8 @@ function renderView(opts = {}) {
   if (header) header.dataset.view = state.currentView; // lets CSS hide the live-mode toggle on views it doesn't affect (e.g. Schedule)
   if (header && main) main.style.marginTop = header.offsetHeight + 'px';
 
-  // Scroll to top on all views except schedule (which scrolls to today itself), and not on silent background refreshes
+  // Scroll to top on all views except schedule (which lands at today's section itself),
+  // and not on silent background refreshes
   const savedScroll = opts.silent ? window.scrollY : null;
   if (!opts.silent && state.currentView !== 'schedule') window.scrollTo({ top: 0, behavior: 'instant' });
 
@@ -3104,6 +3112,35 @@ document.addEventListener('click', e => {
   if (!card) return;
   const matchNum = parseInt(card.dataset.matchnum, 10);
   if (matchNum) openMatchModal(matchNum);
+});
+
+// Delegated handlers for the Dashboard's team search input — delegated on document
+// (not bound inside renderDashboard) since #team-search/#team-search-clear are
+// re-rendered on every renderDashboard() call (including the calls these very
+// handlers trigger); binding directly to the element each render stacked a fresh
+// listener on top of the old one every time, growing without bound and eventually
+// crashing the page.
+document.addEventListener('change', e => {
+  if (e.target.id !== 'team-search') return;
+  const val = e.target.value.trim();
+  if (TEAM_MASTER_DATA[val]) {
+    state.teamFilter = val;
+  } else if (!val) {
+    state.teamFilter = null;
+  }
+  renderDashboard();
+});
+document.addEventListener('input', e => {
+  if (e.target.id !== 'team-search') return;
+  if (!e.target.value.trim()) {
+    state.teamFilter = null;
+    renderDashboard();
+  }
+});
+document.addEventListener('click', e => {
+  if (!e.target.closest('#team-search-clear')) return;
+  state.teamFilter = null;
+  renderDashboard();
 });
 
 // Delegated click handler for live commentary scroll controls (prev/next comment)
