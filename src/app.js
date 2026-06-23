@@ -1287,17 +1287,21 @@ function anyGroupHasLiveMatch() {
   return state.matches.some(m => m.stage === 'Group Stage' && (m.status === 'IN_PLAY' || m.status === 'PAUSED'));
 }
 
-// Only [1X]/[2X]/[3...] placeholders resolve via computeStandings (and so
-// are sensitive to the Live/Official toggle). [W##]/[L##] placeholders
-// resolve from an actual finished match result and a literal team name is
-// already decided either way -- neither depends on the toggle.
-function placeholderIsLiveAffected(placeholder) {
-  if (!placeholder?.startsWith('[')) return false;
-  const code = placeholder.slice(1, -1);
-  const posMatch = code.match(/^[1-4]([A-L])$/);
-  if (posMatch) return groupHasLiveMatch(posMatch[1]);
-  if (/^3[A-L]+$/.test(code)) return anyGroupHasLiveMatch();
-  return false;
+// Round of 32 slots are the only ones fed directly off group standings, so
+// they're the only ones a Live/Official toggle can disagree on. A side is
+// "confirmed" once applyBracketResolutions has locked it in (real team name
+// + the _xxxBracketResolved flag) -- that lock is computed purely off
+// FINISHED matches (see computeGuaranteedPositions), so it's identical in
+// both Live and Official mode and never flips back. Until locked, the slot
+// is still a raw [1A]-style placeholder and toggling Live/Official can
+// change which team it resolves to right now, even with no match currently
+// IN_PLAY in that group -- e.g. an already-FINISHED result elsewhere can
+// shuffle group position under one mode and not the other. So the border
+// shows on every still-unlocked Round of 32 match, not just ones with an
+// active live match feeding them.
+function r32MatchLiveAffected(match) {
+  if (match.stage !== 'Round of 32') return false;
+  return !(match._homeBracketResolved && match._awayBracketResolved);
 }
 
 // Replays a group's matches with one win/draw/loss combination applied to its
@@ -2147,8 +2151,7 @@ function renderSchedule(opts = {}) {
     html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      const liveAffected = state.liveMode && m.stage === 'Round of 32' &&
-        (placeholderIsLiveAffected(m.homeTeam) || placeholderIsLiveAffected(m.awayTeam));
+      const liveAffected = state.liveMode && r32MatchLiveAffected(m);
       html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true, liveAffected });
     }
   }
@@ -2276,8 +2279,9 @@ function renderStandings() {
   // Third-place wildcard section
   const thirdPlace = computeThirdPlaceRankings(computedStandings);
   if (thirdPlace.length) {
+    const wildcardLiveAffected = state.liveMode && anyGroupHasLiveMatch();
     html += `
-      <div class="card" style="margin-top:24px;">
+      <div class="card ${wildcardLiveAffected ? 'live-affected' : ''}" style="margin-top:24px;" ${wildcardLiveAffected ? 'title="Speculative: based on live scores, not yet official"' : ''}>
         <div class="card-title">Third-Place Wildcard Rankings</div>
         <p class="note-text" style="margin-bottom:10px;">Best 8 of 12 third-place teams advance to Round of 32</p>
         <table class="wildcard-table">
@@ -2375,8 +2379,7 @@ function renderBracket() {
     // Round of 32 is the only round whose slots resolve directly off group
     // standings (every later round resolves off an actual match's W/L), so
     // it's the only one that can disagree between Live and Official.
-    const liveAffected = state.liveMode && match.stage === 'Round of 32' &&
-      (placeholderIsLiveAffected(match.homeTeam) || placeholderIsLiveAffected(match.awayTeam));
+    const liveAffected = state.liveMode && r32MatchLiveAffected(match);
 
     return `
       <div class="b-match ${liveAffected ? 'live-affected' : ''}" data-matchnum="${match.matchNum}" title="${metaTitle}${liveAffected ? ' · Speculative: based on live scores, not yet official' : ''}">
