@@ -1,6 +1,522 @@
 {
-  "asOf": "2026-06-23T05:49:19.550Z",
+  "asOf": "2026-06-23T08:55:28.566Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Messi makes history; Mbappé and Haaland double up; England face Ghana – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/23/world-cup-2026-news-live-messi-mbappe-haaland-england-ghana-portugal-uzbekistan-panama-croatia-colombia-dr-congo"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 08:47:39 GMT",
+      "teams": [
+        "Portugal",
+        "Uzbekistan",
+        "Colombia",
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Rice in 'good space' after 'mentally tough' season",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-good-space-mentally-tough-084505145.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:45:05 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Is there a problem with the 2026 World Cup ball? Why goalkeepers are struggling with the Trionda",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/problem-2026-world-cup-ball-083453847.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:34:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Who are the ITV and BBC commentators, pundits and presenters?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:29:48 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Unpaid bonuses and food issues - what's going on inside Senegal camp?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unpaid-bonuses-food-issues-whats-082204837.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:22:04 +0000",
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Unpaid bonuses and food issues - what's going on inside Senegal camp?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cz6v0jn8368o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d23b/live/b2944750-6dbb-11f1-af30-fd5554657267.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 08:21:59 GMT",
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 fixtures, results and group tables",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:16:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Argentina, Norway & France into last 32 - reaction & highlights",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-argentina-norway-071314943.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:16:12 +0000",
+      "teams": [
+        "France",
+        "Norway",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who is Said Martinez? England v Ghana referee makes World Cup history for Honduras",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/said-martinez-england-v-ghana-081451632.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:14:51 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappe explains what makes Real Madrid&#8217;s Galactico target special: &#8216;So easy to play with him&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbappe-explains-makes-real-081000936.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:10:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Rayan Ait-Nouri and Algeria down Jordan in thrilling comeback win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-080500892.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:05:00 +0000",
+      "teams": [
+        "Algeria",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "England vs. Ghana: How to Watch, TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-england-vs-ghana-tv-channel-live-stream-2026-fifa-world-cup-group-l"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9eng-ghana.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 04:00:47 -0400",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Beyond the World Cup... 5️⃣ stories to start a busy Tuesday ☕️",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/beyond-world-cup-5-stories-080000974.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 08:00:00 +0000",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Clinical Haaland shining on biggest stage",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/clinical-haaland-shining-biggest-stage-074848816.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:48:48 +0000",
+      "teams": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Football Extra World Cup column: The jeopardy is real now – plus Pat gets caught in a storm",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/football-extra-world-cup-column-074845062.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:48:45 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "🙏 Sarr joins national icon in Senegal's World Cup pantheon",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sarr-joins-national-icon-senegals-074300631.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:43:00 +0000",
+      "teams": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Barca World Cup Spotlight: Lionel Messi continues to defy age with another incredible display",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barca-world-cup-spotlight-lionel-074000102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Madrid World Cup Spotlight: Kylian Mbappe looks unstoppable as France turn on the style against Iraq",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/madrid-world-cup-spotlight-kylian-074000824.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:40:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Scottish World Cup fans issue warning to England counterparts about ‘expensive’ Boston before Ghana clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scottish-world-cup-fans-issue-213424782.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:32:04 +0000",
+      "teams": [
+        "Scotland",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Why is Thomas Partey allowed to play against England at the World Cup while charged with rape?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-partey-world-cup-appearance-060057934.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 07:27:03 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Scottish fans’ friendly USA invasion exemplifies the joy of the World Cup | Philipp Lahm",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/scotland-fans-usa-world-cup-joy-fifa"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 07:00:35 GMT",
+      "teams": [
+        "Haiti",
+        "Scotland",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Portugal vs. Uzbekistan Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-portugal-uzbekistan-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281465226-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 03:00:10 -0400",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Listen: Respect Brazil or go for it? Scotland's World Cup call",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0ntknqz?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntknrm.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Ranking every England World Cup kit from 1950 to 2026",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ranking-every-england-world-cup-063910920.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 06:39:10 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "The Wayne Rooney Show",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0ntkkzt?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0lxths6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 06:39:00 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "The concerning trend England must address in World Cup clash with Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/concerning-trend-england-must-address-063047857.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 06:30:47 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Two-goal Haaland fires Norway into last 32 with win over Senegal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-qualify-last-32-win-205359552.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 06:28:19 +0000",
+      "teams": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Why Scotland can't play for draw or narrow defeat against Brazil",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-scotland-cant-play-draw-061621724.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 06:16:21 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Why Scotland can't play for draw or narrow defeat against Brazil",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/c79ylvq54e9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f21/live/585b3250-6e40-11f1-8a85-d1d176b992ab.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 06:16:14 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 06:10:38 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 02:00:29 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Messi in a class of his own and rain stops play in Philadelphia – World Cup Daily",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jun/23/messi-in-a-class-of-his-own-and-rain-stops-play-in-philadelphia-world-cup-daily"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 05:59:01 GMT",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Miami romance, Billy Gilmour and a mince and tattie hot dog",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.com/sport/football/articles/cq51860v8zyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34d4/live/154c63a0-6ec0-11f1-87ed-1750ac7ec29c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 05:51:37 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
     {
       "headline": "4 Takeaways From Algeria's Comeback Win Over Jordan At World Cup",
       "links": {
@@ -168,6 +684,7 @@
       "source": "The Guardian",
       "pubDate": "Tue, 23 Jun 2026 05:13:35 GMT",
       "teams": [
+        "Argentina",
         "Algeria",
         "Jordan"
       ]
@@ -304,7 +821,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/06474c3d-messi-scaled.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -420,21 +937,6 @@
       "teams": [
         "Senegal",
         "Norway"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 03:07:47 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
       ]
     },
     {
@@ -824,22 +1326,6 @@
       "teams": [
         "Portugal"
       ]
-    },
-    {
-      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 21:00:06 -0400",
-      "teams": []
     },
     {
       "headline": "Man City 2026 World Cup Watch: Rayan Cherki makes cameo appearance in three-hour long France win vs Iraq",
@@ -1320,22 +1806,6 @@
       "pubDate": "Mon, 22 Jun 2026 21:43:58 GMT",
       "teams": [
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Scottish World Cup fans issue warning to England counterparts about ‘expensive’ Boston before Ghana clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scottish-world-cup-fans-issue-213424782.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 21:34:24 +0000",
-      "teams": [
-        "Scotland",
-        "England",
-        "Ghana"
       ]
     },
     {
@@ -3768,7 +4238,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c23/live/5cac2940-6db9-11f1-a4ca-7b7f0c2cb38a.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg"
         }
       ],
       "source": "BBC Sport",
