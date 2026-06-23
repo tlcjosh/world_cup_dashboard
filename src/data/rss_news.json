@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-23T17:42:40.570Z",
+  "asOf": "2026-06-23T18:59:03.782Z",
   "items": [
     {
       "headline": "Portugal v Uzbekistan: World Cup 2026 – live",
@@ -10,10 +10,424 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 17:36:49 GMT",
+      "pubDate": "Tue, 23 Jun 2026 18:52:27 GMT",
       "teams": [
         "Portugal",
         "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "England make two changes to face Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-two-changes-face-ghana-185200187.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:52:00 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To DR Congo's 'Statue Fan'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 14:50:34 -0400",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "England v Ghana: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/23/england-v-ghana-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 18:50:33 GMT",
+      "teams": [
+        "Uruguay",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "A To Z: 2026 World Cup Goalscorers Complete Alphabet",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-a-z-alphabet"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-1-59.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 14:48:06 -0400",
+      "teams": []
+    },
+    {
+      "headline": "‘I did everything I could at Real Madrid’ – Kylian Mbappe opens up on difficult season",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/did-everything-could-real-madrid-184500032.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Iran's US entry terms changed for final group game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/irans-us-entry-terms-changed-184443333.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:44:43 +0000",
+      "teams": [
+        "United States",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Iran's US entry terms changed for final group game",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8k4y0kz56o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00c6/live/27725bd0-6f32-11f1-b420-af213beec177.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 18:44:37 GMT",
+      "teams": [
+        "United States",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/all-time-world-cup-top-scorers-messi-makes-history-whos-next-list"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 14:41:23 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: England vs. Ghana official line-ups, Kane takes on Sulemana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-england-vs-184000910.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:40:00 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "US eases Iran World Cup team’s travel restrictions for next match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-eases-iran-world-cup-183336140.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:38:06 +0000",
+      "teams": [
+        "Iran"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket, Standings, Projections: USA in Round of 32, Who Else Might Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-mbappe-horiz.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 14:34:27 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo scores record-breaking World Cup goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-scores-record-breaking-171019760.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:30:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Alexi Lalas scolded by former USA teammate over ‘unwatchable’ Fox Sports punditry at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/alexi-lalas-scolded-former-usa-181748786.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:17:48 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Commentator stripped of Fifa credentials over Almiron rant",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/commentator-stripped-fifa-credentials-over-181644354.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:16:44 +0000",
+      "teams": [
+        "Paraguay",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Commentator stripped of Fifa credentials over Almiron rant",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8e2xdn58ryo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d007/live/6bb5cef0-6f2b-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 18:16:38 GMT",
+      "teams": [
+        "Paraguay",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Gianni Infantino says Trump will be at the World Cup final to present trophy to winners",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gianni-infantino-says-trump-world-173736530.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:07:07 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Lamine Yamal and Christian Pulisic latest updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:00:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 13:55:39 -0400",
+      "teams": []
+    },
+    {
+      "headline": "France advised to bid for 2038 World Cup hosting rights",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-advised-bid-2038-world-175500630.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:55:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Tracking Every Cristiano Ronaldo Goal At The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-cristiano-ronaldo-portugal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ronaldo-tracker-16x9-.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 13:52:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch England vs. Ghana: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-england-vs-ghana-tv-channel-live-stream-2026-fifa-world-cup-group-l"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9eng-ghana.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 13:48:49 -0400",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Panama vs. Croatia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/panama-vs-croatia-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/33ad6f5d-8427-49e2-8344-742d81be8b2b/croatia.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:48:03 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Why Uzbekistan’s World Cup goal against Portugal was ruled out – and Lionel Messi’s against Austria wasn’t",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-uzbekistan-world-cup-goal-174737013.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:47:37 +0000",
+      "teams": [
+        "Austria",
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Trump to attend World Cup final and present trophy",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cze9wp8r6lno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e22/live/8a35fb70-6f26-11f1-adf9-6fa2b518a522.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 17:47:25 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "England vs. Ghana odds, prediction, time: 2026 World Cup picks from expert on 21-10 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-ghana-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/5df4a874-be47-47b1-bdc8-c50392f4536c/jude-bellingham-england-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:46:57 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 Group J guide: Favourites Argentina begin title defence as Jordan debut",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-group-j-104759744.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:34:15 +0000",
+      "teams": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Jordan"
       ]
     },
     {
@@ -35,7 +449,23 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads Pack After Historic Goal",
+      "headline": "World Cup 2026 – Group I guide: Favourites France, dark horses Norway and dangerous Senegal... is this our group of death?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-group-guide-100100551.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:30:17 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads, Ronaldo Joins The Party",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
@@ -51,19 +481,7 @@
       "teams": []
     },
     {
-      "headline": "Cristiano Ronaldo scores record-breaking World Cup goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-scores-record-breaking-171019760.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 17:22:37 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📸 No burden! CR7 gets his World Cup goal, whole team celebrates",
+      "headline": "📸 No burden at all! CR7 gets his World Cup goal – team celebrate",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/no-burden-cr7-world-cup-172100018.html"
@@ -77,23 +495,7 @@
       ]
     },
     {
-      "headline": "Tracking Every Cristiano Ronaldo Goal At The 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-cristiano-ronaldo-portugal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ronaldo-tracker-16x9-.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:17:42 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Cristiano Ronaldo scores again, sets record and ends 10-match hoodoo",
+      "headline": "Cristiano Ronaldo scores again, sets record and ends 10-game drought",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-scores-again-sets-171700728.html"
@@ -229,24 +631,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 23 Jun 2026 16:55:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To DR Congo's 'Statue Fan'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 12:52:49 -0400",
-      "teams": [
-        "Congo DR"
-      ]
     },
     {
       "headline": "Fifa weighs up keeping hydration breaks for future World Cups despite fan backlash",
@@ -688,18 +1072,6 @@
         "Portugal",
         "Uzbekistan"
       ]
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Lamine Yamal and Christian Pulisic latest updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 14:13:19 +0000",
-      "teams": []
     },
     {
       "headline": "Portugal coach Roberto Martinez defends team and Cristiano Ronaldo from ‘unfair and unjust’ criticism",
@@ -1573,25 +1945,6 @@
       ]
     },
     {
-      "headline": "England vs. Ghana: How to Watch, TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-england-vs-ghana-tv-channel-live-stream-2026-fifa-world-cup-group-l"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9eng-ghana.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 04:00:47 -0400",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
       "headline": "Beyond the World Cup... 5️⃣ stories to start a busy Tuesday ☕️",
       "links": {
         "web": {
@@ -1879,22 +2232,6 @@
         "Mexico",
         "Canada"
       ]
-    },
-    {
-      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 02:00:29 -0400",
-      "teams": []
     },
     {
       "headline": "Messi in a class of his own and rain stops play in Philadelphia – World Cup Daily",
