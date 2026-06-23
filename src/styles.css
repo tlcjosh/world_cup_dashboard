@@ -289,6 +289,18 @@ body {
               var(--grad-live) border-box;
 }
 
+/* Marks anything (a card, a match card, a bracket bubble) whose displayed
+   result depends on the Live/Official standings toggle being on -- i.e. it
+   would show something different if toggled off. Same green/blue gradient
+   as the live-mode toggle itself, so the two read as the same concept. */
+.card.live-affected,
+.match-card.live-affected,
+.b-match.live-affected {
+  border-color: transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+              var(--grad-green) border-box;
+}
+
 /* Top bar: status badge left, venue right */
 .match-meta-bar {
   display: flex; align-items: center; justify-content: space-between; gap: 8px;

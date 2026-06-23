@@ -1269,6 +1269,37 @@ function computeThirdPlaceRankings(standings) {
   return thirds;
 }
 
+// Whether toggling the Live/Official standings switch could actually change
+// anything for a given group: only true if that group has a Group Stage
+// match currently IN_PLAY/PAUSED, since those are the only matches the Live
+// toggle adds on top of FINISHED ones. A group with no live match computes
+// identically either way.
+function groupHasLiveMatch(group) {
+  return state.matches.some(m => m.stage === 'Group Stage' &&
+    (m.status === 'IN_PLAY' || m.status === 'PAUSED') &&
+    (TEAM_MASTER_DATA[m.homeTeam]?.group === group || TEAM_MASTER_DATA[m.awayTeam]?.group === group));
+}
+
+// The 3rd-place wildcard ranking draws its 12 candidates from every group at
+// once, so a live match in *any* group can reshuffle it -- there's no single
+// group to scope the check to.
+function anyGroupHasLiveMatch() {
+  return state.matches.some(m => m.stage === 'Group Stage' && (m.status === 'IN_PLAY' || m.status === 'PAUSED'));
+}
+
+// Only [1X]/[2X]/[3...] placeholders resolve via computeStandings (and so
+// are sensitive to the Live/Official toggle). [W##]/[L##] placeholders
+// resolve from an actual finished match result and a literal team name is
+// already decided either way -- neither depends on the toggle.
+function placeholderIsLiveAffected(placeholder) {
+  if (!placeholder?.startsWith('[')) return false;
+  const code = placeholder.slice(1, -1);
+  const posMatch = code.match(/^[1-4]([A-L])$/);
+  if (posMatch) return groupHasLiveMatch(posMatch[1]);
+  if (/^3[A-L]+$/.test(code)) return anyGroupHasLiveMatch();
+  return false;
+}
+
 // Replays a group's matches with one win/draw/loss combination applied to its
 // still-undecided matches (1-0 / 0-0 / 0-1 representative scorelines -- exact
 // margins aren't modeled, see computeClinchStatus below), then runs the result
@@ -1767,7 +1798,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
   }
 
   return `
-    <div class="match-card ${isLive ? 'live' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}">
+    <div class="match-card ${isLive ? 'live' : opts.liveAffected ? 'live-affected' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}" ${opts.liveAffected ? 'title="Speculative: based on live scores, not yet official"' : ''}>
       <div class="match-meta-bar">
         <div class="match-meta-left">${statusBadge(match)}${extraLabelHtml}</div>
         ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
@@ -2116,7 +2147,9 @@ function renderSchedule(opts = {}) {
     html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true });
+      const liveAffected = state.liveMode && m.stage === 'Round of 32' &&
+        (placeholderIsLiveAffected(m.homeTeam) || placeholderIsLiveAffected(m.awayTeam));
+      html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true, liveAffected });
     }
   }
 
@@ -2175,8 +2208,9 @@ function renderStandings() {
 
   for (const grp of 'ABCDEFGHIJKL'.split('')) {
     const teams = computedStandings[grp] || [];
+    const liveAffected = state.liveMode && groupHasLiveMatch(grp);
     html += `
-      <div class="card" style="padding:0;overflow:hidden;">
+      <div class="card ${liveAffected ? 'live-affected' : ''}" style="padding:0;overflow:hidden;" ${liveAffected ? 'title="Speculative: based on live scores, not yet official"' : ''}>
         <div class="group-header" style="padding:10px 14px;margin-bottom:0;">
           <div class="group-pill">${grp}</div>
           <div class="group-name">Group ${grp}</div>
@@ -2338,8 +2372,14 @@ function renderBracket() {
     const metaText = [kickoffFmt, venueCity(match.venue)].filter(Boolean).join(' · ');
     const metaTitle = [kickoffFmt, match.venue].filter(Boolean).join(' · ');
 
+    // Round of 32 is the only round whose slots resolve directly off group
+    // standings (every later round resolves off an actual match's W/L), so
+    // it's the only one that can disagree between Live and Official.
+    const liveAffected = state.liveMode && match.stage === 'Round of 32' &&
+      (placeholderIsLiveAffected(match.homeTeam) || placeholderIsLiveAffected(match.awayTeam));
+
     return `
-      <div class="b-match" data-matchnum="${match.matchNum}" title="${metaTitle}">
+      <div class="b-match ${liveAffected ? 'live-affected' : ''}" data-matchnum="${match.matchNum}" title="${metaTitle}${liveAffected ? ' · Speculative: based on live scores, not yet official' : ''}">
         ${metaText ? `<div class="b-meta">${metaText}</div>` : ''}
         <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
           <span class="flag-link team-flag-wrap" data-team="${home.name}">${flagImg(home.iso, home.name)}${home.confirmed ? confirmedDot : ''}</span>
