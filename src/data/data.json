@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:19:15.093Z",
+  "lastUpdated": "2026-06-23T01:27:58.300Z",
   "matches": [
     {
       "matchId": 537327,
@@ -1932,10 +1932,10 @@
       "awayIso": "sn",
       "venue": "MetLife Stadium, East Rutherford",
       "kickoff": "2026-06-23T00:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-23T01:27:58.300Z",
       "secondHalfStart": null
     },
     {
@@ -1949,11 +1949,42 @@
       "awayIso": "iq",
       "venue": "Lincoln Financial Field, Philadelphia",
       "kickoff": "2026-06-22T21:00:00.000Z",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
-      "status": "PAUSED",
+      "status": "FINISHED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760457",
+      "homeFouls": 8,
+      "awayFouls": 4,
+      "homeYellowCards": 0,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeCorners": 4,
+      "awayCorners": 2,
+      "homePossession": 55.5,
+      "awayPossession": 44.5,
+      "homeSaves": 0,
+      "awaySaves": 2,
+      "homePassPct": 0.9,
+      "awayPassPct": 0.9,
+      "homeShots": 19,
+      "awayShots": 4,
+      "homeShotsOnTarget": 5,
+      "awayShotsOnTarget": 0,
+      "homeTackles": 14,
+      "awayTackles": 18,
+      "homeInterceptions": 5,
+      "awayInterceptions": 11,
+      "homeClearances": 9,
+      "awayClearances": 26,
+      "homeCrosses": 14,
+      "awayCrosses": 9,
+      "homeLongBalls": 30,
+      "awayLongBalls": 51,
+      "homeFairPlay": 0,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537399,
@@ -3476,6 +3507,19 @@
     ],
     "I": [
       {
+        "team": "France",
+        "iso": "fr",
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 6,
+        "fairPlayPoints": 0
+      },
+      {
         "team": "Norway",
         "iso": "no",
         "played": 1,
@@ -3485,19 +3529,6 @@
         "gf": 4,
         "ga": 1,
         "gd": 3,
-        "pts": 3,
-        "fairPlayPoints": 0
-      },
-      {
-        "team": "France",
-        "iso": "fr",
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 3,
-        "ga": 1,
-        "gd": 2,
         "pts": 3,
         "fairPlayPoints": 0
       },
@@ -3517,15 +3548,15 @@
       {
         "team": "Iraq",
         "iso": "iq",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 1,
-        "ga": 4,
-        "gd": -3,
+        "ga": 7,
+        "gd": -6,
         "pts": 0,
-        "fairPlayPoints": -1
+        "fairPlayPoints": -2
       }
     ],
     "J": [

@@ -1,6 +1,371 @@
 {
-  "asOf": "2026-06-22T23:19:16.427Z",
+  "asOf": "2026-06-23T01:27:58.801Z",
   "items": [
+    {
+      "headline": "Norway v Senegal: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/22/norway-v-senegal-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 01:20:52 GMT",
+      "teams": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads Pack After Historic Goal",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/06474c3d-messi-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:17:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "&#8216;I&#8217;m convinced the third match will be decisive for top spot&#8217; &#8211; France manager Didier Deschamps after Les Bleus qualified for World Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/m-convinced-third-match-decisive-011500362.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 01:15:00 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "World Cup Knockout Round: Who's Advanced Out Of The Group Stage?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-knockout-round-who-advances-usmnt"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/97099c5d-4fdfe8d8-messi-1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:08:41 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Bracket, Standings: France, Argentina Advance; Where The USA Stands",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-mbappe-horiz.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:05:12 -0400",
+      "teams": [
+        "United States",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:04:01 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 21:00:06 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Rayan Cherki makes cameo appearance in three-hour long France win vs Iraq",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-010000791.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 01:00:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: France storms to 3-0 win over Iraq behind Kylian Mbappé brace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-france-storms-to-3-0-win-over-iraq-behind-kylian-mbappe-brace-005605912.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:56:05 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "PLAYER RATINGS | France 3-0 Iraq: Kylian Mbappé hits double as thunderstorm interrupts match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/player-ratings-france-3-0-005500948.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:55:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "FEATURE | Three things we learned as France qualified for the World Cup&#8217;s knock-out stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/feature-three-things-learned-france-005500281.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:55:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To Norway's Vikings Row",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:54:50 -0400",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Diniz build-up helps Mbappé close on Messi in World Cup scoring; see",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/diniz-build-helps-mbapp-close-002300093.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:23:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:22:51 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Most World Cup Goals All Time: Messi Takes Over Top Spot In History",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/most-world-cup-goals-all-time-messi-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 22 Jun 2026 20:20:50 -0400",
+      "teams": []
+    },
+    {
+      "headline": "What's it like covering South Korea as a journalist at a World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/whats-covering-south-korea-journalist-001000356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:10:00 +0000",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "🙌 After nearly 2 hours, France v Iraq resumes at the Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nearly-2-hours-france-v-000200930.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:02:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Jordan vs. Algeria odds, prediction, time: 2026 World Cup picks from expert on 21-10 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/jordan-algeria-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/06b09531-003b-4f3e-aad4-4fe5a2164512/usatsi-29221853-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 00:00:45 +0000",
+      "teams": [
+        "Algeria",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "How ‘Tournament Thomas’ embraced the World Cup and changed England’s culture",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tournament-thomas-embraced-world-cup-233100739.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:31:00 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel urges England to improve defence against Ghana after ‘wake-up call’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/thomas-tuchel-england-ghana-world-cup-defence-improve"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 23:30:24 GMT",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Tuchel’s brash Britpop football is music to England ears before Ghana test",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/thomas-tuchel-britpop-football-england-world-cup-ghana"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 23:30:24 GMT",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel responds to England assistant’s explosive ITV interview during World Cup opener",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-responds-england-assistant-233000534.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:30:00 +0000",
+      "teams": [
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "France v Iraq delayed due to lightning as Fifa action World Cup 2026 weather protocol",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-world-cup-games-could-144300011.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:23:16 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
     {
       "headline": "World Cup 2026: Which third-place team will the United States play in the Round of 32?",
       "links": {
@@ -41,6 +406,35 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Mon, 22 Jun 2026 19:06:47 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Julián Alvarez sparks transfer frenzy by telling Atlético Madrid he wants to leave",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/julian-alvarez-sparks-transfer-frenzy-by-telling-atletico-madrid-he-wants-to-leave"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 22 Jun 2026 23:06:05 GMT",
+      "teams": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "From retirement to records - another immortal Messi moment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/retirement-records-another-immortal-messi-214405098.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 22 Jun 2026 23:05:40 +0000",
       "teams": [
         "Argentina"
       ]
@@ -125,21 +519,6 @@
       ]
     },
     {
-      "headline": "France v Iraq delayed due to lightning as Fifa action World Cup 2026 weather protocol",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-world-cup-games-could-144300011.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 22:25:36 +0000",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
       "headline": "Here we go again: cup match delayed by storm",
       "links": {
         "web": {
@@ -170,20 +549,6 @@
       ]
     },
     {
-      "headline": "From retirement to records - another immortal Messi moment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/retirement-records-another-immortal-messi-214405098.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 22:02:23 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Norway vs. Senegal odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
       "links": {
         "web": {
@@ -197,21 +562,6 @@
       ],
       "source": "CBS Sports",
       "pubDate": "Mon, 22 Jun 2026 22:00:58 +0000",
-      "teams": [
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Norway v Senegal: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/22/norway-v-senegal-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 22:00:22 GMT",
       "teams": [
         "Senegal",
         "Norway"
@@ -278,22 +628,6 @@
         "Mexico",
         "Canada"
       ]
-    },
-    {
-      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:35:44 -0400",
-      "teams": []
     },
     {
       "headline": "Scottish World Cup fans issue warning to England counterparts about ‘expensive’ Boston before Ghana clash",
@@ -507,7 +841,7 @@
       "teams": []
     },
     {
-      "headline": "Christian Pulisic Returns To Training With US After Missing World Cup Match",
+      "headline": "Christian Pulisic Returns To Training With USA After Missing World Cup Match",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-injury-update-usmnt-world-cup-match"
@@ -584,24 +918,6 @@
       "teams": [
         "Argentina",
         "Austria"
-      ]
-    },
-    {
-      "headline": "Best Of World Cup: Top Fan Moments, From England's Rodeo Fans To Messi Duck",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 16:17:15 -0400",
-      "teams": [
-        "England"
       ]
     },
     {
@@ -819,22 +1135,6 @@
       ]
     },
     {
-      "headline": "World Cup Knockout Round: Who's Advanced Out Of The Group Stage?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-knockout-round-who-advances-usmnt"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/97099c5d-4fdfe8d8-messi-1-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 15:23:58 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup Odds: Argentina Inches Closer To Clinching Group",
       "links": {
         "web": {
@@ -887,22 +1187,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads Pack After Historic Goal",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/06474c3d-messi-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 15:16:58 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 FIFA World Cup Schedule: Kickoff times, dates, fixture list, how to live stream, watch on TV",
       "links": {
         "web": {
@@ -952,38 +1236,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Mon, 22 Jun 2026 19:08:00 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Most World Cup Goals All Time: Messi Takes Over Top Spot In History",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/most-world-cup-goals-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 15:07:14 -0400",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 15:05:01 -0400",
       "teams": []
     },
     {
@@ -2474,25 +2726,6 @@
       "source": "BBC Sport",
       "pubDate": "Mon, 22 Jun 2026 06:02:45 GMT",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Bracket, Standings: Where The USA Stands; Spain Makes Statement",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/83609d2a-yamal1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 01:36:50 -0400",
-      "teams": [
-        "United States",
-        "Spain"
-      ]
     },
     {
       "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
