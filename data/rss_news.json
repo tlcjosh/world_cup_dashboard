@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-23T17:28:33.790Z",
+  "asOf": "2026-06-23T17:42:40.570Z",
   "items": [
     {
       "headline": "Portugal v Uzbekistan: World Cup 2026 – live",
@@ -10,10 +10,28 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 17:22:59 GMT",
+      "pubDate": "Tue, 23 Jun 2026 17:36:49 GMT",
       "teams": [
         "Portugal",
         "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "More than 300 drones seized at US World Cup sites",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cdjkzdgeewvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/159d/live/9042f8d0-6f24-11f1-adf9-6fa2b518a522.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 17:32:15 GMT",
+      "teams": [
+        "United States"
       ]
     },
     {
@@ -29,11 +47,23 @@
         }
       ],
       "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:22:32 -0400",
+      "pubDate": "Tue, 23 Jun 2026 13:29:59 -0400",
       "teams": []
     },
     {
-      "headline": "📸 No burden at all! CR7 has his World Cup goal, whole team celebrates him",
+      "headline": "Cristiano Ronaldo scores record-breaking World Cup goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-scores-record-breaking-171019760.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:22:37 +0000",
+      "teams": []
+    },
+    {
+      "headline": "📸 No burden! CR7 gets his World Cup goal, whole team celebrates",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/no-burden-cr7-world-cup-172100018.html"
@@ -63,7 +93,7 @@
       "teams": []
     },
     {
-      "headline": "Cristiano Ronaldo scores again, sets record and ends 10-game hoodoo",
+      "headline": "Cristiano Ronaldo scores again, sets record and ends 10-match hoodoo",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-scores-again-sets-171700728.html"
@@ -116,6 +146,21 @@
       ]
     },
     {
+      "headline": "🚨 Cristiano Ronaldo sets two World Cup records",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-bags-two-world-171200893.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 17:12:00 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
       "headline": "World Cup 2026: Cristiano Ronaldo becomes first man to score a goal in six World Cups",
       "links": {
         "web": {
@@ -128,15 +173,15 @@
       "teams": []
     },
     {
-      "headline": "Cristiano Ronaldo scores record-breaking World Cup goal",
+      "headline": "World Cup 2026: Cristiano Ronaldo becomes first man to score a goal in 6 World Cups",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-scores-record-breaking-171019760.html"
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-cristiano-ronaldo-becomes-first-man-to-score-a-goal-in-6-world-cups-171107583.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 17:10:19 +0000",
+      "pubDate": "Tue, 23 Jun 2026 17:11:07 +0000",
       "teams": []
     },
     {
