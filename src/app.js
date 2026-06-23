@@ -1879,7 +1879,7 @@ function renderDashboard() {
     const meta = TEAM_MASTER_DATA[state.teamFilter];
     const html = `
       <div class="search-container">
-        <input list="team-datalist" id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
+        <input id="team-search" class="search-input" placeholder="Search team..." value="${state.teamFilter || ''}">
         ${state.teamFilter ? `<button id="team-search-clear" class="search-clear" aria-label="Clear search">✕</button>` : ''}
         ${datalistHtml}
       </div>
