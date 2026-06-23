@@ -144,7 +144,7 @@ All three hero slots rotate together through a pool built by `computeHeroStats()
 ### Mobile Header Layout (`@media (max-width: 768px)`)
 `#app-header` wraps into 3 stacked rows via flexbox `order`:
 1. `.brand` (left) + `.header-right` — notification bell + sync pill (right)
-2. `.toggle-wrap` (Live Standings toggle) — centered, full width. Hidden via `#app-header[data-view="schedule"] .toggle-wrap { display: none }` since `state.liveMode` only affects Dashboard/Standings/Bracket, not Schedule.
+2. Live Standings toggle (`#live-mode-fab`) — a floating action button, not part of the header row flow; see "Official vs Live Toggle" below for where it applies.
 3. `.nav-tabs` — full-width row of equal-width (`flex: 1`) nav buttons
 
 `renderView()` sets `header.dataset.view = state.currentView` on every render so the CSS above can target the active view. Desktop layout (`.header-right { order: 3 }`, toggle inline) is untouched above the breakpoint.
@@ -310,6 +310,26 @@ Each 3rd-place bracket slot placeholder determines which combinations.json colum
 ```
 Defined in `app.js` as `SLOT_TO_OPPONENT`.
 
+### Bracket Visual Ordering
+`BRACKET_TEMPLATE`'s `matchNum` order (73–104) is chronological by kickoff date, **not** bracket-tree order — R32 match 74 doesn't necessarily feed R16 match 89 just because it's numerically adjacent. `renderBracket()` reorders each round's column for display using two hardcoded tree-order constants verified against the `[W##]` feeder placeholders in `BRACKET_TEMPLATE` and FIFA's official bracket:
+```js
+const R32_TREE_ORDER = [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87];
+const R16_TREE_ORDER = [89, 90, 93, 94, 91, 92, 95, 96];
+```
+A `byTreeOrder(order)` comparator sorts each round's matches by index in these arrays before rendering. QF/SF/Final don't need an explicit order constant — their feeder relationships pin them implicitly. If the bracket ever looks like it's sending a winner to the wrong next match, check these arrays against `BRACKET_TEMPLATE`'s `[W##]`/`[L##]` placeholders first.
+
+### Bracket Connector Lines
+Visual lines connecting each round's slots to the next round are pure CSS (`styles.css`, "BRACKET CONNECTOR LINES" section) — `::before`/`::after` pseudo-elements on `.b-slot` forming elbow connectors, using `--bconn`/`--bconn-c` custom properties and `:nth-child(odd)`/`:nth-child(even)` rules to route the corner radius correctly depending on whether a slot is the top or bottom feeder into the next round's (taller) slot. No JS involved — relies entirely on the slot-height-doubling layout described in "Bracket Slot Layout" above.
+
+### Bracket Card Venue Display
+Bracket cards (`.b-match`, via `bMatchHtml()`) show city only, not the full "Stadium, City" venue string — `venueCity(venue)` splits on the last comma and keeps the trailing segment. This is scoped to the bracket only; Schedule cards, the match detail modal, and notifications still show the full venue string since they have more room and benefit from the stadium name.
+
+### Live-Mode "Speculative" Indicator
+When `state.liveMode` is on, any card whose displayed content could differ from Official mode gets a green/blue gradient border (`.live-affected` class, same `--grad-green` gradient as the live-mode toggle button itself — see CSS rule in styles.css just after `.match-card.live`). Distinct from `--grad-live` (red/orange), which marks a match currently in-play, not a speculative/live-mode-derived value.
+- **Standings (per-group cards)**: bordered only when that specific group has a `IN_PLAY`/`PAUSED` match right now (`groupHasLiveMatch(group)`) — Official vs Live can only disagree for a group while one of its matches is actually live.
+- **Third-Place Wildcard Rankings card**: bordered whenever *any* group has a live/paused match (`anyGroupHasLiveMatch()`) — the wildcard ranking draws from all 12 groups' 3rd-place teams at once, so a live match anywhere can reshuffle it.
+- **Round of 32 cards (both Bracket and Schedule views)**: broader rule than the above two, because R32 slots resolve directly off group standings (every later bracket round resolves off an actual match's W/L, so it can't disagree). Bordered whenever `state.liveMode` is on **unless both sides are already locked in** via `applyBracketResolutions()`'s `_homeBracketResolved`/`_awayBracketResolved` flags (`r32MatchLiveAffected(match)` in `app.js`). Those flags are computed off FINISHED-only matches (`computeGuaranteedPositions()`), so they're identical in both Live and Official mode — once a side is locked, it stays unbordered regardless of what's live elsewhere. Until locked, the border shows even with no match currently live in the feeding group, since an already-FINISHED result elsewhere can still shuffle group position differently under Live vs Official. This intentionally does **not** reuse `groupHasLiveMatch()` — that check only catches "a match is live right now," which is too narrow for R32 (see Known Issues if this regresses).
+
 ### Live Clock
 `getMatchMinute()` prefers ESPN clock data when available:
 - `elapsedSec = _espnClock + (Date.now() - _espnFetchedAt) / 1000`
@@ -323,8 +343,8 @@ Falls back to `firstHalfStart`/`secondHalfStart` timestamps from `data.json` if 
 ### Official vs Live Toggle
 - **Official**: standings computed from `FINISHED` matches only
 - **Live**: standings computed from `FINISHED` + `IN_PLAY` + `PAUSED` (uses current score)
-- Toggle affects: Standings view, 3rd-place wildcard table, Bracket placeholder resolution
-- State stored in `state.liveMode` (boolean), toggled via `#live-mode-toggle` checkbox
+- Toggle affects: Standings view, 3rd-place wildcard table, Bracket placeholder resolution, and (since `state.liveMode` is global) Round of 32 placeholder resolution on the Schedule view too — see "Live-Mode 'Speculative' Indicator" above for how each surface signals this visually.
+- State stored in `state.liveMode` (boolean), toggled via the `#live-mode-fab` floating action button
 - Fair play points need no special-casing for this toggle: `homeFairPlay`/`awayFairPlay` are summed inside the same `includeStatuses`-gated loop as pts/gd/gf in `computeStandings()`, so in-progress cards are picked up automatically in Live mode and ignored in Official mode, just like the current score.
 
 ### Fair Play Tiebreaker
