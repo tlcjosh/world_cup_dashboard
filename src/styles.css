@@ -130,7 +130,6 @@ body {
   background: #fff; animation: blink 1.6s infinite;
 }
 
-#app-header[data-view="schedule"] ~ .live-mode-fab { display: none; }
 
 /* Sync pill */
 .sync-pill {
@@ -552,6 +551,19 @@ img.flag {
 
 /* ===== LIVE CLOCK (tick target) ===== */
 .match-clock { /* styled via .score-sub.live — this class just marks the tick target */ }
+
+/* ===== SCHEDULE HEADER ===== */
+.schedule-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 4px; flex-wrap: wrap; gap: 12px;
+}
+
+.schedule-filter-btn {
+  font-size: 12px; font-weight: 600; padding: 5px 12px; border-radius: 99px;
+  background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--border);
+  cursor: pointer; transition: background .15s;
+}
+.schedule-filter-btn:hover { background: var(--border); }
 
 /* ===== DATE HEADER ===== */
 .date-header {

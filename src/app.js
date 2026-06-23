@@ -21,6 +21,7 @@ const state = {
   espnNews: [],
   rssNews: [],
   liveMode: false,
+  scheduleFilter: 'today', // 'today' | 'all' — reset to 'today' each time the Schedule tab is navigated to
   currentView: 'dashboard',
   teamFilter: null,
   lastUpdated: null,
@@ -2074,7 +2075,57 @@ function getTodayMatches() {
 // ===== RENDER SCHEDULE =====
 function renderSchedule(opts = {}) {
   const el = document.getElementById('view-schedule');
-  const matches = state.matches;
+
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+  const dateOf = (m) => m.kickoff
+    ? new Date(m.kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' })
+    : null;
+
+  const showingToday = state.scheduleFilter === 'today';
+  let matches = state.matches;
+  let emptyMessage = 'No matches to display.';
+
+  if (showingToday) {
+    const todayMatches = matches.filter(m => dateOf(m) === todayStr);
+    if (todayMatches.length) {
+      matches = todayMatches;
+    } else {
+      // Off day — fall back to the next upcoming date so the tab isn't blank.
+      const upcoming = matches
+        .filter(m => m.kickoff && dateOf(m) > todayStr)
+        .sort((a, b) => new Date(a.kickoff) - new Date(b.kickoff));
+      const nextDate = upcoming.length ? dateOf(upcoming[0]) : null;
+      matches = nextDate ? matches.filter(m => dateOf(m) === nextDate) : [];
+      emptyMessage = 'No upcoming matches scheduled.';
+    }
+  }
+
+  // Same Live/Official resolution used by the Bracket view — resolves knockout
+  // placeholder slots (e.g. "[1A]", "[W73]") to actual team names once the group
+  // stage is complete, or speculatively while Live mode is on.
+  const groupMatches = state.matches.filter(m => m.stage === 'Group Stage');
+  const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
+  const resolveGroupSlots = groupStageComplete || state.liveMode;
+  const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
+  const computedStandings = resolveGroupSlots
+    ? (state.liveMode ? computeStandings(state.matches, statuses) : state.standings)
+    : {};
+  const thirdPlace = resolveGroupSlots ? computeThirdPlaceRankings(computedStandings) : [];
+  const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(thirdPlace.slice(0, 8)) : '';
+
+  function resolvedMatch(m) {
+    if (!m.homeTeam?.startsWith('[') && !m.awayTeam?.startsWith('[')) return m;
+    if (!resolveGroupSlots) return m;
+    const home = m.homeTeam?.startsWith('[') ? resolveTeam(m.homeTeam, computedStandings, thirdPlace, combinationString) : null;
+    const away = m.awayTeam?.startsWith('[') ? resolveTeam(m.awayTeam, computedStandings, thirdPlace, combinationString) : null;
+    return {
+      ...m,
+      homeTeam: home ? home.name : m.homeTeam,
+      homeIso: home ? home.iso : m.homeIso,
+      awayTeam: away ? away.name : m.awayTeam,
+      awayIso: away ? away.iso : m.awayIso,
+    };
+  }
 
   // Group by local Pacific date
   const byDate = {};
@@ -2082,44 +2133,31 @@ function renderSchedule(opts = {}) {
     timeZone: 'America/Los_Angeles',
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
-
-  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
-
   for (const m of matches) {
     const dateKey = m.kickoff ? dtf.format(new Date(m.kickoff)) : 'TBD';
     if (!byDate[dateKey]) byDate[dateKey] = [];
     byDate[dateKey].push(m);
   }
 
-  let todayId = null;
-  let html = '';
+  const modeLabel = state.liveMode
+    ? `<span class="standings-mode-label live-mode">Live (includes in-play)</span>`
+    : `<span class="standings-mode-label official">Official (finished only)</span>`;
+  let html = `<div class="schedule-header">
+    <button class="schedule-filter-btn" id="schedule-filter-toggle" type="button">${showingToday ? 'View Full Schedule' : 'Back to Today'}</button>
+    ${modeLabel}
+  </div>`;
+
   for (const [date, dayMatches] of Object.entries(byDate)) {
-    const firstMatch = dayMatches.find(m => m.kickoff);
-    const isToday = firstMatch
-      ? new Date(firstMatch.kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }) === todayStr
-      : false;
-    const id = isToday ? ' id="schedule-today"' : '';
-    if (isToday) todayId = 'schedule-today';
-    html += `<div class="date-header"${id}>${date}</div>`;
+    html += `<div class="date-header">${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      html += matchCardHtml(m, label, { suppressStats: true });
+      html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true });
     }
   }
 
-  morphInto(el, html || '<div class="empty-state">No matches to display.</div>');
+  if (!matches.length) html += `<div class="empty-state">${emptyMessage}</div>`;
 
-  // Scroll to today after render (skip on silent background refreshes)
-  if (todayId && !opts.silent) {
-    requestAnimationFrame(() => {
-      const todayEl = document.getElementById(todayId);
-      if (todayEl) {
-        const headerH = document.getElementById('app-header')?.offsetHeight || 64;
-        const top = todayEl.getBoundingClientRect().top + window.scrollY - headerH - 12;
-        window.scrollTo({ top, behavior: 'smooth' });
-      }
-    });
-  }
+  morphInto(el, html);
 }
 
 // Small inline dot used in standings rows to flag a clinched or eliminated
@@ -2422,9 +2460,9 @@ function renderView(opts = {}) {
   if (header) header.dataset.view = state.currentView; // lets CSS hide the live-mode toggle on views it doesn't affect (e.g. Schedule)
   if (header && main) main.style.marginTop = header.offsetHeight + 'px';
 
-  // Scroll to top on all views except schedule (which scrolls to today itself), and not on silent background refreshes
+  // Scroll to top on view changes, but not on silent background refreshes
   const savedScroll = opts.silent ? window.scrollY : null;
-  if (!opts.silent && state.currentView !== 'schedule') window.scrollTo({ top: 0, behavior: 'instant' });
+  if (!opts.silent) window.scrollTo({ top: 0, behavior: 'instant' });
 
   switch (state.currentView) {
     case 'dashboard': renderDashboard(); break;
@@ -3106,6 +3144,13 @@ document.addEventListener('click', e => {
   if (matchNum) openMatchModal(matchNum);
 });
 
+// Delegated click handler for the Schedule view's Today/Full Schedule filter toggle
+document.addEventListener('click', e => {
+  if (!e.target.closest('#schedule-filter-toggle')) return;
+  state.scheduleFilter = state.scheduleFilter === 'today' ? 'all' : 'today';
+  renderSchedule({ silent: true });
+});
+
 // Delegated click handler for live commentary scroll controls (prev/next comment)
 document.addEventListener('click', e => {
   const btn = e.target.closest('.mc-btn');
@@ -3198,6 +3243,7 @@ async function init() {
   document.querySelectorAll('.nav-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       state.currentView = tab.dataset.view;
+      if (tab.dataset.view === 'schedule') state.scheduleFilter = 'today';
       renderView();
     });
   });
