@@ -1080,6 +1080,14 @@ function formatKickoff(isoStr) {
   }
 }
 
+// Venue strings are always "Stadium Name, City" (see data.json) — for
+// condensed displays like the bracket, only the city is useful.
+function venueCity(venue) {
+  if (!venue) return '';
+  const idx = venue.lastIndexOf(',');
+  return idx === -1 ? venue : venue.slice(idx + 1).trim();
+}
+
 function updateSyncPill(espnLabel) {
   const el = document.getElementById('last-sync');
   if (!el) return;
@@ -2326,13 +2334,12 @@ function renderBracket() {
     const homeWon = hasScore && match.homeScore > match.awayScore;
     const awayWon = hasScore && match.awayScore > match.homeScore;
     const confirmedDot = `<span class="clinch-dot position" title="Clinched — mathematically locked in, official fixture pending">✓</span>`;
-    const metaText = [
-      match.kickoff ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) : '',
-      match.venue,
-    ].filter(Boolean).join(' · ');
+    const kickoffFmt = match.kickoff ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) : '';
+    const metaText = [kickoffFmt, venueCity(match.venue)].filter(Boolean).join(' · ');
+    const metaTitle = [kickoffFmt, match.venue].filter(Boolean).join(' · ');
 
     return `
-      <div class="b-match" data-matchnum="${match.matchNum}" title="${metaText}">
+      <div class="b-match" data-matchnum="${match.matchNum}" title="${metaTitle}">
         ${metaText ? `<div class="b-meta">${metaText}</div>` : ''}
         <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
           <span class="flag-link team-flag-wrap" data-team="${home.name}">${flagImg(home.iso, home.name)}${home.confirmed ? confirmedDot : ''}</span>
