@@ -289,6 +289,18 @@ body {
               var(--grad-live) border-box;
 }
 
+/* Marks anything (a card, a match card, a bracket bubble) whose displayed
+   result depends on the Live/Official standings toggle being on -- i.e. it
+   would show something different if toggled off. Same green/blue gradient
+   as the live-mode toggle itself, so the two read as the same concept. */
+.card.live-affected,
+.match-card.live-affected,
+.b-match.live-affected {
+  border-color: transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+              var(--grad-green) border-box;
+}
+
 /* Top bar: status badge left, venue right */
 .match-meta-bar {
   display: flex; align-items: center; justify-content: space-between; gap: 8px;
@@ -759,7 +771,7 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
   margin-bottom: 8px;
 }
 
-.bracket-header-row-inner { display: flex; gap: 8px; min-width: 960px; will-change: transform; }
+.bracket-header-row-inner { display: flex; gap: 28px; min-width: 1080px; will-change: transform; }
 
 .bracket-round-title {
   flex: 1; min-width: 0;
@@ -770,7 +782,7 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
 
 .bracket-wrapper { overflow-x: auto; padding-bottom: 12px; }
 
-.bracket { display: flex; gap: 8px; min-width: 960px; align-items: flex-start; }
+.bracket { display: flex; gap: 28px; min-width: 1080px; align-items: flex-start; }
 
 .bracket-round { display: flex; flex-direction: column; flex: 1; min-width: 0; }
 
@@ -781,12 +793,75 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
 }
 
 /* Slot — vertically centers card in its allocated height */
-.b-slot { display: flex; align-items: center; flex-shrink: 0; }
+.b-slot { display: flex; align-items: center; flex-shrink: 0; position: relative; }
 
 .r32 .b-slot { height: var(--bs); }
 .r16 .b-slot { height: calc(2 * var(--bs)); }
 .rqf .b-slot { height: calc(4 * var(--bs)); }
 .rsf .b-slot { height: calc(8 * var(--bs)); }
+
+/* ===== BRACKET CONNECTOR LINES =====
+   Each round (except r32, which has no predecessor) gets a leftward stub from
+   the gap into its card, vertically centered on the card. Each round (except
+   the final, which has no successor) gets a rightward elbow: half its slots
+   (the "top" of each feeder pair) curve down-right, the other half ("bottom"
+   of each pair) curve up-right, meeting at the gap's midpoint — which is
+   exactly where the next round's single slot is vertically centered, since
+   slot heights double per round specifically to center each match between
+   its two feeders. nth-child works directly on matchNum tree order (see
+   R32_TREE_ORDER/R16_TREE_ORDER in app.js) so pairing is always (1st,2nd),
+   (3rd,4th), etc. within each round's rendered slot list. */
+:root { --bconn: 28px; --bconn-c: var(--border); }
+
+.bracket-round:not(.r32) .b-slot::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  width: calc(var(--bconn) / 2);
+  height: 2px;
+  background: var(--bconn-c);
+}
+
+/* Every non-final round gets the same rightward elbow, including rsf ->
+   Final: the Final round's incoming connector targets .final-slot directly
+   (see below) since it's an absolutely-positioned element rather than a
+   .b-slot, but the elbow geometry converging on it is identical. */
+.bracket-round .b-slot::after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  width: calc(var(--bconn) / 2 + 1px);
+  border-right: 2px solid var(--bconn-c);
+}
+
+.bracket-round .b-slot:nth-child(odd)::after {
+  top: 50%;
+  height: calc(50% + 1px);
+  border-top: 2px solid var(--bconn-c);
+  border-radius: 0 8px 0 0;
+}
+
+.bracket-round .b-slot:nth-child(even)::after {
+  bottom: 50%;
+  height: calc(50% + 1px);
+  border-bottom: 2px solid var(--bconn-c);
+  border-radius: 0 0 8px 0;
+}
+
+.rfin-body .final-slot {
+  position: relative;
+}
+
+.rfin-body .final-slot::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  width: calc(var(--bconn) / 2);
+  height: 2px;
+  background: var(--bconn-c);
+}
 
 /* Final round: Final + 3rd Place stacked together and centered as a pair in
    the full column height (vertically between the two semifinal slots above),

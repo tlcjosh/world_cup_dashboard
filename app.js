@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v19.2';
-const APP_UPDATED = '2026-06-23 17:41 UTC';
+const APP_VERSION = 'v20';
+const APP_UPDATED = '2026-06-23 18:56 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1080,6 +1080,14 @@ function formatKickoff(isoStr) {
   }
 }
 
+// Venue strings are always "Stadium Name, City" (see data.json) — for
+// condensed displays like the bracket, only the city is useful.
+function venueCity(venue) {
+  if (!venue) return '';
+  const idx = venue.lastIndexOf(',');
+  return idx === -1 ? venue : venue.slice(idx + 1).trim();
+}
+
 function updateSyncPill(espnLabel) {
   const el = document.getElementById('last-sync');
   if (!el) return;
@@ -1259,6 +1267,41 @@ function computeThirdPlaceRankings(standings) {
   // Cross-group comparison: head-to-head doesn't apply (different groups), so fall straight to fair play -> FIFA ranking.
   thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || (fifaRankOf(a.team) - fifaRankOf(b.team)) || a.team.localeCompare(b.team));
   return thirds;
+}
+
+// Whether toggling the Live/Official standings switch could actually change
+// anything for a given group: only true if that group has a Group Stage
+// match currently IN_PLAY/PAUSED, since those are the only matches the Live
+// toggle adds on top of FINISHED ones. A group with no live match computes
+// identically either way.
+function groupHasLiveMatch(group) {
+  return state.matches.some(m => m.stage === 'Group Stage' &&
+    (m.status === 'IN_PLAY' || m.status === 'PAUSED') &&
+    (TEAM_MASTER_DATA[m.homeTeam]?.group === group || TEAM_MASTER_DATA[m.awayTeam]?.group === group));
+}
+
+// The 3rd-place wildcard ranking draws its 12 candidates from every group at
+// once, so a live match in *any* group can reshuffle it -- there's no single
+// group to scope the check to.
+function anyGroupHasLiveMatch() {
+  return state.matches.some(m => m.stage === 'Group Stage' && (m.status === 'IN_PLAY' || m.status === 'PAUSED'));
+}
+
+// Round of 32 slots are the only ones fed directly off group standings, so
+// they're the only ones a Live/Official toggle can disagree on. A side is
+// "confirmed" once applyBracketResolutions has locked it in (real team name
+// + the _xxxBracketResolved flag) -- that lock is computed purely off
+// FINISHED matches (see computeGuaranteedPositions), so it's identical in
+// both Live and Official mode and never flips back. Until locked, the slot
+// is still a raw [1A]-style placeholder and toggling Live/Official can
+// change which team it resolves to right now, even with no match currently
+// IN_PLAY in that group -- e.g. an already-FINISHED result elsewhere can
+// shuffle group position under one mode and not the other. So the border
+// shows on every still-unlocked Round of 32 match, not just ones with an
+// active live match feeding them.
+function r32MatchLiveAffected(match) {
+  if (match.stage !== 'Round of 32') return false;
+  return !(match._homeBracketResolved && match._awayBracketResolved);
 }
 
 // Replays a group's matches with one win/draw/loss combination applied to its
@@ -1759,7 +1802,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
   }
 
   return `
-    <div class="match-card ${isLive ? 'live' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}">
+    <div class="match-card ${isLive ? 'live' : opts.liveAffected ? 'live-affected' : ''} ${clickable ? 'clickable' : ''}" data-matchnum="${match.matchNum}" ${opts.liveAffected ? 'title="Speculative: based on live scores, not yet official"' : ''}>
       <div class="match-meta-bar">
         <div class="match-meta-left">${statusBadge(match)}${extraLabelHtml}</div>
         ${venueText ? `<div class="match-meta-right">${venueText}</div>` : ''}
@@ -2108,7 +2151,8 @@ function renderSchedule(opts = {}) {
     html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true });
+      const liveAffected = state.liveMode && r32MatchLiveAffected(m);
+      html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true, liveAffected });
     }
   }
 
@@ -2167,8 +2211,9 @@ function renderStandings() {
 
   for (const grp of 'ABCDEFGHIJKL'.split('')) {
     const teams = computedStandings[grp] || [];
+    const liveAffected = state.liveMode && groupHasLiveMatch(grp);
     html += `
-      <div class="card" style="padding:0;overflow:hidden;">
+      <div class="card ${liveAffected ? 'live-affected' : ''}" style="padding:0;overflow:hidden;" ${liveAffected ? 'title="Speculative: based on live scores, not yet official"' : ''}>
         <div class="group-header" style="padding:10px 14px;margin-bottom:0;">
           <div class="group-pill">${grp}</div>
           <div class="group-name">Group ${grp}</div>
@@ -2234,8 +2279,9 @@ function renderStandings() {
   // Third-place wildcard section
   const thirdPlace = computeThirdPlaceRankings(computedStandings);
   if (thirdPlace.length) {
+    const wildcardLiveAffected = state.liveMode && anyGroupHasLiveMatch();
     html += `
-      <div class="card" style="margin-top:24px;">
+      <div class="card ${wildcardLiveAffected ? 'live-affected' : ''}" style="margin-top:24px;" ${wildcardLiveAffected ? 'title="Speculative: based on live scores, not yet official"' : ''}>
         <div class="card-title">Third-Place Wildcard Rankings</div>
         <p class="note-text" style="margin-bottom:10px;">Best 8 of 12 third-place teams advance to Round of 32</p>
         <table class="wildcard-table">
@@ -2326,13 +2372,17 @@ function renderBracket() {
     const homeWon = hasScore && match.homeScore > match.awayScore;
     const awayWon = hasScore && match.awayScore > match.homeScore;
     const confirmedDot = `<span class="clinch-dot position" title="Clinched — mathematically locked in, official fixture pending">✓</span>`;
-    const metaText = [
-      match.kickoff ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) : '',
-      match.venue,
-    ].filter(Boolean).join(' · ');
+    const kickoffFmt = match.kickoff ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) : '';
+    const metaText = [kickoffFmt, venueCity(match.venue)].filter(Boolean).join(' · ');
+    const metaTitle = [kickoffFmt, match.venue].filter(Boolean).join(' · ');
+
+    // Round of 32 is the only round whose slots resolve directly off group
+    // standings (every later round resolves off an actual match's W/L), so
+    // it's the only one that can disagree between Live and Official.
+    const liveAffected = state.liveMode && r32MatchLiveAffected(match);
 
     return `
-      <div class="b-match" data-matchnum="${match.matchNum}" title="${metaText}">
+      <div class="b-match ${liveAffected ? 'live-affected' : ''}" data-matchnum="${match.matchNum}" title="${metaTitle}${liveAffected ? ' · Speculative: based on live scores, not yet official' : ''}">
         ${metaText ? `<div class="b-meta">${metaText}</div>` : ''}
         <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
           <span class="flag-link team-flag-wrap" data-team="${home.name}">${flagImg(home.iso, home.name)}${home.confirmed ? confirmedDot : ''}</span>
@@ -2353,8 +2403,21 @@ function renderBracket() {
     return `<div class="b-slot">${bMatchHtml(match)}</div>`;
   }
 
-  const r32 = state.matches.filter(m => m.stage === 'Round of 32');
-  const r16 = state.matches.filter(m => m.stage === 'Round of 16');
+  // Round of 32 / Round of 16 matchNums are assigned chronologically (by kickoff
+  // date/venue, per BRACKET_TEMPLATE), not by bracket-tree position. The slot
+  // heights below double per round on the assumption that array index k of a
+  // round is fed by indices 2k/2k+1 of the previous round, so rendering in raw
+  // matchNum order misaligns the visual tree (e.g. match 94 — the real feeder
+  // for match 81's winner — would render one slot below where match 81/82's
+  // column actually sits). These orders are derived from the [W##] feeder
+  // references baked into BRACKET_TEMPLATE and verified against the official
+  // bracket graphic; QF/SF/Final matchNums already happen to be in tree order.
+  const R32_TREE_ORDER = [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87];
+  const R16_TREE_ORDER = [89, 90, 93, 94, 91, 92, 95, 96];
+  const byTreeOrder = order => (a, b) => order.indexOf(a.matchNum) - order.indexOf(b.matchNum);
+
+  const r32 = state.matches.filter(m => m.stage === 'Round of 32').sort(byTreeOrder(R32_TREE_ORDER));
+  const r16 = state.matches.filter(m => m.stage === 'Round of 16').sort(byTreeOrder(R16_TREE_ORDER));
   const qf = state.matches.filter(m => m.stage === 'Quarterfinals');
   const sf = state.matches.filter(m => m.stage === 'Semifinals');
   const final = state.matches.filter(m => m.stage === 'Final');
