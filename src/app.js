@@ -21,7 +21,6 @@ const state = {
   espnNews: [],
   rssNews: [],
   liveMode: false,
-  scheduleFilter: 'today', // 'today' | 'all' — reset to 'today' each time the Schedule tab is navigated to
   currentView: 'dashboard',
   teamFilter: null,
   lastUpdated: null,
@@ -2075,30 +2074,9 @@ function getTodayMatches() {
 // ===== RENDER SCHEDULE =====
 function renderSchedule(opts = {}) {
   const el = document.getElementById('view-schedule');
+  const matches = state.matches;
 
   const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
-  const dateOf = (m) => m.kickoff
-    ? new Date(m.kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' })
-    : null;
-
-  const showingToday = state.scheduleFilter === 'today';
-  let matches = state.matches;
-  let emptyMessage = 'No matches to display.';
-
-  if (showingToday) {
-    const todayMatches = matches.filter(m => dateOf(m) === todayStr);
-    if (todayMatches.length) {
-      matches = todayMatches;
-    } else {
-      // Off day — fall back to the next upcoming date so the tab isn't blank.
-      const upcoming = matches
-        .filter(m => m.kickoff && dateOf(m) > todayStr)
-        .sort((a, b) => new Date(a.kickoff) - new Date(b.kickoff));
-      const nextDate = upcoming.length ? dateOf(upcoming[0]) : null;
-      matches = nextDate ? matches.filter(m => dateOf(m) === nextDate) : [];
-      emptyMessage = 'No upcoming matches scheduled.';
-    }
-  }
 
   // Same Live/Official resolution used by the Bracket view — resolves knockout
   // placeholder slots (e.g. "[1A]", "[W73]") to actual team names once the group
@@ -2143,21 +2121,40 @@ function renderSchedule(opts = {}) {
     ? `<span class="standings-mode-label live-mode">Live (includes in-play)</span>`
     : `<span class="standings-mode-label official">Official (finished only)</span>`;
   let html = `<div class="schedule-header">
-    <button class="schedule-filter-btn" id="schedule-filter-toggle" type="button">${showingToday ? 'View Full Schedule' : 'Back to Today'}</button>
+    <span class="schedule-title">Schedule</span>
     ${modeLabel}
   </div>`;
 
+  let todayId = null;
   for (const [date, dayMatches] of Object.entries(byDate)) {
-    html += `<div class="date-header">${date}</div>`;
+    const firstMatch = dayMatches.find(m => m.kickoff);
+    const isToday = firstMatch
+      ? new Date(firstMatch.kickoff).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }) === todayStr
+      : false;
+    const id = isToday ? ' id="schedule-today"' : '';
+    if (isToday) todayId = 'schedule-today';
+    html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
       html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true });
     }
   }
 
-  if (!matches.length) html += `<div class="empty-state">${emptyMessage}</div>`;
+  morphInto(el, html || '<div class="empty-state">No matches to display.</div>');
 
-  morphInto(el, html);
+  // Land at today's section instantly (no animation) on a fresh navigation to this
+  // tab, so it reads as "this is where the page starts" rather than a visible jump.
+  // Silent background refreshes never touch scroll position.
+  if (todayId && !opts.silent) {
+    requestAnimationFrame(() => {
+      const todayEl = document.getElementById(todayId);
+      if (todayEl) {
+        const headerH = document.getElementById('app-header')?.offsetHeight || 64;
+        const top = todayEl.getBoundingClientRect().top + window.scrollY - headerH - 12;
+        window.scrollTo({ top, behavior: 'instant' });
+      }
+    });
+  }
 }
 
 // Small inline dot used in standings rows to flag a clinched or eliminated
@@ -2460,9 +2457,10 @@ function renderView(opts = {}) {
   if (header) header.dataset.view = state.currentView; // lets CSS hide the live-mode toggle on views it doesn't affect (e.g. Schedule)
   if (header && main) main.style.marginTop = header.offsetHeight + 'px';
 
-  // Scroll to top on view changes, but not on silent background refreshes
+  // Scroll to top on all views except schedule (which lands at today's section itself),
+  // and not on silent background refreshes
   const savedScroll = opts.silent ? window.scrollY : null;
-  if (!opts.silent) window.scrollTo({ top: 0, behavior: 'instant' });
+  if (!opts.silent && state.currentView !== 'schedule') window.scrollTo({ top: 0, behavior: 'instant' });
 
   switch (state.currentView) {
     case 'dashboard': renderDashboard(); break;
@@ -3144,13 +3142,6 @@ document.addEventListener('click', e => {
   if (matchNum) openMatchModal(matchNum);
 });
 
-// Delegated click handler for the Schedule view's Today/Full Schedule filter toggle
-document.addEventListener('click', e => {
-  if (!e.target.closest('#schedule-filter-toggle')) return;
-  state.scheduleFilter = state.scheduleFilter === 'today' ? 'all' : 'today';
-  renderSchedule({ silent: true });
-});
-
 // Delegated click handler for live commentary scroll controls (prev/next comment)
 document.addEventListener('click', e => {
   const btn = e.target.closest('.mc-btn');
@@ -3243,7 +3234,6 @@ async function init() {
   document.querySelectorAll('.nav-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       state.currentView = tab.dataset.view;
-      if (tab.dataset.view === 'schedule') state.scheduleFilter = 'today';
       renderView();
     });
   });

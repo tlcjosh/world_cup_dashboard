@@ -558,12 +558,11 @@ img.flag {
   margin-bottom: 4px; flex-wrap: wrap; gap: 12px;
 }
 
-.schedule-filter-btn {
-  font-size: 12px; font-weight: 600; padding: 5px 12px; border-radius: 99px;
-  background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--border);
-  cursor: pointer; transition: background .15s;
+.schedule-title {
+  font-family: 'Anybody', sans-serif;
+  font-variation-settings: 'wdth' 75;
+  font-size: 26px; font-weight: 900;
 }
-.schedule-filter-btn:hover { background: var(--border); }
 
 /* ===== DATE HEADER ===== */
 .date-header {
