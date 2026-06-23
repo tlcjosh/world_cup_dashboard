@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-23T22:42:33.840Z",
+  "asOf": "2026-06-23T23:42:49.255Z",
   "items": [
     {
       "headline": "Panama v Croatia: World Cup 2026 – live",
@@ -10,12 +10,241 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 22:34:25 GMT",
+      "pubDate": "Tue, 23 Jun 2026 23:37:11 GMT",
+      "teams": [
+        "Qatar",
+        "Croatia",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "England fans choose to enjoy World Cup adventure over 'It’s Coming Home' fixation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-fans-choose-enjoy-world-232857156.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 23:28:57 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Cristiano Ronaldo decries criticism from Portugal's Game 1 draw, not interested in talking about Messi after Game 2 brace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-cristiano-ronaldo-decries-criticism-from-portugals-game-1-draw-not-interested-in-talking-about-messi-after-game-2-brace-232555647.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 23:25:55 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Tuchel credits 'committed' Ghana defending after England draw",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c982ewd5pn5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7f9/live/be65c870-6f59-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 23:25:46 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham questions odd World Cup call after ‘second game fever’ for England against Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-questions-odd-world-231040620.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 23:17:19 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "The risk of playing Declan Rice in World Cup group finale against Panama",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/risk-playing-declan-rice-world-231647729.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 23:16:47 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 23:10:33 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 23:05:49 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Ingenuity absent for turgid England as they fail to break down Ghana’s yellow wall | Jacob Steinberg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/ingenuity-absent-for-turgid-england-as-they-fail-to-break-down-ghanas-yellow-wall"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 23:00:56 GMT",
+      "teams": [
+        "United States",
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "England frustrated by Ghana in dour World Cup draw",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spence-guehi-expected-start-england-183306336.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 22:53:49 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:48:22 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Harry Kane Gets 4/10 | England Players Rated As They Slump To Frustrating Goalless Draw Against Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/harry-kane-gets-4-10-224500063.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 22:45:00 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Dismal England given reality check after worst match of the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dismal-england-given-reality-check-224225778.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 22:42:25 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "England held to goalless draw by Ghana",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c04yqexwpn0o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9819/live/f9ee9540-6f52-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 22:41:55 GMT",
       "teams": [
         "England",
         "Croatia",
-        "Ghana",
-        "Panama"
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "From non-league to the World Cup - the Semenyo story",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/non-league-world-cup-semenyo-114053657.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 22:39:46 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Fifa responds after England fans boo hydration breaks during World Cup clash with Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-fans-boo-hydration-breaks-204838698.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 22:37:42 +0000",
+      "teams": [
+        "England",
+        "Ghana"
       ]
     },
     {
@@ -54,22 +283,7 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 22:32:07 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "😅 Kane miss in sleepy England v Ghana gets social media buzzing",
+      "headline": "😅 Kane's miss in 'sleepy' England v Ghana gets fans talking",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/kane-miss-sleepy-england-v-222900382.html"
@@ -131,6 +345,24 @@
       "teams": [
         "United States",
         "Iran"
+      ]
+    },
+    {
+      "headline": "England given reality check by stubborn Ghana to leave group in the balance",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/england-ghana-world-cup-group-l-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 22:15:10 GMT",
+      "teams": [
+        "Scotland",
+        "United States",
+        "England",
+        "Croatia",
+        "Ghana"
       ]
     },
     {
@@ -201,21 +433,6 @@
       "source": "Fox Sports",
       "pubDate": "Tue, 23 Jun 2026 18:08:24 -0400",
       "teams": []
-    },
-    {
-      "headline": "Watch as England held to frustrating goalless World Cup draw by Ghana",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spence-guehi-expected-start-england-183306336.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 22:08:09 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
     },
     {
       "headline": "Every Record Cristiano Ronaldo Broke With His World Cup Brace",
@@ -663,21 +880,6 @@
       "source": "Fox Sports",
       "pubDate": "Tue, 23 Jun 2026 16:49:38 -0400",
       "teams": []
-    },
-    {
-      "headline": "England fans boo hydration breaks during World Cup clash with Ghana",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-fans-boo-hydration-breaks-204838698.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 20:48:38 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
     },
     {
       "headline": "📹 CR7 opens up about retirement and gets annoyed by Messi question",
@@ -2288,6 +2490,18 @@
       ]
     },
     {
+      "headline": "Fifa leadership ‘overruled US-based staff’ opposing World Cup dynamic pricing",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/fifa-leadership-overruled-us-based-staff-opposing-world-cup-dynamic-pricing"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 14:30:03 GMT",
+      "teams": []
+    },
+    {
       "headline": "Is Portugal vs Uzbekistan on TV? Channel, kick-off time and how to watch World Cup clash",
       "links": {
         "web": {
@@ -2694,21 +2908,6 @@
       "teams": [
         "Congo DR",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "From non-league to the World Cup - the Semenyo story",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/non-league-world-cup-semenyo-114053657.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 11:40:53 +0000",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     },
     {
