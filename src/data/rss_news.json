@@ -1,34 +1,19 @@
 {
-  "asOf": "2026-06-23T19:29:51.679Z",
+  "asOf": "2026-06-23T21:17:45.823Z",
   "items": [
     {
-      "headline": "Thierry Henry hails Cristiano Ronaldo’s vital change to inspire Portugal at World Cup",
+      "headline": "😴 Don’t nod off! This is the dullest first half of the World Cup",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/thierry-henry-hails-cristiano-ronaldo-192759492.html"
+          "href": "https://sports.yahoo.com/articles/don-t-nod-off-dullest-210600075.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 19:27:59 +0000",
+      "pubDate": "Tue, 23 Jun 2026 21:06:00 +0000",
       "teams": [
-        "Portugal",
-        "Congo DR",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 19:26:37 +0000",
-      "teams": [
-        "Uzbekistan"
+        "England",
+        "Ghana"
       ]
     },
     {
@@ -40,11 +25,578 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 19:22:15 GMT",
+      "pubDate": "Tue, 23 Jun 2026 21:05:56 GMT",
       "teams": [
         "Uruguay",
         "England",
         "Ghana"
+      ]
+    },
+    {
+      "headline": "Panama v Croatia: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/23/panama-v-croatia-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 21:05:40 GMT",
+      "teams": [
+        "Argentina",
+        "Portugal",
+        "Croatia",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "FEATURE | Three things we learned as France qualified for the World Cup’s knock-out stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/feature-three-things-learned-france-210000348.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 21:00:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Messi vs. Ronaldo At The World Cup: How And Where Can It Happen?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/ronaldo-vs-messi-world-cup-how-where-can-happen"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/messironaldo.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 16:59:30 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Where Does USA Stand After Winning Group D?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 16:57:10 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Ronaldo On Facing Messi At World Cup: 'It Would Be Top'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/ronaldo-potential-messi-game-world-cup-it-would-top"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messironaldo.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 16:49:38 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England fans boo hydration breaks during World Cup clash with Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-fans-boo-hydration-breaks-204838698.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:48:38 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "📹 CR7 ignores Messi question and opens up: I seemed retired",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cr7-ignores-messi-opens-seemed-204600472.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:46:00 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 16:43:39 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Buzz: Ronaldo Reacts to Record-Breaking Brace, Portugal Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ded2073d-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 16:40:43 -0400",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Deschamps returns to France after death of his mother",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp36q1yxgvko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0a0/live/390720e0-6f3e-11f1-a91d-9509c96f4739.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 20:33:19 GMT",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo agonises over ‘dark week’ after responding to retirement calls with World Cup double",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-agonises-over-dark-203149077.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:31:49 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Croatia vs. Panama odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/croatia-panama-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/7d925db5-f755-4b05-85ba-ec2c60b3177f/luka-modric-croatia-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:30:39 +0000",
+      "teams": [
+        "Croatia",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Steve Clarke warns Scotland of threat posed by returning Brazil ‘icon’ Neymar",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/steve-clarke-warns-scotland-of-threat-posed-by-returning-brazil-icon-neymar"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 20:28:12 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Portugal thrash Uzbekistan as Ronaldo scores twice to make history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/record-breaking-ronaldo-double-portugal-174840032.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:25:39 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "🎥 World Cup highlights: CR7 blasts away his frustration v Uzbekistan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-highlights-cr7-blasts-202200108.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:22:00 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Scotland have coping strategy for weather delays",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp36q1w0yg6o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecf0/live/79d5f090-6f40-11f1-a91d-9509c96f4739.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 20:19:41 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: France manager Didier Deschamps will miss match vs. Norway to attend mother's funeral",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-france-manager-didier-deschamps-will-miss-match-vs-norway-to-attend-mothers-funeral-201309200.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:13:09 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "It's coming, Fabrizio Romano confirms Liverpool transfer offer is on the way",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/coming-fabrizio-romano-confirms-liverpool-200500180.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 20:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mendes scores 'brilliant' second goal for Portugal",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/crkvjekjngno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45cf/live/2cd6cbe0-6f2a-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 20:02:06 GMT",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Why Does 'Lumumba Vea,' DR Congo's 'Statue Man,' Stand The Whole Match?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-dr-congo-statue-man-lumumba-vea"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2253332057-scaled-e1782243692338.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 15:48:00 -0400",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "Portugal thrash Uzbekistan as Ronaldo scores twice to make history",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c932y4rrw02o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d51a/live/299e1bd0-6f3a-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 19:47:48 GMT",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Clarke on Hickey, Brazil and coping with weather delays",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/clarke-hickey-brazil-coping-weather-194646434.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:46:46 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Leao: ‘Amorim is a very good coach, I will decide on Milan after World Cup’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/leao-amorim-very-good-coach-194500446.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:45:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:44:27 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot: Ronaldo Surges Up Star-Studded Oddsboard After Brace",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282969236-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 15:40:09 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:39:32 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Ronaldo Is Back: 4 Takeaways From Portugal's Blowout Win vs. Uzbekistan At The World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-portugal-vs-uzbekistan-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/e2962b24-ronaldo1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 15:39:21 -0400",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Tell us your stories of Scotland's World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c7v9v5pme2qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/86c2/live/e2194810-6f3a-11f1-a91d-9509c96f4739.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 23 Jun 2026 19:37:45 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Third-Place Standings: Who's In, Who's On The Bubble",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-standings-whos-in-whos-bubble"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-third-place-standings.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 15:36:41 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Here we go, Liverpool on the brink of massive transfer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-brink-massive-transfer-193500534.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Rangers’ Chances Of Getting £20m For Their Star Rocked: How Should The Club Plan After His Poor World Cup Showing?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rangers-chances-getting-20m-star-193500099.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Cristiano Ronaldo sends two-word message to critics after Portugal World Cup double",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-sends-two-word-193157243.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:31:57 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "How to Watch Türkiye vs. United States: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/turkiye-vs-united-states-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-d"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-turkiye-vs-usa-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 23 Jun 2026 15:30:49 -0400",
+      "teams": [
+        "United States",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:28:55 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Thierry Henry hails Cristiano Ronaldo’s vital change to inspire Portugal at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thierry-henry-hails-cristiano-ronaldo-192759492.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:28:52 +0000",
+      "teams": [
+        "Portugal",
+        "Congo DR",
+        "Uzbekistan"
       ]
     },
     {
@@ -77,6 +629,21 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Tue, 23 Jun 2026 19:20:34 GMT",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Ruben Dias and Portugal cruise to Uzbekistan demolition job",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-192000255.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:20:00 +0000",
       "teams": [
         "United States",
         "Portugal",
@@ -1204,25 +1771,6 @@
       ]
     },
     {
-      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 15:00:23 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Gennaro Gattuso takes new role after fronting Italy’s World Cup disaster",
       "links": {
         "web": {
@@ -1587,26 +2135,6 @@
         "Portugal",
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 12:29:10 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
       ]
     },
     {
@@ -2688,22 +3216,6 @@
       ]
     },
     {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 01:11:10 -0400",
-      "teams": []
-    },
-    {
       "headline": "A Viking Row And France 'Winning The Tournament': Haaland's Fun World Cup Night",
       "links": {
         "web": {
@@ -2929,24 +3441,6 @@
       "pubDate": "Mon, 22 Jun 2026 22:55:04 -0400",
       "teams": [
         "Mexico"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Where Does USA Stand After Winning Group D?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 22:50:26 -0400",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -4364,22 +4858,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Golden Boot: Messi Favored After Breaking Klose's Record",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-622.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 15:04:05 -0400",
-      "teams": []
-    },
-    {
       "headline": "Watch as record-breaking Messi scores twice as Argentina beat Austria",
       "links": {
         "web": {
@@ -4441,24 +4919,6 @@
       "teams": [
         "France",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "World Cup Buzz: Germany's Nico Schlotterbeck Ruled Out for Remainder of World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ded2073d-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 14:55:20 -0400",
-      "teams": [
-        "Germany"
       ]
     },
     {
@@ -4663,7 +5123,7 @@
       ]
     },
     {
-      "headline": "'Brilliant finish' - Messi becomes all-time leading World Cup scorer",
+      "headline": "'Brilliant finish' - Messi becomes men's all-time leading World Cup scorer",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/c70y7kdjd8do?at_medium=RSS&at_campaign=rss"
