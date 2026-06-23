@@ -1,6 +1,227 @@
 {
-  "asOf": "2026-06-23T18:59:03.782Z",
+  "asOf": "2026-06-23T19:29:51.679Z",
   "items": [
+    {
+      "headline": "Thierry Henry hails Cristiano Ronaldo’s vital change to inspire Portugal at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thierry-henry-hails-cristiano-ronaldo-192759492.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:27:59 +0000",
+      "teams": [
+        "Portugal",
+        "Congo DR",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:26:37 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "England v Ghana: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/23/england-v-ghana-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 19:22:15 GMT",
+      "teams": [
+        "Uruguay",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Panama vs. Croatia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/panama-vs-croatia-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/33ad6f5d-8427-49e2-8344-742d81be8b2b/croatia.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:22:01 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo ends his goal drought as rampant Portugal outclass Uzbekistan",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/23/portugal-uzbekistan-world-cup-group-k-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 23 Jun 2026 19:20:34 GMT",
+      "teams": [
+        "United States",
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Ivan Perisic, Luis Suarez among Tuesday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-ivan-perisic-luis-suarez-among-tuesdays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/e2ba67de-a8f3-4f3e-ba6a-1dd04ca4e465/suarez.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:16:50 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:14:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Two goals and an assist by sheer aura: Cristiano Ronaldo just entered the World Cup chat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/two-goals-assist-sheer-aura-190636729.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:06:36 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Video: Milan star Leao scores his third World Cup goal for Portugal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/video-milan-star-leao-scores-190500106.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:05:00 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo silences critics with sensational World Cup display against Uzbekistan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-silences-critics-sensational-190500670.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 19:05:00 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Record-breaking Cristiano Ronaldo leads Portugal's 5-0 rout of Uzbekistan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-record-breaking-cristiano-ronaldo-leads-portugals-5-0-rout-of-uzbekistan-185936619.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:59:36 +0000",
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Harry Kane to the NFL? Cowboys' Brandon Aubrey says England World Cup star has the talent'",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/nfl/news/world-cup-england-harry-kane-nfl/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/319279fe-bb49-405d-9021-ae1ff1124a8e/kane.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:55:57 +0000",
+      "teams": [
+        "United States",
+        "England"
+      ]
+    },
+    {
+      "headline": "👶 England youngster set to make history for World Cup game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-youngster-set-history-ahead-185500940.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:55:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Liverpool star is proving doubters wrong with impressive World Cup performances",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-star-proving-doubters-wrong-185500651.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:55:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "Portugal v Uzbekistan: World Cup 2026 – live",
       "links": {
@@ -51,23 +272,34 @@
       ]
     },
     {
-      "headline": "England v Ghana: World Cup 2026 – live",
+      "headline": "World Cup injury complicates Real Madrid pursuit of €50m Bundesliga defender",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/23/england-v-ghana-world-cup-2026-live"
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-complicates-real-185000039.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 18:50:33 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 23 Jun 2026 18:48:56 +0000",
       "teams": [
-        "Uruguay",
-        "England",
-        "Ghana"
+        "Mexico",
+        "Canada"
       ]
     },
     {
-      "headline": "A To Z: 2026 World Cup Goalscorers Complete Alphabet",
+      "headline": "A To Z: 2026 World Cup Goalscorers Complete The Alphabet",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-a-z-alphabet"
@@ -338,26 +570,6 @@
       "teams": [
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "Panama vs. Croatia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/panama-vs-croatia-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/33ad6f5d-8427-49e2-8344-742d81be8b2b/croatia.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 17:48:03 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Panama"
       ]
     },
     {
@@ -1662,22 +1874,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 10:51:14 +0000",
-      "teams": []
-    },
-    {
       "headline": "Portugal vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
       "links": {
         "web": {
@@ -2219,21 +2415,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 06:10:38 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
       "headline": "Messi in a class of his own and rain stops play in Philadelphia – World Cup Daily",
       "links": {
         "web": {
@@ -2677,21 +2858,6 @@
       "source": "Fox Sports",
       "pubDate": "Mon, 22 Jun 2026 23:20:29 -0400",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026 golden boot standings as Lionel Messi, Kylian Mbappe and Erling Haaland lead race",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 03:19:01 +0000",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
     },
     {
       "headline": "Haaland Stays Hot: 4 Takeaways From Norway's Win Over Senegal At World Cup",

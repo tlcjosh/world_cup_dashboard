@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T18:59:03.201Z",
+  "lastUpdated": "2026-06-23T19:29:49.734Z",
   "matches": [
     {
       "matchId": 537327,
@@ -2160,9 +2160,40 @@
       "kickoff": "2026-06-23T17:00:00.000Z",
       "homeScore": 5,
       "awayScore": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": "2026-06-23T17:28:05.861Z",
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760461",
+      "homeFouls": 14,
+      "awayFouls": 15,
+      "homeYellowCards": 1,
+      "awayYellowCards": 1,
+      "homeRedCards": 0,
+      "awayRedCards": 0,
+      "homeCorners": 3,
+      "awayCorners": 2,
+      "homePossession": 66,
+      "awayPossession": 34,
+      "homeSaves": 2,
+      "awaySaves": 4,
+      "homePassPct": 0.9,
+      "awayPassPct": 0.8,
+      "homeShots": 17,
+      "awayShots": 7,
+      "homeShotsOnTarget": 9,
+      "awayShotsOnTarget": 2,
+      "homeTackles": 14,
+      "awayTackles": 18,
+      "homeInterceptions": 5,
+      "awayInterceptions": 14,
+      "homeClearances": 16,
+      "awayClearances": 29,
+      "homeCrosses": 22,
+      "awayCrosses": 8,
+      "homeLongBalls": 42,
+      "awayLongBalls": 29,
+      "homeFairPlay": -1,
+      "awayFairPlay": -1
     },
     {
       "matchId": 537406,
@@ -3731,6 +3762,19 @@
     ],
     "K": [
       {
+        "team": "Portugal",
+        "iso": "pt",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 4,
+        "fairPlayPoints": -4
+      },
+      {
         "team": "Colombia",
         "iso": "co",
         "played": 1,
@@ -3757,30 +3801,17 @@
         "fairPlayPoints": -1
       },
       {
-        "team": "Portugal",
-        "iso": "pt",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1,
-        "fairPlayPoints": -3
-      },
-      {
         "team": "Uzbekistan",
         "iso": "uz",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "ga": 8,
+        "gd": -7,
         "pts": 0,
-        "fairPlayPoints": -1
+        "fairPlayPoints": -2
       }
     ]
   }
