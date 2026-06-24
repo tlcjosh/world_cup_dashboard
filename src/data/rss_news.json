@@ -1,6 +1,617 @@
 {
-  "asOf": "2026-06-24T20:57:19.009Z",
+  "asOf": "2026-06-24T22:24:45.461Z",
   "items": [
+    {
+      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 18:15:04 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Scotland v Brazil: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/scotland-v-brazil-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 22:11:18 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Morocco v Haiti: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/morocco-v-haiti-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 22:09:47 GMT",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "headline": "Who is the African World Cup goalscorer older than Ronaldo and Messi?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/african-world-cup-goalscorer-older-220709671.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:07:09 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Neymar Starts On Bench For Brazil's Group C Finale vs. Scotland",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/neymar-arrives-with-brazils-team-is-available-for-world-cup-group-match-against-scotland"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/fd5a79c4-neymar1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 18:06:53 -0400",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "What do Scotland and Brazil need to qualify for the World Cup knockouts from Group C?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-brazil-qualify-world-cup-052422082.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:05:27 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Mexico vs. Czechia odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-czechia-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/06/4bc29e0c-9d42-4fe7-a8a6-6dd808ef28a1/cesar-montes-mexico-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:00:52 +0000",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "Switzerland beat Canada but both through to last 32",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c98219e7vdqo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbce/live/47020730-7017-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 21:58:36 GMT",
+      "teams": [
+        "Canada",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "England to face Scotland? World Cup knockout stage as it stands",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-face-scotland-world-cup-092646397.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:56:31 +0000",
+      "teams": [
+        "Scotland",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lionel Messi Won't Rule Out Playing at 2030 World Cup: 'I'm Living One Day at a Time'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-wont-rule-out-playing-2030-world-cup-im-living-one-day-time"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/GettyImages-2282802042-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:53:44 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Bosnia boost last-32 hopes after win over Qatar",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/clyw7znzjwro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7afa/live/461c5460-7012-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 21:50:27 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ]
+    },
+    {
+      "headline": "World Cup Knockout Round: Who's Advanced Out Of The Group Stage?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-knockout-round-who-advances-usmnt"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/7298eff6-switzerland1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:47:13 -0400",
+      "teams": []
+    },
+    {
+      "headline": "4 Takeaways From Canada's Group-Stage Finale Loss To Switzerland",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-switzerland-canada-group-b-advance"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/suissemain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:41:02 -0400",
+      "teams": [
+        "Canada",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "USA Awaits? 4 Takeaways From Bosnia and Herzegovina vs. Qatar At The World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-bosnia-herzegovina-vs-qatar-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/87ba4fa6-takeaways1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:40:26 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: third-place table, who has qualified and who needs what?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 21:32:12 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:27:23 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Reece James an England injury worry after complaining of tight hamstring",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/bukayo-saka-england-panama-thomas-tuchel-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 21:23:25 GMT",
+      "teams": [
+        "England",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads, Ronaldo Joins The Party",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:21:43 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Canada lose home advantage for last 32 after Switzerland win to take top spot",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 21:18:10 GMT",
+      "teams": [
+        "Canada",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "39 Stunning Lionel Messi World Cup Stats For The GOAT's 39th Birthday",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/messi-world-cup-stats-birthday"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-stats.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:13:01 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorite; USA, Switzerland Rising",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282396467-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:12:06 -0400",
+      "teams": [
+        "Switzerland",
+        "United States",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot: Ronaldo Surges In Star-Studded Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282969236-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:08:40 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 knockout fixtures, results and group tables",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:06:17 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Scotland vs. Brazil live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/scotland-vs-brazil-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/8c0a257f-c44e-4bff-8a62-a797265ed286/neymar.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:06:05 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Switzerland Clinches Group B",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/307a62b6-8b0fd56a-7dea81b8-gettyimages-2283162448-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:06:02 -0400",
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:04:28 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Buzz: Norway's Erling Haaland Gets Taste Of American Culture",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ded2073d-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:04:28 -0400",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "England to face Scotland? World Cup knockout stage as it stands",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/def6/live/eb096160-6faa-11f1-a717-77de862b9baf.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 21:04:02 GMT",
+      "teams": [
+        "Scotland",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:01:27 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Third-Place Standings: Who's In, Who's On The Bubble",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-standings-whos-in-whos-bubble"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/bosnia-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 17:00:20 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:00:15 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Jeremy Doku and wife Shireen issue statements on Instagram after birth of son Praise",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jeremy-doku-wife-shireen-issue-210000844.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 21:00:00 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: Bosnia and Herzegovina emerges as USMNT's likeliest Round of 32 opponent after eliminating Qatar",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-bosnia-and-herzegovina-emerges-as-usmnts-likeliest-round-of-32-opponent-after-eliminating-qatar-205943100.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 20:59:43 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ]
+    },
+    {
+      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 20:59:26 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "✅ Group B set: Switzerland top, Canada second, Bosnia wait",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/group-b-settled-switzerland-1st-205900402.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 20:59:00 +0000",
+      "teams": [
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Switzerland claims Group B over Canada; Bosnia and Herzegovina moves top among third-place teams",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-switzerland-claims-group-b-over-canada-bosnia-and-herzegovina-moves-top-among-third-place-teams-205847839.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 20:58:47 +0000",
+      "teams": [
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "'What a moment!' Alajbegovic scores stunning opener for Bosnia",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cpwe1ljdykno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f23/live/80463c30-7005-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 20:58:36 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ]
+    },
     {
       "headline": "Norway brought its own food to the World Cup — but not for the reason you might expect",
       "links": {
@@ -31,7 +642,7 @@
       ]
     },
     {
-      "headline": "🚨 World Cup: line-ups for Brazil-Scotland and Morocco-Haiti",
+      "headline": "🚨 World Cup: Brazil-Scotland and Morocco-Haiti line-ups",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/world-cup-line-ups-brazil-204500571.html"
@@ -80,21 +691,6 @@
       ]
     },
     {
-      "headline": "Scotland v Brazil: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/scotland-v-brazil-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 20:40:27 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
       "headline": "Shankland & Gannon-Doak named in attacking Scotland XI to face Brazil",
       "links": {
         "web": {
@@ -110,7 +706,7 @@
       ]
     },
     {
-      "headline": "📋 Neymar available! Brazil named to go top of the group",
+      "headline": "📋 Neymar available! Brazil line-up to go top of the group",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/neymar-available-brazil-line-top-203300467.html"
@@ -137,25 +733,6 @@
       "teams": [
         "Canada",
         "Switzerland"
-      ]
-    },
-    {
-      "headline": "Scotland vs. Brazil live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/scotland-vs-brazil-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/8c0a257f-c44e-4bff-8a62-a797265ed286/neymar.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:28:50 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
       ]
     },
     {
@@ -207,21 +784,6 @@
       ],
       "source": "CBS Sports",
       "pubDate": "Wed, 24 Jun 2026 20:16:22 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "What do Scotland and Brazil need to qualify for the World Cup knockouts from Group C?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-brazil-qualify-world-cup-052422082.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:11:42 +0000",
       "teams": [
         "Brazil",
         "Scotland"
@@ -554,25 +1116,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Odds: Portugal-Colombia Set Stage for Group-Deciding Showdown",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282436415-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 14:24:09 -0400",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ]
-    },
-    {
       "headline": "Real Madrid summer signing asks club to delay announcement until after the World Cup",
       "links": {
         "web": {
@@ -648,22 +1191,6 @@
       ]
     },
     {
-      "headline": "Bukayo Saka may start against Panama but Tuchel wary of pressuring him",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/bukayo-saka-england-panama-thomas-tuchel-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 18:00:52 GMT",
-      "teams": [
-        "England",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
       "headline": "Free 2026 World Cup anytime goalscorer picks, odds, best bets: Vinicius Jr. features in Wednesday's best bets",
       "links": {
         "web": {
@@ -678,6 +1205,21 @@
       "source": "CBS Sports",
       "pubDate": "Wed, 24 Jun 2026 18:00:51 +0000",
       "teams": []
+    },
+    {
+      "headline": "England have cause for concern but Thomas Tuchel’s strategy is for the very best | Jacob Steinberg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/england-thomas-tuchel-strategy-2026-world-cup-ghana"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 18:00:51 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
     },
     {
       "headline": "World Cup 2026 official line-ups: Bosnia vs. Qatar and Switzerland vs. Canada",
@@ -710,65 +1252,6 @@
         "Canada",
         "Switzerland"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot: Ronaldo Surges In Star-Studded Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282969236-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 13:50:26 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorite; USA Rising",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282396467-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 13:43:19 -0400",
-      "teams": [
-        "United States",
-        "France"
-      ]
-    },
-    {
-      "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:33:37 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 knockout fixtures, results and group tables",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:28:08 +0000",
-      "teams": []
     },
     {
       "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
@@ -1066,22 +1549,6 @@
         "Morocco",
         "Scotland"
       ]
-    },
-    {
-      "headline": "World Cup Buzz: Lionel Messi Gets Birthday Cake For 39th Birthday",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ded2073d-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:52:21 -0400",
-      "teams": []
     },
     {
       "headline": "📸 Viking helmet on his head! Bundesliga boss celebrates Norway win",
@@ -1844,25 +2311,6 @@
       "teams": []
     },
     {
-      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:22:34 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Dismal England serve up World Cup shocker to highlight old problem",
       "links": {
         "web": {
@@ -2125,25 +2573,6 @@
       "teams": [
         "Brazil",
         "Scotland"
-      ]
-    },
-    {
-      "headline": "England to face Scotland? World Cup knockout stage as it stands",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cgmdz4ww81vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/def6/live/eb096160-6faa-11f1-a717-77de862b9baf.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 24 Jun 2026 09:26:41 GMT",
-      "teams": [
-        "Scotland",
-        "England"
       ]
     },
     {
@@ -2465,21 +2894,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 07:51:06 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
       "headline": "How to Watch Bosnia and Herzegovina vs. Qatar: TV Channel, Live Stream, Time",
       "links": {
         "web": {
@@ -2496,22 +2910,6 @@
       "teams": [
         "Bosnia-Herzegovina",
         "Qatar"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: third-place table, who has qualified and who needs what?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/world-cup-groups-permutations-round-of-32-usa-mexico-canada"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 07:39:27 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
       ]
     },
     {
@@ -2804,22 +3202,6 @@
       ]
     },
     {
-      "headline": "World Cup Knockout Round: Who's Advanced Out Of The Group Stage?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-knockout-round-who-advances-usmnt"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/97099c5d-4fdfe8d8-messi-1-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 00:07:25 -0400",
-      "teams": []
-    },
-    {
       "headline": "Ancelotti's quest to end Brazil's 24-year wait for World Cup glory",
       "links": {
         "web": {
@@ -2864,54 +3246,6 @@
         "Congo DR",
         "Colombia"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads, Ronaldo Joins The Party",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 00:00:17 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Third-Place Standings: Who's In, Who's On The Bubble",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-standings-whos-in-whos-bubble"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-third-place-standings.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 23:59:48 -0400",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 23:59:38 -0400",
-      "teams": []
     },
     {
       "headline": "Ancelotti's quest to end Brazil's 24-year wait for World Cup glory",
@@ -2972,22 +3306,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Tue, 23 Jun 2026 22:35:16 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 22:34:35 -0400",
       "teams": []
     },
     {
@@ -4303,20 +4621,6 @@
       "teams": [
         "United States",
         "Turkey"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 19:28:55 +0000",
-      "teams": [
-        "Uzbekistan"
       ]
     },
     {
