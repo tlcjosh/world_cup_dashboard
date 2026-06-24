@@ -1,6 +1,481 @@
 {
-  "asOf": "2026-06-24T09:34:19.529Z",
+  "asOf": "2026-06-24T12:08:54.451Z",
   "items": [
+    {
+      "headline": "Brazil vs. Scotland Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-brazil-scotland-odds-predictions-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282427629-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 08:00:26 -0400",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Morocco vs. Haiti Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-morocco-haiti-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281446970-2-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 08:00:23 -0400",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Infantino says hydration breaks not commercial; England frustrated; Scotland face Brazil – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 11:54:29 GMT",
+      "teams": [
+        "Mexico",
+        "Czechia",
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "Switzerland",
+        "Brazil",
+        "Morocco",
+        "Haiti",
+        "Scotland",
+        "England"
+      ]
+    },
+    {
+      "headline": "Arsenal international limps away from World Cup match in new injury scare",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-international-limps-away-world-113500320.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:35:00 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "South Koreans Expecting Home-Game Feel For Final World Cup Group Match In Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-south-korea-south-africa-mexico"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/koreah1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 07:32:26 -0400",
+      "teams": [
+        "Mexico",
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Marseille open to Facundo Medina sale",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/marseille-open-facundo-medina-sale-112500469.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:25:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The best World Cup opening games",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-world-cup-opening-games-112500690.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Schedule: Kickoff times, dates, fixture list, how to live stream, watch on TV",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:23:46 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:22:34 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Dismal England serve up World Cup shocker to highlight old problem",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dismal-england-given-reality-check-224225778.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:11:54 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "OneFootball x Gallus: Scotland can get a result against Brazil",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/onefootball-x-gallus-scotland-result-111100324.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:11:00 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Who has been eliminated from the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdec/live/4dd629f0-6fb9-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 11:06:30 GMT",
+      "teams": []
+    },
+    {
+      "headline": "What do Australia and Paraguay need to qualify for the World Cup knockouts from Group D?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/australia-paraguay-qualify-world-cup-110620941.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:06:20 +0000",
+      "teams": [
+        "United States",
+        "Paraguay",
+        "Australia",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Screen epics: World Cup 2026 viewing parties around the globe – in pictures",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/ng-interactive/2026/jun/24/world-cup-2026-viewing-parties-around-the-globe-in-pictures"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 11:00:44 GMT",
+      "teams": [
+        "Brazil",
+        "Haiti",
+        "Japan",
+        "Tunisia",
+        "France",
+        "Argentina",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds, best bets: Vinicius Jr. features in Wednesday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-best-bets-vinicius-jr-features-in-wednesdays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/d2d8fd31-a555-43f2-9b30-bb042076053f/vini.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:00:44 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup schedule today: How to watch Scotland v Brazil, TV channels & live stream Wednesday 24 June",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-110043019.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:00:43 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Liverpool decide against £50m attacking move",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-decide-against-50m-attacking-105500746.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:55:00 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:50:44 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Who are the World Cup's record holders?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cups-record-holders-142417835.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:49:37 +0000",
+      "teams": []
+    },
+    {
+      "headline": "‘For future generations’: Brazil working hard to ensure successful 2027 Women’s World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/brazil-working-hard-to-ensure-successful-2027-womens-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 10:36:54 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "What are Scotland's chances of progressing as third-place finishers?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotlands-chances-progressing-third-place-063911465.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:35:08 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "McLean's 'got to start' against Brazil - Allan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mcleans-got-start-against-brazil-103146803.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:31:46 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "What are Scotland's chances of progressing as third-place finishers?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4gyqvxxqveo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 10:31:09 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "How to Watch Morocco vs. Haiti: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-morocco-vs-haiti-tv-channel-live-stream-2026-fifa-world-cup-group-c"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-morocco-vs-haiti-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 06:24:49 -0400",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "headline": "‘Not much faith’: the view from Brazil as they prepare to face Scotland",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/view-brazil-scotland-neymar-casemiro-endrick-world-cup-2026"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland",
+        "Egypt",
+        "Saudi Arabia",
+        "Spain",
+        "France",
+        "Argentina",
+        "Croatia",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "How to Watch Scotland vs. Brazil: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/scotland-vs-brazil-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-c"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-scotland-vs-brazil-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 06:22:14 -0400",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:21:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup quiz: Name Scotland and Brazil's teams in 1998",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce9p37ygn03o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be4b/live/3d1a1f00-6815-11f1-8e1d-bbbb1017d210.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 09:52:53 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
     {
       "headline": "England to face Scotland? World Cup knockout stage as it stands",
       "links": {
@@ -16,30 +491,6 @@
       "source": "BBC Sport",
       "pubDate": "Wed, 24 Jun 2026 09:26:41 GMT",
       "teams": [
-        "Scotland",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England frustrated; Scotland face Brazil; Infantino defends hydration breaks – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 09:25:09 GMT",
-      "teams": [
-        "Mexico",
-        "Czechia",
-        "Canada",
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "Switzerland",
-        "Brazil",
-        "Morocco",
-        "Haiti",
         "Scotland",
         "England"
       ]
@@ -527,24 +978,6 @@
       "teams": []
     },
     {
-      "headline": "What are Scotland's chances of progressing as third-place finishers?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gyqvxxqveo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 24 Jun 2026 06:35:58 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
       "headline": "Scotland primed for game of their lives against fallible Brazil",
       "links": {
         "web": {
@@ -594,21 +1027,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 24 Jun 2026 01:59:26 -0400",
       "teams": []
-    },
-    {
-      "headline": "Dismal England serve up World Cup shocker to highlight old problem",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dismal-england-given-reality-check-224225778.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 05:38:56 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
     },
     {
       "headline": "The flaw in England’s World Cup plan is now clear to see after Ghana stalemate",
@@ -1118,41 +1536,6 @@
         "England",
         "Croatia",
         "Panama"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Schedule: Kickoff times, dates, fixture list, how to live stream, watch on TV",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 01:47:05 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 01:44:50 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
       ]
     },
     {
@@ -2428,26 +2811,6 @@
       "teams": []
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 19:39:32 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
       "headline": "Ronaldo Is Back: 4 Takeaways From Portugal's Blowout Win vs. Uzbekistan At The World Cup",
       "links": {
         "web": {
@@ -2639,22 +3002,6 @@
       ],
       "source": "CBS Sports",
       "pubDate": "Tue, 23 Jun 2026 19:16:50 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 19:14:51 +0000",
       "teams": []
     },
     {
