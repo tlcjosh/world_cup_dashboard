@@ -1,6 +1,520 @@
 {
-  "asOf": "2026-06-24T12:08:54.451Z",
+  "asOf": "2026-06-24T15:13:09.193Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 15:10:23 GMT",
+      "teams": [
+        "Mexico",
+        "Czechia",
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "Switzerland",
+        "Brazil",
+        "Morocco",
+        "Haiti",
+        "Scotland",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Germany’s Kai Havertz: ‘I make runs that look pointless but I’m creating space’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/kai-havertz-germany-world-cup-2026-interview"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 15:00:48 GMT",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "South Korea vs. South Africa Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-south-korea-south-africa-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282389874-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:00:36 -0400",
+      "teams": [
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Mexico vs. Czechia Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-mexico-czechia-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282286886-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:00:32 -0400",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Group B Scenarios: What Canada, Switzerland, Bosnia, Qatar Need To Advance",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-b-scenarios-what-canada-switzerland-bosnia-qatar-need-advance"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-group-b-scenarios.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 10:56:35 -0400",
+      "teams": [
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "How Boston won the 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/boston-won-2026-world-cup-144214086.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:42:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid resume talks for World Cup-winning Chelsea superstar &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-resume-talks-world-144000886.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How Mauricio Pochettino turned USMNT situation that was 'worse than we believed' into hot World Cup start",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mauricio-pochettino-usmnt-situation-hot-world-cup-start/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/c1f1e519-c236-450b-b211-d3fbea1d4904/pochettino-3.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:39:31 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Today's transfer latest: David, Inter-Solet, Atlético, Napoli-Gila 🥵",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/todays-transfer-latest-david-inter-143600082.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:36:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "See how Flamengo's injured trio are recovering",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/see-flamengos-injured-trio-recovering-142600925.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:26:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 – Group L guide: England aim to end 60 years of hurt from group of familiar foes and troubled Ghana",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-group-l-100443796.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:15:39 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Is Scotland v Brazil on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-v-brazil-tv-channel-052654381.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:12:47 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 – Group K guide: Portugal to dominate as Cristiano Ronaldo and Colombia’s James Rodriguez look to roll back years",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-group-k-191336438.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:12:01 +0000",
+      "teams": [
+        "Portugal",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "What do Scotland and Brazil need to qualify for the World Cup knockouts from Group C?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-brazil-qualify-world-cup-052422082.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:11:48 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup: 'Why not us?' — Inside Mauricio Pochettino's U.S. soccer revolution",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-why-not-us--inside-mauricio-pochettinos-us-soccer-revolution-140611843.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:06:11 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "FIFA World Cup 2026 Power Rankings: France and Argentina still look strong; Five teams eliminated",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/fifa-world-cup-2026-power-rankings-france-argentina-top-two/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/17b71af7-b62f-4e06-a899-df089516d1d3/power-rankings-soccer-worldcup-template-4.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 14:03:03 +0000",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Rice out and Rogers in? The England starting XI questions for Tuchel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-rogers-england-starting-xi-133601856.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 13:36:01 +0000",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "David on ‘different playing style’ for CANMNT, but eager for Juventus stay",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/david-different-playing-style-canmnt-133500091.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 13:35:00 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Canada’s Postcard Moment at the World Cup Is More Than the Team’s Victory",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/20/world/canada/canadas-postcard-moment-at-the-world-cup-is-more-than-the-teams-victory.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 24 Jun 2026 13:33:26 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "USMNT lineup uncertainty for Turkiye game a sign of strength as World Cup knockouts near",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-lineup-uncertainty-turkiye-game-world-cup-knockouts/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/8ec97eaa-1726-4d77-acf0-7bc248afe96a/usmnt-11.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 13:26:52 +0000",
+      "teams": [
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "How Shannon Manson, a Security Worker During the World Cup, Became Known in Jordan",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/23/sports/soccer/jordan-hilton-hotel-worker.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 24 Jun 2026 13:26:26 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "U.S. Eases Travel Restrictions on Iran’s World Cup Team",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/23/us/iran-world-cup-travel-restrictions.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 24 Jun 2026 13:25:07 +0000",
+      "teams": [
+        "United States",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Barcelona mainstay one yellow card away from missing Spain&#8217;s first knockout clash at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-mainstay-one-yellow-card-132000543.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 13:20:00 +0000",
+      "teams": [
+        "Saudi Arabia",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "AS Roma’s Latest Transfer News &#8211; Everything We Know So Far",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/roma-latest-transfer-news-everything-131500464.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 13:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup: Brazil, Scotland, Canada, Mexico weigh priorities as sprint to knockout phase begins",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-brazil-scotland-canada-mexico-knockout-phase-scenarios/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/05ca55fe-9333-463a-9659-40b92700674a/untitled-design-2026-06-24t082034-649.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 13:08:34 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Brazil",
+        "Scotland",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "South Africa vs. South Korea odds, prediction, line, time: 2026 World Cup picks, best bets from elite expert",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/south-africa-south-korea-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/17/d8f396cb-7e6e-4139-9d80-aa17a594c140/south-korea-soccer-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 12:41:49 +0000",
+      "teams": [
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Mexico vs. Czechia odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-czechia-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/31ef973e-9f3e-44d6-91af-eebd5061ae16/mexico-soccer.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 12:28:01 +0000",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "How to Watch South Africa vs. South Korea: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/south-africa-vs-south-korea-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-a"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-south-africa-vs-south-korea-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 08:25:29 -0400",
+      "teams": [
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "How to Watch Czechia vs. Mexico: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/czechia-vs-mexico-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-a"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-czechia-vs-mexico-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 08:22:06 -0400",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Brazil, Mexico, More",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-brazil-mexico-more"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-june-24.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 08:14:43 -0400",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Morocco vs. Haiti odds, prediction, time: 2026 World Cup picks, best bets from expert on 21-12 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/morocco-haiti-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/5cce82d7-9f5f-4d6b-b934-c99140cb6fc5/ismael-saibari-morocco-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 12:13:16 +0000",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
     {
       "headline": "Brazil vs. Scotland Prediction, Odds, Picks For World Cup Match",
       "links": {
@@ -40,27 +554,41 @@
       ]
     },
     {
-      "headline": "World Cup 2026: Infantino says hydration breaks not commercial; England frustrated; Scotland face Brazil – live",
+      "headline": "Brazil vs. Scotland odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live"
+          "href": "https://www.cbssports.com/soccer/news/brazil-scotland-odds-prediction-time-2026-world-cup-picks-best-bets/"
         }
       },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 11:54:29 GMT",
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/61a762c2-5d09-4514-b210-63f4f122b12d/usatsi-29193159-3.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 12:00:18 +0000",
       "teams": [
-        "Mexico",
-        "Czechia",
-        "Canada",
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "Switzerland",
         "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland",
-        "England"
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Canada vs. Switzerland odds, prediction, time: 2026 World Cup picks from expert on 21-12 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-switzerland-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/16/e37af0df-1c99-47cb-a2f4-8cc2e21b0f27/cyle-larin-canada-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:50:08 +0000",
+      "teams": [
+        "Canada",
+        "Switzerland"
       ]
     },
     {
@@ -96,6 +624,25 @@
         "Mexico",
         "South Africa",
         "South Korea"
+      ]
+    },
+    {
+      "headline": "Qatar vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/qatar-vs-bosnia-herzegovina-odds-prediction-tome-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/c6f65eaa-2050-4d36-bfc2-7befe26cc324/edin-dzeko-bosnia-imagm-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 11:31:49 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar"
       ]
     },
     {
@@ -841,36 +1388,6 @@
       "teams": [
         "Mexico",
         "Canada"
-      ]
-    },
-    {
-      "headline": "Is Scotland v Brazil on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-v-brazil-tv-channel-052654381.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 07:48:40 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "What do Scotland and Brazil need to qualify for the World Cup knockouts from Group C?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-brazil-qualify-world-cup-052422082.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 07:47:52 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
       ]
     },
     {
@@ -1712,24 +2229,6 @@
       "teams": []
     },
     {
-      "headline": "USMNT lineup uncertainty for Turkiye game a sign of strength as World Cup knockouts near",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-lineup-uncertainty-turkiye-game-world-cup-knockouts/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/8ec97eaa-1726-4d77-acf0-7bc248afe96a/usmnt-11.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 23:58:39 +0000",
-      "teams": [
-        "Turkey"
-      ]
-    },
-    {
       "headline": "Colombia vs. DR Congo live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
       "links": {
         "web": {
@@ -2102,21 +2601,6 @@
       ]
     },
     {
-      "headline": "U.S. Eases Travel Restrictions on Iran’s World Cup Team",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/23/us/iran-world-cup-travel-restrictions.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 23 Jun 2026 22:19:06 +0000",
-      "teams": [
-        "United States",
-        "Iran"
-      ]
-    },
-    {
       "headline": "England given reality check by stubborn Ghana to leave group in the balance",
       "links": {
         "web": {
@@ -2269,20 +2753,6 @@
       "teams": [
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "How Shannon Manson, a Security Worker During the World Cup, Became Known in Jordan",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/23/sports/soccer/jordan-hilton-hotel-worker.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 23 Jun 2026 21:57:13 +0000",
-      "teams": [
-        "Jordan"
       ]
     },
     {
@@ -9729,20 +10199,6 @@
         "Germany",
         "Curaçao",
         "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Canada’s postcard moment at the World Cup is more than the team’s victory.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/20/world/canada/canadas-postcard-moment-at-the-world-cup-is-more-than-the-teams-victory.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 20 Jun 2026 18:47:41 +0000",
-      "teams": [
-        "Canada"
       ]
     },
     {
