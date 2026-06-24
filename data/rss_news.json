@@ -1,6 +1,211 @@
 {
-  "asOf": "2026-06-24T22:24:45.461Z",
+  "asOf": "2026-06-24T23:44:05.183Z",
   "items": [
+    {
+      "headline": "Morocco v Haiti: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/morocco-v-haiti-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 23:40:52 GMT",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "headline": "Scotland v Brazil: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/scotland-v-brazil-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 23:40:49 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "'A phenomenal goal!' Isidor hits incredible second for Haiti",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cj6gxly40l6o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba43/live/a119c100-7020-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 23:38:30 GMT",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 23:28:03 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Jesse Marsch Leads Canada to First-Ever Knockout Stage: 'We Believe in Our Group'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jesse-marsch-leads-canada-first-ever-knockout-stage-we-believe-our-group"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ca816063-canada1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 19:17:46 -0400",
+      "teams": [
+        "Canada",
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "Best half of the summer⁉️ Morocco & Haiti play out insane opening 45 minutes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-half-summer-morocco-haiti-230500290.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 23:05:00 +0000",
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ]
+    },
+    {
+      "headline": "Czechia vs. Mexico live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/czechia-mexico-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/4d68d263-b2b8-4371-b973-b52698f23395/mexico-4.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 23:00:57 +0000",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "Czechia v Mexico: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/24/czechia-v-mexico-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 23:00:02 GMT",
+      "teams": [
+        "Mexico",
+        "South Korea",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "Will Mexico's Guillermo Ochoa Start At World Cup vs. Czechia?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mexico-world-cup-guillermo-ochoa"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/43cc2fd4-ochoa3.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 24 Jun 2026 18:47:00 -0400",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "South Africa vs. South Korea odds, prediction, line, time: 2026 World Cup picks, best bets from elite expert",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/south-africa-south-korea-odds-prediction-line-start-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/15857964-8f45-4a02-8fd4-3a9eddd07882/seol-young-woo-south-korea-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:45:37 +0000",
+      "teams": [
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Vinicius Jr pounces on Scotland mistake to give Brazil early lead",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c77yd2r6pj4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f124/live/a9d9e260-701c-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 24 Jun 2026 22:38:49 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "📸 First goal since 1974: World Cup squad goes wild",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/first-goal-since-1974-world-223500169.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:35:00 +0000",
+      "teams": [
+        "Haiti"
+      ]
+    },
     {
       "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
       "links": {
@@ -14,39 +219,37 @@
         }
       ],
       "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:15:04 -0400",
+      "pubDate": "Wed, 24 Jun 2026 18:34:31 -0400",
       "teams": []
     },
     {
-      "headline": "Scotland v Brazil: World Cup 2026 – live",
+      "headline": "🔥 Vini Jr. hits absurd World Cup mark with Brazil",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/scotland-v-brazil-world-cup-2026-live"
+          "href": "https://sports.yahoo.com/articles/vini-jr-hits-insane-world-223100919.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 22:11:18 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:31:00 +0000",
       "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar",
         "Brazil",
         "Scotland"
       ]
     },
     {
-      "headline": "Morocco v Haiti: World Cup 2026 – live",
+      "headline": "World Cup 2026: Qatar's Assim Madibo receives 5-match ban for tackle that broke leg of Canada's Ismaël Koné",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/morocco-v-haiti-world-cup-2026-live"
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-qatars-assim-madibo-receives-5-match-ban-for-tackle-that-broke-leg-of-canadas-ismael-kone-222650229.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 22:09:47 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 24 Jun 2026 22:26:50 +0000",
       "teams": [
-        "Morocco",
-        "Haiti"
+        "Canada",
+        "Qatar"
       ]
     },
     {
@@ -370,6 +573,23 @@
       "teams": []
     },
     {
+      "headline": "Bosnia and Herzegovina on verge of knockout stage after seeing off Qatar",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/bosnia-herzegovina-qatar-group-b-world-cup-2026-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 21:07:08 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "United States",
+        "Austria"
+      ]
+    },
+    {
       "headline": "World Cup 2026 knockout fixtures, results and group tables",
       "links": {
         "web": {
@@ -497,20 +717,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 24 Jun 2026 17:00:20 -0400",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 21:00:15 +0000",
-      "teams": [
-        "Uzbekistan"
-      ]
     },
     {
       "headline": "Jeremy Doku and wife Shireen issue statements on Instagram after birth of son Praise",
@@ -1188,6 +1394,22 @@
       "teams": [
         "England",
         "Ghana"
+      ]
+    },
+    {
+      "headline": "Harry Kane turns attention to Panama with England focused on bigger picture",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/harry-kane-england-panama-ghana-world-cup-2026-thomas-tuchel"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 24 Jun 2026 18:00:52 GMT",
+      "teams": [
+        "England",
+        "Ghana",
+        "Panama"
       ]
     },
     {

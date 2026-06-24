@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:24:17.738Z",
+  "lastUpdated": "2026-06-24T23:44:03.699Z",
   "matches": [
     {
       "matchId": 537327,
@@ -2317,8 +2317,8 @@
       "venue": "Hard Rock Stadium, Miami Gardens",
       "kickoff": "2026-06-24T22:00:00.000Z",
       "homeScore": 0,
-      "awayScore": 1,
-      "status": "IN_PLAY",
+      "awayScore": 2,
+      "status": "PAUSED",
       "firstHalfStart": "2026-06-24T22:24:17.738Z",
       "secondHalfStart": null
     },
@@ -2333,8 +2333,8 @@
       "awayIso": "ht",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "kickoff": "2026-06-24T22:00:00.000Z",
-      "homeScore": 0,
-      "awayScore": 1,
+      "homeScore": 3,
+      "awayScore": 2,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-06-24T22:24:17.738Z",
       "secondHalfStart": null
