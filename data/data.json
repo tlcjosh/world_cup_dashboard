@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T19:26:29.497Z",
+  "lastUpdated": "2026-06-25T21:14:15.009Z",
   "matches": [
     {
       "matchId": 537327,
@@ -2604,10 +2604,10 @@
       "awayIso": "ci",
       "venue": "Lincoln Financial Field, Philadelphia",
       "kickoff": "2026-06-25T20:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-25T21:14:15.009Z",
       "secondHalfStart": null
     },
     {
@@ -2621,10 +2621,10 @@
       "awayIso": "de",
       "venue": "MetLife Stadium, East Rutherford",
       "kickoff": "2026-06-25T20:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-25T21:14:15.009Z",
       "secondHalfStart": null
     },
     {
