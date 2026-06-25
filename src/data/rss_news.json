@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-25T15:12:35.556Z",
+  "asOf": "2026-06-25T17:25:16.254Z",
   "items": [
     {
       "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
@@ -10,10 +10,69 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:59:31 +0000",
+      "pubDate": "Thu, 25 Jun 2026 17:12:45 +0000",
       "teams": [
         "Mexico",
         "Canada"
+      ]
+    },
+    {
+      "headline": "World Cup Q&A: our US soccer team answers your questions on stadiums, Lalas, hydration breaks and more – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/sport/live/2026/jun/25/world-cup-qa-ask-our-us-soccer-correspondents-anything"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 17:12:21 GMT",
+      "teams": [
+        "United States",
+        "Ecuador",
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 knockout fixtures, results and group tables",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 17:09:10 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The nine World Cup results Scotland need to qualify for knockout stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-still-qualify-knockout-rounds-000153608.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 17:09:01 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "🎥 World Cup city turns orange! Oranje fans stage epic march",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-city-turns-orange-170800654.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 17:08:00 +0000",
+      "teams": [
+        "Tunisia"
       ]
     },
     {
@@ -25,12 +84,274 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 14:57:54 GMT",
+      "pubDate": "Thu, 25 Jun 2026 16:59:31 GMT",
       "teams": [
         "Mexico",
         "Czechia",
         "Brazil",
         "Scotland"
+      ]
+    },
+    {
+      "headline": "Senegal’s World Cup is hanging by a thread after comedy of errors on and off pitch",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/senegals-world-cup-is-hanging-by-a-thread-after-comedy-of-errors-on-and-off-pitch"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 16:28:10 GMT",
+      "teams": [
+        "Qatar",
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Declan Rice and Christian Pulisic updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 16:12:48 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Is Turkey v USA on TV? Channel, kick-off time and how to watch World Cup 2026 match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/turkey-v-usa-tv-channel-085740490.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 16:03:43 +0000",
+      "teams": [
+        "United States",
+        "Paraguay",
+        "Australia",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Paraguay vs. Australia Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-paraguay-australia-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281572609-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 12:00:29 -0400",
+      "teams": [
+        "Paraguay",
+        "Australia"
+      ]
+    },
+    {
+      "headline": "USA vs. Türkiye Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-united-states-turkiye-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282406782-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 12:00:24 -0400",
+      "teams": [
+        "United States",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Best third-placed teams: Algeria and Senegal's qualifying hopes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-third-placed-teams-algeria-155700689.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:57:00 +0000",
+      "teams": [
+        "Senegal",
+        "Algeria"
+      ]
+    },
+    {
+      "headline": "World Cup makes more than enough money - NYC mayor",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-makes-more-enough-155651484.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:56:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup makes more than enough money - New York mayor Mamdani",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cd7wrgy037vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddb0/live/6d07fce0-70a9-11f1-88b6-991d05fc2cf9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 25 Jun 2026 15:56:45 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid icon defends Kylian Mbappe and praises Jude Bellingham: &#8216;I am in awe&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-icon-defends-kylian-154500813.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Football Daily | No Scotland, no party? Brazil boogie all over Tartan Army’s World Cup fun",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/scotland-brazil-world-cup-2026-football-daily"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 15:39:15 GMT",
+      "teams": [
+        "Mexico",
+        "Brazil",
+        "Morocco",
+        "Haiti",
+        "Scotland",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Barcelona midfielder shares recovery update after World Cup heartbreak due to injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-midfielder-shares-recovery-world-153000010.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Inter join race for Wesley: Roma not listening to offers",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/inter-join-race-wesley-roma-153000790.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:30:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "World Cup: Will FIFA punish Mexico after fans' homophobic chant returns vs. Czechia?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-will-fifa-punish-mexico-after-fans-homophobic-chant-returns-vs-czechia-152916618.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:29:16 +0000",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "Cross examination: is old-fashioned wing play making a comeback?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/cross-examination-old-fashioned-wing-play-comeback-world-cup-crosses"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 15:00:54 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Seattle prepares for unlikely matchup as its World Cup Pride celebration: Egypt v Iran",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/seattle-pride-match-world-cup-egypt-iran"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 15:00:52 GMT",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Can the Socceroos stop the nation? It would be 40 years in the making for SBS",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/can-the-socceroos-stop-the-nation-it-would-be-40-years-in-the-making-for-sbs"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 15:00:52 GMT",
+      "teams": [
+        "Mexico",
+        "Paraguay",
+        "Australia"
+      ]
+    },
+    {
+      "headline": "Paraguay vs. Australia odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/paraguay-australia-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/b329e778-910f-483d-86af-adf096b7771e/usatsi-29231671-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:58:18 +0000",
+      "teams": [
+        "Paraguay",
+        "Australia"
       ]
     },
     {
@@ -92,6 +413,25 @@
       ]
     },
     {
+      "headline": "Japan vs. Sweden odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/japan-sweden-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/dec3e632-e3a6-48eb-a8c0-c7b35a3b88b2/viktor-gyokeres.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:40:51 +0000",
+      "teams": [
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
       "headline": "Key mid-season break for Diniz at Corinthians; explained",
       "links": {
         "web": {
@@ -143,6 +483,25 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 25 Jun 2026 14:33:30 +0000",
       "teams": []
+    },
+    {
+      "headline": "Netherlands vs. Tunisia odds, prediction, time: 2026 World Cup picks, best bets from expert on 31-13 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/netherlands-tunisia-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/11/7fddee96-f3de-43f7-96c3-cf31a9bbb5af/virgil-van-dijk.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:27:43 +0000",
+      "teams": [
+        "Netherlands",
+        "Tunisia"
+      ]
     },
     {
       "headline": "USMNT vs. Turkiye odds, prediction, time: 2026 World Cup picks from expert on 21-12 run",
@@ -211,20 +570,6 @@
       "teams": [
         "Curaçao",
         "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "World Cup Q&A: ask our correspondents anything — from how far the home nations can go to who might win it all",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/sport/live/2026/jun/25/world-cup-qa-ask-our-us-soccer-correspondents-anything"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 14:02:35 GMT",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -955,20 +1300,6 @@
         "Qatar",
         "United States",
         "Austria"
-      ]
-    },
-    {
-      "headline": "The nine World Cup results Scotland need to qualify for knockout stages",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-still-qualify-knockout-rounds-000153608.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 09:12:13 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -2394,18 +2725,6 @@
       "teams": [
         "Scotland"
       ]
-    },
-    {
-      "headline": "World Cup 2026 knockout fixtures, results and group tables",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:06:32 +0000",
-      "teams": []
     },
     {
       "headline": "📅 Find out when Brazil’s next World Cup match is",
@@ -5020,23 +5339,6 @@
       ]
     },
     {
-      "headline": "Is Turkey v USA on TV? Channel, kick-off time and how to watch World Cup 2026 match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/turkey-v-usa-tv-channel-085740490.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:57:40 +0000",
-      "teams": [
-        "United States",
-        "Paraguay",
-        "Australia",
-        "Turkey"
-      ]
-    },
-    {
       "headline": "Serie A reacts to historic Ronaldo brace with social media message",
       "links": {
         "web": {
@@ -5180,18 +5482,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 24 Jun 2026 08:12:41 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Lamine Yamal and Christian Pulisic latest updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:08:15 +0000",
       "teams": []
     },
     {
