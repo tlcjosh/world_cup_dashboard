@@ -1,6 +1,21 @@
 {
-  "asOf": "2026-06-25T19:26:32.038Z",
+  "asOf": "2026-06-25T21:14:16.433Z",
   "items": [
+    {
+      "headline": "2026 World Cup: Germany goal against Ecuador not called back despite missed high-boot foul",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-germany-goal-against-ecuador-not-called-back-despite-missed-high-boot-foul-211042774.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 21:10:42 +0000",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
     {
       "headline": "Curaçao v Côte d’Ivoire: World Cup 2026 – live",
       "links": {
@@ -10,13 +25,302 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 19:11:06 GMT",
+      "pubDate": "Thu, 25 Jun 2026 20:57:30 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Curaçao"
+      ]
+    },
+    {
+      "headline": "Ecuador v Germany: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/25/germany-v-ecuador-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 20:51:17 GMT",
       "teams": [
         "Mexico",
         "Canada",
         "United States",
         "Germany",
-        "Curaçao"
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Ecuador Defender Piero Hincapié Makes Permanent Arsenal Move While At World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/ecuador-defender-piero-hincapie-completes-permanent-arsenal-move-while-at-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/horizontal-hincapie.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 16:48:32 -0400",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "🫣 Fans forced from the stands! Storm threatens World Cup match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fans-forced-stands-storm-threatens-204300171.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:43:00 +0000",
+      "teams": [
+        "France",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Sane gives Germany lead as Ecuador calls for foul waived away",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c1dypzd45dvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01fc/live/73e76170-70d3-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 25 Jun 2026 20:30:49 GMT",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Mexico's Gilberto Mora Impresses In First World Cup Start, Could See Role Expand",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mexico-teenager-gilberto-mora-impresses-in-first-world-cup-start-and-could-see-role-expand"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gilberto.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 16:24:53 -0400",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "Has Florian Wirtz rediscovered his form at the World Cup? 📈",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/florian-wirtz-rediscovered-form-world-202400718.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:24:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Watch as Angulo levels for Ecuador against already-qualified Germany at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/undav-bench-already-qualified-germany-155514252.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:23:08 +0000",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Watch as Ivory Coast score early against Curacao to boost World Cup last-32 hopes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-live-curacao-ivory-coast-153509674.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:23:08 +0000",
+      "teams": [
+        "Curaçao",
+        "Ivory Coast"
+      ]
+    },
+    {
+      "headline": "📲 No clean sheet again! Germany fans angry with Neuer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/no-clean-sheet-again-germany-202200998.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:22:00 +0000",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "‘I just thought, ‘What happened?’’: Why Sweden trained under a demolition site ahead of Japan World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/just-thought-happened-why-sweden-201646038.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:16:46 +0000",
+      "teams": [
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Turkiye vs. USMNT live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/turkiye-vs-usmnt-live-stream-how-to-watch-fifa-world-cup-odds-prediction-pick-lineups-channel/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/35502423-b4d2-405e-a258-1eae7719faeb/tim-weah.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:12:28 +0000",
+      "teams": [
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "&#8216;We want to make him proud&#8217; &#8211; Aurélien Tchouaméni opens up on Didier Deschamps&#8217; absence",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/want-him-proud-aur-lien-200500565.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:05:00 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "‘Queer people exist in Iran and Egypt’: Inside the politicisation of the first-ever World Cup pride match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/queer-people-exist-iran-egypt-194909030.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 20:01:19 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Journalist: Liverpool hold &#8216;firm interest&#8217; in World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-liverpool-hold-firm-interest-195500378.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 19:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "USMNT World Cup Lineup vs. Türkiye: Balogun, Jedi, Adams, Richards Won't Start",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-starting-lineup-pulisic-turkiye"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/balogun-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:44:15 -0400",
+      "teams": [
+        "United States",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Chelsea target Maxence Lacroix to replace William Saliba for Norway v France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chelsea-target-maxence-lacroix-replace-194000806.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 19:40:00 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "📸 Top team spirit, Schlotterbeck backs Germany on crutches",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/top-team-spirit-schlotterbeck-backs-191900621.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 19:19:00 +0000",
+      "teams": [
+        "Germany",
+        "Ivory Coast"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Turkiye odds, prediction, time: 2026 World Cup picks from expert on 21-12 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-turkiye-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/15d9520b-5f57-495b-b040-1dddba4cd98d/sergino-dest-usa.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 19:10:27 +0000",
+      "teams": [
+        "United States",
+        "Turkey"
       ]
     },
     {
@@ -76,25 +380,6 @@
         "Ecuador",
         "Japan",
         "Sweden"
-      ]
-    },
-    {
-      "headline": "Ecuador v Germany: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/25/germany-v-ecuador-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 19:02:33 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Germany",
-        "Curaçao",
-        "Ecuador"
       ]
     },
     {
@@ -926,6 +1211,22 @@
       ]
     },
     {
+      "headline": "Is the World Cup ball making it hard for goalkeepers?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1jy8pr6k37o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eaf0/live/e9feb1d0-709f-11f1-86cf-0fd142c2b6fb.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 25 Jun 2026 14:45:21 GMT",
+      "teams": []
+    },
+    {
       "headline": "Villasanti aims to regain a leading role at Grêmio",
       "links": {
         "web": {
@@ -1031,25 +1332,6 @@
       ]
     },
     {
-      "headline": "USMNT vs. Turkiye odds, prediction, time: 2026 World Cup picks from expert on 21-12 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-turkiye-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/15d9520b-5f57-495b-b040-1dddba4cd98d/sergino-dest-usa.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:23:38 +0000",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
       "headline": "Germany vs. Ecuador odds, prediction, time: 2026 World Cup picks, best bets from expert on 21-12 run",
       "links": {
         "web": {
@@ -1116,24 +1398,6 @@
       "teams": [
         "Paraguay",
         "Australia",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Turkiye vs. USMNT live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/turkiye-vs-usmnt-live-stream-how-to-watch-fifa-world-cup-odds-prediction-pick-lineups-channel/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/35502423-b4d2-405e-a258-1eae7719faeb/tim-weah.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 13:56:45 +0000",
-      "teams": [
         "Turkey"
       ]
     },
