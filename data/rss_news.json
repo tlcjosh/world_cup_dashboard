@@ -1,6 +1,547 @@
 {
-  "asOf": "2026-06-25T17:25:16.254Z",
+  "asOf": "2026-06-25T19:26:32.038Z",
   "items": [
+    {
+      "headline": "Curaçao v Côte d’Ivoire: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/25/curacao-v-cote-divoire-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 19:11:06 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Germany",
+        "Curaçao"
+      ]
+    },
+    {
+      "headline": "England duo Reece James and Declan Rice to be assessed ahead of Panama clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-duo-reece-james-declan-191000161.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 19:10:00 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France Favored To Reach Final; Argentina Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:05:54 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Vini Jr Ignites Brazil, USMNT's Knockout Path Clears & Canada Lands Favorable Draw",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/vini-jr-ignites-brazil-usmnts-knockout-path-clears--canada-lands-favorable-draw-190342643.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 19:03:42 +0000",
+      "teams": [
+        "Canada",
+        "Switzerland",
+        "Brazil",
+        "Scotland",
+        "United States",
+        "Paraguay",
+        "Australia",
+        "Turkey",
+        "Germany",
+        "Ecuador",
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Ecuador v Germany: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/25/germany-v-ecuador-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 19:02:33 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Germany",
+        "Curaçao",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorite; Mexico Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283206088-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 15:00:47 -0400",
+      "teams": [
+        "Mexico",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Brazil Clinches Group C",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283185040-1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:55:50 -0400",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "How Pochettino has US believing they can be World Cup winners",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pochettino-us-believing-world-cup-103406382.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:53:50 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:52:31 +0000",
+      "teams": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:51:10 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Curacao vs Ivory Coast lineups – Atalanta’s Kossounou and Inter talent Bonny start for Ivorians",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-curacao-vs-185000091.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:50:00 +0000",
+      "teams": [
+        "Curaçao",
+        "Ivory Coast"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Ecuador vs Germany lineups – Venezia’s Yeboah starts for South Americans as Estupinan benched",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-ecuador-vs-185000872.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:50:00 +0000",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "What do Australia and Paraguay need to qualify for the World Cup knockouts from Group D?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/australia-paraguay-qualify-world-cup-110620941.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:48:39 +0000",
+      "teams": [
+        "United States",
+        "Paraguay",
+        "Australia",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "🚨 Germany v Ecuador and Ivory Coast v Curaçao line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-v-ecuador-ivory-coast-184800627.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:48:00 +0000",
+      "teams": [
+        "Germany",
+        "Curaçao",
+        "Ivory Coast",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot: Vini Jr. Closing In On Messi, Mbappé",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:47:43 -0400",
+      "teams": []
+    },
+    {
+      "headline": "What do Curacao, Ivory Coast and Ecuador need to qualify for the World Cup knockouts from Group E?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/curacao-ivory-coast-ecuador-qualify-065043862.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:47:31 +0000",
+      "teams": [
+        "Germany",
+        "Curaçao",
+        "Ivory Coast",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "What do Netherlands, Sweden and Japan need to qualify for the World Cup knockouts from Group F?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/netherlands-sweden-japan-qualify-world-065157426.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:46:28 +0000",
+      "teams": [
+        "Netherlands",
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Pedri hails Messi as the best footballer in history: &#8216;I was lucky enough to be able to play with him&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pedri-hails-messi-best-footballer-184500762.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:45:00 +0000",
+      "teams": [
+        "Saudi Arabia",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: USA's Ricardo Pepi among best bets for Thursday",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-usas-ricardo-pepi-among-best-bets-for-thursday/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/f46b42e5-4724-4348-a053-b9057d7655ff/pepi.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:36:01 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Kicker: Luis Enrique has scouted French star at World Cup ahead of potential PSG transfer push",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kicker-luis-enrique-scouted-french-183500009.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:35:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Teams Favored to Advance to Knockout Stage",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-favored-advance-knockout-stage"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/44ea682a-wc_oddstoadvance-9x16-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 14:30:36 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Germany vs. Ecuador odds, prediction, time: 2026 World Cup picks, best bets from expert on 21-12 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/germany-ecuador-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/17/d5ee653a-3b70-4cb6-8d9c-1a2401a3cf74/sane.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:25:30 +0000",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Are Scotland 'not good enough' to impress at World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-not-good-enough-impress-175335899.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:16:01 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Ivory Coast vs. Curacao odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/ivory-coast-curacao-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/09/eae775b6-dd02-4f51-891a-fa0bd00804cc/ivory-coast-wc.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:15:34 +0000",
+      "teams": [
+        "Curaçao",
+        "Ivory Coast"
+      ]
+    },
+    {
+      "headline": "After group-stage exit! World Cup star retires from national team",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/group-stage-exit-world-cup-181100245.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 18:11:00 +0000",
+      "teams": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    {
+      "headline": "The great paradox of Scotland’s World Cup. The fans, superb. The team? Dismal | Ewan Murray",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/great-paradox-scotland-2026-world-cup-fans-team-steve-clarke-brazil"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 18:01:14 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Erling Haaland v Kylian Mbappé: how the Norway and France hitmen match up",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/erling-haaland-v-kylian-mbappe-how-the-norway-and-france-hitmen-match-up"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 17:58:40 GMT",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 17:57:58 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Paraguay vs. Australia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/paraguay-vs-australia-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/142728d6-9803-4005-907b-99f30f427756/paraguay.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 17:53:34 +0000",
+      "teams": [
+        "Paraguay",
+        "Australia"
+      ]
+    },
+    {
+      "headline": "Are Scotland 'not good enough' to impress at World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/crelxn895rro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/675c/live/40ca73f0-70b4-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 25 Jun 2026 17:53:29 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 25 Jun 2026 17:38:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Playing at a World Cup is unforgettable but it requires every ounce of your dedication | Rodrygo",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/world-cup-rodrygo-brazil-schedule-dedication"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 17:15:54 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
     {
       "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
       "links": {
@@ -369,20 +910,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 golden boot standings as Cristiano Ronaldo joins Messi, Mbappe and Haaland in race",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:52:48 +0000",
-      "teams": [
-        "Uzbekistan"
-      ]
-    },
-    {
       "headline": "Is the World Cup ball making it hard for goalkeepers?",
       "links": {
         "web": {
@@ -630,22 +1157,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 13:52:48 +0000",
-      "teams": []
-    },
-    {
       "headline": "The games that show the flaws in a 48-team World Cup",
       "links": {
         "web": {
@@ -843,24 +1354,6 @@
       ]
     },
     {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: USA's Ricardo Pepi among best bets for Thursday",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-usas-ricardo-pepi-among-best-bets-for-thursday/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/f46b42e5-4724-4348-a053-b9057d7655ff/pepi.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 12:27:32 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
       "headline": "How to Watch Paraguay vs. Australia: TV Channel, Live Stream, Time",
       "links": {
         "web": {
@@ -897,26 +1390,6 @@
         "United States",
         "Germany",
         "Japan"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 12:06:03 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
       ]
     },
     {
@@ -1128,20 +1601,6 @@
       "teams": [
         "Brazil",
         "Scotland"
-      ]
-    },
-    {
-      "headline": "How Pochettino has US believing they can be World Cup winners",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pochettino-us-believing-world-cup-103406382.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 10:34:06 +0000",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -2059,25 +2518,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorite; Mexico Rises",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283206088-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 23:21:29 -0400",
-      "teams": [
-        "Mexico",
-        "France"
-      ]
-    },
-    {
       "headline": "Fidalgo caps Mexico rout as co-hosts maintain 100% record and send Czechia out",
       "links": {
         "web": {
@@ -2588,40 +3028,6 @@
       "teams": [
         "Morocco",
         "Haiti"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot: Vini Jr. Closing In On Messi, Mbappé",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:32:24 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: Brazil Clinches Group C",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283185040-1-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:26:05 -0400",
-      "teams": [
-        "Brazil"
       ]
     },
     {
@@ -3718,24 +4124,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 14:45:07 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
       "headline": "Kone salutes CANMNT fans from wheelchair after horror injury",
       "links": {
         "web": {
@@ -3782,25 +4170,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: France Favored To Reach Final; Argentina Rises",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 14:36:00 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
       "links": {
         "web": {
@@ -3814,22 +4183,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Wed, 24 Jun 2026 14:33:44 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: Teams Favored to Advance to Knockout Stage",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-favored-advance-knockout-stage"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/44ea682a-wc_oddstoadvance-9x16-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 14:31:08 -0400",
       "teams": []
     },
     {
@@ -5036,23 +5389,6 @@
       "source": "BBC Sport",
       "pubDate": "Wed, 24 Jun 2026 11:06:30 GMT",
       "teams": []
-    },
-    {
-      "headline": "What do Australia and Paraguay need to qualify for the World Cup knockouts from Group D?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/australia-paraguay-qualify-world-cup-110620941.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:06:20 +0000",
-      "teams": [
-        "United States",
-        "Paraguay",
-        "Australia",
-        "Turkey"
-      ]
     },
     {
       "headline": "Screen epics: World Cup 2026 viewing parties around the globe – in pictures",
