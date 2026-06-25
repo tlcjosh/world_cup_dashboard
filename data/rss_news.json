@@ -1,6 +1,404 @@
 {
-  "asOf": "2026-06-25T06:03:41.154Z",
+  "asOf": "2026-06-25T09:41:29.750Z",
   "items": [
+    {
+      "headline": "Real Madrid teenage midfielder wants to convince Mourinho and stay at club",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-teenage-midfielder-wants-093000815.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 09:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What do Scotland need to make World Cup knockouts?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-world-cup-knockouts-034040958.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 09:26:21 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Scotland on brink after Brazil defeat, South Africa advance, and more – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/25/world-cup-2026-scotland-agony-as-brazil-hit-hopes-of-progress-south-africa-advance-and-more-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 09:18:54 GMT",
+      "teams": [
+        "Mexico",
+        "South Africa",
+        "Canada",
+        "Brazil",
+        "Scotland",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Bosnia and Herzegovina book place in knockout stage after seeing off Qatar",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/24/bosnia-herzegovina-qatar-group-b-world-cup-2026-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 09:13:39 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar",
+        "United States",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "The nine World Cup results Scotland need to qualify for knockout stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-still-qualify-knockout-rounds-000153608.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 09:12:13 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "OneFootball x Jordan Rakei: I'm still proud of frustrating New Zealand",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/onefootball-x-jordan-rakei-im-090900169.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 09:09:00 +0000",
+      "teams": [
+        "New Zealand",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "🇧🇷 See who Brazil could face in the Copa knockouts",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/see-brazil-could-face-copa-090800096.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 09:08:00 +0000",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "What do Scotland need to make World Cup knockouts?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c3d/live/db5e6680-7044-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 25 Jun 2026 09:06:23 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Amdouni's Switzerland into last 32 of World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/amdounis-switzerland-last-32-world-090029847.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 09:00:29 +0000",
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "How to Watch Curacao vs. Ivory Coast: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/curacao-vs-ivory-coast-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-e"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-curacao-vs-ivory-coast-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 04:43:22 -0400",
+      "teams": [
+        "Curaçao",
+        "Ivory Coast"
+      ]
+    },
+    {
+      "headline": "Jurgen Klopp ends interview after being asked about German icon’s controversial ‘African football’ remarks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jurgen-klopp-ends-interview-being-083220830.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:32:20 +0000",
+      "teams": []
+    },
+    {
+      "headline": "‘They’re defeating nations who occupied’: inside Bangladesh’s World Cup love affair with Argentina and Brazil",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/bangladesh-brazil-argentina-world-cup-fans"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 08:30:09 GMT",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "‘They’re defeating nations who occupied’: inside Bangladesh’s World Cup love affair with Argentina and Brazil",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/defeating-nations-occupied-inside-bangladesh-083009639.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:30:09 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who will be Italy’s next coach?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italy-next-coach-083000052.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup: How to buy tickets for Panama vs. England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-buy-tickets-panama-082500961.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:25:00 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "How to Watch Ecuador vs. Germany: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/ecuador-vs-germany-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-e"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-ecuador-vs-germany-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 25 Jun 2026 04:20:26 -0400",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Eliminated: World Cup 2026 teams who are out of the tournament",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/eliminated-world-cup-2026-teams-082000828.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:20:00 +0000",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How England can qualify for the World Cup knockout stages tonight – and who they could play",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-081724224.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:17:24 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 08:00:08 GMT",
+      "teams": [
+        "Mexico",
+        "United States",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/naive-mauricio-pochettino-lowest-moments-080008285.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 08:00:08 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How is Derry City's new pitch 'World Cup standard'?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/derry-citys-pitch-world-cup-075819738.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 07:58:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Beyond the World Cup... 5️⃣ stories making Thursday",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/beyond-world-cup-5-stories-074100946.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 07:41:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona double down on commitment to sign veteran star permanently after World Cup displays",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-double-down-commitment-sign-074000775.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 07:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Germany boss delivers encouraging update on Real Madrid veteran&#8217;s fitness: &#8216;His knee isn’t bothering him&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-boss-delivers-encouraging-real-074000983.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 07:40:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Italian reports reveal Arsenal&#8217;s €50m interest in World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italian-reports-reveal-arsenal-50m-073000880.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 25 Jun 2026 07:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Best World Cup stadium? BBC Sport experts have their say",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3vy3grvpg6o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7aa/live/948b8750-6ec9-11f1-9be1-452593b3a34a.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 25 Jun 2026 06:30:04 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Socceroos look to Paraguay ‘challenge’ with World Cup fate in their own hands",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/25/socceroos-australia-paraguay-game-permutations-last-32-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 25 Jun 2026 05:54:23 GMT",
+      "teams": [
+        "Paraguay",
+        "Australia"
+      ]
+    },
     {
       "headline": "2026 World Cup Bracket, Standings, Projections: USA in Round of 32, Who Else Might Advance?",
       "links": {
@@ -359,25 +757,6 @@
       "teams": [
         "South Africa",
         "South Korea"
-      ]
-    },
-    {
-      "headline": "What do Scotland need to make World Cup knockouts?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx23rx038w1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c3d/live/db5e6680-7044-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 03:40:34 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
       ]
     },
     {
@@ -1616,23 +1995,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 24 Jun 2026 17:13:01 -0400",
       "teams": []
-    },
-    {
-      "headline": "Bosnia and Herzegovina on verge of knockout stage after seeing off Qatar",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/bosnia-herzegovina-qatar-group-b-world-cup-2026-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 21:07:08 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "United States",
-        "Austria"
-      ]
     },
     {
       "headline": "Scotland vs. Brazil live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
