@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v21';
-const APP_UPDATED = '2026-06-26 13:15 UTC';
+const APP_VERSION = 'v22';
+const APP_UPDATED = '2026-06-26 13:42 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1452,42 +1452,119 @@ function applyBracketResolutions(matches) {
   }
 }
 
+// Estimates, per team, the actual probability (0-1) of finishing in the
+// cross-group wildcard top 8 -- the same style of number NYT/The Athletic
+// show ("100%", ">99%", "88%") -- by jointly enumerating every remaining
+// group-stage match across ALL groups at once (not per-group independently,
+// since a wildcard spot is a cross-group competition). Each joint outcome
+// re-runs the real tiebreak pipeline (simulateGroupOutcome's
+// sortStandingsWithHeadToHead, plus the same pts/gd/gf/fairPlay/FIFA-rank
+// cross-group sort computeThirdPlaceRankings uses) to find that outcome's
+// actual top-8 group-letter set, then tallies how often each team -- and each
+// distinct 8-letter group combination -- lands in it.
+//
+// Exhaustive enumeration (3^n for n total remaining matches across every
+// group) is exact and used whenever n is small enough to stay fast (capped at
+// 3^12 ~= 531k). Early in the tournament, when many more matches remain, it
+// falls back to Monte Carlo random sampling -- an approximation, but adequate
+// for a "highly likely" signal the same way outlets' own simulations are.
+function computeWildcardProbabilities(matches, standings) {
+  const groupMatchesByGroup = {};
+  for (const m of matches) {
+    if (m.stage !== 'Group Stage') continue;
+    const g = TEAM_MASTER_DATA[m.homeTeam]?.group;
+    if (!g) continue;
+    (groupMatchesByGroup[g] ||= []).push(m);
+  }
+
+  const groups = Object.keys(groupMatchesByGroup);
+  const remainingByGroup = {};
+  const allRemaining = [];
+  for (const g of groups) {
+    const remaining = groupMatchesByGroup[g].filter(m => m.status !== 'FINISHED');
+    remainingByGroup[g] = remaining;
+    for (const m of remaining) allRemaining.push({ g, m });
+  }
+
+  const n = allRemaining.length;
+  const EXHAUSTIVE_CAP = 12; // 3^12 ~= 531k joint outcomes, still fast
+  const exhaustive = n <= EXHAUSTIVE_CAP;
+  const SAMPLES = 8000;
+  const totalOutcomes = exhaustive ? Math.pow(3, n) : SAMPLES;
+
+  const teamCounts = {};
+  const groupSetCounts = {};
+
+  for (let s = 0; s < totalOutcomes; s++) {
+    const choiceSource = exhaustive ? [] : null;
+    if (exhaustive) {
+      let rem = s;
+      for (let i = 0; i < n; i++) { choiceSource.push(rem % 3); rem = Math.floor(rem / 3); }
+    }
+
+    const choicesByGroup = {};
+    allRemaining.forEach((entry, i) => {
+      const choice = exhaustive ? choiceSource[i] : Math.floor(Math.random() * 3);
+      (choicesByGroup[entry.g] ||= []).push(choice);
+    });
+
+    const thirds = [];
+    for (const g of groups) {
+      const remaining = remainingByGroup[g];
+      if (remaining.length === 0) {
+        const real = standings[g];
+        if (real && real.length >= 3) thirds.push({ ...real[2], groupLetter: g });
+        continue;
+      }
+      const sorted = simulateGroupOutcome(groupMatchesByGroup[g], remaining, choicesByGroup[g]);
+      if (sorted.length >= 3) thirds.push({ ...sorted[2], groupLetter: g });
+    }
+
+    thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf ||
+      (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) ||
+      (fifaRankOf(a.team) - fifaRankOf(b.team)) || a.team.localeCompare(b.team));
+
+    const top8 = thirds.slice(0, 8);
+    for (const t of top8) teamCounts[t.team] = (teamCounts[t.team] || 0) + 1;
+    const setKey = top8.map(t => t.groupLetter).sort().join('');
+    groupSetCounts[setKey] = (groupSetCounts[setKey] || 0) + 1;
+  }
+
+  const teamProbability = {};
+  for (const [team, count] of Object.entries(teamCounts)) teamProbability[team] = count / totalOutcomes;
+
+  let bestSet = null, bestSetCount = 0;
+  for (const [setKey, count] of Object.entries(groupSetCounts)) {
+    if (count > bestSetCount) { bestSetCount = count; bestSet = setKey; }
+  }
+  const bestSetProbability = bestSet ? bestSetCount / totalOutcomes : 0;
+
+  return { teamProbability, bestSet, bestSetProbability };
+}
+
 // Determines, per team, whether a group-stage outcome is already mathematically
 // guaranteed -- regardless of how the group's remaining matches play out --
 // and surfaces it as a single badge: clinched (group win / knockout berth /
 // wildcard berth) or eliminated.
 //
 // Group position verdicts (win group / auto-qualify top 2 / can't reach top 2)
-// reuse the exact per-team position sets from computeGuaranteedPositions.
+// reuse the exact per-team position sets from computeGuaranteedPositions --
+// those stay strict/boolean since they only ever involve one group.
 //
-// Wildcard (3rd-place, top 8 of 12): brute-forcing all 12 groups together is
-// combinatorially infeasible, so this uses a points-only bound instead. Every
-// team has a ceiling (current pts + 3 x remaining group matches) and a floor
-// (current pts, nothing more added); each *other* group's threat is
-// groupThirdCeiling -- the highest points total that group's eventual
-// 3rd-place finisher could possibly post (from computeGuaranteedPositions),
-// not just the best team in that group's own ceiling. A team's wildcard spot
-// is "clinched" (wildcardClinched) only once fewer than 8 other groups'
-// threats can even *tie* its floor, and "wildcard-eliminated" only once at
-// least 8 other groups' threats already exceed its ceiling -- both
-// conservative by construction (ties count against the team), so they trade
-// earlier certainty for zero false positives.
-//
-// A tie at the floor isn't actually a coin-flip in practice: it only costs the
-// team its spot if every one of those tied-or-better groups simultaneously (a)
-// lands its 3rd-place finisher on the exact max points used for the ceiling,
-// and (b) wins the GD/GF/fair-play/FIFA-rank tiebreak against this team. That
-// compound event across several independent groups is realistically
-// vanishing, so a looser "wildcardProjected" tier additionally fires once
-// fewer than 8 other groups can *strictly exceed* the floor (ties no longer
-// count as threats) -- i.e. nobody else can actually finish above this team on
-// points alone, just possibly level with it. Mirrors how outlets report a spot
-// as "clinched" once it's this far ahead, even before the literal worst case
-// is mathematically eliminated.
+// Wildcard (3rd-place, top 8 of 12) instead uses the actual cross-group
+// probability from computeWildcardProbabilities: a team currently sitting in
+// its group's 3rd-place slot is "wildcardClinched" once that probability hits
+// 1 (mathematically certain under every simulated outcome -- exact, not
+// rounded, when the joint enumeration is exhaustive) and "wildcardProjected"
+// once it's at or above WILDCARD_PROJECTED_THRESHOLD but short of certainty --
+// mirroring how outlets report ">99%"/"100%" rather than waiting for the
+// literal worst case to be eliminated.
+const WILDCARD_PROJECTED_THRESHOLD = 0.99;
+
 function computeClinchStatus(matches, standings) {
   const { guaranteedPositions, groupMatchesByGroup, groupThirdCeiling } = computeGuaranteedPositions(matches);
 
-  const floorPts = {}, ceilingPts = {};
+  const ceilingPts = {};
   for (const groupMatches of Object.values(groupMatchesByGroup)) {
     const finished = groupMatches.filter(m => m.status === 'FINISHED');
     const remaining = groupMatches.filter(m => m.status !== 'FINISHED');
@@ -1500,7 +1577,6 @@ function computeClinchStatus(matches, standings) {
         return sum;
       }, 0);
       const remainingForTeam = remaining.filter(m => m.homeTeam === team || m.awayTeam === team).length;
-      floorPts[team] = playedPts;
       ceilingPts[team] = playedPts + 3 * remainingForTeam;
     }
   }
@@ -1513,6 +1589,8 @@ function computeClinchStatus(matches, standings) {
     else if (all.every(p => p <= 2)) groupVerdict[team] = 'top3Locked';
     else if (all.every(p => p >= 2)) groupVerdict[team] = 'outOfTop2';
   }
+
+  const { teamProbability } = computeWildcardProbabilities(matches, standings);
 
   const result = {};
   for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
@@ -1527,12 +1605,12 @@ function computeClinchStatus(matches, standings) {
       } else if (verdict === 'advanced') {
         result[team] = { icon: 'knockout', kind: 'advanced', label: 'Clinched knockout berth (top 2)' };
       } else if (verdict === 'top3Locked' && team === currentThird) {
-        const threatsBeatFloor = others.filter(og => groupThirdCeiling[og] >= floorPts[team]).length;
-        const threatsAboveFloor = others.filter(og => groupThirdCeiling[og] > floorPts[team]).length;
-        if (threatsBeatFloor < 8) {
-          result[team] = { icon: 'knockout', kind: 'wildcardClinched', label: 'Clinched wildcard berth (3rd-place ranking)' };
-        } else if (threatsAboveFloor < 8) {
-          result[team] = { icon: 'projected', kind: 'wildcardProjected', label: 'Projected wildcard berth (highly likely, pending tiebreakers)' };
+        const pct = teamProbability[team] ?? 0;
+        if (pct >= 1) {
+          result[team] = { icon: 'knockout', kind: 'wildcardClinched', pct, label: 'Clinched wildcard berth (3rd-place ranking)' };
+        } else if (pct >= WILDCARD_PROJECTED_THRESHOLD) {
+          const pctLabel = pct >= 0.999 ? '>99%' : `~${Math.round(pct * 100)}%`;
+          result[team] = { icon: 'projected', kind: 'wildcardProjected', pct, label: `Projected wildcard berth (${pctLabel} likely, pending tiebreakers)` };
         }
       } else if (verdict === 'outOfTop2') {
         const threatsBeatCeiling = others.filter(og => groupThirdCeiling[og] > ceilingPts[team]).length;
@@ -1545,23 +1623,23 @@ function computeClinchStatus(matches, standings) {
   return result;
 }
 
-// True once the current top-8 wildcard candidates (by official standings) are
-// each at least "projected" -- i.e. the 8th/9th-place cutoff is settled enough
-// that Schedule/Bracket can safely fill in wildcard ([3XXXXX]-style) slots
-// ahead of groupStageComplete, the same way they already do unconditionally
-// once Live mode is on. If a projected team is later bumped by a genuine
-// upset, the next standings recompute simply overwrites the slot like any
-// other live-mode correction -- so filling in early here is no riskier than
-// what Live mode already does for every slot, all the time.
+// True once the cross-group wildcard top-8 group-letter SET (not just each
+// team individually) is settled with high confidence -- i.e. the specific
+// combinations.json lookup key (e.g. "ABCDEFKL") that Schedule/Bracket need to
+// resolve wildcard ([3XXXXX]-style) slots is overwhelmingly likely to be the
+// final one. Reuses the same joint simulation as the per-team probabilities
+// above, so a team can independently show "projected" while bracket-filling
+// still waits on the full 8-letter set to clear the same threshold -- both
+// numbers come from one underlying probability model instead of two separate
+// gates. If the set is later wrong because of a genuine upset, the next
+// standings recompute simply overwrites the slot like any other live-mode
+// correction -- so filling in early here is no riskier than what Live mode
+// already does for every slot, all the time.
 function thirdPlaceWildcardProjectable(matches, standings) {
   const thirdPlace = computeThirdPlaceRankings(standings);
-  const topEight = thirdPlace.slice(0, 8);
-  if (topEight.length < 8) return false;
-  const clinchStatus = computeClinchStatus(matches, standings);
-  return topEight.every(t => {
-    const kind = clinchStatus[t.team]?.kind;
-    return kind === 'wildcardClinched' || kind === 'wildcardProjected';
-  });
+  if (thirdPlace.length < 8) return false;
+  const { bestSetProbability } = computeWildcardProbabilities(matches, standings);
+  return bestSetProbability >= WILDCARD_PROJECTED_THRESHOLD;
 }
 
 function getThirdPlaceCombinationString(topEight) {
