@@ -1,6 +1,397 @@
 {
-  "asOf": "2026-06-26T15:54:16.500Z",
+  "asOf": "2026-06-26T17:51:45.573Z",
   "items": [
+    {
+      "headline": "World Cup 2026 knockout fixtures, results and group tables",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:35:55 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Onto The Next One: USA Can't Let This Loss Stop World Cup Momentum",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-loss-turkiye-momentum"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/turnermain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:32:07 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Norway v France: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/norway-v-france-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 17:30:06 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Kylian Mbappe, Lamine Yamal among Friday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-kylian-mbappe-lamine-yamal-among-fridays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/9d5d24f0-8013-4781-a846-e1e60b1b2825/yamal.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:22:15 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mauricio Pochettino reportedly offered contract extension to coach USMNT for another World Cup cycle, through 2030",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/mauricio-pochettino-reportedly-offered-contract-extension-to-coach-usmnt-for-another-world-cup-cycle-through-2030-171556194.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:15:56 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Report Goncalo Ramos to Milan done for record €55m fee including add-ons",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-goncalo-ramos-milan-done-170500652.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:05:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Egypt vs. Iran Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-egypt-iran-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282689980-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:00:53 -0400",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Senegal vs. Iraq live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/senegal-vs-iraq-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/59ea015c-e5db-4963-9c14-6cc9b4aa2b34/sadio-mane-senegal.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:00:48 +0000",
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Belgium vs. New Zealand Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-belgium-new-zealand-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281764490-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:00:46 -0400",
+      "teams": [
+        "Belgium",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Senegal v Iraq: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/senegal-v-iraq-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 17:00:17 GMT",
+      "teams": [
+        "Mexico",
+        "South Africa",
+        "Canada",
+        "Morocco",
+        "Haiti",
+        "United States",
+        "Germany",
+        "Curaçao",
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🔥 No one comes close! Haaland dominates this World Cup stat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/no-one-touch-him-haaland-165900260.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:59:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Keeper Zion Suzuki shines as Japan survive Sweden to set up World Cup round of 32 clash with Brazil",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/zion-suzuki-shines-japan-sweden-world-cup-round-of-32-h-brazil/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/c4081656-1b1e-44f7-aa1b-9b4b692edc29/untitled-design-2026-06-26t123351-410.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:36:18 +0000",
+      "teams": [
+        "Brazil",
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "World Cup: The match neither team wants to win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-the-match-neither-team-wants-to-win-163412122.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:34:12 +0000",
+      "teams": [
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Superstar Names Remain Atop Board",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 12:31:03 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 12:22:09 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "The strange Mauricio Pochettino outburst that is cause for concern for USA ahead of World Cup knockouts",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/strange-mauricio-pochettino-outburst-cause-103040502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:16:19 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Senegal vs. Iraq odds, prediction, time: 2026 World Cup picks from expert on 23-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/senegal-iraq-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/a9ab7c4f-ca9a-4c2f-b6db-c82d73405789/sadio-mane-senegal-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:15:28 +0000",
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Iran’s Long World Cup Journey Defined by War and Political Tension",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/26/world/middleeast/world-cup-iran-mexico.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Fri, 26 Jun 2026 16:09:48 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "What do Senegal need to qualify for the World Cup knockouts from Group I?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/senegal-qualify-world-cup-knockouts-055437723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:07:38 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "The 2026 World Cup has a problem: celebrity-spotting",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-problem-celebrity-160621497.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:07:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Impressive Koné boosts France profile and Arsenal interest for Roma",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/impressive-kon-boosts-france-profile-160500961.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:05:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Pressure Is On: Success of Mauricio Pochettino's USA Tenure Rides On Next Game",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-turkiye-pochettino-bosnia-herzegovina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/whynotusmain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 12:00:51 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "EXCLUSIVE | John Arne Riise: &#8216;Kylian Mbappe has more to play with but I would rather have Erling Haaland in my team&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/exclusive-john-arne-riise-kylian-160000280.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:00:00 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "How content creators are bringing fans an added dimension to this World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/influencers-content-creators-world-cup-2026-broadcasting-youtube"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 15:59:56 GMT",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: Haaland v Mbappé; Schweinsteiger’s ‘African football’ comments criticised; Ecuador’s national holiday – live",
       "links": {
@@ -25,6 +416,25 @@
         "France",
         "Senegal",
         "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "France vs. Norway odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-norway-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/7b2ac1f7-720b-4c4f-b8cd-d48e95921ce6/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 15:19:02 +0000",
+      "teams": [
+        "France",
         "Norway"
       ]
     },
@@ -340,20 +750,6 @@
       "teams": []
     },
     {
-      "headline": "The strange Mauricio Pochettino outburst that is cause for concern for USA ahead of World Cup knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/strange-mauricio-pochettino-outburst-cause-103040502.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 13:46:34 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
       "headline": "Real Madrid midfielder receives assurances from Mourinho over future",
       "links": {
         "web": {
@@ -419,21 +815,6 @@
         "Belgium",
         "France",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Iran’s Long World Cup Journey Defined by War and Political Tension",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/26/world/middleeast/world-cup-iran-mexico.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Fri, 26 Jun 2026 13:14:08 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
       ]
     },
     {
@@ -1155,22 +1536,6 @@
         "Senegal",
         "Iraq"
       ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Kylian Mbappe, Lamine Yamal among Friday's best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-kylian-mbappe-lamine-yamal-among-fridays-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/9d5d24f0-8013-4781-a846-e1e60b1b2825/yamal.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 09:00:48 +0000",
-      "teams": []
     },
     {
       "headline": "From cheap transport to football geekery: how Zohran Mamdani won the World Cup",
@@ -2133,22 +2498,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Vini Jr. Closing In On Messi, Mbappé",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:34:07 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup Group F: Netherlands tops group with win over Tunisia as Japan and Sweden draw",
       "links": {
         "web": {
@@ -2678,18 +3027,6 @@
         "Curaçao",
         "Ecuador"
       ]
-    },
-    {
-      "headline": "World Cup 2026 knockout fixtures, results and group tables",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:22:15 +0000",
-      "teams": []
     },
     {
       "headline": "Côte d’Ivoire into World Cup knockouts for first time as Pépé finishes off Curaçao",
@@ -3240,24 +3577,6 @@
       "pubDate": "Thu, 25 Jun 2026 18:53:50 +0000",
       "teams": [
         "United States"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:51:10 -0400",
-      "teams": [
-        "France"
       ]
     },
     {
@@ -15920,354 +16239,6 @@
       "teams": [
         "Belgium",
         "Iran"
-      ]
-    },
-    {
-      "headline": "Cape Verde continue to surprise with entertaining Uruguay draw",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f579/live/4c12a160-6ddf-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 02:05:22 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Cape Verde continue to surprise with entertaining Uruguay draw",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c4gy5rkg0ddo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f579/live/4c12a160-6ddf-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 02:05:22 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "One of World Cup's great stories - can Cape Verde become legends?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 01:53:23 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "One of World Cup's great stories - can Cape Verde become legends?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c0qylwk421eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d60d/live/89763060-6dd2-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 01:53:23 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Cape Verde produce another World Cup shock as Varela strike seals Uruguay draw",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/cape-verde-uruguay-world-cup-group-h-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 00:28:46 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Uruguay",
-        "Spain",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Unbeaten Iran will go down in history - Ghalenoei",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cx237pe074go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03e9/live/e9674050-6dcc-11f1-81d6-99f5ebd04f90.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 00:24:24 GMT",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Saka trains with England squad before Ghana match",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c8e21d5w0pjo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eda/live/70789fc0-6dce-11f1-897a-fb9cd481447f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 00:13:38 GMT",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Egypt vs. New Zealand odds, picks, prediction, betting preview, start time for 2026 World Cup match on Sunday",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/egypt-vs-new-zealand-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-sunday/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/16/94a38f94-3dc6-45ac-b119-3a8940626b64/salah-imagn.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 22 Jun 2026 00:00:49 +0000",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "Cape Verde fan goes wild live on BBC News as his country scores",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0109/live/d88f5710-6dca-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 23:53:13 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Cape Verde fan goes wild live on BBC News as his country scores",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cyv0n4g6p77o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0109/live/d88f5710-6dca-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 23:53:13 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Egypt vs. New Zealand odds, prediction, time: 2026 World Cup picks from expert on 21-9 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/egypt-new-zealand-odds-prediction-time-2026-world-cup-picks-soccer-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/21/bc22ac3a-e9ca-449e-849c-a47a2d80a661/mo-salah.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 21 Jun 2026 23:11:47 +0000",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "'Oh my word!' - Cape Verde take shock lead against Uruguay",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cjwg6le7193o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/820c/live/00476270-6dc1-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 22:46:33 GMT",
-      "teams": [
-        "Uruguay",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Tuchel not afraid to shout at England players - Watkins",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cjegy048847o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e3/live/52b1f510-6e1c-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 22:04:05 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Ten-man Belgium remain winless after draw with Iran",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cy06gxjnx3lo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0af/live/baff2750-6db8-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:55:21 GMT",
-      "teams": [
-        "Belgium",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé hungry for Golden Boot battle with Messi as he sings Les Bleus",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/kylian-mbappe-hungry-for-golden-boot-battle-with-messi-as-he-sings-les-bleus"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 21:47:01 GMT",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "Does it matter if Scotland lose and still make history?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg0exlle8yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c07b/live/23da6020-6e02-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:39:43 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "VAR rules out Iran's Weghorst-esque goal",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cx24y5ympdjo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9446/live/845bc4a0-6db9-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:39:38 GMT",
-      "teams": [
-        "Iran",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Proposals to keep 'crown jewel' sports free on streaming services",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/articles/cjdgy5xvpd5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a53/live/6afb3f60-6da8-11f1-ad73-af954e6a3145.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 21:33:39 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Iran’s Beiranvand denies 10-man Belgium in World Cup draw as Nathan Ngoy sees red",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/belgium-iran-world-cup-group-g-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 21:16:20 GMT",
-      "teams": [
-        "Curaçao",
-        "Belgium",
-        "Iran",
-        "Cape Verde Islands"
       ]
     }
   ]
