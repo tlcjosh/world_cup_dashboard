@@ -1350,6 +1350,16 @@ function simulateGroupOutcome(groupMatches, remaining, choices) {
 // be true (or only false) because of an extreme-blowout-dependent GD
 // tiebreaker isn't modeled -- an accepted simplification in the same spirit
 // as the fair-play yellow/red ambiguity documented elsewhere in this file.
+//
+// The same simulation loop also records, per group, the highest points total
+// that ever lands on the 3rd-place slot (index 2) across every outcome --
+// groupThirdCeiling. This is the precise cross-group "threat" figure
+// computeClinchStatus needs for the wildcard bound below: a group's eventual
+// 3rd-place finisher can never out-point groupThirdCeiling, even though
+// individual teams in that group (1st/2nd-place-bound ones) can. Using a raw
+// per-team ceiling there instead (the group's best team's max possible points)
+// wildly overstates the threat a group poses to other groups' 3rd-place teams,
+// since the highest-scoring team is essentially never the one occupying 3rd.
 function computeGuaranteedPositions(matches) {
   const groupMatchesByGroup = {};
   for (const m of matches) {
@@ -1360,11 +1370,13 @@ function computeGuaranteedPositions(matches) {
   }
 
   const guaranteedPositions = {};
-  for (const groupMatches of Object.values(groupMatchesByGroup)) {
+  const groupThirdCeiling = {};
+  for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
     const remaining = groupMatches.filter(m => m.status !== 'FINISHED');
     const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
     for (const team of teamsInGroup) guaranteedPositions[team] = new Set();
 
+    let thirdCeiling = -Infinity;
     const n = remaining.length;
     const total = Math.pow(3, n);
     for (let s = 0; s < total; s++) {
@@ -1373,9 +1385,11 @@ function computeGuaranteedPositions(matches) {
       for (let i = 0; i < n; i++) { choices.push(rem % 3); rem = Math.floor(rem / 3); }
       const sorted = simulateGroupOutcome(groupMatches, remaining, choices);
       sorted.forEach((t, idx) => guaranteedPositions[t.team].add(idx));
+      if (sorted[2].pts > thirdCeiling) thirdCeiling = sorted[2].pts;
     }
+    groupThirdCeiling[g] = thirdCeiling;
   }
-  return { guaranteedPositions, groupMatchesByGroup };
+  return { guaranteedPositions, groupMatchesByGroup, groupThirdCeiling };
 }
 
 // Maps each team to its exact group-finish position (0 = 1st, 1 = 2nd, ...)
@@ -1449,14 +1463,16 @@ function applyBracketResolutions(matches) {
 // Wildcard (3rd-place, top 8 of 12): brute-forcing all 12 groups together is
 // combinatorially infeasible, so this uses a points-only bound instead. Every
 // team has a ceiling (current pts + 3 x remaining group matches) and a floor
-// (current pts, nothing more added); each *other* group's threat is its own
-// highest ceiling, since whichever of its 4 teams ends up 3rd there isn't known
-// yet. A team's wildcard spot is clinched only once fewer than 8 other groups'
-// threats can even match its floor, and a team is wildcard-eliminated only once
-// at least 8 other groups' threats already exceed its ceiling -- conservative
-// by construction, so it trades earlier certainty for zero false positives.
+// (current pts, nothing more added); each *other* group's threat is
+// groupThirdCeiling -- the highest points total that group's eventual
+// 3rd-place finisher could possibly post (from computeGuaranteedPositions),
+// not just the best team in that group's own ceiling. A team's wildcard spot
+// is clinched only once fewer than 8 other groups' threats can even match its
+// floor, and a team is wildcard-eliminated only once at least 8 other groups'
+// threats already exceed its ceiling -- conservative by construction, so it
+// trades earlier certainty for zero false positives.
 function computeClinchStatus(matches, standings) {
-  const { guaranteedPositions, groupMatchesByGroup } = computeGuaranteedPositions(matches);
+  const { guaranteedPositions, groupMatchesByGroup, groupThirdCeiling } = computeGuaranteedPositions(matches);
 
   const floorPts = {}, ceilingPts = {};
   for (const groupMatches of Object.values(groupMatchesByGroup)) {
@@ -1485,16 +1501,10 @@ function computeClinchStatus(matches, standings) {
     else if (all.every(p => p >= 2)) groupVerdict[team] = 'outOfTop2';
   }
 
-  const groupMaxCeiling = {};
-  for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
-    const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
-    groupMaxCeiling[g] = Math.max(...teamsInGroup.map(t => ceilingPts[t] ?? 0));
-  }
-
   const result = {};
   for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
     const teamsInGroup = [...new Set(groupMatches.flatMap(m => [m.homeTeam, m.awayTeam]))];
-    const others = Object.keys(groupMaxCeiling).filter(og => og !== g);
+    const others = Object.keys(groupThirdCeiling).filter(og => og !== g);
     const currentThird = (standings[g] || [])[2]?.team;
 
     for (const team of teamsInGroup) {
@@ -1504,12 +1514,12 @@ function computeClinchStatus(matches, standings) {
       } else if (verdict === 'advanced') {
         result[team] = { icon: 'knockout', label: 'Clinched knockout berth (top 2)' };
       } else if (verdict === 'top3Locked' && team === currentThird) {
-        const threatsBeatFloor = others.filter(og => groupMaxCeiling[og] >= floorPts[team]).length;
+        const threatsBeatFloor = others.filter(og => groupThirdCeiling[og] >= floorPts[team]).length;
         if (threatsBeatFloor < 8) {
           result[team] = { icon: 'knockout', label: 'Clinched wildcard berth (3rd-place ranking)' };
         }
       } else if (verdict === 'outOfTop2') {
-        const threatsBeatCeiling = others.filter(og => groupMaxCeiling[og] > ceilingPts[team]).length;
+        const threatsBeatCeiling = others.filter(og => groupThirdCeiling[og] > ceilingPts[team]).length;
         if (threatsBeatCeiling >= 8) {
           result[team] = { icon: 'eliminated', label: 'Eliminated -- cannot reach the knockout stage' };
         }
