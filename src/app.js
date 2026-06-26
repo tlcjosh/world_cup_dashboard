@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v22';
-const APP_UPDATED = '2026-06-26 13:42 UTC';
+const APP_VERSION = 'v23';
+const APP_UPDATED = '2026-06-26 13:53 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1468,6 +1468,37 @@ function applyBracketResolutions(matches) {
 // 3^12 ~= 531k). Early in the tournament, when many more matches remain, it
 // falls back to Monte Carlo random sampling -- an approximation, but adequate
 // for a "highly likely" signal the same way outlets' own simulations are.
+// computeWildcardProbabilities is expensive (a full brute-force re-enumeration
+// every call) but its inputs -- which group-stage matches are finished/live
+// and what each group's standings look like -- only actually change once
+// every few minutes (data.json sync) or every 10s while a match is live, not
+// on every single render. computeClinchStatus and thirdPlaceWildcardProjectable
+// are each called multiple times per render cycle (legend, Schedule, Bracket),
+// so without caching the same enumeration reruns 3+ times back-to-back on
+// every poll tick even when nothing changed -- this is what was pegging the
+// CPU on tab/view switches. wildcardProbabilitiesSignature captures every
+// input the simulation actually reads (per-match status/score, per-group
+// standings, and the Live/Official toggle) so the cache is invalidated the
+// instant any of that changes, and reused otherwise.
+let _wildcardProbCache = { sig: null, result: null };
+function wildcardProbabilitiesSignature(matches, standings) {
+  const matchSig = matches
+    .filter(m => m.stage === 'Group Stage')
+    .map(m => `${m.matchId}:${m.status}:${m.homeScore}:${m.awayScore}`)
+    .join('|');
+  const standingsSig = Object.keys(standings).sort().map(g =>
+    `${g}=${standings[g].map(t => `${t.team},${t.pts},${t.gd},${t.gf},${t.fairPlayPoints}`).join(';')}`
+  ).join('|');
+  return `${state.liveMode ? 1 : 0}::${matchSig}::${standingsSig}`;
+}
+function computeWildcardProbabilitiesCached(matches, standings) {
+  const sig = wildcardProbabilitiesSignature(matches, standings);
+  if (_wildcardProbCache.sig === sig) return _wildcardProbCache.result;
+  const result = computeWildcardProbabilities(matches, standings);
+  _wildcardProbCache = { sig, result };
+  return result;
+}
+
 function computeWildcardProbabilities(matches, standings) {
   const groupMatchesByGroup = {};
   for (const m of matches) {
@@ -1487,9 +1518,15 @@ function computeWildcardProbabilities(matches, standings) {
   }
 
   const n = allRemaining.length;
-  const EXHAUSTIVE_CAP = 12; // 3^12 ~= 531k joint outcomes, still fast
+  // Each outcome re-runs simulateGroupOutcome (a full sort/tiebreak pass) once
+  // per group that still has remaining matches, so the real per-outcome cost
+  // is outcomes x active-groups, not just outcomes. 3^8 (6561) x ~6 groups is
+  // still sub-100ms; 3^12 (531k) x 6 groups measured at 8+ seconds in
+  // practice -- well past anything safe to run synchronously on the main
+  // thread during a render. Monte Carlo takes over above this cap.
+  const EXHAUSTIVE_CAP = 8;
   const exhaustive = n <= EXHAUSTIVE_CAP;
-  const SAMPLES = 8000;
+  const SAMPLES = 3000;
   const totalOutcomes = exhaustive ? Math.pow(3, n) : SAMPLES;
 
   const teamCounts = {};
@@ -1590,7 +1627,7 @@ function computeClinchStatus(matches, standings) {
     else if (all.every(p => p >= 2)) groupVerdict[team] = 'outOfTop2';
   }
 
-  const { teamProbability } = computeWildcardProbabilities(matches, standings);
+  const { teamProbability } = computeWildcardProbabilitiesCached(matches, standings);
 
   const result = {};
   for (const [g, groupMatches] of Object.entries(groupMatchesByGroup)) {
@@ -1638,7 +1675,7 @@ function computeClinchStatus(matches, standings) {
 function thirdPlaceWildcardProjectable(matches, standings) {
   const thirdPlace = computeThirdPlaceRankings(standings);
   if (thirdPlace.length < 8) return false;
-  const { bestSetProbability } = computeWildcardProbabilities(matches, standings);
+  const { bestSetProbability } = computeWildcardProbabilitiesCached(matches, standings);
   return bestSetProbability >= WILDCARD_PROJECTED_THRESHOLD;
 }
 
