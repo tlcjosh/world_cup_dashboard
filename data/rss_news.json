@@ -1,6 +1,20 @@
 {
-  "asOf": "2026-06-26T13:43:39.144Z",
+  "asOf": "2026-06-26T13:55:21.294Z",
   "items": [
+    {
+      "headline": "Real Madrid midfielder receives assurances from Mourinho over future",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-receives-assurances-133500766.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:35:00 +0000",
+      "teams": [
+        "Uruguay"
+      ]
+    },
     {
       "headline": "World Cup 2026: Haaland v Mbappé; Schweinsteiger’s ‘African football’ comments criticised; Ecuador’s national holiday – live",
       "links": {
@@ -16279,22 +16293,6 @@
       "links": {
         "web": {
           "href": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/734e/live/2dc74eb0-6d6f-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:27:51 GMT",
-      "teams": []
-    },
-    {
-      "headline": "The beauty of sharing your child's first World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss"
         }
       },
       "images": [
