@@ -1467,10 +1467,23 @@ function applyBracketResolutions(matches) {
 // groupThirdCeiling -- the highest points total that group's eventual
 // 3rd-place finisher could possibly post (from computeGuaranteedPositions),
 // not just the best team in that group's own ceiling. A team's wildcard spot
-// is clinched only once fewer than 8 other groups' threats can even match its
-// floor, and a team is wildcard-eliminated only once at least 8 other groups'
-// threats already exceed its ceiling -- conservative by construction, so it
-// trades earlier certainty for zero false positives.
+// is "clinched" (wildcardClinched) only once fewer than 8 other groups'
+// threats can even *tie* its floor, and "wildcard-eliminated" only once at
+// least 8 other groups' threats already exceed its ceiling -- both
+// conservative by construction (ties count against the team), so they trade
+// earlier certainty for zero false positives.
+//
+// A tie at the floor isn't actually a coin-flip in practice: it only costs the
+// team its spot if every one of those tied-or-better groups simultaneously (a)
+// lands its 3rd-place finisher on the exact max points used for the ceiling,
+// and (b) wins the GD/GF/fair-play/FIFA-rank tiebreak against this team. That
+// compound event across several independent groups is realistically
+// vanishing, so a looser "wildcardProjected" tier additionally fires once
+// fewer than 8 other groups can *strictly exceed* the floor (ties no longer
+// count as threats) -- i.e. nobody else can actually finish above this team on
+// points alone, just possibly level with it. Mirrors how outlets report a spot
+// as "clinched" once it's this far ahead, even before the literal worst case
+// is mathematically eliminated.
 function computeClinchStatus(matches, standings) {
   const { guaranteedPositions, groupMatchesByGroup, groupThirdCeiling } = computeGuaranteedPositions(matches);
 
@@ -1510,23 +1523,45 @@ function computeClinchStatus(matches, standings) {
     for (const team of teamsInGroup) {
       const verdict = groupVerdict[team];
       if (verdict === 'won') {
-        result[team] = { icon: 'position', label: `Clinched Group ${g} win` };
+        result[team] = { icon: 'position', kind: 'won', label: `Clinched Group ${g} win` };
       } else if (verdict === 'advanced') {
-        result[team] = { icon: 'knockout', label: 'Clinched knockout berth (top 2)' };
+        result[team] = { icon: 'knockout', kind: 'advanced', label: 'Clinched knockout berth (top 2)' };
       } else if (verdict === 'top3Locked' && team === currentThird) {
         const threatsBeatFloor = others.filter(og => groupThirdCeiling[og] >= floorPts[team]).length;
+        const threatsAboveFloor = others.filter(og => groupThirdCeiling[og] > floorPts[team]).length;
         if (threatsBeatFloor < 8) {
-          result[team] = { icon: 'knockout', label: 'Clinched wildcard berth (3rd-place ranking)' };
+          result[team] = { icon: 'knockout', kind: 'wildcardClinched', label: 'Clinched wildcard berth (3rd-place ranking)' };
+        } else if (threatsAboveFloor < 8) {
+          result[team] = { icon: 'projected', kind: 'wildcardProjected', label: 'Projected wildcard berth (highly likely, pending tiebreakers)' };
         }
       } else if (verdict === 'outOfTop2') {
         const threatsBeatCeiling = others.filter(og => groupThirdCeiling[og] > ceilingPts[team]).length;
         if (threatsBeatCeiling >= 8) {
-          result[team] = { icon: 'eliminated', label: 'Eliminated -- cannot reach the knockout stage' };
+          result[team] = { icon: 'eliminated', kind: 'eliminated', label: 'Eliminated -- cannot reach the knockout stage' };
         }
       }
     }
   }
   return result;
+}
+
+// True once the current top-8 wildcard candidates (by official standings) are
+// each at least "projected" -- i.e. the 8th/9th-place cutoff is settled enough
+// that Schedule/Bracket can safely fill in wildcard ([3XXXXX]-style) slots
+// ahead of groupStageComplete, the same way they already do unconditionally
+// once Live mode is on. If a projected team is later bumped by a genuine
+// upset, the next standings recompute simply overwrites the slot like any
+// other live-mode correction -- so filling in early here is no riskier than
+// what Live mode already does for every slot, all the time.
+function thirdPlaceWildcardProjectable(matches, standings) {
+  const thirdPlace = computeThirdPlaceRankings(standings);
+  const topEight = thirdPlace.slice(0, 8);
+  if (topEight.length < 8) return false;
+  const clinchStatus = computeClinchStatus(matches, standings);
+  return topEight.every(t => {
+    const kind = clinchStatus[t.team]?.kind;
+    return kind === 'wildcardClinched' || kind === 'wildcardProjected';
+  });
 }
 
 function getThirdPlaceCombinationString(topEight) {
@@ -2108,7 +2143,7 @@ function renderSchedule(opts = {}) {
   // stage is complete, or speculatively while Live mode is on.
   const groupMatches = state.matches.filter(m => m.stage === 'Group Stage');
   const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
-  const resolveGroupSlots = groupStageComplete || state.liveMode;
+  const resolveGroupSlots = groupStageComplete || state.liveMode || thirdPlaceWildcardProjectable(state.matches, state.standings);
   const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
   const computedStandings = resolveGroupSlots
     ? (state.liveMode ? computeStandings(state.matches, statuses) : state.standings)
@@ -2283,6 +2318,7 @@ function renderStandings() {
     <span><span class="swatch" style="background:var(--grad-live);"></span> Third place (best 8 advance)</span>
     <span><span class="clinch-legend-swatch position">✓</span> Group win clinched</span>
     <span><span class="clinch-legend-swatch knockout">✓</span> Knockout clinched</span>
+    <span><span class="clinch-legend-swatch projected">✓</span> Projected (highly likely)</span>
     <span><span class="clinch-legend-swatch eliminated">✕</span> Eliminated</span>
   </div>`;
 
@@ -2349,7 +2385,7 @@ function renderBracket() {
   const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
 
   const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
-  const resolveGroupSlots = groupStageComplete || state.liveMode;
+  const resolveGroupSlots = groupStageComplete || state.liveMode || thirdPlaceWildcardProjectable(state.matches, state.standings);
   const computedStandings = resolveGroupSlots
     ? (state.liveMode ? computeStandings(state.matches, statuses) : state.standings)
     : {};
