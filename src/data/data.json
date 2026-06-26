@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T17:51:18.506Z",
+  "lastUpdated": "2026-06-26T19:41:28.125Z",
   "matches": [
     {
       "matchId": 537327,
@@ -2892,10 +2892,10 @@
       "awayIso": "fr",
       "venue": "Gillette Stadium, Foxborough",
       "kickoff": "2026-06-26T19:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-26T19:41:28.125Z",
       "secondHalfStart": null
     },
     {
@@ -2909,10 +2909,10 @@
       "awayIso": "iq",
       "venue": "BMO Field, Toronto",
       "kickoff": "2026-06-26T19:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-26T19:41:28.125Z",
       "secondHalfStart": null
     },
     {
