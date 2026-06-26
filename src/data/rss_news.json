@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-06-26T08:21:08.108Z",
+  "asOf": "2026-06-26T11:22:05.023Z",
   "items": [
     {
-      "headline": "World Cup 2026: Haaland and Mbappé face off; Ecuador’s national holiday; Scotland still in limbo – live",
+      "headline": "World Cup 2026: Haaland v Mbappé; Schweinsteiger’s ‘African football’ comments criticised; Ecuador’s national holiday – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/26/world-cup-2026-norway-france-senegal-iraq-cape-verde-saudi-arabia-uruguay-spain-egypt-iran-new-zealand-belgium-live"
@@ -10,13 +10,11 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 08:10:08 GMT",
+      "pubDate": "Fri, 26 Jun 2026 11:07:43 GMT",
       "teams": [
         "Mexico",
         "Canada",
-        "Scotland",
         "United States",
-        "Germany",
         "Ecuador",
         "Belgium",
         "Egypt",
@@ -28,6 +26,455 @@
         "Senegal",
         "Iraq",
         "Norway"
+      ]
+    },
+    {
+      "headline": "How are the TV picks decided for the World Cup's round of 32?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tv-picks-decided-world-cups-110219760.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 11:02:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Hart explains how goalkeepers are struggling with World Cup ball",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cp8l5e48g4zo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81dc/live/1f914d40-714e-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 11:02:14 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "How are the TV picks decided for the World Cup's round of 32?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 11:02:14 GMT",
+      "teams": []
+    },
+    {
+      "headline": "How England can qualify for the World Cup knockout stages tonight – and who they could play",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-081724224.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 11:01:00 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Valery features as Tunisia fall to third World Cup defeat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/valery-features-tunisia-fall-third-110034710.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 11:00:34 +0000",
+      "teams": [
+        "Netherlands",
+        "Tunisia"
+      ]
+    },
+    {
+      "headline": "World Cup schedule today: How to watch Norway v France, TV channels & live stream Friday 26 June",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-110013371.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 11:00:13 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Paraguay demand Jude Bellingham ban after England star broke FIFA World Cup rule",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-demand-jude-bellingham-ban-110000121.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 11:00:00 +0000",
+      "teams": [
+        "Paraguay",
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:59:30 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Senegal vs. Iraq odds, prediction, time: 2026 World Cup picks from expert on 23-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/senegal-iraq-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/83e24e3d-fca4-4a81-a050-81726d6f0991/senegal-world-cup-cbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:54:03 +0000",
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "What do numbers tell us about Scotland's World Cup attacking intent?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/numbers-tell-us-scotlands-world-104729936.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:53:56 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Real Madrid midfielder admits World Cup criticism was deserved after elimination:",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-admits-world-104500064.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:45:00 +0000",
+      "teams": [
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "France vs. Norway odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-norway-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/e65fafc8-f91e-4091-99c6-faa64ef144ae/kylian-mbappe-fracne.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:43:03 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "The strange Mauricio Pochettino outburst that is cause for concern for USA ahead of World Cup knockouts",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/strange-mauricio-pochettino-outburst-cause-103040502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:30:40 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "The games that show the flaws in a 48-team World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/games-show-flaws-48-team-133806041.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:28:34 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Anderson off the Geordie production line",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/anderson-off-geordie-production-line-101223846.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:12:23 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "De Bruyne to meet with Allegri before decision on Napoli future",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bruyne-meet-allegri-decision-napoli-101000805.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The 0-0 draw that highlighted flaw in World Cup format",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c99c/live/1a0a5260-7098-11f1-86cf-0fd142c2b6fb.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 09:47:02 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Eberechi Eze explains why Bukayo Saka can be England’s game-changer at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/eberechi-eze-explains-why-bukayo-093420612.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:34:20 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "📺 Friday's here (26), where to watch today's World Cup games",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fridays-26-where-watch-todays-093400376.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:34:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why are World Cup underdogs doing so well?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-world-cup-underdogs-doing-092159977.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:21:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why are World Cup underdogs doing so well?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cr5jedp7ppyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03ba/live/014edb60-70b6-11f1-88b6-991d05fc2cf9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 09:18:00 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Iran’s Long World Cup Journey Defined by War and Political Tension",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/26/world/middleeast/world-cup-iran-mexico.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Fri, 26 Jun 2026 09:01:44 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "Senegal vs. Iraq Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-senegal-iraq-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282972428-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 05:00:56 -0400",
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Kylian Mbappe, Lamine Yamal among Friday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-kylian-mbappe-lamine-yamal-among-fridays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/9d5d24f0-8013-4781-a846-e1e60b1b2825/yamal.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:00:48 +0000",
+      "teams": []
+    },
+    {
+      "headline": "From cheap transport to football geekery: how Zohran Mamdani won the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/zohran-mamdani-world-cup-new-york-mayor"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 09:00:15 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "France vs. Norway Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-france-norway-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282826932-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 05:00:00 -0400",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "US interested in hosting 2038 World Cup - Giuliani",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cqx13p4q8wvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ffa/live/4c15da00-7132-11f1-be59-4b2938e11145.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 08:42:52 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "How to Watch Senegal vs. Iraq: TV Channel, Live Stream, Live",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/senegal-vs-iraq-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-i"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-senegal-vs-iraq-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 04:41:31 -0400",
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Ecstasy for Ecuador and draw puts Australia through | World Cup Daily",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jun/26/ecstasy-for-ecuador-and-draw-puts-australia-through-world-cup-daily"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 08:38:27 GMT",
+      "teams": [
+        "Australia",
+        "Germany",
+        "Ecuador"
       ]
     },
     {
@@ -168,21 +615,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 07:27:14 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
       "headline": "World Cup injury tracker: Neymar, Declan Rice and Christian Pulisic updates",
       "links": {
         "web": {
@@ -252,21 +684,6 @@
       "teams": [
         "Bosnia-Herzegovina",
         "Turkey"
-      ]
-    },
-    {
-      "headline": "How England can qualify for the World Cup knockout stages tonight – and who they could play",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-081724224.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 06:30:12 +0000",
-      "teams": [
-        "England",
-        "Panama"
       ]
     },
     {
@@ -2964,18 +3381,6 @@
       ]
     },
     {
-      "headline": "The games that show the flaws in a 48-team World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/games-show-flaws-48-team-133806041.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 13:49:36 +0000",
-      "teams": []
-    },
-    {
       "headline": "Soucek suffers injury during World Cup loss",
       "links": {
         "web": {
@@ -2989,22 +3394,6 @@
         "Mexico",
         "Czechia"
       ]
-    },
-    {
-      "headline": "The games that show the flaws in a 48-team World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cgev2vdzjvvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c99c/live/1a0a5260-7098-11f1-86cf-0fd142c2b6fb.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 13:38:00 GMT",
-      "teams": []
     },
     {
       "headline": "Japan vs. Sweden live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
@@ -15950,395 +16339,6 @@
       "pubDate": "Sat, 20 Jun 2026 12:35:17 GMT",
       "teams": [
         "Curaçao"
-      ]
-    },
-    {
-      "headline": "Curacao's trailblazer doctor on football's big stage",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg08ewg9l2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7b/live/3f190c20-68ed-11f1-a322-77bd30adf518.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 12:35:17 GMT",
-      "teams": [
-        "Curaçao"
-      ]
-    },
-    {
-      "headline": "David Raya: ‘When you lose a Champions League final it destroys you inside’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/david-raya-when-you-lose-a-champions-league-final-it-destroys-you-inside"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 11:00:04 GMT",
-      "teams": [
-        "New Zealand",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "'Everything I do is for you' - how tragedy is driving Diomande",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg04xer94eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09b3/live/ad64bcc0-6bbc-11f1-8e5f-879143928516.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 20 Jun 2026 08:56:58 GMT",
-      "teams": [
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Spaceship stadiums and Ronaldo-mania: Guardian writers’ first impressions of the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 07:00:02 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Portugal",
-        "Congo DR",
-        "England",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "I don’t like the World Cup hydration breaks but trust me – they help the coaches | Emma Hayes",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/20/i-dont-like-the-world-cup-hydration-breaks-but-trust-me-they-help-the-coaches"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 20 Jun 2026 04:00:53 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Seattle Is Now a World Cup Draw: ‘Just a Great Soccer City’",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 20 Jun 2026 02:13:03 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Mauricio Pochettino's fresh lens offers USMNT's Alex Freeman, Ricardo Pepi long-waited World Cup moments",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/maruicio-pochettinos-usmnt-alex-freeman-ricardo-pepi-long-waited-world-cup-moments/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/20/3bdd51b0-2e41-4f9d-8f59-c9a2178d1672/untitled-design-2026-06-19t211429-765.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 20 Jun 2026 01:39:32 +0000",
-      "teams": [
-        "Australia"
-      ]
-    },
-    {
-      "headline": "Paraguay vs. Turkiye odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-9 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/paraguay-turkiye-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/95b6bcf3-9ece-43cc-88da-38715b6ce728/kerem-akturkoglu-turkiye.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 20 Jun 2026 00:22:32 +0000",
-      "teams": [
-        "Paraguay",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Mauricio Pochettino has found his perfect World Cup project with relentless USMNT, but bigger tests await",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/mauricio-pochettino-usmnt-squad-world-cup-australia/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/19/28c55fc3-3bb3-4d1d-a0f3-8839e7e4b740/untitled-design-2026-06-19t191024-482.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 19 Jun 2026 23:42:32 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Brazil vs. Haiti odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/brazil-haiti-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/19/692cdd7e-2a40-4222-ac5a-73823d0d8e1c/junior-vinicius-brazil-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 19 Jun 2026 23:19:37 +0000",
-      "teams": [
-        "Brazil",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Excited for World Cup? Stream 14 Great Soccer Movies.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/19/movies/world-cup-soccer-movies-streaming.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Fri, 19 Jun 2026 20:51:25 +0000",
-      "teams": [
-        "Brazil",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Life in Hollywood bubble plays second fiddle to US need for World Cup success | Max Rushden",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/19/life-hollywood-bubble-second-fiddle-us-need-for-world-cup-success"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 19 Jun 2026 17:05:44 GMT",
-      "teams": [
-        "Brazil",
-        "Australia",
-        "Germany",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup Puts Spotlight on L.A.’s Mexican-Korean Kinship",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/19/us/world-cup-koreatown-mexico-korea.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Fri, 19 Jun 2026 15:02:54 +0000",
-      "teams": [
-        "Mexico",
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "'Era of the spy': Mauricio Pochettino spotted looking for spies – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/19/era-of-spy-mauricio-pochettino-spotted-looking-for-spies-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 19 Jun 2026 11:21:41 GMT",
-      "teams": [
-        "Australia"
-      ]
-    },
-    {
-      "headline": "ITV wins World Cup ratings battle with BBC in tournament’s first week",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/19/itv-wins-world-cup-ratings-battle-bbc-first-week-england-croatia"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 19 Jun 2026 10:53:56 GMT",
-      "teams": [
-        "England",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Players are human beings and social media comments reach us. But the focus has to be on the pitch | Rodrygo",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/19/players-are-human-beings-and-social-media-comments-reach-us-but-the-focus-has-to-be-on-the-pitch"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 19 Jun 2026 07:00:26 GMT",
-      "teams": [
-        "Brazil",
-        "England"
-      ]
-    },
-    {
-      "headline": "Sutton's World Cup score predictions - second group games",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cwykwyp001xo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 18 Jun 2026 20:00:21 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Lionel Messi’s family ask for ‘humanity’ as his father receives medical treatment",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/18/lionel-messi-father-receives-medical-treatment-argentina-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 18 Jun 2026 19:04:00 GMT",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Many World Cup Fans Would Rather Skip the Hydration Breaks",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/18/us/world-cup-hydration-breaks.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Thu, 18 Jun 2026 16:56:24 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Team Medic Recounts Iran’s ‘Stressful’ World Cup Debut in L.A.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/17/world/middleeast/iran-world-cup-united-states.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Thu, 18 Jun 2026 16:03:44 +0000",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "David Squires on … the Socceroos’ World Cup so far and a tasty clash with the USA to come",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/picture/2026/jun/19/socceroos-world-cup-so-far-david-squires-cartoon"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 18 Jun 2026 15:00:08 GMT",
-      "teams": [
-        "United States",
-        "Australia"
-      ]
-    },
-    {
-      "headline": "The World Cup Gives Kansas City a Rare Turn in the Global Spotlight",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/17/us/world-cup-kansas-city-messi-argentina.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Thu, 18 Jun 2026 08:52:52 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "'It's just a statistic': Messi on tying all-time World Cup scoring record – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/17/its-just-a-statistic-messi-on-tying-all-time-world-cup-scoring-record-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 17 Jun 2026 11:27:03 GMT",
-      "teams": [
-        "Germany",
-        "Argentina",
-        "Algeria"
-      ]
-    },
-    {
-      "headline": "Which player has scored the highest percentage of their team’s goals at a World Cup? | The Knowledge",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/17/which-player-has-scored-the-highest-percentage-of-their-teams-goals-at-a-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 17 Jun 2026 07:00:26 GMT",
-      "teams": [
-        "United States",
-        "Australia",
-        "England"
-      ]
-    },
-    {
-      "headline": "What happened on a historic night for Argentina? ‘Messi things’ | Pablo Iglesias Maurer",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/17/lionel-messi-hat-trick-algeria-argentina-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 17 Jun 2026 05:59:04 GMT",
-      "teams": [
-        "Argentina",
-        "Algeria"
       ]
     }
   ]
