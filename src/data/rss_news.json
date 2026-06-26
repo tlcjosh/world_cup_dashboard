@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-26T13:28:12.760Z",
+  "asOf": "2026-06-26T13:43:39.144Z",
   "items": [
     {
       "headline": "World Cup 2026: Haaland v Mbappé; Schweinsteiger’s ‘African football’ comments criticised; Ecuador’s national holiday – live",
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 13:25:42 GMT",
+      "pubDate": "Fri, 26 Jun 2026 13:34:47 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -45,6 +45,21 @@
       "teams": [
         "Belgium",
         "New Zealand"
+      ]
+    },
+    {
+      "headline": "How far can Haaland carry Norway at the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/far-haaland-carry-norway-world-132309703.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:23:09 +0000",
+      "teams": [
+        "France",
+        "Norway"
       ]
     },
     {
@@ -16289,18 +16304,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Sun, 21 Jun 2026 13:27:51 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Football Daily | Guns for hire and gegenpress eggheads bring World Cup subplots aplenty",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/football-daily-geopolitics-world-cup-maverick-managerial-matchups"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 13:26:56 GMT",
       "teams": []
     }
   ]
