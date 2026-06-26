@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T22:51:25.324Z",
+  "lastUpdated": "2026-06-26T00:06:06.377Z",
   "matches": [
     {
       "matchId": 537327,
@@ -2700,9 +2700,9 @@
       "awayIso": "se",
       "venue": "AT&T Stadium, Arlington",
       "kickoff": "2026-06-25T23:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "PAUSED",
       "firstHalfStart": null,
       "secondHalfStart": null
     },
@@ -2717,10 +2717,10 @@
       "awayIso": "nl",
       "venue": "Arrowhead Stadium, Kansas City",
       "kickoff": "2026-06-25T23:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-26T00:06:06.377Z",
       "secondHalfStart": null
     },
     {
