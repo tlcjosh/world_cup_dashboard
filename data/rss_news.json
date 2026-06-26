@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-26T13:16:57.145Z",
+  "asOf": "2026-06-26T13:28:12.760Z",
   "items": [
     {
       "headline": "World Cup 2026: Haaland v Mbappé; Schweinsteiger’s ‘African football’ comments criticised; Ecuador’s national holiday – live",
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 13:10:18 GMT",
+      "pubDate": "Fri, 26 Jun 2026 13:25:42 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -26,6 +26,135 @@
         "Senegal",
         "Iraq",
         "Norway"
+      ]
+    },
+    {
+      "headline": "How to Watch New Zealand vs. Belgium: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/new-zealand-vs-belgium-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-g"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-new-zealand-vs-belgium-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:25:11 -0400",
+      "teams": [
+        "Belgium",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "FIFA World Cup: Erling Haaland and Kylian Mbappe clash as knockout paths take shape for France and Norway",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-erling-haaland-kylian-mbappe-knockout-france-norway/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/f4de1e7c-725e-4c0e-912b-7ec68101adc4/untitled-design-2026-06-26t091451-107.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:17:27 +0000",
+      "teams": [
+        "Belgium",
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Iran’s Long World Cup Journey Defined by War and Political Tension",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/26/world/middleeast/world-cup-iran-mexico.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Fri, 26 Jun 2026 13:14:07 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "How to Watch Egypt vs. Iran: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/egypt-vs-iran-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-g"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-egypt-vs-iran-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:12:42 -0400",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Group I Scenarios, Standings for France, Norway, Senegal, Iraq",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-i-scenarios-standings-france-norway-senegal-iraq"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-group-i-scenarios.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:07:48 -0400",
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Group H Scenarios, Standings: What Spain, Uruguay, Cape Verde, Saudi Arabia Need To Advance",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-h-scenarios-standings-what-spain-uruguay-cape-verde-saudi-arabia-need-advance"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-h-scenarios.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 09:07:09 -0400",
+      "teams": [
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "New Darwin Nunez opportunity emerges after Liverpool turn down striker deal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/darwin-nunez-opportunity-emerges-liverpool-130500024.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:05:00 +0000",
+      "teams": [
+        "Uruguay"
       ]
     },
     {
@@ -682,21 +811,6 @@
       "source": "BBC Sport",
       "pubDate": "Fri, 26 Jun 2026 09:18:00 GMT",
       "teams": []
-    },
-    {
-      "headline": "Iran’s Long World Cup Journey Defined by War and Political Tension",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/26/world/middleeast/world-cup-iran-mexico.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Fri, 26 Jun 2026 09:01:44 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
     },
     {
       "headline": "Senegal vs. Iraq Prediction, Odds, Picks For World Cup Match",
@@ -16188,113 +16302,6 @@
       "source": "The Guardian",
       "pubDate": "Sun, 21 Jun 2026 13:26:56 GMT",
       "teams": []
-    },
-    {
-      "headline": "FIFA World Cup: Why Spain desperately need Lamine Yamal to get healthy; can Kevin De Bruyne rescue Belgium?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/fifa-world-cup-spain-lamine-yamal-kevin-de-bruyne-belgium/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/21/d151620f-4985-4bbc-86c1-8ec2aae435a0/untitled-design-2026-06-21t090114-768.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 21 Jun 2026 13:26:40 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "What have we learned from Scotland's World Cup so far as Brazil test looms?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c79yq0yx10ro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f3/live/7cd59ef0-6d72-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:14:21 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "All three England keepers played there - Carlisle's role in trio's rise",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/ckg4qw57d4do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac9e/live/4957c8e0-6bf7-11f1-8bf6-931d18012412.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 10:43:54 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "The French aristocrat and the all-American idiot: Henry v Lalas is the World Cup’s most compelling battle",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/thierry-henry-alexi-lalas-fox-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 09:00:27 GMT",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Japan run riot as Tunisia eliminated in Renard's first game",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cx260v333plo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/547c/live/34d20aa0-6d39-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 06:25:15 GMT",
-      "teams": [
-        "Japan",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT",
-      "teams": [
-        "Japan",
-        "Sweden",
-        "Tunisia"
-      ]
     }
   ]
 }
