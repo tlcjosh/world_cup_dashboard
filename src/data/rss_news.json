@@ -1,6 +1,221 @@
 {
-  "asOf": "2026-06-26T22:37:39.242Z",
+  "asOf": "2026-06-26T23:47:19.421Z",
   "items": [
+    {
+      "headline": "Uruguay v Spain: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/uruguay-v-spain-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 23:42:14 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Cape Verde v Saudi Arabia: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/cape-verde-v-saudi-arabia-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 23:39:44 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Is Lionel Messi Playing Today? Argentina Star Won't Start In World Cup Showdown vs. Jordan",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-playing-today-argentina-star-wont-start-world-cup-showdown-vs-jordan"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/2a949c19-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:39:22 -0400",
+      "teams": [
+        "Argentina",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 17",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-17"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-bets-16x9-bb-wc-5.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:30:08 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Cape Verde eye World Cup progress against Saudi Arabia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cape-verde-eye-world-cup-104237895.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 23:28:57 +0000",
+      "teams": [
+        "Saudi Arabia",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Norway's fans are inspiring their team at the World Cup, as the dark horse rows on",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norways-fans-inspiring-team-world-231114228.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 23:11:14 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "👀 He'll start on the bench: Messi won't start v Jordan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hell-start-bench-messi-wont-230700846.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 23:07:00 +0000",
+      "teams": [
+        "Argentina",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Reece James could miss England World Cup knockout game with hamstring injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reece-james-could-miss-england-212749250.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 22:57:30 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Why so many players are wearing pink boots at World Cup 2026",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-many-players-wearing-pink-225302168.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 22:53:02 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-norway-ousmane-dembele-starring-role-fastest-world-cup-hat-trick-in-72-years/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3b701c3-f9a3-43eb-b861-3bcb95edb276/untitled-design-2026-06-26t184201-661.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 22:51:20 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "England enjoy New York minute but fans check out to watch darts instead",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/england-fans-choose-darts-over-joining-world-cup-big-fan-energy"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 22:48:06 GMT",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "France Crush Norway, Dembélé Shines & Is Mbappé Frustrated Despite Winning Group I?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/france-crush-norway-dembele-shines--is-mbappe-frustrated-despite-winning-group-i-224154872.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 22:41:54 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:38:09 -0400",
+      "teams": []
+    },
     {
       "headline": "📋 Spain and Uruguay named for clash worth a Copa knockout spot",
       "links": {
@@ -13,24 +228,6 @@
       "pubDate": "Fri, 26 Jun 2026 22:33:00 +0000",
       "teams": [
         "Mexico",
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Uruguay v Spain: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/uruguay-v-spain-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 22:27:10 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
         "Uruguay",
         "Spain"
       ]
@@ -81,7 +278,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b08/live/d3a522f0-71aa-11f1-8e1d-bbbb1017d210.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88d9/live/64d6d660-71b0-11f1-8546-8f19e4fe30f4.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -193,26 +390,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 22:00:44 +0000",
       "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Cape Verde v Saudi Arabia: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/cape-verde-v-saudi-arabia-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 22:00:23 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Saudi Arabia",
-        "Cape Verde Islands",
         "France",
         "Norway"
       ]
@@ -422,21 +599,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 21:33:59 +0000",
       "teams": []
-    },
-    {
-      "headline": "Reece James could miss England World Cup knockout game with hamstring injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/reece-james-could-miss-england-212749250.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:27:49 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
     },
     {
       "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Leads, Dembélé Rises",
@@ -3231,22 +3393,6 @@
         "Bosnia-Herzegovina",
         "United States"
       ]
-    },
-    {
-      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 01:13:09 -0400",
-      "teams": []
     },
     {
       "headline": "Turkey end World Cup on high with last-gasp win over USA",
@@ -16038,139 +16184,6 @@
         "Portugal",
         "Congo DR"
       ]
-    },
-    {
-      "headline": "Club World Cup: Messi sets historic record... thanks to missed penalty 😭",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/club-world-cup-messi-sets-172800271.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:28:00 +0000",
-      "teams": [
-        "Argentina",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Messi misses pen and loses chance to stand alone as World Cup top scorer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-misses-penalty-misses-chance-171900307.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:19:00 +0000",
-      "teams": [
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Mohamed Salah wildly celebrates on Vancouver streets after Egypt’s first ever World Cup win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mohamed-salah-wildly-celebrates-vancouver-171858137.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:18:58 +0000",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "📸 Too much record pressure? Messi loses his nerve from the spot",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/too-much-record-pressure-messi-171500990.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:15:00 +0000",
-      "teams": [
-        "Austria"
-      ]
-    },
-    {
-      "headline": "The eye-watering cost of food and drinks at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/eye-watering-cost-food-drinks-165142333.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:10:25 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Why do some World Cup shirts keep tearing during matches?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-world-cup-shirts-keep-165844474.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:05:02 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-algeria-jordan-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/68c3e7cb-c0a214e4-gettyimages-2281982676-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 13:00:44 -0400",
-      "teams": [
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Why do some World Cup shirts keep tearing during matches?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/czrx61d0pv3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/475b/live/52cb23c0-6e5b-11f1-b61d-912ade7054bd.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 16:58:39 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Why do some World Cup shirts keep tearing during matches?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/czrx61d0pv3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/475b/live/52cb23c0-6e5b-11f1-b61d-912ade7054bd.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 16:58:39 GMT",
-      "teams": []
     }
   ]
 }
