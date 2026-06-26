@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v23';
-const APP_UPDATED = '2026-06-26 13:53 UTC';
+const APP_VERSION = 'v24';
+const APP_UPDATED = '2026-06-26 14:06 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1492,14 +1492,18 @@ function wildcardProbabilitiesSignature(matches, standings) {
   return `${state.liveMode ? 1 : 0}::${matchSig}::${standingsSig}`;
 }
 function computeWildcardProbabilitiesCached(matches, standings) {
-  const sig = wildcardProbabilitiesSignature(matches, standings);
+  const combinations = state.combinations || {};
+  // combinations.json is fetched once at startup and never changes afterward,
+  // so it's safe to key the cache on just whether it's loaded yet rather than
+  // its full contents.
+  const sig = wildcardProbabilitiesSignature(matches, standings) + '::' + (Object.keys(combinations).length > 0 ? 1 : 0);
   if (_wildcardProbCache.sig === sig) return _wildcardProbCache.result;
-  const result = computeWildcardProbabilities(matches, standings);
+  const result = computeWildcardProbabilities(matches, standings, combinations);
   _wildcardProbCache = { sig, result };
   return result;
 }
 
-function computeWildcardProbabilities(matches, standings) {
+function computeWildcardProbabilities(matches, standings, combinations) {
   const groupMatchesByGroup = {};
   for (const m of matches) {
     if (m.stage !== 'Group Stage') continue;
@@ -1531,6 +1535,14 @@ function computeWildcardProbabilities(matches, standings) {
 
   const teamCounts = {};
   const groupSetCounts = {};
+  // Per physical wildcard bracket slot (the 8 keys in SLOT_TO_OPPONENT's
+  // values, e.g. "1D"), tallies which actual team ends up facing it. A given
+  // slot's matchup can be effectively locked in (e.g. 1D always drawing
+  // group B's 3rd-place team) long before the full 8-letter qualifying SET
+  // is itself certain, because combinations.json's mapping for that opponent
+  // key often barely depends on which OTHER 7 groups round out the top 8 --
+  // see computeWildcardSlotResolutions below for how this gets used.
+  const slotTeamCounts = {};
 
   for (let s = 0; s < totalOutcomes; s++) {
     const choiceSource = exhaustive ? [] : null;
@@ -1565,6 +1577,20 @@ function computeWildcardProbabilities(matches, standings) {
     for (const t of top8) teamCounts[t.team] = (teamCounts[t.team] || 0) + 1;
     const setKey = top8.map(t => t.groupLetter).sort().join('');
     groupSetCounts[setKey] = (groupSetCounts[setKey] || 0) + 1;
+
+    const combEntry = combinations && combinations[setKey];
+    if (combEntry) {
+      const byGroupLetter = {};
+      for (const t of top8) byGroupLetter[t.groupLetter] = t;
+      for (const opponentKey of Object.values(SLOT_TO_OPPONENT)) {
+        const teamCode = combEntry[opponentKey]; // e.g. "3E"
+        const t = teamCode && byGroupLetter[teamCode.replace('3', '')];
+        if (!t) continue;
+        const counts = (slotTeamCounts[opponentKey] ||= {});
+        const key = t.team;
+        counts[key] = (counts[key] || 0) + 1;
+      }
+    }
   }
 
   const teamProbability = {};
@@ -1576,7 +1602,18 @@ function computeWildcardProbabilities(matches, standings) {
   }
   const bestSetProbability = bestSet ? bestSetCount / totalOutcomes : 0;
 
-  return { teamProbability, bestSet, bestSetProbability };
+  const slotResolutions = {};
+  for (const [opponentKey, counts] of Object.entries(slotTeamCounts)) {
+    let bestTeam = null, bestCount = 0;
+    for (const [team, count] of Object.entries(counts)) {
+      if (count > bestCount) { bestCount = count; bestTeam = team; }
+    }
+    if (bestTeam) {
+      slotResolutions[opponentKey] = { team: bestTeam, iso: TEAM_MASTER_DATA[bestTeam]?.iso || null, pct: bestCount / totalOutcomes };
+    }
+  }
+
+  return { teamProbability, bestSet, bestSetProbability, slotResolutions };
 }
 
 // Determines, per team, whether a group-stage outcome is already mathematically
@@ -1685,7 +1722,23 @@ function getThirdPlaceCombinationString(topEight) {
   return letters.join('');
 }
 
-function resolveTeam(placeholder, computedStandings, computedThirdPlace, combinationString) {
+// Resolves only a [3XXXXX]-style wildcard slot, via the per-slot probability
+// from computeWildcardProbabilities -- used when the broader resolveGroupSlots
+// gate is still false (the overall top-8 SET isn't certain enough yet) but
+// THIS slot's specific matchup already is, because combinations.json's mapping
+// for its opponent key barely depends on which other groups round out the
+// top 8. Returns null (leaving the raw placeholder in place) for every other
+// placeholder shape, since those genuinely do need the broader gate.
+function resolveWildcardSlotOnly(placeholder, slotResolutions) {
+  const m = placeholder.match(/^\[3([A-L]+)\]$/);
+  if (!m) return null;
+  const opponentKey = SLOT_TO_OPPONENT['3' + m[1]];
+  const r = opponentKey && slotResolutions && slotResolutions[opponentKey];
+  if (r && r.pct >= WILDCARD_PROJECTED_THRESHOLD) return { name: r.team, iso: r.iso };
+  return null;
+}
+
+function resolveTeam(placeholder, computedStandings, computedThirdPlace, combinationString, slotResolutions) {
   if (!placeholder) return { name: 'TBD', iso: null };
   const m = placeholder.match(/^\[(.+)\]$/);
   if (!m) return { name: placeholder, iso: null };
@@ -1723,6 +1776,15 @@ function resolveTeam(placeholder, computedStandings, computedThirdPlace, combina
           }
         }
       }
+    }
+    // Fall back to the per-slot resolution: this specific bracket slot's
+    // matchup can be locked in via combinations.json long before the full
+    // 8-letter qualifying SET is itself certain (see slotResolutions in
+    // computeWildcardProbabilities).
+    const fallbackOpponentKey = SLOT_TO_OPPONENT[code];
+    const fallback = fallbackOpponentKey && slotResolutions && slotResolutions[fallbackOpponentKey];
+    if (fallback && fallback.pct >= WILDCARD_PROJECTED_THRESHOLD) {
+      return { name: fallback.team, iso: fallback.iso };
     }
     return { name: `3rd (${thirdMatch[1]})`, iso: null };
   }
@@ -2265,12 +2327,18 @@ function renderSchedule(opts = {}) {
     : {};
   const thirdPlace = resolveGroupSlots ? computeThirdPlaceRankings(computedStandings) : [];
   const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(thirdPlace.slice(0, 8)) : '';
+  const { slotResolutions } = computeWildcardProbabilitiesCached(state.matches, state.standings);
 
   function resolvedMatch(m) {
     if (!m.homeTeam?.startsWith('[') && !m.awayTeam?.startsWith('[')) return m;
-    if (!resolveGroupSlots) return m;
-    const home = m.homeTeam?.startsWith('[') ? resolveTeam(m.homeTeam, computedStandings, thirdPlace, combinationString) : null;
-    const away = m.awayTeam?.startsWith('[') ? resolveTeam(m.awayTeam, computedStandings, thirdPlace, combinationString) : null;
+    function resolveSide(placeholder) {
+      if (!placeholder?.startsWith('[')) return null;
+      if (resolveGroupSlots) return resolveTeam(placeholder, computedStandings, thirdPlace, combinationString, slotResolutions);
+      return resolveWildcardSlotOnly(placeholder, slotResolutions);
+    }
+    const home = resolveSide(m.homeTeam);
+    const away = resolveSide(m.awayTeam);
+    if (!home && !away) return m;
     return {
       ...m,
       homeTeam: home ? home.name : m.homeTeam,
@@ -2507,6 +2575,7 @@ function renderBracket() {
   const thirdPlace = resolveGroupSlots ? computeThirdPlaceRankings(computedStandings) : [];
   const topEight = thirdPlace.slice(0, 8);
   const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(topEight) : '';
+  const { slotResolutions } = computeWildcardProbabilitiesCached(state.matches, state.standings);
 
   // bracketResolved: true when applyBracketResolutions() (clinch-math driven,
   // ahead of groupStageComplete) put this name here, as opposed to it being a
@@ -2522,8 +2591,12 @@ function renderBracket() {
         confirmed: !!bracketResolved && !groupStageComplete,
       };
     }
-    if (!resolveGroupSlots) return { name: placeholder.replace(/^\[|\]$/g, ''), iso: null, confirmed: false };
-    return { ...resolveTeam(placeholder, computedStandings, thirdPlace, combinationString), confirmed: false };
+    if (!resolveGroupSlots) {
+      const slotOnly = resolveWildcardSlotOnly(placeholder, slotResolutions);
+      if (slotOnly) return { ...slotOnly, confirmed: false };
+      return { name: placeholder.replace(/^\[|\]$/g, ''), iso: null, confirmed: false };
+    }
+    return { ...resolveTeam(placeholder, computedStandings, thirdPlace, combinationString, slotResolutions), confirmed: false };
   }
 
   function bMatchHtml(match) {

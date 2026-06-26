@@ -1,18 +1,42 @@
 {
-  "asOf": "2026-06-26T13:55:21.294Z",
+  "asOf": "2026-06-26T14:08:15.151Z",
   "items": [
     {
-      "headline": "Real Madrid midfielder receives assurances from Mourinho over future",
+      "headline": "Spain vs. Uruguay Prediction, Odds, Picks For World Cup Match",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-receives-assurances-133500766.html"
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-spain-uruguay-odds-prediction-picks"
         }
       },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 13:35:00 +0000",
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282633271-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:00:53 -0400",
       "teams": [
-        "Uruguay"
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Saudi Arabia vs. Cape Verde Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-saudi-arabia-cape-verde-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281149526-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 10:00:07 -0400",
+      "teams": [
+        "Saudi Arabia",
+        "Cape Verde Islands"
       ]
     },
     {
@@ -24,7 +48,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 13:34:47 GMT",
+      "pubDate": "Fri, 26 Jun 2026 13:50:50 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -40,6 +64,34 @@
         "Senegal",
         "Iraq",
         "Norway"
+      ]
+    },
+    {
+      "headline": "The strange Mauricio Pochettino outburst that is cause for concern for USA ahead of World Cup knockouts",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/strange-mauricio-pochettino-outburst-cause-103040502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:46:34 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Real Madrid midfielder receives assurances from Mourinho over future",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-receives-assurances-133500766.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 13:35:00 +0000",
+      "teams": [
+        "Uruguay"
       ]
     },
     {
@@ -716,20 +768,6 @@
       "teams": [
         "France",
         "Norway"
-      ]
-    },
-    {
-      "headline": "The strange Mauricio Pochettino outburst that is cause for concern for USA ahead of World Cup knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/strange-mauricio-pochettino-outburst-cause-103040502.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:30:40 +0000",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -16271,38 +16309,6 @@
         "Saudi Arabia",
         "Spain"
       ]
-    },
-    {
-      "headline": "The World Cup records that look set to be broken",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cpv3kkv4z4mo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c52/live/b7b66eb0-6b78-11f1-a51a-6916268f6e94.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:55:05 GMT",
-      "teams": []
-    },
-    {
-      "headline": "The beauty of sharing your child's first World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cd957318ewdo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/734e/live/2dc74eb0-6d6f-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 21 Jun 2026 13:27:51 GMT",
-      "teams": []
     }
   ]
 }
