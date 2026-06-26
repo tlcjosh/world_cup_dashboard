@@ -543,6 +543,7 @@ img.flag {
 }
 .clinch-dot.position { background: var(--blue); }
 .clinch-dot.knockout { background: var(--green); }
+.clinch-dot.projected { background: var(--green); border-style: dashed; }
 .clinch-dot.eliminated { background: var(--ink-3); }
 
 /* Standalone (non-badge) version of the dots above, for the qualify-legend key. */
@@ -553,6 +554,7 @@ img.flag {
 }
 .clinch-legend-swatch.position { background: var(--blue); }
 .clinch-legend-swatch.knockout { background: var(--green); }
+.clinch-legend-swatch.projected { background: var(--green); border: 1.5px dashed var(--surface); }
 .clinch-legend-swatch.eliminated { background: var(--ink-3); }
 
 .badge-ht       { background: rgba(37,99,235,.10); color: var(--blue); }
