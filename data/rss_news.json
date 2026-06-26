@@ -1,6 +1,407 @@
 {
-  "asOf": "2026-06-26T17:51:45.573Z",
+  "asOf": "2026-06-26T19:41:55.386Z",
   "items": [
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:36:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Senegal v Iraq: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/senegal-v-iraq-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 19:26:40 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Norway v France: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/norway-v-france-world-cup-2026-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 19:25:37 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "📸 Red card and goal conceded! World Cup side in instant chaos",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/red-card-goal-conceded-world-192200157.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:22:00 +0000",
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    {
+      "headline": "Legendary Vieira: ‘Koné is the best midfielder in France today’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/legendary-vieira-kon-best-midfielder-191500798.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:15:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Sources: Mauricio Pochettino Offered USA Extension Through 2030 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mauricio-pochettino-usmnt-world-cup-contract-extension-2030"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/pochettino2-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 14:56:34 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Yan Diomande breaks silence on future amid Liverpool interest",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/yan-diomande-breaks-silence-future-185500079.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Norway Star Erling Haaland To Start On Bench For World Cup Showdown vs. France",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-start-bench-norway-vs-france"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/haaland1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 14:47:51 -0400",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Why USA Should Be 'Wary' Of Extending Mauricio Pochettino Through 2030 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mauricio-pochettino-usa-contract-extension-2030-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/cff353b4-poch1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 14:45:36 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Group Scenarios: What Remaining Teams Need To Advance To Round of 32",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/scenarios-horz.jpeg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 14:39:16 -0400",
+      "teams": []
+    },
+    {
+      "headline": "'The Result Will Not Change Anything': Zlatan Unfazed by USA's Loss to Türkiye",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/the-result-will-not-change-anything-zlatan-unfazed-usas-loss-turkiye"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/wc26-usabounceback.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 14:31:50 -0400",
+      "teams": [
+        "United States",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "Algeria eye revenge in first match against Austria since ‘shame of Gijón’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/algeria-austria-1982-world-cup-shame-of-gijon-west-germany"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 18:26:03 GMT",
+      "teams": [
+        "Brazil",
+        "Germany",
+        "Uruguay",
+        "Spain",
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "World Cup fans frustrated by 'confusing and expensive' tipping culture in US",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/clyxgjykx7lo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e31d/live/8b836f90-7182-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 18:20:04 GMT",
+      "teams": []
+    },
+    {
+      "headline": "USMNT head coach Mauricio Pochettino offered contract extension through 2030 World Cup, per report",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-mauricio-pochettino-offered-contract-extension-2030-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/6b73f773-e10c-4dd6-9d03-72ef8f861851/poch.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:18:58 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Spain vs. Uruguay odds, prediction, time: 2026 World Cup picks, best bets from expert on 23-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-uruguay-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/adb0538e-cb7f-46d8-9605-819f7f06c01a/lamine-yamal-spain-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:18:08 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Belgium vs. New Zealand odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/belgium-new-zealand-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/38d46ab4-1b84-49d9-baec-d4861d6cd5c4/usatsi-29242318-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:09:48 +0000",
+      "teams": [
+        "Belgium",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Is Norway vs France on TV? Channel, time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-vs-france-tv-channel-054819314.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:06:43 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "‘Queer people exist in Iran and Egypt’: Inside the politicisation of the first-ever World Cup pride match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/queer-people-exist-iran-egypt-194909030.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:06:43 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "‘We’re on the same path now’: Toney on good terms with Tuchel and awaiting his chance",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/world-cup-england-toney-on-good-terms-with-tuchel-and-awaiting-his-chance"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 18:00:18 GMT",
+      "teams": [
+        "England",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 official line-ups: Norway vs. France and Senegal vs. Iraq",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-official-line-180000021.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 18:00:00 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Erling Haaland starts on the bench as Norway makes 10 changes for France clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-erling-haaland-starts-on-the-bench-as-norway-makes-10-changes-for-france-clash-175723626.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:57:23 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "France vs. Norway odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-norway-odds-prediction-line-start-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/7b2ac1f7-720b-4c4f-b8cd-d48e95921ce6/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:56:03 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🔥 Cracker in prospect! Norway and France with line-ups confirmed",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cracker-store-norway-france-line-174900710.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:49:00 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🚨 Reports: Top club make record signing, World Cup star joins for €70m",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reports-top-club-record-signing-174500434.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:45:00 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026 knockout fixtures, results and group tables",
       "links": {
@@ -32,26 +433,6 @@
       ]
     },
     {
-      "headline": "Norway v France: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/norway-v-france-world-cup-2026-live-updates"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 17:30:06 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
-      ]
-    },
-    {
       "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Kylian Mbappe, Lamine Yamal among Friday's best bets",
       "links": {
         "web": {
@@ -78,6 +459,20 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 17:15:56 +0000",
       "teams": []
+    },
+    {
+      "headline": "World Cup knockout stage begins, F1 in Austria and Women’s T20 World Cup drama – follow with us",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/sport/2026/jun/26/weekend-guide-world-cup-f1-womens-t20-cricket-follow-with-us"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 17:06:05 GMT",
+      "teams": [
+        "Austria"
+      ]
     },
     {
       "headline": "Report Goncalo Ramos to Milan done for record €55m fee including add-ons",
@@ -148,31 +543,6 @@
       "teams": [
         "Belgium",
         "New Zealand"
-      ]
-    },
-    {
-      "headline": "Senegal v Iraq: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/senegal-v-iraq-world-cup-2026-live-updates"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 17:00:17 GMT",
-      "teams": [
-        "Mexico",
-        "South Africa",
-        "Canada",
-        "Morocco",
-        "Haiti",
-        "United States",
-        "Germany",
-        "Curaçao",
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
       ]
     },
     {
@@ -503,37 +873,6 @@
       "teams": [
         "Mexico"
       ]
-    },
-    {
-      "headline": "Is Norway vs France on TV? Channel, time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-vs-france-tv-channel-054819314.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 15:04:05 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 14:58:26 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup quiz: Who are England's top appearance-makers?",
@@ -1848,21 +2187,6 @@
         "Paraguay",
         "Australia",
         "Turkey"
-      ]
-    },
-    {
-      "headline": "‘Queer people exist in Iran and Egypt’: Inside the politicisation of the first-ever World Cup pride match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/queer-people-exist-iran-egypt-194909030.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 06:29:03 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
       ]
     },
     {
@@ -4038,7 +4362,7 @@
       "teams": []
     },
     {
-      "headline": "World Cup makes more than enough money - New York mayor Mamdani",
+      "headline": "World Cup makes more than enough money - NYC mayor",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cd7wrgy037vo?at_medium=RSS&at_campaign=rss"
@@ -5370,22 +5694,6 @@
         "Scotland",
         "Germany"
       ]
-    },
-    {
-      "headline": "2026 World Cup Group Scenarios: What Each Team Needs to Advance To Round of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/scenarios-horz.jpeg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:58:50 -0400",
-      "teams": []
     },
     {
       "headline": "👏 13 teams already through to the 2026 World Cup round of 32",
@@ -15903,342 +16211,6 @@
       "teams": [
         "Scotland",
         "United States"
-      ]
-    },
-    {
-      "headline": "Who are ya? Behind the scenes of the official World Cup portrait photographs",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/behind-the-scenes-official-world-cup-portrait-photographs"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 09:39:23 GMT",
-      "teams": [
-        "Belgium",
-        "Uruguay",
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "France vs. Iraq: How to Watch, TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-france-vs-iraq-tv-channel-live-stream-2026-fifa-world-cup-group-i"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9fra-iraq.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 05:11:40 -0400",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "A defender's view on how to stop the World Cup's best strikers",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cly8gpp39d0o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f418/live/714e05a0-6e25-11f1-9fdc-51e252bb92b4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 08:10:21 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Name the seven Scotland survivors from Clarke's first squad",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c05yze49v71o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/770e/live/4d5fb100-64ae-11f1-b1db-af71d47507d6.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 07:46:18 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "How sweltering Scotland can handle World Cup heat",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cx26geg0elgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ea9/live/743ddc80-6999-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 07:43:16 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Podcast: Frustration vs potential - can Scotland step up against Brazil?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ntcfks?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntczf5.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 07:17:00 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Argentina vs. Austria Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-argentina-austria-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281373955-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 03:00:04 -0400",
-      "teams": [
-        "Argentina",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Cape Verde do it again and Lamine Yamal spurs on Spain | World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/22/cape-verde-do-it-again-and-lamine-yamal-spurs-on-spain-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 06:31:08 GMT",
-      "teams": [
-        "Spain",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 15",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c0k21483m76o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c65c/live/1f5bc250-64ed-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 06:02:45 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 04:23:40 GMT",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Salah's World Cup pain ends as he fires Egypt to historic win",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c17yn5y977yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43c7/live/78d9b8c0-6dec-11f1-bb15-8fda38f0ff7f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 04:23:40 GMT",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "4 Takeaways From Egypt's Landmark Win vs. New Zealand At The World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-egypts-landmark-win-vs-new-zealand"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/salah1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 00:20:56 -0400",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "Maybe this World Cup will bring the best out of the US, not the worst | Barney Ronay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/world-cup-2026-us-united-states-usa-co-host-nation"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 04:00:50 GMT",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Salah scores to help Egypt to first World Cup win",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/videos/c74ydzpe274o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d6/live/11c2a910-6dee-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 03:56:28 GMT",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "Salah scores to help Egypt to first World Cup win",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/c74ydzpe274o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d6/live/11c2a910-6dee-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 03:56:28 GMT",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: Spain Makes Statement; Belgium's Struggles Continue",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-spain-makes-statement"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/e399ffa5-yamal1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 21 Jun 2026 23:31:12 -0400",
-      "teams": [
-        "Belgium",
-        "Saudi Arabia",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Egypt claim their first World Cup win after roaring from behind to beat New Zealand",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/22/new-zealand-egypt-world-cup-group-g-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 03:11:14 GMT",
-      "teams": [
-        "Egypt",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "Where In The World Cup Is Jameis Winston?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 21 Jun 2026 22:54:57 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Iran hold struggling Belgium to draw to keep World Cup hopes alive, but travel woes continue",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/iran-belgium-score-world-cup-travel-woes/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/12f7415a-20bd-4422-8278-d7b7d2ebf8de/iran.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 22 Jun 2026 02:11:42 +0000",
-      "teams": [
-        "Belgium",
-        "Iran"
       ]
     }
   ]
