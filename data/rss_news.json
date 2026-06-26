@@ -1,21 +1,157 @@
 {
-  "asOf": "2026-06-26T19:41:55.386Z",
+  "asOf": "2026-06-26T21:10:09.719Z",
   "items": [
     {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "headline": "2026 World Cup Bracket, Standings, Projections: USA In Round Of 32, Who Else Might Advance?",
       "links": {
         "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
         }
       },
       "images": [
         {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-mbappe-horiz.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:04:16 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Third-Place Standings: Who's In, Who's On The Bubble",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-standings-whos-in-whos-bubble"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/elanga1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:04:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "James injury concerns grow but Rice returns",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4kv0kkgeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4062/live/14e9e6f0-71a2-11f1-91d4-ab93ad9f4654.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 21:04:10 GMT",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
         }
       ],
       "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 19:36:14 +0000",
+      "pubDate": "Fri, 26 Jun 2026 21:01:20 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Dembélé Crashes Party After Hat Trick",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ousmane-626.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 17:01:11 -0400",
       "teams": []
+    },
+    {
+      "headline": "What do Senegal need to qualify for the World Cup knockouts from Group I?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/senegal-qualify-world-cup-knockouts-055437723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 21:00:09 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Dembele's 'magic' first-half hat-trick",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cx2jdw4xyxlo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4454/live/68596f70-719a-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 26 Jun 2026 20:59:23 GMT",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "The five World Cup results Scotland need to qualify for knockout stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-still-qualify-knockout-rounds-000153608.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 20:59:16 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "How England can qualify for the World Cup knockout stages tonight – and who they could play",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-081724224.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 20:58:41 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
     },
     {
       "headline": "Senegal v Iraq: World Cup 2026 – live",
@@ -26,7 +162,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 19:26:40 GMT",
+      "pubDate": "Fri, 26 Jun 2026 20:57:42 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -46,7 +182,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 19:25:37 GMT",
+      "pubDate": "Fri, 26 Jun 2026 20:56:47 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -58,7 +194,197 @@
       ]
     },
     {
-      "headline": "📸 Red card and goal conceded! World Cup side in instant chaos",
+      "headline": "Dembele hat-trick as dominant France lead Norway in World Cup, Senegal also winning",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-norway-france-boston-141713372.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 20:19:26 +0000",
+      "teams": [
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Dembélé Hat Trick! France Star Scored Three Goals vs. Norway At World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/ousmane-dembele-world-cup-goals-hat-trick-france-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/dembele1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 16:11:15 -0400",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "US Soccer offers contract renewal to Mauricio Pochettino through 2030 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/mauricio-pochettino-extension-us-soccer-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 20:02:34 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "US Soccer offers contract renewal to Mauricio Pochettino through 2030 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-soccer-offers-contract-renewal-200234563.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 20:02:34 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Christian Pulisic's World Cup Return Galvanizes USA Teammates, Despite Loss",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-pulisic-world-cup-return-injury-bosnia-knockout"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-1-60.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 15:58:46 -0400",
+      "teams": [
+        "United States",
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "England’s Reece James ruled out for at least two games with hamstring injury",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/26/england-reece-james-ruled-out-two-games-world-cup-hamstring-injury-panama"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 26 Jun 2026 19:55:14 GMT",
+      "teams": [
+        "England",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Which World Cup third-place teams will advance to knockout stage? What to know, standings, rules, tiebreakers",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-third-place-teams-195445401.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:54:45 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:54:25 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "France's Ousmane Dembélé records second-fastest hat trick in World Cup history vs. Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/frances-ousmane-dembele-records-second-fastest-hat-trick-in-world-cup-history-vs-norway-195324171.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:53:24 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Real Madrid star melts fans with insane skill at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-star-melts-fans-195000356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:50:00 +0000",
+      "teams": [
+        "Turkey"
+      ]
+    },
+    {
+      "headline": "England seeing benefits of fitness drive - Capsey",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-seeing-benefits-fitness-drive-194316521.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:43:16 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 19:36:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "📸 Red card and goal conceded! World Cup side erupts at once",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/red-card-goal-conceded-world-192200157.html"
@@ -593,22 +919,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Superstar Names Remain Atop Board",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 12:31:03 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
       "links": {
         "web": {
@@ -672,22 +982,6 @@
       "teams": [
         "Egypt",
         "Iran"
-      ]
-    },
-    {
-      "headline": "What do Senegal need to qualify for the World Cup knockouts from Group I?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/senegal-qualify-world-cup-knockouts-055437723.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 16:07:38 +0000",
-      "teams": [
-        "France",
-        "Senegal",
-        "Norway"
       ]
     },
     {
@@ -824,26 +1118,6 @@
       "pubDate": "Fri, 26 Jun 2026 15:18:37 +0000",
       "teams": [
         "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 15:14:20 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
       ]
     },
     {
@@ -1589,21 +1863,6 @@
       "teams": []
     },
     {
-      "headline": "How England can qualify for the World Cup knockout stages tonight – and who they could play",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-081724224.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:01:00 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
       "headline": "Valery features as Tunisia fall to third World Cup defeat",
       "links": {
         "web": {
@@ -2019,20 +2278,6 @@
       "teams": [
         "France",
         "Norway"
-      ]
-    },
-    {
-      "headline": "The six World Cup results Scotland need to qualify for knockout stages",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-still-qualify-knockout-rounds-000153608.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 07:41:36 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -2542,22 +2787,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Third-Place Standings: Who's In, Who's On The Bubble",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-standings-whos-in-whos-bubble"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/elanga1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:30:04 -0400",
-      "teams": []
-    },
-    {
       "headline": "Turkey 3-2 USA: World Cup 2026 – live",
       "links": {
         "web": {
@@ -2684,25 +2913,6 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 26 Jun 2026 00:04:14 -0400",
       "teams": []
-    },
-    {
-      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 04:02:44 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
     },
     {
       "headline": "Third-place rankings: How they stand in race to reach World Cup knockout stages",
@@ -3316,24 +3526,6 @@
       "pubDate": "Thu, 25 Jun 2026 22:35:00 +0000",
       "teams": [
         "Ecuador"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Bracket, Standings, Projections: USA In Round Of 32, Who Else Might Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-mbappe-horiz.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 18:28:31 -0400",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -15997,220 +16189,6 @@
       "teams": [
         "France",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "Jordan vs. Algeria: How to Watch, TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-jordan-vs-algeria-tv-channel-live-stream-2026-fifa-world-cup-group-j"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9jor-alg.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 08:20:14 -0400",
-      "teams": [
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Argentina, France, More",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-argentina-france-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-world-cup-schedule-june-22.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 08:20:11 -0400",
-      "teams": [
-        "France",
-        "Norway",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Norway vs. Senegal: How to Watch, TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-norway-vs-senegal-tv-channel-live-stream-2026-fifa-world-cup-group-i"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9nor-sen-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 08:13:57 -0400",
-      "teams": [
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 12:01:44 GMT",
-      "teams": []
-    },
-    {
-      "headline": "'He's stored in a hard disk in my head' - watching the World Cup as a manager",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c77y64gzvzgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7990/live/76551d30-6e4e-11f1-b648-1b56797cb133.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 12:01:44 GMT",
-      "teams": []
-    },
-    {
-      "headline": "More than the Score",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ntdxyd?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntdxzt.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 11:38:00 GMT",
-      "teams": []
-    },
-    {
-      "headline": "France vs. Iraq Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-france-iraq-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281939404-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 07:00:09 -0400",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "Madueke's remarkable season - from petition to World Cup starter",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c5yz2xyvd1zo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38b4/live/8b578340-6dc1-11f1-99a1-adc31e23373a.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 10:47:17 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "The Hotspot | Aramco’s petrodollar backing of World Cup leaves stain of sportswashing",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/sport/2026/jun/22/aramco-petrodollar-world-cup-football-sportswashing-the-hotspot"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 10:39:10 GMT",
-      "teams": [
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "headline": "Iran leave note asking for peace after Belgium draw",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80f1/live/cc9a4d00-6e1c-11f1-806d-d1ff7e093f07.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 09:54:09 GMT",
-      "teams": [
-        "Belgium",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Iran leave note asking for peace after Belgium draw",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cwy0ppqx1p9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80f1/live/cc9a4d00-6e1c-11f1-806d-d1ff7e093f07.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 09:54:09 GMT",
-      "teams": [
-        "Belgium",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Ask pundits McCann & Crichton your World Cup questions",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c8j2pm834xeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5954/live/7071ba50-698e-11f1-ab9f-5746431126cc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 09:50:49 GMT",
-      "teams": [
-        "Scotland",
-        "United States"
       ]
     }
   ]
