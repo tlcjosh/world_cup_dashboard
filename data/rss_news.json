@@ -1,6 +1,250 @@
 {
-  "asOf": "2026-06-27T16:45:01.607Z",
+  "asOf": "2026-06-27T17:49:40.340Z",
   "items": [
+    {
+      "headline": "World Cup 2026: England through, Scotland wait goes on and Spain hit by injuries – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/world-cup-2026-news-live-england-panama-croatia-ghana-colombia-portugal-dr-congo-uzbekistan-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 17:41:35 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Scotland",
+        "United States",
+        "Egypt",
+        "Iran",
+        "Spain",
+        "Cape Verde Islands",
+        "Portugal",
+        "Uzbekistan",
+        "Colombia",
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:24:21 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Cody Gakpo’s partner suffers tragic miscarriage with Liverpool star at World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.yahoo.com/entertainment/celebrity/articles/cody-gakpo-partner-suffers-tragic-172405817.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 17:24:05 +0000",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:22:35 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Dembélé Crashes Party After Hat Trick",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ousmane-626.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:14:47 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Spain, France, Belgium Clinch Groups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283504197-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:10:58 -0400",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorite",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/france-625.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:09:15 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:02:28 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England Starting XI vs Panama: Confirmed Team News and Predicted Lineup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-starting-xi-vs-panama-170000840.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 17:00:00 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 12:53:25 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Canada vs. South Africa odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-vs-south-africa-odds-prediction-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/893e8a48-efab-46a5-9ba5-bfc59e15a9af/jonathan-david-canada-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 16:53:11 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "France boss Didier Deschamps returns to World Cup after death of his mother",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-boss-didier-deschamps-returns-164259322.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 16:42:59 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 12:41:41 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Spain rocked by injuries with Pino to miss rest of World Cup and Williams doubtful",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 16:41:01 GMT",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
     {
       "headline": "2026 World Cup Round of 16 Odds: Which Teams Will Make It?",
       "links": {
@@ -15,6 +259,18 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Sat, 27 Jun 2026 12:35:28 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Three Nations, 48 Teams, and Football’s Greatest Show on Earth",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/three-nations-48-teams-football-163500159.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 16:35:00 +0000",
       "teams": []
     },
     {
@@ -156,33 +412,6 @@
       "teams": [
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/27/world-cup-2026-news-live-england-panama-croatia-ghana-colombia-portugal-dr-congo-uzbekistan-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 16:13:14 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Scotland",
-        "United States",
-        "Egypt",
-        "Iran",
-        "Cape Verde Islands",
-        "Portugal",
-        "Uzbekistan",
-        "Colombia",
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
       ]
     },
     {
@@ -2467,44 +2696,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorite",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/france-625.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 01:17:41 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Spain, France, Belgium Clinch Groups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-winner-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283504197-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 01:14:42 -0400",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "France"
-      ]
-    },
-    {
       "headline": "🚨 Official: France's round-of-32 opponents are confirmed!",
       "links": {
         "web": {
@@ -2903,25 +3094,6 @@
       "teams": [
         "England",
         "Panama"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 22:45:14 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -3919,22 +4091,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Dembélé Crashes Party After Hat Trick",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ousmane-626.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 17:01:11 -0400",
-      "teams": []
-    },
-    {
       "headline": "🎥 France dodge 🇧🇷 by staying perfect in the Cup, Dembélé stars",
       "links": {
         "web": {
@@ -4709,24 +4865,6 @@
       "teams": [
         "Algeria",
         "Austria"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 12:22:09 -0400",
-      "teams": [
-        "France"
       ]
     },
     {
@@ -6222,38 +6360,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Fri, 26 Jun 2026 05:56:43 GMT",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 01:37:35 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 01:30:59 -0400",
       "teams": []
     },
     {
@@ -16149,109 +16255,6 @@
       "teams": [
         "France",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "David Squires on … the big names putting on a show at World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/picture/2026/jun/23/david-squires-on-big-names-messi-mbappe-ronaldo-putting-on-a-show-at-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 10:02:37 GMT",
-      "teams": []
-    },
-    {
-      "headline": "England vs. Ghana Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-england-ghana-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8fd0fbcf-gettyimages-2282103011-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 06:00:47 -0400",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Rice in 'good space' after 'mentally tough' season",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rice-good-space-mentally-tough-084505145.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 08:45:05 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Is there a problem with the 2026 World Cup ball? Why goalkeepers are struggling with the Trionda",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/problem-2026-world-cup-ball-083453847.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 08:34:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026: Who are the ITV and BBC commentators, pundits and presenters?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 08:29:48 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Unpaid bonuses and food issues - what's going on inside Senegal camp?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unpaid-bonuses-food-issues-whats-082204837.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 08:22:04 +0000",
-      "teams": [
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Unpaid bonuses and food issues - what's going on inside Senegal camp?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cz6v0jn8368o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d23b/live/b2944750-6dbb-11f1-af30-fd5554657267.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 08:21:59 GMT",
-      "teams": [
-        "Senegal"
       ]
     }
   ]
