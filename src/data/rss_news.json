@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-27T20:18:45.103Z",
+  "asOf": "2026-06-27T21:35:18.796Z",
   "items": [
     {
       "headline": "Panama v England: World Cup 2026 – live",
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 20:14:39 GMT",
+      "pubDate": "Sat, 27 Jun 2026 21:30:01 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -19,6 +19,148 @@
         "Croatia",
         "Ghana",
         "Panama"
+      ]
+    },
+    {
+      "headline": "Croatia v Ghana: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/croatia-v-ghana-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 21:29:33 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "What do Austria and Algeria need to qualify for the World Cup knockouts from Group J?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/austria-algeria-qualify-world-cup-073613850.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 21:28:03 +0000",
+      "teams": [
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 21:25:02 GMT",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "🚨 Reports: another entry row! Fan icon barred from World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reports-another-entry-row-fan-211500389.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 21:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch Croatia vs. Ghana: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/croatia-vs-ghana-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-l"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-croatia-vs-ghana-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 16:59:41 -0400",
+      "teams": [
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Third-place rankings: How they stand in race to reach World Cup knockout stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 20:44:33 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 knockout fixtures, results and group-stage standings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 20:40:25 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Congo DR vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/congo-dr-uzbekistan-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/bdcf00b7-7b5a-41fb-ad33-fa58622727ba/yoane-wissa-congo-dr-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 20:35:25 +0000",
+      "teams": [
+        "Congo DR",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "What do Portugal and DR Congo need to qualify for the World Cup knockouts from Group K?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/portugal-dr-congo-qualify-world-073625188.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 20:34:25 +0000",
+      "teams": [
+        "Portugal",
+        "Congo DR",
+        "Colombia"
       ]
     },
     {
@@ -34,26 +176,6 @@
       "teams": [
         "Japan",
         "Sweden"
-      ]
-    },
-    {
-      "headline": "Croatia v Ghana: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/27/croatia-v-ghana-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 20:02:04 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
       ]
     },
     {
@@ -133,21 +255,6 @@
       "source": "Fox Sports",
       "pubDate": "Sat, 27 Jun 2026 15:19:59 -0400",
       "teams": []
-    },
-    {
-      "headline": "Spain reveal Pino avoided fracture and retain World Cup hope for him and Williams",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 19:19:45 GMT",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
     },
     {
       "headline": "World Cup Rules: What Is Extra Time and How Does It Work?",
@@ -2350,37 +2457,6 @@
       ]
     },
     {
-      "headline": "What do Portugal and DR Congo need to qualify for the World Cup knockouts from Group K?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-dr-congo-qualify-world-073625188.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:36:25 +0000",
-      "teams": [
-        "Portugal",
-        "Congo DR",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "What do Austria and Algeria need to qualify for the World Cup knockouts from Group J?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/austria-algeria-qualify-world-cup-073613850.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:36:13 +0000",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
       "headline": "Is Jordan vs Argentina on TV? Channel, kick-off time and how to watch World Cup clash",
       "links": {
         "web": {
@@ -3697,20 +3773,6 @@
       ]
     },
     {
-      "headline": "Third-place rankings: How they stand in race to reach World Cup knockout stages",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 01:21:18 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
       "headline": "Belgium vs. New Zealand odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
       "links": {
         "web": {
@@ -4992,18 +5054,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 17:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 knockout fixtures, results and group tables",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 17:35:55 +0000",
       "teams": []
     },
     {
@@ -16195,61 +16245,6 @@
       "source": "BBC Sport",
       "pubDate": "Tue, 23 Jun 2026 13:09:46 GMT",
       "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Croatia vs. Panama Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-croatia-panama-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282099351-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 09:00:44 -0400",
-      "teams": [
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/most-world-cup-goals-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8c3e2dd8-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 08:46:41 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Harry Kane's quarterback routine is hurting England's attack at World Cup; Portugal's other struggling veteran",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-harry-kane-england-attack-portugal-struggling-veteran/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/9d735ccd-d666-406c-813e-a0713e163d59/untitled-design-2026-06-23t080451-943.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 12:32:41 +0000",
-      "teams": [
-        "Portugal",
         "England",
         "Ghana"
       ]

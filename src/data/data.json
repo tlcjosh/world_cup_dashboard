@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T20:18:43.708Z",
+  "lastUpdated": "2026-06-27T21:35:17.196Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3180,10 +3180,10 @@
       "awayIso": "england",
       "venue": "MetLife Stadium, East Rutherford",
       "kickoff": "2026-06-27T21:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-27T21:35:17.196Z",
       "secondHalfStart": null
     },
     {
@@ -3197,10 +3197,10 @@
       "awayIso": "gh",
       "venue": "Lincoln Financial Field, Philadelphia",
       "kickoff": "2026-06-27T21:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-27T21:35:17.196Z",
       "secondHalfStart": null
     },
     {
