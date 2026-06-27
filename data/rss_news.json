@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-27T17:49:40.340Z",
+  "asOf": "2026-06-27T19:05:00.002Z",
   "items": [
     {
       "headline": "World Cup 2026: England through, Scotland wait goes on and Spain hit by injuries – live",
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 17:41:35 GMT",
+      "pubDate": "Sat, 27 Jun 2026 18:58:08 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -27,6 +27,97 @@
         "Croatia",
         "Ghana",
         "Panama"
+      ]
+    },
+    {
+      "headline": "England vs. Panama odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-panama-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/1f9fe15c-51f8-4879-8b7f-2fd8fff155aa/harry-kane-england-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 18:51:28 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "How stubborn Marcelo Bielsa provoked the bitter demise of Uruguay in World Cup implosion",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/stubborn-marcelo-bielsa-provoked-bitter-185024549.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 18:50:24 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Atalanta defender Hien out of 2026 World Cup with serious injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/atalanta-defender-hien-2026-world-183000178.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 18:30:00 +0000",
+      "teams": [
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Argentine icon questions Lamine Yamal&#8217;s ability to come good at the World Cup: &#8216;Needs to prove that&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentine-icon-questions-lamine-yamal-182000257.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 18:20:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Italian referee Mariani chosen for Brazil vs. Japan World Cup match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italian-referee-mariani-chosen-brazil-180000655.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 18:00:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 17:55:57 +0000",
+      "teams": [
+        "Scotland"
       ]
     },
     {
@@ -513,20 +604,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 27 Jun 2026 15:40:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Reece James and Christian Pulisic updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 15:36:06 +0000",
-      "teams": [
-        "Scotland"
-      ]
     },
     {
       "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
@@ -16181,80 +16258,6 @@
       "teams": [
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/portugal-uzbekistan-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/89a6003f-5e53-4f03-bcac-57889649c303/ronaldo-portugal-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 10:50:56 +0000",
-      "teams": [
-        "Portugal",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Man City still offer 'compelling sales pitch'",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-still-offer-compelling-104652321.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 10:46:52 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Relive every World Cup match with BBC Sport's 3D Experience",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/relive-every-world-cup-match-100834799.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 10:08:34 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Relive every World Cup match with BBC Sport's 3D Experience",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y70lg0j3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8018/live/6a4985a0-6ee7-11f1-92d8-97879fd3f743.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 10:08:27 GMT",
-      "teams": []
-    },
-    {
-      "headline": "🔥 Mbappé downplays rivalry with Messi over World Cup goals record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-downplays-rivalry-messi-over-100800099.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 10:08:00 +0000",
-      "teams": [
-        "France",
-        "Iraq"
       ]
     }
   ]
