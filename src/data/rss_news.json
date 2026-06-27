@@ -1,6 +1,37 @@
 {
-  "asOf": "2026-06-27T21:35:18.796Z",
+  "asOf": "2026-06-27T22:42:34.217Z",
   "items": [
+    {
+      "headline": "🚨 A key Sweden player out for the clash with France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/key-sweden-player-clash-france-223300253.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 22:33:00 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Harry Kane passes Gary Lineker to become England's all-time leading World Cup goal scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/harry-kane-passes-gary-lineker-to-become-englands-all-time-leading-world-cup-goal-scorer-223044246.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 22:30:44 +0000",
+      "teams": [
+        "England",
+        "Croatia",
+        "Panama"
+      ]
+    },
     {
       "headline": "Panama v England: World Cup 2026 – live",
       "links": {
@@ -10,7 +41,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 21:30:01 GMT",
+      "pubDate": "Sat, 27 Jun 2026 22:30:12 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -30,7 +61,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 21:29:33 GMT",
+      "pubDate": "Sat, 27 Jun 2026 22:29:40 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -40,6 +71,130 @@
         "Ghana",
         "Panama"
       ]
+    },
+    {
+      "headline": "🚨 Starting XIs named for Colombia vs Portugal & DR Congo vs Uzbekistan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/starting-xis-named-colombia-vs-222100130.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 22:21:00 +0000",
+      "teams": [
+        "United States",
+        "Portugal",
+        "Congo DR",
+        "Uzbekistan",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Is Colombia v Portugal on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/colombia-v-portugal-tv-channel-073548967.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 22:20:24 +0000",
+      "teams": [
+        "Portugal",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "DR Congo v Uzbekistan: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/dr-congo-v-uzbekistan-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 22:06:17 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Portugal",
+        "Congo DR",
+        "Uzbekistan",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 32 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283104663-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 17:57:52 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Colombia v Portugal: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/colombia-v-portugal-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 21:45:01 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Senegal",
+        "Portugal",
+        "Congo DR",
+        "Uzbekistan",
+        "Colombia",
+        "England",
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Canada vs. South Africa Opens The Knockout Rounds: What To Know For Match Day 18",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/canada-south-africa-world-cup-round-of-32-knockout-round"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/matchday18.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 17:42:48 -0400",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Manchester City in line for multi-million payment as World Cup winner attempts to force exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-line-multi-million-213000822.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 21:30:00 +0000",
+      "teams": []
     },
     {
       "headline": "What do Austria and Algeria need to qualify for the World Cup knockouts from Group J?",
@@ -82,6 +237,25 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 27 Jun 2026 21:15:00 +0000",
       "teams": []
+    },
+    {
+      "headline": "Portugal vs. Colombia odds, prediction, time: 2026 World Cup picks from expert on 25-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/portugal-colombia-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6dc46ab6-bb2d-45be-bea8-d183c3a05a49/cristiano-ronaldo-portugal-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 21:00:48 +0000",
+      "teams": [
+        "Portugal",
+        "Colombia"
+      ]
     },
     {
       "headline": "How to Watch Croatia vs. Ghana: TV Channel, Live Stream, Time",
@@ -2469,21 +2643,6 @@
       "teams": [
         "Argentina",
         "Jordan"
-      ]
-    },
-    {
-      "headline": "Is Colombia v Portugal on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/colombia-v-portugal-tv-channel-073548967.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:35:48 +0000",
-      "teams": [
-        "Portugal",
-        "Colombia"
       ]
     },
     {
@@ -16101,151 +16260,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 23 Jun 2026 13:55:11 +0000",
       "teams": [
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Barcelona remain concerned over the fitness of two stars currently at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-remain-concerned-over-fitness-135500515.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Who are the Ghana players England should look out for?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ghana-players-england-look-130952969.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:40:54 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Uzbekistan live stream: How to watch FIFA World Cup, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/portugal-vs-uzbekistan-live-stream-how-to-watch-fifa-world-cup-predictions-and-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/d58ee408-2800-4a85-8a87-e408a4034428/untitled-design-2026-06-23t091535-386.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:37:09 +0000",
-      "teams": [
-        "Portugal",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Football Daily | The World Cup stage is set for a Golden Boot shootout for the ages",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/23/world-cup-2026-golden-boot-football-daily-newsletter"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 13:31:41 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Egypt",
-        "New Zealand",
-        "Uruguay",
-        "Senegal",
-        "Iraq",
-        "Argentina",
-        "Austria",
-        "Portugal",
-        "England"
-      ]
-    },
-    {
-      "headline": "Scotland fans bring World Cup party to Miami as thousands march to local baseball match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tartan-army-brings-world-cup-114827914.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:22:09 +0000",
-      "teams": [
-        "Scotland",
-        "United States"
-      ]
-    },
-    {
-      "headline": "🚨 Official: Gattuso is back in the dugout!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/official-gattuso-back-dugout-132100898.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:21:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🚩Referee confirmed, Ismail Elfath for decisive Uruguay v Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/referee-confirmed-ismail-elfath-decisive-131900203.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:19:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "De Bruyne on what he and Lukaku bring to Belgium’s troubled World Cup campaign",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bruyne-lukaku-bring-belgium-troubled-131500427.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 13:15:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Who are the Ghana players England should look out for?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz75wypyq1ro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f29d/live/a04c0ec0-6dc5-11f1-99a1-adc31e23373a.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 13:09:46 GMT",
-      "teams": [
-        "England",
         "Ghana"
       ]
     }
