@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T21:35:17.196Z",
+  "lastUpdated": "2026-06-27T22:42:07.127Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3181,7 +3181,7 @@
       "venue": "MetLife Stadium, East Rutherford",
       "kickoff": "2026-06-27T21:00:00.000Z",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-06-27T21:35:17.196Z",
       "secondHalfStart": null
@@ -3198,7 +3198,7 @@
       "venue": "Lincoln Financial Field, Philadelphia",
       "kickoff": "2026-06-27T21:00:00.000Z",
       "homeScore": 1,
-      "awayScore": 0,
+      "awayScore": 1,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-06-27T21:35:17.196Z",
       "secondHalfStart": null
