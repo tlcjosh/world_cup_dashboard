@@ -1,6 +1,363 @@
 {
-  "asOf": "2026-06-27T11:59:01.648Z",
+  "asOf": "2026-06-27T14:02:14.654Z",
   "items": [
+    {
+      "headline": "Once He Wanted to Lead FIFA. This Is Much Better.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/27/world/middleeast/jordan-prince-ali-al-hussein-world-cup.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 27 Jun 2026 13:55:44 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/world-cup-2026-news-live-england-panama-croatia-ghana-colombia-portugal-dr-congo-uzbekistan-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 13:50:32 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Scotland",
+        "United States",
+        "Egypt",
+        "Iran",
+        "Cape Verde Islands",
+        "Portugal",
+        "Uzbekistan",
+        "Colombia",
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Who would the US need to beat to win the World Cup? Probably only Spain, France and England",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/27/usa-bracket-world-cup-path-to-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 13:41:00 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Bosnia-Herzegovina",
+        "United States",
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who would the US need to beat to win the World Cup? Probably only Spain, France and England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-beat-win-world-cup-134100893.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:41:00 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:38:38 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who are the Panama players England need to look out for?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/panama-players-england-look-133727723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:37:27 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Who are the Panama players England need to look out for?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/articles/cr47wd2d3ero?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40c1/live/f0420f10-722a-11f1-b6b6-39a51194ddf9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 27 Jun 2026 13:37:22 GMT",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "How to Watch Jordan vs. Argentina: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jordan-vs-argentina-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-j"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-jordan-vs-argentina-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 09:32:54 -0400",
+      "teams": [
+        "Argentina",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Belgium tops Group G, sets up potential USMNT clash in World Cup round of 16",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/belgium-potential-usmnt-clash-in-world-cup-round-of-16/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/0e9c2a4a-e12b-48ca-bd4d-36df7d98a327/kdb-pulisic.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:31:49 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "DR Congo vs. Uzbekistan Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-dr-congo-uzbekistan-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282078791-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 09:30:37 -0400",
+      "teams": [
+        "Congo DR",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Colombia vs. Portugal Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-colombia-portugal-odds-prediction-picks"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282526182-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 09:30:27 -0400",
+      "teams": [
+        "Portugal",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "How Cape Verde stunned World Cup to set up Argentina tie",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cape-verde-stunned-world-cup-034206395.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:15:52 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England qualify for World Cup knockout stages with potential opponents revealed",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-022353005.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:08:09 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Is England vs Panama on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-vs-panama-tv-channel-050000049.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:07:36 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Austria vs. Algeria odds, prediction, time: 2026 World Cup picks from expert on 25-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/austria-algeria-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/fdd4b538-51ea-4e4e-8ab8-8f81c3977f28/romano-schmid-austria-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 12:58:17 +0000",
+      "teams": [
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Argentina, England, Portugal, More",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-argentina-england-portugal-more"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-schedule-june-27.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 08:08:03 -0400",
+      "teams": [
+        "Argentina",
+        "Portugal",
+        "England"
+      ]
+    },
+    {
+      "headline": "Portugal vs. Colombia odds, prediction, time: 2026 World Cup picks from expert on 25-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/portugal-colombia-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6dc46ab6-bb2d-45be-bea8-d183c3a05a49/cristiano-ronaldo-portugal-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 12:08:02 +0000",
+      "teams": [
+        "Portugal",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "How to Watch DR Congo vs. Uzbekistan: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/dr-congo-vs-uzbekistan-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-k"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/49c351a2-how-to-watch-congo-dr-vs-uzbekistan-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 07:59:20 -0400",
+      "teams": [
+        "Congo DR",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Congo DR vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/congo-dr-uzbekistan-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/a1e240f2-62e9-4273-a90b-587af5ca7ec0/abbosbek-fayzullaev-uzbekistan-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 11:54:57 +0000",
+      "teams": [
+        "Congo DR",
+        "Uzbekistan"
+      ]
+    },
+    {
+      "headline": "Opta reveals brutal long odds for Scotland’s World Cup progress",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/opta-reveals-brutal-long-odds-115043601.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 11:50:43 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
     {
       "headline": "2026 World Cup Group L Scenarios, Standings: What England, Ghana, Croatia, Panama Need To Advance",
       "links": {
@@ -98,45 +455,22 @@
       ]
     },
     {
-      "headline": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
+      "headline": "Croatia vs. Ghana odds, prediction, time: 2026 World Cup picks, best bets from expert on 25-13 run",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/27/world-cup-2026-news-live-england-panama-croatia-ghana-colombia-portugal-dr-congo-uzbekistan-live"
+          "href": "https://www.cbssports.com/soccer/news/croatia-ghana-odds-prediction-time-2026-world-cup-picks-best-bets/"
         }
       },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 11:37:18 GMT",
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/7d925db5-f755-4b05-85ba-ec2c60b3177f/luka-modric-croatia-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 11:31:03 +0000",
       "teams": [
-        "Mexico",
-        "Canada",
-        "Scotland",
-        "United States",
-        "Egypt",
-        "Iran",
-        "Cape Verde Islands",
-        "Portugal",
-        "Uzbekistan",
-        "Colombia",
-        "England",
         "Croatia",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Is England vs Panama on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-vs-panama-tv-channel-050000049.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:32:51 +0000",
-      "teams": [
-        "England",
-        "Panama"
+        "Ghana"
       ]
     },
     {
@@ -167,6 +501,25 @@
       "teams": [
         "United States",
         "Iran"
+      ]
+    },
+    {
+      "headline": "England vs. Panama odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-panama-odds-prediction-time-2026-world-cup-picks-best-bets-by-expert-on-18-8-roll/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/94763f8d-6116-4ee8-acd0-99966ca83a68/harry-kane.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 11:19:15 +0000",
+      "teams": [
+        "England",
+        "Panama"
       ]
     },
     {
@@ -685,7 +1038,7 @@
       ]
     },
     {
-      "headline": "Scouting report on Panama - why England should be wary",
+      "headline": "Why England should be wary of Panama's hybrid tactics",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cly02gv3yd8o?at_medium=RSS&at_campaign=rss"
@@ -834,21 +1187,6 @@
       "pubDate": "Sat, 27 Jun 2026 08:34:12 GMT",
       "teams": [
         "Scotland"
-      ]
-    },
-    {
-      "headline": "How Cape Verde stunned World Cup to set up Argentina tie",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verde-stunned-world-cup-034206395.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:26:04 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
       ]
     },
     {
@@ -1121,21 +1459,6 @@
         "Uruguay",
         "Spain",
         "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "England qualify for World Cup knockout stages with potential opponents revealed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-022353005.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:31:34 +0000",
-      "teams": [
-        "England",
-        "Panama"
       ]
     },
     {
@@ -1564,24 +1887,6 @@
       "source": "BBC Sport",
       "pubDate": "Sat, 27 Jun 2026 05:57:23 GMT",
       "teams": []
-    },
-    {
-      "headline": "Belgium tops Group G, sets up potential USMNT clash in World Cup round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/belgium-potential-usmnt-clash-in-world-cup-round-of-16/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/0e9c2a4a-e12b-48ca-bd4d-36df7d98a327/kdb-pulisic.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 05:43:44 +0000",
-      "teams": [
-        "Belgium"
-      ]
     },
     {
       "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
@@ -3519,22 +3824,6 @@
       "teams": [
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 19:36:14 +0000",
-      "teams": []
     },
     {
       "headline": "📸 Red card and goal conceded! World Cup side erupts at once",
@@ -15944,282 +16233,6 @@
       "teams": [
         "England",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "The concerning trend England must address in World Cup clash with Ghana",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/concerning-trend-england-must-address-063047857.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 06:30:47 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Two-goal Haaland fires Norway into last 32 with win over Senegal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-qualify-last-32-win-205359552.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 06:28:19 +0000",
-      "teams": [
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Why Scotland can't play for draw or narrow defeat against Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-scotland-cant-play-draw-061621724.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 06:16:21 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Why Scotland can't play for draw or narrow defeat against Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c79ylvq54e9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f21/live/585b3250-6e40-11f1-8a85-d1d176b992ab.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 06:16:14 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Why Scotland can't play for draw or narrow defeat against Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c79ylvq54e9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f21/live/585b3250-6e40-11f1-8a85-d1d176b992ab.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 06:16:14 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Messi in a class of his own and rain stops play in Philadelphia – World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/23/messi-in-a-class-of-his-own-and-rain-stops-play-in-philadelphia-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 05:59:01 GMT",
-      "teams": [
-        "France",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "Miami romance, Billy Gilmour and a mince and tattie hot dog",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cq51860v8zyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34d4/live/154c63a0-6ec0-11f1-87ed-1750ac7ec29c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 05:51:37 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Miami romance, Billy Gilmour and a mince and tattie hot dog",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cq51860v8zyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/963f/live/b0e4d200-6f0d-11f1-93e4-574a66c90712.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 05:51:37 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "4 Takeaways From Algeria's Comeback Win Over Jordan At World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jordan-algeria-world-4-takeaways"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/algeriamain.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 01:39:38 -0400",
-      "teams": [
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Algeria complete late turnaround to send Jordan home",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/clyw72k34nwo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/812a/live/3a255f60-6ec0-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 05:37:29 GMT",
-      "teams": [
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Algeria complete late turnaround to send Jordan home",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/clyw72k34nwo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/812a/live/3a255f60-6ec0-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 05:37:29 GMT",
-      "teams": [
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 16",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/cnvp6y3yg0yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f87f/live/73e17c20-64ed-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 05:35:17 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 16",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cnvp6y3yg0yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f87f/live/73e17c20-64ed-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 05:35:17 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Portugal vs. Uzbekistan: How to Watch, TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-portugal-vs-uzbekistan-tv-channel-live-stream-2026-fifa-world-cup-group-k"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9por-uzb.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 01:33:44 -0400",
-      "teams": [
-        "Portugal",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Is a bonafide attacking option for Manchester City to pursue emerging at the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bonafide-attacking-option-manchester-city-053000550.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 05:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Bracket, Standings: France, Norway, Argentina Advance; Where USA Stands",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-mbappe-horiz.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 01:26:02 -0400",
-      "teams": [
-        "United States",
-        "France",
-        "Norway",
-        "Argentina"
       ]
     }
   ]
