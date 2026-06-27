@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T23:46:52.238Z",
+  "lastUpdated": "2026-06-27T01:48:03.862Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3022,10 +3022,10 @@
       "awayIso": "sa",
       "venue": "NRG Stadium, Houston",
       "kickoff": "2026-06-27T00:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-27T01:48:03.862Z",
       "secondHalfStart": null
     },
     {
@@ -3039,10 +3039,10 @@
       "awayIso": "es",
       "venue": "Estadio Akron, Zapopan",
       "kickoff": "2026-06-27T00:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-27T01:48:03.862Z",
       "secondHalfStart": null
     },
     {

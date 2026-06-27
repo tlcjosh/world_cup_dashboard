@@ -1,24 +1,23 @@
 {
-  "asOf": "2026-06-26T23:47:19.421Z",
+  "asOf": "2026-06-27T01:48:31.381Z",
   "items": [
     {
-      "headline": "Uruguay v Spain: World Cup 2026 – live",
+      "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/uruguay-v-spain-world-cup-2026-live"
+          "href": "https://www.cbssports.com/soccer/news/france-norway-ousmane-dembele-starring-role-fastest-world-cup-hat-trick-in-72-years/"
         }
       },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 23:42:14 GMT",
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3b701c3-f9a3-43eb-b861-3bcb95edb276/untitled-design-2026-06-26t184201-661.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:46:34 +0000",
       "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Saudi Arabia",
-        "Uruguay",
-        "Spain",
-        "Cape Verde Islands"
+        "France",
+        "Norway"
       ]
     },
     {
@@ -30,7 +29,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 23:39:44 GMT",
+      "pubDate": "Sat, 27 Jun 2026 01:43:42 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -39,6 +38,294 @@
         "Uruguay",
         "Spain",
         "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Egypt v Iran: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/fifa-world-cup-2026-live-egypt-v-iran-updates-egy-vs-irn-group-g-match-score-latest"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 01:42:44 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand",
+        "France",
+        "Senegal",
+        "Iraq",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Uruguay v Spain: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/26/uruguay-v-spain-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 01:42:42 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Saudi Arabia",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "New Zealand v Belgium: World Cup 2026 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/27/fifa-world-cup-2026-live-new-zealand-v-belgium-updates-nzl-vs-bel-group-g-match-score-latest"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 01:42:05 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand",
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: USA Favored Over Bosnia And Herzegovina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 21:32:08 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Muslera blunders, sets unwanted Cup record, and socials pounce",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/muslera-howler-sets-unwanted-cup-012900741.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:29:00 +0000",
+      "teams": [
+        "Mexico",
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Fernando Muslera hauled off at half-time by Uruguay boss after howler against Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fernando-muslera-hauled-off-half-011748165.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:23:44 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Third-place rankings: How they stand in race to reach World Cup knockout stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:21:18 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Cape Verde eye World Cup progress against Saudi Arabia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cape-verde-eye-world-cup-104237895.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:13:59 +0000",
+      "teams": [
+        "Saudi Arabia",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 26 Jun 2026 21:06:06 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Belgium vs. New Zealand odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/belgium-new-zealand-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/38d46ab4-1b84-49d9-baec-d4861d6cd5c4/usatsi-29242318-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:01:11 +0000",
+      "teams": [
+        "Belgium",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Egypt vs. Iran live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/egypt-vs-iran-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/765d4109-7a17-4582-a4a5-7f488bfd03cf/egypt-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:00:59 +0000",
+      "teams": [
+        "United States",
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "New Zealand vs. Belgium live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/new-zealand-vs-belgium-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/b5a8c24e-dea9-4321-95b8-a82b11b6f96e/kevin-de-bruyne.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 01:00:50 +0000",
+      "teams": [
+        "Belgium",
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Sublime Ousmane Dembele hat-trick shows just why France are World Cup favourites",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sublime-ousmane-dembele-hat-trick-215324796.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 00:35:04 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Egypt vs. Iran odds, prediction, time: 2026 World Cup picks, best bets from expert on 23-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/egypt-iran-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/ad49b375-12c6-48a3-9d1c-43f51f54aaa7/mo-salah-egypt.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 00:15:36 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Lionel Messi will start on bench vs. Jordan, Argentina coach confirms",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-lionel-messi-will-start-on-bench-vs-jordan-argentina-coach-confirms-001436432.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 00:14:36 +0000",
+      "teams": [
+        "Argentina",
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Lionel Messi will start World Cup match on bench for Argentina against Jordan in group stage finale",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messi-world-cup-argentina-jordan-group-stage-finale/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/72b22f5d-9052-498b-92c4-3fe84015b4fb/untitled-design-2026-06-26t193844-194.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 26 Jun 2026 23:49:11 +0000",
+      "teams": [
+        "Argentina",
+        "Jordan"
       ]
     },
     {
@@ -75,21 +362,6 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 26 Jun 2026 19:30:08 -0400",
       "teams": []
-    },
-    {
-      "headline": "Cape Verde eye World Cup progress against Saudi Arabia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verde-eye-world-cup-104237895.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 23:28:57 +0000",
-      "teams": [
-        "Saudi Arabia",
-        "Cape Verde Islands"
-      ]
     },
     {
       "headline": "Norway's fans are inspiring their team at the World Cup, as the dark horse rows on",
@@ -152,25 +424,6 @@
       ]
     },
     {
-      "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-norway-ousmane-dembele-starring-role-fastest-world-cup-hat-trick-in-72-years/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3b701c3-f9a3-43eb-b861-3bcb95edb276/untitled-design-2026-06-26t184201-661.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 22:51:20 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
       "headline": "England enjoy New York minute but fans check out to watch darts instead",
       "links": {
         "web": {
@@ -199,22 +452,6 @@
         "France",
         "Norway"
       ]
-    },
-    {
-      "headline": "2026 World Cup Goals: Every Group-Stage Score Ranked From Best To Worst",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-goals-every-score-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messimain.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 18:38:09 -0400",
-      "teams": []
     },
     {
       "headline": "📋 Spain and Uruguay named for clash worth a Copa knockout spot",
@@ -392,35 +629,6 @@
       "teams": [
         "France",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Sublime Ousmane Dembele hat-trick shows just why France are World Cup favourites",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/sublime-ousmane-dembele-hat-trick-215324796.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:53:24 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Third-place rankings: How they stand in race to reach World Cup knockout stages",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:52:30 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -3372,25 +3580,6 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 26 Jun 2026 01:18:47 -0400",
       "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: USA Favored Over Bosnia And Herzegovina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 01:17:19 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
         "United States"
       ]
     },
@@ -16014,176 +16203,6 @@
       "source": "BBC Sport",
       "pubDate": "Mon, 22 Jun 2026 17:59:38 GMT",
       "teams": []
-    },
-    {
-      "headline": "Doku returning to World Cup after birth of first child",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9172/live/b485fa40-6d70-11f1-a2ba-775ae811ce10.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 17:59:38 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Lionel Messi sets all-time World Cup goals record with Argentina's opener against Austria (video)",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-sets-time-world-174800736.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:48:00 +0000",
-      "teams": [
-        "Argentina",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Lionel Messi sets World Cup record against Austria with his 17th career goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/lionel-messi-sets-world-cup-record-against-austria-with-his-17th-career-goal-174253433.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:42:53 +0000",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Breaks All-Time FIFA World Cup Scoring Record Against Austria",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-world-cup-goals-record-klose-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/9b0e51d9-messi-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 22 Jun 2026 13:39:47 -0400",
-      "teams": [
-        "Austria"
-      ]
-    },
-    {
-      "headline": "How Ferguson became Scotland's most influential World Cup player",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 17:39:02 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "How Ferguson became Scotland's most influential World Cup player",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y1zj927jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2587/live/75b6c810-6e53-11f1-8c89-cfc50446b805.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 17:39:02 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Argentina v Austria: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/22/argentina-v-austria-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 22 Jun 2026 17:33:28 GMT",
-      "teams": [
-        "Argentina",
-        "Algeria",
-        "Austria",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "'He is human' - Messi misses from the spot as he chases scoring record",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.com/sport/football/videos/cy5vlgnkr0go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/863e/live/8776ff60-6e5e-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 17:32:59 GMT",
-      "teams": [
-        "Austria"
-      ]
-    },
-    {
-      "headline": "'He is human' - Messi misses from the spot as he chases scoring record",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cy5vlgnkr0go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/863e/live/8776ff60-6e5e-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 22 Jun 2026 17:32:59 GMT",
-      "teams": [
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Portugal star urges teammates to use Cristiano Ronaldo as inspiration to get World Cup campaign back on track",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-star-urges-teammates-cristiano-173243822.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 22 Jun 2026 17:32:43 +0000",
-      "teams": [
-        "Portugal",
-        "Congo DR"
-      ]
     }
   ]
 }
