@@ -1,20 +1,6 @@
 {
-  "asOf": "2026-06-27T14:02:14.654Z",
+  "asOf": "2026-06-27T15:35:40.404Z",
   "items": [
-    {
-      "headline": "Once He Wanted to Lead FIFA. This Is Much Better.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/27/world/middleeast/jordan-prince-ali-al-hussein-world-cup.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 27 Jun 2026 13:55:44 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
     {
       "headline": "World Cup 2026: England through, Scotland wait goes on and joy for Cape Verde – live",
       "links": {
@@ -24,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 13:50:32 GMT",
+      "pubDate": "Sat, 27 Jun 2026 15:22:37 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -40,6 +26,164 @@
         "Croatia",
         "Ghana",
         "Panama"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Reece James and Christian Pulisic updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 15:19:21 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Barcelona star waiting for chance with Spain after becoming key under Hansi Flick",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-star-waiting-chance-spain-150000311.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 15:00:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup quiz: Name the team from England v Panama 2018",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj6pw405k91o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddce/live/be02d830-6817-11f1-8e1d-bbbb1017d210.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 27 Jun 2026 14:50:33 GMT",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "How the World Cup sticker frenzy took over the world – and why one swap could end Panini",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-sticker-frenzy-took-144948495.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 14:49:48 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch Algeria vs. Austria: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/algeria-vs-austria-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-j"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-algeria-vs-austria-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 27 Jun 2026 10:11:13 -0400",
+      "teams": [
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Kessie on Juventus, McTominay fee and Soulé replies: today's market 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/juventus-sales-mctominay-fee-soul-141000717.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 14:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:58:03 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Once He Wanted to Lead FIFA. This Is Much Better.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/27/world/middleeast/jordan-prince-ali-al-hussein-world-cup.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 27 Jun 2026 13:55:44 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Who are the Panama players England need to look out for?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/panama-players-england-look-133727723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:49:27 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Argentina vs. Jordan odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-jordan-odds-prediction-time-2026-world-cup-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6b35ca0a-8bb9-4371-b2d4-6e214a443dda/lionel-messi-argentina-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 27 Jun 2026 13:45:20 +0000",
+      "teams": [
+        "Argentina",
+        "Jordan"
       ]
     },
     {
@@ -93,21 +237,6 @@
       "source": "CBS Sports",
       "pubDate": "Sat, 27 Jun 2026 13:38:38 +0000",
       "teams": []
-    },
-    {
-      "headline": "Who are the Panama players England need to look out for?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/panama-players-england-look-133727723.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:37:27 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
     },
     {
       "headline": "Who are the Panama players England need to look out for?",
@@ -3402,7 +3531,7 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Fri, 26 Jun 2026 21:21:51 +0000",
+      "pubDate": "Fri, 26 Jun 2026 21:21:52 +0000",
       "teams": [
         "Egypt",
         "Iran"
@@ -3746,26 +3875,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 19:54:45 +0000",
       "teams": []
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 19:54:25 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
     },
     {
       "headline": "France's Ousmane Dembélé records second-fastest hat trick in World Cup history vs. Norway",
@@ -5723,20 +5832,6 @@
         "Scotland",
         "Ecuador",
         "Sweden"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Declan Rice and Christian Pulisic updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 07:26:39 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -16130,109 +16225,6 @@
       "teams": [
         "France",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "Scottish World Cup fans issue warning to England counterparts about ‘expensive’ Boston before Ghana clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scottish-world-cup-fans-issue-213424782.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 07:32:04 +0000",
-      "teams": [
-        "Scotland",
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Scottish fans’ friendly USA invasion exemplifies the joy of the World Cup | Philipp Lahm",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/23/scotland-fans-usa-world-cup-joy-fifa"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 23 Jun 2026 07:00:35 GMT",
-      "teams": [
-        "Haiti",
-        "Scotland",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Uzbekistan Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-portugal-uzbekistan-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281465226-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 03:00:10 -0400",
-      "teams": [
-        "Portugal",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Listen: Respect Brazil or go for it? Scotland's World Cup call",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ntknqz?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntknrm.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Ranking every England World Cup kit from 1950 to 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ranking-every-england-world-cup-063910920.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 06:39:10 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "The Wayne Rooney Show",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ntkkzt?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0lxths6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 23 Jun 2026 06:39:00 GMT",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     }
   ]
