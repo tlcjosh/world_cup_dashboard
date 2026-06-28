@@ -1,8 +1,147 @@
 {
-  "asOf": "2026-06-28T20:12:16.297Z",
+  "asOf": "2026-06-28T21:31:45.188Z",
   "items": [
     {
-      "headline": "South Africa v Canada: World Cup 2026 last 32 – live",
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:26:29 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Eustaquio scores in injury-time to take Canada through to the last 16",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df7c/live/ceedd4f0-7335-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 28 Jun 2026 21:24:53 GMT",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round of 16 Odds: Which Teams Will Make It?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-of-16-odds-who-will-make-round-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/davies-61-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:21:16 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Canada snatch last-gasp World Cup winner to break South Africa hearts in tepid knockout start",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/canada-snatch-last-gasp-world-212102451.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 21:21:02 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "World Cup schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 21:18:28 +0000",
+      "teams": [
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "South Korea Coach Hong Myung-bo Resigns After Early 2026 World Cup Exit",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/south-korea-coach-resigns-world-cup-exit-hong-myung-bo"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/hong1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:17:13 -0400",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/conspiracy-chaos-algeria-austria-defend-211638564.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 21:16:38 +0000",
+      "teams": [
+        "Spain",
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5814/live/45ed53e0-732d-11f1-995c-69ac9e3e1536.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 28 Jun 2026 21:16:30 GMT",
+      "teams": [
+        "Spain",
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "South Africa 0-1 Canada: World Cup 2026 last 32 – live reaction",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/28/south-africa-v-canada-world-cup-2026-last-32-live"
@@ -10,9 +149,139 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 19:59:28 GMT",
+      "pubDate": "Sun, 28 Jun 2026 21:14:43 GMT",
       "teams": [
         "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup knockout round schedule: Kickoff times, dates, fixtures, how to live stream, watch on TV",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 21:10:47 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Canada Makes More History With Round-Of-32 Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-canada-les-rouges"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/canada-odds-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:09:10 -0400",
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "World Cup results: Stephen Eustáquio's late goal sends Canada to Round of 16 in a 1-0 win over South Africa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-results-stephen-eustaquios-late-goal-sends-canada-to-round-of-16-in-a-1-0-win-over-south-africa-205704133.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 20:57:04 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Manchester United’s Manuel Ugarte set for spell on sidelines with knee injury",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/manchester-united-knee-ligament-manuel-ugarte-uruguay-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 20:56:44 GMT",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "What Is A Penalty Shootout At The World Cup? Rules Explained, How It Works",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/what-penalty-shootout-world-cup-rules-explained-how-works"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/c1fe6a46-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 16:55:02 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Brazil vs. Japan odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 31-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/brazil-japan-odds-prediction-time-2026-world-cup-round-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/061224b8-48bf-4c5b-a0db-b0737eca43de/vini-jr-neymay-brazil.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 20:42:54 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Cape Verde’s World Cup team captain accused of raping Brazilian translator during overseas trip",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cape-verde-world-cup-team-201612871.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 20:16:12 +0000",
+      "teams": [
+        "Brazil",
+        "New Zealand",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 20:12:41 +0000",
+      "teams": [
+        "Mexico",
         "Canada"
       ]
     },
@@ -387,22 +656,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Round of 16 Odds: Which Teams Will Make It?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-of-16-odds-who-will-make-round-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/davies-61-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:13:16 -0400",
-      "teams": []
-    },
-    {
       "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
       "links": {
         "web": {
@@ -420,22 +673,6 @@
         "France",
         "Norway"
       ]
-    },
-    {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 12:57:03 -0400",
-      "teams": []
     },
     {
       "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
@@ -804,22 +1041,6 @@
         "Congo DR",
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup knockout round schedule: Kickoff times, dates, fixtures, how to live stream, watch on TV",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:14:09 +0000",
-      "teams": []
     },
     {
       "headline": "2026 World Cup betting: Odds for every knockout stage team to win it all",
@@ -2380,21 +2601,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:38:27 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
       "headline": "England’s possible route to the World Cup 2026 final",
       "links": {
         "web": {
@@ -2616,25 +2822,6 @@
         "Iran",
         "Algeria",
         "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup group standings, table, schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:04:20 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
       ]
     },
     {
@@ -3284,25 +3471,6 @@
         "Algeria",
         "Austria",
         "Jordan"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Canada Favored Over South Africa In Round Of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-canada-les-rouges"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/canada-odds-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 20:41:06 -0400",
-      "teams": [
-        "South Africa",
-        "Canada"
       ]
     },
     {
@@ -15996,194 +16164,6 @@
       "teams": [
         "South Africa",
         "South Korea"
-      ]
-    },
-    {
-      "headline": "Mexico vs. Czechia odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/mexico-czechia-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/31ef973e-9f3e-44d6-91af-eebd5061ae16/mexico-soccer.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 12:28:01 +0000",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "How to Watch South Africa vs. South Korea: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/south-africa-vs-south-korea-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-a"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-south-africa-vs-south-korea-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:25:29 -0400",
-      "teams": [
-        "South Africa",
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "How to Watch Czechia vs. Mexico: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/czechia-vs-mexico-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-a"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-czechia-vs-mexico-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:22:06 -0400",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Brazil, Mexico, More",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-brazil-mexico-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-june-24.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:14:43 -0400",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Morocco vs. Haiti odds, prediction, time: 2026 World Cup picks, best bets from expert on 21-12 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/morocco-haiti-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/5cce82d7-9f5f-4d6b-b934-c99140cb6fc5/ismael-saibari-morocco-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 12:13:16 +0000",
-      "teams": [
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Scotland Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-brazil-scotland-odds-predictions-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282427629-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:00:26 -0400",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Morocco vs. Haiti Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-morocco-haiti-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281446970-2-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:00:23 -0400",
-      "teams": [
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Scotland odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/brazil-scotland-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/61a762c2-5d09-4514-b210-63f4f122b12d/usatsi-29193159-3.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 12:00:18 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Canada vs. Switzerland odds, prediction, time: 2026 World Cup picks from expert on 21-12 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/canada-switzerland-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/16/e37af0df-1c99-47cb-a2f4-8cc2e21b0f27/cyle-larin-canada-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:50:08 +0000",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Arsenal international limps away from World Cup match in new injury scare",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-international-limps-away-world-113500320.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:35:00 +0000",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     }
   ]
