@@ -1,6 +1,270 @@
 {
-  "asOf": "2026-06-28T16:18:47.128Z",
+  "asOf": "2026-06-28T17:40:55.682Z",
   "items": [
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 13:20:25 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored After Group Stage",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 13:17:03 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Round of 16 Odds: Which Teams Will Make It?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-of-16-odds-who-will-make-round-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/davies-61-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 13:13:16 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Jonathan David tops South Africa-Canada best bets Sunday",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-jonathan-david-tops-south-africa-canada-best-bets-sunday/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/3b661755-8539-4bb0-8988-61092b21b93f/david.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:05:20 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Man Utd confirm Ugarte knee ligament damage",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-utd-confirm-ugarte-knee-170140608.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:01:40 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Man Utd confirm Ugarte knee ligament damage",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 28 Jun 2026 17:01:35 GMT",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "South Africa v Canada: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/28/south-africa-v-canada-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 17:00:14 GMT",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-norway-ousmane-dembele-starring-role-fastest-world-cup-hat-trick-in-72-years/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3b701c3-f9a3-43eb-b861-3bcb95edb276/untitled-design-2026-06-26t184201-661.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 16:59:41 +0000",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 12:57:03 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 12:48:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi shines again as Argentina remain perfect, shift focus to World Cup Cinderella Cabo Verde",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messi-goal-argentina-win-group-2026-world-cup-cabo-verde/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/341daf55-64a7-4de5-8177-0f7891204699/messi-lionel-argentina.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 16:45:31 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: France, Argentina Top Oddsboard Heading Into Round Of 32",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/maignan-627.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 12:42:47 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 12:38:31 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Round Of 32 Predictions: One Thing To Watch For Every Team",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-round-32-predictions-one-thing-watch-every-team"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/b95e44dd-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 12:35:53 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup rankings: Ranking each team as the knockout rounds arrive",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-rankings-ranking-141602156.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 16:34:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Roma consider Pisilli untouchable",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/roma-consider-pisilli-untouchable-162000730.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 16:20:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Small-minded SFA must ditch parochial mentality if Scotland are to thrive | Ewan Murray",
       "links": {
@@ -16,7 +280,7 @@
       ]
     },
     {
-      "headline": "🤕Terrible news: Ugarte has torn his ligaments",
+      "headline": "🤕Official medical update: Ugarte suffered a ligament injury",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/terrible-news-ugarte-torn-ligaments-155000345.html"
@@ -46,7 +310,7 @@
       ]
     },
     {
-      "headline": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 game with a backstory",
+      "headline": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 tie with a backstory",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory"
@@ -565,25 +829,6 @@
       ]
     },
     {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Jonathan David tops South Africa-Canada best bets Sunday",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-jonathan-david-tops-south-africa-canada-best-bets-sunday/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/3b661755-8539-4bb0-8988-61092b21b93f/david.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 12:00:57 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
       "headline": "📸 2026 World Cup: our best XI from matchday 3 ✨",
       "links": {
         "web": {
@@ -850,25 +1095,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 10:10:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Lionel Messi shines again as Argentina remain perfect, shift focus to World Cup Cinderella Cabo Verde",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/lionel-messi-goal-argentina-win-group-2026-world-cup-cabo-verde/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/341daf55-64a7-4de5-8177-0f7891204699/messi-lionel-argentina.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 10:01:48 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
     },
     {
       "headline": "MODRIĆ DELIVERS FOR CROATIA",
@@ -1598,22 +1824,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 01:12:04 -0400",
-      "teams": []
-    },
-    {
       "headline": "Messi Becomes First Player To Score In Seven Straight World Cup Matches",
       "links": {
         "web": {
@@ -1953,22 +2163,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 00:26:58 -0400",
-      "teams": []
-    },
-    {
       "headline": "Late drama sends Austria and Algeria into World Cup knockouts to break Iran hearts",
       "links": {
         "web": {
@@ -2000,25 +2194,6 @@
       "source": "Fox Sports",
       "pubDate": "Sun, 28 Jun 2026 00:23:46 -0400",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 00:23:34 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
     },
     {
       "headline": "2026 World Cup Odds: Mexico Favored Over Ecuador In Round Of 32",
@@ -2127,25 +2302,6 @@
       "teams": [
         "Algeria",
         "Austria"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: France, Argentina Top Oddsboard Heading Into Round Of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/maignan-627.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 00:09:41 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -3688,22 +3844,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Dembélé Crashes Party After Hat Trick",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ousmane-626.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 18:55:45 -0400",
-      "teams": []
-    },
-    {
       "headline": "Isak Hien opens up on missing the France game 😢🇸🇪",
       "links": {
         "web": {
@@ -4333,38 +4473,6 @@
       "teams": [
         "France"
       ]
-    },
-    {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:41:41 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Round of 16 Odds: Which Teams Will Make It?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-of-16-odds-who-will-make-round-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/davies-61-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:35:28 -0400",
-      "teams": []
     },
     {
       "headline": "Three Nations, 48 Teams, and Football’s Greatest Show on Earth",
@@ -6926,25 +7034,6 @@
         "Cape Verde Islands",
         "Portugal",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-norway-ousmane-dembele-starring-role-fastest-world-cup-hat-trick-in-72-years/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3b701c3-f9a3-43eb-b861-3bcb95edb276/untitled-design-2026-06-26t184201-661.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 02:20:00 +0000",
-      "teams": [
-        "France",
-        "Norway"
       ]
     },
     {
@@ -16100,114 +16189,6 @@
       "pubDate": "Wed, 24 Jun 2026 10:31:09 GMT",
       "teams": [
         "Scotland"
-      ]
-    },
-    {
-      "headline": "How to Watch Morocco vs. Haiti: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-morocco-vs-haiti-tv-channel-live-stream-2026-fifa-world-cup-group-c"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-morocco-vs-haiti-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 06:24:49 -0400",
-      "teams": [
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "'Not much faith’: the view from Brazil as they prepare to face Scotland | Tom Sanderson",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/view-brazil-scotland-neymar-casemiro-endrick-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland",
-        "Egypt",
-        "Saudi Arabia",
-        "Spain",
-        "France",
-        "Argentina",
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "How to Watch Scotland vs. Brazil: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/scotland-vs-brazil-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-c"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-scotland-vs-brazil-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 06:22:14 -0400",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "World Cup quiz: Name Scotland and Brazil's teams in 1998",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ce9p37ygn03o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be4b/live/3d1a1f00-6815-11f1-8e1d-bbbb1017d210.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 24 Jun 2026 09:52:53 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Norwich's Cordoba exits World Cup with Panama",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norwichs-cordoba-exits-world-cup-091350419.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 09:13:50 +0000",
-      "teams": [
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Five breakout World Cup stars who could prosper in the Premier League | David Pleat",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/five-breakout-world-cup-stars-who-could-prosper-in-the-premier-league"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 09:00:41 GMT",
-      "teams": [
-        "Morocco"
       ]
     }
   ]
