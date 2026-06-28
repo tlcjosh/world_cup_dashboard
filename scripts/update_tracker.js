@@ -8,7 +8,20 @@ const __dirname = dirname(__filename);
 const DATA_PATH = join(__dirname, '..', 'src', 'data', 'data.json');
 const FIFA_RANKINGS_PATH = join(__dirname, '..', 'src', 'data', 'fifa_rankings.json');
 const RSS_NEWS_PATH = join(__dirname, '..', 'src', 'data', 'rss_news.json');
+const COMBINATIONS_PATH = join(__dirname, '..', 'src', 'data', 'combinations.json');
 const BLUEPRINT_DIR = join(__dirname, '..', 'blueprint_data');
+
+// Maps 3rd-place slot code -> which 1st-place group runner they face (kept in sync with src/app.js)
+const SLOT_TO_OPPONENT = {
+  "3CEFHI": "1A",
+  "3EFGIJ": "1B",
+  "3BEFIJ": "1D",
+  "3ABCDF": "1E",
+  "3AEHIJ": "1G",
+  "3CDFGH": "1I",
+  "3DEIJL": "1K",
+  "3EHIJK": "1L"
+};
 
 const TEAM_MASTER_DATA = {
   "Mexico": { group: "A", iso: "mx", espnId: 203, fifaRank: 14 }, "South Africa": { group: "A", iso: "za", espnId: 467, fifaRank: 60 }, "South Korea": { group: "A", iso: "kr", espnId: 451, fifaRank: 25 }, "Czechia": { group: "A", iso: "cz", espnId: 450, fifaRank: 40 },
@@ -594,6 +607,108 @@ function computeStandings(matches) {
   return result;
 }
 
+// Cross-group comparison of all 12 groups' 3rd-place finishers (kept in sync with src/app.js).
+// Head-to-head doesn't apply here -- different groups never play each other -- so this falls
+// straight to fair play -> FIFA ranking -> alphabetical.
+function computeThirdPlaceRankings(standings) {
+  const thirds = [];
+  for (const [grp, teams] of Object.entries(standings)) {
+    if (teams.length >= 3) thirds.push({ ...teams[2], groupLetter: grp });
+  }
+  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || (b.fairPlayPoints || 0) - (a.fairPlayPoints || 0) || (fifaRankOf(a.team) - fifaRankOf(b.team)) || a.team.localeCompare(b.team));
+  return thirds;
+}
+
+function getThirdPlaceCombinationString(topEight) {
+  return topEight.map(t => t.groupLetter).sort().join('');
+}
+
+// Resolves every knockout-bracket placeholder team name ([1A], [2B], [3BEFIJ],
+// [W74], [L101], etc.) to a real team name, once enough information exists --
+// run server-side (unlike the frontend's speculative Live/Official projection)
+// because by the time this runs, the relevant matches are already FINISHED, so
+// there's nothing to project: standings/results are exact. Mutates `matches`
+// in place, writing resolved homeTeam/homeIso/awayTeam/awayIso onto each
+// knockout match whose placeholder(s) can now be resolved. Iterates a few
+// passes since later rounds ([W89] etc.) depend on earlier rounds having
+// already been resolved to real names this same run.
+function resolveBracketPlaceholders(matches) {
+  const groupMatches = matches.filter(m => m.stage === 'Group Stage');
+  const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
+  if (!groupStageComplete) return false;
+
+  const standings = computeStandings(matches);
+  const thirdPlace = computeThirdPlaceRankings(standings);
+  const topEight = thirdPlace.slice(0, 8);
+  const combinationString = getThirdPlaceCombinationString(topEight);
+  let combinations = {};
+  try { combinations = JSON.parse(readFileSync(COMBINATIONS_PATH, 'utf8')); } catch { /* leave empty */ }
+  const combEntry = combinations[combinationString];
+
+  const byMatchNum = {};
+  for (const m of matches) byMatchNum[m.matchNum] = m;
+
+  function resolvePlaceholder(placeholder) {
+    const m = placeholder.match(/^\[(.+)\]$/);
+    if (!m) return null;
+    const code = m[1];
+
+    const posMatch = code.match(/^([1-4])([A-L])$/);
+    if (posMatch) {
+      const pos = parseInt(posMatch[1], 10) - 1;
+      const grp = posMatch[2];
+      const t = standings[grp]?.[pos];
+      return t ? { name: t.team, iso: t.iso } : null;
+    }
+
+    const thirdMatch = code.match(/^3([A-L]+)$/);
+    if (thirdMatch) {
+      const opponentKey = SLOT_TO_OPPONENT[code];
+      const teamCode = opponentKey && combEntry?.[opponentKey]; // e.g. "3E"
+      if (!teamCode) return null;
+      const grpLetter = teamCode.replace('3', '');
+      const t = standings[grpLetter]?.[2];
+      return t ? { name: t.team, iso: t.iso } : null;
+    }
+
+    const wlMatch = code.match(/^([WL])(\d+)$/);
+    if (wlMatch) {
+      const feeder = byMatchNum[parseInt(wlMatch[2], 10)];
+      if (!feeder || feeder.status !== 'FINISHED' || feeder.homeScore === null || feeder.awayScore === null) return null;
+      if (feeder.homeTeam?.startsWith('[') || feeder.awayTeam?.startsWith('[')) return null;
+      const homeWon = feeder.homeScore > feeder.awayScore;
+      const winner = homeWon ? { name: feeder.homeTeam, iso: feeder.homeIso } : { name: feeder.awayTeam, iso: feeder.awayIso };
+      const loser = homeWon ? { name: feeder.awayTeam, iso: feeder.awayIso } : { name: feeder.homeTeam, iso: feeder.homeIso };
+      return wlMatch[1] === 'W' ? winner : loser;
+    }
+
+    return null;
+  }
+
+  let changed = false;
+  // A few passes so [W89]-style placeholders resolve once their own feeder
+  // matches were just resolved (by team name, not yet by score) earlier in
+  // the same pass -- though W/L specifically also needs the feeder's score,
+  // so this mainly helps name/iso propagate to subsequent rounds quickly
+  // once a feeder match is actually played.
+  for (let pass = 0; pass < 3; pass++) {
+    let passChanged = false;
+    for (const knockoutMatch of matches) {
+      if (knockoutMatch.stage === 'Group Stage') continue;
+      if (knockoutMatch.homeTeam?.startsWith('[')) {
+        const r = resolvePlaceholder(knockoutMatch.homeTeam);
+        if (r) { knockoutMatch.homeTeam = r.name; knockoutMatch.homeIso = r.iso; changed = true; passChanged = true; }
+      }
+      if (knockoutMatch.awayTeam?.startsWith('[')) {
+        const r = resolvePlaceholder(knockoutMatch.awayTeam);
+        if (r) { knockoutMatch.awayTeam = r.name; knockoutMatch.awayIso = r.iso; changed = true; passChanged = true; }
+      }
+    }
+    if (!passChanged) break;
+  }
+  return changed;
+}
+
 function bootstrapFromApi(apiMatches, now) {
   const groupStageApi = apiMatches
     .filter(m => m.stage === 'GROUP_STAGE' || (m.homeTeam?.name && TEAM_MASTER_DATA[m.homeTeam.name]?.group))
@@ -758,6 +873,13 @@ async function main() {
   }
 
   await syncMatchStats(current.matches);
+  // Once the group stage is fully FINISHED, standings/third-place rankings are
+  // exact (no projection needed) -- resolve [1A]/[3BEFIJ]/[W74]-style knockout
+  // placeholders to real team names so the self-heal matchId lookup above (and
+  // the frontend's ESPN team-ID matching) can actually find these fixtures
+  // once football-data.org/ESPN populate them, instead of waiting on a manual
+  // name match against a placeholder string that can never match.
+  resolveBracketPlaceholders(current.matches);
   current.standings = computeStandings(current.matches);
   current.lastUpdated = now;
 
