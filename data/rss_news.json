@@ -1,6 +1,22 @@
 {
-  "asOf": "2026-06-28T13:52:29.740Z",
+  "asOf": "2026-06-28T13:59:36.520Z",
   "items": [
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 13:50:21 +0000",
+      "teams": []
+    },
     {
       "headline": "🥶 Jones-Inter, truth on Koné-Atletico and more: today's market 🤑",
       "links": {
@@ -151,22 +167,6 @@
         "Haiti",
         "Scotland"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:10:07 +0000",
-      "teams": []
     },
     {
       "headline": "🤔 What should Brazil's line-up be for clash with Japan? Have your say!",
