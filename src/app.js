@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v24';
-const APP_UPDATED = '2026-06-26 14:06 UTC';
+const APP_VERSION = 'v24.1';
+const APP_UPDATED = '2026-06-28 13:51 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -2308,18 +2308,17 @@ function getTodayMatches() {
   });
 }
 
-// ===== RENDER SCHEDULE =====
-function renderSchedule(opts = {}) {
-  const el = document.getElementById('view-schedule');
-  const matches = state.matches;
+// Resolves any knockout placeholder team names (e.g. "[1A]", "[W73]",
+// "[3BEFIJ]") on a match to actual team names, using the same Live/Official
+// and per-slot-probability logic as renderSchedule()/renderBracket(). Shared
+// so the match detail modal (openMatchModal) shows the same resolved
+// matchups the Schedule/Bracket cards already do, instead of raw placeholder
+// strings.
+function resolveMatchTeams(m) {
+  if (!m.homeTeam?.startsWith('[') && !m.awayTeam?.startsWith('[')) return m;
 
-  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
-
-  // Same Live/Official resolution used by the Bracket view — resolves knockout
-  // placeholder slots (e.g. "[1A]", "[W73]") to actual team names once the group
-  // stage is complete, or speculatively while Live mode is on.
-  const groupMatches = state.matches.filter(m => m.stage === 'Group Stage');
-  const groupStageComplete = groupMatches.length > 0 && groupMatches.every(m => m.status === 'FINISHED');
+  const groupMatches = state.matches.filter(g => g.stage === 'Group Stage');
+  const groupStageComplete = groupMatches.length > 0 && groupMatches.every(g => g.status === 'FINISHED');
   const resolveGroupSlots = groupStageComplete || state.liveMode || thirdPlaceWildcardProjectable(state.matches, state.standings);
   const statuses = state.liveMode ? ['FINISHED', 'IN_PLAY', 'PAUSED'] : ['FINISHED'];
   const computedStandings = resolveGroupSlots
@@ -2329,23 +2328,32 @@ function renderSchedule(opts = {}) {
   const combinationString = resolveGroupSlots ? getThirdPlaceCombinationString(thirdPlace.slice(0, 8)) : '';
   const { slotResolutions } = computeWildcardProbabilitiesCached(state.matches, state.standings);
 
+  function resolveSide(placeholder) {
+    if (!placeholder?.startsWith('[')) return null;
+    if (resolveGroupSlots) return resolveTeam(placeholder, computedStandings, thirdPlace, combinationString, slotResolutions);
+    return resolveWildcardSlotOnly(placeholder, slotResolutions);
+  }
+  const home = resolveSide(m.homeTeam);
+  const away = resolveSide(m.awayTeam);
+  if (!home && !away) return m;
+  return {
+    ...m,
+    homeTeam: home ? home.name : m.homeTeam,
+    homeIso: home ? home.iso : m.homeIso,
+    awayTeam: away ? away.name : m.awayTeam,
+    awayIso: away ? away.iso : m.awayIso,
+  };
+}
+
+// ===== RENDER SCHEDULE =====
+function renderSchedule(opts = {}) {
+  const el = document.getElementById('view-schedule');
+  const matches = state.matches;
+
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
   function resolvedMatch(m) {
-    if (!m.homeTeam?.startsWith('[') && !m.awayTeam?.startsWith('[')) return m;
-    function resolveSide(placeholder) {
-      if (!placeholder?.startsWith('[')) return null;
-      if (resolveGroupSlots) return resolveTeam(placeholder, computedStandings, thirdPlace, combinationString, slotResolutions);
-      return resolveWildcardSlotOnly(placeholder, slotResolutions);
-    }
-    const home = resolveSide(m.homeTeam);
-    const away = resolveSide(m.awayTeam);
-    if (!home && !away) return m;
-    return {
-      ...m,
-      homeTeam: home ? home.name : m.homeTeam,
-      homeIso: home ? home.iso : m.homeIso,
-      awayTeam: away ? away.name : m.awayTeam,
-      awayIso: away ? away.iso : m.awayIso,
-    };
+    return resolveMatchTeams(m);
   }
 
   // Group by local Pacific date
@@ -3296,8 +3304,9 @@ function matchDetailStatsHtml(espnData, match) {
 }
 
 async function openMatchModal(matchNum) {
-  const match = state.matches.find(m => m.matchNum === matchNum);
-  if (!match) return;
+  const rawMatch = state.matches.find(m => m.matchNum === matchNum);
+  if (!rawMatch) return;
+  const match = resolveMatchTeams(rawMatch);
 
   const isHome = true;
   const homeWon = match.homeScore !== null && match.awayScore !== null && match.homeScore > match.awayScore;
