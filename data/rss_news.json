@@ -1,6 +1,172 @@
 {
-  "asOf": "2026-06-28T14:55:50.100Z",
+  "asOf": "2026-06-28T16:18:47.128Z",
   "items": [
+    {
+      "headline": "Small-minded SFA must ditch parochial mentality if Scotland are to thrive | Ewan Murray",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/scotland-search-new-coach-replace-steve-clarke"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 15:59:37 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "🤕Terrible news: Ugarte has torn his ligaments",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/terrible-news-ugarte-torn-ligaments-155000345.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 15:50:00 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Is South Africa v Canadaon TV? Channel, time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/south-africa-v-canadaon-tv-064400443.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 15:42:23 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 game with a backstory",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 15:38:45 GMT",
+      "teams": [
+        "Mexico",
+        "Qatar",
+        "Morocco",
+        "Netherlands",
+        "Belgium",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Football Daily | England muddle on and Clarke checks out as World Cup moves up a gear",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/england-scotland-world-cup-group-stage-finale"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 15:13:12 GMT",
+      "teams": [
+        "South Africa",
+        "Canada",
+        "Scotland",
+        "Algeria",
+        "Austria",
+        "Portugal",
+        "England"
+      ]
+    },
+    {
+      "headline": "England players using drink developed by Brownlee to help beat World Cup heat",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/england-players-sports-drink-extreme-heat-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 15:05:46 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Cups of tea and a roaring crowd: Sydney’s Algerian community gathers for World Cup nailbiter",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/cups-of-tea-and-a-roaring-crowd-sydneys-algerian-community-gathers-for-world-cup-nailbiter"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 15:00:14 GMT",
+      "teams": [
+        "Algeria"
+      ]
+    },
+    {
+      "headline": "World Cup midfielder likely to be outside of Newcastle&#8217;s range",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-midfielder-likely-outside-150000941.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 15:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid defender Militao looking forward to Jose Mourinho era: &#8216;I&#8217;m eager to train again&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-defender-militao-looking-145000063.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:50:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Welcome to the real World Cup – the tournament begins now",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/welcome-real-world-cup-tournament-090807779.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:43:24 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Did the new World Cup group stage format work? Was the 48-team field a success as knockout stage begins?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/did-the-new-world-cup-group-stage-format-work-was-the-48-team-field-a-success-as-knockout-stage-begins/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/3be388dd-b55d-49aa-aded-9f099e2807ee/untitled-design-2026-06-28t102405-314.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:32:14 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: England to face DRC, Clarke quits Scotland, South Korea president blasts team – live",
       "links": {
@@ -174,6 +340,18 @@
       "teams": []
     },
     {
+      "headline": "World Cup 2026 knockout fixtures, results and full tournament bracket",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 13:50:04 +0000",
+      "teams": []
+    },
+    {
       "headline": "🥶 Jones-Inter, truth on Koné-Atletico and more: today's market 🤑",
       "links": {
         "web": {
@@ -285,18 +463,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 13:27:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 knockout fixtures, results and full tournament bracket",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:16:19 +0000",
       "teams": []
     },
     {
@@ -874,18 +1040,6 @@
       ]
     },
     {
-      "headline": "Welcome to the real World Cup – the tournament begins now",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/welcome-real-world-cup-tournament-090807779.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 09:08:07 +0000",
-      "teams": []
-    },
-    {
       "headline": "Barcelona legend Messi cannot stop breaking records in age-defying World Cup campaign",
       "links": {
         "web": {
@@ -1273,21 +1427,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 06:45:59 +0000",
       "teams": []
-    },
-    {
-      "headline": "Is South Africa v Canadaon TV? Channel, time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-v-canadaon-tv-064400443.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 06:44:00 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
     },
     {
       "headline": "England remain dysfunctional but a new Jude Bellingham threat gives World Cup hope",
@@ -8445,7 +8584,7 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Fri, 26 Jun 2026 16:09:48 +0000",
+      "pubDate": "Fri, 26 Jun 2026 16:09:49 +0000",
       "teams": [
         "Egypt",
         "Iran"
@@ -16069,147 +16208,6 @@
       "pubDate": "Wed, 24 Jun 2026 09:00:41 GMT",
       "teams": [
         "Morocco"
-      ]
-    },
-    {
-      "headline": "Switzerland vs. Canada Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-switzerland-canada-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8ba03741-82ee93e6-dcb4e68f-gettyimages-2282286238-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 05:00:19 -0400",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Bosnia And Herzegovina vs. Qatar Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bosnia-and-herzegovina-qatar-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2269290103-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 05:00:11 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "LEÃO'S INSTANT IMPACT, 200 CAPS FOR MODRIĆ",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/le-os-instant-impact-200-090000073.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 09:00:00 +0000",
-      "teams": [
-        "Portugal",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Serie A reacts to historic Ronaldo brace with social media message",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/serie-reacts-historic-ronaldo-brace-085000256.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:50:00 +0000",
-      "teams": [
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham says England played with ‘little bit of fear’ against ‘exceptional’ Ghana",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-says-england-played-083946939.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:39:46 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "📲 Wednesday: Scotland v Brazil at the World Cup, see fixtures",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-v-scotland-wednesday-world-083800419.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:38:00 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Beyond the World Cup... 5️⃣ stories shaping Wednesday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/beyond-world-cup-5-stories-082700401.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:27:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Stormzy predicts correct result as celebrities turnout for England v Ghana in World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/stormzy-predicts-correct-result-celebrities-082700512.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:27:00 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Tartan Army to pack out pubs and bars as Scotland bid to make World Cup history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tartan-army-pack-pubs-bars-082542390.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:25:42 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
       ]
     }
   ]
