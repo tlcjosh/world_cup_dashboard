@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v24.1';
-const APP_UPDATED = '2026-06-28 13:51 UTC';
+const APP_VERSION = 'v24.2';
+const APP_UPDATED = '2026-06-28 14:03 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1795,7 +1795,12 @@ function resolveTeam(placeholder, computedStandings, computedThirdPlace, combina
     const isWinner = wlMatch[1] === 'W';
     const refNum = parseInt(wlMatch[2], 10);
     const refMatch = state.matches.find(mm => mm.matchNum === refNum);
-    if (refMatch && refMatch.status === 'FINISHED') {
+    // In Live mode, an in-play/paused match with a current leader resolves the
+    // slot speculatively too -- a tied score changes nothing (falls through to
+    // the raw placeholder below, same as before a match kicks off).
+    const refDecided = refMatch && (refMatch.status === 'FINISHED' ||
+      (state.liveMode && (refMatch.status === 'IN_PLAY' || refMatch.status === 'PAUSED') && refMatch.homeScore !== refMatch.awayScore));
+    if (refDecided) {
       let winnerTeam, loserTeam, winnerIso, loserIso;
       if (refMatch.homeScore > refMatch.awayScore) {
         winnerTeam = refMatch.homeTeam; winnerIso = refMatch.homeIso;
