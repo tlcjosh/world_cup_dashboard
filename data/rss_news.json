@@ -1,6 +1,203 @@
 {
-  "asOf": "2026-06-28T17:40:55.682Z",
+  "asOf": "2026-06-28T18:52:11.704Z",
   "items": [
+    {
+      "headline": "USMNT head coach Mauricio Pochettino offered contract extension through 2030 World Cup, per report",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-mauricio-pochettino-offered-contract-extension-2030-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/6b73f773-e10c-4dd6-9d03-72ef8f861851/poch.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 18:47:29 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "South Africa v Canada: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/28/south-africa-v-canada-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 18:45:48 GMT",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Real Madrid players dominate World Cup MVP race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-players-dominate-world-180500931.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 18:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Jonathan David tops South Africa-Canada best bets Sunday",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-jonathan-david-tops-south-africa-canada-best-bets-sunday/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/3b661755-8539-4bb0-8988-61092b21b93f/david.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 18:02:36 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel has a new Jude Bellingham problem",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-jude-bellingham-problem-180040085.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 18:00:40 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "‘We don’t want penalties’: Pickford backs England’s attacking approach",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/jordan-pickford-england-world-cup-democratic-republic-congo"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 18:00:15 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Jordan",
+        "Congo DR",
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: South Africa vs Canada Lineups – Juventus’ David leads line as hosts get knockouts underway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-south-africa-175000336.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:50:00 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo offers advice to injury-hit Real Madrid forward: &#8216;Be patient&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-offers-advice-injury-174500337.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:45:00 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Ugarte has 'most serious injury footballer can face'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-utd-confirm-ugarte-knee-170140608.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:42:26 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Ugarte has 'most serious injury footballer can face'",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 28 Jun 2026 17:42:20 GMT",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Jordan Henderson reflects on landmark England appearance at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jordan-henderson-reflects-landmark-england-174053676.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:40:53 +0000",
+      "teams": [
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Canada vs. South Africa odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-south-africa-odds-prediction-time-2026-world-cup-round-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/08/0774b605-726a-462a-a458-3bd85d65d31e/canada-vs-bosnia-soccer-cbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 17:40:30 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
     {
       "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
       "links": {
@@ -51,74 +248,6 @@
       "source": "Fox Sports",
       "pubDate": "Sun, 28 Jun 2026 13:13:16 -0400",
       "teams": []
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Jonathan David tops South Africa-Canada best bets Sunday",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-jonathan-david-tops-south-africa-canada-best-bets-sunday/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/3b661755-8539-4bb0-8988-61092b21b93f/david.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 17:05:20 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Man Utd confirm Ugarte knee ligament damage",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-utd-confirm-ugarte-knee-170140608.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 17:01:40 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Man Utd confirm Ugarte knee ligament damage",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d61/live/d7fa4f20-7311-11f1-9169-4725bbe8797c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 17:01:35 GMT",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "South Africa v Canada: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/28/south-africa-v-canada-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 17:00:14 GMT",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
     },
     {
       "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
@@ -551,25 +680,6 @@
       "pubDate": "Sun, 28 Jun 2026 14:11:09 +0000",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "Canada vs. South Africa odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/canada-south-africa-odds-prediction-time-2026-world-cup-round-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/08/0774b605-726a-462a-a458-3bd85d65d31e/canada-vs-bosnia-soccer-cbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:04:48 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
       ]
     },
     {
@@ -8273,24 +8383,6 @@
       "source": "BBC Sport",
       "pubDate": "Fri, 26 Jun 2026 18:20:04 GMT",
       "teams": []
-    },
-    {
-      "headline": "USMNT head coach Mauricio Pochettino offered contract extension through 2030 World Cup, per report",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-mauricio-pochettino-offered-contract-extension-2030-world-cup/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/6b73f773-e10c-4dd6-9d03-72ef8f861851/poch.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 18:18:58 +0000",
-      "teams": [
-        "United States"
-      ]
     },
     {
       "headline": "Spain vs. Uruguay odds, prediction, time: 2026 World Cup picks, best bets from expert on 23-13 run",
@@ -16101,93 +16193,6 @@
       "pubDate": "Wed, 24 Jun 2026 11:00:43 +0000",
       "teams": [
         "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Liverpool decide against £50m attacking move",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-decide-against-50m-attacking-105500746.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 10:55:00 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Who are the World Cup's record holders?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cups-record-holders-142417835.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 10:49:37 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘For future generations’: Brazil working hard to ensure successful 2027 Women’s World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/brazil-working-hard-to-ensure-successful-2027-womens-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 10:36:54 GMT",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "What are Scotland's chances of progressing as third-place finishers?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotlands-chances-progressing-third-place-063911465.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 10:35:08 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "McLean's 'got to start' against Brazil - Allan",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mcleans-got-start-against-brazil-103146803.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 10:31:46 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "What are Scotland's chances of progressing as third-place finishers?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gyqvxxqveo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4098/live/351f4a70-6f61-11f1-837d-f9012da84810.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 24 Jun 2026 10:31:09 GMT",
-      "teams": [
         "Scotland"
       ]
     }
