@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-28T13:59:36.520Z",
+  "asOf": "2026-06-28T14:04:11.489Z",
   "items": [
     {
       "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
@@ -27,6 +27,18 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 13:46:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Which Serie A side has the most representatives left at the 2026 World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/serie-side-most-representatives-left-134500339.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 13:45:00 +0000",
       "teams": []
     },
     {
@@ -16197,25 +16209,6 @@
       "teams": [
         "Congo DR",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "How to Watch Bosnia and Herzegovina vs. Qatar: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-bosnia-and-herzegovina-vs-qatar-tv-channel-live-stream-2026-fifa-world-cup-group-b"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-bosnia-and-herzegovina-vs-qatar-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 03:46:35 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar"
       ]
     }
   ]
