@@ -1,6 +1,162 @@
 {
-  "asOf": "2026-06-28T14:04:11.489Z",
+  "asOf": "2026-06-28T14:55:50.100Z",
   "items": [
+    {
+      "headline": "World Cup 2026: England to face DRC, Clarke quits Scotland, South Korea president blasts team – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 14:31:47 GMT",
+      "teams": [
+        "South Korea",
+        "Scotland",
+        "Iran",
+        "France",
+        "Argentina",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mertesacker on Italy’s World Cup absence: ”They don’t deserve to be talked about’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mertesacker-italy-world-cup-absence-142500136.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "More Nations, More Dreams: The Impact of the 48-Team World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/more-nations-more-dreams-impact-142500148.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Nico Paz after World Cup debut: &#8220;Realised a life-long dream&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nico-paz-world-cup-debut-142500475.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:25:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Rice set for England start against DR Congo",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-set-england-start-against-141503432.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:17:49 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Rice set for England start against DR Congo",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgjd5j74z5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae1/live/f7d6c430-72f4-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 28 Jun 2026 14:14:57 GMT",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup knockout round schedule: Kickoff times, dates, fixtures, how to live stream, watch on TV",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:14:09 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup betting: Odds for every knockout stage team to win it all",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-betting-odds-for-every-knockout-stage-team-to-win-it-all-141109939.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:11:09 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Canada vs. South Africa odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-south-africa-odds-prediction-time-2026-world-cup-round-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/08/0774b605-726a-462a-a458-3bd85d65d31e/canada-vs-bosnia-soccer-cbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:04:48 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "World Cup schedule today: How to watch South Africa v Canada, TV channels & live stream Sunday 28 June",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140021669.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 14:00:21 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
     {
       "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
       "links": {
@@ -59,26 +215,6 @@
         "Mexico",
         "Canada",
         "United States"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England to face DRC, Clarke quits Scotland, South Korea president blasts team – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 13:40:58 GMT",
-      "teams": [
-        "South Korea",
-        "Scotland",
-        "Iran",
-        "France",
-        "Argentina",
-        "Congo DR",
-        "England"
       ]
     },
     {
@@ -705,7 +841,7 @@
       "teams": []
     },
     {
-      "headline": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
+      "headline": "27 flights, 24 matches: The carbon cost of Fifa president's World Cup tour",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss"
@@ -1065,7 +1201,7 @@
       ]
     },
     {
-      "headline": "Lionel Messi steps off bench and scores to cap Argentina’s World Cup win over Jordan",
+      "headline": "Lionel Messi steps off bench and makes a little more history in Argentina’s World Cup win over Jordan",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/28/argentian-jordan-world-cup-group-j-match-report"
@@ -1942,22 +2078,6 @@
         "Brazil",
         "Argentina"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup knockout round schedule: Kickoff times, dates, fixtures, how to live stream, watch on TV",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:02:12 +0000",
-      "teams": []
     },
     {
       "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
@@ -16090,125 +16210,6 @@
       "teams": [
         "Brazil",
         "Scotland"
-      ]
-    },
-    {
-      "headline": "‘We rely on Harry Kane’ &#8211; Thomas Tuchel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rely-harry-kane-thomas-tuchel-082500582.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:25:00 +0000",
-      "teams": [
-        "England",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Diomande or Barcola to Anfield?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/diomande-barcola-anfield-082231494.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:22:31 +0000",
-      "teams": [
-        "Germany",
-        "Ivory Coast",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Real Madrid preparing final push to secure Vinicius Jr.&#8217;s long-term future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-preparing-final-push-082000161.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:20:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Palace must invest again",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/palace-must-invest-again-081241248.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:12:41 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Tuchel should drop key England star in World Cup group finale against Panama",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-drop-key-england-star-080500157.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:05:00 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "England’s second-game syndrome and Ronaldo joins the party – World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/24/englands-second-game-syndrome-and-ronaldo-joins-the-party-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 08:02:37 GMT",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Real Madrid ace faces unexpected challenge after national teammate shines at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-ace-faces-unexpected-080000817.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 08:00:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Constant menace Munoz makes difference for Colombia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/constant-menace-munoz-makes-difference-075544320.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 07:55:44 +0000",
-      "teams": [
-        "Congo DR",
-        "Colombia"
       ]
     }
   ]
