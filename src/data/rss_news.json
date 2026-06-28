@@ -1,6 +1,207 @@
 {
-  "asOf": "2026-06-28T09:45:52.240Z",
+  "asOf": "2026-06-28T11:27:37.339Z",
   "items": [
+    {
+      "headline": "World Cup 2026: England to face DRC, Clarke quits Scotland, South Korea president blasts team – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 11:12:21 GMT",
+      "teams": [
+        "South Korea",
+        "Scotland",
+        "Iran",
+        "France",
+        "Argentina",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Jose Mourinho faces major preseason problem ahead of new era at Real Madrid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jose-mourinho-faces-major-preseason-111000686.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 11:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup glory could all come down to penalties. What’s the best strategy?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/world-cup-glory-could-all-come-down-to-penalties-whats-the-best-strategy"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 11:00:11 GMT",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 colour chart: fans of all 48 teams join the party – in pictures",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/world-cup-2026-colour-chart-fans-all-teams-gallery"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 11:00:11 GMT",
+      "teams": [
+        "Mexico",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham hints at how Real Madrid can unlock his best form",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-hints-real-madrid-104000929.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 10:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona winger shuts out the noise and focuses on World Cup comeback after injury blow",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-winger-shuts-noise-focuses-101000190.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 10:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi shines again as Argentina remain perfect, shift focus to World Cup Cinderella Cabo Verde",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messi-goal-argentina-win-group-2026-world-cup-cabo-verde/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/341daf55-64a7-4de5-8177-0f7891204699/messi-lionel-argentina.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 28 Jun 2026 10:01:48 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "MODRIĆ DELIVERS FOR CROATIA",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/modri-delivers-croatia-100000229.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 10:00:00 +0000",
+      "teams": [
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "World Cup: top scorers, assists, the latest rankings 🚀",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-top-scorers-assists-095800312.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 09:58:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Crystal Palace and Sunderland top Premier League World Cup goals chart",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/crystal-palace-sunderland-top-premier-095730346.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 09:57:30 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6740/live/ee8ca130-72ca-11f1-8d28-af7129502366.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 28 Jun 2026 09:57:25 GMT",
+      "teams": []
+    },
+    {
+      "headline": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/27-flights-24-matches-fifas-092057456.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 09:46:49 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "📹 World Cup madness: fans CELEBRATE goals against their team!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-madness-fans-celebrate-094200739.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 09:42:00 +0000",
+      "teams": [
+        "Algeria",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "How to win a World Cup penalty shootout",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/win-world-cup-penalty-shootout-093849361.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 28 Jun 2026 09:38:49 +0000",
+      "teams": []
+    },
     {
       "headline": "How to win a World Cup penalty shootout",
       "links": {
@@ -45,20 +246,6 @@
       "headline": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/27-flights-24-matches-fifas-092057456.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 09:20:57 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
-      "links": {
-        "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss"
         }
       },
@@ -71,24 +258,6 @@
       "pubDate": "Sun, 28 Jun 2026 09:20:51 GMT",
       "teams": [
         "United States"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England win, Clarke quits Scotland and Iran denied at the last – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 09:20:26 GMT",
-      "teams": [
-        "Scotland",
-        "Iran",
-        "France",
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -912,25 +1081,6 @@
       "source": "Fox Sports",
       "pubDate": "Sun, 28 Jun 2026 00:59:21 -0400",
       "teams": []
-    },
-    {
-      "headline": "Lionel Messi shines again as Argentina remain perfect, shift focus to World Cup Cinderella Cabo Verde",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/lionel-messi-goal-argentina-win-group-2026-world-cup-cabo-verde/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/341daf55-64a7-4de5-8177-0f7891204699/messi-lionel-argentina.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:47:35 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
     },
     {
       "headline": "World Cup Round of 32: Knockout rounds begin with Canada taking on South Africa",
@@ -1878,6 +2028,23 @@
       "teams": []
     },
     {
+      "headline": "‘We will step up’: Thomas Tuchel feels England will thrive in World Cup knockouts",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/thomas-tuchel-england-world-cup-knockouts"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 28 Jun 2026 01:31:49 GMT",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
       "headline": "Why England's back four has no stability",
       "links": {
         "web": {
@@ -2444,6 +2611,22 @@
       "pubDate": "Sat, 27 Jun 2026 19:28:36 -0400",
       "teams": [
         "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup player ratings: Bellingham and Rashford spark England against Panama",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/england-2-0-panama-world-cup-group-l-player-ratings-from-new-york-new-jersey"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 27 Jun 2026 23:27:53 GMT",
+      "teams": [
+        "Jordan",
+        "England",
+        "Panama"
       ]
     },
     {
@@ -16093,217 +16276,6 @@
       "teams": [
         "Argentina",
         "Austria"
-      ]
-    },
-    {
-      "headline": "Croatia pile pressure on England with nervy World Cup win over eliminated Panama",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/croatia-pile-pressure-england-nervy-010336435.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 01:49:02 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "4 Takeaways From Croatia's Gritty Win Over Panama At World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-panama-vs-croatia-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/takeawayscroatia.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 21:44:49 -0400",
-      "teams": [
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Colombia v DR Congo: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/fifa-world-cup-2026-live-colombia-v-dr-congo-updates-col-vs-cod-group-k-match-score-latest"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 01:36:00 GMT",
-      "teams": [
-        "Congo DR",
-        "Colombia",
-        "England",
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Has this USMNT finally won over a divided soccer nation?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-has-this-usmnt-finally-won-over-a-divided-soccer-nation-012735240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 01:27:35 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Scotsmaxxing hits Ocean Drive as Tartan Army’s World Cup party goes on",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/scotsmaxxing-ocean-drive-tartan-army-world-cup-party-miami"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 01:27:18 GMT",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Budimir rescues Croatia with winner against Panama on Modric’s landmark day",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/croatia-panama-world-cup-2026-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 01:23:27 GMT",
-      "teams": [
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Josko Gvardiol and Mateo Kovacic feature as Croatia edge Panama",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-010500799.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 01:05:00 +0000",
-      "teams": [
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "England frustrated by Ghana in dour World Cup draw",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spence-guehi-expected-start-england-183306336.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 00:56:56 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Ante Budimir's goal gives Croatia a 1-0 win over Panama",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-ante-budimirs-goal-gives-croatia-a-1-0-win-over-panama-005427924.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 00:54:27 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "🧐 Less than a month until Brasileirão returns: table, fixtures, more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/under-month-until-brasileir-o-001400151.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 00:14:00 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Colombia vs. DR Congo live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/colombia-vs-dr-congo-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/23d5bb2d-e49e-4f70-9267-c42ab95d118b/dr-congo.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 23 Jun 2026 23:52:35 +0000",
-      "teams": [
-        "Congo DR",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Indifferent? Very Helpful? USA Still Adjusting To World Cup Hydration Breaks",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-hydration-breaks-usa-flow"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/hydration1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 23 Jun 2026 19:46:12 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Spence appears not to shake hands with Partey",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spence-appears-not-shake-hands-214652303.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 23 Jun 2026 23:37:59 +0000",
-      "teams": [
-        "England",
-        "Ghana"
       ]
     }
   ]
