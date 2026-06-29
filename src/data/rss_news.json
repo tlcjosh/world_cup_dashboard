@@ -1,6 +1,20 @@
 {
-  "asOf": "2026-06-29T17:37:40.678Z",
+  "asOf": "2026-06-29T18:25:16.491Z",
   "items": [
+    {
+      "headline": "Canada Makes World Cup History While the USMNT Faces Knockout Pressure + FOX's $50K World Cup Fans",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/canada-makes-world-cup-history-while-the-usmnt-faces-knockout-pressure--foxs-50k-world-cup-fans-181000551.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:10:00 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
     {
       "headline": "Brazil v Japan: World Cup 2026 last 32 – live",
       "links": {
@@ -10,10 +24,92 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 29 Jun 2026 17:34:53 GMT",
+      "pubDate": "Mon, 29 Jun 2026 18:08:03 GMT",
       "teams": [
         "Brazil",
         "Japan"
+      ]
+    },
+    {
+      "headline": "Who Is Argentina's Next World Cup Opponent? Messi's Path To The Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-messi-world-cup-final-opponents-projected"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/argentinamain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 14:05:57 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Arsenal 25yo to start World Cup last-32 match amid injury concerns",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-25yo-start-world-cup-180500296.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:05:00 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "👀 Ronaldinho stunned! Brazil trail by a historic margin",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ronaldinho-stunned-brazil-trail-historic-174900499.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 17:49:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "&#8216;We won&#8217;t let our guard down&#8217; &#8211; Adrien Rabiot previews France&#8217;s World Cup last-32 tie against Sweden",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/won-t-let-guard-down-174000149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 17:40:00 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "How to Watch Portugal vs. Croatia: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/portugal-vs-croatia-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/portugal-vs-croatia-how-to-watch.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 13:39:16 -0400",
+      "teams": [
+        "Portugal",
+        "Croatia"
       ]
     },
     {
@@ -16001,105 +16097,6 @@
       "teams": [
         "Mexico",
         "Czechia"
-      ]
-    },
-    {
-      "headline": "USA, Germany, Netherlands Headline Full Slate: What's At Stake In Match Day 15",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-usmnt-turkiye-germany-ecuador-turkiye-panama-curacao-ivory-coast-tunisia-japan-netherlands-sweden"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-115.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 21:27:27 -0400",
-      "teams": [
-        "United States",
-        "Germany",
-        "Netherlands",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "'Think we're going home' - Clarke & McGinn rue Scotland mistakes",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cd7w27eg5jro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b723/live/74f09880-702d-11f1-86a5-c78e0086fe7e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 00:58:20 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Steve Clarke abandons post-match interview after just 23 seconds",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/steve-clarke-abandons-post-match-004903906.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:49:03 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Morocco beat Haiti to progress as runners-up",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-morocco-haiti-atlanta-163554587.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:48:44 +0000",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Scotland sweating on fitness of Andy Robertson ahead of uncertain World Cup future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-sweating-fitness-andy-robertson-004710910.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:47:10 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Vinícius Júnior Gets 9.5/10 | Brazil Players Rated After Their Thumping 3-0 Win Vs Scotland In The FIFA World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/vin-cius-j-nior-gets-004000103.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:40:00 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
       ]
     }
   ]
