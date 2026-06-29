@@ -1,6 +1,98 @@
 {
-  "asOf": "2026-06-29T00:39:32.342Z",
+  "asOf": "2026-06-29T02:10:02.486Z",
   "items": [
+    {
+      "headline": "O Canada! The knockouts begin with a win for Marsch’s men: World Cup Daily – podcast",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/audio/2026/jun/29/o-canada-the-knockouts-begin-win-for-jesse-marsch-men-south-africa-world-cup-daily-podcast"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 01:24:52 GMT",
+      "teams": [
+        "South Africa",
+        "Canada",
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 19",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-19"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-bets-16x9-bb-wc-7.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 28 Jun 2026 21:12:18 -0400",
+      "teams": []
+    },
+    {
+      "headline": "💪​ Camilo Vargas, key for Colombia during the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/camilo-vargas-key-colombia-during-010600424.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 01:06:00 +0000",
+      "teams": [
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 01:04:32 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "📅 Brazil already know their rival for the first post-World Cup FIFA window",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-already-opponent-first-post-005700014.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 00:57:00 +0000",
+      "teams": [
+        "Brazil",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "🇳🇱 Netherlands arrive in Monterrey for clash with Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/netherlands-arrive-monterrey-clash-morocco-003800024.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 00:38:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
     {
       "headline": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
       "links": {
@@ -334,7 +426,7 @@
       ]
     },
     {
-      "headline": "Can anyone do it? Messi leads chase for a mark standing since 1958",
+      "headline": "Can anyone do it? Messi leads race to beat a record from 1958",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/anyone-messi-leads-chase-mark-213400717.html"
@@ -343,7 +435,9 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 21:34:00 +0000",
-      "teams": []
+      "teams": [
+        "Qatar"
+      ]
     },
     {
       "headline": "USMNT knows group stage success won't matter without a World Cup knockout run",
@@ -658,21 +752,6 @@
         "Brazil",
         "New Zealand",
         "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 20:12:41 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
       ]
     },
     {
@@ -16082,105 +16161,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 24 Jun 2026 15:35:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Group A Scenarios: What South Korea, Czechia, South Africa Need To Advance",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-south-korea-czechia-south-africa-need-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/group-a-scenarios.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:31:20 -0400",
-      "teams": [
-        "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group B Scenarios: What Canada, Switzerland, Bosnia, Qatar Need To Advance",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-b-scenarios-what-canada-switzerland-bosnia-qatar-need-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-group-b-scenarios.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:17:45 -0400",
-      "teams": [
-        "Canada",
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 15:10:23 GMT",
-      "teams": [
-        "Mexico",
-        "Czechia",
-        "Canada",
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "Switzerland",
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Germany’s Kai Havertz: ‘I make runs that look pointless but I’m creating space’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/kai-havertz-germany-world-cup-2026-interview"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 15:00:48 GMT",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "South Korea vs. South Africa Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-south-korea-south-africa-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282389874-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:00:36 -0400",
-      "teams": [
-        "South Africa",
-        "South Korea"
-      ]
     }
   ]
 }
