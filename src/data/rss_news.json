@@ -1,8 +1,23 @@
 {
-  "asOf": "2026-06-29T21:55:03.058Z",
+  "asOf": "2026-06-29T23:02:52.508Z",
   "items": [
     {
-      "headline": "Germany v Paraguay: World Cup 2026 last 32 – live",
+      "headline": "Watch live as Germany controversially have extra-time goal disallowed against Paraguay",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-live-paraguay-front-against-212857906.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 22:50:30 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Germany v Paraguay goes to extra time: World Cup 2026 last 32 – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/29/germany-v-paraguay-world-cup-2026-last-32-live"
@@ -10,12 +25,120 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 29 Jun 2026 21:48:49 GMT",
+      "pubDate": "Mon, 29 Jun 2026 22:49:59 GMT",
       "teams": [
         "Brazil",
         "Paraguay",
         "Germany",
         "Japan"
+      ]
+    },
+    {
+      "headline": "The secrets behind the save: How goalkeepers decide World Cup penalty shoot-outs",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/secrets-behind-save-goalkeepers-decide-223428044.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 22:34:28 +0000",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "45 minutes from Brazil 'humiliation' - but 'Crafty Carlo' does it again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/45-minutes-brazil-humiliation-crafty-221439731.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 22:29:07 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "45 minutes from Brazil 'humiliation' - but 'Crafty Carlo' does it again",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c17yzyy8ldko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c57/live/1ccd72b0-7409-11f1-b54a-af3c13912d65.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 22:14:31 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Big Bets Report: World Cup Wagering Continues At Blistering Pace",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/big-bets-report-world-cup-wagering-continues-blistering-pace"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/a3ec9dbd-artboard-1-11.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:04:01 -0400",
+      "teams": []
+    },
+    {
+      "headline": "How Long Is Halftime At The World Cup? Will There Be A World Cup Final Halftime Show?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-halftime-show-who-performing-how-long-it"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/wcfinalfront.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:01:25 -0400",
+      "teams": []
+    },
+    {
+      "headline": "😅 Neymar teases pundit who predicted Brazil would lose to Japan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/neymar-teases-pundit-predicted-brazil-215100093.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 21:51:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Neuer's record-breaking stat sums up Germany's World Cup worries 😪",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/neuers-record-breaking-stat-sums-214900645.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 21:49:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
       ]
     },
     {
@@ -43,21 +166,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 29 Jun 2026 21:30:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Watch live as Paraguay leading 1-0 against stunned Germany in second half",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-live-paraguay-front-against-212857906.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 21:28:57 +0000",
       "teams": [
         "Paraguay",
         "Germany"
@@ -15975,110 +16083,6 @@
         "England",
         "Panama"
       ]
-    },
-    {
-      "headline": "How to Watch Ecuador vs. Germany: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/ecuador-vs-germany-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-e"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-ecuador-vs-germany-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 04:20:26 -0400",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Eliminated: World Cup 2026 teams who are out of the tournament",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/eliminated-world-cup-2026-teams-082000828.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 08:20:00 +0000",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/mauricio-pochettino-usa-turkey-world-cup-preview"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 08:00:08 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "How a ‘naive’ Mauricio Pochettino’s lowest moments turned the USMNT into World Cup darlings",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/naive-mauricio-pochettino-lowest-moments-080008285.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 08:00:08 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How is Derry City's new pitch 'World Cup standard'?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/derry-citys-pitch-world-cup-075819738.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 07:58:19 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup: Kasper Schmeichel on Scotland's chances",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ns80gq?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ntl0k6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 07:52:00 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Beyond the World Cup... 5️⃣ stories making Thursday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/beyond-world-cup-5-stories-074100946.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 07:41:00 +0000",
-      "teams": []
     }
   ]
 }
