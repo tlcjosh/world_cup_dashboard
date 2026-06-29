@@ -854,11 +854,16 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
 /* Advancement coloring — once a match has a decided winner (FINISHED, or
    IN_PLAY/PAUSED with a current leader in Live mode), its outgoing elbow and
    the next round's shared incoming stub both pick up the green/blue gradient
-   instead of the neutral border color. Border-image lets the gradient render
-   across the elbow's border-top/border-bottom + border-right combo without
-   touching the existing border-radius geometry. */
+   instead of the neutral border color. border-image ignores border-radius
+   (it paints square), so the rounded elbow instead fills with the gradient
+   as a background and masks out everything but the border ring itself —
+   mask geometry is a regular box, so it inherits border-radius cleanly. */
 .bracket-round .b-slot.advanced::after {
-  border-image: var(--grad-green) 1;
+  border-color: transparent;
+  background: var(--grad-green) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0) border-box;
+  -webkit-mask-composite: source-out;
+  mask-composite: exclude;
 }
 
 .bracket-round:not(.r32) .b-slot.incoming-advanced::before {
