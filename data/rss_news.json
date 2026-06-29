@@ -1,6 +1,565 @@
 {
-  "asOf": "2026-06-29T18:25:16.491Z",
+  "asOf": "2026-06-29T20:26:38.913Z",
   "items": [
+    {
+      "headline": "Japan's World Cup ends, but Zion Suzuki's fingertup save on Vinícius Júnior lives on",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/japans-world-cup-ends-but-zion-suzukis-fingertup-save-on-vinicius-junior-lives-on-201836770.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:18:36 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Germany v Paraguay: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/29/germany-v-paraguay-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 20:17:03 GMT",
+      "teams": [
+        "Brazil",
+        "Paraguay",
+        "Germany",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Netherlands vs. Morocco odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/netherlands-morocco-odds-prediction-line-start-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/9ea8c801-7142-423f-8218-3d7a0fc47b27/netherlands-world-cup-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:15:32 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:14:00 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: France Favored; Brazil Surges After Comeback Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-629.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:08:01 -0400",
+      "teams": [
+        "Brazil",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:06:08 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🇧🇷 Gabriel Martinelli breathes rare air with match-winner vs Japan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gabriel-martinelli-breathes-rare-air-200600266.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:06:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Last-gasp Martinelli strike edges Brazil past Japan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-face-japan-hotly-anticipated-153906507.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:05:25 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Full Round Of 32 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/image-20.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:04:59 -0400",
+      "teams": []
+    },
+    {
+      "headline": "How World Cup Teams Scout Knockout Opponents On Short Notice",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-knockout-scouting-opponent-bob-bradley-usmnt"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/wc-scouting-opponents-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:03:32 -0400",
+      "teams": []
+    },
+    {
+      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-prediction-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/19/02e3daf8-5af7-4e7e-903a-0fa474408a62/folarin-balogun-usa-imagn-images-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:58:38 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Martinelli scores stoppage-time winner to send Brazil through to last 16",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cdjknkplkr2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09b9/live/3fcc75c0-73f2-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 19:54:55 GMT",
+      "teams": [
+        "Brazil",
+        "Ivory Coast",
+        "Japan",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "How Victor Montagliani rose to the Fifa elite despite past controversies",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/how-victor-montagliani-rose-to-the-fifa-elite-despite-past-controversies"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 19:52:41 GMT",
+      "teams": []
+    },
+    {
+      "headline": "How Victor Montagliani rose to the Fifa elite despite past controversies",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/victor-montagliani-rose-fifa-elite-195241780.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:52:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Vinícius Júnior Stuns With a 9/10 | Brazil Players Rated After Their Late Winner Against Japan In The FIFA World Cup 2026",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/vin-cius-j-nior-stuns-194500292.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:45:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "😂 Sorry, Casemiro and plenty of banter: Brazil qualify on social media",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sorry-casemiro-plenty-banter-brazil-194300315.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:43:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round of 32: Confirmed schedule, results, predictions for first knockout round",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:41:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "France's Path To 2026 World Cup Final: Latest Projected Opponents For Round Of 16 And On",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-mbappe-world-cup-final-opponents-projected"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe8.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 15:36:24 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Norway vs. Ivory Coast odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/norway-ivory-coast-odds-prediction-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/dcbf8fff-70fb-4910-ae51-a725404b4d01/eling-haaland-norway-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:31:14 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/didier-deschamps-france-sweden-world-cup-2026-round-of-32"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 19:30:45 GMT",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Journalist: Man United ready to push hard to sign €100m World Cup midfielder",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-man-united-ready-push-193000823.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who Is Brazil's Next World Cup Opponent?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/brazil-next-world-cup-opponent-path-to-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283371879-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 15:26:08 -0400",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "📋 Germany and Paraguay named as they battle for a Copa last-16 place",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-paraguay-named-battle-copa-192300045.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:23:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany",
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Germany vs. Paraguay odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/germany-paraguay-odds-prediction-line-time-2026-world-cup-round-of-32-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/10eb22e4-dc06-4313-b926-ccb9debfd459/undav-sane-germany-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:17:43 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 15:13:55 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Brazil into last 16 as Martinelli strikes in stoppage time to break Japan hearts",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/brazil-japan-world-cup-2026-last-32-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 19:12:04 GMT",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "🚨 Big surprise! This is Germany's XI to face Paraguay",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/big-surprise-germanys-xi-face-191200561.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:12:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Richard Hughes is ready to fight for record €80m midfielder deal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/richard-hughes-ready-fight-record-191000929.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:10:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Brazil gets dramatic 2-1 win over Japan, scoring twice in second half",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-brazil-gets-dramatic-2-1-win-over-japan-scoring-twice-in-second-half-190350290.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:03:50 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Germany vs. Paraguay live stream: How to watch FIFA World Cup online, start time, lineup, odds",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/germany-paraguay-live-stream-fifa-world-cup-lineup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/2659ca87-0646-4c31-905d-d5e0c3a2e2d2/untitled-design-2026-06-29t145651-710.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:03:31 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Ben Jacobs: Liverpool must pay £60.3m to sign World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ben-jacobs-liverpool-must-pay-185000082.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "DR Congo star Yoane Wissa relishing historic World Cup knockout clash with England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dr-congo-star-yoane-wissa-183846300.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:38:46 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Canada's World Cup knockout stage win vs. South Africa was equally forgettable as it was historic",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-vs-south-africa-2026-world-cup-round-of-32/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/04e05bdf-444c-44ce-a320-bcd674b1579f/jesse-marsch-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:27:57 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "When does USA soccer play next? 2026 USMNT World Cup schedule, how to watch, odds vs Bosnia-Herzegonia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/does-usa-soccer-play-next-182231985.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:22:31 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "How the World Cup kickstarted Boston’s dating scene again: ‘It’s so refreshing’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-kickstarted-boston-dating-182214817.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 18:22:14 +0000",
+      "teams": []
+    },
     {
       "headline": "Canada Makes World Cup History While the USMNT Faces Knockout Pressure + FOX's $50K World Cup Fans",
       "links": {
@@ -31,7 +590,7 @@
       ]
     },
     {
-      "headline": "Who Is Argentina's Next World Cup Opponent? Messi's Path To The Final",
+      "headline": "Argentina's Path To 2026 World Cup Final: Latest Projected Opponents For Round Of 16 And On",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/argentina-messi-world-cup-final-opponents-projected"
@@ -199,21 +758,6 @@
       "teams": [
         "Paraguay",
         "Germany"
-      ]
-    },
-    {
-      "headline": "Brazil face Japan in hotly-anticipated World Cup last-32 match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-face-japan-hotly-anticipated-153906507.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 16:34:26 +0000",
-      "teams": [
-        "Brazil",
-        "Japan"
       ]
     },
     {
@@ -449,25 +993,6 @@
       "teams": [
         "Brazil",
         "Japan"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: France, Argentina Top Oddsboard Heading Into Round Of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/maignan-627.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:35:15 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -1029,26 +1554,6 @@
       ]
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:33:10 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
       "headline": "Why Elliot Anderson&#8217;s Manchester City transfer announcement has been pushed back",
       "links": {
         "web": {
@@ -1258,22 +1763,6 @@
         "Paraguay",
         "Germany"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 29 Jun 2026 09:35:37 +0000",
-      "teams": []
     },
     {
       "headline": "Clarke says standing down 'easy' decision after World Cup exit",
@@ -1931,25 +2420,6 @@
       "teams": []
     },
     {
-      "headline": "Canada's World Cup knockout stage win vs. South Africa was equally forgettable as it was historic",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/canada-vs-south-africa-2026-world-cup-round-of-32/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/04e05bdf-444c-44ce-a320-bcd674b1579f/jesse-marsch-2.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 22:52:05 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
       "headline": "Folarin Balogun, USA Ready For High-Pressure Moment In World Cup Knockouts",
       "links": {
         "web": {
@@ -2511,7 +2981,7 @@
       ]
     },
     {
-      "headline": "Brazil going out? Chris Sutton predicts World Cup's last-32 matches",
+      "headline": "BBC Sport expert Sutton predicts World Cup's last-32 matches",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss"
@@ -2525,7 +2995,6 @@
       "source": "BBC Sport",
       "pubDate": "Sun, 28 Jun 2026 19:14:59 GMT",
       "teams": [
-        "Brazil",
         "Congo DR",
         "England"
       ]
@@ -4574,22 +5043,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Bracket: Full Round Of 32 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/image-20.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 00:44:41 -0400",
-      "teams": []
-    },
-    {
       "headline": "Messi comes off the bench to score as Argentina beat Jordan",
       "links": {
         "web": {
@@ -5248,18 +5701,6 @@
         "Colombia",
         "Croatia"
       ]
-    },
-    {
-      "headline": "2026 World Cup Round of 32: Confirmed schedule, predictions for knockout round",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 01:44:06 +0000",
-      "teams": []
     },
     {
       "headline": "England’s creaky defence is a World Cup worry and they need Rice back firing | Jacob Steinberg",
@@ -15633,470 +16074,6 @@
         "Mexico",
         "Canada",
         "United States"
-      ]
-    },
-    {
-      "headline": "🥐☕️FC Breakfast: Yamal shows off his brother, Messi marked his birthday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fc-breakfast-yamal-shows-off-041000206.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 04:10:00 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "South Africa beat South Korea to reach knockouts for first time",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-south-africa-south-korea-003951743.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 04:08:01 +0000",
-      "teams": [
-        "South Africa",
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "📷​🥳​ Party in Mexico! How El Tri fans celebrate in the streets",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/party-mexico-el-tri-fans-040100536.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 04:01:00 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Mexico beat Czech Republic to maintain 100% winning record",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cly753x9el3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb82/live/6f24dd50-7044-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 04:00:55 GMT",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "Qatar's Assim Madibo Gets 5-Match Ban For Breaking Canada's Ismaël Koné's Leg",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/qatars-assim-madibo-banned-for-5-games-after-breaking-the-leg-of-canadas-ismael-kone-at-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/qatar-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:00:42 -0400",
-      "teams": [
-        "Canada",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "World Cup becomes cult of the individual but ignores team complexity | Jonathan Liew",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/world-cup-cult-individual-team-players"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 04:00:05 GMT",
-      "teams": [
-        "France",
-        "Iraq",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Goalkeepers beware: Trionda World Cup ball hits ‘crisis’ point at certain speed",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/goalkeepers-beware-trionda-world-cup-ball-hits-crisis-point-at-certain-speed"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 04:00:05 GMT",
-      "teams": [
-        "Senegal",
-        "Iraq",
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Memo And A Party: 5 Takeaways From Mexico's Win Over Czechia At The World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-world-cup-memo-ochoa-czechia-5-takeaways"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/memotakeaways.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 23:51:45 -0400",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "Bafana Bafana Breaks Through: 4 Takeaways From South Africa vs. South Korea",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-south-africa-vs-south-korea-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/78d9cd9a-takeaways1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 23:41:12 -0400",
-      "teams": [
-        "South Africa",
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "South Africa into round of 32 after win over South Korea",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cy7385e0jxzo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3a8/live/20e44080-7045-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 03:37:51 GMT",
-      "teams": [
-        "South Africa",
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "The inspiration behind South Africa’s incredible World Cup comeback as Bafana Bafana advance",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inspiration-behind-south-africa-incredible-033551562.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 03:35:51 +0000",
-      "teams": [
-        "Mexico",
-        "South Africa",
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "South Africa Reaches World Cup Knockout Round For First Time, Will Face Canada",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/south-africa-reaches-world-cup-knockout-round-for-1st-time-with-10-win-over-south-korea"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/south-africa-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 23:22:36 -0400",
-      "teams": [
-        "South Africa",
-        "South Korea",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Fidalgo caps Mexico rout as co-hosts maintain 100% record and send Czechia out",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/mexico-czechia-world-cup-2026-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 03:18:27 GMT",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: Neymar, Ochoa Make Triumphant Returns; South Africa Shocks Group A",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-brazil-mexico-neymar-memo-ochoa-june-24"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/roundup.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 23:16:15 -0400",
-      "teams": [
-        "South Africa"
-      ]
-    },
-    {
-      "headline": "Maseko strike sends South Africa into first World Cup knockouts with win over South Korea",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/south-africa-south-korea-world-cup-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 03:15:15 GMT",
-      "teams": [
-        "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czechia",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
-      "headline": "'Typical Scotland': Tartan Army give their verdict on Miami match against Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/videos/cgqjl2kkg7ko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c601/live/882ab0b0-705b-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 03:07:31 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Lionel Messi’s teammates pen emotional message to Argentina captain on 39th birthday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-teammates-pen-emotional-030148075.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 03:01:48 +0000",
-      "teams": [
-        "Argentina",
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Got a favourite? First Cup knockout clash is CONFIRMED",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/favourite-first-copa-brasil-knockout-025900892.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:59:00 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group A: South Africa makes knockout rounds with stunning win over South Korea",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-group-a-south-africa-makes-knockout-rounds-with-stunning-win-over-south-korea-025720150.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:57:20 +0000",
-      "teams": [
-        "South Africa",
-        "South Korea",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "'San Memo' Arrives: Mexico's Guillermo Ochoa Plays At World Cup Vs. Czechia",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-world-cup-guillermo-ochoa"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/1d86aa10-ochoa.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 22:50:24 -0400",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "🇲🇽 Chávez and Quiñones put Mexico on course for World Cup first",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ch-ves-qui-ones-put-023500659.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:35:00 +0000",
-      "teams": [
-        "Mexico",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "Tearful Neymar makes emotional Brazil return as Selecao advance at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tearful-neymar-makes-emotional-brazil-022152233.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:21:52 +0000",
-      "teams": [
-        "Brazil",
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "What Japan’s blueprint to win the World Cup by 2050 tells us about football’s future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/japan-blueprint-win-world-cup-020839032.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:08:39 +0000",
-      "teams": [
-        "Japan"
-      ]
-    },
-    {
-      "headline": "😎​ Blessed World Cup! The world's best are in inspired form",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/blessed-world-cup-worlds-best-020700848.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:07:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026: For Haiti, a loss on the pitch, a win for a hurting nation",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-for-haiti-a-loss-on-the-pitch-a-win-for-a-hurting-nation-020158733.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 02:01:58 +0000",
-      "teams": [
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Back Türkiye Over United States",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-back-turkiye-over-united-states"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/turkey_odds_horizontal_will-hill.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 21:42:43 -0400",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "South Africa v South Korea: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/south-africa-v-south-korea-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 01:40:05 GMT",
-      "teams": [
-        "South Africa",
-        "South Korea",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "Czechia v Mexico: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/czechia-v-mexico-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 01:38:59 GMT",
-      "teams": [
-        "Mexico",
-        "Czechia"
       ]
     }
   ]
