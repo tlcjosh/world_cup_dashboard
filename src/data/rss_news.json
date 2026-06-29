@@ -1,6 +1,20 @@
 {
-  "asOf": "2026-06-29T00:18:13.054Z",
+  "asOf": "2026-06-29T00:39:32.342Z",
   "items": [
+    {
+      "headline": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/alphonso-davies-return-brightens-canada-000744899.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 00:07:44 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
     {
       "headline": "'You are Canadian heroes' - the forgotten hosts making World Cup history",
       "links": {
@@ -16166,25 +16180,6 @@
       "teams": [
         "South Africa",
         "South Korea"
-      ]
-    },
-    {
-      "headline": "Mexico vs. Czechia Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-mexico-czechia-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282286886-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:00:32 -0400",
-      "teams": [
-        "Mexico",
-        "Czechia"
       ]
     }
   ]
