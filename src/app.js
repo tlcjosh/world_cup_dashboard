@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v24.2';
-const APP_UPDATED = '2026-06-28 14:03 UTC';
+const APP_VERSION = 'v24.3';
+const APP_UPDATED = '2026-06-29 00:16 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -2618,6 +2618,10 @@ function renderBracket() {
     const hasScore = match.status === 'FINISHED' || match.status === 'IN_PLAY' || match.status === 'PAUSED';
     const homeWon = hasScore && match.homeScore > match.awayScore;
     const awayWon = hasScore && match.awayScore > match.homeScore;
+    // FINISHED winners are always decided; an IN_PLAY/PAUSED leader only counts
+    // as decided in Live mode, matching the same Official/Live split already
+    // used for [W##]/[L##] slot resolution.
+    match._decided = (homeWon || awayWon) && (match.status === 'FINISHED' || state.liveMode);
     const confirmedDot = `<span class="clinch-dot position" title="Clinched — mathematically locked in, official fixture pending">✓</span>`;
     const kickoffFmt = match.kickoff ? new Date(match.kickoff).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) : '';
     const metaText = [kickoffFmt, venueCity(match.venue)].filter(Boolean).join(' · ');
@@ -2646,8 +2650,18 @@ function renderBracket() {
     `;
   }
 
-  function bSlot(match) {
-    return `<div class="b-slot">${bMatchHtml(match)}</div>`;
+  function bSlot(match, incomingAdvanced) {
+    const html = bMatchHtml(match);
+    const classes = [match._decided ? 'advanced' : '', incomingAdvanced ? 'incoming-advanced' : ''].filter(Boolean).join(' ');
+    return `<div class="b-slot ${classes}">${html}</div>`;
+  }
+
+  // A round's incoming connector stub is a single pseudo-element shared by the
+  // two matches feeding it (slot heights double per round to center on that
+  // pair) -- colors green/blue as soon as *either* feeder is decided, not just
+  // when both are, so a single early result lights up the path right away.
+  function feederAdvanced(prevRound, idx) {
+    return !!(prevRound[2 * idx]?._decided || prevRound[2 * idx + 1]?._decided);
   }
 
   // Round of 32 / Round of 16 matchNums are assigned chronologically (by kickoff
@@ -2681,25 +2695,26 @@ function renderBracket() {
   html += `<div class="bracket-wrapper"><div class="bracket">`;
 
   html += `<div class="bracket-round r32">
-    ${r32.map(bSlot).join('')}
+    ${r32.map(m => bSlot(m, false)).join('')}
   </div>`;
 
   html += `<div class="bracket-round r16">
-    ${r16.map(bSlot).join('')}
+    ${r16.map((m, i) => bSlot(m, feederAdvanced(r32, i))).join('')}
   </div>`;
 
   html += `<div class="bracket-round rqf">
-    ${qf.map(bSlot).join('')}
+    ${qf.map((m, i) => bSlot(m, feederAdvanced(r16, i))).join('')}
   </div>`;
 
   html += `<div class="bracket-round rsf">
-    ${sf.map(bSlot).join('')}
+    ${sf.map((m, i) => bSlot(m, feederAdvanced(qf, i))).join('')}
   </div>`;
 
+  const finalIncoming = feederAdvanced(sf, 0);
   html += `<div class="bracket-round rfin">
     <div class="rfin-body">
       <div class="final-group">
-        <div class="final-slot">${final.map(bMatchHtml).join('')}</div>
+        <div class="final-slot ${finalIncoming ? 'incoming-advanced' : ''}">${final.map(bMatchHtml).join('')}</div>
         <div class="round-label third-label">3rd Place</div>
         ${thirdPlaceMatch.map(bMatchHtml).join('')}
       </div>

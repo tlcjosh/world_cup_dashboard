@@ -851,8 +851,26 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
   border-radius: 0 0 8px 0;
 }
 
+/* Advancement coloring — once a match has a decided winner (FINISHED, or
+   IN_PLAY/PAUSED with a current leader in Live mode), its outgoing elbow and
+   the next round's shared incoming stub both pick up the green/blue gradient
+   instead of the neutral border color. Border-image lets the gradient render
+   across the elbow's border-top/border-bottom + border-right combo without
+   touching the existing border-radius geometry. */
+.bracket-round .b-slot.advanced::after {
+  border-image: var(--grad-green) 1;
+}
+
+.bracket-round:not(.r32) .b-slot.incoming-advanced::before {
+  background: var(--grad-green);
+}
+
 .rfin-body .final-slot {
   position: relative;
+}
+
+.rfin-body .final-slot.incoming-advanced::before {
+  background: var(--grad-green);
 }
 
 .rfin-body .final-slot::before {
