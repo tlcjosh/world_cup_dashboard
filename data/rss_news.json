@@ -1,6 +1,445 @@
 {
-  "asOf": "2026-06-29T07:05:04.920Z",
+  "asOf": "2026-06-29T12:07:49.795Z",
   "items": [
+    {
+      "headline": "Sackings, death threats and fury – World Cup exit leaves South Korean football in crisis",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy049pen9q5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb67/live/64eb3a70-73ad-11f1-9da1-db101e3ae6ed.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 12:03:17 GMT",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Gabriel Jesus: Arsenal striker drops Serie A transfer hint, makes honest Ancelotti admission",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gabriel-jesus-arsenal-striker-drops-120000601.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 12:00:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Why 'big brother' Van Dijk is key to Dutch World Cup dreams",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c9927m2jlx0o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4a4/live/0cfd9da0-7225-11f1-a69f-29c4f147006f.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 11:52:25 GMT",
+      "teams": [
+        "Netherlands",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Clarke says ‘right time to step away’ from Scotland job, plus Brazil v Japan buildup – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/29/world-cup-2026-reaction-canada-brazil-japan-germany-paraguay-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 11:47:05 GMT",
+      "teams": [
+        "South Africa",
+        "Canada",
+        "Brazil",
+        "Morocco",
+        "Scotland",
+        "Paraguay",
+        "Germany",
+        "Netherlands",
+        "Japan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Former Barcelona manager questions Pedri&#8217;s role for Spain at World Cup: &#8216;Communicates much better with his club teammates&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/former-barcelona-manager-questions-pedri-114500166.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:45:00 +0000",
+      "teams": [
+        "Uruguay",
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "🔝 No rest, no subs! This World Cup star smashes all fitness records",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/no-rest-no-subs-world-114100297.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:41:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:33:10 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Why Elliot Anderson&#8217;s Manchester City transfer announcement has been pushed back",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-elliot-anderson-manchester-city-113000339.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:30:00 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "How Tuchel is still searching for solutions out wide - Shearer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-still-searching-solutions-wide-112753643.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:27:53 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "How Tuchel is still searching for solutions out wide - Shearer",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cqj1g9egd80o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4000/live/e23d0350-7385-11f1-9e21-8bd55db03589.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 11:27:47 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Steve Clarke outlines what Scotland must do for future success after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/steve-clarke-outlines-scotland-must-110658801.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:06:58 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Brazil v Japan among games to come as last 32 continues",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-group-stage-102249233.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:03:28 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "‘Incapable’ South Korea manager quits in disgrace after president demands investigation into World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/incapable-south-korea-manager-quits-101914120.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:03:10 +0000",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Brazil's Vinicius among best bets for Monday's games",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-brazils-vinicius-among-best-bets-for-mondays-games/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/19/0b539d73-7fbe-441f-86c5-bebd8cfb1d6a/vinicius-junior-brazil-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 11:00:46 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "You're the scout! Which World Cup players do you want at your club?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/youre-scout-world-cup-players-115413218.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 10:46:56 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup quiz: How well do you know the group stage in numbers?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy8wvqp4w2wo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4319/live/a6b56da0-70dc-11f1-b1db-af71d47507d6.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 10:38:12 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Move over Messi and Ronaldo - the new generation shining at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/move-over-messi-ronaldo-generation-103330750.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 10:33:30 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Move over Messi and Ronaldo - the new generation shining at World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/703e/live/b86d8070-715c-11f1-909a-0f95894a566f.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 10:33:25 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Why Netherlands v Morocco is more than just a match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-netherlands-v-morocco-more-101607230.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 10:23:21 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Why Netherlands v Morocco is more than just a match",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clye1l3m9k4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd35/live/eb4d3330-7302-11f1-8b3a-1977d6dee6ef.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 10:16:02 GMT",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Capello: ‘Lautaro the ideal sidekick for Messi, more of a Robin than a Batman’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/capello-lautaro-ideal-sidekick-messi-101000566.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 10:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Germany vs. Paraguay Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/germany-vs-paraguay-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282016100-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:00:16 -0400",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 09:35:37 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Clarke says standing down 'easy' decision after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8499/live/4e314420-739c-11f1-a8fc-c51d60fec73b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 09:25:31 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "South Korea football coach quits as president calls for probe into World Cup loss",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f003/live/9eb32360-7364-11f1-ad8b-652433387d33.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 07:18:14 GMT",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/brazil-fans-vinicius-junior-hero-real-madrid-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 07:00:31 GMT",
+      "teams": [
+        "Qatar",
+        "Brazil",
+        "Scotland",
+        "England"
+      ]
+    },
+    {
+      "headline": "Brazil vs. Japan Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/brazil-vs-japan-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283182176-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 03:00:11 -0400",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
     {
       "headline": "'Ferguson to assess Bologna future' - gossip",
       "links": {
@@ -86,6 +525,25 @@
       "pubDate": "Mon, 29 Jun 2026 06:20:00 +0000",
       "teams": [
         "Brazil"
+      ]
+    },
+    {
+      "headline": "How to Watch Brazil vs. Japan: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/brazil-vs-japan-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-brazil-vs-japan-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 02:10:31 -0400",
+      "teams": [
+        "Brazil",
+        "Japan"
       ]
     },
     {
@@ -350,24 +808,6 @@
       ]
     },
     {
-      "headline": "South Korea football coach quits as president calls for probe into World Cup loss",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f003/live/9eb32360-7364-11f1-ad8b-652433387d33.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 03:34:21 GMT",
-      "teams": [
-        "South Korea"
-      ]
-    },
-    {
       "headline": "❤️​ From a nightmare at Cruz Azul to glory with Canada",
       "links": {
         "web": {
@@ -484,6 +924,21 @@
       "source": "Yahoo Sports",
       "pubDate": "Mon, 29 Jun 2026 00:07:44 +0000",
       "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Alphonso Davies’ return brightens Canada’s landmark World Cup moment",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-canada-south-africa-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 00:07:44 GMT",
+      "teams": [
+        "South Africa",
         "Canada"
       ]
     },
@@ -1180,7 +1635,7 @@
       ]
     },
     {
-      "headline": "France the team to beat? Chris Sutton predicts World Cup's last-32 matches",
+      "headline": "Brazil going out? Chris Sutton predicts World Cup's last-32 matches",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c0ry947p1qjo?at_medium=RSS&at_campaign=rss"
@@ -1194,7 +1649,7 @@
       "source": "BBC Sport",
       "pubDate": "Sun, 28 Jun 2026 19:14:59 GMT",
       "teams": [
-        "France",
+        "Brazil",
         "Congo DR",
         "England"
       ]
@@ -1906,22 +2361,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:50:21 +0000",
-      "teams": []
-    },
-    {
       "headline": "World Cup 2026 knockout fixtures, results and full tournament bracket",
       "links": {
         "web": {
@@ -1956,26 +2395,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 13:45:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:42:37 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
     },
     {
       "headline": "Can you watch World Cup matches at Wimbledon?",
@@ -15721,421 +16140,6 @@
       "teams": [
         "Brazil",
         "Scotland"
-      ]
-    },
-    {
-      "headline": "Australia forced into changes for crucial World Cup group game against Paraguay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/australia-changes-world-cup-paraguay"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 20:46:54 GMT",
-      "teams": [
-        "United States",
-        "Paraguay",
-        "Australia"
-      ]
-    },
-    {
-      "headline": "🚨 World Cup: Brazil-Scotland and Morocco-Haiti line-ups",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-line-ups-brazil-204500571.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:45:00 +0000",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Bosnia and Herzegovina v Qatar: World Cup  2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/bosnia-and-herzegovina-v-qatar-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 20:41:50 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "Switzerland v Canada: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/switzerland-v-canada-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 20:40:30 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Switzerland",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Shankland & Gannon-Doak named in attacking Scotland XI to face Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-brazil-world-cup-history-180503199.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:36:07 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "📋 Neymar available! Brazil line-up to go top of the group",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/neymar-available-brazil-line-top-203300467.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:33:00 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "🔝 Rivals still in the dressing room? Switzerland equal a World Cup record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rivals-still-dressing-room-switzerland-203100910.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:31:00 +0000",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Morocco vs. Haiti odds, prediction, time: 2026 World Cup picks, best bets from expert on 21-12 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/morocco-haiti-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/19/33008db1-dd71-49cf-9fe0-d6f86522f4e7/neil-el-aynaoui-morocco-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:22:37 +0000",
-      "teams": [
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Scotland odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/brazil-scotland-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/19/692cdd7e-2a40-4222-ac5a-73823d0d8e1c/junior-vinicius-brazil-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:16:22 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "What do Canada and Switzerland need to qualify for the World Cup knockouts from Group B?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/canada-switzerland-qualify-world-cup-074701172.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:11:36 +0000",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "What do South Africa, South Korea and Czech Republic need to qualify for the World Cup knockouts from Group A?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-south-korea-czech-052504696.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:11:30 +0000",
-      "teams": [
-        "South Africa",
-        "South Korea",
-        "Czechia"
-      ]
-    },
-    {
-      "headline": "Will Neymar Play vs. Scotland? What We Know About Brazil Star's World Cup Status",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/will-neymar-play-vs-scotland-what-we-know-about-brazil-stars-world-cup-status"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d3e71b28-neymar1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:08:55 -0400",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Video: Alajbegovic wonder goal shows Roma and Atalanta his quality",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/video-alajbegovic-wonder-goal-shows-200500199.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:05:00 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "👶 He takes over from Mbappé! Bosnia wonderkid makes World Cup history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/takes-over-mbapp-bosnia-wonderkid-195600870.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 19:56:00 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "Liverpool forward one step closer to homecoming deal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-forward-one-step-closer-195500825.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 19:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup: Bettors High On USA Ahead Of 'Meaningless' Türkiye Tilt",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bettors-high-on-team-usa-vs-turkey"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/teamusa_patrick-everson_odds_turkey_horizontal.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:53:20 -0400",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic ready for World Cup USMNT return after calf issue: 'I've been working every single day'",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/christian-pulisic-expected-to-make-usmnt-return-calf-issue/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/7b877381-940c-4373-9e1d-2bf64489887b/untitled-design-2026-06-24t145331-786.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 19:21:58 +0000",
-      "teams": [
-        "Australia"
-      ]
-    },
-    {
-      "headline": "6 Spicy World Cup Predictions, Ronaldo's Record Brace & USMNT's Turkiye Test Ahead of Knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/6-spicy-world-cup-predictions-ronaldos-record-brace--usmnts-turkiye-test-ahead-of-knockouts-191010408.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 19:10:10 +0000",
-      "teams": [
-        "Turkey",
-        "Uruguay",
-        "Cape Verde Islands",
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup: Christian Pulisic says he's 'feeling good,' hopes to return for USMNT vs. Türkiye",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-christian-pulisic-says-hes-feeling-good-hopes-to-return-for-usmnt-vs-turkiye-191000845.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 19:10:00 +0000",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "GOAT's World Cup History: Messi Stands Alone As Top World Cup Goalscorer",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/mls/lionel-messi-goals-world-cup-argentina-assists-mls-inter-miami-stats"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9-messi-tracker-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 14:58:34 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Which USA Players Should Feature In World Cup Group Stage Finale?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usmnt-turkiye-world-cup-who-should-start"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/start.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 14:55:20 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Kone salutes CANMNT fans from wheelchair after horror injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kone-salutes-canmnt-fans-wheelchair-184500479.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:45:00 +0000",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Belgium going out? Sutton's World Cup 2026 score predictions - final group games",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-going-suttons-world-cup-184208406.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:42:08 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Ronaldo to score double? Sutton's World Cup 2026 score predictions - final group games",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cg74z733xmko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 24 Jun 2026 18:42:01 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid summer signing asks club to delay announcement until after the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-summer-signing-asks-181500609.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:15:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Thomas Tuchel teases changes to England line-up for crucial Panama clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-teases-changes-england-180047348.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:04:17 +0000",
-      "teams": [
-        "England",
-        "Ghana",
-        "Panama"
       ]
     }
   ]
