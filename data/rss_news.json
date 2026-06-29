@@ -1,6 +1,386 @@
 {
-  "asOf": "2026-06-29T02:10:02.486Z",
+  "asOf": "2026-06-29T07:05:04.920Z",
   "items": [
+    {
+      "headline": "'Ferguson to assess Bologna future' - gossip",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ferguson-assess-bologna-future-gossip-064601317.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:46:01 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "'Ferguson to assess Bologna future' - gossip",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cn4d2xp017vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97d9/live/5cfcba60-7384-11f1-8e1d-bbbb1017d210.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 06:38:18 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Pampered, protected & primed - so why didn't Scotland players perform?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pampered-protected-primed-why-didnt-060502013.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:33:57 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup power rankings: Who's most likely to win it all now?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-power-rankings-whos-most-likely-to-win-it-all-now-063000587.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Think Jesse Marsch is performative? Canada’s commander-in-chief has a message for you",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/think-jesse-marsch-performative-canada-062039333.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:20:39 +0000",
+      "teams": [
+        "South Africa",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Vinicius Jr. talks fight against racism, Brazil&#8217;s chances, World Cup form: &#8216;Progress is slow&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/vinicius-jr-talks-fight-against-062000425.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:20:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "📺 Where to watch Brazil v Japan and Germany and Netherlands matches",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/where-watch-brazil-v-japan-060500966.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:05:00 +0000",
+      "teams": [
+        "Brazil",
+        "Paraguay",
+        "Germany",
+        "Netherlands",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Pampered, protected & primed - so why didn't Scotland players perform?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cdr4nz0m74go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b72/live/743dd9f0-7304-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 06:04:56 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Barcelona contact Harry Kane&#8217;s camp to explore a move after the 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-contact-harry-kane-camp-060000361.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:00:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Japan dream of the impossible as Morocco set another World Cup ambush",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/japan-dream-impossible-morocco-set-060000357.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 06:00:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Too much expert advice? This is how Nagelsmann responds",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/too-much-expert-advice-nagelsmann-055700329.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:57:00 +0000",
+      "teams": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 22",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1d2677d495o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b188/live/190ea230-6b93-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 05:48:15 GMT",
+      "teams": []
+    },
+    {
+      "headline": "The Morocco blueprint helping to rewrite World Cup history for Africa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-blueprint-helping-rewrite-world-054557382.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:45:57 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Is Netherlands v Morocco on TV? Channel, time and how to watch World Cup last-32 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/netherlands-v-morocco-tv-channel-054448791.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:44:48 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Is Germany v Paraguay on TV? Channel, time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-v-paraguay-tv-channel-054356264.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:43:56 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Is Brazil v Japan on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-v-japan-tv-channel-054322021.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:43:22 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Elliot Anderson passes Man City medical in Kansas ahead of £116M transfer announcement",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/elliot-anderson-passes-man-city-053000910.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:30:00 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Day 19 What to Watch: Brazil takes on Japan, Netherlands and Morocco face off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-day-19-what-to-watch-brazil-takes-on-japan-netherlands-and-morocco-face-off-053000445.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:30:00 +0000",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Netherlands",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Great stories, little jeopardy - does the new World Cup format work?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/great-stories-little-jeopardy-does-052643373.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 05:26:43 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Great stories, little jeopardy - does the new World Cup format work?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyr1rwp5e3o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c921/live/7b315c70-7262-11f1-8c6f-abbbc508baf9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 05:26:38 GMT",
+      "teams": []
+    },
+    {
+      "headline": "🥳 Morocco fans take over the Macroplaza and spark wild scenes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-fans-over-macroplaza-spark-035700950.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 03:57:00 +0000",
+      "teams": [
+        "Mexico",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Morocco and the Netherlands look to move mountains in Monterrey matchup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/28/morocco-netherlands-world-cup-2026-preview"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 03:45:09 GMT",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Morocco and the Netherlands look to move mountains in Monterrey matchup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-netherlands-look-move-mountains-034509645.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 03:45:09 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "South Korea football coach quits as president calls for probe into World Cup loss",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f003/live/9eb32360-7364-11f1-ad8b-652433387d33.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 29 Jun 2026 03:34:21 GMT",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "❤️​ From a nightmare at Cruz Azul to glory with Canada",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nightmare-cruz-azul-glory-canada-020800978.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 02:08:00 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
     {
       "headline": "O Canada! The knockouts begin with a win for Marsch’s men: World Cup Daily – podcast",
       "links": {
@@ -15757,410 +16137,6 @@
         "Ghana",
         "Panama"
       ]
-    },
-    {
-      "headline": "Harry Kane reacts to claims England are ‘over-reliant’ on him after goalless Ghana draw",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/harry-kane-reacts-claims-england-180035675.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:04:05 +0000",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Harry Kane turns attention to Panama with England focused on bigger picture",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/harry-kane-england-panama-ghana-world-cup-2026-thomas-tuchel"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 18:00:52 GMT",
-      "teams": [
-        "England",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds, best bets: Vinicius Jr. features in Wednesday's best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-best-bets-vinicius-jr-features-in-wednesdays-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/d2d8fd31-a555-43f2-9b30-bb042076053f/vini.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 18:00:51 +0000",
-      "teams": []
-    },
-    {
-      "headline": "England have cause for concern but Thomas Tuchel’s strategy is for the very best | Jacob Steinberg",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/england-thomas-tuchel-strategy-2026-world-cup-ghana"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 18:00:51 GMT",
-      "teams": [
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 official line-ups: Bosnia vs. Qatar and Switzerland vs. Canada",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-official-line-175500294.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:55:00 +0000",
-      "teams": [
-        "Canada",
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "🚨 World Cup: line-ups for the first simultaneous kick-offs!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-line-ups-first-175300326.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:53:00 +0000",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Should Scotland go for it against Brazil? Your questions answered",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-against-brazil-questions-answered-172632572.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:26:32 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "The route to the final Scotland could take at World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-potential-route-2026-world-193701475.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:21:27 +0000",
-      "teams": [
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Qatar vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/qatar-vs-bosnia-herzegovina-odds-line-prediction-tome-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/c6f65eaa-2050-4d36-bfc2-7befe26cc324/edin-dzeko-bosnia-imagm-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:05:22 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "Bosnia and Herzegovina vs. Qatar live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/bosnia-herzegovina-vs-qatar-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/ee0ec64d-ce08-47e0-ad0b-506d3174a8fc/bosnia.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 17:00:46 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "From non-league to the World Cup - the Semenyo story",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/non-league-world-cup-semenyo-114053657.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:52:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "'Handful' Brobbey to lead the Spurs line?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/handful-brobbey-lead-spurs-line-165132466.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:51:32 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026: How yellow and red cards during the group stage affect tiebreakers",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-how-yellow-and-red-cards-during-the-group-stage-affect-tiebreakers-164125430.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:41:25 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Canada vs. Switzerland odds, prediction, time: 2026 World Cup picks from expert on 21-12 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/canada-switzerland-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/2d32b318-cbb4-417c-b76a-cae00734280e/cyle-larin-canada-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:30:42 +0000",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "🎂 Leo Messi and a VERY special birthday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/leo-messi-very-special-birthday-161300892.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:13:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "England's James and Rice to have fitness assessed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-james-rice-fitness-assessed-160010259.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 16:00:10 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "England's James and Rice to have fitness assessed",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cg4w2wk5vryo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3d3/live/a6699ca0-6fe1-11f1-b763-7be8e457290d.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 24 Jun 2026 16:00:05 GMT",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT",
-      "teams": [
-        "Curaçao",
-        "Ecuador",
-        "Belgium",
-        "Iran",
-        "Spain",
-        "Cape Verde Islands",
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: 5 best bets for the final group stage games",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-5-best-bets-for-the-final-group-stage-games-155555734.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:55:55 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Switzerland vs. Canada live stream: How to watch FIFA World Cup, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/switzerland-vs-canada-live-stream-how-to-watch-fifa-world-cup-predictions-and-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/c532c08b-6731-44d4-b97a-4a78cf9bd137/untitled-design-2026-06-24t115126-000.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:54:58 +0000",
-      "teams": [
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group C Scenarios: What Brazil, Scotland, Morocco Need To Advance",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-c-scenarios-what-brazil-scotland-morocco-need-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-group-c-scenarios.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 11:54:16 -0400",
-      "teams": [
-        "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czechia",
-        "Brazil",
-        "Morocco",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "📸 Viking helmet on his head! Bundesliga boss celebrates Norway win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/viking-helmet-head-bundesliga-boss-155200075.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:52:00 +0000",
-      "teams": [
-        "United States",
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "FIFA World Cup 2026 Power Rankings: France and Argentina still look strong; five teams eliminated",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/fifa-world-cup-2026-power-rankings-france-argentina-top-two/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/17b71af7-b62f-4e06-a899-df089516d1d3/power-rankings-soccer-worldcup-template-4.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:42:14 +0000",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Footy Fix: World Cup's third round of games begins with as teams begin to be eliminated from contention",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/footy-fix-world-cup-third-round/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/e3dfa008-2b5b-4fe0-9a0d-dfde2682eed5/untitled-design-2026-06-24t105642-499.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:40:30 +0000",
-      "teams": [
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Underdogs Proving Their Worth At 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/underdogs-proving-worth-2026-world-153500972.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 24 Jun 2026 15:35:00 +0000",
-      "teams": []
     }
   ]
 }
