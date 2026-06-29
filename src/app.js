@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v24.4';
-const APP_UPDATED = '2026-06-29 00:38 UTC';
+const APP_VERSION = 'v24.5';
+const APP_UPDATED = '2026-06-29 17:36 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1287,21 +1287,44 @@ function anyGroupHasLiveMatch() {
   return state.matches.some(m => m.stage === 'Group Stage' && (m.status === 'IN_PLAY' || m.status === 'PAUSED'));
 }
 
-// Round of 32 slots are the only ones fed directly off group standings, so
-// they're the only ones a Live/Official toggle can disagree on. A side is
-// "confirmed" once applyBracketResolutions has locked it in (real team name
-// + the _xxxBracketResolved flag) -- that lock is computed purely off
-// FINISHED matches (see computeGuaranteedPositions), so it's identical in
-// both Live and Official mode and never flips back. Until locked, the slot
-// is still a raw [1A]-style placeholder and toggling Live/Official can
-// change which team it resolves to right now, even with no match currently
-// IN_PLAY in that group -- e.g. an already-FINISHED result elsewhere can
-// shuffle group position under one mode and not the other. So the border
-// shows on every still-unlocked Round of 32 match, not just ones with an
-// active live match feeding them.
-function r32MatchLiveAffected(match) {
-  if (match.stage !== 'Round of 32') return false;
-  return !(match._homeBracketResolved && match._awayBracketResolved);
+// Whether toggling Live/Official could change what this bracket slot shows
+// right now -- i.e. whether it's genuinely speculative, not just "this match
+// hasn't been played yet."
+//
+// Round of 32 slots are fed directly off group standings, so *before* the
+// group stage actually finishes they're the only ones a Live/Official toggle
+// can disagree on (an already-FINISHED result elsewhere can shuffle group
+// position under one mode and not the other, even with nothing live right
+// now) -- gated on the same _xxxBracketResolved lock applyBracketResolutions
+// computes purely off FINISHED matches. Once the group stage is complete,
+// the backend (update_tracker.js's resolveBracketPlaceholders) has already
+// baked real, final team names into every Round of 32 match, so there's
+// nothing left to disagree on and this returns false unconditionally.
+//
+// Every later round only resolves via an actual match's W/L ([W##]/[L##]),
+// so it's speculative only when that specific feeder is currently
+// IN_PLAY/PAUSED with a non-tied score and Live mode is on -- the same
+// refDecided condition resolveTeam's [W##]/[L##] branch uses to fill the
+// slot speculatively in the first place.
+function bracketSlotLiveAffected(match) {
+  if (!state.liveMode) return false;
+
+  if (match.stage === 'Round of 32') {
+    const groupMatches = state.matches.filter(g => g.stage === 'Group Stage');
+    const groupStageComplete = groupMatches.length > 0 && groupMatches.every(g => g.status === 'FINISHED');
+    if (groupStageComplete) return false;
+    return !(match._homeBracketResolved && match._awayBracketResolved);
+  }
+
+  for (const side of ['home', 'away']) {
+    const placeholder = match[`${side}Team`];
+    if (typeof placeholder !== 'string' || !placeholder.startsWith('[')) continue;
+    const wl = placeholder.match(/^\[([WL])(\d+)\]$/);
+    if (!wl) continue;
+    const ref = state.matches.find(m => m.matchNum === parseInt(wl[2], 10));
+    if (ref && (ref.status === 'IN_PLAY' || ref.status === 'PAUSED') && ref.homeScore !== ref.awayScore) return true;
+  }
+  return false;
 }
 
 // Replays a group's matches with one win/draw/loss combination applied to its
@@ -2392,7 +2415,7 @@ function renderSchedule(opts = {}) {
     html += `<div class="date-header"${id}>${date}</div>`;
     for (const m of dayMatches) {
       const label = m.stage === 'Group Stage' && m.group ? `Group ${m.group}` : (m.stage || '');
-      const liveAffected = state.liveMode && r32MatchLiveAffected(m);
+      const liveAffected = state.liveMode && bracketSlotLiveAffected(m);
       html += matchCardHtml(resolvedMatch(m), label, { suppressStats: true, liveAffected });
     }
   }
@@ -2615,7 +2638,8 @@ function renderBracket() {
   function bMatchHtml(match) {
     const home = resolveAndRender(match.homeTeam, match._homeBracketResolved);
     const away = resolveAndRender(match.awayTeam, match._awayBracketResolved);
-    const hasScore = match.status === 'FINISHED' || match.status === 'IN_PLAY' || match.status === 'PAUSED';
+    const isLive = match.status === 'IN_PLAY' || match.status === 'PAUSED';
+    const hasScore = match.status === 'FINISHED' || isLive;
     const homeWon = hasScore && match.homeScore > match.awayScore;
     const awayWon = hasScore && match.awayScore > match.homeScore;
     // FINISHED winners are always decided; an IN_PLAY/PAUSED leader only counts
@@ -2627,13 +2651,10 @@ function renderBracket() {
     const metaText = [kickoffFmt, venueCity(match.venue)].filter(Boolean).join(' · ');
     const metaTitle = [kickoffFmt, match.venue].filter(Boolean).join(' · ');
 
-    // Round of 32 is the only round whose slots resolve directly off group
-    // standings (every later round resolves off an actual match's W/L), so
-    // it's the only one that can disagree between Live and Official.
-    const liveAffected = state.liveMode && r32MatchLiveAffected(match);
+    const liveAffected = !isLive && bracketSlotLiveAffected(match);
 
     return `
-      <div class="b-match ${liveAffected ? 'live-affected' : ''}" data-matchnum="${match.matchNum}" title="${metaTitle}${liveAffected ? ' · Speculative: based on live scores, not yet official' : ''}">
+      <div class="b-match ${isLive ? 'live' : liveAffected ? 'live-affected' : ''}" data-matchnum="${match.matchNum}" title="${metaTitle}${liveAffected ? ' · Speculative: based on live scores, not yet official' : ''}">
         ${metaText ? `<div class="b-meta">${metaText}</div>` : ''}
         <div class="b-team ${homeWon ? 'winner' : ''}" data-team="${home.name}" style="cursor:${TEAM_MASTER_DATA[home.name] ? 'pointer' : 'default'}">
           <span class="flag-link team-flag-wrap" data-team="${home.name}">${flagImg(home.iso, home.name)}${home.confirmed ? confirmedDot : ''}</span>
