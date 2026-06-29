@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-29T16:10:30.915Z",
+  "asOf": "2026-06-29T17:37:40.678Z",
   "items": [
     {
       "headline": "Brazil v Japan: World Cup 2026 last 32 – live",
@@ -10,12 +10,157 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 29 Jun 2026 16:03:50 GMT",
+      "pubDate": "Mon, 29 Jun 2026 17:34:53 GMT",
       "teams": [
         "Brazil",
-        "Japan",
-        "Sweden"
+        "Japan"
       ]
+    },
+    {
+      "headline": "Netherlands vs. Morocco odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-13 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/netherlands-morocco-odds-prediction-line-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/9ea8c801-7142-423f-8218-3d7a0fc47b27/netherlands-world-cup-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 17:30:44 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "USMNT leave their base camp in Irvine, a pocket of the U.S. isolated from World Cup fever",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-leave-their-base-camp-irvine-isolated-from-world-cup-fever/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/2216ac91-b350-4a79-a9b0-70466f460eb5/usmnt-irvine.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 17:24:18 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Will Neymar Play vs. Japan? What We Know About Brazil Star's World Cup Status",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/will-neymar-play-vs-japan-what-we-know-about-brazil-stars-world-cup-status"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/a991b578-neymar1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 12:57:00 -0400",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "South Korea to deploy riot police for team’s return from nightmare World Cup campaign",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/south-korea-deploy-riot-police-165647889.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:56:47 +0000",
+      "teams": [
+        "South Korea"
+      ]
+    },
+    {
+      "headline": "Germany vs. Paraguay odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 18-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/germany-paraguay-odds-prediction-line-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/10eb22e4-dc06-4313-b926-ccb9debfd459/undav-sane-germany-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:52:01 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Brazil face Japan in hotly-anticipated World Cup last-32 match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-face-japan-hotly-anticipated-153906507.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:34:26 +0000",
+      "teams": [
+        "Brazil",
+        "Japan"
+      ]
+    },
+    {
+      "headline": "👀 Memories of 2014! Why Germany are in all-white today",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/memories-2014-why-germany-white-163000889.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:30:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Official: Thuram out of France squad for World Cup Round of 32 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-thuram-france-squad-world-162500089.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:25:00 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Football Extra Newsletter: World Cup group stage prediction results",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/football-extra-newsletter-world-cup-160729501.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 16:07:29 +0000",
+      "teams": []
     },
     {
       "headline": "2026 World Cup Odds: Mexico Favored Over Ecuador In Round Of 32",
@@ -35,6 +180,18 @@
         "Mexico",
         "Ecuador"
       ]
+    },
+    {
+      "headline": "Journalist: World Cup star is &#8216;on the list&#8217; for Liverpool this summer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-world-cup-star-list-155500497.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 15:55:00 +0000",
+      "teams": []
     },
     {
       "headline": "Six Teams With A Genuine Chance Of Winning The 2026 World Cup",
@@ -15941,181 +16098,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 25 Jun 2026 00:40:00 +0000",
       "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Scotland on the brink after defeat by Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cd0mzld5lpeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce02/live/f53f26d0-702a-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 00:38:36 GMT",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Morocco progress after victory over Haiti",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cjeg37w3x5eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce4a/live/b6b4b6f0-702a-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 00:38:10 GMT",
-      "teams": [
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Morocco battle back to claim thumping World Cup win in six-goal thriller with Haiti",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/morocco-haiti-world-cup-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 00:23:12 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland",
-        "United States",
-        "Netherlands",
-        "Japan",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "Scotland’s World Cup dream hanging by a thread after Vinícius sparks Brazil victory",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/scotland-brazil-world-cup-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 00:22:08 GMT",
-      "teams": [
-        "Brazil",
-        "Haiti",
-        "Scotland",
-        "Iran",
-        "New Zealand",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To DR Congo's 'Statue Fan'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 24 Jun 2026 20:13:45 -0400",
-      "teams": [
-        "Congo DR"
-      ]
-    },
-    {
-      "headline": "📅 Find out when Brazil’s next World Cup match is",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-next-world-cup-match-000500547.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:05:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "🎥 Vini delivers, Neymar debuts in the Copa and 🇧🇷 storm into knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/vini-decider-neymar-debuts-copa-000200416.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:02:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group C: Brazil beats Scotland to win group and put Scotland's knockout round chances in peril",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-group-c-brazil-beats-scotland-to-win-group-and-put-scotlands-knockout-round-chances-in-peril-000149964.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 00:01:49 +0000",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Morocco v Haiti: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/morocco-v-haiti-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 23:40:52 GMT",
-      "teams": [
-        "Morocco",
-        "Haiti"
-      ]
-    },
-    {
-      "headline": "Scotland v Brazil: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/24/scotland-v-brazil-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 24 Jun 2026 23:40:49 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar",
         "Brazil",
         "Scotland"
       ]
