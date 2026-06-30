@@ -1,8 +1,475 @@
 {
-  "asOf": "2026-06-30T11:26:33.139Z",
+  "asOf": "2026-06-30T13:20:15.254Z",
   "items": [
     {
-      "headline": "France superstars thriving thanks to Deschamps' in-game tweaks",
+      "headline": "World Cup round of 32: Can Erling Haaland and Kylian Mbappe keep scoring with Norway and France in action",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-round-of-32-can-erling-haaland-kylian-mbappe-norway-france/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/a4321939-7352-46b9-854c-66696b02c1a0/untitled-design-2026-06-30t083217-667.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:16:29 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Sweden",
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Winger woes and handling World Cup knockout pressure: Five key talking points ahead of England v DR Congo",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/winger-woes-handling-world-cup-131016936.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:10:16 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Klopp plays down Germany job links, Livramento has surgery – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 13:01:50 GMT",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Paraguay",
+        "Germany",
+        "Netherlands",
+        "Japan",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup: Paraguay's president Santiago Peña declares national holiday after shocking win over Germany",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-paraguays-president-santiago-pena-declares-national-holiday-after-shocking-win-over-germany-130116789.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:01:16 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "How to Watch France vs. Sweden: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-vs-sweden-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-france-vs-sweden-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 09:00:23 -0400",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Mexico face up to their most terrifying opponent: the ghost of World Cup game four",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-face-most-terrifying-opponent-130007089.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:00:07 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Ivory Coast vs. Norway live stream: How to watch FIFA World Cup, predictions and lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/ivory-coast-vs-norway-live-stream-how-to-watch-fifa-world-cup-predictions-and-lineups/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/923e9c0b-b390-4345-a666-bc01835ad1fe/untitled-design-2026-06-30t084416-533.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:56:13 +0000",
+      "teams": [
+        "Ivory Coast",
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:47:47 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mexico vs. Ecuador odds, predictions: 2026 World Cup Round of 32 picks from proven soccer expert",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-ecuador-odds-predictions-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/e21e7bc1-f41a-4446-87c9-587daa066934/usatsi-29265520-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:25:58 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for France, Mexico, More",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-france-mexico-more"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-schedule-june-30.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 08:22:31 -0400",
+      "teams": [
+        "Mexico",
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "How to Watch Mexico vs. Ecuador: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mexico-vs-ecuador-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-mexico-vs-ecuador-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 08:16:53 -0400",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "France vs. Sweden odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 10-5 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-sweden-odds-prediction-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/7c07c87b-15bc-441c-9ee0-13df008dda86/mbappe-dembele.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:15:31 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Barcelona scout 26-year-old Liverpool forward at the World Cup &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-scout-26-old-liverpool-121500770.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Iran criticises ‘petty’ US security chief after he ‘danced a happy dance’ over team’s World Cup elimination",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/iran-criticise-petty-us-security-110337263.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:14:38 +0000",
+      "teams": [
+        "Iran"
+      ]
+    },
+    {
+      "headline": "The Paraguay hero who sold his kit when his son was born",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-hero-sold-kit-son-112854580.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:12:52 +0000",
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "'Which Match?' Familiar Feelings For Germany After Another Early World Cup Exit",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-germany-paraguay"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/germanyh1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 08:08:05 -0400",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Germany fans in need of hope as prospect of Klopp looms",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-fans-hope-prospect-klopp-114140129.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:07:32 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Real Madrid calm over superstar&#8217;s future as renewal talks to take place after World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-calm-over-superstar-120000934.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:00:00 +0000",
+      "teams": [
+        "Japan"
+      ]
+    },
+    {
+      "headline": "Advantage Nullified? Like Opponent Mexico, Ecuador Used To High Altitude Soccer",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-mexico-ecuador-altitude"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ecuadorh1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 07:55:37 -0400",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Real Madrid prodigy expresses gratitude after successful loan spell in France: &#8216;My story changed&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-prodigy-expresses-gratitude-115500208.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:55:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan",
+        "France"
+      ]
+    },
+    {
+      "headline": "France superstars thriving thanks to bravery of Deschamps",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-superstars-thriving-thanks-deschamps-112142052.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:52:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Norway vs. Ivory Coast odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-14 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/norway-ivory-coast-odds-prediction-line-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/89a58035-5de9-4443-aac1-2b21f82e9825/erling-haaland-norway-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:48:36 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Ranking 10 stars who could be at their last World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ranking-10-stars-could-last-114455998.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:44:55 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ranking 10 stars who could be at their last World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c04yvw3w1w6o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa8c/live/44cb5600-7315-11f1-891c-8924aece7da2.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 30 Jun 2026 11:44:49 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Germany fans in need of hope as prospect of Klopp looms",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cz0jgr7vy5zo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35f7/live/06668fe0-7470-11f1-b8da-6d87dfdc4508.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 30 Jun 2026 11:35:31 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "1st Arsenal player eliminated from World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/1st-arsenal-player-eliminated-world-113500481.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:35:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "David Squires on … World Cup penalty pain for Germany and the Netherlands",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/picture/2026/jun/30/david-squires-on-world-cup-penalty-pain-germany-netherlands"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 11:30:05 GMT",
+      "teams": [
+        "Germany",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "The Paraguay hero who sold his kit when his son was born",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c75yelwge25o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d132/live/e0569df0-7473-11f1-b8da-6d87dfdc4508.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 30 Jun 2026 11:28:48 GMT",
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "France superstars thriving thanks to Deschamps' bold changes",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cg53ggg03nno?at_medium=RSS&at_campaign=rss"
@@ -17,6 +484,37 @@
       "pubDate": "Tue, 30 Jun 2026 11:18:24 GMT",
       "teams": [
         "France"
+      ]
+    },
+    {
+      "headline": "Germany face crisis after shock World Cup exit to Paraguay on penalties",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-face-crisis-shock-world-001535983.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:14:57 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Jordan Pickford says England ready to ‘go to war’ for Thomas Tuchel at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jordan-pickford-says-england-ready-111412739.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:14:12 +0000",
+      "teams": [
+        "Jordan",
+        "Congo DR",
+        "England"
       ]
     },
     {
@@ -53,37 +551,40 @@
       ]
     },
     {
-      "headline": "Iran criticise ‘petty’ US security chief after he ‘danced a happy dance’ over team’s World Cup elimination",
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: France's Dembele among best bets for Tuesday's games",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/iran-criticise-petty-us-security-110337263.html"
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-frances-dembele-among-best-bets-for-tuesdays-games/"
         }
       },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 11:03:37 +0000",
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/fd7735f3-9d5b-4375-857c-f9fef5e4a074/dembelefrance.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:01:08 +0000",
       "teams": [
-        "Iran"
+        "France"
       ]
     },
     {
-      "headline": "World Cup 2026: Dutch despair, Klopp plays down Germany job links after exit – live",
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Tuesday include France, Mexico",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-tuesday-include-france-mexico/"
         }
       },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 11:01:16 GMT",
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3debfec-4126-4217-9c4a-531ee9ece7bf/dembele-france.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:00:56 +0000",
       "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan",
-        "Norway"
+        "Mexico",
+        "France"
       ]
     },
     {
@@ -287,22 +788,6 @@
         "Sweden",
         "France"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:04:12 +0000",
-      "teams": []
     },
     {
       "headline": "Meet Wisconsin-born Esmir Bajraktarević, Bosnia and Herzegovina’s World Cup hero",
@@ -1791,21 +2276,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 30 Jun 2026 00:16:13 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Germany face crisis after shock World Cup exit to Paraguay on penalties",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-face-crisis-shock-world-001535983.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:15:35 +0000",
       "teams": [
         "Paraguay",
         "Germany"
@@ -15629,461 +16099,6 @@
       "pubDate": "Thu, 25 Jun 2026 23:04:30 +0000",
       "teams": [
         "Germany"
-      ]
-    },
-    {
-      "headline": "4 Takeaways From Ecuador's Triumphant Win vs. Germany At The World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/ecuador-vs-germany-world-cup-4-takeaways"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/15cc0cbc-ecuador1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 18:59:58 -0400",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Nicolas Pepe inspires Ivory Coast into World Cup knockouts to end Curacao dream",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/nicolas-pepe-inspires-ivory-coast-225713785.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:57:13 +0000",
-      "teams": [
-        "Curaçao",
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Ecuador fight back to upset Germany",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c0qyzg4zje4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ecd/live/9bdb8fd0-70e7-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 22:57:00 GMT",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Will Christian Pulisic Play vs. Türkiye? What We Know About His World Cup Status",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/will-christian-pulisic-play-vs-turkiye-what-we-know-about-usa-stars-world-cup-status"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/pul.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 18:54:16 -0400",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Breathtaking Ecuador become World Cup dark horses and expose Germany’s biggest problem",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/breathtaking-ecuador-become-world-cup-223033036.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:52:24 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "‘I just thought, ‘What happened?’’: Why Sweden trained under a demolition site ahead of Japan World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/just-thought-happened-why-sweden-201646038.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:47:56 +0000",
-      "teams": [
-        "Japan",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "Ivory Coast defeat Curacao to progress to knockout stages for first time",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c2dyp5znl85o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d45/live/31808aa0-70e7-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 22:46:40 GMT",
-      "teams": [
-        "Curaçao",
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Ecuador coach Sebastian Beccacece climbs into stands to celebrate Germany upset with family",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ecuador-coach-sebastian-beccacece-climbs-224034056.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:40:34 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "😡 Then it gets difficult: one thing really wound up Nagelsmann!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/then-gets-difficult-one-thing-223500176.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:35:00 +0000",
-      "teams": [
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Plata’s golden touch against Germany sends Ecuador into World Cup last 32",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/ecuador-germany-world-cup-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 22:28:28 GMT",
-      "teams": [
-        "Germany",
-        "Curaçao",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Côte d’Ivoire into World Cup knockouts for first time as Pépé finishes off Curaçao",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/pepe-at-the-double-as-cote-divoire-beat-curacao-and-claim-place-in-last-32"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 22:20:06 GMT",
-      "teams": [
-        "Curaçao"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Ecuador beats Group E winner Germany to reach knockout round, where they'll be joined by first-timer Ivory Coast",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-ecuador-beats-group-e-winner-germany-to-reach-knockout-round-where-theyll-be-joined-by-first-timer-ivory-coast-221316028.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:13:16 +0000",
-      "teams": [
-        "Germany",
-        "Ivory Coast",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "🤩 Historic Ivory Coast! Beat Curaçao 2-0, through groups for 1st time 👏",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/historic-ivory-coast-beat-cura-220800798.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 22:08:00 +0000",
-      "teams": [
-        "Curaçao",
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-bets-16x9-bb-wc-4.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 18:05:03 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Plata's 'touch of gold' gives Ecuador lead against Germany",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cpd322zzv90o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a42/live/9c4606e0-70e6-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 22:00:17 GMT",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "📹 Gonzalo Plata seals comeback against Germany, sends Ecuador through",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/gonzalo-plata-seals-comeback-against-215900873.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:59:00 +0000",
-      "teams": [
-        "United States",
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Germany even fall behind! Is the pitch to blame for it all?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-even-fall-behind-pitch-214100168.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:41:00 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Iran, Egypt at odds with FIFA over 'Pride Match' symbols, festivities in Seattle",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-iran-egypt-at-odds-with-fifa-over-pride-match-symbols-festivities-in-seattle-213914805.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:39:14 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Netherlands vs. Tunisia odds, prediction, time: 2026 World Cup picks, best bets from expert on 31-13 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/netherlands-tunisia-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/674eb477-d332-4401-9502-4db78b8892b3/crysencio-summerville.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:38:08 +0000",
-      "teams": [
-        "Netherlands",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "Japan vs. Sweden odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/japan-sweden-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/a6e50dc7-2d91-4bef-baf7-f4f530a8bd11/ayase-ueda.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:31:44 +0000",
-      "teams": [
-        "Japan",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "🚨 Yan Diomande's stunning World Cup record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/yan-diomandes-superb-world-cup-212500128.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:25:00 +0000",
-      "teams": [
-        "Curaçao",
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Germany goal should have been ruled out for 'endangering opponent'",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cqx1wqx9n27o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02ec/live/74e0bbf0-70db-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 25 Jun 2026 21:24:19 GMT",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "What would the Club World Cup look like with 48 teams?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/club-world-cup-look-48-212000576.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup: Germany goal against Ecuador not called back despite missed high-boot foul",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-germany-goal-against-ecuador-not-called-back-despite-missed-high-boot-foul-211042774.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:10:42 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Ecuador left furious after controversial non-call on Germany's early goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-ecuador-left-furious-after-controversial-non-call-on-germanys-early-goal-211042774.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:10:42 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "France predicted XI v Norway: Désiré Doué to return, William Saliba out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-predicted-xi-v-norway-210000974.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 21:00:00 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Curaçao v Côte d’Ivoire: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/25/curacao-v-cote-divoire-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 20:57:30 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Curaçao"
-      ]
-    },
-    {
-      "headline": "Ecuador v Germany: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/25/germany-v-ecuador-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 20:51:17 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Germany",
-        "Ecuador"
       ]
     }
   ]

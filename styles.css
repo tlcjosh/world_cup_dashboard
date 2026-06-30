@@ -450,6 +450,34 @@ body {
 
 .goal-event { display: block; }
 
+/* ===== PENALTY SHOOTOUT ("PENS" display mode) ===== */
+.match-shootout {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.ms-home { text-align: left; letter-spacing: 3px; }
+.ms-away { text-align: right; letter-spacing: 3px; }
+.ms-score {
+  font-family: 'Anybody', sans-serif;
+  font-variation-settings: 'wdth' 75;
+  font-weight: 900;
+  font-size: 12px;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.shootout-kick {
+  font-size: 14px;
+  cursor: default;
+}
+.shootout-kick.scored { color: #16A34A; }
+.shootout-kick.missed { color: #DC2626; }
+
 /* ===== MATCH STATS STRIP ===== */
 .match-stats {
   margin-top: 10px;
