@@ -24,6 +24,7 @@
   --bs: 96px; /* bracket slot height */
   --max-w: 1160px;
   --grad-green: linear-gradient(135deg, #16A34A 0%, #0EA5E9 100%);
+  --grad-green-rev: linear-gradient(135deg, #0EA5E9 0%, #16A34A 100%);
 }
 
 /* ===== RESET ===== */
@@ -892,6 +893,15 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0) border-box;
   -webkit-mask-composite: source-out;
   mask-composite: exclude;
+}
+
+/* Top elbow's box runs match-side (green end) to gap-side (blue end) under the
+   gradient above, while the bottom elbow's box runs the opposite way (gap-side
+   green, match-side blue) -- since both elbows meet at the same gap, that left
+   them mismatched right at the convergence point. Flip the top elbow's gradient
+   so it's blue near the match and green at the gap, matching the bottom elbow. */
+.bracket-round .b-slot:nth-child(odd).advanced::after {
+  background: var(--grad-green-rev) border-box;
 }
 
 .bracket-round:not(.r32) .b-slot.incoming-advanced::before {
