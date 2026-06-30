@@ -1,6 +1,35 @@
 {
-  "asOf": "2026-06-30T13:54:55.796Z",
+  "asOf": "2026-06-30T14:08:30.696Z",
   "items": [
+    {
+      "headline": "Liverpool star slammed for peformance in World Cup defeat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-star-slammed-peformance-world-135000112.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:50:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Dutch icon criticises Frenkie de Jong after Netherlands World Cup exit: &#8216;Worst match I&#8217;ve ever seen from him&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dutch-icon-criticises-frenkie-jong-134500693.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:45:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
     {
       "headline": "Juve-Dibu, Inter stung again ⚠️ Milan-Stones, Gud, today's market 🤑",
       "links": {
@@ -16060,46 +16089,6 @@
       "pubDate": "Thu, 25 Jun 2026 23:55:49 +0000",
       "teams": [
         "Paraguay"
-      ]
-    },
-    {
-      "headline": "Paraguay v Australia: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/fifa-world-cup-2026-live-paraguay-v-australia-socceroos-updates-par-vs-aus-group-d-match-score-latest"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 23:53:36 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Brazil",
-        "Scotland",
-        "United States",
-        "Paraguay",
-        "Australia"
-      ]
-    },
-    {
-      "headline": "Tunisia v Netherlands: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/25/tunisia-v-netherlands-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 23:53:15 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Netherlands",
-        "Japan",
-        "Sweden",
-        "Tunisia"
       ]
     }
   ]
