@@ -235,6 +235,9 @@ async function resolveEventContext(m, dateCache) {
       ourAwayId: ourAwayComp.team.id,
       boxTeams: summary.boxscore?.teams || [],
       shootout: summary.shootout || [],
+      statusName: comp.status?.type?.name,
+      aetHomeScore: parseInt(ourHomeComp.score, 10),
+      aetAwayScore: parseInt(ourAwayComp.score, 10),
     };
   }
 
@@ -264,6 +267,9 @@ async function resolveEventContext(m, dateCache) {
       ourAwayId: ourAwayComp.team.id,
       boxTeams: summary?.boxscore?.teams || [],
       shootout: summary?.shootout || [],
+      statusName: found.comp.status?.type?.name,
+      aetHomeScore: parseInt(ourHomeComp.score, 10),
+      aetAwayScore: parseInt(ourAwayComp.score, 10),
     };
   }
   return null; // not in ESPN's window yet — retry on a later sync
@@ -275,20 +281,24 @@ async function resolveEventContext(m, dateCache) {
 // changes after the final whistle, so each match costs at most one ESPN call,
 // ever (plus the one-time discovery search for matches without a cached
 // espnEventId yet).
-// Knockout matches can't end level outside of penalties — a knockout-stage match
-// that's FINISHED with a tied score went to a shootout, which means
-// homeShootoutScore/awayShootoutScore are required for isStatsComplete() below,
-// not just the usual boxscore fields.
-function wentToShootout(m) {
-  return m.stage !== 'Group Stage' && m.homeScore === m.awayScore;
-}
-
+// Whether a knockout-stage match went to penalties can't be reliably detected from
+// homeScore === awayScore: football-data.org has been confirmed (against both real
+// WC2026 shootouts so far, Germany v Paraguay and Netherlands v Morocco) to report
+// score.fullTime for a penalty-decided knockout match as the AET score *plus* each
+// side's shootout goals (e.g. AET 1-1, shootout 3-4 on penalties, persisted as
+// "4-5") rather than the tied AET score — so the tied-score signal is corrupted at
+// the source for exactly the matches that need it most. ESPN's STATUS_FINAL_PEN is
+// checked directly instead, and is also used to correct homeScore/awayScore back to
+// the real (tied) AET score once detected — see syncMatchStats() below. Persisted as
+// m.wentToPenalties once known, so isStatsComplete() doesn't need to re-derive this
+// from the (untrustworthy) score every time.
 function isStatsComplete(m) {
   return typeof m.homeYellowCards === 'number' &&
     typeof m.homeSaves !== 'undefined' &&
     typeof m.homeShots !== 'undefined' &&
     (m.stage !== 'Group Stage' || (typeof m.homeFairPlay === 'number' && typeof m.awayFairPlay === 'number')) &&
-    (!wentToShootout(m) || typeof m.homeShootoutScore === 'number');
+    (m.stage === 'Group Stage' || typeof m.wentToPenalties === 'boolean') &&
+    (!m.wentToPenalties || typeof m.homeShootoutScore === 'number');
 }
 
 async function syncMatchStats(matches) {
@@ -309,9 +319,18 @@ async function syncMatchStats(matches) {
     // a prior sync that hit an empty boxscore before this field existed.
     applyBoxscoreStats(m, homeBox, awayBox);
 
-    if (wentToShootout(m)) {
-      m.homeShootoutScore = parseShootoutScore(ctx.shootout, ctx.ourHomeId);
-      m.awayShootoutScore = parseShootoutScore(ctx.shootout, ctx.ourAwayId);
+    if (m.stage !== 'Group Stage' && typeof m.wentToPenalties !== 'boolean') {
+      m.wentToPenalties = ctx.statusName === 'STATUS_FINAL_PEN';
+      if (m.wentToPenalties) {
+        m.homeShootoutScore = parseShootoutScore(ctx.shootout, ctx.ourHomeId);
+        m.awayShootoutScore = parseShootoutScore(ctx.shootout, ctx.ourAwayId);
+        // Correct the AET score back to tied — see the isStatsComplete() comment above
+        // for why the persisted score can't be trusted for a penalty-decided match.
+        if (Number.isFinite(ctx.aetHomeScore) && Number.isFinite(ctx.aetAwayScore)) {
+          m.homeScore = ctx.aetHomeScore;
+          m.awayScore = ctx.aetAwayScore;
+        }
+      }
     }
 
     if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
@@ -893,7 +912,10 @@ async function main() {
     ourMatch.status = newStatus;
 
     const score = apiMatch.score;
-    if (score?.fullTime && newStatus === 'FINISHED') {
+    // Skip once a match is confirmed penalty-decided: football-data.org's fullTime
+    // score is wrong for these (see isStatsComplete() comment above) and would
+    // otherwise re-clobber the ESPN-corrected score on every subsequent sync.
+    if (score?.fullTime && newStatus === 'FINISHED' && !ourMatch.wentToPenalties) {
       ourMatch.homeScore = score.fullTime.home;
       ourMatch.awayScore = score.fullTime.away;
     }
