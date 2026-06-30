@@ -1,8 +1,126 @@
 {
-  "asOf": "2026-06-30T14:08:30.696Z",
+  "asOf": "2026-06-30T15:25:17.730Z",
   "items": [
     {
-      "headline": "Liverpool star slammed for peformance in World Cup defeat",
+      "headline": "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 15:10:21 GMT",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Paraguay",
+        "Germany",
+        "Netherlands",
+        "Japan",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Norway vs. Ivory Coast odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-14 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/norway-ivory-coast-odds-prediction-line-time-2026-world-cup-round-of-32-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/89a58035-5de9-4443-aac1-2b21f82e9825/erling-haaland-norway-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 15:01:10 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "France vs. Sweden Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-vs-sweden-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283508113-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 11:00:03 -0400",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Jurgen Klopp takes aim at Arsenal during World Cup coverage",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jurgen-klopp-takes-aim-arsenal-145000905.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 14:50:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 wall chart: Printable tournament tracker, brackets, knockout stage and more",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-wall-chart-printable-tournament-tracker/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/ff2970bb-122d-499d-aa80-b3392206a1b0/golazo-r32.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 14:28:36 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Panenka to Paraguay: Germany’s 50-year penalty shootout streak is over",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/30/germany-50-year-penalty-shootout-dominance-over-world-cup-2026"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 14:15:30 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Ibrahimovic hits out at Koeman after the Netherlands’ World Cup exit: He ‘seemed Italian’ – video",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ibrahimovic-hits-koeman-netherlands-world-140000384.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 14:00:00 +0000",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Liverpool star slammed for performance in World Cup defeat",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/liverpool-star-slammed-peformance-world-135000112.html"
@@ -46,26 +164,6 @@
         "Paraguay",
         "Germany",
         "Netherlands"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 13:42:19 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan",
-        "Norway"
       ]
     },
     {
@@ -425,7 +523,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ecuadorh1.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283483634-scaled.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -1500,7 +1598,7 @@
       ]
     },
     {
-      "headline": "Netherlands crumble in penalty shootout as Morocco reach last 16",
+      "headline": "Netherlands crumble in penalty shootout as Morocco progress",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/c4gy5gmd7mjo?at_medium=RSS&at_campaign=rss"
@@ -1643,7 +1741,7 @@
       ]
     },
     {
-      "headline": "Morocco edge wild last-32 penalty shootout as Netherlands pay heavy price for misses",
+      "headline": "Morocco win wild penalty shootout as Netherlands pay heavy price for misses",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/30/netherlands-morocco-world-cup-2026-last-32-match-report"
@@ -1922,7 +2020,7 @@
       "teams": []
     },
     {
-      "headline": "'Germany play one way - and it doesn't work anymore'",
+      "headline": "'Germany play one way - and it doesn't work any more'",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/c04y10n6wqeo?at_medium=RSS&at_campaign=rss"
@@ -15988,107 +16086,6 @@
       "teams": [
         "Japan",
         "Sweden"
-      ]
-    },
-    {
-      "headline": "Paraguay vs. Australia odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/paraguay-australia-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/95b6bcf3-9ece-43cc-88da-38715b6ce728/kerem-akturkoglu-turkiye.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:41:16 +0000",
-      "teams": [
-        "Paraguay",
-        "Australia"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Turkiye odds, prediction, time: 2026 World Cup picks from expert on 21-12 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-turkiye-odds-prediction-time-2026-world-cup-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/3cb44833-c2ce-4b5f-89fc-f60fc9c80aa1/sergino-dest.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:37:39 +0000",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Christian Pulisic won't start for USMNT's group stage finale against Türkiye",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-christian-pulisic-wont-start-for-usmnts-group-stage-finale-against-turkiye-003605188.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:36:05 +0000",
-      "teams": [
-        "Paraguay",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Beccacece goes from brink to World Cup history with Ecuador",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cqx133qlve2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b0a/live/e2708ee0-70f2-11f1-b811-7dff86ad99ea.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 00:34:29 GMT",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Ivory Coast reach World Cup knockouts for first time",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-live-curacao-ivory-coast-153509674.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:26:55 +0000",
-      "teams": [
-        "Curaçao",
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: FIFA revokes credentials of Paraguayan broadcaster after profane on-air rant against Gianni Infantino, referee",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-fifa-revokes-credentials-of-paraguayan-broadcaster-after-profane-on-air-rant-against-gianni-infantino-referee-235549276.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 23:55:49 +0000",
-      "teams": [
-        "Paraguay"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T14:08:29.337Z",
+  "lastUpdated": "2026-06-30T15:24:50.787Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3664,7 +3664,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760492"
     },
     {
       "matchId": 537424,
@@ -3681,7 +3682,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760490"
     },
     {
       "matchId": 537425,
@@ -3698,7 +3700,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760491"
     },
     {
       "matchId": 537426,
@@ -3715,7 +3718,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760495"
     },
     {
       "matchId": 537421,
@@ -3732,7 +3736,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760494"
     },
     {
       "matchId": 537422,
@@ -3749,7 +3754,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760493"
     },
     {
       "matchId": 537419,
