@@ -110,6 +110,134 @@ function findESPNEvent(events, homeTeam, awayTeam) {
   return null;
 }
 
+// Fetches one ESPN scoreboard date bucket, cached across the whole run since
+// resolveEventContext()'s discovery search and syncLiveScores() below both hit
+// the same dates for matches that share a kickoff day.
+async function fetchEspnDateEvents(dateStr, dateCache) {
+  if (!dateCache.has(dateStr)) {
+    try {
+      const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${dateStr}`);
+      dateCache.set(dateStr, res.ok ? ((await res.json()).events || []) : []);
+    } catch (e) {
+      console.warn('ESPN scoreboard fetch failed for', dateStr, e.message);
+      dateCache.set(dateStr, []);
+    }
+  }
+  return dateCache.get(dateStr);
+}
+
+// Given ESPN's home/away competitors for a match we already have a cached
+// espnEventId for, figures out which one is actually "our" home team --
+// ESPN's home/away order can differ from data.json's.
+function resolveOurSides(m, homeComp, awayComp) {
+  const expectedHomeId = String(TEAM_MASTER_DATA[m.homeTeam]?.espnId || '');
+  const swapped = expectedHomeId ? String(homeComp.team.id) !== expectedHomeId : false;
+  return swapped ? { ourHomeComp: awayComp, ourAwayComp: homeComp } : { ourHomeComp: homeComp, ourAwayComp: awayComp };
+}
+
+// ESPN status name -> our internal status values (kept in sync with
+// ESPN_STATUS_MAP in src/app.js). STATUS_END_OF_EXTRATIME/STATUS_SHOOTOUT map to
+// IN_PLAY -- see "Penalty Shootouts" in CLAUDE.md -- and STATUS_DELAYED maps to
+// PAUSED, not SCHEDULED, since ESPN also uses it for an in-progress match
+// suspended mid-game (see CLAUDE.md Known Issues #13), not just pre-match delays.
+const ESPN_STATUS_TO_OURS = {
+  STATUS_SCHEDULED: 'SCHEDULED',
+  STATUS_POSTPONED: 'SCHEDULED',
+  STATUS_CANCELED: 'SCHEDULED',
+  STATUS_FIRST_HALF: 'IN_PLAY',
+  STATUS_SECOND_HALF: 'IN_PLAY',
+  STATUS_END_OF_EXTRATIME: 'IN_PLAY',
+  STATUS_SHOOTOUT: 'IN_PLAY',
+  STATUS_HALFTIME: 'PAUSED',
+  STATUS_END_PERIOD: 'PAUSED',
+  STATUS_SUSPENDED: 'PAUSED',
+  STATUS_DELAY: 'PAUSED',
+  STATUS_DELAYED: 'PAUSED',
+  STATUS_FULL_TIME: 'FINISHED',
+  STATUS_FINAL_AET: 'FINISHED',
+  STATUS_FINAL_PEN: 'FINISHED',
+};
+
+// Falls back to status.type.state for any ESPN status name not in the table
+// above, same defensive pattern as the frontend's mapESPNStatus().
+function mapEspnStatusToOurs(comp) {
+  const name = comp.status?.type?.name;
+  if (ESPN_STATUS_TO_OURS[name]) return ESPN_STATUS_TO_OURS[name];
+  const state = comp.status?.type?.state;
+  if (state === 'in') return 'IN_PLAY';
+  if (state === 'post') return 'FINISHED';
+  return 'SCHEDULED';
+}
+
+// Drives status/homeScore/awayScore for every match with resolved team names --
+// the backend's equivalent of the frontend's fetchESPN()/mergeESPNData(), and now
+// the *only* source of live state on the backend. football-data.org used to fill
+// this role too, but its fullTime score for a penalty-decided knockout match is
+// corrupted (AET score + that side's shootout goals, not the tied AET score --
+// see the isStatsComplete() comment below), and there's no reason to keep two
+// sources of truth for the same fields when ESPN is already what the frontend
+// trusts live and what syncMatchStats() below trusts for permanent backfill.
+// Skips matches already FINISHED (permanent from here) and bracket slots still
+// showing a placeholder team name (nothing to look up yet).
+// Don't bother polling ESPN for a match that's still this far from kickoff --
+// football-data.org's old bulk endpoint covered every match for the cost of one
+// HTTP call regardless of status, but this is a per-match ESPN call, so without
+// this guard every still-days-away fixture would get hit on every 30s tick for
+// no reason (it's guaranteed to still be SCHEDULED).
+const LIVE_SYNC_WINDOW_MS = 36 * 60 * 60 * 1000;
+
+async function syncLiveScores(matches, dateCache, now) {
+  let changed = false;
+  for (const m of matches) {
+    if (m.status === 'FINISHED') continue;
+    if (m.homeTeam?.startsWith('[') || m.awayTeam?.startsWith('[')) continue;
+    if (m.kickoff && new Date(m.kickoff) - Date.now() > LIVE_SYNC_WINDOW_MS) continue;
+
+    let comp, ourHomeComp, ourAwayComp;
+    if (m.espnEventId) {
+      const summary = await fetchESPNSummary(m.espnEventId);
+      comp = summary?.header?.competitions?.[0];
+      const homeComp = comp?.competitors?.find(c => c.homeAway === 'home');
+      const awayComp = comp?.competitors?.find(c => c.homeAway === 'away');
+      if (!comp || !homeComp || !awayComp) continue;
+      ({ ourHomeComp, ourAwayComp } = resolveOurSides(m, homeComp, awayComp));
+    } else {
+      const baseDate = kickoffToDateStr(m.kickoff);
+      if (!baseDate) continue;
+      let found = null;
+      for (const dateStr of candidateDates(baseDate)) {
+        found = findESPNEvent(await fetchEspnDateEvents(dateStr, dateCache), m.homeTeam, m.awayTeam);
+        if (found) break;
+      }
+      if (!found) continue; // not in ESPN's window yet -- retry on a later sync
+      m.espnEventId = found.comp.id;
+      comp = found.comp;
+      ourHomeComp = found.swapped ? found.awayComp : found.homeComp;
+      ourAwayComp = found.swapped ? found.homeComp : found.awayComp;
+    }
+
+    const prevStatus = m.status;
+    const newStatus = mapEspnStatusToOurs(comp);
+    const homeScore = parseInt(ourHomeComp.score, 10);
+    const awayScore = parseInt(ourAwayComp.score, 10);
+
+    if (newStatus !== m.status) { m.status = newStatus; changed = true; }
+    // ESPN reports "0" for a match that hasn't kicked off yet -- only trust the
+    // score once the match has actually started, same gating football-data.org's
+    // fullTime/halfTime fields effectively had before.
+    if (newStatus !== 'SCHEDULED' && Number.isFinite(homeScore) && Number.isFinite(awayScore) &&
+      (m.homeScore !== homeScore || m.awayScore !== awayScore)) {
+      m.homeScore = homeScore;
+      m.awayScore = awayScore;
+      changed = true;
+    }
+
+    if (newStatus === 'IN_PLAY' && prevStatus === 'SCHEDULED' && !m.firstHalfStart) m.firstHalfStart = now;
+    if (newStatus === 'IN_PLAY' && prevStatus === 'PAUSED' && !m.secondHalfStart) m.secondHalfStart = now;
+  }
+  return changed;
+}
+
 // FIFA fair play disciplinary points (group-stage tiebreaker), per athlete per match:
 //   1 yellow card                 => -1
 //   indirect red (second yellow)  => -3
@@ -224,10 +352,7 @@ async function resolveEventContext(m, dateCache) {
     const homeComp = comp?.competitors?.find(c => c.homeAway === 'home');
     const awayComp = comp?.competitors?.find(c => c.homeAway === 'away');
     if (!comp || !homeComp || !awayComp) return null;
-    const expectedHomeId = String(TEAM_MASTER_DATA[m.homeTeam]?.espnId || '');
-    const swapped = expectedHomeId ? String(homeComp.team.id) !== expectedHomeId : false;
-    const ourHomeComp = swapped ? awayComp : homeComp;
-    const ourAwayComp = swapped ? homeComp : awayComp;
+    const { ourHomeComp, ourAwayComp } = resolveOurSides(m, homeComp, awayComp);
     return {
       eventId: m.espnEventId,
       details: comp.details || [],
@@ -244,16 +369,7 @@ async function resolveEventContext(m, dateCache) {
   const baseDate = kickoffToDateStr(m.kickoff);
   if (!baseDate) return null;
   for (const dateStr of candidateDates(baseDate)) {
-    if (!dateCache.has(dateStr)) {
-      try {
-        const res = await fetch(`${ESPN_SCOREBOARD_URL}?dates=${dateStr}`);
-        dateCache.set(dateStr, res.ok ? ((await res.json()).events || []) : []);
-      } catch (e) {
-        console.warn('ESPN match stats fetch failed for', dateStr, e.message);
-        dateCache.set(dateStr, []);
-      }
-    }
-    const found = findESPNEvent(dateCache.get(dateStr), m.homeTeam, m.awayTeam);
+    const found = findESPNEvent(await fetchEspnDateEvents(dateStr, dateCache), m.homeTeam, m.awayTeam);
     if (!found) continue;
 
     const eventId = found.comp.id;
@@ -282,16 +398,17 @@ async function resolveEventContext(m, dateCache) {
 // ever (plus the one-time discovery search for matches without a cached
 // espnEventId yet).
 // Whether a knockout-stage match went to penalties can't be reliably detected from
-// homeScore === awayScore: football-data.org has been confirmed (against both real
-// WC2026 shootouts so far, Germany v Paraguay and Netherlands v Morocco) to report
-// score.fullTime for a penalty-decided knockout match as the AET score *plus* each
-// side's shootout goals (e.g. AET 1-1, shootout 3-4 on penalties, persisted as
-// "4-5") rather than the tied AET score — so the tied-score signal is corrupted at
-// the source for exactly the matches that need it most. ESPN's STATUS_FINAL_PEN is
-// checked directly instead, and is also used to correct homeScore/awayScore back to
-// the real (tied) AET score once detected — see syncMatchStats() below. Persisted as
-// m.wentToPenalties once known, so isStatsComplete() doesn't need to re-derive this
-// from the (untrustworthy) score every time.
+// homeScore === awayScore: football-data.org (no longer trusted for score at all,
+// see syncLiveScores() above) was confirmed to report score.fullTime for a
+// penalty-decided knockout match as the AET score *plus* each side's shootout
+// goals (e.g. AET 1-1, shootout 3-4 on penalties, persisted as "4-5") rather than
+// the tied AET score, which is how the two real WC2026 shootouts so far (Germany
+// v Paraguay, Netherlands v Morocco) ended up with a wrong, never-tied score in
+// data.json. ESPN's STATUS_FINAL_PEN is checked directly instead, and is also
+// used to correct homeScore/awayScore back to the real (tied) AET score for any
+// match still carrying that stale value — see syncMatchStats() below. Persisted
+// as m.wentToPenalties once known, so isStatsComplete() doesn't need to re-derive
+// this every time.
 function isStatsComplete(m) {
   return typeof m.homeYellowCards === 'number' &&
     typeof m.homeSaves !== 'undefined' &&
@@ -301,11 +418,10 @@ function isStatsComplete(m) {
     (!m.wentToPenalties || typeof m.homeShootoutScore === 'number');
 }
 
-async function syncMatchStats(matches) {
+async function syncMatchStats(matches, dateCache) {
   const pending = matches.filter(m => m.status === 'FINISHED' && !isStatsComplete(m));
   if (!pending.length) return;
 
-  const dateCache = new Map();
   for (const m of pending) {
     const ctx = await resolveEventContext(m, dateCache);
     if (!ctx) continue; // not in ESPN's window yet — retry on the next sync
@@ -888,55 +1004,26 @@ async function main() {
   const current = JSON.parse(readFileSync(DATA_PATH, 'utf8'));
   const oldJson = JSON.stringify(current, null, 2);
 
+  // football-data.org is schedule scaffolding only from here -- it bootstraps the
+  // full match list (kickoff/venue/team names) and self-heals matchId for
+  // knockout matches that started as a BRACKET_TEMPLATE placeholder. Live
+  // status/score is ESPN's job exclusively now (syncLiveScores below) -- see its
+  // doc comment for why football-data.org can't be trusted for that anymore.
   for (const ourMatch of current.matches) {
-    let apiMatch = apiMatches.find(m => m.id === ourMatch.matchId);
-    if (!apiMatch) {
-      const cleanHome = cleanName(ourMatch.homeTeam);
-      const cleanAway = cleanName(ourMatch.awayTeam);
-      apiMatch = apiMatches.find(m => {
-        const h = cleanName(m.homeTeam?.name);
-        const a = cleanName(m.awayTeam?.name);
-        return (h === cleanHome && a === cleanAway) || (h === cleanAway && a === cleanHome);
-      });
-      if (apiMatch) ourMatch.matchId = apiMatch.id; // self-heal matchId
-    }
-    if (!apiMatch) continue;
-
-    const prevStatus = ourMatch.status;
-    const apiStatus = apiMatch.status;
-    let newStatus = ourMatch.status;
-    if (apiStatus === 'FINISHED') newStatus = 'FINISHED';
-    else if (apiStatus === 'IN_PLAY') newStatus = 'IN_PLAY';
-    else if (apiStatus === 'PAUSED') newStatus = 'PAUSED';
-    else if (apiStatus === 'TIMED' || apiStatus === 'SCHEDULED') newStatus = 'SCHEDULED';
-    ourMatch.status = newStatus;
-
-    const score = apiMatch.score;
-    // Skip once a match is confirmed penalty-decided: football-data.org's fullTime
-    // score is wrong for these (see isStatsComplete() comment above) and would
-    // otherwise re-clobber the ESPN-corrected score on every subsequent sync.
-    if (score?.fullTime && newStatus === 'FINISHED' && !ourMatch.wentToPenalties) {
-      ourMatch.homeScore = score.fullTime.home;
-      ourMatch.awayScore = score.fullTime.away;
-    }
-    if (score?.halfTime && newStatus === 'PAUSED' && score.halfTime.home !== null) {
-      ourMatch.homeScore = score.halfTime.home;
-      ourMatch.awayScore = score.halfTime.away;
-    }
-    if (newStatus === 'IN_PLAY' && score?.fullTime?.home !== null) {
-      ourMatch.homeScore = score.fullTime.home;
-      ourMatch.awayScore = score.fullTime.away;
-    }
-
-    if (newStatus === 'IN_PLAY' && prevStatus === 'SCHEDULED' && !ourMatch.firstHalfStart) {
-      ourMatch.firstHalfStart = now;
-    }
-    if (newStatus === 'IN_PLAY' && prevStatus === 'PAUSED' && !ourMatch.secondHalfStart) {
-      ourMatch.secondHalfStart = now;
-    }
+    if (ourMatch.matchId) continue;
+    const cleanHome = cleanName(ourMatch.homeTeam);
+    const cleanAway = cleanName(ourMatch.awayTeam);
+    const apiMatch = apiMatches.find(m => {
+      const h = cleanName(m.homeTeam?.name);
+      const a = cleanName(m.awayTeam?.name);
+      return (h === cleanHome && a === cleanAway) || (h === cleanAway && a === cleanHome);
+    });
+    if (apiMatch) ourMatch.matchId = apiMatch.id;
   }
 
-  await syncMatchStats(current.matches);
+  const dateCache = new Map();
+  await syncLiveScores(current.matches, dateCache, now);
+  await syncMatchStats(current.matches, dateCache);
   // Once the group stage is fully FINISHED, standings/third-place rankings are
   // exact (no projection needed) -- resolve [1A]/[3BEFIJ]/[W74]-style knockout
   // placeholders to real team names so the self-heal matchId lookup above (and
