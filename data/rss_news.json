@@ -1,6 +1,25 @@
 {
-  "asOf": "2026-06-30T13:20:15.254Z",
+  "asOf": "2026-06-30T13:25:17.037Z",
   "items": [
+    {
+      "headline": "England vs. Congo DR odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 10-5 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-congo-dr-odds-prediction-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/5df4a874-be47-47b1-bdc8-c50392f4536c/jude-bellingham-england-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:17:17 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
     {
       "headline": "World Cup round of 32: Can Erling Haaland and Kylian Mbappe keep scoring with Norway and France in action",
       "links": {
@@ -16085,20 +16104,6 @@
       "teams": [
         "Germany",
         "Ecuador"
-      ]
-    },
-    {
-      "headline": "The real reason Germany are running out of time after World Cup setback",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-reason-germany-running-time-230430848.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 23:04:30 +0000",
-      "teams": [
-        "Germany"
       ]
     }
   ]
