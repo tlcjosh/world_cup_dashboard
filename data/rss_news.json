@@ -1,23 +1,60 @@
 {
-  "asOf": "2026-06-29T23:02:52.508Z",
+  "asOf": "2026-06-30T00:16:39.243Z",
   "items": [
     {
-      "headline": "Watch live as Germany controversially have extra-time goal disallowed against Paraguay",
+      "headline": "Netherlands v Morocco: World Cup 2026 – live",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/watch-live-paraguay-front-against-212857906.html"
+          "href": "https://www.theguardian.com/football/live/2026/jun/29/netherlands-v-morocco-world-cup-2026-live"
         }
       },
       "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 22:50:30 +0000",
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 00:04:38 GMT",
       "teams": [
+        "Morocco",
         "Paraguay",
-        "Germany"
+        "Germany",
+        "Netherlands",
+        "England"
       ]
     },
     {
-      "headline": "Germany v Paraguay goes to extra time: World Cup 2026 last 32 – live",
+      "headline": "Who Is Paraguay's Next World Cup Opponent? Paraguay's Path To The Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/who-paraguayss-next-world-cup-opponent-paraguays-path-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/paraguay.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 20:02:50 -0400",
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:55:12 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Paraguay beat Germany on penalties to reach last 16 of World Cup 2026 –as it happened",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jun/29/germany-v-paraguay-world-cup-2026-last-32-live"
@@ -25,12 +62,136 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 29 Jun 2026 22:49:59 GMT",
+      "pubDate": "Mon, 29 Jun 2026 23:53:29 GMT",
       "teams": [
         "Brazil",
         "Paraguay",
         "Germany",
         "Japan"
+      ]
+    },
+    {
+      "headline": "Paraguay Knocks Germany Out Of 2026 World Cup After Penalty Shootout",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/paraguay-knocks-germany-out-2026-world-cup-after-penalty-shootout"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/paraguay1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 29 Jun 2026 19:42:19 -0400",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "France to potentially play Paraguay as Germany stunned in World Cup round of 32",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-potentially-play-paraguay-germany-234000523.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 23:40:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany",
+        "France"
+      ]
+    },
+    {
+      "headline": "Paraguay stun Germany on penalties to reach last 16 of World Cup - reaction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-live-paraguay-front-against-212857906.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 23:32:18 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: Paraguay upsets Germany in penalties, thanks to Orlando Gill and a controversial foul call",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-paraguay-upsets-germany-in-penalties-thanks-to-orlando-gill-and-a-controversial-foul-call-233154875.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 23:31:54 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "📹 Paraguay knock out Germany in World Cup 2026's first shoot-out",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/first-time-world-cup-2026-233000509.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 23:30:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "🚨 World Cup embarrassment complete: Germany are out",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-embarrassment-complete-germany-232800297.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 23:28:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany",
+        "France"
+      ]
+    },
+    {
+      "headline": "What are the penalty shoot-out rules at the World Cup 2026?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/penalty-shoot-rules-world-cup-232313030.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 23:23:13 +0000",
+      "teams": []
+    },
+    {
+      "headline": "‘One of our own’: Cristian Volpato flourishes after Socceroos switch",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/cristian-volpato-socceroos-australia-italy-egypt-2026-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 22:51:53 GMT",
+      "teams": [
+        "Australia",
+        "Egypt",
+        "France"
       ]
     },
     {
@@ -112,7 +273,7 @@
       "teams": []
     },
     {
-      "headline": "😅 Neymar teases pundit who predicted Brazil would lose to Japan",
+      "headline": "😅 Neymar mocks expert who predicted Brazil would lose to Japan",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/neymar-teases-pundit-predicted-brazil-215100093.html"
@@ -744,22 +905,6 @@
         "Paraguay",
         "Germany"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 15:13:55 -0400",
-      "teams": []
     },
     {
       "headline": "Brazil into last 16 as Martinelli strikes in stoppage time to break Japan hearts",
@@ -2007,6 +2152,20 @@
       "source": "BBC Sport",
       "pubDate": "Mon, 29 Jun 2026 10:38:12 GMT",
       "teams": []
+    },
+    {
+      "headline": "Steve Clarke says he was always going to leave Scotland if World Cup went badly",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/29/steve-clarke-says-he-was-always-going-to-leave-scotland-if-world-cup-went-badly"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 29 Jun 2026 10:33:40 GMT",
+      "teams": [
+        "Scotland"
+      ]
     },
     {
       "headline": "Move over Messi and Ronaldo - the new generation shining at World Cup",
@@ -15934,155 +16093,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 25 Jun 2026 09:30:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Bosnia and Herzegovina book place in knockout stage after seeing off Qatar",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/24/bosnia-herzegovina-qatar-group-b-world-cup-2026-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 09:13:39 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Qatar",
-        "United States",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "OneFootball x Jordan Rakei: I'm still proud of frustrating New Zealand",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/onefootball-x-jordan-rakei-im-090900169.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 09:09:00 +0000",
-      "teams": [
-        "New Zealand",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "🇧🇷 See who Brazil could face in the Copa knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/see-brazil-could-face-copa-090800096.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 09:08:00 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Amdouni's Switzerland into last 32 of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/amdounis-switzerland-last-32-world-090029847.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 09:00:29 +0000",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "How to Watch Curacao vs. Ivory Coast: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/curacao-vs-ivory-coast-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-e"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-curacao-vs-ivory-coast-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 04:43:22 -0400",
-      "teams": [
-        "Curaçao",
-        "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Jurgen Klopp ends interview after being asked about German icon’s controversial ‘African football’ remarks",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jurgen-klopp-ends-interview-being-083220830.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 08:32:20 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘They’re defeating nations who occupied’: inside Bangladesh’s World Cup love affair with Argentina and Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/25/bangladesh-brazil-argentina-world-cup-fans"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 08:30:09 GMT",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "‘They’re defeating nations who occupied’: inside Bangladesh’s World Cup love affair with Argentina and Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/defeating-nations-occupied-inside-bangladesh-083009639.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 08:30:09 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Who will be Italy’s next coach?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/italy-next-coach-083000052.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 08:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup: How to buy tickets for Panama vs. England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-buy-tickets-panama-082500961.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 08:25:00 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
     }
   ]
 }
