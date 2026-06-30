@@ -21,8 +21,8 @@ function espnTodayDateRange() {
 }
 
 async function main() {
-  const [teamA, teamB] = process.argv.slice(2);
-  const dateStr = espnTodayDateRange();
+  const [teamA, teamB, dateOverride] = process.argv.slice(2);
+  const dateStr = dateOverride || espnTodayDateRange();
   console.log(`Fetching scoreboard for date=${dateStr}...`);
   const res = await fetch(`${SCOREBOARD_URL}?dates=${dateStr}`);
   if (!res.ok) throw new Error(`Scoreboard fetch failed: ${res.status}`);
