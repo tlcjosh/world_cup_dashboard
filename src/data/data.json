@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T00:16:37.846Z",
+  "lastUpdated": "2026-06-30T03:28:24.507Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3514,8 +3514,8 @@
       "awayIso": "py",
       "venue": "Gillette Stadium, Foxborough",
       "kickoff": "2026-06-29T20:30:00.000Z",
-      "homeScore": 5,
-      "awayScore": 6,
+      "homeScore": 4,
+      "awayScore": 5,
       "status": "FINISHED",
       "firstHalfStart": "2026-06-29T21:55:01.972Z",
       "secondHalfStart": null,
@@ -3560,10 +3560,10 @@
       "awayIso": "ma",
       "venue": "Estadio BBVA, Guadalupe",
       "kickoff": "2026-06-30T01:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-06-30T03:28:24.507Z",
       "secondHalfStart": null
     },
     {
