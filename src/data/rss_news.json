@@ -1,6 +1,183 @@
 {
-  "asOf": "2026-06-30T03:41:14.593Z",
+  "asOf": "2026-06-30T04:39:45.010Z",
   "items": [
+    {
+      "headline": "World Cup 2026: The first 4 games in the Round of 32, with penalty shootouts and 3 late goals, have been incredible",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-the-first-4-games-in-the-round-of-32-with-penalty-shootouts-and-3-late-goals-have-been-incredible-042623008.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 04:26:23 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:25:13 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:19:16 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Brazil, Morocco Surge; Germany Shocked",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-629.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:13:09 -0400",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/morocco-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:06:47 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored, Mbappé Chasing",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:06:05 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Who Is Morocco's Next World Cup Opponent?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/who-morocco-next-world-cup-opponent-knockout-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283951222-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:02:12 -0400",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 00:01:13 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup: Morocco defeats the Netherlands in penalties to advance to Round of 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-morocco-defeats-the-netherlands-in-penalties-to-advance-to-round-of-16-040021824.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 04:00:21 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Bounou, Diop the heroes as Morocco come back, outlast Netherlands in penalties to reach World Cup Round of 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bounou-diop-heroes-morocco-come-040000334.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 04:00:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "📹 Wild Copa second round sees Europeans out and Brazil through; see more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/crazy-cup-monday-sees-europeans-035500082.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 03:55:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
     {
       "headline": "Netherlands v Morocco: World Cup 2026 last 32 goes to extra time – live",
       "links": {
@@ -722,22 +899,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 19:55:12 -0400",
-      "teams": []
-    },
-    {
       "headline": "Paraguay beat Germany on penalties to reach last 16 of World Cup 2026 –as it happened",
       "links": {
         "web": {
@@ -1301,25 +1462,6 @@
         "Mexico",
         "Canada",
         "United States"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: France Favored; Brazil Surges After Comeback Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/brazil-629.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 16:08:01 -0400",
-      "teams": [
-        "Brazil",
-        "France"
       ]
     },
     {
@@ -2115,22 +2257,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:42:36 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup: Brazil vs. Japan official line-ups, Ancelotti takes on Suzuki",
       "links": {
         "web": {
@@ -2143,25 +2269,6 @@
       "teams": [
         "Brazil",
         "Japan"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:37:11 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -3617,22 +3724,6 @@
       ]
     },
     {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 18:23:42 -0400",
-      "teams": []
-    },
-    {
       "headline": "Depends... Ancelotti on Neymar's chances of facing 🇯🇵",
       "links": {
         "web": {
@@ -4398,22 +4489,6 @@
         "South Africa",
         "Canada"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored After Group Stage",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:17:03 -0400",
-      "teams": []
     },
     {
       "headline": "France roasts Norway: Ousmane Dembélé steps into a starring role with fastest World Cup hat trick in 72 years",
@@ -16014,78 +16089,6 @@
       "teams": [
         "Japan",
         "Sweden"
-      ]
-    },
-    {
-      "headline": "Key mid-season break for Diniz at Corinthians; explained",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/key-mid-season-break-diniz-143600104.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:36:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Bosnia and Herzegovina defender eager to knock USMNT out of World Cup: 'It will be awesome for us'",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/bosnia-and-herzegovina-defender-eager-to-knock-usmnt-out-of-world-cup-it-will-be-awesome-for-us-143547257.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:35:47 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "🎥 Despite World Cup exit, national team gift surprise",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/despite-world-cup-exit-national-143500280.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:35:00 +0000",
-      "teams": [
-        "Algeria",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "6 World Cups, 1 Lionel Messi: 39 facts about soccer's immortal star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/6-world-cups-1-lionel-messi-39-facts-about-soccers-immortal-star-143330456.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:33:30 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Netherlands vs. Tunisia odds, prediction, time: 2026 World Cup picks, best bets from expert on 31-13 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/netherlands-tunisia-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/11/7fddee96-f3de-43f7-96c3-cf31a9bbb5af/virgil-van-dijk.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:27:43 +0000",
-      "teams": [
-        "Netherlands",
-        "Tunisia"
       ]
     }
   ]
