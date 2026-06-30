@@ -1,6 +1,154 @@
 {
-  "asOf": "2026-06-30T16:26:23.313Z",
+  "asOf": "2026-06-30T18:14:43.788Z",
   "items": [
+    {
+      "headline": "Lamine Yamal talks Pedri, Rodri, World Cup, fitness: &#8216;I&#8217;m ready for 90 minutes&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lamine-yamal-talks-pedri-rodri-180000507.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 18:00:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Côte d’Ivoire v Norway: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/cote-divoire-v-norway-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 17:56:29 GMT",
+      "teams": [
+        "Germany",
+        "Ivory Coast",
+        "Ecuador",
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup: Mexico fans make excessive noise outside Ecuador's hotel to prevent team from sleeping before match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-mexico-fans-make-excessive-noise-outside-ecuadors-hotel-to-prevent-team-from-sleeping-before-match-173717771.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:37:17 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Mourinho expected to hand Jude Bellingham familiar role at Real Madrid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mourinho-expected-hand-jude-bellingham-173000937.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Reece James and Jarell Quansah miss England training on eve of DR Congo World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reece-james-jarell-quansah-miss-172330132.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:23:30 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Why doubts remain if 'world No 1' will remain Villa's No 1",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-doubts-remain-world-no-170431851.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:04:31 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Is France vs Sweden on TV? Channel, kick-off and how to watch World Cup last-32 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-vs-sweden-tv-channel-085947764.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:02:04 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Journalist: Liverpool have already held &#8216;positive talks&#8217; to sign World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-liverpool-already-held-positive-165500544.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 16:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Can the pilot turn back? Germany fan learns of exit on flight to last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pilot-turn-back-germany-fan-164000246.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 16:40:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Mexico vs. Ecuador odds, predictions: 2026 World Cup Round of 32 picks from proven soccer expert",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-ecuador-odds-predictions-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/98b7f379-b467-414b-ba36-29f597dfca3e/julian-quinones-mexico-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 16:31:49 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
     {
       "headline": "France vs. Sweden odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 10-5 roll",
       "links": {
@@ -18,6 +166,24 @@
       "teams": [
         "Sweden",
         "France"
+      ]
+    },
+    {
+      "headline": "‘I ran out of luck’: Dutch defeat ends economist’s run of World Cup winning predictions",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/30/world-cup-prediction-joachim-klement-netherlands-neymar"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 16:18:29 GMT",
+      "teams": [
+        "Brazil",
+        "Germany",
+        "Netherlands",
+        "France",
+        "Argentina"
       ]
     },
     {
@@ -51,23 +217,6 @@
       "teams": [
         "United States",
         "France"
-      ]
-    },
-    {
-      "headline": "Côte d’Ivoire v Norway: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/cote-divoire-v-norway-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 16:05:20 GMT",
-      "teams": [
-        "Curaçao",
-        "France",
-        "Senegal",
-        "Norway"
       ]
     },
     {
@@ -321,7 +470,7 @@
       ]
     },
     {
-      "headline": "Japan the example to follow but this has been a dismal World Cup for Asia",
+      "headline": "Japan the example to follow but this has been a dismal World Cup for Asia | John Duerden",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/30/japan-the-example-to-follow-but-this-has-been-a-dismal-world-cup-for-asia"
@@ -1157,7 +1306,7 @@
       ]
     },
     {
-      "headline": "Top US government official ‘so happy’ with Iran’s World Cup elimination",
+      "headline": "US security chief ‘danced a happy dance’ after Iran’s World Cup elimination",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jun/30/top-us-government-official-so-happy-with-irans-world-cup-elimination"
@@ -1241,21 +1390,6 @@
       "pubDate": "Tue, 30 Jun 2026 10:10:41 +0000",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "Is France vs Sweden on TV? Channel, kick-off and how to watch World Cup last-32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-vs-sweden-tv-channel-085947764.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:04:27 +0000",
-      "teams": [
-        "Sweden",
-        "France"
       ]
     },
     {
@@ -15912,160 +16046,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 06:25:00 +0000",
-      "teams": [
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Belgium have wasted a golden generation – but there is one last World Cup hope",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-wasted-golden-generation-one-060703676.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 06:07:03 +0000",
-      "teams": [
-        "Belgium",
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Mbappe meets Haaland in blockbuster clash, Trionda debate takes centre stage",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbappe-meets-haaland-blockbuster-clash-060500162.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 06:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 19",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cqjp9lv5j5qo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d992/live/82a49490-6b91-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 05:56:43 GMT",
-      "teams": []
-    },
-    {
-      "headline": "4 Takeaways From Australia's Clinching Draw vs. Paraguay In Group-Stage Finale",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/paraguay-australia-world-cup-draw-group-stage"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/takeaways.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 01:20:06 -0400",
-      "teams": [
-        "Paraguay",
-        "Australia"
-      ]
-    },
-    {
-      "headline": "One For The Record Books: USA Goal Sets Mark For Most At A World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/united-states-auston-trusty-scores-record-173rd-goal-fifa-mens-world-cup-history"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/eb13c9b9-usa1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 01:18:47 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Turkey end World Cup on high with last-gasp win over USA",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c8j2rxn00d4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7182/live/cc314930-7115-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 05:05:12 GMT",
-      "teams": [
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "USA suffer late defeat to Turkey but eye Bosnia and Herzegovina in World Cup knockout stage",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/26/turkey-usa-world-cup-2026-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 04:55:18 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: Ecuador Delivers Late Fireworks; USA And Türkiye Battle In LA",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-recap-ecuador-usa-turkiye-june-24"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/plata1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:36:09 -0400",
-      "teams": [
-        "United States",
-        "Turkey",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "USMNT World Cup Player Ratings: Sebastian Berhalter delivers big time; Christian Pulisic shines off bench",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-world-cup-player-ratings-sebastian-berhalter-christian-pulisic-shines-off-bench/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/34cca99f-2c80-4c7d-aeab-788b188c276e/untitled-design-2026-06-26t002905-104.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 04:31:09 +0000",
       "teams": [
         "Turkey"
       ]
