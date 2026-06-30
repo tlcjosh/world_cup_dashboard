@@ -1,6 +1,51 @@
 {
-  "asOf": "2026-06-30T15:25:17.730Z",
+  "asOf": "2026-06-30T15:34:16.217Z",
   "items": [
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Tuesday include France, Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-tuesday-include-france-mexico/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3debfec-4126-4217-9c4a-531ee9ece7bf/dembele-france.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 15:27:50 +0000",
+      "teams": [
+        "Mexico",
+        "France"
+      ]
+    },
+    {
+      "headline": "Côte d’Ivoire v Norway: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/cote-divoire-v-norway-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 15:25:58 GMT",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Tonight’s World Cup 2026 fixtures, latest results and full tournament bracket",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 15:17:57 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – live",
       "links": {
@@ -38,6 +83,25 @@
       "teams": [
         "Ivory Coast",
         "Norway"
+      ]
+    },
+    {
+      "headline": "Japan the example to follow but this has been a dismal World Cup for Asia",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/30/japan-the-example-to-follow-but-this-has-been-a-dismal-world-cup-for-asia"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 15:00:11 GMT",
+      "teams": [
+        "South Korea",
+        "Brazil",
+        "United States",
+        "Japan",
+        "Iran",
+        "Saudi Arabia"
       ]
     },
     {
@@ -773,25 +837,6 @@
       "source": "CBS Sports",
       "pubDate": "Tue, 30 Jun 2026 11:01:08 +0000",
       "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Tuesday include France, Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-tuesday-include-france-mexico/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3debfec-4126-4217-9c4a-531ee9ece7bf/dembele-france.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 11:00:56 +0000",
-      "teams": [
-        "Mexico",
         "France"
       ]
     },
@@ -1982,18 +2027,6 @@
       "teams": [
         "Paraguay"
       ]
-    },
-    {
-      "headline": "World Cup 2026 knockout fixtures, results and full tournament bracket",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 03:00:26 +0000",
-      "teams": []
     },
     {
       "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
@@ -16052,40 +16085,6 @@
       "teams": [
         "Netherlands",
         "Tunisia"
-      ]
-    },
-    {
-      "headline": "👀 Brazil discover rival for first World Cup knockout tie",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-learn-first-world-cup-005900208.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:59:00 +0000",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "'Oh my word!' - Elanga 'stunner' draws Sweden level",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c7vy8mg3mr0o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f63/live/ac45e1d0-70f7-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 00:45:01 GMT",
-      "teams": [
-        "Japan",
-        "Sweden"
       ]
     }
   ]
