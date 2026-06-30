@@ -169,6 +169,17 @@ function mapEspnStatusToOurs(comp) {
   return 'SCHEDULED';
 }
 
+// ESPN's venue.address.city is "East Rutherford, New Jersey" for US venues (city
+// + state) but just "Toronto" for others -- our data.json convention (matching
+// football-data.org's bootstrap format and BRACKET_TEMPLATE's hardcoded entries)
+// is "{venue name}, {city}" with no state, so only the part before the first
+// comma is kept.
+function formatEspnVenue(venue) {
+  if (!venue?.fullName) return null;
+  const city = (venue.address?.city || '').split(',')[0].trim();
+  return city ? `${venue.fullName}, ${city}` : venue.fullName;
+}
+
 // Drives status/homeScore/awayScore for every match with resolved team names --
 // the backend's equivalent of the frontend's fetchESPN()/mergeESPNData(), and now
 // the *only* source of live state on the backend. football-data.org used to fill
@@ -177,6 +188,15 @@ function mapEspnStatusToOurs(comp) {
 // see the isStatsComplete() comment below), and there's no reason to keep two
 // sources of truth for the same fields when ESPN is already what the frontend
 // trusts live and what syncMatchStats() below trusts for permanent backfill.
+//
+// Also self-heals kickoff/venue against ESPN's own scheduled values. Both fields
+// are otherwise write-once: group-stage matches get them from football-data.org's
+// bootstrap response, knockout matches from BRACKET_TEMPLATE's hardcoded guess
+// (placed before FIFA/ESPN finalize the actual time/venue for that bracket slot),
+// and nothing else in this file ever revisits either field afterward. If FIFA
+// later moves a kickoff by an hour or swaps a venue, ESPN picks it up but
+// data.json was otherwise stuck with the original guess forever.
+//
 // Skips matches already FINISHED (permanent from here) and bracket slots still
 // showing a placeholder team name (nothing to look up yet).
 // Don't bother polling ESPN for a match that's still this far from kickoff --
@@ -193,7 +213,7 @@ async function syncLiveScores(matches, dateCache, now) {
     if (m.homeTeam?.startsWith('[') || m.awayTeam?.startsWith('[')) continue;
     if (m.kickoff && new Date(m.kickoff) - Date.now() > LIVE_SYNC_WINDOW_MS) continue;
 
-    let comp, ourHomeComp, ourAwayComp;
+    let comp, ourHomeComp, ourAwayComp, espnVenue;
     if (m.espnEventId) {
       const summary = await fetchESPNSummary(m.espnEventId);
       comp = summary?.header?.competitions?.[0];
@@ -201,6 +221,9 @@ async function syncLiveScores(matches, dateCache, now) {
       const awayComp = comp?.competitors?.find(c => c.homeAway === 'away');
       if (!comp || !homeComp || !awayComp) continue;
       ({ ourHomeComp, ourAwayComp } = resolveOurSides(m, homeComp, awayComp));
+      // venue isn't on header.competitions[0] in the /summary response -- it's a
+      // sibling top-level field, gameInfo.venue (confirmed against blueprint_data).
+      espnVenue = formatEspnVenue(summary?.gameInfo?.venue);
     } else {
       const baseDate = kickoffToDateStr(m.kickoff);
       if (!baseDate) continue;
@@ -214,6 +237,20 @@ async function syncLiveScores(matches, dateCache, now) {
       comp = found.comp;
       ourHomeComp = found.swapped ? found.awayComp : found.homeComp;
       ourAwayComp = found.swapped ? found.homeComp : found.awayComp;
+      // the scoreboard endpoint's competition object carries venue directly.
+      espnVenue = formatEspnVenue(found.comp.venue);
+    }
+
+    if (comp.date) {
+      const espnKickoff = new Date(comp.date).toISOString();
+      if (!m.kickoff || new Date(m.kickoff).getTime() !== new Date(espnKickoff).getTime()) {
+        m.kickoff = espnKickoff;
+        changed = true;
+      }
+    }
+    if (espnVenue && espnVenue !== m.venue) {
+      m.venue = espnVenue;
+      changed = true;
     }
 
     const prevStatus = m.status;
