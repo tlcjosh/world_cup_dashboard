@@ -965,6 +965,11 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
   padding-left: 6px; flex-shrink: 0;
 }
 
+.b-pens {
+  font-size: 10px; font-weight: 600; color: var(--ink-3);
+  font-family: 'Inter', sans-serif; margin-left: 2px;
+}
+
 hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
 
 /* ===== MISC ===== */
@@ -1156,6 +1161,11 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   font-family: 'Anybody', sans-serif;
   font-variation-settings: 'wdth' 75; font-weight: 900;
   font-size: 42px; color: var(--ink); min-width: 80px; text-align: center;
+}
+
+.notif-pens {
+  font-family: 'Inter', sans-serif; font-weight: 600;
+  font-size: 12px; color: var(--ink-3);
 }
 
 .notif-goal-team {
@@ -1407,6 +1417,11 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   font-family: 'Anybody', sans-serif;
   font-variation-settings: 'wdth' 75; font-weight: 900;
   font-size: 26px; color: var(--ink); text-align: center; white-space: nowrap;
+}
+
+.mdm-pens {
+  font-family: 'Inter', sans-serif; font-weight: 600;
+  font-size: 11px; color: var(--ink-3); margin-top: 2px;
 }
 
 .mdm-meta {
