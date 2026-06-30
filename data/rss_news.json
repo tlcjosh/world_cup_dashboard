@@ -1,8 +1,55 @@
 {
-  "asOf": "2026-06-30T03:28:25.862Z",
+  "asOf": "2026-06-30T03:41:14.593Z",
   "items": [
     {
-      "headline": "📷​ Speechless! Surely the save of the 2026 World Cup, so far",
+      "headline": "Netherlands v Morocco: World Cup 2026 last 32 goes to extra time – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/29/netherlands-v-morocco-world-cup-2026-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 03:35:18 GMT",
+      "teams": [
+        "Morocco",
+        "Paraguay",
+        "Germany",
+        "Netherlands",
+        "England"
+      ]
+    },
+    {
+      "headline": "Inside Paraguay's tears of joy over their seismic World Cup shock",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/inside-paraguays-tears-joy-over-030045517.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 03:22:10 +0000",
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "The end for Nagelsmann? Germany suffer their 'next football nightmare'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/end-nagelsmann-germany-suffer-next-023842808.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 03:22:10 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "📷 Speechless! Surely the save of the 2026 World Cup, so far",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/speechless-surely-save-2026-world-032000323.html"
@@ -35,24 +82,6 @@
       ]
     },
     {
-      "headline": "Netherlands v Morocco: World Cup 2026 last 32 goes to extra time – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/29/netherlands-v-morocco-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 03:19:02 GMT",
-      "teams": [
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "England"
-      ]
-    },
-    {
       "headline": "Paraguay Hero Orlando Gill Hails 'Idol' Manuel Neuer After Besting Him In Shootout",
       "links": {
         "web": {
@@ -66,35 +95,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Mon, 29 Jun 2026 23:14:21 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Inside Paraguay's tears of joy over their seismic World Cup shock",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inside-paraguays-tears-joy-over-030045517.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 03:09:21 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "The end for Nagelsmann? Germany suffer their 'next football nightmare'",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/end-nagelsmann-germany-suffer-next-023842808.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 03:09:21 +0000",
       "teams": [
         "Paraguay",
         "Germany"
@@ -142,6 +142,18 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 30 Jun 2026 03:00:26 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 03:00:07 +0000",
       "teams": []
     },
     {
@@ -1036,6 +1048,21 @@
       "teams": [
         "Mexico",
         "Canada"
+      ]
+    },
+    {
+      "headline": "How to watch USA vs Bosnia and Herzegovina live: Stream link, TV channel, team news, prediction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-usa-vs-bosnia-herzegovina-212600643.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 29 Jun 2026 21:26:00 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
       ]
     },
     {
@@ -6406,18 +6433,6 @@
         "Algeria",
         "Austria"
       ]
-    },
-    {
-      "headline": "Who has qualified for the knockout stages and which teams have been eliminated from the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/qualified-knockout-stages-teams-eliminated-231033149.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:00:49 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup takeaways for Round of 32: Portugal's draw with Colombia likely denied us the chance to see Messi vs. Ronaldo",
@@ -16071,25 +16086,6 @@
       "teams": [
         "Netherlands",
         "Tunisia"
-      ]
-    },
-    {
-      "headline": "Germany vs. Ecuador odds, prediction, time: 2026 World Cup picks, best bets from expert on 21-12 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/germany-ecuador-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/fec5a620-8f4c-4d3d-b1b6-3d8db63f24d1/deniz-undav-germany-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 25 Jun 2026 14:17:33 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
       ]
     }
   ]
