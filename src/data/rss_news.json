@@ -1,6 +1,102 @@
 {
-  "asOf": "2026-06-30T16:07:28.754Z",
+  "asOf": "2026-06-30T16:26:23.313Z",
   "items": [
+    {
+      "headline": "France vs. Sweden odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 10-5 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-sweden-odds-prediction-line-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/57216adc-e75c-467f-b40c-8232d34ebd59/kylian-mbappe-france-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 16:22:24 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To DR Congo's 'Statue Fan'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 12:08:58 -0400",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "It’s Soccer, but Set to Disco. And May the Best Dancers Win.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/06/30/arts/dance/discofoot-soccer-dance-world-cup.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Tue, 30 Jun 2026 16:08:54 +0000",
+      "teams": [
+        "United States",
+        "France"
+      ]
+    },
+    {
+      "headline": "Côte d’Ivoire v Norway: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/cote-divoire-v-norway-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 16:05:20 GMT",
+      "teams": [
+        "Curaçao",
+        "France",
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Bernardo Silva breaks silence on Real Madrid transfer: &#8216;Happy but focused on the national team&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bernardo-silva-breaks-silence-real-160500841.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 16:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Is Ivory Coast vs Norway on TV? Channel, kick-off time and how to watch World Cup last-32 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ivory-coast-vs-norway-tv-085949693.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 16:01:51 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
     {
       "headline": "World Cup schedule today: How to watch France v Sweden, TV channels & live stream Tuesday 30 June",
       "links": {
@@ -32,6 +128,21 @@
       "teams": []
     },
     {
+      "headline": "World Cup 2026: Ivory Coast vs Norway lineups – Inter striker Bonny faces Haaland in Dallas",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-ivory-coast-155500955.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 15:55:00 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
       "headline": "How to watch Mexico vs Ecuador live: Stream link, TV channel, team news, prediction",
       "links": {
         "web": {
@@ -44,21 +155,6 @@
       "teams": [
         "Mexico",
         "Ecuador"
-      ]
-    },
-    {
-      "headline": "Côte d’Ivoire v Norway: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/cote-divoire-v-norway-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 15:53:35 GMT",
-      "teams": [
-        "Curaçao",
-        "Norway"
       ]
     },
     {
@@ -88,6 +184,18 @@
       "teams": [
         "United States"
       ]
+    },
+    {
+      "headline": "The USMNT's World Cup path: Every opponent, every obstacle, every outcome",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/the-usmnts-world-cup-path-every-opponent-every-obstacle-every-outcome-154622797.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 15:46:22 +0000",
+      "teams": []
     },
     {
       "headline": "Where In The World Cup Is Jameis Winston?",
@@ -1059,7 +1167,6 @@
       "source": "The Guardian",
       "pubDate": "Tue, 30 Jun 2026 10:30:18 GMT",
       "teams": [
-        "United States",
         "Iran"
       ]
     },
@@ -15961,121 +16068,6 @@
       "pubDate": "Fri, 26 Jun 2026 04:31:09 +0000",
       "teams": [
         "Turkey"
-      ]
-    },
-    {
-      "headline": "Turkey 3-2 USA: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/turkey-v-usa-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 04:22:18 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "1 Worrying USA Stat To Know Before Bosnia And Herzegovina World Cup Game",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usmnt-stat-world-cup-uefa-losses-bosnia-knockout"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/pepi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 00:18:54 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "USMNT player ratings versus Turkiye — Who took their World Cup chance before Round of 32?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usmnt-player-ratings-versus-turkiye-041126838.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 04:11:26 +0000",
-      "teams": [
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Beccacece goes from brink to World Cup history with Ecuador",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/beccacece-goes-brink-world-cup-003446221.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 04:09:04 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Groups D, E and F tables and the knockout ties already set",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/group-d-e-f-tables-040600627.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 04:06:00 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Socceroos secure place in World Cup last 32 after nerve-shredding draw with Paraguay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/26/australia-socceroos-paraguay-world-cup-2026-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 03:58:38 GMT",
-      "teams": [
-        "Paraguay",
-        "Australia"
-      ]
-    },
-    {
-      "headline": "Brobbey on target again as Netherlands beat Tunisia to win group",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cql1v24e4q1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/396c/live/a562e810-70ff-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 03:32:25 GMT",
-      "teams": [
-        "Morocco",
-        "Netherlands",
-        "Tunisia"
       ]
     }
   ]

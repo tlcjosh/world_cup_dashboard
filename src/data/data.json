@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T16:07:27.204Z",
+  "lastUpdated": "2026-06-30T16:26:21.914Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3677,7 +3677,7 @@
       "awayTeam": "Norway",
       "awayIso": "no",
       "venue": "AT&T Stadium, Arlington",
-      "kickoff": "2026-06-30T18:00:00.000Z",
+      "kickoff": "2026-06-30T17:00:00.000Z",
       "homeScore": null,
       "awayScore": null,
       "status": "SCHEDULED",
@@ -3694,7 +3694,7 @@
       "homeIso": "mx",
       "awayTeam": "Ecuador",
       "awayIso": "ec",
-      "venue": "Estadio Azteca, Mexico City",
+      "venue": "Estadio Banorte, Mexico City",
       "kickoff": "2026-07-01T01:00:00.000Z",
       "homeScore": null,
       "awayScore": null,
