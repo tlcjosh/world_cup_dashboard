@@ -175,6 +175,11 @@ const BOXSCORE_STAT_FIELDS = [
   ['totalClearance', 'Clearances'],
   ['totalCrosses', 'Crosses'],
   ['totalLongBalls', 'LongBalls'],
+  // Penalty shootout score. ESPN's boxscore penaltyKickGoals stat does NOT update
+  // live during an in-progress shootout (confirmed against a real one) — only
+  // finalizes once the match is fully FINISHED, which is exactly when this backend
+  // sync runs, so no live/permanent split is needed here like saves/passPct.
+  ['penaltyKickGoals', 'ShootoutScore'],
 ];
 
 function applyBoxscoreStats(m, homeBox, awayBox) {
@@ -676,7 +681,19 @@ function resolveBracketPlaceholders(matches) {
       const feeder = byMatchNum[parseInt(wlMatch[2], 10)];
       if (!feeder || feeder.status !== 'FINISHED' || feeder.homeScore === null || feeder.awayScore === null) return null;
       if (feeder.homeTeam?.startsWith('[') || feeder.awayTeam?.startsWith('[')) return null;
-      const homeWon = feeder.homeScore > feeder.awayScore;
+      // A knockout match tied at FT/AET went to a penalty shootout — homeScore/awayScore
+      // stay tied forever, so the shootout score (baked in by syncMatchStats() just before
+      // this runs) is the only way to tell the winner. If it's still missing (shouldn't
+      // happen for a real FINISHED knockout match, but defensive), leave unresolved rather
+      // than guessing a winner from a 0-0 default.
+      let homeWon;
+      if (feeder.homeScore === feeder.awayScore) {
+        if (typeof feeder.homeShootoutScore !== 'number' || typeof feeder.awayShootoutScore !== 'number' ||
+          feeder.homeShootoutScore === feeder.awayShootoutScore) return null;
+        homeWon = feeder.homeShootoutScore > feeder.awayShootoutScore;
+      } else {
+        homeWon = feeder.homeScore > feeder.awayScore;
+      }
       const winner = homeWon ? { name: feeder.homeTeam, iso: feeder.homeIso } : { name: feeder.awayTeam, iso: feeder.awayIso };
       const loser = homeWon ? { name: feeder.awayTeam, iso: feeder.awayIso } : { name: feeder.homeTeam, iso: feeder.homeIso };
       return wlMatch[1] === 'W' ? winner : loser;
