@@ -3761,6 +3761,39 @@ async function init() {
     }
   };
 
+  // Injects a synthetic in-progress penalty shootout match into the Live & Today
+  // card so the PENS badge / score-sub / espnShootoutHtml() kick row can be
+  // visually checked without waiting for a real knockout match to go to penalties.
+  window.testShootout = () => {
+    if (state.matches.some(m => m.matchNum === -999)) { renderView(); return; }
+    state.matches.push({
+      matchNum: -999, stage: 'Round of 32', group: null,
+      homeTeam: 'Netherlands', homeIso: 'nl', homeScore: 1,
+      awayTeam: 'Morocco', awayIso: 'ma', awayScore: 1,
+      venue: 'Lincoln Financial Field, Philadelphia',
+      kickoff: new Date().toISOString(),
+      status: 'IN_PLAY',
+      _espnPeriod: 5,
+      _espnFetchedAt: Date.now(),
+      _espnClock: 7200,
+      espnEventId: 'debug-shootout',
+      _shootout: {
+        home: [
+          { playerId: '1', player: 'Teun Koopmeiners', shotNumber: 1, didScore: true },
+          { playerId: '2', player: 'Justin Kluivert', shotNumber: 2, didScore: false },
+          { playerId: '3', player: 'Memphis Depay', shotNumber: 3, didScore: true },
+        ],
+        away: [
+          { playerId: '4', player: 'Achraf Hakimi', shotNumber: 1, didScore: true },
+          { playerId: '5', player: 'Hakim Ziyech', shotNumber: 2, didScore: true },
+        ],
+      },
+      homeShootoutScore: 2,
+      awayShootoutScore: 2,
+    });
+    renderView();
+  };
+
   // Debug panel — only shown when URL contains ?debug
   if (new URLSearchParams(location.search).has('debug')) {
     const panel = document.createElement('div');
@@ -3770,6 +3803,7 @@ async function init() {
       <button onclick="testNotif('kickoff')">⚽ Kickoff</button>
       <button onclick="testNotif('goal')">🥅 Goal</button>
       <button onclick="testNotif('final')">🏁 Full Time</button>
+      <button onclick="testShootout()">🎯 Shootout</button>
     `;
     document.body.appendChild(panel);
   }

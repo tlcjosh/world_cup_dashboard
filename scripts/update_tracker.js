@@ -175,11 +175,6 @@ const BOXSCORE_STAT_FIELDS = [
   ['totalClearance', 'Clearances'],
   ['totalCrosses', 'Crosses'],
   ['totalLongBalls', 'LongBalls'],
-  // Penalty shootout score. ESPN's boxscore penaltyKickGoals stat does NOT update
-  // live during an in-progress shootout (confirmed against a real one) — only
-  // finalizes once the match is fully FINISHED, which is exactly when this backend
-  // sync runs, so no live/permanent split is needed here like saves/passPct.
-  ['penaltyKickGoals', 'ShootoutScore'],
 ];
 
 function applyBoxscoreStats(m, homeBox, awayBox) {
@@ -187,6 +182,20 @@ function applyBoxscoreStats(m, homeBox, awayBox) {
     m[`home${suffix}`] = parseBoxscoreStat(homeBox, statName);
     m[`away${suffix}`] = parseBoxscoreStat(awayBox, statName);
   }
+}
+
+// Penalty shootout score. Confirmed against two real finished shootouts (Germany
+// v Paraguay, Netherlands v Morocco, both 2026-06-29) that boxscore.teams[]
+// statistics[]'s penaltyKickGoals stat stays "0"/"0" even once the match is fully
+// FINISHED (STATUS_FINAL_PEN) — it never populates for a shootout-decided match in
+// this data, contradicting the original assumption that it only needed a permanent
+// (not live-preview) path. The /summary endpoint's top-level shootout[] array (the
+// same field the frontend's fetchESPNCommentary() already uses for the live
+// preview) is the only source that's actually populated, live or after FINISHED.
+function parseShootoutScore(shootoutArr, teamId) {
+  const entry = (shootoutArr || []).find(s => String(s.id) === String(teamId));
+  if (!entry) return undefined;
+  return (entry.shots || []).filter(s => s.didScore).length;
 }
 
 async function fetchESPNSummary(eventId) {
@@ -225,6 +234,7 @@ async function resolveEventContext(m, dateCache) {
       ourHomeId: ourHomeComp.team.id,
       ourAwayId: ourAwayComp.team.id,
       boxTeams: summary.boxscore?.teams || [],
+      shootout: summary.shootout || [],
     };
   }
 
@@ -253,6 +263,7 @@ async function resolveEventContext(m, dateCache) {
       ourHomeId: ourHomeComp.team.id,
       ourAwayId: ourAwayComp.team.id,
       boxTeams: summary?.boxscore?.teams || [],
+      shootout: summary?.shootout || [],
     };
   }
   return null; // not in ESPN's window yet — retry on a later sync
@@ -264,11 +275,20 @@ async function resolveEventContext(m, dateCache) {
 // changes after the final whistle, so each match costs at most one ESPN call,
 // ever (plus the one-time discovery search for matches without a cached
 // espnEventId yet).
+// Knockout matches can't end level outside of penalties — a knockout-stage match
+// that's FINISHED with a tied score went to a shootout, which means
+// homeShootoutScore/awayShootoutScore are required for isStatsComplete() below,
+// not just the usual boxscore fields.
+function wentToShootout(m) {
+  return m.stage !== 'Group Stage' && m.homeScore === m.awayScore;
+}
+
 function isStatsComplete(m) {
   return typeof m.homeYellowCards === 'number' &&
     typeof m.homeSaves !== 'undefined' &&
     typeof m.homeShots !== 'undefined' &&
-    (m.stage !== 'Group Stage' || (typeof m.homeFairPlay === 'number' && typeof m.awayFairPlay === 'number'));
+    (m.stage !== 'Group Stage' || (typeof m.homeFairPlay === 'number' && typeof m.awayFairPlay === 'number')) &&
+    (!wentToShootout(m) || typeof m.homeShootoutScore === 'number');
 }
 
 async function syncMatchStats(matches) {
@@ -288,6 +308,11 @@ async function syncMatchStats(matches) {
     // undefined keys on write, so this also clears any false zero already baked in by
     // a prior sync that hit an empty boxscore before this field existed.
     applyBoxscoreStats(m, homeBox, awayBox);
+
+    if (wentToShootout(m)) {
+      m.homeShootoutScore = parseShootoutScore(ctx.shootout, ctx.ourHomeId);
+      m.awayShootoutScore = parseShootoutScore(ctx.shootout, ctx.ourAwayId);
+    }
 
     if (m.stage === 'Group Stage' && (typeof m.homeFairPlay !== 'number' || typeof m.awayFairPlay !== 'number')) {
       const fp = classifyMatchFairPlay(ctx.details, ctx.ourHomeId);
