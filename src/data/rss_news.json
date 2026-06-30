@@ -1,6 +1,415 @@
 {
-  "asOf": "2026-06-30T20:23:59.968Z",
+  "asOf": "2026-06-30T21:56:42.340Z",
   "items": [
+    {
+      "headline": "Koeman resigns, while Netherlands report racist abuse",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/koeman-resigns-while-netherlands-report-214853335.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:48:53 +0000",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "France v Sweden: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/france-v-sweden-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 21:43:20 GMT",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Netherlands manager Ronald Koeman resigns after Round of 32 exit to Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-netherlands-manager-ronald-koeman-resigns-after-round-of-32-exit-to-morocco-214253311.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:42:53 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Koeman resigns, while Netherlands report racist abuse",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cly0g1y3v00o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52d3/live/6fd8e880-74cd-11f1-a83d-c354d9be0694.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 30 Jun 2026 21:42:42 GMT",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "🚨 Official: Ronald Koeman is no longer Netherlands manager",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-ronald-koeman-no-longer-213200543.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:32:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Haaland sends Norway into World Cup last 16 at expense of Ivory Coast",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-live-ivory-coast-norway-133648686.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:26:26 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🚨 After World Cup shoot-out agony: national coach resigns",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-shoot-agony-national-212600294.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:26:00 +0000",
+      "teams": [
+        "Morocco",
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "What Is The 'Viking Row' And Why Is Norway Doing It At The World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/what-viking-row-why-norway-doing-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ca717b7d-norway1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:25:43 -0400",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🚨 BREAKING: Ronald Koeman resigns as Netherlands boss after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/breaking-ronald-koeman-resigns-netherlands-212500497.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:25:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "Mexico vs. Ecuador live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-vs-ecuador-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/afc94073-569d-49af-8837-8d576381bdeb/mexico-5.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:22:44 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "💥 Knockout blow: Ronald Koeman leaves the Netherlands",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/knockout-blow-ronald-koeman-leaves-212200448.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:22:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "❌ Ronald Koeman no longer in charge of the Netherlands team",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ronald-koeman-no-longer-leads-212200849.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:22:00 +0000",
+      "teams": [
+        "Morocco",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every round-of-32 game on BBC and ITV in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:11:37 +0000",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
+    {
+      "headline": "How to watch Portugal vs Croatia live: Stream link, TV channel, team news, prediction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-portugal-vs-croatia-live-211122256.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:11:22 +0000",
+      "teams": [
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Mexico Favored Over Ecuador In Round Of 32",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:10:16 -0400",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Where In The World Cup Is Jameis Winston?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 17:08:34 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Tonight’s World Cup 2026 fixtures, latest results and full tournament bracket",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:08:10 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How Jude Bellingham became England’s very un-English superstar",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-became-england-very-204121357.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:00:27 +0000",
+      "teams": [
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "📸 A true WiKINGer: this Haaland photo goes ridiculously hard!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/true-wikinger-haaland-photo-goes-210000564.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 21:00:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "How to watch England vs DR Congo live: Stream link, TV channel, team news, prediction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-vs-dr-congo-205731647.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:57:31 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Ecuador files complaint after Mexico fans disrupt team’s hotel ahead of World Cup match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ecuador-files-complaint-mexico-fans-204755568.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:47:55 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "See who could replace Paquetá for Brazil against Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/could-replace-paquet-brazil-against-204700012.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:47:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "After last-32 upsets, US approach is simple: ‘We’re not going to go crazy’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/last-32-upsets-us-approach-203550662.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:35:50 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "USMNT vs Bosnia Preview + Germany's World Cup Disaster & Is Brazil Ready to Make a Championship Run?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/usmnt-vs-bosnia-preview--germanys-world-cup-disaster--is-brazil-ready-to-make-a-championship-run-203007060.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:30:07 +0000",
+      "teams": [
+        "Mexico",
+        "Bosnia-Herzegovina",
+        "Brazil",
+        "Morocco",
+        "Germany",
+        "Ecuador",
+        "Netherlands",
+        "Sweden",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 golden boot standings as Erling Haaland closes gap on Lionel Messi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:24:30 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: France vs Sweden – Official Lineups: Milan duo Rabiot & Maignan face Karlstrom",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-france-vs-202000407.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 20:20:00 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
     {
       "headline": "🎥 World Cup highlights: Haaland stumbles Norway past Ivory Coast",
       "links": {
@@ -43,21 +452,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 30 Jun 2026 20:05:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "France v Sweden: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/france-v-sweden-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 20:03:51 GMT",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
     },
     {
       "headline": "England fans' behaviour 'excellent' at World Cup",
@@ -122,21 +516,6 @@
       "teams": [
         "Congo DR",
         "England"
-      ]
-    },
-    {
-      "headline": "Haaland sends Norway into World Cup last 16 at expense of Ivory Coast",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-live-ivory-coast-norway-133648686.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:54:44 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Norway"
       ]
     },
     {
@@ -333,21 +712,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 golden boot standings as Erling Haaland closes gap on Lionel Messi",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:18:12 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
       "headline": "📲 Hoodoo fears? Social media reacts to Brazil v Norway at World Cup",
       "links": {
         "web": {
@@ -536,6 +900,22 @@
       ]
     },
     {
+      "headline": "Iran hit out at ‘lies and mistreatment’ following US official’s joy at team’s exit",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/30/markwayne-mullin-iran-soccer-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 18:48:03 GMT",
+      "teams": [
+        "Mexico",
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
       "headline": "Is France vs Sweden on TV? Channel, kick-off and how to watch World Cup last-32 clash",
       "links": {
         "web": {
@@ -560,6 +940,24 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 30 Jun 2026 18:26:40 +0000",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "Bigger than Rumble in the Jungle? DR Congo bid for World Cup history",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cn8k75j9epzo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cae/live/06bd0c20-74a3-11f1-b1db-af71d47507d6.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 30 Jun 2026 18:26:34 GMT",
       "teams": [
         "Congo DR"
       ]
@@ -910,22 +1308,6 @@
       "teams": []
     },
     {
-      "headline": "Where In The World Cup Is Jameis Winston?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 11:44:57 -0400",
-      "teams": []
-    },
-    {
       "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
       "links": {
         "web": {
@@ -980,18 +1362,6 @@
         "Mexico",
         "France"
       ]
-    },
-    {
-      "headline": "Tonight’s World Cup 2026 fixtures, latest results and full tournament bracket",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:17:57 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – live",
@@ -1888,21 +2258,6 @@
       "teams": [
         "Paraguay",
         "Germany"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every round-of-32 game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:16:42 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
       ]
     },
     {
@@ -3021,25 +3376,6 @@
       "source": "CBS Sports",
       "pubDate": "Tue, 30 Jun 2026 01:27:35 +0000",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: Mexico Favored Over Ecuador In Round Of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 21:20:30 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
     },
     {
       "headline": "2026 World Cup Odds: USA Favored Over Bosnia And Herzegovina",
@@ -15748,339 +16084,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 26 Jun 2026 12:10:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "A maple leaf-shaped ‘Canadian clapper’ becomes the must-have World Cup item in Toronto",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/maple-leaf-shaped-canadian-clapper-120755990.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 12:07:55 +0000",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "How to Watch Uruguay vs. Spain: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/uruguay-vs-spain-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-h"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-uruguay-vs-spain-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 08:07:07 -0400",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Start Rashford? Bring O'Reilly back? Pick your England XI to face Panama",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/crm0xrg8j4ro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7936/live/6a0a24f0-7153-11f1-93ee-112d8afd7f99.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 11:58:25 GMT",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Cape Verde vs. Saudi Arabia odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/cape-verde-saudi-arabia-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/95326210-14a7-40c7-898f-15caa846c187/usatsi-29201588-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:48:56 +0000",
-      "teams": [
-        "Saudi Arabia",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "❌ Devastated at full-time: World Cup screamer hero thought side were out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/final-whistle-world-cup-stunner-114300909.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:43:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘Don’t let the celebration become a medical emergency’: England fans warned ahead of World Cup game in heatwave",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/don-t-let-celebration-become-112445197.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:24:45 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Rainbow flags await Egypt and Iran at awkward World Cup Pride Match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rainbow-flags-await-egypt-iran-112016990.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:20:16 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Rainbow flags await Egypt and Iran at awkward World Cup Pride Match",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4k0ddg5go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bef0/live/ea2a83e0-713b-11f1-be59-4b2938e11145.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 11:20:11 GMT",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "How are the TV picks decided for the World Cup's round of 32?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tv-picks-decided-world-cups-110219760.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:02:19 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Hart explains how goalkeepers are struggling with World Cup ball",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cp8l5e48g4zo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81dc/live/1f914d40-714e-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 11:02:14 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "How are the TV picks decided for the World Cup's round of 32?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzlw6gz8jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 11:02:14 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Valery features as Tunisia fall to third World Cup defeat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/valery-features-tunisia-fall-third-110034710.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:00:34 +0000",
-      "teams": [
-        "Netherlands",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "World Cup schedule today: How to watch Norway v France, TV channels & live stream Friday 26 June",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-110013371.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:00:13 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Paraguay demand Jude Bellingham ban after England star broke FIFA World Cup rule",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-demand-jude-bellingham-ban-110000121.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 11:00:00 +0000",
-      "teams": [
-        "Paraguay",
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Senegal vs. Iraq odds, prediction, time: 2026 World Cup picks from expert on 23-13 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/senegal-iraq-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/83e24e3d-fca4-4a81-a050-81726d6f0991/senegal-world-cup-cbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:54:03 +0000",
-      "teams": [
-        "Senegal",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "What do numbers tell us about Scotland's World Cup attacking intent?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/numbers-tell-us-scotlands-world-104729936.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:53:56 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "What do numbers tell us about Scotland's World Cup attacking intent?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/czdere26vzro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f5d/live/a30166e0-714b-11f1-93ee-112d8afd7f99.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 10:47:23 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Real Madrid midfielder admits World Cup criticism was deserved after elimination:",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-admits-world-104500064.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:45:00 +0000",
-      "teams": [
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "France vs. Norway odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-norway-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/e65fafc8-f91e-4091-99c6-faa64ef144ae/kylian-mbappe-fracne.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:43:03 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "The games that show the flaws in a 48-team World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/games-show-flaws-48-team-133806041.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:28:34 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Anderson off the Geordie production line",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/anderson-off-geordie-production-line-101223846.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 10:12:23 +0000",
-      "teams": [
-        "England"
-      ]
     }
   ]
 }
