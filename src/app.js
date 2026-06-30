@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v24.5';
-const APP_UPDATED = '2026-06-29 17:36 UTC';
+const APP_VERSION = 'v24.6';
+const APP_UPDATED = '2026-06-30 03:27 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1139,6 +1139,23 @@ function getMatchMinute(match) {
   if (match.status === 'PAUSED') return 'HT';
   if (match.status !== 'IN_PLAY') return null;
 
+  const period = match._espnPeriod || 1;
+
+  // Extra time (periods 3/4): ESPN's displayClock string keeps formatting against the
+  // 90' anchor ("90'+N'") instead of switching to 105'/120' once a match goes to ET, so
+  // it can't be trusted here — always derive the minute from the raw elapsed clock instead.
+  if (period === 3 || period === 4) {
+    if (match._espnClock !== undefined && match._espnFetchedAt) {
+      const elapsedSec = match._espnClock + (Date.now() - match._espnFetchedAt) / 1000;
+      const min = Math.floor(elapsedSec / 60);
+      const base = period === 3 ? 105 : 120;
+      const start = period === 3 ? 91 : 106;
+      if (min > base) return `${base}+${min - base}'`;
+      return `${Math.max(start, min)}'`;
+    }
+    return null;
+  }
+
   // ESPN clock: prefer displayClock during stoppage (status.clock freezes at 45:00 / 90:00)
   if (match._espnDisplayClock && match._espnDisplayClock.includes('+')) {
     // Format from ESPN: "45'+2'" or "90'+5'" → normalise to "45+2'" / "90+5'"
@@ -1147,7 +1164,7 @@ function getMatchMinute(match) {
   if (match._espnClock !== undefined && match._espnFetchedAt) {
     const elapsedSec = match._espnClock + (Date.now() - match._espnFetchedAt) / 1000;
     const min = Math.floor(elapsedSec / 60);
-    if (match._espnPeriod === 1) {
+    if (period === 1) {
       if (min > 45) return `45+${min - 45}'`;
       return `${Math.max(1, min)}'`;
     } else {
@@ -1846,7 +1863,9 @@ function resolveTeam(placeholder, computedStandings, computedThirdPlace, combina
 
 function statusBadge(match) {
   if (match.status === 'IN_PLAY') {
-    return `<span class="badge badge-live">LIVE</span>`;
+    const period = match._espnPeriod || 1;
+    const label = (period === 3 || period === 4) ? 'ET' : 'LIVE';
+    return `<span class="badge badge-live">${label}</span>`;
   }
   if (match.status === 'PAUSED') {
     return `<span class="badge badge-ht">HT</span>`;
