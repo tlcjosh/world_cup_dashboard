@@ -1,6 +1,44 @@
 {
-  "asOf": "2026-06-30T13:25:17.037Z",
+  "asOf": "2026-06-30T13:54:55.796Z",
   "items": [
+    {
+      "headline": "Juve-Dibu, Inter stung again ⚠️ Milan-Stones, Gud, today's market 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/juve-dibu-inter-stung-again-134300303.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:43:00 +0000",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Paraguay",
+        "Germany",
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 13:42:19 GMT",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Paraguay",
+        "Germany",
+        "Netherlands",
+        "Japan",
+        "Norway"
+      ]
+    },
     {
       "headline": "England vs. Congo DR odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 10-5 roll",
       "links": {
@@ -42,6 +80,20 @@
       ]
     },
     {
+      "headline": "'I could see Amenda starting for Coventry and developing' - Eckner",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/could-see-amenda-starting-coventry-131328057.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 30 Jun 2026 13:13:28 +0000",
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
       "headline": "Winger woes and handling World Cup knockout pressure: Five key talking points ahead of England v DR Congo",
       "links": {
         "web": {
@@ -54,26 +106,6 @@
       "teams": [
         "Congo DR",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Klopp plays down Germany job links, Livramento has surgery – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 13:01:50 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan",
-        "Norway"
       ]
     },
     {
@@ -122,6 +154,36 @@
       "pubDate": "Tue, 30 Jun 2026 13:00:07 +0000",
       "teams": [
         "Mexico"
+      ]
+    },
+    {
+      "headline": "Mexico face up to their most terrifying opponent: the ghost of World Cup game four",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/30/mexico-ecuador-world-cup-2026"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 13:00:07 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Who did it best? USA 1994 versus World Cup 2026 – then and now",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/ng-interactive/2026/jun/30/who-did-it-best-usa-1994-versus-world-cup-2026-then-and-now"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 13:00:06 GMT",
+      "teams": [
+        "United States",
+        "Argentina"
       ]
     },
     {
@@ -16038,72 +16100,6 @@
         "Japan",
         "Sweden",
         "Tunisia"
-      ]
-    },
-    {
-      "headline": "Japan v Sweden: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/25/japan-v-sweden-world-cup-2026-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 25 Jun 2026 23:50:34 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Scotland",
-        "United States",
-        "Netherlands",
-        "Japan",
-        "Sweden",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "Pedri Reveals the Secret Behind Lionel Messi’s World Cup Longevity",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/what-he-does-at-his-age-only-he-can-do-lionel-messi-still-overflowing-with-quality-at-39-as-pedri-reacts-to-ex-barcelona-team-mates-2026-world-cup-displays"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/GettyImages-2282275447-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 25 Jun 2026 19:39:29 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup already sets all-time attendance record with more than 3.6 million spectators",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-already-sets-all-time-attendance-record-with-more-than-36-million-spectators-233158455.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 23:31:58 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: Germany defence shaky! Ecuador reach knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-germany-defence-231100845.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 25 Jun 2026 23:11:00 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
       ]
     }
   ]
