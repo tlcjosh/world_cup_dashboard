@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v24.6';
-const APP_UPDATED = '2026-06-30 03:27 UTC';
+const APP_VERSION = 'v25';
+const APP_UPDATED = '2026-06-30 13:19 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -535,6 +535,8 @@ const ESPN_STATUS_MAP = {
   'STATUS_SECOND_HALF': 'IN_PLAY',
   'STATUS_HALFTIME':    'PAUSED',
   'STATUS_END_PERIOD':  'PAUSED',   // brief transition between period end and halftime/fulltime call
+  'STATUS_END_OF_EXTRATIME': 'IN_PLAY', // brief transition between ET end and shootout kicking off (period 4)
+  'STATUS_SHOOTOUT':    'IN_PLAY',  // penalty shootout in progress (period 5) — see _shootout handling
   'STATUS_FULL_TIME':   'FINISHED',
   'STATUS_FINAL_AET':   'FINISHED',
   'STATUS_FINAL_PEN':   'FINISHED',
@@ -621,6 +623,25 @@ async function fetchESPNCommentary(match) {
     };
     if (homeBox) { current.homeSaves = boxStat(homeBox, 'saves'); current.homePassPct = boxStat(homeBox, 'passPct'); }
     if (awayBox) { current.awaySaves = boxStat(awayBox, 'saves'); current.awayPassPct = boxStat(awayBox, 'passPct'); }
+
+    // Penalty shootout — dedicated top-level `shootout[]` array in this summary endpoint
+    // only, appearing once the shootout actually starts (absent during AET-pens/period 4).
+    // boxscore.teams[].statistics[] penaltyKickGoals/penaltyKickShots do NOT update live
+    // during the shootout (confirmed against a real live shootout) — this array is the
+    // only live-updating source, so it's the one piggybacked here same as saves/passPct.
+    const shootout = data.shootout || [];
+    if (shootout.length) {
+      const homeSO = shootout.find(t => String(t.id || '') === homeId);
+      const awaySO = shootout.find(t => String(t.id || '') === awayId);
+      if (homeSO) {
+        current._shootout = { ...(current._shootout || {}), home: homeSO.shots || [] };
+        current.homeShootoutScore = (homeSO.shots || []).filter(s => s.didScore).length;
+      }
+      if (awaySO) {
+        current._shootout = { ...(current._shootout || {}), away: awaySO.shots || [] };
+        current.awayShootoutScore = (awaySO.shots || []).filter(s => s.didScore).length;
+      }
+    }
   } catch (e) {
     // Non-critical — commentary is a nice-to-have
   }
@@ -878,6 +899,7 @@ function mergeESPNData(espnEvents) {
     const matchEvents = { home: [], away: [] };
     for (const d of details) {
       if (!d.scoreValue || d.scoreValue < 1) continue;
+      if (d.shootout) continue; // penalty shootout kicks aren't match goals — see _shootout below
       const player = d.athletesInvolved?.[0]?.shortName || d.athletesInvolved?.[0]?.displayName || '';
       const time   = d.clock?.displayValue || '';
       const suffix = d.ownGoal ? ' (og)' : d.penaltyKick ? ' (pen)' : '';
@@ -1141,6 +1163,10 @@ function getMatchMinute(match) {
 
   const period = match._espnPeriod || 1;
 
+  // Penalty shootout (period 5): clock is frozen at "120'" and meaningless — the
+  // score-sub area shows the shootout score instead, set directly in matchCardHtml.
+  if (period === 5) return null;
+
   // Extra time (periods 3/4): ESPN's displayClock string keeps formatting against the
   // 90' anchor ("90'+N'") instead of switching to 105'/120' once a match goes to ET, so
   // it can't be trusted here — always derive the minute from the raw elapsed clock instead.
@@ -1339,7 +1365,9 @@ function bracketSlotLiveAffected(match) {
     const wl = placeholder.match(/^\[([WL])(\d+)\]$/);
     if (!wl) continue;
     const ref = state.matches.find(m => m.matchNum === parseInt(wl[2], 10));
-    if (ref && (ref.status === 'IN_PLAY' || ref.status === 'PAUSED') && ref.homeScore !== ref.awayScore) return true;
+    const refShootoutLead = ref && typeof ref.homeShootoutScore === 'number' && typeof ref.awayShootoutScore === 'number' &&
+      ref.homeShootoutScore !== ref.awayShootoutScore;
+    if (ref && (ref.status === 'IN_PLAY' || ref.status === 'PAUSED') && (ref.homeScore !== ref.awayScore || refShootoutLead)) return true;
   }
   return false;
 }
@@ -1835,14 +1863,30 @@ function resolveTeam(placeholder, computedStandings, computedThirdPlace, combina
     const isWinner = wlMatch[1] === 'W';
     const refNum = parseInt(wlMatch[2], 10);
     const refMatch = state.matches.find(mm => mm.matchNum === refNum);
-    // In Live mode, an in-play/paused match with a current leader resolves the
-    // slot speculatively too -- a tied score changes nothing (falls through to
-    // the raw placeholder below, same as before a match kicks off).
+    // A score tie at FT (or AET) doesn't mean undecided in a knockout match — it goes to
+    // a shootout. homeShootoutScore/awayShootoutScore (live preview from ESPN's summary
+    // shootout[] array, permanent once syncMatchStats() bakes it in) breaks the tie.
+    const refTied = refMatch && refMatch.homeScore === refMatch.awayScore;
+    const refShootoutDecided = refMatch &&
+      typeof refMatch.homeShootoutScore === 'number' && typeof refMatch.awayShootoutScore === 'number' &&
+      refMatch.homeShootoutScore !== refMatch.awayShootoutScore;
+    // In Live mode, an in-play/paused match with a current leader (regular-time score or,
+    // once it reaches a shootout, the shootout score) resolves the slot speculatively too --
+    // a tied score with no shootout lead yet changes nothing (falls through to the raw
+    // placeholder below, same as before a match kicks off).
     const refDecided = refMatch && (refMatch.status === 'FINISHED' ||
-      (state.liveMode && (refMatch.status === 'IN_PLAY' || refMatch.status === 'PAUSED') && refMatch.homeScore !== refMatch.awayScore));
+      (state.liveMode && (refMatch.status === 'IN_PLAY' || refMatch.status === 'PAUSED') && (!refTied || refShootoutDecided)));
     if (refDecided) {
       let winnerTeam, loserTeam, winnerIso, loserIso;
-      if (refMatch.homeScore > refMatch.awayScore) {
+      if (refTied && refShootoutDecided) {
+        if (refMatch.homeShootoutScore > refMatch.awayShootoutScore) {
+          winnerTeam = refMatch.homeTeam; winnerIso = refMatch.homeIso;
+          loserTeam = refMatch.awayTeam; loserIso = refMatch.awayIso;
+        } else {
+          winnerTeam = refMatch.awayTeam; winnerIso = refMatch.awayIso;
+          loserTeam = refMatch.homeTeam; loserIso = refMatch.homeIso;
+        }
+      } else if (refMatch.homeScore > refMatch.awayScore) {
         winnerTeam = refMatch.homeTeam; winnerIso = refMatch.homeIso;
         loserTeam = refMatch.awayTeam; loserIso = refMatch.awayIso;
       } else if (refMatch.awayScore > refMatch.homeScore) {
@@ -1864,7 +1908,7 @@ function resolveTeam(placeholder, computedStandings, computedThirdPlace, combina
 function statusBadge(match) {
   if (match.status === 'IN_PLAY') {
     const period = match._espnPeriod || 1;
-    const label = (period === 3 || period === 4) ? 'ET' : 'LIVE';
+    const label = period === 5 ? 'PENS' : (period === 3 || period === 4) ? 'ET' : 'LIVE';
     return `<span class="badge badge-live">${label}</span>`;
   }
   if (match.status === 'PAUSED') {
@@ -1882,6 +1926,29 @@ function espnEventsHtml(match) {
   const homeHtml = ev.home.map(g => `<span class="goal-event">⚽ ${g}</span>`).join('');
   const awayHtml = ev.away.map(g => `<span class="goal-event">${g} ⚽</span>`).join('');
   return `<div class="match-events"><div class="me-home">${homeHtml}</div><div class="me-away">${awayHtml}</div></div>`;
+}
+
+// Penalty shootout "penalties" display mode — row of kick-by-kick circles per team,
+// sourced from match._shootout (set by fetchESPNCommentary() from ESPN's dedicated
+// summary.shootout[] array, the only field that updates live during the shootout).
+// Shown on any match that has shootout data, live or already finished — once a kick
+// happens it's part of the permanent record, same as a goal scorer.
+function shootoutKicksHtml(shots) {
+  return (shots || [])
+    .sort((a, b) => a.shotNumber - b.shotNumber)
+    .map(s => `<span class="shootout-kick ${s.didScore ? 'scored' : 'missed'}" title="${s.player || ''}">${s.didScore ? '●' : '○'}</span>`)
+    .join('');
+}
+
+function espnShootoutHtml(match) {
+  const so = match._shootout;
+  if (!so || (!so.home?.length && !so.away?.length)) return '';
+  const hSO = match.homeShootoutScore ?? 0, aSO = match.awayShootoutScore ?? 0;
+  return `<div class="match-shootout">
+    <div class="ms-home">${shootoutKicksHtml(so.home)}</div>
+    <div class="ms-score">${hSO} – ${aSO} PENS</div>
+    <div class="ms-away">${shootoutKicksHtml(so.away)}</div>
+  </div>`;
 }
 
 function espnStatsHtml(match) {
@@ -2031,7 +2098,11 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     : `<div class="score vs">vs</div>`;
 
   let scoreSubHtml = '';
-  if (match.status === 'IN_PLAY') {
+  const inShootout = match.status === 'IN_PLAY' && match._espnPeriod === 5;
+  if (inShootout) {
+    const hSO = match.homeShootoutScore ?? 0, aSO = match.awayShootoutScore ?? 0;
+    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">PENS ${hSO}–${aSO}</div>`;
+  } else if (match.status === 'IN_PLAY') {
     const minute = getMatchMinute(match);
     scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${minute || '1\''}</div>`;
   } else if (match.status === 'PAUSED') {
@@ -2091,6 +2162,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
         </div>
       </div>
       ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
+      ${hasScore && !opts.suppressStats ? espnShootoutHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
       ${commentaryHtml}
       ${headlineHtml}
@@ -3032,12 +3104,13 @@ async function fetchData() {
     // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq',
-      '_commentaryLastNav','espnEventId'];
+      '_commentaryLastNav','espnEventId','_shootout'];
     const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay',
       'homeYellowCards', 'awayYellowCards', 'homeRedCards', 'awayRedCards', 'homeFouls', 'awayFouls', 'homeSaves', 'awaySaves',
       'homeCorners', 'awayCorners', 'homePassPct', 'awayPassPct', 'homeShots', 'awayShots', 'homeShotsOnTarget', 'awayShotsOnTarget',
       'homeTackles', 'awayTackles', 'homeInterceptions', 'awayInterceptions', 'homeClearances', 'awayClearances',
-      'homeCrosses', 'awayCrosses', 'homeLongBalls', 'awayLongBalls', 'homePossession', 'awayPossession', 'espnEventId'];
+      'homeCrosses', 'awayCrosses', 'homeLongBalls', 'awayLongBalls', 'homePossession', 'awayPossession', 'espnEventId',
+      'homeShootoutScore', 'awayShootoutScore'];
     const existingByNum = new Map(state.matches.map(m => [m.matchNum, m]));
     state.matches = (data.matches || []).map(nm => {
       const ex = existingByNum.get(nm.matchNum);
@@ -3113,7 +3186,7 @@ function tick() {
     const matchNum = parseInt(clockEl.dataset.matchnum, 10);
     const match = state.matches.find(m => m.matchNum === matchNum);
     if (!match) return;
-    if (match.status === 'IN_PLAY') {
+    if (match.status === 'IN_PLAY' && match._espnPeriod !== 5) {
       const min = getMatchMinute(match);
       if (min !== null && min !== undefined) clockEl.textContent = min;
     }
@@ -3688,6 +3761,39 @@ async function init() {
     }
   };
 
+  // Injects a synthetic in-progress penalty shootout match into the Live & Today
+  // card so the PENS badge / score-sub / espnShootoutHtml() kick row can be
+  // visually checked without waiting for a real knockout match to go to penalties.
+  window.testShootout = () => {
+    if (state.matches.some(m => m.matchNum === -999)) { renderView(); return; }
+    state.matches.push({
+      matchNum: -999, stage: 'Round of 32', group: null,
+      homeTeam: 'Netherlands', homeIso: 'nl', homeScore: 1,
+      awayTeam: 'Morocco', awayIso: 'ma', awayScore: 1,
+      venue: 'Lincoln Financial Field, Philadelphia',
+      kickoff: new Date().toISOString(),
+      status: 'IN_PLAY',
+      _espnPeriod: 5,
+      _espnFetchedAt: Date.now(),
+      _espnClock: 7200,
+      espnEventId: 'debug-shootout',
+      _shootout: {
+        home: [
+          { playerId: '1', player: 'Teun Koopmeiners', shotNumber: 1, didScore: true },
+          { playerId: '2', player: 'Justin Kluivert', shotNumber: 2, didScore: false },
+          { playerId: '3', player: 'Memphis Depay', shotNumber: 3, didScore: true },
+        ],
+        away: [
+          { playerId: '4', player: 'Achraf Hakimi', shotNumber: 1, didScore: true },
+          { playerId: '5', player: 'Hakim Ziyech', shotNumber: 2, didScore: true },
+        ],
+      },
+      homeShootoutScore: 2,
+      awayShootoutScore: 2,
+    });
+    renderView();
+  };
+
   // Debug panel — only shown when URL contains ?debug
   if (new URLSearchParams(location.search).has('debug')) {
     const panel = document.createElement('div');
@@ -3697,6 +3803,7 @@ async function init() {
       <button onclick="testNotif('kickoff')">⚽ Kickoff</button>
       <button onclick="testNotif('goal')">🥅 Goal</button>
       <button onclick="testNotif('final')">🏁 Full Time</button>
+      <button onclick="testShootout()">🎯 Shootout</button>
     `;
     document.body.appendChild(panel);
   }
