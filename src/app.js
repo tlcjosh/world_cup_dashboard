@@ -607,6 +607,19 @@ async function fetchESPNCommentary(match) {
     for (const c of fresh) bySeq.set(c.sequence, c);
     current._espnCommentary = [...bySeq.values()].sort((a, b) => (b.sequence ?? 0) - (a.sequence ?? 0));
 
+    // Detect the "regulation just ended" marker so pausedStatusLabel() can tell the
+    // pre-extra-time break apart from real half-time — ESPN's status name/period alone
+    // don't reliably distinguish them (confirmed live 2026-06-30/07-01, Belgium v Senegal:
+    // the clock froze at 90'+8' with no status change for several minutes before ET, then
+    // the between-ET-halves break briefly showed as plain "HT"). Sourced from keyEvents[],
+    // a sibling of commentary[] in this same summary response that we weren't otherwise
+    // reading — its "end-regular-time" entry fires exactly once, right as the ref blows
+    // for the end of the 90 minutes, independent of however the status field behaves.
+    const keyEvents = data.keyEvents || [];
+    if (keyEvents.some(e => e.type?.type === 'end-regular-time' || e.type?.text === 'End Regular Time')) {
+      current._regulationEnded = true;
+    }
+
     // saves/passPct live only in this summary endpoint's boxscore.teams[], not the
     // scoreboard endpoint's stats array — piggyback on this already-scheduled fetch
     // rather than adding a separate poll. Same live-preview pattern as homeFairPlay;
@@ -1157,8 +1170,26 @@ function formatLastSync(isoStr) {
   return `${hrs}h ago`;
 }
 
+// A PAUSED status covers three visually distinct real-world moments, but ESPN's
+// status name alone doesn't reliably tell them apart (STATUS_HALFTIME/STATUS_END_PERIOD/
+// STATUS_SUSPENDED/STATUS_DELAY/STATUS_DELAYED all collapse to PAUSED — see ESPN_STATUS_MAP).
+// _espnPeriod does distinguish them: period 1 is real half-time; period 3/4 is the short
+// break between extra-time halves (or before pens) — confirmed live 2026-07-01, Belgium v
+// Senegal, where this used to be mislabeled "HT" (plain half-time) with no ET-specific
+// wording at all, since the badge/clock code hardcoded PAUSED -> "HT" everywhere.
+// Period 2 is ambiguous on its own (a mid/end-of-second-half stoppage looks identical to the
+// post-90-minutes "is this going to extra time?" gap), so that case additionally checks
+// _regulationEnded — set by fetchESPNCommentary() from the summary endpoint's keyEvents[]
+// "end-regular-time" marker — before switching the label away from plain "HT".
+function pausedStatusLabel(match) {
+  const period = match._espnPeriod || 1;
+  if (period === 3 || period === 4) return 'ET BREAK';
+  if (period === 2 && match._regulationEnded) return 'BREAK';
+  return 'HT';
+}
+
 function getMatchMinute(match) {
-  if (match.status === 'PAUSED') return 'HT';
+  if (match.status === 'PAUSED') return pausedStatusLabel(match);
   if (match.status !== 'IN_PLAY') return null;
 
   const period = match._espnPeriod || 1;
@@ -1912,7 +1943,7 @@ function statusBadge(match) {
     return `<span class="badge badge-live">${label}</span>`;
   }
   if (match.status === 'PAUSED') {
-    return `<span class="badge badge-ht">HT</span>`;
+    return `<span class="badge badge-ht">${pausedStatusLabel(match)}</span>`;
   }
   if (match.status === 'FINISHED') {
     return `<span class="badge badge-ft">FT</span>`;
@@ -2120,7 +2151,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     const minute = getMatchMinute(match);
     scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${minute || '1\''}</div>`;
   } else if (match.status === 'PAUSED') {
-    scoreSubHtml = `<div class="score-sub live match-clock">HT</div>`;
+    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${pausedStatusLabel(match)}</div>`;
   }
 
   const venueText = match.venue || '';
@@ -3118,7 +3149,7 @@ async function fetchData() {
     // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq',
-      '_commentaryLastNav','espnEventId','_shootout'];
+      '_commentaryLastNav','espnEventId','_shootout','_regulationEnded'];
     const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay',
       'homeYellowCards', 'awayYellowCards', 'homeRedCards', 'awayRedCards', 'homeFouls', 'awayFouls', 'homeSaves', 'awaySaves',
       'homeCorners', 'awayCorners', 'homePassPct', 'awayPassPct', 'homeShots', 'awayShots', 'homeShotsOnTarget', 'awayShotsOnTarget',
