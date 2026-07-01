@@ -1,6 +1,309 @@
 {
-  "asOf": "2026-07-01T20:15:34.902Z",
+  "asOf": "2026-07-01T21:54:17.850Z",
   "items": [
+    {
+      "headline": "Belgium v Senegal: World Cup last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/01/belgium-v-senegal-world-cup-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 21:40:58 GMT",
+      "teams": [
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Morocco",
+        "United States",
+        "Paraguay",
+        "Belgium",
+        "Spain",
+        "France",
+        "Senegal",
+        "Austria",
+        "Portugal",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "‘Let the children watch’: Tuchel on England’s 1am BST kick-off after Kane rescue act",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/thomas-tuchel-children-1am-bst-england-mexico-harry-kane-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 21:39:59 GMT",
+      "teams": [
+        "Mexico",
+        "Germany",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Quiz: Name every team England have played in World Cup knockouts",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyp4eprn22o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe6e/live/a314be00-681a-11f1-8546-8f19e4fe30f4.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 21:37:36 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Genuine superstar Kane produces his biggest England moment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/genuine-superstar-kane-produces-biggest-204109945.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 21:35:14 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 17:32:56 -0400",
+      "teams": []
+    },
+    {
+      "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-not-advantage-did-hydration-212323863.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 21:23:23 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4gy8nrny19o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9819/live/a1b7d450-7587-11f1-92e5-efd489c4d444.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 21:23:18 GMT",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Harry Kane's Latest World Cup Heroics Add To His England GOAT Case",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/harry-kanes-latest-world-cup-heroics-add-his-england-goat-case"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/harry-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 17:18:54 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "High-flying Senegal set new record for African football at World Cup 🌍",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/high-flying-senegal-set-record-210900553.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 21:09:00 +0000",
+      "teams": [
+        "South Africa",
+        "Morocco",
+        "Netherlands",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Prince William jokes that England’s win over DR Congo was ‘never in doubt’ after late World Cup comeback",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/prince-william-jokes-england-win-210308430.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 21:03:08 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Genuine superstar Kane produces his biggest England moment",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgd12vj79qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2201/live/da89c0b0-758f-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 20:41:03 GMT",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 22",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-22"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 16:39:30 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England Star Harry Kane After World Cup Brace: 'Feeling As Good As Ever'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-harry-kane-world-cup-goals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/kane1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 16:37:36 -0400",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "DR Congo Goalkeeper On World Cup Performance: 'I Offered My Body To Science'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/dr-congo-goalkeeper-lionel-mpasi-england-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lionel2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 16:28:25 -0400",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Four die in Mexico City World Cup celebrations",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 20:15:59 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "2026 World Cup picks, odds: USA vs. Bosnia and Herzegovina predictions, best bets by expert on 25-15 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-picks-odds-to-advance-usa-bosnia-and-herzegovina-predictions-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/45d1587c-d236-4345-8578-e53f3db74773/christian-pulisic.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 20:15:05 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Incredible Kane justifies Tuchel decision but England have huge World Cup questions to answer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/incredible-kane-justifies-tuchel-decision-184021236.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 20:15:04 +0000",
+      "teams": [
+        "Mexico",
+        "Congo DR",
+        "England"
+      ]
+    },
     {
       "headline": "Erling Haaland Gives Norway 'Very Slim' Chances Of Beating Brazil In Round Of 16",
       "links": {
@@ -39,32 +342,6 @@
       ]
     },
     {
-      "headline": "Belgium v Senegal: World Cup last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/01/belgium-v-senegal-world-cup-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 20:10:20 GMT",
-      "teams": [
-        "Canada",
-        "Bosnia-Herzegovina",
-        "Morocco",
-        "United States",
-        "Paraguay",
-        "Belgium",
-        "Spain",
-        "France",
-        "Senegal",
-        "Austria",
-        "Portugal",
-        "England",
-        "Croatia"
-      ]
-    },
-    {
       "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
       "links": {
         "web": {
@@ -82,6 +359,21 @@
         "Mexico",
         "Canada",
         "United States"
+      ]
+    },
+    {
+      "headline": "Paraguay hero Gill targeted by Torino after 2026 World Cup performance",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-hero-gill-targeted-torino-200500908.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 20:05:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
       ]
     },
     {
@@ -150,6 +442,25 @@
       "teams": [
         "Mexico",
         "Jordan",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup: Kane rescues England - 5 Live reaction",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nw81yr?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nw823n.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 19:43:00 GMT",
+      "teams": [
         "Congo DR",
         "England"
       ]
@@ -261,22 +572,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 01 Jul 2026 19:29:00 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Incredible Kane justifies Tuchel decision but England have huge World Cup questions to answer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/incredible-kane-justifies-tuchel-decision-184021236.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 19:26:35 +0000",
-      "teams": [
-        "Mexico",
-        "Congo DR",
         "England"
       ]
     },
@@ -1710,24 +2005,6 @@
       ]
     },
     {
-      "headline": "Quiz: Name every team England have played in World Cup knockouts",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/clyp4eprn22o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe6e/live/a314be00-681a-11f1-8546-8f19e4fe30f4.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 12:30:35 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
       "headline": "Pick your England XI to face DR Congo at World Cup",
       "links": {
         "web": {
@@ -1918,25 +2195,6 @@
         "Netherlands",
         "Belgium",
         "Senegal"
-      ]
-    },
-    {
-      "headline": "Three die in Mexico City World Cup celebrations",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0105/live/e4a221e0-7545-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 11:01:12 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador"
       ]
     },
     {
@@ -2712,22 +2970,6 @@
         "Mexico",
         "Ecuador"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 23:53:24 -0400",
-      "teams": []
     },
     {
       "headline": "Right-backs Quansah and James out of DR Congo game",
@@ -15883,219 +16125,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sat, 27 Jun 2026 08:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📲 Final Saturday of the World Cup group stage, see the fixtures",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/final-saturday-world-cup-group-084700545.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:47:00 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "'It's a disaster World Cup': After heartbreaking draw, Iran laments 'luck' in playing global tournament while at war",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/its-a-disaster-world-cup-after-heartbreaking-draw-iran-laments-luck-in-playing-global-tournament-while-at-war-084129101.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:41:29 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "One night in Miami: The Scotsmen of the apocalypse",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c872lpl4e0do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6177/live/b1221490-71eb-11f1-9e90-3ff6dfd27be0.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 08:34:12 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Iran captain slams Fifa and ‘disaster’ World Cup after cruel VAR blow against Egypt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/iran-captain-slams-fifa-disaster-081847838.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:18:47 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Three things learned as Germany fell to a 2-1 defeat against Ecuador",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/three-things-learned-germany-fell-081500700.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:15:00 +0000",
-      "teams": [
-        "Germany",
-        "Curaçao",
-        "Ivory Coast",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Madrid World Cup Spotlight: Marc Cucurella and Spain scrape past the finish line against Uruguay",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/madrid-world-cup-spotlight-marc-081500528.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:15:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "France earn favourites tag and Cape Verde make history: World Cup Daily – podcast",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/audio/2026/jun/27/france-earn-favourites-tag-cape-verde-make-history-world-cup-daily-podcast"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 08:10:38 GMT",
-      "teams": [
-        "Cape Verde Islands",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Barca World Cup Spotlight: Pau Cubarsi and Pedri shine for Spain in slender Uruguay win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barca-world-cup-spotlight-pau-081000922.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:10:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Ancelotti chases another record at 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ancelotti-chases-another-record-2026-080500858.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "From supermarket to World Cup - the forgotten England team",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/supermarket-world-cup-forgotten-england-080319921.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:03:19 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "From supermarket to World Cup - the forgotten England team",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn4rlm9834no?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f92/live/b4c5b9b0-7152-11f1-93ee-112d8afd7f99.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 08:03:13 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid identify 19-year-old World Cup sensation as Vinicius&#8217; replacement amid contract uncertainty &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-identify-19-old-080000112.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘This must never happen again’: Iran coach hits out at the US and tells Infantino to stand up against hosts",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/27/this-must-never-happen-again-iran-coach-hits-out-at-the-us-and-tells-infantino-to-stand-up-against-hosts"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 07:47:43 GMT",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Roma and Atalanta following Gustavo Puerta",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/roma-atalanta-following-gustavo-puerta-074000859.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:40:00 +0000",
       "teams": []
     }
   ]

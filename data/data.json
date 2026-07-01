@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T20:15:33.680Z",
+  "lastUpdated": "2026-07-01T21:54:15.668Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3866,8 +3866,8 @@
       "awayIso": "sn",
       "venue": "Lumen Field, Seattle",
       "kickoff": "2026-07-01T20:00:00.000Z",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 2,
+      "awayScore": 2,
       "status": "IN_PLAY",
       "firstHalfStart": "2026-07-01T20:15:33.680Z",
       "secondHalfStart": null,
