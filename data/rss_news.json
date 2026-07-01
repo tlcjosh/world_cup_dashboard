@@ -1,6 +1,404 @@
 {
-  "asOf": "2026-07-01T06:10:32.995Z",
+  "asOf": "2026-07-01T10:16:23.014Z",
   "items": [
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 10:05:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why was Piero Hincapie sent off vs Mexico?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-piero-hincapie-sent-off-100500549.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 10:05:00 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Belgium vs. Senegal Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/belgium-vs-senegal-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/a060e43e-gettyimages-2282997175.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 06:00:13 -0400",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: France dazzle, Mexico swagger through, England v DR Congo buildup, and more – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/01/world-cup-2026-france-dazzle-mexico-swagger-through-england-v-dr-congo-buildup-and-more-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 10:00:00 GMT",
+      "teams": [
+        "Mexico",
+        "France",
+        "Congo DR",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:58:54 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How to watch spoiler-free highlights of overnight World Cup 2026 games",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/where-watch-spoiler-free-highlights-072001298.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:51:07 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 Golden Boot: Mbappe vs Messi standings in thrilling race to finish top scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:46:42 +0000",
+      "teams": [
+        "Ivory Coast",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Two confirmed dead in mass celebrations by Mexico fans after World Cup victory",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/deaths-mexico-world-cup-fan-celebrations"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 09:36:39 GMT",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Beccacece reign as Ecuador manager  over after exit",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c932jj0d25no?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af8b/live/26b3ee20-7522-11f1-adcf-e1eef1a1ef9c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 09:25:41 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:19:13 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Time for Tuchel to show hand as England enter World Cup danger zone",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-tuchel-show-hand-england-091041152.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:10:41 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Time for Tuchel to show hand as England enter World Cup danger zone",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c17y8r90082o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25e5/live/2df5cf30-74b6-11f1-9c5b-41132a229f02.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 09:10:35 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Piero Hincapie becomes second World Cup player to be sent off for covering his mouth",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/piero-hincapie-becomes-second-world-043546612.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:06:32 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "How to watch England vs DR Congo: TV channel, start time and how to stream World Cup last-32 clash online",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-vs-dr-congo-061945550.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:05:46 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Wednesday include England, USA",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-wednesday-include-england-usa/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/a318dd67-8fdf-45d3-a395-ac612d89e81d/christian-pulisic-usmnt-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 09:00:52 +0000",
+      "teams": [
+        "United States",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 World Cup highlights: Hincapié loses it, Mexico rocks the Azteca",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-highlights-hincapi-loses-085200475.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 08:52:00 +0000",
+      "teams": [
+        "Mexico",
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Bigger than Rumble in the Jungle? DR Congo bid for World Cup history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bigger-rumble-jungle-dr-congo-182640043.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 08:40:50 +0000",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "Real Madrid World Cup Spotlight: Kylian Mbappe rewrites history, while Antonio Rudiger sees exit door",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-084000879.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 08:40:00 +0000",
+      "teams": [
+        "Brazil",
+        "France"
+      ]
+    },
+    {
+      "headline": "How to Watch England vs. DR Congo: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-vs-dr-congo-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-england-vs-congo-dr-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 04:02:34 -0400",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who has scored the most goals at a World Cup without winning the Golden Boot?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/knowledge-world-cup-most-goals-without-golden-boot"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 07:00:29 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "In ceding the reins to Mbappé, Olise and Dembélé, France look as under control as ever",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/france-world-cup-mbappe-olise-dembele"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 07:00:29 GMT",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Mbappé, Messi Duel In Generational Golden Boot Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284076627-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 02:44:16 -0400",
+      "teams": [
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Fifa explains decision to rule out Germany goal",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/acd2/live/405c9100-7514-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 06:40:56 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Mike Maignan Takes Over Atop Oddsboard",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/maignan-630.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 02:40:08 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Mbappé Favored to Win Player of the Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 02:24:41 -0400",
+      "teams": [
+        "France"
+      ]
+    },
     {
       "headline": "England vs. DR Congo Prediction, Odds, Picks For World Cup Match",
       "links": {
@@ -185,7 +583,7 @@
       ]
     },
     {
-      "headline": "Mexico set up potential England last-16 tie after win over 10-man Ecuador",
+      "headline": "Mexico set up potential England tie with win over 10-man Ecuador",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/c2ky840z4wqo?at_medium=RSS&at_campaign=rss"
@@ -275,21 +673,6 @@
         "Senegal",
         "Congo DR",
         "England"
-      ]
-    },
-    {
-      "headline": "Piero Hincapie becomes second World Cup player to be sent off for covering his mouth",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/piero-hincapie-becomes-second-world-043546612.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:35:46 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
       ]
     },
     {
@@ -1374,24 +1757,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Mbappé, Messi Duel In Generational Golden Boot Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284076627-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 18:59:52 -0400",
-      "teams": [
-        "Sweden"
-      ]
-    },
-    {
       "headline": "Watch Out, Messi: Mbappé Scores 18th World Cup Goal, One Shy Of All-Time Record",
       "links": {
         "web": {
@@ -1471,21 +1836,6 @@
       "teams": [
         "Paraguay",
         "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 golden boot standings as Kylian Mbappe edges ahead of Lionel Messi",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 22:53:27 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Norway"
       ]
     },
     {
@@ -1574,21 +1924,6 @@
         "Paraguay",
         "Australia",
         "Egypt"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every round-of-32 game on BBC and ITV in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 22:33:18 +0000",
-      "teams": [
-        "Mexico",
-        "Canada"
       ]
     },
     {
@@ -2276,22 +2611,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:09:54 +0000",
-      "teams": []
-    },
-    {
       "headline": "Mexico Fans Blast Horns Outside Ecuador's Hotel Ahead Of Round Of 32 Game",
       "links": {
         "web": {
@@ -2410,20 +2729,6 @@
       "teams": [
         "Sweden",
         "France"
-      ]
-    },
-    {
-      "headline": "Bigger than Rumble in the Jungle? DR Congo bid for World Cup history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bigger-rumble-jungle-dr-congo-182640043.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 18:26:40 +0000",
-      "teams": [
-        "Congo DR"
       ]
     },
     {
@@ -2558,6 +2863,26 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 30 Jun 2026 16:55:00 +0000",
       "teams": []
+    },
+    {
+      "headline": "Football Daily | What next for Germany as Paraguay and penalties fuel more World Cup pain?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jun/30/what-next-for-germany-as-paraguay-and-penalties-fuel-more-world-cup-pain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 30 Jun 2026 16:48:34 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany",
+        "Iran",
+        "Uruguay",
+        "Portugal",
+        "England",
+        "Croatia"
+      ]
     },
     {
       "headline": "Can the pilot turn back? Germany fan learns of exit on flight to last 16",
@@ -6496,24 +6821,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Mon, 29 Jun 2026 15:20:58 +0000",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Golden Ball: Messi Favored to Win Player of the Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi-624.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:19:54 -0400",
-      "teams": [
-        "France"
-      ]
     },
     {
       "headline": "Gyokeres reacts to facing Saliba in World Cup knockouts",
@@ -11290,20 +11597,6 @@
       ]
     },
     {
-      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 00:14:53 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
       "headline": "The two huge issues England must solve before World Cup knockout rounds",
       "links": {
         "web": {
@@ -12628,22 +12921,6 @@
       "teams": [
         "Scotland"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Glove: Emiliano Martínez Atop Oddsboard",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/05/128/72/glove-527.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:22:40 -0400",
-      "teams": []
     },
     {
       "headline": "Croatia vs. Ghana odds, prediction, time: 2026 World Cup picks, best bets from expert on 25-13 run",
@@ -15838,282 +16115,6 @@
       "source": "BBC Sport",
       "pubDate": "Fri, 26 Jun 2026 21:16:26 GMT",
       "teams": []
-    },
-    {
-      "headline": "What do Senegal need to qualify for the World Cup knockouts from Group I?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/senegal-qualify-world-cup-knockouts-055437723.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:15:06 +0000",
-      "teams": [
-        "France",
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Reece James to miss England&#8217;s next two games at the 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/reece-james-miss-england-next-211500789.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:15:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Rayan Cherki cameo as Haaland absent in France win over Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-211500785.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:15:00 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group I: France clinches top spot as Erling Haaland sits for Norway; Senegal helps fight for third-place spot",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-group-i-france-clinches-top-spot-as-erling-haaland-sits-for-norway-senegal-helps-fight-for-third-place-spot-211104498.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:11:04 +0000",
-      "teams": [
-        "France",
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Dembélé hat-trick fires France past Norway to seal top spot in World Cup group",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/26/france-norway-world-cup-group-i-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 21:10:00 GMT",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "PLAYER RATINGS | Norway 1-4 France: Ousmane Dembélé hat-trick seals top spot for Les Bleus",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/player-ratings-norway-1-4-210500479.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:05:00 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "James injury concerns grow but Rice back in training",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4kv0kkgeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4062/live/14e9e6f0-71a2-11f1-91d4-ab93ad9f4654.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 21:04:10 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "France's incredible attack fuels sky-high confidence levels as World Cup glory expected",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/frances-incredible-attack-fuels-sky-210320651.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:03:20 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "🎥 France dodge 🇧🇷 by staying perfect in the Cup, Dembélé stars",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-edge-perfect-cup-record-210100813.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 21:01:00 +0000",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Dembele's 'magic' first-half hat-trick",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cx2jdw4xyxlo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4454/live/68596f70-719a-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 26 Jun 2026 20:59:23 GMT",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "How England can qualify for the World Cup knockout stages tonight – and who they could play",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-081724224.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 20:58:41 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Senegal v Iraq: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/senegal-v-iraq-world-cup-2026-live-updates"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 20:57:42 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Norway v France: World Cup 2026 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/26/norway-v-france-world-cup-2026-live-updates"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 20:56:47 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Dembele hat-trick as dominant France lead Norway in World Cup, Senegal also winning",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-norway-france-boston-141713372.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 20:19:26 +0000",
-      "teams": [
-        "France",
-        "Senegal",
-        "Iraq",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Dembélé Hat Trick! France Star Scored Three Goals vs. Norway At World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/ousmane-dembele-world-cup-goals-hat-trick-france-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/dembele1-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 16:11:15 -0400",
-      "teams": [
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "US Soccer offers contract renewal to Mauricio Pochettino through 2030 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/26/mauricio-pochettino-extension-us-soccer-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 26 Jun 2026 20:02:34 GMT",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "US Soccer offers contract renewal to Mauricio Pochettino through 2030 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/us-soccer-offers-contract-renewal-200234563.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 20:02:34 +0000",
-      "teams": [
-        "United States"
-      ]
     }
   ]
 }
