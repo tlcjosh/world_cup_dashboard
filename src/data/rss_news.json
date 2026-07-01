@@ -1,6 +1,604 @@
 {
-  "asOf": "2026-07-01T18:09:26.357Z",
+  "asOf": "2026-07-01T20:15:34.902Z",
   "items": [
+    {
+      "headline": "Erling Haaland Gives Norway 'Very Slim' Chances Of Beating Brazil In Round Of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/dont-know-if-well-make-it-erling-haaland-claims-norway-only-have-very-slim-chance-of-beating-brazil-in-world-cup-round-of-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GOAL20-20Blank20WEB20-20Facebook2054.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 16:12:15 -0400",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup Breakout Star Ismael Saibari Completes €50 Million Move To Bayern Munich",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/bayern-munich-confirm-50m-signing-of-morocco-world-cup-hero-ismael-saibari-from-psv"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2238697804-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 16:12:06 -0400",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Belgium v Senegal: World Cup last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/01/belgium-v-senegal-world-cup-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 20:10:20 GMT",
+      "teams": [
+        "Canada",
+        "Bosnia-Herzegovina",
+        "Morocco",
+        "United States",
+        "Paraguay",
+        "Belgium",
+        "Spain",
+        "France",
+        "Senegal",
+        "Austria",
+        "Portugal",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 20:06:13 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Gavi: Lamine Yamal Is 'Best' Player At World Cup, 'Messi Aside'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-aside-lamine-yamal-gets-best-billing-from-gavi-as-barcelona-stars-take-aim-at-world-cup-glory-with-spain"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GOAL20-20Multiple20Images20-20220Split20-20Facebook20-202026-07-01T170249.320.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 15:56:33 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 12-5 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-line-prediction-start-time-2026-world-cup-round-of-32-picks-soccer-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/17/e7b9fa42-09af-4e82-8e1d-097b9a1745bf/folarin-balogun-usmnt-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:56:33 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:54:22 +0000",
+      "teams": []
+    },
+    {
+      "headline": "England avert disaster against DR Congo but they must be better in Mexico City | Jacob Steinberg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/england-avert-disaster-against-dr-congo-but-they-must-be-better-in-mexico-city"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 19:46:03 GMT",
+      "teams": [
+        "Mexico",
+        "Jordan",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "England vs. Mexico: Everything To Know About The World Cup Round Of 16 Game",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-vs-mexico-everything-know-about-world-cup-round-16-game"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/435955bf-mexico1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 15:42:58 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Round of 16 picks, predictions: Best bets for every match, including Brazil-Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/betting/article/world-cup-round-of-16-picks-predictions-best-bets-for-every-match-including-brazil-norway-194041100.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:40:41 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Alexi Lalas' World Cup Power Rankings: A New Team Rises To The Top",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-power-rankings-alexi-lalas-july-1"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 15:40:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Harry Kane’s heroics secure England’s World Cup last 16 berth",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/harry-kane-heroics-secure-england-194000400.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:40:00 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Europe’s top clubs monitoring Vinicius Junior as Real Madrid contract talks continue",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/europe-top-clubs-monitoring-vinicius-194000571.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Mexico Opens As Underdog vs. England In Round of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 15:29:03 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 World Cup highlights: superb Kane saves England after early setback",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-highlights-superb-kane-192900226.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:29:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Incredible Kane justifies Tuchel decision but England have huge World Cup questions to answer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/incredible-kane-justifies-tuchel-decision-184021236.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:26:35 +0000",
+      "teams": [
+        "Mexico",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "'He is ridiculous' - Rice praise for match-winner Kane",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cgmdlrrgezjo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19df/live/8a18c9a0-7580-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 19:25:59 GMT",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Kane's rescue act sends England into World Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-live-spence-set-start-125605116.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:24:55 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Find out who Brazil face in the quarter-finals if they beat Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-face-quarter-finals-beat-192400083.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:24:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Pardoned Iranian nuclear negotiator sues FIFA over team’s World Cup loss against Egypt",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pardoned-iranian-nuclear-negotiator-sues-191949858.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:19:49 +0000",
+      "teams": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorites; Mexico Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284077497-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 15:19:22 -0400",
+      "teams": [
+        "Mexico",
+        "France"
+      ]
+    },
+    {
+      "headline": "How this suburban Pennsylvania town shaped USMNT’s Christian Pulisic for the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/suburban-pennsylvania-town-shaped-usmnt-191538325.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:15:38 +0000",
+      "teams": []
+    },
+    {
+      "headline": "England’s right-back farce continues to leave Thomas Tuchel with one World Cup option",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-player-ratings-vs-dr-180851031.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 19:10:18 +0000",
+      "teams": [
+        "Mexico",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "England sneak through - but who had a nightmare start? Player ratings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rate-players-england-face-dr-165922392.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:51:01 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Should England have had a penalty for challenge on Kane?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-had-penalty-challenge-kane-175030601.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:49:52 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Four people die in mass fan celebrations in Mexico City after World Cup victory",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/deaths-mexico-world-cup-fan-celebrations"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 18:49:01 GMT",
+      "teams": [
+        "Mexico",
+        "United States",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "World Cup Round of 32: Belgium vs. Senegal official line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-round-32-belgium-184500978.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:45:00 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Win over DR Congo 'our best game of the tournament' - Kane",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c802jzd528eo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b0e/live/61ce5c90-757a-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 18:40:36 GMT",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Mbappé, Messi Duel In Golden Boot Race; Kane Chasing",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284076627-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 14:36:53 -0400",
+      "teams": [
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Brighton reach agreement to sign Tottenham’s Luka Vušković",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brighton-reach-agreement-sign-tottenham-183500428.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:35:00 +0000",
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "How to watch USA v Bosnia & Herzegovina: TV channel, start time and online stream for World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-usa-v-bosnia-herzegovina-061814940.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:31:58 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Kane scores twice as England come from behind to reach last 16",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cx2j83vg72go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ac8/live/7e783080-7577-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 18:31:15 GMT",
+      "teams": [
+        "Mexico",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Harry Kane rescues England with late double to sink DR Congo and book Mexico showdown",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/harry-kane-rescues-england-double-183000149.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:30:00 +0000",
+      "teams": [
+        "Mexico",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "England 2-1 DR Congo: World Cup last 32 player ratings",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/england-2-1-dr-congo-world-cup-last-32-player-ratings"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 18:24:07 GMT",
+      "teams": [
+        "Jordan",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 fixtures, latest results and full tournament bracket",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:18:27 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Elliot Anderson stars as England progress into Mexico last-16 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-181500442.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 18:15:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
     {
       "headline": "Comeback Complete! England Avoids Upset vs. DR Congo, Advances To Round Of 16",
       "links": {
@@ -21,19 +619,16 @@
       ]
     },
     {
-      "headline": "Who had a nightmare start? England player ratings",
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/rate-players-england-face-dr-165922392.html"
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 18:03:32 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
+      "pubDate": "Wed, 01 Jul 2026 18:07:43 +0000",
+      "teams": []
     },
     {
       "headline": "World Cup schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
@@ -101,21 +696,6 @@
       ]
     },
     {
-      "headline": "Kane's rescue act sends England into World Cup last 16 - watch reaction",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-live-spence-set-start-125605116.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 18:01:21 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "Belgium vs. Senegal odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 12-5 roll",
       "links": {
         "web": {
@@ -132,6 +712,22 @@
       "teams": [
         "Belgium",
         "Senegal"
+      ]
+    },
+    {
+      "headline": "Kane to the rescue with late double as England edge past DR Congo into last 16",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/england-dr-congo-world-cup-2026-last-32-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 18:00:44 GMT",
+      "teams": [
+        "Senegal",
+        "Congo DR",
+        "England"
       ]
     },
     {
@@ -217,21 +813,6 @@
         "Uzbekistan",
         "England",
         "Panama"
-      ]
-    },
-    {
-      "headline": "Should England have had a penalty for challenge on Kane?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-had-penalty-challenge-kane-175030601.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:50:30 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
       ]
     },
     {
@@ -856,26 +1437,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorites; Mexico Rises",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284077497-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 10:39:55 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador",
-        "France"
-      ]
-    },
-    {
       "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
       "links": {
         "web": {
@@ -1360,22 +1921,6 @@
       ]
     },
     {
-      "headline": "Three people die in mass fan celebrations in Mexico City after World Cup victory",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/deaths-mexico-world-cup-fan-celebrations"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 11:15:13 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Ecuador"
-      ]
-    },
-    {
       "headline": "Three die in Mexico City World Cup celebrations",
       "links": {
         "web": {
@@ -1429,26 +1974,6 @@
       ]
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 10:32:23 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
       "headline": "Haaland is inevitable for Norway but are France unstoppable? | World Cup Daily",
       "links": {
         "web": {
@@ -1463,22 +1988,6 @@
         "France",
         "Norway"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 10:15:40 +0000",
-      "teams": []
     },
     {
       "headline": "Why was Piero Hincapie sent off vs Mexico?",
@@ -1513,18 +2022,6 @@
         "Belgium",
         "Senegal"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 09:58:54 +0000",
-      "teams": []
     },
     {
       "headline": "How to watch spoiler-free highlights of overnight World Cup 2026 games",
@@ -1708,24 +2205,6 @@
       "pubDate": "Wed, 01 Jul 2026 07:00:29 GMT",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Mbappé, Messi Duel In Generational Golden Boot Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284076627-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 02:44:16 -0400",
-      "teams": [
-        "Sweden"
       ]
     },
     {
@@ -2090,25 +2569,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup: Mexico's Odds After Its First Knockout Stage Win Since 1986",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:25:45 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
       "headline": "🎥 Copa round-of-32 Tuesday, Europeans on the attack, Mexican party",
       "links": {
         "web": {
@@ -2166,8 +2626,7 @@
       "pubDate": "Wed, 01 Jul 2026 04:09:56 GMT",
       "teams": [
         "Mexico",
-        "Ecuador",
-        "England"
+        "Ecuador"
       ]
     },
     {
@@ -3464,18 +3923,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Tue, 30 Jun 2026 17:08:34 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Tonight’s World Cup 2026 fixtures, latest results and full tournament bracket",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 21:08:10 +0000",
       "teams": []
     },
     {
@@ -15650,423 +16097,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 27 Jun 2026 07:40:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "What do Croatia need to qualify alongside England and Ghana for the World Cup knockouts from Group L?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/croatia-qualify-alongside-england-ghana-073648584.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:36:48 +0000",
-      "teams": [
-        "England",
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "In numbers: Pau Cubarsi becomes Spain&#8217;s biggest winner from disappointing Uruguay encounter",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/numbers-pau-cubarsi-becomes-spain-073500899.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:35:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "🎥 Muslera sinks Uruguay, Cape Verde make HISTORY! Belgium with KDB 🤩",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/muslera-sinks-uruguay-cape-verde-073400746.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:34:00 +0000",
-      "teams": [
-        "Belgium",
-        "Uruguay",
-        "Spain",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Cape Verde’s fairytale rolls on while Ousmane Dembele runs riot",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verde-fairytale-rolls-while-073000927.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:30:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Spain suffer double injury blow after Uruguay win with star ruled out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-suffer-double-injury-blow-072823152.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:28:23 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Real Madrid talent receives direct call from Jose Mourinho over future plans",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-talent-receives-direct-072500739.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:25:00 +0000",
-      "teams": [
-        "Turkey"
-      ]
-    },
-    {
-      "headline": "Malen: &#8220;Roma is fantastic, I want to win trophies there.&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/malen-roma-fantastic-want-win-071000983.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:10:00 +0000",
-      "teams": [
-        "Morocco",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Egypt star Mohamed Salah issues injury update as World Cup hangs in balance",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/egypt-star-mohamed-salah-issues-070611393.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:06:11 +0000",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Messi to start final Argentina group match on bench",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-start-final-argentina-group-070408529.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:04:08 +0000",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Messi to start final Argentina group match on bench",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cd95zlv7jz7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cec1/live/3efbf500-71f2-11f1-9e90-3ff6dfd27be0.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 07:04:02 GMT",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "‘I dreaded the World Cup but am now embracing it’: how the tournament won over (most) people in host cities",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/27/world-cup-tournament-won-over-host-cities-us-canada-mexico-joy-colour-noise"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 07:00:34 GMT",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "🎥 The dog that celebrated Ecuador's goal, Friday's best 🤣",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dog-celebrated-ecuadors-goal-fridays-065500320.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:55:00 +0000",
-      "teams": [
-        "Ecuador",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Real Madrid star&#8217;s impressive World Cup form fails to guarantee Jose Mourinho&#8217;s trust &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-star-impressive-world-065500446.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:55:00 +0000",
-      "teams": [
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Belgium thrash New Zealand to progress to last 32",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-trossard-double-puts-belgium-041359374.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:53:57 +0000",
-      "teams": [
-        "Belgium",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "Scotland's World Cup hopes at 0.07% - these are results they need",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-world-cup-knockouts-034040958.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:51:24 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Marcelo Bielsa snaps at reporter as Uruguay’s dismal World Cup ends in ‘disgrace’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/marcelo-bielsa-snaps-reporter-uruguay-065050946.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:50:50 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "📝 2026 World Cup, overnight round-up",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-overnight-round-065000918.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:50:00 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Egypt through but late drama denies Iran guaranteed last 32 spot",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cx2vlxjnxrro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b86c/live/13cf6f40-71ef-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 06:29:25 GMT",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group Scenarios: What Remaining Teams Need To Advance To Round of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-scenarios-what-each-team-needs-advance-round-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/scenarios-horz.jpeg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 02:28:47 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Watch: Federico Valverde&#8217;s reaction after shock substitution in Uruguay&#8217;s World Cup elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-federico-valverde-reaction-shock-062000227.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:20:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Belgium thrash New Zealand to win Group G",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c6215810pw7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70ef/live/df8434c0-71ec-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 06:18:13 GMT",
-      "teams": [
-        "Belgium",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "The three World Cup results Scotland need to qualify for knockout stages",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scotland-still-qualify-knockout-rounds-000153608.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:12:57 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Bielsa reveals Muslera asked to be substituted after his fourth World Cup error cost Uruguay in 1-0 loss to Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bielsa-reveals-muslera-asked-substituted-061000023.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:10:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "England qualify for World Cup knockout stage before Panama clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-qualify-world-cup-knockout-060500655.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:05:00 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Omar Marmoush and Egypt progress to Round of 32 after Iran draw",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-060500066.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:05:00 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Iran’s knockout status hangs by a thread after most dramatic – and agonising – World Cup moment so far",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/iran-knockout-status-hangs-thread-053731287.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 06:03:11 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: Dembélé Does It By Himself; Spain Scrapes By Again",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-top-moments-day-16-spain-france-senegal-iran"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/dembele1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 02:02:08 -0400",
-      "teams": [
-        "Spain"
-      ]
     }
   ]
 }
