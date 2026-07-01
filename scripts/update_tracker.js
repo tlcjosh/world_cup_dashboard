@@ -241,14 +241,14 @@ async function syncLiveScores(matches, dateCache, now) {
       espnVenue = formatEspnVenue(found.comp.venue);
     }
 
-    if (comp.date) {
+    // Only self-heal kickoff while the match is still SCHEDULED — once it's
+    // IN_PLAY or PAUSED, comp.date is still the original scheduled time (not
+    // the actual kickoff instant) and updating it would revert any correction
+    // we made to the stored value.
+    if (comp.date && m.status === 'SCHEDULED') {
       const espnKickoff = new Date(comp.date).toISOString();
       if (!m.kickoff || new Date(m.kickoff).getTime() !== new Date(espnKickoff).getTime()) {
-        // Don't let a stale ESPN date (already elapsed) overwrite a correct future
-        // kickoff for a match still SCHEDULED — ESPN's summary header.competitions[0].date
-        // can lag behind venue/schedule corrections visible elsewhere in their API.
-        const espnKickoffMs = new Date(espnKickoff).getTime();
-        if (m.status !== 'SCHEDULED' || espnKickoffMs > now) {
+        if (new Date(espnKickoff).getTime() > new Date(now).getTime()) {
           m.kickoff = espnKickoff;
           changed = true;
         }
