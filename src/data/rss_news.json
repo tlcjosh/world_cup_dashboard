@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-07-01T21:54:17.850Z",
+  "asOf": "2026-07-01T22:35:37.257Z",
   "items": [
     {
-      "headline": "Belgium v Senegal: World Cup last 32 – live",
+      "headline": "Belgium v Senegal: World Cup last-32 tie goes to extra time – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/01/belgium-v-senegal-world-cup-last-32-live"
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 21:40:58 GMT",
+      "pubDate": "Wed, 01 Jul 2026 22:24:07 GMT",
       "teams": [
         "Canada",
         "Bosnia-Herzegovina",
@@ -25,6 +25,138 @@
         "Portugal",
         "England",
         "Croatia"
+      ]
+    },
+    {
+      "headline": "🙄 Fear factor? Tuchel says Mexico have a HUGE advantage",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fear-factor-tuchel-says-mexico-222100229.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:21:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "No time for England to adapt to altitude - Tuchel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/no-time-england-adapt-altitude-221957551.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:19:57 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "USA v Bosnia and Herzegovina: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/01/usa-v-bosnia-and-herzegovina-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 22:17:39 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "No time for England to adapt to altitude - Tuchel",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cd95g9y8k24o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2496/live/92ee8fb0-7599-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 22:11:59 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-not-advantage-did-hydration-212323863.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:08:51 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 12-5 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-line-prediction-start-time-2026-world-cup-round-of-32-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/98aecbb7-ddcb-4c40-b569-edead7f464c2/falonrin-balogun-usa-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:06:03 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Madness in the cup! Belgian duo make up with a miracle goal 😂",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/madness-cup-belgian-duo-miracle-220500666.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:05:00 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "USMNT predicted lineup, prediction: USA face off with Bosnia and Herzegovina in World Cup round of 32",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-predicted-lineup-prediction-usa-bosnia-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/132fa997-458f-40cd-8571-2c026e2e0195/usmnt-14.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 21:46:31 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
       ]
     },
     {
@@ -92,21 +224,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 01 Jul 2026 17:32:56 -0400",
       "teams": []
-    },
-    {
-      "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-not-advantage-did-hydration-212323863.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 21:23:23 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
     },
     {
       "headline": "'Why not take advantage?' - did hydration breaks spark England comeback?",
@@ -186,7 +303,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2201/live/da89c0b0-758f-11f1-a627-714adb4eed6e.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5f9/live/7090c5c0-759c-11f1-a4da-6bfef02f3f53.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -16024,108 +16141,6 @@
       "teams": [
         "Brazil"
       ]
-    },
-    {
-      "headline": "Why England should be wary of Panama's hybrid tactics",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cly02gv3yd8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f5e/live/a4825700-714a-11f1-93ee-112d8afd7f99.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 09:22:57 GMT",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Barcelona youngster opens up on World Cup dream after Spain top group: &#8216;I&#8217;m so happy&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-youngster-opens-world-cup-091000584.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 09:10:00 +0000",
-      "teams": [
-        "Saudi Arabia",
-        "Uruguay",
-        "Spain",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Arsenal forward drags team to World Cup knockouts with brace",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-forward-drags-team-world-090500397.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 09:05:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "The World Cup is undressing the myth of Trump’s American homogeneity",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/27/world-cup-usmnt-migration-nationalism-dhs-opinion"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 09:00:02 GMT",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "The World Cup is undressing the myth of Trump’s American homogeneity",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-undressing-myth-trump-090002919.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 09:00:02 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Man United star Manuel Ugarte stretchered off at World Cup in huge injury blow",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-united-star-manuel-ugarte-085732371.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:57:32 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Liverpool to accelerate talks for forward after the World Cup &#8211; Opinion",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-accelerate-talks-forward-world-085500537.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:55:00 +0000",
-      "teams": []
     }
   ]
 }
