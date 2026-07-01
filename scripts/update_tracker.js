@@ -1048,12 +1048,14 @@ async function main() {
   const oldJson = JSON.stringify(current, null, 2);
 
   // football-data.org is schedule scaffolding only from here -- it bootstraps the
-  // full match list (kickoff/venue/team names) and self-heals matchId for
-  // knockout matches that started as a BRACKET_TEMPLATE placeholder. Live
-  // status/score is ESPN's job exclusively now (syncLiveScores below) -- see its
-  // doc comment for why football-data.org can't be trusted for that anymore.
+  // full match list (kickoff/venue/team names), self-heals matchId for knockout
+  // matches that started as a BRACKET_TEMPLATE placeholder, and self-heals kickoff
+  // times for any match whose team names are now resolved. Live status/score is
+  // ESPN's job exclusively -- see syncLiveScores for why football-data.org can't
+  // be trusted for that anymore.
   for (const ourMatch of current.matches) {
-    if (ourMatch.matchId) continue;
+    // Can't name-match a placeholder team -- skip until bracket resolves it
+    if (ourMatch.homeTeam?.startsWith('[') || ourMatch.awayTeam?.startsWith('[')) continue;
     const cleanHome = cleanName(ourMatch.homeTeam);
     const cleanAway = cleanName(ourMatch.awayTeam);
     const apiMatch = apiMatches.find(m => {
@@ -1061,7 +1063,18 @@ async function main() {
       const a = cleanName(m.awayTeam?.name);
       return (h === cleanHome && a === cleanAway) || (h === cleanAway && a === cleanHome);
     });
-    if (apiMatch) ourMatch.matchId = apiMatch.id;
+    if (!apiMatch) continue;
+    if (!ourMatch.matchId) ourMatch.matchId = apiMatch.id;
+    // Self-heal kickoff from football-data.org's utcDate whenever it differs --
+    // BRACKET_TEMPLATE times are educated guesses that FIFA sometimes adjusts,
+    // and football-data.org tends to reflect schedule corrections earlier than
+    // ESPN's summary/scoreboard API endpoints do.
+    if (apiMatch.utcDate && ourMatch.status === 'SCHEDULED') {
+      const fdKickoff = new Date(apiMatch.utcDate).toISOString();
+      if (new Date(fdKickoff).getTime() !== new Date(ourMatch.kickoff).getTime()) {
+        ourMatch.kickoff = fdKickoff;
+      }
+    }
   }
 
   const dateCache = new Map();
