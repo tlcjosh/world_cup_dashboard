@@ -1,8 +1,26 @@
 {
-  "asOf": "2026-07-01T01:37:50.240Z",
+  "asOf": "2026-07-01T02:12:39.614Z",
   "items": [
     {
-      "headline": "Mexico v Ecuador: World Cup 2026 last 32 match delayed by storm – live",
+      "headline": "FIFA Explains Tightened Rules After Controversial Disallowed Goal Knocks Germany Out",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/fifa-explains-tightened-rules-after-controversial-disallowed-goal-knocks-germany-out"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/529ff546-germany1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 22:09:50 -0400",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Mexico v Ecuador: World Cup 2026 last 32 updates – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/01/fifa-world-cup-2026-live-mexico-v-ecuador-updates-mex-vs-ecu-last-round-32-match-score-latest"
@@ -10,12 +28,78 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 01:34:05 GMT",
+      "pubDate": "Wed, 01 Jul 2026 02:03:00 GMT",
       "teams": [
         "Mexico",
         "Ecuador",
         "Uruguay",
         "France"
+      ]
+    },
+    {
+      "headline": "Right-backs Quansah and James out of DR Congo game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-backs-quansah-james-miss-185732577.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 01:59:16 +0000",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel will stick to Southgate's penalty plan",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-stick-southgates-penalty-plan-014936690.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 01:49:36 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel will stick to Southgate's penalty plan",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cz9lq5y9pj2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebbd/live/c4762920-74a5-11f1-9c5b-41132a229f02.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 01 Jul 2026 01:49:30 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-prediction-start-time-2026-world-cup-round-of-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/702b13c5-b088-40f1-a35f-36cd2a4a59c9/christian-pulisic-usa-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 01:47:13 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
       ]
     },
     {
@@ -35,8 +119,25 @@
       "teams": [
         "United States",
         "Belgium",
+        "Senegal",
         "England"
       ]
+    },
+    {
+      "headline": "Weston McKennie meets the moment as USMNT come of age at 2026 FIFA World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/weston-mckennie-meets-the-moment-usmnt-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/8a2f3c79-9e1b-4e37-8ede-86179549eef5/usmnt-mckennie.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 01 Jul 2026 01:28:03 +0000",
+      "teams": []
     },
     {
       "headline": "England right-backs Quansah and James out of DR Congo game",
@@ -1348,21 +1449,6 @@
       "pubDate": "Tue, 30 Jun 2026 20:01:38 GMT",
       "teams": [
         "United States",
-        "England"
-      ]
-    },
-    {
-      "headline": "England right-backs Quansah and James miss training",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-backs-quansah-james-miss-185732577.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:55:21 +0000",
-      "teams": [
-        "Congo DR",
         "England"
       ]
     },
@@ -15991,86 +16077,6 @@
       "teams": [
         "Senegal",
         "Iraq"
-      ]
-    },
-    {
-      "headline": "Belgium vs. New Zealand Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-belgium-new-zealand-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2281764490-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 13:00:46 -0400",
-      "teams": [
-        "Belgium",
-        "New Zealand"
-      ]
-    },
-    {
-      "headline": "🔥 No one comes close! Haaland dominates this World Cup stat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/no-one-touch-him-haaland-165900260.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 16:59:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Keeper Zion Suzuki shines as Japan survive Sweden to set up World Cup round of 32 clash with Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/zion-suzuki-shines-japan-sweden-world-cup-round-of-32-h-brazil/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/c4081656-1b1e-44f7-aa1b-9b4b692edc29/untitled-design-2026-06-26t123351-410.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 16:36:18 +0000",
-      "teams": [
-        "Brazil",
-        "Japan",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "World Cup: The match neither team wants to win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-the-match-neither-team-wants-to-win-163412122.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 16:34:12 +0000",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "The strange Mauricio Pochettino outburst that is cause for concern for USA ahead of World Cup knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/strange-mauricio-pochettino-outburst-cause-103040502.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 26 Jun 2026 16:16:19 +0000",
-      "teams": [
-        "United States"
       ]
     }
   ]
