@@ -1,6 +1,42 @@
 {
-  "asOf": "2026-07-01T02:12:39.614Z",
+  "asOf": "2026-07-01T02:49:20.065Z",
   "items": [
+    {
+      "headline": "Mexico v Ecuador: World Cup 2026 last 32 updates – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/01/fifa-world-cup-2026-live-mexico-v-ecuador-updates-mex-vs-ecu-last-round-32-match-score-latest"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 01 Jul 2026 02:34:40 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "Uruguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Why World Cup Shockers Are Keeping England's Thomas Tuchel Calm Ahead of DR Congo Clash",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/why-world-cup-shockers-keeping-englands-thomas-tuchel-calm-ahead-dr-congo-clash"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/42042c15-england2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 30 Jun 2026 22:29:01 -0400",
+      "teams": [
+        "Congo DR",
+        "England"
+      ]
+    },
     {
       "headline": "FIFA Explains Tightened Rules After Controversial Disallowed Goal Knocks Germany Out",
       "links": {
@@ -20,18 +56,22 @@
       ]
     },
     {
-      "headline": "Mexico v Ecuador: World Cup 2026 last 32 updates – live",
+      "headline": "Penalty shootouts: how Australia can avoid the cruellest World Cup fate | Jack Snape",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/01/fifa-world-cup-2026-live-mexico-v-ecuador-updates-mex-vs-ecu-last-round-32-match-score-latest"
+          "href": "https://www.theguardian.com/football/2026/jul/01/socceroos-world-cup-penalty-shoot-out-chances-strategies"
         }
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 02:03:00 GMT",
+      "pubDate": "Wed, 01 Jul 2026 02:00:22 GMT",
       "teams": [
-        "Mexico",
-        "Ecuador",
+        "Morocco",
+        "Paraguay",
+        "Australia",
+        "Germany",
+        "Netherlands",
+        "Egypt",
         "Uruguay",
         "France"
       ]
@@ -60,9 +100,25 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 01:49:36 +0000",
+      "pubDate": "Wed, 01 Jul 2026 01:59:16 +0000",
       "teams": [
         "England"
+      ]
+    },
+    {
+      "headline": "Mbappe scores twice as France breeze past Sweden into last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbappe-scores-twice-france-breeze-223427807.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 01:58:41 +0000",
+      "teams": [
+        "Paraguay",
+        "Sweden",
+        "France"
       ]
     },
     {
@@ -459,22 +515,6 @@
       "teams": [
         "Mexico",
         "Ecuador"
-      ]
-    },
-    {
-      "headline": "Mbappe scores twice as France breeze past Sweden into last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbappe-scores-twice-france-breeze-223427807.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 23:46:11 +0000",
-      "teams": [
-        "Paraguay",
-        "Sweden",
-        "France"
       ]
     },
     {
@@ -16039,44 +16079,6 @@
       "pubDate": "Fri, 26 Jun 2026 17:05:00 +0000",
       "teams": [
         "Portugal"
-      ]
-    },
-    {
-      "headline": "Egypt vs. Iran Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-egypt-iran-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282689980-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 26 Jun 2026 13:00:53 -0400",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Senegal vs. Iraq live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/senegal-vs-iraq-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/59ea015c-e5db-4963-9c14-6cc9b4aa2b34/sadio-mane-senegal.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 26 Jun 2026 17:00:48 +0000",
-      "teams": [
-        "Senegal",
-        "Iraq"
       ]
     }
   ]
