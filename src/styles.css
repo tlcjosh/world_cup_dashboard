@@ -24,6 +24,7 @@
   --bs: 96px; /* bracket slot height */
   --max-w: 1160px;
   --grad-green: linear-gradient(135deg, #16A34A 0%, #0EA5E9 100%);
+  --grad-green-rev: linear-gradient(135deg, #0EA5E9 0%, #16A34A 100%);
 }
 
 /* ===== RESET ===== */
@@ -450,6 +451,34 @@ body {
 
 .goal-event { display: block; }
 
+/* ===== PENALTY SHOOTOUT ("PENS" display mode) ===== */
+.match-shootout {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.ms-home { text-align: left; letter-spacing: 3px; }
+.ms-away { text-align: right; letter-spacing: 3px; }
+.ms-score {
+  font-family: 'Anybody', sans-serif;
+  font-variation-settings: 'wdth' 75;
+  font-weight: 900;
+  font-size: 12px;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.shootout-kick {
+  font-size: 14px;
+  cursor: default;
+}
+.shootout-kick.scored { color: #16A34A; }
+.shootout-kick.missed { color: #DC2626; }
+
 /* ===== MATCH STATS STRIP ===== */
 .match-stats {
   margin-top: 10px;
@@ -866,6 +895,15 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
   mask-composite: exclude;
 }
 
+/* Top elbow's box runs match-side (green end) to gap-side (blue end) under the
+   gradient above, while the bottom elbow's box runs the opposite way (gap-side
+   green, match-side blue) -- since both elbows meet at the same gap, that left
+   them mismatched right at the convergence point. Flip the top elbow's gradient
+   so it's blue near the match and green at the gap, matching the bottom elbow. */
+.bracket-round .b-slot:nth-child(odd).advanced::after {
+  background: var(--grad-green-rev) border-box;
+}
+
 .bracket-round:not(.r32) .b-slot.incoming-advanced::before {
   background: var(--grad-green);
 }
@@ -935,6 +973,11 @@ tr.q3 td:first-child::before, tr.qualify-3rd td:first-child::before, tr.wildcard
   font-family: 'Anybody', sans-serif;
   font-variation-settings: 'wdth' 75;
   padding-left: 6px; flex-shrink: 0;
+}
+
+.b-pens {
+  font-size: 10px; font-weight: 600; color: var(--ink-3);
+  font-family: 'Inter', sans-serif; margin-left: 2px;
 }
 
 hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
@@ -1128,6 +1171,11 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   font-family: 'Anybody', sans-serif;
   font-variation-settings: 'wdth' 75; font-weight: 900;
   font-size: 42px; color: var(--ink); min-width: 80px; text-align: center;
+}
+
+.notif-pens {
+  font-family: 'Inter', sans-serif; font-weight: 600;
+  font-size: 12px; color: var(--ink-3);
 }
 
 .notif-goal-team {
@@ -1379,6 +1427,11 @@ hr.b-div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
   font-family: 'Anybody', sans-serif;
   font-variation-settings: 'wdth' 75; font-weight: 900;
   font-size: 26px; color: var(--ink); text-align: center; white-space: nowrap;
+}
+
+.mdm-pens {
+  font-family: 'Inter', sans-serif; font-weight: 600;
+  font-size: 11px; color: var(--ink-3); margin-top: 2px;
 }
 
 .mdm-meta {

@@ -1,0 +1,27 @@
+name: Debug ESPN Dump
+
+on:
+  workflow_dispatch:
+    inputs:
+      team_a:
+        description: 'First team name (substring match)'
+        required: false
+        default: ''
+      team_b:
+        description: 'Second team name (substring match)'
+        required: false
+        default: ''
+      date:
+        description: 'ESPN date bucket override (YYYYMMDD), defaults to today UTC'
+        required: false
+        default: ''
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/debug_espn_dump.js "${{ inputs.team_a }}" "${{ inputs.team_b }}" "${{ inputs.date }}"
