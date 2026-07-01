@@ -1,6 +1,21 @@
 {
-  "asOf": "2026-07-01T23:18:53.634Z",
+  "asOf": "2026-07-01T23:24:31.136Z",
   "items": [
+    {
+      "headline": "Thomas Tuchel makes England World Cup plea to parents: ‘Write an excuse for school’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-urges-parents-let-230722295.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 23:19:12 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
     {
       "headline": "Raskin helps Belgium stage comeback to book last-16 place",
       "links": {
@@ -14,21 +29,6 @@
       "teams": [
         "Belgium",
         "Senegal"
-      ]
-    },
-    {
-      "headline": "Thomas Tuchel urges parents to let kids stay up for England’s World Cup clash with Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-urges-parents-let-230722295.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 23:07:22 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "headline": "Belgium pull off EPIC comeback to reach World Cup last 16",
+      "headline": "Belgium stage EPIC comeback to reach World Cup last 16",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/belgium-stages-epic-comeback-reaches-225000521.html"

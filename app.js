@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v25.3';
-const APP_UPDATED = '2026-07-01 22:34 UTC';
+const APP_VERSION = 'v25.4';
+const APP_UPDATED = '2026-07-01 23:23 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -901,9 +901,21 @@ function mergeESPNData(espnEvents) {
     match.awayScore = newAwayScore;
 
     // ESPN clock: total elapsed seconds from kickoff (capped at 45*60 or 90*60 by ESPN)
-    match._espnClock        = comp.status.clock || 0;
+    const newEspnClock = comp.status.clock || 0;
+    const newEspnPeriod = comp.status.period || 1;
+    // Tracks the wall-clock moment ESPN's raw `clock` value stopped advancing (it caps at
+    // the period boundary during stoppage -- confirmed for periods 1/2 via captured data in
+    // blueprint_data showing `clock: 5400` alongside a correctly-incrementing `displayClock:
+    // "90'+9'"`). getMatchMinute() uses this to keep counting stoppage time during extra time
+    // (periods 3/4), which has no live text field to fall back on the way periods 1/2 do.
+    if (match._espnClock === newEspnClock && match._espnPeriod === newEspnPeriod) {
+      if (!match._clockFrozenSince) match._clockFrozenSince = match._espnFetchedAt || Date.now();
+    } else {
+      match._clockFrozenSince = null;
+    }
+    match._espnClock        = newEspnClock;
     match._espnDisplayClock = comp.status.displayClock || null; // e.g. "45'+2'" during stoppage
-    match._espnPeriod       = comp.status.period || 1;
+    match._espnPeriod       = newEspnPeriod;
     match._espnFetchedAt    = Date.now();
 
     // Goal events for scorer display
@@ -1202,11 +1214,23 @@ function getMatchMinute(match) {
   // 90' anchor ("90'+N'") instead of switching to 105'/120' once a match goes to ET, so
   // it can't be trusted here — always derive the minute from the raw elapsed clock instead.
   if (period === 3 || period === 4) {
+    const base = period === 3 ? 105 : 120;
+    const start = period === 3 ? 91 : 106;
     if (match._espnClock !== undefined && match._espnFetchedAt) {
+      // ESPN's raw `clock` (seconds) caps at the period boundary during stoppage, same as
+      // it does for periods 1/2 (confirmed via captured data — see mergeESPNData's comment).
+      // Periods 3/4 have no live text field to read real stoppage minutes from, so once the
+      // raw clock is observed stuck at-or-past the cap, count real elapsed wall-clock time
+      // from the moment it froze instead of pinning the display at "105'"/"120'" forever.
+      // Gated on already being at/past the cap so a one-off feed hiccup mid-half (well
+      // before stoppage) can't misfire this — it just falls through to the normal
+      // raw-elapsed-time calculation below and self-corrects on the next poll.
+      if (match._clockFrozenSince && match._espnClock >= base * 60) {
+        const addedMin = Math.floor((Date.now() - match._clockFrozenSince) / 60000);
+        return `${base}+${addedMin}'`;
+      }
       const elapsedSec = match._espnClock + (Date.now() - match._espnFetchedAt) / 1000;
       const min = Math.floor(elapsedSec / 60);
-      const base = period === 3 ? 105 : 120;
-      const start = period === 3 ? 91 : 106;
       if (min > base) return `${base}+${min - base}'`;
       return `${Math.max(start, min)}'`;
     }
@@ -3149,7 +3173,7 @@ async function fetchData() {
     // doesn't cover at all (its scoreboard is scoped to today's matches only).
     const ESPN_FIELDS = ['_espnClock','_espnDisplayClock','_espnPeriod','_espnFetchedAt',
       '_espnStats','_espnColors','_espnEvents','_espnHeadline','_espnCommentary','_commentarySeq',
-      '_commentaryLastNav','espnEventId','_shootout','_regulationEnded'];
+      '_commentaryLastNav','espnEventId','_shootout','_regulationEnded','_clockFrozenSince'];
     const ESPN_AUTHORITATIVE_FIELDS = ['status', 'homeScore', 'awayScore', 'homeFairPlay', 'awayFairPlay',
       'homeYellowCards', 'awayYellowCards', 'homeRedCards', 'awayRedCards', 'homeFouls', 'awayFouls', 'homeSaves', 'awaySaves',
       'homeCorners', 'awayCorners', 'homePassPct', 'awayPassPct', 'homeShots', 'awayShots', 'homeShotsOnTarget', 'awayShotsOnTarget',
