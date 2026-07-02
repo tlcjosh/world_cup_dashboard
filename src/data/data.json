@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T13:13:07.197Z",
+  "lastUpdated": "2026-07-02T15:35:16.612Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4012,13 +4012,14 @@
       "homeIso": "co",
       "awayTeam": "Ghana",
       "awayIso": "gh",
-      "venue": "Arrowhead Stadium, Kansas City",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City",
       "kickoff": "2026-07-04T01:30:00.000Z",
       "homeScore": null,
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760501"
     },
     {
       "matchId": 537428,
