@@ -1,6 +1,747 @@
 {
-  "asOf": "2026-07-02T01:28:58.177Z",
+  "asOf": "2026-07-02T05:39:06.211Z",
   "items": [
+    {
+      "headline": "K League 1 Returns: Here’s How Every Team’s 2026 Has Gone So Far",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/k-league-1-returns-every-052000629.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 05:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Can The USA Appeal Folarin Balogun's World Cup Red Card?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-red-card-balogun-can-usa-appeal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/c7b79e05-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 01:19:07 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "A goal, a red and a LeBron James shout: Folarin Balogun gets the spotlight in US’s wild World Cup win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/goal-red-lebron-james-shout-051135114.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 05:11:35 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mexico fans celebrating World Cup win against Ecuador cause ‘artificial’ earthquake",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-fans-celebrating-world-cup-051012704.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 05:10:12 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Mauricio Pochettino gives firm stance on Folarin Balogun red card for USA at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mauricio-pochettino-gives-firm-stance-050041487.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 05:00:41 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: USMNT Generating Record-Breaking Soccer Handle",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-usmnt-generating-record-breaking-soccer-handle"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/matt-71.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 00:47:06 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Christian Pulisic Says Folarin Balogun 'Didn’t Deserve The Red Card' In World Cup Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-bosnia-world-cup-pulisic-balogun-red-card"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun1-4.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 00:34:31 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "USMNT Beats Bosnia to Reach World Cup Round of 16! Taylor Twellman Reacts & Belgium Awaits",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/usmnt-beats-bosnia-to-reach-world-cup-round-of-16-taylor-twellman-reacts--belgium-awaits-043330453.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 04:33:30 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Balogun scores and is sent off as USA reach last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-usa-face-bosnia-herzegovina-230157545.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 04:01:18 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup What to Watch: Spain aims for first knockout win since 2010; Cristiano Ronaldo leads Portugal against Croatia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-spain-aims-for-first-knockout-win-since-2010-cristiano-ronaldo-leads-portugal-against-croatia-035802479.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:58:02 +0000",
+      "teams": [
+        "Spain",
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup Roundup: USA Moves On Despite Balogun's Red; Kane Rescues England",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-usmnt-balogun-red-goal-harry-kane-rescues-england"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tillman1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 23:56:53 -0400",
+      "teams": [
+        "United States",
+        "England"
+      ]
+    },
+    {
+      "headline": "Will Folarin Balogun’s World Cup red card be struck off? No",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/folarin-balogun-red-card-world-cup-appeal-usmnt"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 03:53:43 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Will Folarin Balogun’s World Cup red card be struck off? No",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/folarin-balogun-world-cup-red-035343256.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:53:43 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USA march on but will Balogun red card prove costly?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-march-balogun-red-card-035320454.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:53:20 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USA march on but will Balogun red card prove costly?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cgjx07ql6v0o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26fd/live/368423c0-75c6-11f1-a653-df9b898e46c7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 03:53:14 GMT",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USMNT Player Ratings vs. Bosnia and Herzegovina: USA Rallies After Red Card",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-player-ratings-vs-bosnia-herzegovina-july-1"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-20.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 23:49:28 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Folarin Balogun red card suspension: Can USMNT appeal or will striker miss World Cup round of 16 vs. Belgium?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/folarin-balogun-red-card-suspension-usmnt-appeal-world-cup-round-of-16/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/d26389b6-9866-4bd4-9b6d-9f0ca1b9e98b/balogun.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:47:03 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "How the USMNT refused to blink against Bosnia and Herzegovina and kept World Cup dreams alive",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-refused-to-blink-against-bosnia-world-cup-dreams-alive/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/ea7d43ac-0a91-4fad-aea8-cef9563a662f/pochettino-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:38:12 +0000",
+      "teams": [
+        "Bosnia-Herzegovina"
+      ]
+    },
+    {
+      "headline": "Why the USMNT can't appeal Folarin Balogun's suspension after his controversial World Cup red card",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/why-the-usmnt-cant-appeal-folarin-baloguns-suspension-after-his-controversial-world-cup-red-card-032022353.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:20:22 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "💥Row in Senegal: Gueye says he won't play until the coach is sacked",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/row-senegal-says-won-t-031300826.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:13:00 +0000",
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Balogun scores & sees red as USA beat Bosnia",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cp8r61l7g12o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d24/live/47de3db0-75ba-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 03:11:24 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "One rule for Messi, another for Balogun? USA striker sees red in World Cup after controversial VAR call",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/one-rule-messi-another-balogun-014924357.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 03:08:23 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Germany are no longer a tournament team and must reconnect with our own identity | Philipp Lahm",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/02/germany-no-longer-tournament-team-must-reconnect-with-own-identity-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 02:59:08 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "United States pass Bosnia World Cup test – but at what cost? Balogun red leaves sour taste in the mouth",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/united-states-pass-bosnia-world-022734068.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:57:18 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:56:52 -0400",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:54:39 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:53:15 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:48:02 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorites; USA Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284258640.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:44:57 -0400",
+      "teams": [
+        "United States",
+        "France"
+      ]
+    },
+    {
+      "headline": "Steely USA overcome Bosnia and Herzegovina and controversial red to reach World Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/01/usa-bosnia-and-herzegovina-game-report-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 02:44:56 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Steely USA overcome Bosnia and Herzegovina and controversial red to reach World Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/steely-usa-overcome-bosnia-herzegovina-024456115.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:44:56 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "USMNT World Cup Player Ratings: Malik Tillman thrives; Folarin Balogun stars despite red card as USA advance",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-world-cup-player-ratings-malik-tillman-folarin-balogun-red-card-usa/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/4c4f5a54-89ad-45e1-bd22-3f1c9187d485/untitled-design-2026-07-01t224036-461.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:42:40 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Belgium come from 2-0 down to beat Senegal with last-gasp extra-time penalty",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-face-senegal-place-world-190053708.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:36:05 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: USA Opens As Slight Favorites vs. Belgium In Round Of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:30:42 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USMNT player ratings: Balogun scores, sent off as Yanks beat Bosnia & Herzegovina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usmnt-player-ratings-balogun-scores-022805570.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:28:05 +0000",
+      "teams": [
+        "Bosnia-Herzegovina"
+      ]
+    },
+    {
+      "headline": "Goalscorer Balogun sent off for USA",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cpv3xzyr73po?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a2a7/live/01b21190-75ba-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 02:12:05 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "USA Wins First Men's World Cup Knockout Stage Match Since 2002",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-wins-first-mens-world-cup-knockout-stage-match-since-2002"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usmnt1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:11:25 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Latest ever winner, comeback and controversy - Senegal's remarkable exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/latest-ever-winner-comeback-controversy-013436981.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:08:40 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "🎥 USA reach World Cup last 16 seeking revenge - and Italy takes blame",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-reach-world-cup-last-020800855.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 02:08:00 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "USA vs. Belgium Confirmed For The Round Of 16: Here's What To Know",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-vs-belgium-confirmed-round-16-heres-what-know"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9-usa.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:06:37 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Who Is USA's Next World Cup Opponent?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-next-world-cup-opponent-usmnt"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284259111-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:06:15 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usa.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:06:11 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Red Cards: 2026 Has More Red Cards Than Last 2 World Cups Combined",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-red-card-rules-totals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284257447-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 01 Jul 2026 21:41:25 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup: USMNT striker Folarin Balogun shown red card in second half after first-half goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-usmnt-striker-folarin-balogun-shown-red-card-in-second-half-after-first-half-goal-013726475.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 01:37:26 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Latest ever winner, comeback and controversy - Senegal's remarkable exit",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg8e2ezvzyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99ca/live/ab2d91a0-75a5-11f1-8672-df1a6610885c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 01:28:40 GMT",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
     {
       "headline": "USA v Bosnia and Herzegovina: World Cup 2026 last 32 – live",
       "links": {
@@ -21,6 +762,21 @@
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-lebron-james-ishowspeed-react-to-folarin-baloguns-goal-silencer-celly-vs-bosnia-herzegovina-012108221.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 01:21:08 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: LeBron James reacts to Folarin Balogun's goal vs. Bosnia-Herzegovina, others erupt after his red card",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-lebron-james-reacts-to-folarin-baloguns-goal-vs-bosnia-herzegovina-others-erupt-after-his-red-card-012108221.html"
         }
       },
       "images": [],
@@ -215,21 +971,6 @@
       ]
     },
     {
-      "headline": "Belgium come from 2-0 down to beat Senegal with last-gasp extra-time penalty",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-face-senegal-place-world-190053708.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 23:39:34 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
       "headline": "Raskin helps Belgium stage comeback to book last-16 place",
       "links": {
         "web": {
@@ -259,25 +1000,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 01 Jul 2026 19:07:01 -0400",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: France Strengthens Grip As Favorites; Belgium Rises",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284077497-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 19:06:03 -0400",
-      "teams": [
-        "Belgium",
-        "France"
-      ]
     },
     {
       "headline": "What you need to know about England's last-16 opponents Mexico",
@@ -324,8 +1046,7 @@
       "source": "The Guardian",
       "pubDate": "Wed, 01 Jul 2026 22:58:29 GMT",
       "teams": [
-        "Germany",
-        "Netherlands",
+        "United States",
         "Belgium",
         "Senegal"
       ]
@@ -364,25 +1085,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: USA Favored Over Bosnia And Herzegovina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 18:55:45 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
       "headline": "Man City 2026 World Cup Watch: Jeremy Doku withdrawn early as Belgium beat Senegal in all-time classic",
       "links": {
         "web": {
@@ -411,22 +1113,6 @@
         "Bosnia-Herzegovina",
         "United States"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/belgium.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 18:53:44 -0400",
-      "teams": []
     },
     {
       "headline": "World Cup: Belgium rallies past Senegal on controversial late penalty to reach Round of 16",
@@ -477,22 +1163,6 @@
         "Belgium",
         "Senegal"
       ]
-    },
-    {
-      "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 18:49:42 -0400",
-      "teams": []
     },
     {
       "headline": "2026 World Cup picks, odds: USA vs. Bosnia and Herzegovina predictions, best bets by expert on 25-15 run",
@@ -687,6 +1357,21 @@
       "teams": [
         "Belgium",
         "Senegal"
+      ]
+    },
+    {
+      "headline": "USMNT advances to World Cup Round of 16 despite Folarin Balogun red card, will face Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/live/usmnt-advances-to-world-cup-round-of-16-despite-folarin-balogun-red-card-will-face-belgium-220000321.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 01 Jul 2026 22:00:00 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
       ]
     },
     {
@@ -1569,22 +2254,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 01 Jul 2026 18:07:43 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 14:02:14 -0400",
       "teams": []
     },
     {
@@ -3852,22 +4521,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Which Nations are Favored to Reach Semifinals?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 21:14:23 -0400",
-      "teams": []
-    },
-    {
       "headline": "United, free and brilliant - can anyone stop France masterclass?",
       "links": {
         "web": {
@@ -3884,25 +4537,6 @@
       "teams": [
         "Sweden",
         "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 21:06:01 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -15492,674 +16126,6 @@
         "England",
         "Ghana",
         "Panama"
-      ]
-    },
-    {
-      "headline": "Rabiot brushes aside Milan questions: ‘Concentrated on the World Cup’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rabiot-brushes-aside-milan-questions-154000645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 15:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Football Daily | Filth, fury and fairytales: Uruguay and Cape Verde bring football heritage",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/27/football-daily-cape-verde-uruguay-gwc"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 15:03:28 GMT",
-      "teams": [
-        "Saudi Arabia",
-        "Uruguay",
-        "Spain",
-        "Cape Verde Islands",
-        "Argentina",
-        "England",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Barcelona star waiting for chance with Spain after becoming key under Hansi Flick",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-star-waiting-chance-spain-150000311.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 15:00:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "World Cup quiz: Name the team from England v Panama 2018",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj6pw405k91o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddce/live/be02d830-6817-11f1-8e1d-bbbb1017d210.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 14:50:33 GMT",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "How the World Cup sticker frenzy took over the world – and why one swap could end Panini",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-sticker-frenzy-took-144948495.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 14:49:48 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch Algeria vs. Austria: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/algeria-vs-austria-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-j"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-algeria-vs-austria-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 10:11:13 -0400",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Kessie on Juventus, McTominay fee and Soulé replies: today's market 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/juventus-sales-mctominay-fee-soul-141000717.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 14:10:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Who are the Panama players England need to look out for?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/panama-players-england-look-133727723.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:49:27 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Argentina vs. Jordan odds, prediction, time: 2026 World Cup picks, best bets from expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/argentina-jordan-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6b35ca0a-8bb9-4371-b2d4-6e214a443dda/lionel-messi-argentina-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:45:20 +0000",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Who would the US need to beat to win the World Cup? Probably only Spain, France and England",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/27/usa-bracket-world-cup-path-to-final"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 27 Jun 2026 13:41:00 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Bosnia-Herzegovina",
-        "United States",
-        "Spain",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who would the US need to beat to win the World Cup? Probably only Spain, France and England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/us-beat-win-world-cup-134100893.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:41:00 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who are the Panama players England need to look out for?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/articles/cr47wd2d3ero?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40c1/live/f0420f10-722a-11f1-b6b6-39a51194ddf9.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 13:37:22 GMT",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "How to Watch Jordan vs. Argentina: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jordan-vs-argentina-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-j"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-jordan-vs-argentina-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 09:32:54 -0400",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Belgium tops Group G, sets up potential USMNT clash in World Cup round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/belgium-potential-usmnt-clash-in-world-cup-round-of-16/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/0e9c2a4a-e12b-48ca-bd4d-36df7d98a327/kdb-pulisic.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:31:49 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "DR Congo vs. Uzbekistan Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-dr-congo-uzbekistan-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282078791-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 09:30:37 -0400",
-      "teams": [
-        "Congo DR",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Colombia vs. Portugal Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-colombia-portugal-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282526182-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 09:30:27 -0400",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "How Cape Verde stunned World Cup to set up Argentina tie",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verde-stunned-world-cup-034206395.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:15:52 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Is England vs Panama on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-vs-panama-tv-channel-050000049.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:07:36 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Austria vs. Algeria odds, prediction, time: 2026 World Cup picks from expert on 25-13 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/austria-algeria-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/fdd4b538-51ea-4e4e-8ab8-8f81c3977f28/romano-schmid-austria-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:58:17 +0000",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Argentina, England, Portugal, More",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-argentina-england-portugal-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-schedule-june-27.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 08:08:03 -0400",
-      "teams": [
-        "Argentina",
-        "Portugal",
-        "England"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Colombia odds, prediction, time: 2026 World Cup picks from expert on 25-13 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/portugal-colombia-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6dc46ab6-bb2d-45be-bea8-d183c3a05a49/cristiano-ronaldo-portugal-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:08:02 +0000",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "How to Watch DR Congo vs. Uzbekistan: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/dr-congo-vs-uzbekistan-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-k"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/49c351a2-how-to-watch-congo-dr-vs-uzbekistan-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:59:20 -0400",
-      "teams": [
-        "Congo DR",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Congo DR vs. Uzbekistan odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/congo-dr-uzbekistan-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/a1e240f2-62e9-4273-a90b-587af5ca7ec0/abbosbek-fayzullaev-uzbekistan-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:54:57 +0000",
-      "teams": [
-        "Congo DR",
-        "Uzbekistan"
-      ]
-    },
-    {
-      "headline": "Opta reveals brutal long odds for Scotland’s World Cup progress",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/opta-reveals-brutal-long-odds-115043601.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:50:43 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group L Scenarios, Standings: What England, Ghana, Croatia, Panama Need To Advance",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-l-scenarios-standings-what-england-ghana-croatia-panama-need-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-l-scenarios.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:50:39 -0400",
-      "teams": [
-        "Colombia",
-        "England",
-        "Croatia",
-        "Ghana",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "91-year-old reporter gets Scaloni to reveal if Messi plays today",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/91-old-reporter-gets-scaloni-115000343.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:50:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group K Scenarios, Standings: Where Portugal, Colombia, DR Congo, Uzbekistan Stand",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-k-scenarios-standings-what-portugal-dr-congo-uzbekistan-need-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-group-k-scenarios.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:47:44 -0400",
-      "teams": [
-        "Portugal",
-        "Congo DR",
-        "Uzbekistan",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "How to Watch Colombia vs. Portugal: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/colombia-vs-portugal-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-k"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/7283fec6-how-to-watch-colombia-vs-portugal-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:47:28 -0400",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group J Scenarios, Standings: What Austria, Algeria Need To Advance",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-group-j-scenarios-standings-what-austria-algeria-need-advance"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/group-j-scenarios.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:46:56 -0400",
-      "teams": [
-        "Argentina",
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Croatia vs. Ghana odds, prediction, time: 2026 World Cup picks, best bets from expert on 25-13 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/croatia-ghana-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/7d925db5-f755-4b05-85ba-ec2c60b3177f/luka-modric-croatia-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:31:03 +0000",
-      "teams": [
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England v Panama - selection debate & potential last 32 opponents",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-england-v-091329992.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:29:35 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "We have been treated unfairly by USA - Iran",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/treated-unfairly-usa-iran-111439997.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:24:04 +0000",
-      "teams": [
-        "United States",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "England vs. Panama odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-panama-odds-prediction-time-2026-world-cup-picks-best-bets-by-expert-on-18-8-roll/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/94763f8d-6116-4ee8-acd0-99966ca83a68/harry-kane.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:19:15 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Ronald Araujo&#8217;s World Cup disappointment complicates Barcelona&#8217;s plans &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ronald-araujo-world-cup-disappointment-111500092.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:15:00 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "We have been treated unfairly by USA - Iran",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cze98ywdwlgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aabf/live/a871f8f0-7214-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 11:14:31 GMT",
-      "teams": [
-        "United States",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "‘I want to enjoy the World Cup like everyone else’: A Gaza footballer’s struggle to watch the tournament",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/world/articles/want-enjoy-world-cup-everyone-111307237.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:13:07 +0000",
-      "teams": []
-    },
-    {
-      "headline": "The unintended effect from Reece James’ injury that can boost England’s World Cup hopes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unintended-effect-reece-james-injury-074039722.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:11:52 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Iran still hold chance to progress while Egypt go through",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-egypt-iran-seattle-105057162.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 11:09:41 +0000",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Bielsa On World Cup Defeat: 'What Do I Leave For Uruguayan Soccer? Nothing.'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-uruguay-group-marcelo-bielsa"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/bielsah1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 07:05:05 -0400",
-      "teams": [
-        "Uruguay"
       ]
     }
   ]
