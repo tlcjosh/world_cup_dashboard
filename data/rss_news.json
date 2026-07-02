@@ -1,6 +1,343 @@
 {
-  "asOf": "2026-07-02T05:39:06.211Z",
+  "asOf": "2026-07-02T08:34:50.696Z",
   "items": [
+    {
+      "headline": "World Cup 2026: England, USA and and Belgium through; Spain and Portugal face last-32 tests – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/02/world-cup-2026-england-and-belgium-fight-back-spain-v-austria-buildup-and-more-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 08:24:50 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium",
+        "Spain",
+        "Austria",
+        "Portugal",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thibaut Courtois compares Belgium comeback to Real Madrid mentality: &#8216;Have experienced that many times&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thibaut-courtois-compares-belgium-comeback-082000489.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 08:20:00 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Resilience, Belief And 'Steely Focus': How USA Weathered Storm For Gritty World Cup Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/resilience-belief-steely-focus-how-usa-weathered-storm-gritty-world-cup-win"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ream1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 04:09:15 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Your World Cup scouting: Moroccan midfielders and French forwards",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-scouting-moroccan-midfielders-080521096.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 08:05:21 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Madrid World Cup Spotlight: Thibaut Courtois and Belgium survive by the skin of their teeth against Senegal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/madrid-world-cup-spotlight-thibaut-080000994.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 08:00:00 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Barca World Cup Spotlight: Anthony Gordon dazzles for England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barca-world-cup-spotlight-anthony-080000826.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 08:00:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Your World Cup scouting: American attackers and Swiss starlets",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-scouting-american-attackers-074209027.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:42:09 +0000",
+      "teams": [
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Folarin Balogun red card suspension: Can USMNT appeal or will striker miss World Cup round of 16 vs. Belgium?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/folarin-balogun-red-card-suspension-usmnt-appeal-world-cup-round-of-16/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/d26389b6-9866-4bd4-9b6d-9f0ca1b9e98b/balogun.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:29:10 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "How the USMNT refused to blink against Bosnia and Herzegovina and kept World Cup dreams alive",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-refused-to-blink-against-bosnia-world-cup-dreams-alive/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/ea7d43ac-0a91-4fad-aea8-cef9563a662f/pochettino-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:28:11 +0000",
+      "teams": [
+        "Bosnia-Herzegovina"
+      ]
+    },
+    {
+      "headline": "Brighton to land Vuskovic",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brighton-land-vuskovic-054556421.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:23:19 +0000",
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Luis de la Fuente talks Lamine Yamal&#8217;s fitness, Dani Olmo, Pedri: &#8216;We’ve been very cautious&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/luis-la-fuente-talks-lamine-072000886.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:20:00 +0000",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Real Madrid priority target open to new challenge; will hold talks with current club after the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-priority-target-open-072000378.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🗞️ The front pages: Spain chase the last 16, USA make history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/front-pages-spain-chase-last-071900521.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:19:00 +0000",
+      "teams": [
+        "United States",
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Out of nowhere, Liverpool ready move for surprise World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nowhere-liverpool-ready-move-surprise-070500769.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lopes-relish-messi-duel-says-070232894.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:02:32 +0000",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c07yjj5j299o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 07:02:26 GMT",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "🤯 Scenes as the goal goes in! World Cup fans trigger quake back home",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scenes-goal-goes-world-cup-070100314.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 07:01:00 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Modric and Ronaldo reunited at World Cup as Croatia aim to snap Portugal’s streak",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/02/modric-ronaldo-reunited-world-cup-croatia-portugal"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 07:00:06 GMT",
+      "teams": [
+        "Switzerland",
+        "Scotland",
+        "Saudi Arabia",
+        "Uruguay",
+        "Argentina",
+        "Portugal",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 06:41:21 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mexico fans celebrating World Cup win against Ecuador cause ‘earthquake’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-fans-celebrating-world-cup-051012704.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 06:36:07 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "Wales face World Cup play-off after U19s elimination",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wales-face-world-cup-play-063102574.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 06:31:02 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 25",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj4pl4jdk4ko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c3c/live/bcbc2f10-6b93-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 05:51:25 GMT",
+      "teams": []
+    },
     {
       "headline": "K League 1 Returns: Here’s How Every Team’s 2026 Has Gone So Far",
       "links": {
@@ -44,18 +381,18 @@
       "teams": []
     },
     {
-      "headline": "Mexico fans celebrating World Cup win against Ecuador cause ‘artificial’ earthquake",
+      "headline": "A goal, a red and a LeBron James shout: Folarin Balogun gets the spotlight in US’s wild World Cup win",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-fans-celebrating-world-cup-051012704.html"
+          "href": "https://www.theguardian.com/football/2026/jul/01/folarin-balogun-red-card-goal-usmnt-world-cup-birthright-citizenship"
         }
       },
       "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 05:10:12 +0000",
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 05:11:35 GMT",
       "teams": [
-        "Mexico",
-        "Ecuador"
+        "Bosnia-Herzegovina",
+        "United States"
       ]
     },
     {
@@ -72,6 +409,22 @@
         "United States",
         "Belgium"
       ]
+    },
+    {
+      "headline": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e82/live/5992ae70-7573-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 04:59:47 GMT",
+      "teams": []
     },
     {
       "headline": "2026 World Cup Odds: USMNT Generating Record-Breaking Soccer Handle",
@@ -258,42 +611,6 @@
       "teams": [
         "Bosnia-Herzegovina",
         "United States"
-      ]
-    },
-    {
-      "headline": "Folarin Balogun red card suspension: Can USMNT appeal or will striker miss World Cup round of 16 vs. Belgium?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/folarin-balogun-red-card-suspension-usmnt-appeal-world-cup-round-of-16/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/d26389b6-9866-4bd4-9b6d-9f0ca1b9e98b/balogun.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 03:47:03 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "How the USMNT refused to blink against Bosnia and Herzegovina and kept World Cup dreams alive",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-refused-to-blink-against-bosnia-world-cup-dreams-alive/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/ea7d43ac-0a91-4fad-aea8-cef9563a662f/pochettino-2.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 03:38:12 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
       ]
     },
     {
@@ -1292,7 +1609,7 @@
       ]
     },
     {
-      "headline": "No time for England to adapt to altitude - Tuchel",
+      "headline": "Tuchel urges parents to let kids stay up for England game",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cd95g9y8k24o?at_medium=RSS&at_campaign=rss"
@@ -1536,7 +1853,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5f9/live/7090c5c0-759c-11f1-a4da-6bfef02f3f53.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43ec/live/5b4fe1a0-75dd-11f1-b2ef-f150187f763a.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -2243,18 +2560,6 @@
         "Congo DR",
         "England"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 18:07:43 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup 2026: Harry Kane’s late brace saves England from stunning upset against DR Congo",
@@ -15799,333 +16104,6 @@
       "teams": [
         "Uruguay",
         "Spain"
-      ]
-    },
-    {
-      "headline": "England vs. Panama odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-panama-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/1f9fe15c-51f8-4879-8b7f-2fd8fff155aa/harry-kane-england-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 18:51:28 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Atalanta defender Hien out of 2026 World Cup with serious injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/atalanta-defender-hien-2026-world-183000178.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 18:30:00 +0000",
-      "teams": [
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "Argentine icon questions Lamine Yamal&#8217;s ability to come good at the World Cup: &#8216;Needs to prove that&#8230;&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentine-icon-questions-lamine-yamal-182000257.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 18:20:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Italian referee Mariani chosen for Brazil vs. Japan World Cup match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/italian-referee-mariani-chosen-brazil-180000655.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 18:00:00 +0000",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 13:24:21 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Cody Gakpo’s partner suffers tragic miscarriage with Liverpool star at World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/entertainment/celebrity/articles/cody-gakpo-partner-suffers-tragic-172405817.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 17:24:05 +0000",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "England Starting XI vs Panama: Confirmed Team News and Predicted Lineup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-starting-xi-vs-panama-170000840.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 17:00:00 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Canada vs. South Africa odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/canada-vs-south-africa-odds-prediction-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/893e8a48-efab-46a5-9ba5-bfc59e15a9af/jonathan-david-canada-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:53:11 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "France boss Didier Deschamps returns to World Cup after death of his mother",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-boss-didier-deschamps-returns-164259322.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:42:59 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Three Nations, 48 Teams, and Football’s Greatest Show on Earth",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/three-nations-48-teams-football-163500159.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "England vs. Panama odds, prediction, time: 2026 World Cup picks, best bets by expert on 18-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-panama-odds-prediction-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/1f9fe15c-51f8-4879-8b7f-2fd8fff155aa/harry-kane-england-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:30:49 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Teams Favored to Advance to Knockout Stage",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-favored-advance-knockout-stage"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/44ea682a-wc_oddstoadvance-9x16-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:29:04 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Where does Scotland's World Cup campaign leave Clarke?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/where-does-scotlands-world-cup-155030989.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:24:48 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Croatia vs. Ghana odds, prediction, time: 2026 World Cup picks, best bets from expert on 25-13 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/croatia-ghana-odds-prediction-line-time-2026-world-cup-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/7dd32362-001e-4213-b108-aa49952d3717/luka-modric-croatia-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:17:58 +0000",
-      "teams": [
-        "Croatia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup group stage concludes as Argentina rest Lionel Messi, England chase group stage win and more",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-stage-cargentina-rest-lionel-messi-england-group-stage/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/83bb3493-b7b1-49b0-9041-fcba794d3988/untitled-design-2026-06-27t120809-370.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:16:18 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina vs. Jordan Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-argentina-jordan-odds-predictions-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282275237-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:00:58 -0400",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Austria vs. Algeria Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-austria-algeria-odds-prediction-picks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282624666-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 27 Jun 2026 12:00:20 -0400",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Manchester City plot summer 2027 move for World Cup starlet",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/manchester-city-plot-summer-2027-160000421.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 27 Jun 2026 16:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Where does Scotland's World Cup campaign leave Clarke?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4d3w9p4zo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d91/live/ff84fe40-721d-11f1-8078-cdcf6dd43d3c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 27 Jun 2026 15:50:25 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Panama vs. England live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/panama-vs-england-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/85d7dc5f-3df0-4e41-a147-b6bbc2d8e1bf/england-kane.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 27 Jun 2026 15:47:30 +0000",
-      "teams": [
-        "England",
-        "Ghana",
-        "Panama"
       ]
     }
   ]
