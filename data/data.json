@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:24:29.829Z",
+  "lastUpdated": "2026-07-02T01:28:55.640Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3848,10 +3848,10 @@
       "awayIso": "ba",
       "venue": "Levi's Stadium, Santa Clara",
       "kickoff": "2026-07-02T00:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-07-02T01:28:55.640Z",
       "secondHalfStart": null,
       "espnEventId": "760494"
     },
