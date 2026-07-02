@@ -1,6 +1,211 @@
 {
-  "asOf": "2026-07-02T18:53:17.900Z",
+  "asOf": "2026-07-02T20:18:36.937Z",
   "items": [
+    {
+      "headline": "Spain v Austria: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/02/spain-v-austria-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 20:16:26 GMT",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Why was Marc Cucurella’s goal for Spain disallowed in World Cup last-32?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-marc-cucurella-goal-spain-195832071.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:13:12 +0000",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 23",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-23"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/3.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 16:13:05 -0400",
+      "teams": []
+    },
+    {
+      "headline": "'It had been coming' - Oyarzabal puts Spain ahead",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cvge042v5k7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97e1/live/071a63e0-764f-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 20:00:00 GMT",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 19:53:30 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "🔢 Spain star continues to shine by extending incredible scoring form",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-star-continues-shine-extending-195200507.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 19:52:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 15:51:06 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Malik Tillman's World Cup Moment Came At The Perfect Time For USA",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-malik-tillman-world-cup-goal-usa-knockout"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tillman1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 15:50:58 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "‘Curse’ ends three African teams’ dream of a World Cup spot",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/curse-ends-three-african-teams-193600410.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 19:36:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 19:30:36 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/ckg40qedq57o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/737f/live/53214180-7647-11f1-83d0-9b0728fe8be0.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 19:22:43 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT vs Belgium Preview with Brian Dunseth + Harry Kane Saves England & Exclusive ROC Nation Interview",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/usmnt-vs-belgium-preview-with-brian-dunseth--harry-kane-saves-england--exclusive-roc-nation-interview-190303717.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 19:03:03 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Switzerland",
+        "United States",
+        "Australia",
+        "Belgium",
+        "Egypt",
+        "Cape Verde Islands",
+        "Senegal",
+        "Argentina",
+        "Algeria",
+        "Congo DR",
+        "England"
+      ]
+    },
     {
       "headline": "Pubs allowed to stay open until 5am for England Mexico match",
       "links": {
@@ -35,23 +240,6 @@
       "source": "CBS Sports",
       "pubDate": "Thu, 02 Jul 2026 18:43:26 +0000",
       "teams": []
-    },
-    {
-      "headline": "Spain v Austria: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/02/spain-v-austria-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 18:35:18 GMT",
-      "teams": [
-        "Mexico",
-        "Spain",
-        "Austria",
-        "England"
-      ]
     },
     {
       "headline": "World Cup: In America, there's no crying over red cards",
@@ -141,7 +329,7 @@
       ]
     },
     {
-      "headline": "Ghosts of the Azteca: England return to scene of infamous Maradona handball",
+      "headline": "Azteca avengers? England return to scene of infamous Maradona handball",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/02/azteca-england-diego-maradona-handball-mexico-world-cup"
@@ -299,20 +487,6 @@
         "Mexico",
         "Canada",
         "United States"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 17:29:03 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -745,7 +919,7 @@
       ]
     },
     {
-      "headline": "Egyptian-Australians grapple with a ‘bittersweet’ dilemma: who to support in the World Cup?",
+      "headline": "Egyptian Australians grapple with a ‘bittersweet’ dilemma: who to support in the World Cup?",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/02/egypt-australia-socceroos-pharaohs-diaspora-who-to-support-world-cup"
@@ -2722,22 +2896,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 20:46:11 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 FIFA World Cup knockout round schedule: Kickoff times, dates, fixtures, how to live stream, watch on TV",
       "links": {
         "web": {
@@ -3596,26 +3754,6 @@
       "pubDate": "Wed, 01 Jul 2026 16:12:06 -0400",
       "teams": [
         "Morocco"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 20:06:13 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
       ]
     },
     {
@@ -15860,140 +15998,6 @@
       "teams": [
         "Portugal",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "Reporter apologizes for joke about not knowing where Bosnia and Herzegovina is ahead of World Cup clash vs. USMNT",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/reporter-apologizes-for-joke-about-not-knowing-where-bosnia-and-herzegovina-is-ahead-of-world-cup-clash-vs-usmnt-023403644.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 02:34:03 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "'Get rid of VAR!' Rooney unhappy Sanchez goal ruled out",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c20ygyddl5no?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/deac/live/ed33d020-7297-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 02:30:09 GMT",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "What each team needs to reach World Cup knockouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-face-scotland-world-cup-092646397.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 02:26:18 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Yoane Wissa underlines threat as DR Congo set up England clash at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/yoane-wissa-underlines-threat-dr-022322418.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 02:23:22 +0000",
-      "teams": [
-        "Congo DR",
-        "Uzbekistan",
-        "England"
-      ]
-    },
-    {
-      "headline": "DR Congo come from behind to book last-32 tie with England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c621584j680o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b12/live/61d29400-7295-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 02:23:19 GMT",
-      "teams": [
-        "Congo DR",
-        "Uzbekistan",
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨Official: World Cup round of 32 fixtures confirmed!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/stands-ties-confirmed-world-cup-021000009.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 02:10:00 +0000",
-      "teams": [
-        "South Africa",
-        "Canada",
-        "Brazil",
-        "Germany",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Salah an injury doubt for Egypt's last-32 tie",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/salah-injury-doubt-egypts-last-020457865.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 02:04:57 +0000",
-      "teams": [
-        "Australia",
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Salah an injury doubt for Egypt's last-32 tie",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35fd/live/60c04860-728f-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 02:04:52 GMT",
-      "teams": [
-        "Australia",
-        "Egypt"
       ]
     }
   ]

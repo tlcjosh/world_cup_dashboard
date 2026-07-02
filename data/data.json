@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T18:53:16.062Z",
+  "lastUpdated": "2026-07-02T20:18:36.409Z",
   "matches": [
     {
       "matchId": 537327,
@@ -3960,10 +3960,10 @@
       "awayIso": "at",
       "venue": "SoFi Stadium, Inglewood",
       "kickoff": "2026-07-02T19:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-07-02T20:18:36.409Z",
       "secondHalfStart": null,
       "espnEventId": "760497"
     },
