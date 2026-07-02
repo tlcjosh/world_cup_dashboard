@@ -1,6 +1,349 @@
 {
-  "asOf": "2026-07-02T20:18:36.937Z",
+  "asOf": "2026-07-02T21:39:13.485Z",
   "items": [
+    {
+      "headline": "Where to watch the World Cup on the BBC and ITV",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 21:33:35 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Switzerland vs. Algeria odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-15 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/switzerland-algeria-odds-prediction-time-2026-world-cup-round-32-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/b7d99b51-42c8-4ccf-9ed1-5e7c1964d9fb/usatsi-29225955-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 21:30:25 +0000",
+      "teams": [
+        "Switzerland",
+        "Algeria"
+      ]
+    },
+    {
+      "headline": "How to Watch Portugal vs. Croatia: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/portugal-vs-croatia-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-portugal-vs-croatia-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 17:30:00 -0400",
+      "teams": [
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Portugal vs. Croatia odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/portugal-croatia-odds-prediction-2026-world-cup-round-32-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/6e9d06c4-19f3-4667-b245-b24376b8589d/cristiano-ronaldo-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 21:27:03 +0000",
+      "teams": [
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/02/spain-austria-world-cup-2026-last-32-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 21:12:38 GMT",
+      "teams": [
+        "Saudi Arabia",
+        "Spain",
+        "Austria",
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spain-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 17:06:30 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Rodri helps Spain into mouth-watering last-16 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-210500226.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 21:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284102436.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 17:04:43 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 21:03:45 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 21:01:46 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Who Is Spain's Next World Cup Opponent?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-next-world-cup-opponent"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/878fec02-d2baa3f6-gettyimages-2283790660-scaled-e1783026165487.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 17:01:14 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Spain coasts past Austria behind Mikel Oyarzabal brace, into Round of 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-spain-coasts-past-austria-behind-mikel-oyarzabal-brace-into-round-of-16-210038593.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 21:00:38 +0000",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Portugal v Croatia: World Cup 2026 last 32  – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/02/portugal-v-croatia-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 02 Jul 2026 21:00:09 GMT",
+      "teams": [
+        "Switzerland",
+        "Scotland",
+        "Uruguay",
+        "Portugal",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "🎥 Bring on Portugal or Croatia! Spain dominate, reach Copa last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bring-portugal-croatia-spain-cruise-205900026.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:59:00 +0000",
+      "teams": [
+        "Spain",
+        "Austria",
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "🥇 Unai Simón breaks the all-time World Cup clean-sheet record",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unai-sim-n-breaks-time-205800714.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:58:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 02 Jul 2026 16:51:33 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Pubs allowed to stay open until 5am for England Mexico match",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab2/live/e30a5c40-7634-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 02 Jul 2026 20:49:17 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Portugal v Croatia on TV? Channel, kick-off and how to watch World Cup last-32 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/portugal-v-croatia-tv-channel-140049713.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:42:42 +0000",
+      "teams": [
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "The 10 (not entirely serious…) right-back options Thomas Tuchel should consider",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/10-not-entirely-serious-back-203251495.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:32:51 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Portugal vs. Croatia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/portugal-croatia-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/c3bc1b88-f3aa-4d40-a1a0-0abaa47a8322/portugal-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:30:36 +0000",
+      "teams": [
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "10 reasons for Senegal to take heart after the disappointment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/10-reasons-senegal-heart-disappointment-202200560.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:22:00 +0000",
+      "teams": [
+        "Senegal"
+      ]
+    },
     {
       "headline": "Spain v Austria: World Cup 2026 last 32 – live",
       "links": {
@@ -11,6 +354,21 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Thu, 02 Jul 2026 20:16:26 GMT",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "World Cup Round of 32: Spain vs. Austria official line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-round-32-spain-201500573.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 02 Jul 2026 20:15:00 +0000",
       "teams": [
         "Spain",
         "Austria"
@@ -103,22 +461,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 15:51:06 -0400",
-      "teams": []
-    },
-    {
       "headline": "Malik Tillman's World Cup Moment Came At The Perfect Time For USA",
       "links": {
         "web": {
@@ -147,20 +489,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 02 Jul 2026 19:36:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 19:30:36 +0000",
-      "teams": [
-        "Scotland"
-      ]
     },
     {
       "headline": "Tuchel wants young England fans to stay up for 1am World Cup clash - but should they?",
@@ -203,25 +531,6 @@
         "Argentina",
         "Algeria",
         "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Pubs allowed to stay open until 5am for England Mexico match",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab2/live/e30a5c40-7634-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 18:45:49 GMT",
-      "teams": [
-        "Mexico",
         "England"
       ]
     },
@@ -281,21 +590,6 @@
       "teams": [
         "Sweden",
         "Congo DR"
-      ]
-    },
-    {
-      "headline": "Is Portugal v Croatia on TV? Channel, kick-off and how to watch World Cup last-32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-v-croatia-tv-channel-140049713.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 18:24:42 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
       ]
     },
     {
@@ -591,18 +885,6 @@
         "Spain",
         "Austria"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 17:08:24 +0000",
-      "teams": []
     },
     {
       "headline": "Spain vs. Austria odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-15 run",
@@ -1009,25 +1291,6 @@
       "pubDate": "Thu, 02 Jul 2026 14:25:00 +0000",
       "teams": [
         "Morocco"
-      ]
-    },
-    {
-      "headline": "Switzerland vs. Algeria odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-15 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/switzerland-algeria-odds-prediction-time-2026-world-cup-round-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/b7d99b51-42c8-4ccf-9ed1-5e7c1964d9fb/usatsi-29225955-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 14:18:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Algeria"
       ]
     },
     {
@@ -2757,22 +3020,6 @@
       "teams": [
         "United States"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usa.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 22:06:11 -0400",
-      "teams": []
     },
     {
       "headline": "World Cup Red Cards: 2026 Has More Red Cards Than Last 2 World Cups Combined",
@@ -11540,25 +11787,6 @@
       ]
     },
     {
-      "headline": "How to Watch Portugal vs. Croatia: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/portugal-vs-croatia-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/portugal-vs-croatia-how-to-watch.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 13:39:16 -0400",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
       "headline": "Netherlands vs. Morocco odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-13 run",
       "links": {
         "web": {
@@ -15576,22 +15804,6 @@
       "teams": []
     },
     {
-      "headline": "Where to watch the World Cup on the BBC and ITV",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0146/live/1059f7e0-61e6-11f1-8b8c-6d33e1d5abb6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 05:00:29 GMT",
-      "teams": []
-    },
-    {
       "headline": "England last-32 tie on BBC - see full schedule",
       "links": {
         "web": {
@@ -15790,215 +16002,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 28 Jun 2026 04:17:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Jude Bellingham steps up, shows why he can lead England to World Cup glory",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-jude-bellingham-lead-england-231502577.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:15:00 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Iran falls 1 spot short of knockout round after wild Algeria-Austria finish",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-iran-falls-1-spot-short-of-knockout-round-after-wild-algeria-austria-finish-041403699.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:14:03 +0000",
-      "teams": [
-        "Iran",
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Rayan Ait-Nouri and Algeria secure Round of 32 qualification after thrilling draw",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-041000066.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:10:00 +0000",
-      "teams": [
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "The City Where Colombia, and Much of Latin America, Plays as the Home Team",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/27/us/miami-latin-america-world-cup.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 28 Jun 2026 04:08:46 +0000",
-      "teams": [
-        "Brazil",
-        "Uruguay",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Maestro Messi scores again and breaks another record in the process",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cpwek9kryj1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c718/live/07a04e80-72a6-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 04:06:58 GMT",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Group J: Wild Austria-Algeria tie locks Iran out of knockout rounds",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-group-j-wild-austria-algeria-tie-locks-iran-out-of-knockout-rounds-040527645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:05:27 +0000",
-      "teams": [
-        "Iran",
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup takeaways for Round of 32: Portugal's draw with Colombia likely denied us the chance to see Messi vs. Ronaldo",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-takeaways-for-round-of-32-portugals-draw-with-colombia-likely-denied-us-the-chance-to-see-messi-vs-ronaldo-040030299.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 04:00:30 +0000",
-      "teams": [
-        "Argentina",
-        "Portugal",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Lionel Messi becomes first man to score in 7 straight World Cup games with free kick goal in win over Jordan",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/lionel-messi-becomes-first-man-to-score-in-7-straight-world-cup-games-with-free-kick-goal-in-win-over-jordan-035656101.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 03:56:56 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "🐐 Messi sets another record with his 19th World Cup goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-sets-yet-another-record-034900094.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 03:49:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "DR Congo vaults from despair to World Cup delirium — ‘We write our story with a black pen’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/dr-congo-vaults-from-despair-to-world-cup-delirium--we-write-our-story-with-a-black-pen-034217756.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 03:42:17 +0000",
-      "teams": [
-        "Congo DR"
-      ]
-    },
-    {
-      "headline": "Alphonso Davies returns as Canada approach World Cup moment of destiny",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/28/alphonso-davies-returns-canada-world-cup-moment-of-destiny"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 03:25:43 GMT",
-      "teams": [
-        "South Africa",
-        "Canada",
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Lo Celso marks his World Cup debut with a fantastic free-kick",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cj4gqgg8d0yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7439/live/41a73da0-729c-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 02:47:38 GMT",
-      "teams": [
-        "Argentina",
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "Colombia denied late winner in enthralling draw with Portugal",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cx2dyez02z8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d755/live/9e191c70-7297-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 02:46:10 GMT",
-      "teams": [
-        "Portugal",
-        "Colombia"
-      ]
     }
   ]
 }
