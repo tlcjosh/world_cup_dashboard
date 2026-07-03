@@ -1,6 +1,106 @@
 {
-  "asOf": "2026-07-03T22:41:44.234Z",
+  "asOf": "2026-07-03T23:45:58.841Z",
   "items": [
+    {
+      "headline": "Cape Verde Comeback On? Duarte Equalizes vs. Argentina and Vozinha Denies Messi",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/cape-verde-comeback-on-duarte-equalizes-vs-argentina-vozinha-denies-messi"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 19:44:26 -0400",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 23:34:47 GMT",
+      "teams": [
+        "Australia",
+        "Egypt",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England’s game against Mexico to stay at 6pm local time, 1am UK on Monday",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/03/england-mexico-match-timing"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 23:26:43 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "GOAT Greatness: All Of Lionel Messi's World Cup Goals, Ranked",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/messi-2026-world-cup-goals-ranked"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-1-58.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 19:12:52 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi lauded by Ian Wright and Gary Neville for ‘total control’ after sublime Argentina goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-lauded-ian-wright-230909991.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 23:09:09 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Lionel Messi Extends Multiple Records With 20th World Cup Goal For Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-extends-multiple-records-20th-world-cup-goal-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 19:06:40 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Back In Front; Mbappé Lurking",
       "links": {
@@ -14,7 +114,85 @@
         }
       ],
       "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 18:38:27 -0400",
+      "pubDate": "Fri, 03 Jul 2026 18:45:47 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Rice likely to be available for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-likely-available-england-v-212930639.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:44:45 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Messi Favored Over Mbappé In Historic Golden Boot Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284544474-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:44:33 -0400",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "👽 He’s INEVITABLE! Messi bags his 20th Copa goal, watch 🎥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/inevitable-messi-bags-20th-copa-224400728.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:44:00 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🚨 Out of this world! Messi breaks another World Cup record",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-messi-breaks-another-world-224300982.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:43:00 +0000",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:41:57 -0400",
       "teams": []
     },
     {
@@ -53,20 +231,18 @@
       ]
     },
     {
-      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
+      "headline": "Mexico boss furious at Fifa over proposed World Cup kick-off change vs England",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
+          "href": "https://sports.yahoo.com/articles/mexico-boss-furious-fifa-over-221638297.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 22:34:57 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:31:46 +0000",
       "teams": [
-        "Australia",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina"
+        "Mexico",
+        "England"
       ]
     },
     {
@@ -84,6 +260,22 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 18:29:07 -0400",
       "teams": []
+    },
+    {
+      "headline": "📸 Peekaboo! Argentina star copies the Busquets meme",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/peekaboo-argentina-star-copies-busquets-222800857.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:28:00 +0000",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
     },
     {
       "headline": "England, Mexico & Fifa locked in kick-off time talks",
@@ -131,21 +323,6 @@
       "pubDate": "Fri, 03 Jul 2026 22:18:56 +0000",
       "teams": [
         "Scotland"
-      ]
-    },
-    {
-      "headline": "Mexico boss furious at Fifa over proposed World Cup kick-off change vs England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-boss-furious-fifa-over-221638297.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:16:38 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -204,21 +381,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Fri, 03 Jul 2026 22:03:45 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rice likely to be available for England v Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rice-likely-available-england-v-212930639.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:02:54 +0000",
       "teams": [
         "Mexico",
         "England"
@@ -417,7 +579,6 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 17:22:15 -0400",
       "teams": [
-        "Australia",
         "Egypt"
       ]
     },
@@ -1274,22 +1435,6 @@
       ]
     },
     {
-      "headline": "GOAT Greatness: All Of Lionel Messi's World Cup Goals, Ranked",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/messi-2026-world-cup-goals-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-1-58.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 12:47:04 -0400",
-      "teams": []
-    },
-    {
       "headline": "How does ‘Snicko’ work at the World Cup? Why Croatia were denied equaliser against Portugal by VAR technology",
       "links": {
         "web": {
@@ -1418,22 +1563,6 @@
         "Sweden",
         "France"
       ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Mbappé, Messi Duel In Golden Boot Race; Kane Chasing",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2284076627-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 12:01:08 -0400",
-      "teams": []
     },
     {
       "headline": "Predict the World Cup and win a holiday to Spain with Jet2: Have you got what it takes?",
@@ -2227,7 +2356,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6337/live/ca28d220-76bf-11f1-925a-557464d48d36.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff2/live/aa7d0530-7738-11f1-86a5-f1785a468aa8.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -3530,22 +3659,6 @@
       "teams": [
         "Portugal"
       ]
-    },
-    {
-      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:53:29 -0400",
-      "teams": []
     },
     {
       "headline": "Tracking Every Cristiano Ronaldo Goal At The 2026 World Cup",
@@ -16026,113 +16139,6 @@
         "Netherlands",
         "Japan",
         "England"
-      ]
-    },
-    {
-      "headline": "Former Barcelona manager questions Pedri&#8217;s role for Spain at World Cup: &#8216;Communicates much better with his club teammates&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/former-barcelona-manager-questions-pedri-114500166.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:45:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "🔝 No rest, no subs! This World Cup star smashes all fitness records",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/no-rest-no-subs-world-114100297.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:41:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Could a heatwave make World Cup matches 'unsafe' this week?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/weather/articles/c1lyz4jy425o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f22/live/887bd5c0-72ff-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 11:36:07 GMT",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Why Elliot Anderson&#8217;s Manchester City transfer announcement has been pushed back",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-elliot-anderson-manchester-city-113000339.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:30:00 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "How Tuchel is still searching for solutions out wide - Shearer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-still-searching-solutions-wide-112753643.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:27:53 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "How Tuchel is still searching for solutions out wide - Shearer",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cqj1g9egd80o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4000/live/e23d0350-7385-11f1-9e21-8bd55db03589.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 11:27:47 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Steve Clarke outlines what Scotland must do for future success after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/steve-clarke-outlines-scotland-must-110658801.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:06:58 +0000",
-      "teams": [
-        "Scotland"
       ]
     }
   ]
