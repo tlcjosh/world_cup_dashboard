@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-07-03T09:36:37.064Z",
+  "asOf": "2026-07-03T11:55:23.352Z",
   "items": [
     {
-      "headline": "World Cup 2026: Portugal through to face Spain after VAR drama, Salah fit to face Australia – live",
+      "headline": "World Cup 2026: Germany hold Klopp talks after Nagelsmann quits; Portugal to face Spain after VAR drama – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/03/world-cup-2026-portugal-spain-switzerland-australia-egypt-argentina-cape-verde-colombia-ghana-live"
@@ -10,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 09:32:13 GMT",
+      "pubDate": "Fri, 03 Jul 2026 11:40:47 GMT",
       "teams": [
         "Switzerland",
         "Australia",
@@ -21,6 +21,415 @@
         "Portugal",
         "Colombia",
         "Ghana"
+      ]
+    },
+    {
+      "headline": "Julian Nagelsmann resigns as Germany coach with Jurgen Klopp eyed as replacement",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/julian-nagelsmann-resigns-germany-coach-104908196.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 11:31:20 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Video: Cristiano Ronaldo reveals what he told Modric after Portugal’s win over Croatia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/video-cristiano-ronaldo-reveals-told-111500692.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 11:15:00 +0000",
+      "teams": [
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Norway have finally lived up to World Cup billing – a reunion with Brazil is perfect timing | Lars Sivertsen",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/03/norway-have-finally-lived-up-to-world-cup-billing-a-reunion-with-brazil-is-perfect-timing"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 11:12:57 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-v-cape-verde-breaking-110527579.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 11:05:27 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c17y82qyjj4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10da/live/a100d9c0-761e-11f1-8c8c-f987daa96c22.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 11:01:01 GMT",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lautaro Martinez, Luis Diaz among Friday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lautaro-martinez-luis-diaz-among-fridays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/531a78f9-4350-4cbc-8d97-460737edd26d/diaz-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 03 Jul 2026 11:00:44 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Door open for Barcelona winger to return to national team plans after World Cup snub",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/door-open-barcelona-winger-return-110000215.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 11:00:00 +0000",
+      "teams": [
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "Belgium boss denies criticising African football after dramatic World Cup comeback win over Senegal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-boss-denies-criticising-african-105728384.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:57:28 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-offers-stay-catch-england-104606788.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:56:13 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo pays tribute to Diogo Jota after Portugal&#8217;s World Cup win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-pays-tribute-diogo-105500197.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:55:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Family ties and focus: Lamine Yamal carries burden of Spain’s World Cup dream",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/03/lamine-yamal-spain-world-cup-brother-keyne"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 10:43:57 GMT",
+      "teams": [
+        "Spain",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6337/live/ca28d220-76bf-11f1-925a-557464d48d36.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 10:39:10 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "BBC to show spoiler-free replay of England’s World Cup clash with Mexico on Monday morning",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-show-spoiler-free-replay-102945776.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:33:13 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 Reports: Leaving Spain! Ter Stegen finds new club",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reports-leaving-spain-ter-stegen-103100180.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:31:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "After World Cup goals are last year's signings finally set to deliver for Newcastle?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-goals-last-years-102428699.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:24:28 +0000",
+      "teams": []
+    },
+    {
+      "headline": "After World Cup goals are last year's signings finally set to deliver for Newcastle?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy8dg9nry4xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7178/live/040fe180-7527-11f1-b8b8-e187759eae96.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 10:23:35 GMT",
+      "teams": []
+    },
+    {
+      "headline": "John Denver’s family ‘thrilled’ as Country Roads becomes US team’s World Cup anthem",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/country-roads-became-usmnt-perfect-231402881.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:19:52 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup heatwave sparks safety fears ahead of France v Paraguay clash in Philadelphia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-heatwave-sparks-safety-101554681.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:15:54 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Luka Modric faces major career decision after World Cup exit as Real Madrid monitor situation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/luka-modric-faces-major-career-101500356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:15:00 +0000",
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Tonali, Palestra, Ekhator & more: The transfers giving Italy hope",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tonali-palestra-ekhator-more-transfers-101500400.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 Germany announce Nagelsmann exit... and speak to Klopp",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-announce-nagelsmann-exit-talks-100800328.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:08:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "🚨 Julian Nagelsmann steps down as Germany head coach",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/julian-nagelsmann-steps-down-germany-100600162.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:06:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Germany coach Julian Nagelsmann reportedly resigns opening door for Jurgen Klopp",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-coach-julian-nagelsmann-reportedly-100552691.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:05:52 +0000",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "How to Watch Australia vs. Egypt: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-australia-vs-egypt-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-australia-vs-egypt-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 06:04:31 -0400",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Friday include Egypt, Argentina-Cape Verde",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-friday-include-egypt-argentina-cape-verde/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/17/b52b4085-a223-4266-afdc-3c6746c80ef8/usatsi-29212694-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 03 Jul 2026 10:00:44 +0000",
+      "teams": [
+        "Egypt",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England must go low against Mexico to hit heights with Total Arsenalball",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/03/total-arsenalball-england-low-block-mexico-azteca"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 10:00:26 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "England"
+      ]
+    },
+    {
+      "headline": "Croatia snicked off late on and Ronaldo finally scores knockout goal | World Cup Daily – video",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jul/03/croatia-snicked-off-late-on-and-ronaldo-finally-scores-knockout-goal-world-cup-daily-video"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 09:42:17 GMT",
+      "teams": [
+        "Croatia"
       ]
     },
     {
@@ -1425,18 +1834,6 @@
       "teams": [
         "Spain"
       ]
-    },
-    {
-      "headline": "How ‘Country Roads’ became the USMNT’s perfect World Cup anthem",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/country-roads-became-usmnt-perfect-231402881.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 23:14:02 +0000",
-      "teams": []
     },
     {
       "headline": "Argentina-Cape Verde Is The Most College Football-Esque Matchup Of The World Cup",
@@ -15692,390 +16089,6 @@
       "source": "The Guardian",
       "pubDate": "Sun, 28 Jun 2026 15:59:37 GMT",
       "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "🤕Official medical update: Ugarte suffered a ligament injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/terrible-news-ugarte-torn-ligaments-155000345.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 15:50:00 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Is South Africa v Canadaon TV? Channel, time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-v-canadaon-tv-064400443.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 15:42:23 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "‘Street football on world stage’: Morocco and Netherlands face off in last-32 tie with a backstory",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 15:38:45 GMT",
-      "teams": [
-        "Mexico",
-        "Qatar",
-        "Morocco",
-        "Netherlands",
-        "Belgium",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Football Daily | England muddle on and Clarke checks out as World Cup moves up a gear",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/28/england-scotland-world-cup-group-stage-finale"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 15:13:12 GMT",
-      "teams": [
-        "South Africa",
-        "Canada",
-        "Scotland",
-        "Algeria",
-        "Austria",
-        "Portugal",
-        "England"
-      ]
-    },
-    {
-      "headline": "England players using drink developed by Brownlee to help beat World Cup heat",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/28/england-players-sports-drink-extreme-heat-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 15:05:46 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Cups of tea and a roaring crowd: Sydney’s Algerian community gathers for World Cup nailbiter",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/29/cups-of-tea-and-a-roaring-crowd-sydneys-algerian-community-gathers-for-world-cup-nailbiter"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 15:00:14 GMT",
-      "teams": [
-        "Algeria"
-      ]
-    },
-    {
-      "headline": "World Cup midfielder likely to be outside of Newcastle&#8217;s range",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-midfielder-likely-outside-150000941.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 15:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid defender Militao looking forward to Jose Mourinho era: &#8216;I&#8217;m eager to train again&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-defender-militao-looking-145000063.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:50:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Welcome to the real World Cup – the tournament begins now",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/welcome-real-world-cup-tournament-090807779.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:43:24 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Did the new World Cup group stage format work? Was the 48-team field a success as knockout stage begins?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/did-the-new-world-cup-group-stage-format-work-was-the-48-team-field-a-success-as-knockout-stage-begins/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/28/3be388dd-b55d-49aa-aded-9f099e2807ee/untitled-design-2026-06-28t102405-314.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:32:14 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026: England to face DRC, Clarke quits Scotland, South Korea president blasts team – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/28/world-cup-2026-england-win-clarke-quits-scotland-and-iran-denied-at-the-last-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 14:31:47 GMT",
-      "teams": [
-        "South Korea",
-        "Scotland",
-        "Iran",
-        "France",
-        "Argentina",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mertesacker on Italy’s World Cup absence: ”They don’t deserve to be talked about’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mertesacker-italy-world-cup-absence-142500136.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "More Nations, More Dreams: The Impact of the 48-Team World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/more-nations-more-dreams-impact-142500148.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Nico Paz after World Cup debut: &#8220;Realised a life-long dream&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/nico-paz-world-cup-debut-142500475.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:25:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Rice set for England start against DR Congo",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rice-set-england-start-against-141503432.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:17:49 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rice set for England start against DR Congo",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgjd5j74z5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae1/live/f7d6c430-72f4-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 14:14:57 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup betting: Odds for every knockout stage team to win it all",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-betting-odds-for-every-knockout-stage-team-to-win-it-all-141109939.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:11:09 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup schedule today: How to watch South Africa v Canada, TV channels & live stream Sunday 28 June",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140021669.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 14:00:21 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "🥶 Jones-Inter, truth on Koné-Atletico and more: today's market 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jones-inter-truth-kon-atletico-134600191.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:46:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Which Serie A side has the most representatives left at the 2026 World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/serie-side-most-representatives-left-134500339.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Can you watch World Cup matches at Wimbledon?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-world-cup-matches-wimbledon-133415928.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:34:15 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "64 Serie A players left standing at the 2026 World Cup – Who are you supporting?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/64-serie-players-left-standing-133000297.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:30:00 +0000",
-      "teams": [
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/28/iran-world-cup-exit-heartbreak"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 13:27:44 GMT",
-      "teams": [
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Iran needed help to save their ‘disaster’ World Cup. Instead they got more heartbreak",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/iran-needed-help-save-disaster-132744772.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:27:44 +0000",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "🌍 World Cup: the 8 surprise stars of the group stage ⭐",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-8-surprise-stars-132700323.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:27:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Could Clarke's departure prompt Scottish football shake up?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/could-clarkes-departure-prompt-scottish-131021180.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 13:10:21 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Haiti",
         "Scotland"
       ]
     }
