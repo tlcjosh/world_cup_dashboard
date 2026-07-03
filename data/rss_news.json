@@ -1,6 +1,18 @@
 {
-  "asOf": "2026-07-03T17:46:59.283Z",
+  "asOf": "2026-07-03T18:55:32.297Z",
   "items": [
+    {
+      "headline": "Granit Xhaka breaks silence on Chelsea move as Sunderland exit looms",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/granit-xhaka-breaks-silence-chelsea-185000837.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:50:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Australia v Egypt: World Cup 2026 last 32 – live",
       "links": {
@@ -10,10 +22,260 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 17:29:23 GMT",
+      "pubDate": "Fri, 03 Jul 2026 18:49:47 GMT",
+      "teams": [
+        "Australia",
+        "Egypt",
+        "England"
+      ]
+    },
+    {
+      "headline": "England v Mexico could move because of storm threat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-mexico-could-move-184805568.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:48:05 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "England v Mexico could move earlier because of storm threat",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 18:48:00 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Despite €35m value, World Cup star rides home in dad's pick-up",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/despite-35m-value-world-cup-184700119.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:47:00 +0000",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Brazil v Norway referee brings back bad memories 😨",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-v-norway-referee-brings-183400664.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:34:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "⚖️ FIFA confirms referees for Brazil-Norway and Mexico-England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-confirms-referees-brazil-norway-183300356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:33:00 +0000",
+      "teams": [
+        "Mexico",
+        "Brazil",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Ashour heads Egypt into lead against Australia",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c8923lk4n02o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6869/live/7ce54870-770c-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 18:32:23 GMT",
       "teams": [
         "Australia",
         "Egypt"
+      ]
+    },
+    {
+      "headline": "Prince William says World Cup success for England would be ‘winning it’ – but jokes King Charles ‘hates football’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/prince-william-says-world-cup-180846162.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:08:46 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Ndiaye's chance for extra rest and recuperation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ndiayes-chance-extra-rest-recuperation-180301589.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:03:01 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Elanga and Wissa shine at the World Cup - a sign of things to come?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/elanga-wissa-shine-world-cup-180242904.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:02:42 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "My Mexico 1986 memories of Maradona, the Azteca and a commentary faux pas | David Pleat",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/03/england-mexico-world-cup-2026-azteca-stadium-diego-maradona-argentina"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 18:00:35 GMT",
+      "teams": [
+        "Mexico",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina keep faith with Inter captain Lautaro Martinez in World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-keep-faith-inter-captain-180000103.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:00:00 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Barcelona ace Raphinha back in Brazil training; World Cup quarter-final return remains the target",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-ace-raphinha-back-brazil-175000224.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:50:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Report: Man United Have &#8220;Made Contact&#8221; With Relegated World Cup Star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-man-united-made-contact-175000503.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "USA's Folarin Balogun Avoids Multi-Game Suspension; Won't Play vs. Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/folarin-balogun-suspension-red-card-belgium"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun1-6.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 13:47:32 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "The 20-minute trick that could help England fans stay up to watch Mexico World Cup tie",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/20-minute-trick-could-help-174435650.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:44:35 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Argentina v Cape Verde on TV? Channel, kick-off time and how to watch World Cup fixture",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-v-cape-verde-tv-050904547.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:42:19 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
       ]
     },
     {
@@ -1705,21 +1967,6 @@
       "teams": [
         "Switzerland",
         "Algeria"
-      ]
-    },
-    {
-      "headline": "Is Argentina v Cape Verde on TV? Channel, kick-off time and how to watch World Cup fixture",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-v-cape-verde-tv-050904547.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 05:09:04 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
       ]
     },
     {
@@ -15825,270 +16072,6 @@
       "source": "BBC Sport",
       "pubDate": "Mon, 29 Jun 2026 00:02:44 GMT",
       "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "🧤 Tala Rángel matches a 56-year-old record for Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tala-r-ngel-matches-56-234900496.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 23:49:00 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "📈 Why Stephen Eustáquio is Canada's vital link this summer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-stephen-eust-quio-canadas-234900903.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 23:49:00 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Jesse Marsch 'Doesn't Care' If USA Joins Canada In World Cup Round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jesse-marsch-doesnt-care-usa-joins-canada-world-cup-round-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/marsch1-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 19:43:35 -0400",
-      "teams": [
-        "Canada",
-        "United States"
-      ]
-    },
-    {
-      "headline": "2030 World Cup: Locations, Hosts, Dates, For The Centenary Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2030-world-cup-locations-hosts-dates-100-years"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/2ecb41ed-wc1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 19:05:20 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Folarin Balogun, USA Ready For High-Pressure Moment In World Cup Knockouts",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-usmnt-bosnia-knockout-pulisic-balogun"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/2bdd5d06-balogun1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 18:49:57 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Depends... Ancelotti on Neymar's chances of facing 🇯🇵",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/depends-ancelotti-neymars-chances-facing-221000599.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 22:10:00 +0000",
-      "teams": [
-        "Brazil",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Canada score dramatic late winner to reach World Cup last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-face-co-hosts-185530101.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 22:00:31 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Former U.S. Coach Bob Bradley Explains Coach's Perspective On Hydration Breaks",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/bob-bradley-explains-coachs-perspective-world-cup-hydration-breaks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/5c142791-artboard-1-16.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 18:00:08 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Unflappable Lucas Herrington takes praise and World Cup progress in his stride",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/28/unflappable-lucas-herrington-takes-praise-and-world-cup-progress-in-his-stride"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 28 Jun 2026 21:56:28 GMT",
-      "teams": [
-        "Paraguay",
-        "Australia",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Canada into last 16 with late winner against South Africa",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/clyx5432r8do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dde7/live/4c6fc700-7339-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 21:49:24 GMT",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "🥹Emotional: how Canada’s goal sealed a place in the last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/emotional-canada-goal-sealed-place-214600026.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 21:46:00 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Canada's Can-Do Spirit: 4 Takeaways From Historic World Cup Win vs. South Africa",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/canadas-can-do-spirit-4-takeaways-from-last-gasp-historic-world-cup-win"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/91b2b87a-canada1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 17:43:26 -0400",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: Everything To Know About Canada's Historic Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-everything-know-about-canadas-historic-win"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/f7be7226-canada1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 28 Jun 2026 17:40:47 -0400",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Can anyone do it? Messi leads race to beat a record from 1958",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/anyone-messi-leads-chase-mark-213400717.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 21:34:00 +0000",
-      "teams": [
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "USMNT knows group stage success won't matter without a World Cup knockout run",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/usmnt-knows-group-stage-success-wont-matter-without-a-world-cup-knockout-run-213347230.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 28 Jun 2026 21:33:47 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Eustaquio scores in injury-time to take Canada through to the last 16",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/c79yr8npv9go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f64/live/c3ccd8d0-733c-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 28 Jun 2026 21:24:53 GMT",
-      "teams": [
-        "South Africa",
         "Canada"
       ]
     }
