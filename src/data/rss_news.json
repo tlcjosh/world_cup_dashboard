@@ -1,6 +1,334 @@
 {
-  "asOf": "2026-07-03T21:36:24.423Z",
+  "asOf": "2026-07-03T22:41:44.234Z",
   "items": [
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Back In Front; Mbappé Lurking",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/m.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:38:27 -0400",
+      "teams": []
+    },
+    {
+      "headline": "GOAT's World Cup History: Messi Stands Alone As Top World Cup Goalscorer",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/mls/lionel-messi-goals-world-cup-argentina-assists-mls-inter-miami-stats"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9-messi-tracker-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:37:28 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Colombia vs. Ghana odds, prediction: 2026 World Cup Round of 32 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/colombia-ghana-odds-prediction-line-time-2026-world-cup-round-of-32-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/bb3ee5a1-2eee-44ba-9801-dce894129d4b/luis-diaz-colombia-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:36:37 +0000",
+      "teams": [
+        "Colombia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 22:34:57 GMT",
+      "teams": [
+        "Australia",
+        "Egypt",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Classy Folarin Balogun Handling 'Unjust' World Cup Red Card The 'Correct Way'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/classy-folarin-balogun-handling-unjust-world-cup-red-card-correct-way"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/05a0fdef-balogun1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:29:07 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England, Mexico & Fifa locked in kick-off time talks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-mexico-could-move-184805568.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:19:07 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "England, Mexico & Fifa locked in kick-off time talks",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 22:19:03 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Declan Rice, Raphinha and Nico Williams updates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:18:56 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Mexico boss furious at Fifa over proposed World Cup kick-off change vs England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-boss-furious-fifa-over-221638297.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:16:38 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "England v Mexico kick-off time at World Cup could be brought forward due to storm risk",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-mexico-kick-off-191515354.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:13:08 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Salah's Panenka helps Egypt edge Australia in shootout",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-salah-starts-egypt-against-165659516.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:11:21 +0000",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Where In The World Cup Is Jameis Winston?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 18:09:37 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Mexico manager says he’s been left in dark by Fifa over World Cup kick-off change",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-manager-says-left-dark-220345447.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:03:45 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Rice likely to be available for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-likely-available-england-v-212930639.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 22:02:54 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Rice likely to be available for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/crm0pnnldeyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9adf/live/6055bf00-772a-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 22:02:50 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Watch the full shootout as Egypt hold nerve to make World Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c5yz8gqpdddo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f664/live/27039760-7728-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 21:54:10 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:50:24 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Egypt into last 16 after shootout victory against Australia",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/czde25nmq6no?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6841/live/fd6cdec0-7722-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 21:45:03 GMT",
+      "teams": [
+        "Australia",
+        "Egypt",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The Mat Ryan gamble that failed spectacularly as Egypt beat Australia on penalties",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mat-ryan-gamble-failed-spectacularly-214300498.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:43:00 +0000",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Colombia vs. Ghana live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/colombia-vs-ghana-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/259cb538-10c8-486d-8663-8e957a3e7b43/colombia-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:40:56 +0000",
+      "teams": [
+        "Colombia",
+        "Ghana"
+      ]
+    },
     {
       "headline": "Egypt Clinches First-Ever World Cup Knockout Stage Win Over Australia",
       "links": {
@@ -40,39 +368,7 @@
       ]
     },
     {
-      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 21:29:55 GMT",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Rice likely to be available for England v Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rice-likely-available-england-v-212930639.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 21:29:30 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "'History for The Pharaohs' - Egypt celebrate after scoring winning penalty",
+      "headline": "'History for the Pharaohs' - Egypt celebrate after winning shootout",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/c621r4e4xpjo?at_medium=RSS&at_campaign=rss"
@@ -80,7 +376,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da1f/live/e1c3e060-7722-11f1-9510-1546718f668b.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4316/live/15f71eb0-7728-11f1-b976-0b9c15b0ccfc.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -123,21 +419,6 @@
       "teams": [
         "Australia",
         "Egypt"
-      ]
-    },
-    {
-      "headline": "England v Mexico kick-off time at World Cup to be brought forward due to storm risk",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-mexico-kick-off-191515354.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 21:17:25 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -252,40 +533,6 @@
       ]
     },
     {
-      "headline": "England v Mexico set to move to earlier kick-off time",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-mexico-could-move-184805568.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 20:44:43 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "England v Mexico set to move to earlier kick-off time",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 03 Jul 2026 20:44:38 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "😱 They screw me over: Vasco Aguirre fumes over kick-off switch rumour",
       "links": {
         "web": {
@@ -363,18 +610,6 @@
         "Cape Verde Islands",
         "Argentina"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 20:08:48 +0000",
-      "teams": []
     },
     {
       "headline": "What is Mexico City weather forecast for England’s World Cup clash at the Azteca?",
@@ -469,7 +704,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bruce8.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/arenabelgium.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -497,7 +732,7 @@
       ]
     },
     {
-      "headline": "🚨 Fifa may CHANGE Brazil v Norway kick-off, here's the scenario",
+      "headline": "⚠️ Fifa may ALTER Brazil v Norway kick-off at the Cup, here's why",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/fifa-could-change-brazil-v-194400844.html"
@@ -562,7 +797,7 @@
       ]
     },
     {
-      "headline": "Report: Mexico vs. England World Cup match to be moved up several hours to avoid inclement weather",
+      "headline": "Mexico coach slams FIFA after report that World Cup match vs. England match will be moved up to avoid inclement weather",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-mexico-vs-england-reportedly-moved-up-several-hours-to-avoid-inclement-weather-193039137.html"
@@ -3374,22 +3609,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Matches Messi; Haaland Lurking",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe_horizontal-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:28:38 -0400",
-      "teams": []
-    },
-    {
       "headline": "Socceroos ‘prepared’ to face Egypt’s Mo Salah who is fit for last-32 clash after injury",
       "links": {
         "web": {
@@ -3933,20 +4152,6 @@
       "teams": [
         "Spain",
         "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Neymar, Mohamed Salah and Reece James updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 21:01:46 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -10905,22 +11110,6 @@
       ]
     },
     {
-      "headline": "Where In The World Cup Is Jameis Winston?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 17:08:34 -0400",
-      "teams": []
-    },
-    {
       "headline": "📸 A true WiKINGer: this Haaland photo goes ridiculously hard!",
       "links": {
         "web": {
@@ -15942,173 +16131,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 29 Jun 2026 11:06:58 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Brazil v Japan among games to come as last 32 continues",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-group-stage-102249233.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:03:28 +0000",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "‘Incapable’ South Korea manager quits in disgrace after president demands investigation into World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/incapable-south-korea-manager-quits-101914120.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 11:03:10 +0000",
-      "teams": [
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "You're the scout! Which World Cup players do you want at your club?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/youre-scout-world-cup-players-115413218.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 10:46:56 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup quiz: How well do you know the group stage in numbers?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cy8wvqp4w2wo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4319/live/a6b56da0-70dc-11f1-b1db-af71d47507d6.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 10:38:12 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Steve Clarke says he was always going to leave Scotland if World Cup went badly",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/29/steve-clarke-says-he-was-always-going-to-leave-scotland-if-world-cup-went-badly"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 29 Jun 2026 10:33:40 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Move over Messi and Ronaldo - the new generation shining at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/move-over-messi-ronaldo-generation-103330750.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 10:33:30 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Move over Messi and Ronaldo - the new generation shining at World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gy9yd8lgwo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/703e/live/b86d8070-715c-11f1-909a-0f95894a566f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 10:33:25 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Why Netherlands v Morocco is more than just a match",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/clye1l3m9k4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd35/live/eb4d3330-7302-11f1-8b3a-1977d6dee6ef.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 10:16:02 GMT",
-      "teams": [
-        "Morocco",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Capello: ‘Lautaro the ideal sidekick for Messi, more of a Robin than a Batman’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/capello-lautaro-ideal-sidekick-messi-101000566.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 10:10:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Germany vs. Paraguay Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/germany-vs-paraguay-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282016100-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:00:16 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Clarke says standing down 'easy' decision after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c3ry1jyzpejo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8499/live/4e314420-739c-11f1-a8fc-c51d60fec73b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 09:25:31 GMT",
       "teams": [
         "Scotland"
       ]
