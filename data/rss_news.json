@@ -1,6 +1,350 @@
 {
-  "asOf": "2026-07-03T20:17:50.070Z",
+  "asOf": "2026-07-03T21:36:24.423Z",
   "items": [
+    {
+      "headline": "Egypt Clinches First-Ever World Cup Knockout Stage Win Over Australia",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/egypt-wins-in-world-cup-knockout-round-debut-with-42-penalty-shootout-edge-over-australia"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/egyot.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:32:31 -0400",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "'I decided last minute!' - Salah on Panenka penalty",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cg53p2qym2jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88dd/live/1d64b2f0-7725-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 21:31:17 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 21:29:55 GMT",
+      "teams": [
+        "Australia",
+        "Egypt",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Rice likely to be available for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-likely-available-england-v-212930639.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:29:30 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "'History for The Pharaohs' - Egypt celebrate after scoring winning penalty",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c621r4e4xpjo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da1f/live/e1c3e060-7722-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 21:27:02 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:26:30 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Who Is Egypt's Next World Cup Opponent?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/who-australias-egypts-next-world-cup-opponent"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/egypt-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:22:15 -0400",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "England v Mexico kick-off time at World Cup to be brought forward due to storm risk",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-mexico-kick-off-191515354.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:17:25 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Argentina v Cape Verde on TV? Channel, kick-off time and how to watch World Cup fixture",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-v-cape-verde-tv-050904547.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:10:44 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/egypt.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 17:05:01 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Egypt reach World Cup last 16 in shootout as Australia’s goalkeeper gamble backfires",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/03/australia-egypt-world-cup-2026-last-32-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 03 Jul 2026 21:03:29 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Egypt wins first-ever knockout round match after penalty shootout with Australia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-egypt-wins-first-ever-knockout-round-match-after-penalty-shootout-with-australia-210308799.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:03:08 +0000",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lautaro Martinez, Luis Diaz among Friday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lautaro-martinez-luis-diaz-among-fridays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/531a78f9-4350-4cbc-8d97-460737edd26d/diaz-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:00:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Egypt reach last-16 with dramatic penalty shoot-out win against Australia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-210000044.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 21:00:00 +0000",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Egypt Defender Mohamed Hany Makes Unfortunate World Cup History vs. Australia",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/egypt-defender-mohamed-hany-makes-unfortunate-world-cup-history-vs-australia"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/egypt1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 03 Jul 2026 16:57:26 -0400",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "England v Mexico set to move to earlier kick-off time",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-mexico-could-move-184805568.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 20:44:43 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "England v Mexico set to move to earlier kick-off time",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 03 Jul 2026 20:44:38 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "😱 They screw me over: Vasco Aguirre fumes over kick-off switch rumour",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/theyd-crucify-vasco-aguirre-erupts-204000828.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 20:40:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "📋 Who face Egypt? Argentina and Cape Verde are set",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-10-more-argentina-named-203700984.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 20:37:00 +0000",
+      "teams": [
+        "Egypt",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England must beware Mexico’s dangerman – but this wildcard could light up the Azteca",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-must-beware-mexico-dangerman-191041522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 20:28:21 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "⌚ Watches returned: Mexico escape a possible sanction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watches-returned-mexico-escape-possible-202300844.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 03 Jul 2026 20:23:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
     {
       "headline": "Argentina vs. Cape Verde odds, prediction: 2026 World Cup Round of 32 picks by expert on 16-6 run",
       "links": {
@@ -48,40 +392,6 @@
       ]
     },
     {
-      "headline": "England v Mexico set to move to earlier kick-off time",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-mexico-could-move-184805568.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 20:06:31 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "England v Mexico set to move to earlier kick-off time",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 03 Jul 2026 20:06:24 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "Australia v Egypt: World Cup 2026 last-32 tie goes to extra time – live",
       "links": {
         "web": {
@@ -98,7 +408,7 @@
       ]
     },
     {
-      "headline": "🚨 The 2026 World Cup has broken a record... and not a good one!",
+      "headline": "🚨 The 2026 World Cup has broken a record... and it's not flattering!",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/2026-world-cup-broken-record-200200612.html"
@@ -110,24 +420,6 @@
       "teams": [
         "Australia",
         "Egypt"
-      ]
-    },
-    {
-      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 20:01:36 GMT",
-      "teams": [
-        "South Africa",
-        "Japan",
-        "Saudi Arabia",
-        "Cape Verde Islands",
-        "Argentina"
       ]
     },
     {
@@ -187,21 +479,6 @@
       ]
     },
     {
-      "headline": "England v Mexico kick-off time at World Cup to be brought forward due to storm risk",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-mexico-kick-off-191515354.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 19:44:13 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "Has the USMNT actually proven anything yet at the expanded World Cup?",
       "links": {
         "web": {
@@ -220,7 +497,7 @@
       ]
     },
     {
-      "headline": "🚨 Fifa could CHANGE Brazil v Norway kick-off time at the Cup; here's why",
+      "headline": "🚨 Fifa may CHANGE Brazil v Norway kick-off, here's the scenario",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/fifa-could-change-brazil-v-194400844.html"
@@ -236,7 +513,7 @@
       ]
     },
     {
-      "headline": "😱 Never happened before! Egypt defender makes history by accident",
+      "headline": "😱 Never seen before! Egypt defender makes unwanted history",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/never-seen-egypt-defender-makes-194100011.html"
@@ -681,21 +958,6 @@
       ]
     },
     {
-      "headline": "Is Argentina v Cape Verde on TV? Channel, kick-off time and how to watch World Cup fixture",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-v-cape-verde-tv-050904547.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 17:42:19 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Argentina vs. Cape Verde odds, prediction: 2026 World Cup Round of 32 picks by expert on 16-6 run",
       "links": {
         "web": {
@@ -746,22 +1008,6 @@
         "Switzerland",
         "Algeria"
       ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lautaro Martinez, Luis Diaz among Friday's best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lautaro-martinez-luis-diaz-among-fridays-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/531a78f9-4350-4cbc-8d97-460737edd26d/diaz-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 17:00:40 +0000",
-      "teams": []
     },
     {
       "headline": "Rayan Cherki enduring &#8216;sleepless nights&#8217; over France difficulties at FIFA World Cup",
@@ -1131,22 +1377,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 11:17:13 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Round Of 32: Who's Favored In First Knockout Stage Games?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 11:15:48 -0400",
       "teams": []
     },
     {
@@ -2433,22 +2663,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 00:59:46 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At The Round Of 16 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/switzerland.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 00:59:20 -0400",
       "teams": []
     },
     {
@@ -15897,216 +16111,6 @@
       "pubDate": "Mon, 29 Jun 2026 09:25:31 GMT",
       "teams": [
         "Scotland"
-      ]
-    },
-    {
-      "headline": "South Korea football coach quits as president calls for probe into World Cup loss",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f003/live/9eb32360-7364-11f1-ad8b-652433387d33.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 07:18:14 GMT",
-      "teams": [
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/29/brazil-fans-vinicius-junior-hero-real-madrid-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 29 Jun 2026 07:00:31 GMT",
-      "teams": [
-        "Qatar",
-        "Brazil",
-        "Scotland",
-        "England"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Japan Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/brazil-vs-japan-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283182176-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 03:00:11 -0400",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "'Ferguson to assess Bologna future' - gossip",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ferguson-assess-bologna-future-gossip-064601317.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:46:01 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "'Ferguson to assess Bologna future' - gossip",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn4d2xp017vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97d9/live/5cfcba60-7384-11f1-8e1d-bbbb1017d210.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 06:38:18 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Pampered, protected & primed - so why didn't Scotland players perform?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pampered-protected-primed-why-didnt-060502013.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:33:57 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "World Cup power rankings: Who's most likely to win it all now?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-power-rankings-whos-most-likely-to-win-it-all-now-063000587.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Think Jesse Marsch is performative? Canada’s commander-in-chief has a message for you",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/think-jesse-marsch-performative-canada-062039333.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:20:39 +0000",
-      "teams": [
-        "South Africa",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Vinicius Jr. talks fight against racism, Brazil&#8217;s chances, World Cup form: &#8216;Progress is slow&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/vinicius-jr-talks-fight-against-062000425.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:20:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "How to Watch Brazil vs. Japan: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/brazil-vs-japan-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-brazil-vs-japan-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 02:10:31 -0400",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "📺 Where to watch Brazil v Japan and Germany and Netherlands matches",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/where-watch-brazil-v-japan-060500966.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:05:00 +0000",
-      "teams": [
-        "Brazil",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Pampered, protected & primed - so why didn't Scotland players perform?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cdr4nz0m74go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b72/live/743dd9f0-7304-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 29 Jun 2026 06:04:56 GMT",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Barcelona contact Harry Kane&#8217;s camp to explore a move after the 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-contact-harry-kane-camp-060000361.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 29 Jun 2026 06:00:00 +0000",
-      "teams": [
-        "England"
       ]
     }
   ]
