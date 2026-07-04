@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-04T21:39:00.916Z",
+  "asOf": "2026-07-04T22:40:04.850Z",
   "items": [
     {
       "headline": "Paraguay v France: World Cup last 16 – live",
@@ -10,10 +10,202 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 21:37:52 GMT",
+      "pubDate": "Sat, 04 Jul 2026 22:37:20 GMT",
       "teams": [
         "Canada",
         "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "'I'd Rather Be Us Than Them': Canada's Jesse Marsch Defiant After Loss To Morocco",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/id-rather-us-than-them-canada-jesse-marsch-after-loss-morocco"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/marsch_horizontal.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:26:31 -0400",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "James doubtful for Mexico tie but Quansah fit again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/james-doubtful-mexico-tie-quansah-222017281.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 22:20:17 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Two Massive Fan Bases And A Cathedral: Mexico-England Can Become World Cup Lore",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mexico-england-world-cup-round-of-16-azteca"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/eng_mex_epic-16x9-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:14:31 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who could take a penalty for England if World Cup last 16 clash vs Mexico goes to a shootout?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-best-five-penalty-takers-153458336.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 22:13:54 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "James doubtful for Mexico tie but Quansah fit again",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8jpjx1dkvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12a5/live/a6a70d00-77f3-11f1-8911-63b505ab1e28.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 22:13:11 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mexico vs England: How to watch spoiler-free World Cup last 16 tie in full or highlights",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/where-watch-spoiler-free-highlights-072001298.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 22:03:45 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Paraguay turning the World Cup into the Liberta gets fans buzzing 😂",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-turning-world-cup-libertadores-220000062.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 22:00:00 +0000",
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "For The USA, A Rare World Cup Opportunity Knocks vs. Belgium In The Round Of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-rare-world-cup-opportunity-knocks-vs-belgium-round-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/c1e38c90-usmnt1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:44:53 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Who are the ITV and BBC commentators, pundits and presenters?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 21:43:35 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Where In The World Cup Is Jameis Winston?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:41:32 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid player apologises for World Cup showing – ‘Even if…’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-player-apologises-world-214000701.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 21:40:00 +0000",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "Annoys him all the more: what Gräfe is upset about in Paraguay v France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/annoys-him-more-gr-fe-213300995.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 21:33:00 +0000",
+      "teams": [
         "Paraguay",
         "France"
       ]
@@ -4087,22 +4279,6 @@
         "Australia",
         "Egypt"
       ]
-    },
-    {
-      "headline": "Where In The World Cup Is Jameis Winston?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 18:09:37 -0400",
-      "teams": []
     },
     {
       "headline": "Mexico manager says he’s been left in dark by Fifa over World Cup kick-off change",
@@ -12152,20 +12328,6 @@
       ]
     },
     {
-      "headline": "England’s best five penalty takers at the World Cup – and one player who probably shouldn’t take one",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-best-five-penalty-takers-153458336.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:34:58 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
       "headline": "2026 World Cup parlay, best bets: Top picks for matches on Wednesday include England, USA",
       "links": {
         "web": {
@@ -12934,18 +13096,6 @@
         "Belgium",
         "Senegal"
       ]
-    },
-    {
-      "headline": "How to watch spoiler-free highlights of overnight World Cup 2026 games",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/where-watch-spoiler-free-highlights-072001298.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 09:51:07 +0000",
-      "teams": []
     },
     {
       "headline": "Beccacece reign as Ecuador manager  over after exit",
@@ -15980,151 +16130,6 @@
         "Mexico",
         "France",
         "Norway"
-      ]
-    },
-    {
-      "headline": "How to Watch Mexico vs. Ecuador: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-vs-ecuador-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-mexico-vs-ecuador-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 08:16:53 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "France vs. Sweden odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 10-5 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-sweden-odds-prediction-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/25/7c07c87b-15bc-441c-9ee0-13df008dda86/mbappe-dembele.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:15:31 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Barcelona scout 26-year-old Liverpool forward at the World Cup &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-scout-26-old-liverpool-121500770.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:15:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Iran criticises ‘petty’ US security chief after he ‘danced a happy dance’ over team’s World Cup elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/iran-criticise-petty-us-security-110337263.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:14:38 +0000",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "The Paraguay hero who sold his kit when his son was born",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-hero-sold-kit-son-112854580.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:12:52 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "'Which Match?' Familiar Feelings For Germany After Another Early World Cup Exit",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-germany-paraguay"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/germanyh1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 08:08:05 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Germany fans in need of hope as prospect of Klopp looms",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-fans-hope-prospect-klopp-114140129.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:07:32 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Real Madrid calm over superstar&#8217;s future as renewal talks to take place after World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-calm-over-superstar-120000934.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:00:00 +0000",
-      "teams": [
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Advantage Nullified? Like Opponent Mexico, Ecuador Used To High Altitude Soccer",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-mexico-ecuador-altitude"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283483634-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:55:37 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
       ]
     }
   ]
