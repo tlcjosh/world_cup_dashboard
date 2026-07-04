@@ -1,6 +1,210 @@
 {
-  "asOf": "2026-07-04T18:09:39.572Z",
+  "asOf": "2026-07-04T19:38:40.617Z",
   "items": [
+    {
+      "headline": "Paraguay v France: World Cup last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/04/france-v-paraguay-world-cup-last-32-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 19:29:18 GMT",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Ounahi and Rahimi put Morocco in World Cup quarter-finals and end Canada’s journey",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/canada-morocco-last-16-world-cup-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 19:11:00 GMT",
+      "teams": [
+        "Canada",
+        "Qatar",
+        "Morocco",
+        "France",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "Ounahi gives Morocco the lead against Canada",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c9q23dlgw72o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5619/live/826ce4f0-77d5-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 19:04:56 GMT",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Egypt coach Hossam Hassan says he has moved on after confrontation with Dallas police",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/egypt-hossam-hassan-dallas-police-incident-resolved"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 19:04:37 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Morocco reaches quarterfinals again after second-half goals sink Canada",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-morocco-reaches-quarterfinals-again-after-second-half-goals-sink-canada-190416596.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:04:16 +0000",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Morocco win and are first into the Cup quarter-finals 🎥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-win-become-first-side-190400812.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:04:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "⚖️ Anthony Taylor to referee Portugal v Spain last-16 tie in Dallas",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/anthony-taylor-referee-portugal-v-185900811.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:59:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo, Lionel Messi and Jude Bellingham: How Fifa’s bewildering World Cup award has distorted reality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-lionel-messi-jude-185837849.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:58:37 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Brazil vs. Norway World Cup Round Of 16: Weather Update, Forecast",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/brazil-vs-norway-world-cup-round-of-16-weather-update-forecast"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/1-1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 14:47:03 -0400",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Nuno Mendes welcomes Lamine Yamal showdown ahead of Spain vs Portugal: &#8216;A player of great quality&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nuno-mendes-welcomes-lamine-yamal-184500595.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:45:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "When does USA Soccer play next? 2026 USMNT World Cup schedule, how to watch, odds vs Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/does-usa-soccer-play-next-183723876.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:37:23 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:28:51 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Details of Real Madrid&#8217;s pre-season plans: Key dates and fixtures",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/details-real-madrid-pre-season-182000449.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:20:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
       "links": {
@@ -50,6 +254,25 @@
       ]
     },
     {
+      "headline": "Brazil vs. Norway odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-16 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/brazil-norway-odds-prediction-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/89a58035-5de9-4443-aac1-2b21f82e9825/erling-haaland-norway-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:52:23 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
       "headline": "Where To Find The Stars Of Cape Verde After Their 2026 FIFA World Cup Exit",
       "links": {
         "web": {
@@ -80,7 +303,7 @@
       "teams": []
     },
     {
-      "headline": "🚨 Morocco and Bayern star goes off injured",
+      "headline": "🚑 Morocco and Bayern star goes off injured",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/morocco-bayern-star-goes-off-173700561.html"
@@ -167,6 +390,25 @@
       "teams": [
         "Canada",
         "Morocco"
+      ]
+    },
+    {
+      "headline": "England face more than Mexico: The ultimate World Cup test of altitude and hostility awaits at Estadio Azteca",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-face-more-than-mexico-ultimate-world-cup-test-altitude-hostility-estadio-azteca/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/1c0f625a-e43f-42d0-90fc-4266418cd6a4/mexico.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:24:54 +0000",
+      "teams": [
+        "Mexico",
+        "England"
       ]
     },
     {
@@ -275,21 +517,6 @@
       "teams": [
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 16:35:18 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
       ]
     },
     {
@@ -15884,224 +16111,6 @@
       "pubDate": "Tue, 30 Jun 2026 10:35:00 +0000",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham reveals ambition to be the next James Bond after World Cup heroics",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-reveals-ambition-next-103313595.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:33:13 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "US security chief ‘danced a happy dance’ after Iran’s World Cup elimination",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/top-us-government-official-so-happy-with-irans-world-cup-elimination"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 10:30:18 GMT",
-      "teams": [
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Livramento has surgery after World Cup blow",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/livramento-surgery-world-cup-blow-102826569.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:28:26 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "England defender Tino Livramento has surgery after World Cup injury heartbreak",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-defender-tino-livramento-surgery-101928216.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:19:28 +0000",
-      "teams": [
-        "England",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Three key qualities: Paraguay boss explains difference to Germany",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/three-key-qualities-paraguay-boss-101700150.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:17:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Madueke on his 'healthy competition' with Saka",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/madueke-healthy-competition-saka-101041945.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:10:41 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Meet Wisconsin-born Esmir Bajraktarević, Bosnia and Herzegovina’s World Cup hero",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/esmir-bajraktarevic-bosnia-and-herzegovina-usmnt"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 10:00:06 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "England"
-      ]
-    },
-    {
-      "headline": "Meet Wisconsin-born Esmir Bajraktarević, Bosnia and Herzegovina’s World Cup hero",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/meet-wisconsin-born-esmir-bajraktarevi-100006204.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:00:06 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Celebrations and bottle-throwing on Dutch streets after dramatic Morocco win",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/morocco-netherlands-celebrations-bottle-throwing-dutch-streets-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 09:59:56 GMT",
-      "teams": [
-        "Morocco",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "How to Watch Ivory Coast vs. Norway: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/ivory-coast-vs-norway-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-ivory-coast-vs-norway-16x9-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 05:10:31 -0400",
-      "teams": [
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "It’s time to write off the Germans and Brazil battle past Japan | World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/30/germany-paraguay-netherlands-morocco-brazil-japan-world-cup-daily-podcast"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 09:06:05 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Mexico vs. Ecuador Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-vs-ecuador-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283204447-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 04:36:39 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "My World Cup memory: heartbreak in the exam hall for England v Brazil in 2002 – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jun/30/my-world-cup-memory-heartbreak-in-the-exam-hall-for-england-v-brazil-in-2002-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 08:20:07 GMT",
-      "teams": [
-        "Brazil",
-        "England"
-      ]
-    },
-    {
-      "headline": "&#8216;That&#8217;s news to me&#8217; &#8211; PSG target Yan Diomandé blissfully unaware of transfer saga",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/news-psg-target-yan-diomand-081500641.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 08:15:00 +0000",
-      "teams": [
-        "Ivory Coast"
       ]
     }
   ]
