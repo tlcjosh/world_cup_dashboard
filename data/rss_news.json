@@ -1,6 +1,36 @@
 {
-  "asOf": "2026-07-04T10:24:10.918Z",
+  "asOf": "2026-07-04T11:52:07.580Z",
   "items": [
+    {
+      "headline": "World Cup quiz: How well do you remember the last 32?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8j485z1ppo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b5f/live/886464c0-76f2-11f1-a627-714adb4eed6e.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 11:44:57 GMT",
+      "teams": []
+    },
+    {
+      "headline": "🙈 Austria among them too: two World Cup sides were woefully blunt!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/austria-among-them-too-two-113500604.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:35:00 +0000",
+      "teams": [
+        "Austria"
+      ]
+    },
     {
       "headline": "World Cup 2026: England get hostile reception in Mexico City as last 16 begins; Cape Verde give huge scare to Argentina – live",
       "links": {
@@ -10,7 +40,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 10:13:59 GMT",
+      "pubDate": "Sat, 04 Jul 2026 11:32:42 GMT",
       "teams": [
         "Mexico",
         "Canada",
@@ -23,6 +53,170 @@
         "Argentina",
         "England"
       ]
+    },
+    {
+      "headline": "Lightning, hotel security and spying - issues England face in Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-team-booed-arrival-mexico-075728905.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:29:55 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lightning, hotel security and spying - issues England face in Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2x1gwwjego?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90b1/live/6108c870-7784-11f1-a146-99f41269c606.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 11:23:54 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "From one to 16 - ranking every team left in the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/one-16-ranking-every-team-095542977.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:19:11 +0000",
+      "teams": [
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "In spotlight but shunning limelight - Olise's unique rise to top",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spotlight-shunning-limelight-olises-unique-110244555.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:14:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "In spotlight but shunning limelight - Olise's unique rise to top",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzr42943lo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df3e/live/89fcbda0-7666-11f1-8d48-61dc4743c0e7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 11:02:02 GMT",
+      "teams": []
+    },
+    {
+      "headline": "France vs. Paraguay Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-vs-paraguay-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284082341-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 07:00:39 -0400",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Tiny Cape Verde steal the show against Argentina in a performance to last in World Cup lore",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/cape-verde-argentina-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 11:00:11 GMT",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Tiny Cape Verde steal the show against Argentina in a performance to last in World Cup lore",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tiny-cape-verde-steal-show-110011053.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:00:11 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Barcelona midfield mainstay finished the World Cup with a knee injury &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-midfield-mainstay-finished-world-104500385.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 10:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/04/world/americas/world-cup-mexico-tourism-trump.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 04 Jul 2026 10:34:35 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Where to catch your EFL players in the round of 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/where-catch-efl-players-round-101353259.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 10:13:53 +0000",
+      "teams": []
     },
     {
       "headline": "‘I was at Mexico ‘86 – you could sense the history’: Meet the photographer who took most-liked Instagram photo ever",
@@ -52,22 +246,6 @@
       "teams": [
         "Belgium",
         "France"
-      ]
-    },
-    {
-      "headline": "From one to 16 - ranking every team left in the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/one-16-ranking-every-team-095542977.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:55:42 +0000",
-      "teams": [
-        "Norway",
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -107,7 +285,7 @@
       ]
     },
     {
-      "headline": "Brazil rising: supercomputer updates each team's Cup odds 🏆",
+      "headline": "Brazil on the rise: supercomputer updates each team's Cup odds 🏆",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/brazil-rising-supercomputer-updates-sides-094500964.html"
@@ -260,21 +438,6 @@
       "teams": []
     },
     {
-      "headline": "England team booed on arrival at Mexico City hotel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-team-booed-arrival-mexico-075728905.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:05:10 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "2026 World Cup parlay, best bets: Top picks for matches on Saturday include Morocco, France",
       "links": {
         "web": {
@@ -333,18 +496,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 09:00:10 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/04/world/americas/world-cup-mexico-tourism-trump.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 04 Jul 2026 09:00:07 +0000",
       "teams": []
     },
     {
@@ -408,25 +559,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 08:40:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "England team booed on arrival at Mexico City hotel",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2x1gwwjego?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/410b/live/f32d1b40-7773-11f1-bfcd-0551ebb03f4c.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 08:33:11 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
     },
     {
       "headline": "Five and a half hours that left England's World Cup tie in chaos",
@@ -15989,151 +16121,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Tue, 30 Jun 2026 00:56:07 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Paraguay stun Germany on penalties to reach last 16 of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-live-paraguay-front-against-212857906.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:48:55 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: Germany flop from the spot, Brazil through",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-germany-flop-004600856.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:46:00 +0000",
-      "teams": [
-        "Brazil",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "🚨 Extremely bitter to bow out like this: Germany star's last tournament",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bitter-bow-germany-star-played-003900079.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:39:00 +0000",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "5 Takeaways From Paraguay's Upset Win vs. Germany In The Round Of 32",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/paraguay-vs-germany-5-takeaways-2026-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d025e55d-takeaways1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 20:36:29 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Germany's Recent World Cup Struggles: Heartbreak, Early Exits Since 2014 Title",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/germanys-world-cup-struggles-heartbreak-early-exits-since-2014-title"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/worldcupgermany1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 20:32:47 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "😳 Germany don’t always win now! The myth is fading fast",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-don-t-always-win-003200737.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:32:00 +0000",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Biggest Upsets In World Cup Knockout-Stage History: Where Paraguay-Germany Ranks",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/biggest-upsets-world-cup-knockout-stage-history-where-paraguay-vs-germany-ranks"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/8bce9e67-paraguay1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 20:30:56 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Why is Morocco captain Achraf Hakimi being booed at the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-morocco-captain-achraf-hakimi-225225958.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:30:15 +0000",
-      "teams": [
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "🎙️ I want to carry on: what Nagelsmann said after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/want-carry-nagelsmann-said-world-001900785.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 00:19:00 +0000",
       "teams": [
         "Paraguay",
         "Germany"
