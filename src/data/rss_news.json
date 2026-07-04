@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-04T19:38:40.617Z",
+  "asOf": "2026-07-04T20:36:00.552Z",
   "items": [
     {
       "headline": "Paraguay v France: World Cup last 16 – live",
@@ -10,10 +10,181 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 19:29:18 GMT",
+      "pubDate": "Sat, 04 Jul 2026 20:18:13 GMT",
       "teams": [
         "Canada",
         "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Morocco reach quarter-finals as co-hosts Canada out of World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/canada-v-morocco-131241645.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 20:16:37 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Vinícius Júnior Can't Just Win. He Has To Help Brazil Do It With Style.",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/brazil-world-cup-vinicius-junior"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/vini-jr-profile-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:12:01 -0400",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "France vs. Paraguay live stream: Michael Olise chases Pele's historic World Cup record in round of 16",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-vs-paraguay-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/b830bb88-0a7c-4e28-90c1-9fd3c0124f50/france-olise.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 20:00:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:59:32 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup Round of 16: Paraguay vs. France with Roma and Milan stars",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-round-16-paraguay-195000311.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:50:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Morocco reach quarter-finals as co-hosts Canada knocked out",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cddlpql2e98o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c352/live/7099b550-77df-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 19:49:57 GMT",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Ounahi Spoils Canada's Party: 4 Takeaways From Morocco's World Cup Round Of 16 Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/morocco-vs-canda-4-takeaways-2026-world-cup-round-of-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/morocco1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:46:08 -0400",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "What is Mexico City weather forecast for England’s World Cup clash at the Azteca?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-city-weather-forecast-england-200758992.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:40:38 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "France vs. Paraguay odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-paraguay-odds-prediction-line-time-2026-world-cup-round-of-16-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/57216adc-e75c-467f-b40c-8232d34ebd59/kylian-mbappe-france-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:39:27 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "📋 Paraguay and France name confirmed line-ups for the decider",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-france-line-ups-confirmed-193900962.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:39:00 +0000",
+      "teams": [
         "Paraguay",
         "France"
       ]
@@ -176,21 +347,6 @@
       "teams": [
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 18:28:51 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
       ]
     },
     {
@@ -814,25 +970,6 @@
       "source": "Fox Sports",
       "pubDate": "Sat, 04 Jul 2026 11:49:34 -0400",
       "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "France vs. Paraguay live stream: Michael Olise chases Pele's historic World Cup record in round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-vs-paraguay-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/b830bb88-0a7c-4e28-90c1-9fd3c0124f50/france-olise.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 15:46:46 +0000",
-      "teams": [
-        "Paraguay",
         "France"
       ]
     },
@@ -4140,21 +4277,6 @@
       "teams": [
         "Cape Verde Islands",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "What is Mexico City weather forecast for England’s World Cup clash at the Azteca?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-city-weather-forecast-england-200758992.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 20:07:58 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -15997,120 +16119,6 @@
       "teams": [
         "Paraguay",
         "Germany"
-      ]
-    },
-    {
-      "headline": "Jordan Pickford says England ready to ‘go to war’ for Thomas Tuchel at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jordan-pickford-says-england-ready-111412739.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 11:14:12 +0000",
-      "teams": [
-        "Jordan",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Maeda 'can't stay at my current level' after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/maeda-returns-head-held-high-093813480.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 11:12:04 +0000",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Playing At Home, USA Aims To Win Another World Cup Knockout Round Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-usa-knockout-round"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usah.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:05:48 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Ivory Coast vs. Norway Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/ivory-coast-vs-norway-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282950467.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:00:55 -0400",
-      "teams": [
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Violence erupts in the Netherlands after dramatic World Cup defeat by Morocco",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/violence-erupts-netherlands-dramatic-world-104824554.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:48:24 +0000",
-      "teams": [
-        "Morocco",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "'More than a manager' - Scotland players pay tribute to Clarke",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/more-manager-scotland-players-pay-103918857.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:39:18 +0000",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Manchester United star&#8217;s future edges closer to resolution as Barcelona return chances fade",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/manchester-united-star-future-edges-103500525.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 10:35:00 +0000",
-      "teams": [
-        "England"
       ]
     }
   ]
