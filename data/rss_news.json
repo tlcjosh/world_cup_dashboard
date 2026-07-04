@@ -1,6 +1,195 @@
 {
-  "asOf": "2026-07-04T15:50:29.968Z",
+  "asOf": "2026-07-04T16:56:22.709Z",
   "items": [
+    {
+      "headline": "⛈️ Weather chaos in the USA! World Cup last-16 tie faces delay",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/weather-chaos-usa-world-cup-164600414.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:46:00 +0000",
+      "teams": [
+        "United States",
+        "France"
+      ]
+    },
+    {
+      "headline": "Canada v Morocco: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/04/canada-v-morocco-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 16:40:24 GMT",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "Cape Verde Islands",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:35:18 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Is Canada v Morocco on TV? Channel, kick-off time and how to watch World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/canada-v-morocco-tv-channel-051257819.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:34:47 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Australia international Volpato open to ‘great club’ Fiorentina after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/australia-international-volpato-open-great-161500795.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:15:00 +0000",
+      "teams": [
+        "Australia"
+      ]
+    },
+    {
+      "headline": "France vs. Paraguay odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-paraguay-odds-prediction-line-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/72a52a17-0651-41ea-ac96-368c44d4c835/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:11:45 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: England receive hostile welcome as they arrive at team hotel in Mexico City",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-england-receive-hostile-welcome-as-they-arrive-at-team-hotel-in-mexico-city-160753546.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:07:53 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Canada Remains Underdog Ahead Of Morocco Tilt",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-canada-les-rouges"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/canada-odds-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:06:20 -0400",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: USA-Belgium Round Of 16 Match Lands As Pick 'Em",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:03:27 -0400",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Canada's Jonathan David featured in Saturday best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-canadas-jonathan-david-featured-in-saturday-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/4a43b0a9-9ff0-42c5-8dd8-1fbea870a9d1/david-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:00:56 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Saturday include Morocco, France",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-saturday-include-morocco-france/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/e65fafc8-f91e-4091-99c6-faa64ef144ae/kylian-mbappe-fracne.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:00:47 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
     {
       "headline": "Listen: Sportsound with Levein, McLeish, Halliday, Lennon, Neilson & Naysmith",
       "links": {
@@ -17,6 +206,199 @@
       "pubDate": "Sat, 04 Jul 2026 16:00:00 GMT",
       "teams": [
         "Scotland"
+      ]
+    },
+    {
+      "headline": "Enzo Maresca &#8216;already working&#8217; as new footage reveals first match watched by Man City manager",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/enzo-maresca-already-working-footage-160000289.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Mexico Opens As Underdog vs. England In Round of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:59:48 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:55:21 -0400",
+      "teams": []
+    },
+    {
+      "headline": "McGlynn could be just what Scotland fans want - Levein",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mcglynn-could-just-scotland-fans-155404889.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:54:04 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Mike Maignan Takes Over Atop Oddsboard",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/maignan-630.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:53:17 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Report: Cheslea set to battle Liverpool in the race for World Cup midfielder",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-cheslea-set-battle-liverpool-155000213.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Round of 16: Canada vs. Morocco official line-ups, David and El Aynaoui start",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-round-16-canada-155000463.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:50:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Mbappé Favored to Win Player of the Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:49:34 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "France vs. Paraguay live stream: Michael Olise chases Pele's historic World Cup record in round of 16",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-vs-paraguay-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/b830bb88-0a7c-4e28-90c1-9fd3c0124f50/france-olise.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:46:46 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Messi Favored Over Mbappé In Historic Golden Boot Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284544474-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:46:37 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid midfielder to be out for four days after fresh knock at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-four-days-154500081.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:45:00 +0000",
+      "teams": [
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:43:53 -0400",
+      "teams": [
+        "France",
+        "Argentina"
       ]
     },
     {
@@ -50,24 +432,6 @@
       "source": "Fox Sports",
       "pubDate": "Sat, 04 Jul 2026 11:36:12 -0400",
       "teams": []
-    },
-    {
-      "headline": "Canada v Morocco: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/04/canada-v-morocco-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 15:30:32 GMT",
-      "teams": [
-        "Canada",
-        "Brazil",
-        "Morocco",
-        "Haiti",
-        "Scotland"
-      ]
     },
     {
       "headline": "Barcelona new signing pushes for start with England at World Cup after decisive impact in Ro32 clash",
@@ -121,6 +485,25 @@
         "France",
         "Argentina",
         "England"
+      ]
+    },
+    {
+      "headline": "Canada vs. Morocco live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-vs-morocco-live-stream-how-to-watch-fifa-world-cup-odds-prediction-pick-lineups-channel/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/e8cc170b-dd9c-49d1-9c31-82665f1fb683/untitled-design-2026-07-04t112002-346.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 15:26:47 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
       ]
     },
     {
@@ -486,24 +869,6 @@
       ]
     },
     {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Canada's Jonathan David featured in Saturday best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-canadas-jonathan-david-featured-in-saturday-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/4a43b0a9-9ff0-42c5-8dd8-1fbea870a9d1/david-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 12:44:58 +0000",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
       "headline": "📺 Saturday's schedule (4): where to watch both last-16 matches",
       "links": {
         "web": {
@@ -853,6 +1218,22 @@
       ]
     },
     {
+      "headline": "England get hostile welcome on arrival at Mexico City hotel for World Cup showdown",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/england-mexico-hotel-world-cup-kick-off"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 09:58:50 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "England"
+      ]
+    },
+    {
       "headline": "From one to 16 - ranking every team left in the World Cup",
       "links": {
         "web": {
@@ -1054,25 +1435,6 @@
       "source": "BBC Sport",
       "pubDate": "Sat, 04 Jul 2026 09:09:18 GMT",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Saturday include Morocco, France",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-saturday-include-morocco-france/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/e65fafc8-f91e-4091-99c6-faa64ef144ae/kylian-mbappe-fracne.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:00:49 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
     },
     {
       "headline": "World Cup 2026 power rankings: undisputed No 1, co-hosts surge and giants fall",
@@ -1742,21 +2104,6 @@
       ]
     },
     {
-      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 05:13:57 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
       "headline": "🎥 World Cup highlights: Egypt win shoot-out, Colombia dominate",
       "links": {
         "web": {
@@ -1771,21 +2118,6 @@
         "Cape Verde Islands",
         "Argentina",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "Is Canada v Morocco on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/canada-v-morocco-tv-channel-051257819.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 05:12:57 +0000",
-      "teams": [
-        "Canada",
-        "Morocco"
       ]
     },
     {
@@ -2012,25 +2344,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:40:45 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "2026 World Cup Bracket: A Full Look At The Round Of 16 Matchups",
       "links": {
         "web": {
@@ -2044,22 +2357,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 23:39:32 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: Messi Favored Over Mbappé In Historic Golden Boot Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284544474-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:39:21 -0400",
       "teams": []
     },
     {
@@ -4089,64 +4386,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Mexico Opens As Underdog vs. England In Round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 12:27:24 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: USA-Belgium Round Of 16 Match Lands As Pick 'Em",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 12:18:14 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Canada Remains Underdog Ahead Of Morocco Tilt",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-canada-les-rouges"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/canada-odds-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 12:13:37 -0400",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
       "headline": "Australia vs. Egypt odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-15 run",
       "links": {
         "web": {
@@ -4230,24 +4469,6 @@
       "teams": [
         "Cape Verde Islands",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Ball: Mbappé Favored to Win Player of the Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 11:55:37 -0400",
-      "teams": [
-        "France"
       ]
     },
     {
@@ -12154,22 +12375,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Glove: Mike Maignan Takes Over Atop Oddsboard",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/maignan-630.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 02:40:08 -0400",
-      "teams": []
-    },
-    {
       "headline": "England vs. DR Congo Prediction, Odds, Picks For World Cup Match",
       "links": {
         "web": {
@@ -15892,210 +16097,6 @@
       "pubDate": "Tue, 30 Jun 2026 06:59:00 +0000",
       "teams": [
         "Paraguay"
-      ]
-    },
-    {
-      "headline": "'Indescribably hurt' Son apologises for South Korea World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20ylry6py1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dbe/live/bdd44e20-744c-11f1-ad92-6340016f0592.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 06:51:10 GMT",
-      "teams": [
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "World Cup: Germany, Netherlands & Japan out as Paraguay, Morocco & Brazil progress",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-germany-netherlands-japan-053217279.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:17:36 +0000",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Julian Nagelsmann sacked? German FA sporting director responds 💥",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/julian-nagelsmann-sacked-german-fa-061600020.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:16:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "'Pandor poised for Rangers as Butland heads for Hull' - gossip",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pandor-poised-rangers-butland-heads-061151066.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:11:51 +0000",
-      "teams": [
-        "United States",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "The painful new reality Germany face after disastrous World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/painful-reality-germany-face-disastrous-061015161.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:10:15 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "The Mexico curse driving World Cup co-hosts to beat Ecuador in last 32",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-curse-driving-world-cup-060640181.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:06:40 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "The secrets behind the save: How goalkeepers decide World Cup penalty shootouts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/secrets-behind-save-goalkeepers-decide-223428044.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:05:09 +0000",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Germany crash out as England fixture hit by attendance concerns",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-crash-england-fixture-hit-060500811.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:05:00 +0000",
-      "teams": [
-        "Brazil",
-        "Germany",
-        "Japan",
-        "England"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Nathan Ake suffers heartbreak in dramatic Netherlands penalty shoot-out finale",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-060500598.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:05:00 +0000",
-      "teams": [
-        "Morocco",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Inside Paraguay's tears of joy over their seismic World Cup shock",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inside-paraguays-tears-joy-over-030045517.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:01:30 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 23",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4g85gg5128o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d1a/live/5e105810-6b93-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 05:48:18 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 20",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-20"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-bets-16x9-bb-wc-8.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 01:46:31 -0400",
-      "teams": []
-    },
-    {
-      "headline": "‘I’d do it again’: Ronald Koeman defiant in defeat after the Netherlands sent home",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/ronald-koeman-netherlands-morocco-world-cup-reaction"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 05:45:24 GMT",
-      "teams": [
-        "Morocco",
-        "Netherlands"
       ]
     }
   ]
