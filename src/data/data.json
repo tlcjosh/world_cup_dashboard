@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T20:35:33.845Z",
+  "lastUpdated": "2026-07-04T21:38:33.967Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4226,10 +4226,10 @@
       "awayIso": "fr",
       "venue": "Lincoln Financial Field, Philadelphia",
       "kickoff": "2026-07-04T21:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-07-04T21:38:33.967Z",
       "secondHalfStart": null,
       "espnEventId": "760503"
     },
