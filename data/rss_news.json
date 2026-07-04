@@ -1,6 +1,260 @@
 {
-  "asOf": "2026-07-04T11:52:07.580Z",
+  "asOf": "2026-07-04T13:16:09.213Z",
   "items": [
+    {
+      "headline": "Listen: Sportsound with Levein, McLeish, Halliday, Lennon, Neilson & Naysmith",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0h39mr3.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 16:00:00 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Mbappe's France, Morocco, Canada, More",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-mbappes-france-morocco-canada-more"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-4.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 09:05:16 -0400",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: England get hostile reception in Mexico City as last 16 begins; Cape Verde give huge scare to Argentina – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/04/world-cup-2026-cape-verde-give-argentina-mighty-scare-last-16-mexico-v-england-fixture-chaos-morocco-canada-france-paraguay-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 13:02:29 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "Australia",
+        "Egypt",
+        "Cape Verde Islands",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Round of 16 bracket, schedule, live updates: France vs. Paraguay kicks off second round",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/live/world-cup-round-of-16-bracket-schedule-live-updates-france-vs-paraguay-kicks-off-second-round-130000983.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 13:00:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "The five hours of chaos surrounding England’s World Cup tie that exposed Fifa’s lack of leadership",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/five-hours-chaos-surrounding-england-054658270.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:56:53 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "France vs. Paraguay odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-paraguay-odds-prediction-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/23a35018-d2a4-4d5d-ba64-9572179d2ff9/usatsi-29304274-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:52:19 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Canada's Jonathan David featured in Saturday best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-canadas-jonathan-david-featured-in-saturday-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/4a43b0a9-9ff0-42c5-8dd8-1fbea870a9d1/david-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:44:58 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "📺 Saturday's schedule (4): where to watch both last-16 matches",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/saturdays-schedule-4-where-watch-124200678.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:42:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "😅 What’s this?! Player stops interview for... photo with Messi; watch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/player-stops-interview-photo-messi-123600142.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:36:00 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to Watch Paraguay vs. France: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/paraguay-vs-france-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-paraguay-vs-france-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 08:22:41 -0400",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Manchester United and Liverpool monitor El Aynaoui",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-united-liverpool-monitor-el-121000792.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:10:00 +0000",
+      "teams": [
+        "Morocco",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Canada vs. Morocco odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-15 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/canada-morocco-odds-prediction-line-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/2d32b318-cbb4-417c-b76a-cae00734280e/cyle-larin-canada-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:06:44 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Antoine Semenyo heads home as Ghana fall to Colombia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-120500495.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 12:05:00 +0000",
+      "teams": [
+        "Colombia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "📸 2026 World Cup: our best XI from the round of 32 🔥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-round-32-115900221.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:59:00 +0000",
+      "teams": [
+        "Colombia",
+        "Ghana"
+      ]
+    },
+    {
+      "headline": "Report: Fulham have joined the race to sign World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-fulham-joined-race-sign-115000095.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 11:50:00 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup quiz: How well do you remember the last 32?",
       "links": {
@@ -29,29 +283,6 @@
       "pubDate": "Sat, 04 Jul 2026 11:35:00 +0000",
       "teams": [
         "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England get hostile reception in Mexico City as last 16 begins; Cape Verde give huge scare to Argentina – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/04/world-cup-2026-cape-verde-give-argentina-mighty-scare-last-16-mexico-v-england-fixture-chaos-morocco-canada-france-paraguay-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 11:32:42 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Morocco",
-        "Paraguay",
-        "Australia",
-        "Egypt",
-        "Cape Verde Islands",
-        "France",
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -1073,21 +1304,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 05:53:19 +0000",
       "teams": []
-    },
-    {
-      "headline": "The five hours of chaos surrounding England’s World Cup tie that exposed Fifa’s lack of leadership",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/five-hours-chaos-surrounding-england-054658270.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 05:46:58 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
     },
     {
       "headline": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
@@ -15901,229 +16117,6 @@
       "pubDate": "Tue, 30 Jun 2026 02:47:00 +0000",
       "teams": [
         "Netherlands"
-      ]
-    },
-    {
-      "headline": "'Germany no longer first-class team ' - is this the end for Nagelsmann?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c992kzk00kzo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c74/live/dcc7c3c0-7424-11f1-b7fc-e5e2b401ffce.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 02:38:35 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Paraguay president declares national holiday after World Cup triumph over Germany",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-president-declares-national-holiday-023827089.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 02:38:27 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Paraguay Stuns Germany, Historic World Cup Sports Betting Upset",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/paraguay-germany-upset-sports-betting-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283912647-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 22:31:52 -0400",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Antonee Robinson: Bosnia and Herzegovina Clash 'Most Important Game' in USA History",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/antonee-robinson-bosnia-herzegovina-clash-most-important-game-usmnt-history"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/herd2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 22:31:46 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Best World Cup Goals: The Top 50 Goals Of The Tournament So Far",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/best-world-cup-goals-top-50-goals-tournament-so-far"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 21:59:43 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Nick Wright's 2026 World Cup Bracket: Mexico And USA In The Quarterfinals?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/nick-wright-2026-world-cup-bracket-mexico-usa-quarterfinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ftf-6-29-d.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 21:47:31 -0400",
-      "teams": [
-        "Mexico",
-        "United States"
-      ]
-    },
-    {
-      "headline": "‘I am not someone who runs away’: Nagelsmann will not quit after Germany exit",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/julian-nagelsmann-germany-paraguay-penalty-shootout-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 01:41:20 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Germany beaten on penalties as Paraguay reach last 16",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cm20j4m2k3xo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab74/live/8fcd8aa0-741a-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 01:06:09 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Germany ‘forgot to fight’ in shock World Cup defeat to Paraguay, says former international",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-forgot-fight-shock-world-010527425.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 01:05:27 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Is the Germany boss for the chop? Völler on Nagelsmann's future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-boss-chop-v-ller-010400781.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 01:04:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "📹 Matheus Cunha explains dig at Japanese player after Brazil go through",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/matheus-cunha-explains-dig-japanese-010100525.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 01:01:00 +0000",
-      "teams": [
-        "Brazil",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "USA Focused On Opportunity, Not Pressure, As First World Cup Knockout Test Looms",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-focused-opportunity-not-pressure-first-world-cup-knockout-test-looms"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/reyna1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 29 Jun 2026 20:59:46 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Relive thrilling penalty shootout between Germany and Paraguay",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c20ygrv112vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e21f/live/2f74e6a0-741d-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 00:56:07 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
       ]
     }
   ]
