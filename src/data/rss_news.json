@@ -1,6 +1,230 @@
 {
-  "asOf": "2026-07-04T22:40:04.850Z",
+  "asOf": "2026-07-04T23:45:14.408Z",
   "items": [
+    {
+      "headline": "🫣 Worst performance of the World Cup: Ittrich sees overmatched ref",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/worst-performance-world-cup-ittrich-233500006.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:35:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "James doubtful for Mexico tie but Quansah fit again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/james-doubtful-mexico-tie-quansah-222017281.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:28:28 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup: Cape Verde's triumphant, near-miraculous run shows expansion was the right move",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-cape-verdes-triumphant-near-miraculous-run-shows-expansion-was-the-right-move-231925136.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:19:25 +0000",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Mbappé spot-on to take France past stubborn Paraguay into World Cup quarter-finals",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/paraguay-france-last-16-world-cup-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 23:18:33 GMT",
+      "teams": [
+        "Paraguay",
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:17:02 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: France reach quarter-finals with Paraguay win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-231500204.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:15:00 +0000",
+      "teams": [
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284676238-scaled-e1783206368415.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 19:12:13 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup: France secures frustrating win over Paraguay with Kylian Mbappé penalty",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-france-secures-frustrating-win-over-paraguay-with-kylian-mbappe-penalty-231047241.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:10:47 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Philadelphia delivers incredible World Cup party to celebrate America's 250th Birthday",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/philadelphia-delivers-incredible-world-cup-230736841.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:07:36 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Mbappe coolly fires France into lead from penalty spot",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c1dy2y6xyr5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c742/live/f7e25d20-77fb-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 23:06:35 GMT",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 Golden Boot: Mbappe vs Messi standings as Kane joins thrilling race to finish top scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:06:08 +0000",
+      "teams": []
+    },
+    {
+      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:46:48 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Back With Messi, Kane Lurking",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/km.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:44:17 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 18:40:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "🔥 Mbappé scored! World Cup scoring race stays mad",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-scored-race-time-world-224000356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 22:40:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Paraguay v France: World Cup last 16 – live",
       "links": {
@@ -38,17 +262,18 @@
       ]
     },
     {
-      "headline": "James doubtful for Mexico tie but Quansah fit again",
+      "headline": "England vs Mexico referee: Who is World Cup 2026 official Alireza Faghani?",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/james-doubtful-mexico-tie-quansah-222017281.html"
+          "href": "https://sports.yahoo.com/articles/england-vs-mexico-referee-world-222349098.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 22:20:17 +0000",
+      "pubDate": "Sat, 04 Jul 2026 22:23:49 +0000",
       "teams": [
         "Mexico",
+        "Australia",
         "England"
       ]
     },
@@ -339,6 +564,21 @@
       "pubDate": "Sat, 04 Jul 2026 21:10:00 +0000",
       "teams": [
         "Spain"
+      ]
+    },
+    {
+      "headline": "‘We were better than them’: Marsch bullish despite Canada’s World Cup exit to Morocco",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/jesse-marsch-canada-morocco-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 20:58:47 GMT",
+      "teams": [
+        "Canada",
+        "Morocco"
       ]
     },
     {
@@ -3011,18 +3251,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 05:53:19 +0000",
-      "teams": []
-    },
-    {
       "headline": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
       "links": {
         "web": {
@@ -3640,22 +3868,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Messi Back In Front; Mbappé Lurking",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/m.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 21:17:48 -0400",
-      "teams": []
-    },
-    {
       "headline": "Colombia v Ghana: World Cup 2026 last 32 – live",
       "links": {
         "web": {
@@ -3720,18 +3932,6 @@
         "Cape Verde Islands",
         "Argentina"
       ]
-    },
-    {
-      "headline": "World Cup 2026 Golden Boot: Mbappe vs Messi standings as Kane joins thrilling race to finish top scorer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:01:15 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup 2026: Cape Verde's Vozinha frustrates Lionel Messi in heroic loss to Argentina",
@@ -4151,22 +4351,6 @@
       "teams": [
         "Cape Verde Islands"
       ]
-    },
-    {
-      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 18:41:57 -0400",
-      "teams": []
     },
     {
       "headline": "GOAT's World Cup History: Messi Stands Alone As Top World Cup Goalscorer",
@@ -14331,22 +14515,6 @@
       ]
     },
     {
-      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:12:18 -0400",
-      "teams": []
-    },
-    {
       "headline": "France 3-0 Sweden: World Cup 2026 last 32 – live reaction",
       "links": {
         "web": {
@@ -15943,193 +16111,6 @@
       "teams": [
         "Congo DR",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup round of 32: Can Erling Haaland and Kylian Mbappe keep scoring with Norway and France in action",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-round-of-32-can-erling-haaland-kylian-mbappe-norway-france/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/a4321939-7352-46b9-854c-66696b02c1a0/untitled-design-2026-06-30t083217-667.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:16:29 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Sweden",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "'I could see Amenda starting for Coventry and developing' - Eckner",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/could-see-amenda-starting-coventry-131328057.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:13:28 +0000",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Winger woes and handling World Cup knockout pressure: Five key talking points ahead of England v DR Congo",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/winger-woes-handling-world-cup-131016936.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:10:16 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup: Paraguay's president Santiago Peña declares national holiday after shocking win over Germany",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-paraguays-president-santiago-pena-declares-national-holiday-after-shocking-win-over-germany-130116789.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:01:16 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "How to Watch France vs. Sweden: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-sweden-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-france-vs-sweden-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 09:00:23 -0400",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mexico face up to their most terrifying opponent: the ghost of World Cup game four",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-face-most-terrifying-opponent-130007089.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:00:07 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Mexico face up to their most terrifying opponent: the ghost of World Cup game four",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/mexico-ecuador-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 13:00:07 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Who did it best? USA 1994 versus World Cup 2026 – then and now",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/ng-interactive/2026/jun/30/who-did-it-best-usa-1994-versus-world-cup-2026-then-and-now"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 13:00:06 GMT",
-      "teams": [
-        "United States",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Ivory Coast vs. Norway live stream: How to watch FIFA World Cup, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/ivory-coast-vs-norway-live-stream-how-to-watch-fifa-world-cup-predictions-and-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/923e9c0b-b390-4345-a666-bc01835ad1fe/untitled-design-2026-06-30t084416-533.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:56:13 +0000",
-      "teams": [
-        "Ivory Coast",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Mexico vs. Ecuador odds, predictions: 2026 World Cup Round of 32 picks from proven soccer expert",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/mexico-ecuador-odds-predictions-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/e21e7bc1-f41a-4446-87c9-587daa066934/usatsi-29265520-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 12:25:58 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for France, Mexico, More",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-france-mexico-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/world-cup-schedule-june-30.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 08:22:31 -0400",
-      "teams": [
-        "Mexico",
-        "France",
-        "Norway"
       ]
     }
   ]
