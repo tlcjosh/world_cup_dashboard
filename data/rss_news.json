@@ -1,6 +1,201 @@
 {
-  "asOf": "2026-07-04T16:56:22.709Z",
+  "asOf": "2026-07-04T18:09:39.572Z",
   "items": [
+    {
+      "headline": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/04/world/americas/world-cup-mexico-tourism-trump.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 04 Jul 2026 18:03:09 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Canada v Morocco: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/04/canada-v-morocco-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 18:01:27 GMT",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "Cape Verde Islands",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Fit and firing Harry Kane is leading England by example on World Cup mission",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/harry-kane-leading-england-world-cup-mexico"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 18:00:04 GMT",
+      "teams": [
+        "Mexico",
+        "France",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Where To Find The Stars Of Cape Verde After Their 2026 FIFA World Cup Exit",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/where-find-stars-cape-verde-after-2026-fifa-world-cup-exit"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-4.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 13:43:40 -0400",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Liverpool open talks in deal for underappreciated World Cup midfield dynamo",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-open-talks-deal-underappreciated-174000331.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 Morocco and Bayern star goes off injured",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-bayern-star-goes-off-173700561.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:37:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "🚨 Double blow! Bayern star goes off injured at the Club World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/double-blow-bayern-star-goes-173700172.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:37:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Report: The truth behind Simeone&#8217;s recent chat with Barcelona target as relationship broken beyond repair",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-truth-behind-simeone-recent-173500784.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ancelotti: ‘Brazil pressure is on’ but no wild celebration at 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ancelotti-brazil-pressure-no-wild-173000386.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:30:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Mexico vs. England World Cup Round Of 16: Weather Update, Forecast",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mexico-vs-england-world-cup-round-16-weather-update-forecast"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284087729-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 13:28:46 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 Morocco star goes off injured",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-star-goes-off-injured-172600608.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:26:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round of 16: Confirmed schedule, results, predictions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:09:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The five hours of chaos surrounding England’s World Cup tie that exposed Fifa’s lack of leadership",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/five-hours-chaos-surrounding-england-054658270.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 17:07:37 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
     {
       "headline": "⛈️ Weather chaos in the USA! World Cup last-16 tie faces delay",
       "links": {
@@ -17,22 +212,69 @@
       ]
     },
     {
-      "headline": "Canada v Morocco: World Cup 2026 last 16 – live",
+      "headline": "Real Madrid licking their lips as new signing impresses heavily at the World Cup",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/04/canada-v-morocco-world-cup-2026-last-16-live"
+          "href": "https://sports.yahoo.com/articles/real-madrid-licking-lips-signing-164500451.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 16:40:24 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Listen: Sportsound with Lennon, Levein & Neilson",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nwwwr8?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0gf9mfx.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 16:41:00 GMT",
+      "teams": []
+    },
+    {
+      "headline": "What makes Mexico vs. England venue Estadio Azteca a fortress for El Tri and a house of horrors for others?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-england-estadio-azteca-fifa-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/9de3e15e-4e9f-400c-8041-9a386dfaae99/azteca-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:36:41 +0000",
       "teams": [
-        "Canada",
-        "Morocco",
-        "Paraguay",
-        "Cape Verde Islands",
-        "France",
-        "Argentina"
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Belgium odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-odds-prediction-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/e3bad4ef-00cc-4685-a61f-a36b39812100/malik-tillman-usmnt-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:36:40 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
       ]
     },
     {
@@ -103,6 +345,22 @@
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-england-receive-hostile-welcome-as-they-arrive-at-team-hotel-in-mexico-city-160753546.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 16:07:53 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: England receives hostile welcome during arrival at team hotel in Mexico City",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-england-receives-hostile-welcome-during-arrival-at-team-hotel-in-mexico-city-160753546.html"
         }
       },
       "images": [],
@@ -835,21 +1093,6 @@
       ]
     },
     {
-      "headline": "The five hours of chaos surrounding England’s World Cup tie that exposed Fifa’s lack of leadership",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/five-hours-chaos-surrounding-england-054658270.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 12:56:53 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "France vs. Paraguay odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
       "links": {
         "web": {
@@ -1161,18 +1404,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 10:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/04/world/americas/world-cup-mexico-tourism-trump.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 04 Jul 2026 10:34:35 +0000",
       "teams": []
     },
     {
@@ -2461,18 +2692,6 @@
         "Cape Verde Islands",
         "Argentina"
       ]
-    },
-    {
-      "headline": "2026 World Cup Round of 16: Confirmed schedule, results, predictions for first knockout round",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 03:19:00 +0000",
-      "teams": []
     },
     {
       "headline": "Through Brilliance And Bravery, Cape Verde Epitomized The Beauty Of The World Cup",
@@ -15883,220 +16102,6 @@
       "pubDate": "Tue, 30 Jun 2026 08:15:00 +0000",
       "teams": [
         "Ivory Coast"
-      ]
-    },
-    {
-      "headline": "Pick Mainoo over Anderson against DR Congo - Rooney",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pick-mainoo-over-anderson-against-080629449.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 08:06:29 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Pick Mainoo over Anderson against DR Congo - Rooney",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cp8l7p0n2kvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0be4/live/d59dc6d0-73e8-11f1-bb9e-33cb2da512b5.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 08:06:24 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "US security chief 'danced happy dance' after Iran exit",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/politics/articles/us-security-chief-danced-happy-074820352.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:48:20 +0000",
-      "teams": [
-        "United States",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "US security chief 'danced happy dance' after Iran exit",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/crr8x5qkly1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad92/live/662da110-7453-11f1-be8f-21fb848bc449.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 07:47:46 GMT",
-      "teams": [
-        "United States",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "😡 Arsenal not English champions: Klopp fumes over VAR call",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-not-english-champions-klopp-074600737.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:46:00 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "‘Another nightmare’: German media react to shock World Cup exit at the hands of Paraguay",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/another-nightmare-german-media-react-072933295.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:29:33 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Is the World Cup becoming America’s biggest sports betting event ever?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-becoming-america-biggest-072912017.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:29:12 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "From developing photos in a toilet to a viral Messi shot: 40 years shooting the World Cup – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/artanddesign/video/2026/jun/30/from-developing-photos-in-a-toilet-to-a-viral-messi-shot-40-years-shooting-the-world-cup-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 07:27:37 GMT",
-      "teams": [
-        "Australia"
-      ]
-    },
-    {
-      "headline": "France predicted XI v Sweden: William Saliba and Bradley Barcola to return",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-predicted-xi-v-sweden-072000496.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:20:00 +0000",
-      "teams": [
-        "Sweden",
-        "France",
-        "Senegal",
-        "Iraq"
-      ]
-    },
-    {
-      "headline": "Son apologises for South Korea's World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/son-apologises-south-koreas-world-065115062.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:02:54 +0000",
-      "teams": [
-        "South Korea"
-      ]
-    },
-    {
-      "headline": "Every World Cup needs a cult hero: 2026 has given us touchline dreamboat Sebastián Beccacece",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/sebastian-beccacece-ecuador-coach-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 07:00:41 GMT",
-      "teams": [
-        "Ecuador",
-        "Japan",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Every World Cup needs a cult hero: 2026 has given us touchline dreamboat Sebastián Beccacece",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/every-world-cup-needs-cult-070041266.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:00:41 +0000",
-      "teams": [
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Rodrygo opens up on special relationship with Ancelotti and desire to play under Mourinho: &#8216;Like a father to us&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rodrygo-opens-special-relationship-ancelotti-070000357.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 07:00:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup nuns, national revelry and oars: tournament’s maddest Monday 🤣",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-nuns-national-revelry-065900267.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 06:59:00 +0000",
-      "teams": [
-        "Paraguay"
       ]
     }
   ]
