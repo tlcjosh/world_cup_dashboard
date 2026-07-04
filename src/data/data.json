@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T05:07:30.472Z",
+  "lastUpdated": "2026-07-04T08:05:15.234Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4266,7 +4266,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760504"
     },
     {
       "matchId": 537378,
@@ -4320,7 +4321,7 @@
       "secondHalfStart": null
     },
     {
-      "matchId": null,
+      "matchId": 537381,
       "matchNum": 95,
       "stage": "Round of 16",
       "group": null,
@@ -4337,7 +4338,7 @@
       "secondHalfStart": null
     },
     {
-      "matchId": null,
+      "matchId": 537382,
       "matchNum": 96,
       "stage": "Round of 16",
       "group": null,
