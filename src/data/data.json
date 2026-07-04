@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T11:51:40.470Z",
+  "lastUpdated": "2026-07-04T13:16:07.783Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4278,13 +4278,14 @@
       "homeIso": "mx",
       "awayTeam": "England",
       "awayIso": "england",
-      "venue": "Estadio Azteca, Mexico City",
+      "venue": "Estadio Banorte, Mexico City",
       "kickoff": "2026-07-06T00:00:00.000Z",
       "homeScore": null,
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760505"
     },
     {
       "matchId": 537379,
