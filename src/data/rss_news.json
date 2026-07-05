@@ -1,38 +1,8 @@
 {
-  "asOf": "2026-07-05T21:37:41.843Z",
+  "asOf": "2026-07-05T22:40:01.741Z",
   "items": [
     {
-      "headline": "Quansah set to start at right-back for England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spence-muscle-problem-adds-england-193920017.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 21:30:38 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Shelter-in-place order at Azteca before Mexico-England because of weather",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/shelter-place-order-azteca-mexico-211421346.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 21:30:38 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Shelter-in-place order at Azteca before Mexico-England because of weather",
+      "headline": "Shelter-in-place order amid storm at Azteca before Mexico-England",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss"
@@ -44,11 +14,456 @@
         }
       ],
       "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 21:28:10 GMT",
+      "pubDate": "Sun, 05 Jul 2026 22:38:25 GMT",
       "teams": [
         "Mexico",
         "England"
       ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/salah-73.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:32:17 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France Favored, Norway Surges",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284792432-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:31:52 -0400",
+      "teams": [
+        "France",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: 5 things to know about Belgium ahead of Round of 16 matchup against the USMNT",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-5-things-to-know-about-belgium-ahead-of-round-of-16-matchup-against-the-usmnt-223001386.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:30:01 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "After what is likely his last World Cup game, Neymar breaks down in tears after Brazil's loss to Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/after-what-is-likely-his-last-world-cup-game-neymar-breaks-down-in-tears-after-brazils-loss-to-norway-222830558.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:28:30 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Haaland double fires Norway into World Cup quarter-finals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cwy00v2xk05o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f5/live/6ab3a200-78bf-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 22:27:08 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Brazil 1-2 Norway: World Cup 2026 last 16 – live reaction",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/brazil-v-norway-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 22:25:26 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Mexico v England: storm delays arrival of teams at stadium before World Cup 2026 last 16 tie– live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 22:23:27 GMT",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Erling Haaland shines again as Norway stun Brazil 2-1 to reach World Cup quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/erling-haaland-norway-brazil-world-cup-quarterfinals/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/2033017a-ae9c-4e57-a17c-159d4ba704c8/untitled-design-2026-07-05t181324-644.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:17:34 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "📸 Haaland stuns the football world with his brace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/haaland-stuns-football-world-brace-221700812.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:17:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Haaland Skyrockets In Historic Golden Boot Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284699470-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:15:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Erling Haaland scores brace to send Norway into quarter-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-221500279.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:15:00 +0000",
+      "teams": [
+        "Mexico",
+        "Brazil",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "😭 Anger, sadness, dismay and grief after Brazil crash out",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/anger-sadness-dismay-grief-dominate-221500389.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:15:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Quansah set to start at right-back for England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spence-muscle-problem-adds-england-193920017.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:10:49 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Shelter-in-place order amid storm at Azteca before Mexico-England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/shelter-place-order-azteca-mexico-211421346.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:10:49 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Erling Haaland Ends Brazil's World Cup With Brace For Norway In Round Of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-ends-brazils-world-cup-brace-norway-round-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haaland1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:10:24 -0400",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Haaland scores twice as Norway reach quarter-finals and knock Brazil out - reaction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-face-brazil-haaland-gabriel-140558049.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:09:16 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:08:42 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What is England’s route to the World Cup final if they beat Mexico?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:08:34 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haaland-quarters.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:08:04 -0400",
+      "teams": []
+    },
+    {
+      "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-lifted-belgium/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/43061936-e6a3-4f0d-9c0b-2671cc716db8/untitled-design-2026-07-05t145551-890.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:07:31 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks via expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-2026-world-cup-round-16-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/31ef973e-9f3e-44d6-91af-eebd5061ae16/mexico-soccer.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:06:31 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Erling Haaland scores twice and Norway shocks Brazil 2-1 to advance to quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-erling-haaland-scores-twice-and-norway-shocks-brazil-2-1-to-advance-to-quarterfinals-220552249.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:05:52 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Hexa dream delayed: Brazil knocked out by Norway, Haaland scores",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hexa-dream-delayed-brazil-knocked-220400457.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:04:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Trump lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/folarin-balogun-red-card-suspension-lifted-usmnt-belgium-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 22:01:21 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Trump lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/folarin-balogun-eligible-play-us-170415356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:01:21 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Australia give improved England plenty to ponder one year out from Ashes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/australia-improved-england-plenty-ponder-215702948.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:57:02 +0000",
+      "teams": [
+        "Australia",
+        "England"
+      ]
+    },
+    {
+      "headline": "Erling Haaland scores twice for Norway vs Brazil, rising up World Cup Golden Boot leaderboard (video)",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-scores-twice-norway-215530102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:55:30 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 Golden Boot: Mbappe v Messi v Haaland standings as Kane joins thrilling race to finish top scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:46:59 +0000",
+      "teams": []
     },
     {
       "headline": "FIFA's bizarre Folarin Balogun flip-flop stuns World Cup, but should anyone really be surprised?",
@@ -63,21 +478,6 @@
       "teams": []
     },
     {
-      "headline": "Brazil v Norway: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/05/brazil-v-norway-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 21:25:17 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
       "headline": "USA striker Balogun's one-game ban suspended by Fifa",
       "links": {
         "web": {
@@ -90,21 +490,6 @@
       "teams": [
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "Neymar introduced with Brazil goalless against Norway in World Cup last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-face-brazil-haaland-gabriel-140558049.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 21:22:32 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
       ]
     },
     {
@@ -138,40 +523,6 @@
       "pubDate": "Sun, 05 Jul 2026 21:19:17 +0000",
       "teams": [
         "United States"
-      ]
-    },
-    {
-      "headline": "Mexico v England: World Cup 2026 last 16 tie hit by thunderstorm in buildup – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 21:18:10 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-lifted-belgium/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/43061936-e6a3-4f0d-9c0b-2671cc716db8/untitled-design-2026-07-05t145551-890.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:45:40 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium"
       ]
     },
     {
@@ -256,7 +607,7 @@
       ]
     },
     {
-      "headline": "Online outrage over Brazil's missed penalty: why didn't Vini take it?",
+      "headline": "Outrage online after Brazil penalty miss: Why didn't Vini take it?",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/online-outrage-over-brazils-missed-203100741.html"
@@ -331,37 +682,6 @@
       ],
       "source": "CBS Sports",
       "pubDate": "Sun, 05 Jul 2026 20:04:31 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "White House lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/folarin-balogun-red-card-suspension-lifted-usmnt-belgium-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 19:51:59 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "White House lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/folarin-balogun-eligible-play-us-170415356.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 19:51:59 +0000",
       "teams": [
         "Bosnia-Herzegovina",
         "Belgium"
@@ -657,22 +977,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/salah-73.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:39:27 -0400",
-      "teams": []
-    },
-    {
       "headline": "🚨 Brazil v Norway: the official line-ups!",
       "links": {
         "web": {
@@ -685,41 +989,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Mbappé Favored In Historic Golden Boot Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-616.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:36:29 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: France, Argentina Remain Favorites",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:35:27 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -1177,21 +1446,6 @@
       ]
     },
     {
-      "headline": "What is England’s route to the World Cup final if they beat Mexico?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 15:30:32 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "USMNT vs. Belgium odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
       "links": {
         "web": {
@@ -1470,18 +1724,6 @@
         "Mexico",
         "England"
       ]
-    },
-    {
-      "headline": "World Cup 2026 Golden Boot: Mbappe vs Messi standings as Kane joins thrilling race to finish top scorer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 13:51:35 +0000",
-      "teams": []
     },
     {
       "headline": "Canada co-hosted the World Cup – but whose party was it?",
@@ -1855,18 +2097,6 @@
         "Paraguay",
         "France"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:04:46 +0000",
-      "teams": []
     },
     {
       "headline": "Jurgen Klopp agrees to become Germany manager",
@@ -3163,22 +3393,6 @@
         "Paraguay",
         "France"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284676238-scaled-e1783206368415.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 19:12:13 -0400",
-      "teams": []
     },
     {
       "headline": "2026 World Cup: France secures frustrating win over Paraguay with Kylian Mbappé penalty",
@@ -14023,7 +14237,7 @@
       ]
     },
     {
-      "headline": "Quiz: Name every team England have played in World Cup knockouts",
+      "headline": "Need to stay awake? Try this England World Cup quiz",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/clyp4eprn22o?at_medium=RSS&at_campaign=rss"
@@ -15800,221 +16014,6 @@
       "pubDate": "Wed, 01 Jul 2026 12:00:37 GMT",
       "teams": [
         "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "Has football fever taken hold in the US?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/football-fever-taken-hold-us-115742211.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 11:57:42 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Has football fever taken hold in the US?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gyr0y37ndo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84db/live/2ba6f6d0-74ae-11f1-9c5b-41132a229f02.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 11:57:37 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Belgium-Senegal: the combined XI 🇧🇪🇸🇳",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-senegal-combined-xi-115300465.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 11:53:00 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Morocco",
-        "Belgium",
-        "France",
-        "Senegal",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Fabián Ruiz: ‘It’s not important who plays, it’s important that we support each other’ | Sid Lowe",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/fabian-ruiz-spain-austria-world-cup-2026-round-32"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 11:50:04 GMT",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Marcelo Bielsa steps down from Uruguay role in explosive 100-minute press conference",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/marcelo-bielsa-steps-down-uruguay-114637177.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 11:46:37 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Belgium Not Looking Past Senegal: 'It Doesn’t Matter If You Are The Favorite'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-belgium-senegal-knockout"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/belgiumh1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 07:15:34 -0400",
-      "teams": [
-        "Germany",
-        "Netherlands",
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "‘It’s like being close to home’: World Cup vibes immaculate in richly diverse New York",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/world-cup-new-york"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 11:00:34 GMT",
-      "teams": [
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Scouting DR Congo - where England can win the game",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn4dgz454dgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5448/live/7909d970-748f-11f1-ac9a-3d30b5bdbb12.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 10:36:06 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Haaland is inevitable for Norway but are France unstoppable? | World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/01/haaland-is-inevitable-for-norway-but-are-france-unstoppable-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 10:29:13 GMT",
-      "teams": [
-        "Sweden",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Why was Piero Hincapie sent off vs Mexico?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-piero-hincapie-sent-off-100500549.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 10:05:00 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Belgium vs. Senegal Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/belgium-vs-senegal-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/a060e43e-gettyimages-2282997175.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 06:00:13 -0400",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Beccacece reign as Ecuador manager  over after exit",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c932jj0d25no?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af8b/live/26b3ee20-7522-11f1-adcf-e1eef1a1ef9c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 09:25:41 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Time for Tuchel to show hand as England enter World Cup danger zone",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/time-tuchel-show-hand-england-091041152.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 09:10:41 +0000",
-      "teams": [
-        "England"
       ]
     }
   ]
