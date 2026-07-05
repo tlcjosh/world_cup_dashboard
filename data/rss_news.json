@@ -1,8 +1,289 @@
 {
-  "asOf": "2026-07-04T23:45:14.408Z",
+  "asOf": "2026-07-05T01:27:41.543Z",
   "items": [
     {
-      "headline": "🫣 Worst performance of the World Cup: Ittrich sees overmatched ref",
+      "headline": "Thomas Tuchel gives England team news update ahead of crunch Mexico World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-gives-england-team-011202310.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 01:12:02 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 21:09:19 -0400",
+      "teams": []
+    },
+    {
+      "headline": "After Folarin Balogun's Red Card, Ricardo Pepi Has A Chance Of A Lifetime",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-pepi-belgium-red-card-balogun"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pepi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 21:00:50 -0400",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "England braced for a Mexican whirlwind as Tuchel strives for calm amid the chaos",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/england-mexico-world-cup-last-16-azteca-preview"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 00:55:11 GMT",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mbappé and France ditch ‘tuxedos’ to play ‘dirty football’ and beat Paraguay",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/paraguay-france-last-16-world-cup-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 00:45:27 GMT",
+      "teams": [
+        "Paraguay",
+        "Sweden",
+        "France"
+      ]
+    },
+    {
+      "headline": "France overcome stubborn Paraguay to reach quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-paraguay-face-france-extreme-195025231.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 00:35:31 +0000",
+      "teams": [
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "🔝 Simply superb! Mbappé even leaves Brazil, England & co behind",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/simply-superb-mbapp-even-leaves-003400266.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 00:34:00 +0000",
+      "teams": [
+        "Brazil",
+        "Paraguay",
+        "England"
+      ]
+    },
+    {
+      "headline": "France overcome resolute Paraguay to reach quarter-final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c4gy7d7z122o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b81b/live/7705a650-7803-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 00:27:12 GMT",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Mexico could bring the best out of  Tuchel's England",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/clywpjjpze4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ad9/live/cb534e40-7805-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 00:15:18 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Roundup: France Continues Perfect Run, Morocco Sends Canada Home",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-france-continues-perfect-run-morocco-sends-canada-home"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 04 Jul 2026 20:10:41 -0400",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "🎥 World Cup highlights: fiery Paraguay! Mbappé saves France with pen",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-highlights-fiery-paraguay-000800943.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 00:08:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/7fe3ed21-8c4a-472d-83b9-53c4f667d432/usatsi-29285839-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 00:00:04 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Belgium players say they will need ‘balls’ to nullify home crowd against US",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/04/belgium-united-states-world-cup-environment"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 04 Jul 2026 23:57:35 GMT",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "🤯​ Kylian Mbappé is unbelievable at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbapp-unbelievable-world-cup-235300999.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:53:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "'Disgusting' Paraguay went 'way too far' against France",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c24y2yej0dyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/564e/live/688f53c0-7801-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 04 Jul 2026 23:50:06 GMT",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "France prove they can win ugly in bad-tempered clash – and World Cup history is repeating itself",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-prove-win-ugly-bad-234835384.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:48:35 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappé on Paraguay: &#8216;They thought we&#8217;d come playing wearing tuxedos&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbapp-paraguay-thought-d-234500383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 04 Jul 2026 23:45:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "🫣 Worst display of the World Cup: Ittrich sees ref out of his depth",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/worst-performance-world-cup-ittrich-233500006.html"
@@ -43,22 +324,6 @@
       "pubDate": "Sat, 04 Jul 2026 23:19:25 +0000",
       "teams": [
         "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Mbappé spot-on to take France past stubborn Paraguay into World Cup quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/paraguay-france-last-16-world-cup-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 23:18:33 GMT",
-      "teams": [
-        "Paraguay",
-        "Sweden",
-        "France"
       ]
     },
     {
@@ -3455,22 +3720,6 @@
         "Cape Verde Islands",
         "Argentina"
       ]
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:00:35 -0400",
-      "teams": []
     },
     {
       "headline": "🧱 Colombia wall, double 🔝 and last 16: Ghana KO 1-0 ❌ Luis Diaz, record 🥴",
@@ -15853,265 +16102,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 30 Jun 2026 15:46:22 +0000",
       "teams": []
-    },
-    {
-      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-prediction-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/a318dd67-8fdf-45d3-a395-ac612d89e81d/christian-pulisic-usmnt-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:35:26 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: France's Dembele among best bets for Tuesday's games",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-frances-dembele-among-best-bets-for-tuesdays-games/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/29/fd7735f3-9d5b-4375-857c-f9fef5e4a074/dembelefrance.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:28:41 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Tuesday include France, Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-tuesday-include-france-mexico/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e3debfec-4126-4217-9c4a-531ee9ece7bf/dembele-france.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:27:50 +0000",
-      "teams": [
-        "Mexico",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Klopp plays down Germany job links; Livramento has surgery – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/world-cup-2026-netherlands-and-germany-crash-out-plus-cote-divoire-v-norway-buildup-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 15:10:21 GMT",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands",
-        "Japan",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Norway vs. Ivory Coast odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-14 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/norway-ivory-coast-odds-prediction-line-time-2026-world-cup-round-of-32-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/89a58035-5de9-4443-aac1-2b21f82e9825/erling-haaland-norway-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:01:10 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Japan the example to follow but this has been a dismal World Cup for Asia | John Duerden",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/japan-the-example-to-follow-but-this-has-been-a-dismal-world-cup-for-asia"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 15:00:11 GMT",
-      "teams": [
-        "South Korea",
-        "Brazil",
-        "United States",
-        "Japan",
-        "Iran",
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "headline": "France vs. Sweden Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-sweden-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283508113-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 11:00:03 -0400",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Jurgen Klopp takes aim at Arsenal during World Cup coverage",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jurgen-klopp-takes-aim-arsenal-145000905.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 14:50:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 wall chart: Printable tournament tracker, brackets, knockout stage and more",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-wall-chart-printable-tournament-tracker/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/ff2970bb-122d-499d-aa80-b3392206a1b0/golazo-r32.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 14:28:36 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Panenka to Paraguay: Germany’s 50-year penalty shootout streak is over",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/germany-50-year-penalty-shootout-dominance-over-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 14:15:30 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Ibrahimovic hits out at Koeman after the Netherlands’ World Cup exit: He ‘seemed Italian’ – video",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ibrahimovic-hits-koeman-netherlands-world-140000384.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 14:00:00 +0000",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Liverpool star slammed for performance in World Cup defeat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-star-slammed-peformance-world-135000112.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:50:00 +0000",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Dutch icon criticises Frenkie de Jong after Netherlands World Cup exit: &#8216;Worst match I&#8217;ve ever seen from him&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dutch-icon-criticises-frenkie-jong-134500693.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:45:00 +0000",
-      "teams": [
-        "Morocco",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Juve-Dibu, Inter stung again ⚠️ Milan-Stones, Gud, today's market 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/juve-dibu-inter-stung-again-134300303.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:43:00 +0000",
-      "teams": [
-        "Brazil",
-        "Morocco",
-        "Paraguay",
-        "Germany",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "England vs. Congo DR odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 10-5 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-congo-dr-odds-prediction-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/23/5df4a874-be47-47b1-bdc8-c50392f4536c/jude-bellingham-england-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 13:17:17 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
     }
   ]
 }
