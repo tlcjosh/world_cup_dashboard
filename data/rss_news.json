@@ -1,6 +1,342 @@
 {
-  "asOf": "2026-07-05T19:09:22.928Z",
+  "asOf": "2026-07-05T20:31:22.032Z",
   "items": [
+    {
+      "headline": "Brazil v Norway: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/brazil-v-norway-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 20:25:26 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "USA striker Balogun's one-game ban suspended by Fifa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-striker-baloguns-one-game-171536135.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:21:39 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Quansah set to start at right-back for England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spence-muscle-problem-adds-england-193920017.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:21:39 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "'USA vs. The World': Lalas Thinks Balogun Decision Puts Target On Americans' Back",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/it-now-usa-vs-world-decision"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/flo.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 16:18:03 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: President Donald Trump reportedly called FIFA's Gianni Infantino to review Folarin Balogun's red card suspension",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-president-donald-trump-reportedly-called-fifas-gianni-infantino-to-review-folarin-baloguns-red-card-suspension-201619750.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:16:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Guimaraes has VAR-awarded penalty saved for Brazil against Norway in last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-face-brazil-haaland-gabriel-140558049.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:14:43 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Folarin Balogun available for USMNT World Cup round of 16 match vs. Belgium: FIFA lifts red card suspension",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/folarin-balogun-usmnt-world-cup-belgium-fifa-lifts-suspension/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/9c16ff30-823c-481f-bfb7-74f760129ac6/untitled-design-2026-07-05t124703-657.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:04:31 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Belgium ‘astonished’ by Fifa’s decision to wipe Folarin Balogun’s World Cup ban",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-astonished-fifa-decision-wipe-195343602.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:54:26 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "White House lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/folarin-balogun-red-card-suspension-lifted-usmnt-belgium-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 19:51:59 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "White House lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/folarin-balogun-eligible-play-us-170415356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:51:59 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo confirms this is his last World Cup, doesn't want to talk retirement",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/cristiano-ronaldo-confirms-this-is-his-last-world-cup-doesnt-want-to-talk-retirement-194501553.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:45:01 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Trump finally arrives at World Cup – but Balogun decision shows Fifa hasn’t learned its lesson",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-finally-arrives-world-cup-193840759.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:38:40 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "📹 Cristiano Ronaldo confirms 2026 World Cup exit: not tomorrow, I hope",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-confirms-2026-world-193700773.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:37:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Trump thanks Fifa after USA striker Balogun's ban suspended",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bf1/live/3ab6d9e0-7898-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 19:36:11 GMT",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Report: Premier League clubs and Real Madrid keen on Inter talent Sucic",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-premier-league-clubs-real-193500842.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:35:00 +0000",
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: USMNT reacts after FIFA's stunning Folarin Balogun reversal — 'A lot of us thought it was AI'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-usmnt-reacts-after-fifas-stunning-folarin-balogun-reversal--a-lot-of-us-thought-it-was-ai-193251297.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:32:51 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Quansah set to start at right-back for England",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 19:32:47 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Mexico Slight Underdog vs. England In Round of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:24:18 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who could take a penalty for England if World Cup last-16 clash vs Mexico goes to a shootout?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-best-five-penalty-takers-153458336.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:21:05 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo Confirms 2026 World Cup Is His Last: 'Let's Go And Enjoy It'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/cristiano-ronaldo-confirms-2026-world-cup-his-last-lets-go-enjoy-it"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/cr7-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:20:42 -0400",
+      "teams": []
+    },
+    {
+      "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-lifted-belgium/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/43061936-e6a3-4f0d-9c0b-2671cc716db8/untitled-design-2026-07-05t145551-890.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:03:54 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
     {
       "headline": "🚨 Cristiano Ronaldo confirms 2026 World Cup will be his last",
       "links": {
@@ -42,21 +378,6 @@
         "Brazil",
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "Brazil v Norway: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/05/brazil-v-norway-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 18:50:27 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
       ]
     },
     {
@@ -144,6 +465,25 @@
       "teams": []
     },
     {
+      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks via expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-2026-world-cup-round-16-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/94763f8d-6116-4ee8-acd0-99966ca83a68/harry-kane.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:40:31 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
       "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
       "links": {
         "web": {
@@ -225,7 +565,7 @@
       ]
     },
     {
-      "headline": "Balogun no isolated case! How FIFA 'distorted' a 1962 World Cup final",
+      "headline": "Balogun no isolated case! How FIFA rigged a 1962 World Cup final",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/balogun-no-isolated-case-fifa-183400661.html"
@@ -357,21 +697,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "USA striker Balogun's one-game ban suspended by Fifa",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-striker-baloguns-one-game-171536135.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 18:04:30 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
       ]
     },
     {
@@ -532,60 +857,6 @@
       ]
     },
     {
-      "headline": "Folarin Balogun available for USMNT World Cup round of 16 match vs. Belgium: FIFA lifts red card suspension",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/folarin-balogun-usmnt-world-cup-belgium-fifa-lifts-suspension/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/9c16ff30-823c-481f-bfb7-74f760129ac6/untitled-design-2026-07-05t124703-657.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 17:22:52 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Trump thanks Fifa after USA striker Balogun's ban suspended",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bf1/live/3ab6d9e0-7898-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 17:15:30 GMT",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Folarin Balogun eligible to play for US v Belgium as Fifa rescinds suspension for red card",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/folarin-balogun-red-card-suspension-lifted-usmnt-belgium-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 17:04:15 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
       "headline": "2026 World Cup: USMNT striker Folarin Balogun available vs. Belgium after red-card ban suspended",
       "links": {
         "web": {
@@ -628,7 +899,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284572280-scaled-e1783268422958.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balo.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -1768,21 +2039,6 @@
       "teams": [
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "Who could take a penalty for England if World Cup last 16 clash vs Mexico goes to a shootout?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-best-five-penalty-takers-153458336.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 08:48:21 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -4031,25 +4287,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 16:00:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: Mexico Opens As Underdog vs. England In Round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-mexico-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/45695f6e-artboard-11-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:59:48 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
     },
     {
       "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
@@ -15781,263 +16018,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 01 Jul 2026 02:00:57 -0400",
       "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Graham Potter faces brutal reality after France’s knockout blow ends Sweden’s World Cup journey",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/graham-potter-faces-brutal-reality-055125695.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 05:51:25 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "📝 2026 World Cup, the overnight round-up",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-overnight-round-054900066.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 05:49:00 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 24",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj4pl4rvr8jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/836b/live/942fef50-6b93-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 05:48:19 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Mexico rampant at fortress Azteca - and England could be next",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-rampant-fortress-azteca-england-054559070.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 05:45:59 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mexico rampant at fortress Azteca - and England could be next",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cy9rg5n3380o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9b5/live/db53d370-750b-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 05:38:14 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "I'd have done the same to get him sent off - 20 years since Rooney's red card",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cze2dxr752eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33ac/live/d9223dd0-4a13-11f1-bd52-e755d604ece4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 05:31:51 GMT",
-      "teams": [
-        "Portugal",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup highlights: Sweden no chance, Mbappé & Olise incredible",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-sweden-no-052300000.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 05:23:00 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Hincapie becomes second player sent off for covering mouth",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/hincapie-becomes-second-player-sent-051731330.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 05:17:31 +0000",
-      "teams": [
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Hincapie becomes second player sent off for covering mouth",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvg45jg6qyno?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1dc/live/dc263ea0-750b-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 05:17:24 GMT",
-      "teams": [
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Top Mexico Goalscorers In World Cup History: Julián Quiñones Breaks Into Top-Five",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/top-mexico-goalscorers-world-cup-history-julian-quinones-breaks-top-five"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/cf549035-mexico1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 01:03:50 -0400",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Mexico set up potential England tie with win over 10-man Ecuador",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c2ky840z4wqo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fccc/live/fbc93280-7501-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 04:52:32 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mexico Breaks 40-Year Curse In World Cup Knockout Stage Win vs. Ecuador",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-takes-giant-step-toward-quinto-partido-40-year-knockout-curse-ends-against-ecuador"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mexico1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:44:21 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "How Many Top-Five Players Does France Have On Its World Cup Squad?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-many-top-five-players-does-france-have-its-world-cup-squad"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/wc26-francedominates.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:43:38 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "The Streak Is Over! 4 Takeaways From Mexico's Breakthrough Win vs. Ecuador",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/streak-over-4-takeaways-from-mexicos-breakthrough-win-vs-ecuador"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/takeaways1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:40:20 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "World Cup What to Watch: USMNT begins knockout run; can DR Congo shock England?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-usmnt-begins-knockout-run-can-dr-congo-shock-england-043902180.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:39:02 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal",
         "Congo DR",
         "England"
       ]
