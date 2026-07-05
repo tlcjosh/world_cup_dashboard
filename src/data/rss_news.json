@@ -1,6 +1,308 @@
 {
-  "asOf": "2026-07-05T14:11:10.097Z",
+  "asOf": "2026-07-05T15:39:18.379Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Mexico fans try to disturb England’s sleep, France and Morocco march on – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/world-cup-2026-live-last-16-concludes-morocco-france-paraguay"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 15:23:10 GMT",
+      "teams": [
+        "Mexico",
+        "Morocco",
+        "Paraguay",
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Belgium odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-odds-prediction-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/10/f01a9b4d-fd5b-4523-82fd-337641c33623/tim-ream-and-tyler-adams.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:19:10 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "From drunkard to folk hero: he's already the World Cup's big winner",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/drunkard-folk-hero-hes-already-151500664.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:15:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "USA v Belgium tactical analysis: how does Pochettino replace Folarin Balogun’s goal threat?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-v-belgium-tactical-analysis-151330754.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:13:30 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:07:36 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "England"
+      ]
+    },
+    {
+      "headline": "England have struggled against low block - could they use it to beat Mexico?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/englands-nemesis-low-block-could-140905457.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:02:50 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tony Popovic gets FA backing but is he is right man to take Socceroos forward? | Jack Snape",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/blog/2026/jul/06/tony-popovic-socceroos-australia-world-cup-analysis"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 15:00:30 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 14:59:10 GMT",
+      "teams": [
+        "United States",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/farewell-cape-verde-underdogs-world-030049115.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:50:41 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Peter Shilton reveals he has ‘put the beef to bed’ with Maradona’s ‘Hand of God’ goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/peter-shilton-reveals-put-beef-101141444.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:50:05 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-2026-world-cup-round-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/17/564ec5af-f5e2-4306-9194-c8af20f84736/raul-jimenez.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:47:16 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🔥 What’s the limit? Mbappé racks up absurd World Cup records",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/limit-mbapp-racks-absurd-world-144500723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:45:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Sunday include Brazil, Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-sunday-include-brazil-mexico/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/84f5cf3a-98ca-406f-9442-6a3375564672/mexico-soccer.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:42:18 +0000",
+      "teams": [
+        "Mexico",
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Sunday best bets feature Mexico's Raul Jimenez",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-sunday-best-bets-feature-mexicos-raul-jimenez/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/68dc3d8c-9dea-41f7-9257-8ec263bef5a5/jimenez.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:37:49 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Barcelona remain very interested in Australian teenager who has impressed at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-remain-very-interested-australian-142000478.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:20:00 +0000",
+      "teams": [
+        "Australia"
+      ]
+    },
+    {
+      "headline": "Brazil vs. Norway odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/brazil-norway-odds-prediction-time-2026-world-cup-round-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/061224b8-48bf-4c5b-a0db-b0737eca43de/vini-jr-neymay-brazil.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:15:59 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "England have struggled against low block - could they use it to beat Mexico?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq51p6787jlo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c67/live/7b6b01a0-7816-11f1-a76a-9924e1ee4969.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 14:08:59 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Return home! How Cape Verde's World Cup heroes were welcomed",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/return-home-cape-verdes-world-140500084.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:05:00 +0000",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
     {
       "headline": "World Cup schedule today: How to watch Mexico v England, TV channels & live stream Sunday July 5th",
       "links": {
@@ -48,25 +350,6 @@
       "teams": []
     },
     {
-      "headline": "World Cup 2026: Mexico v England buildup, France battle past Paraguay, Morocco march on – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/05/world-cup-2026-live-last-16-concludes-morocco-france-paraguay"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 13:49:24 GMT",
-      "teams": [
-        "Mexico",
-        "Morocco",
-        "Paraguay",
-        "Spain",
-        "France",
-        "England"
-      ]
-    },
-    {
       "headline": "Canada co-hosted the World Cup – but whose party was it?",
       "links": {
         "web": {
@@ -78,6 +361,21 @@
       "pubDate": "Sun, 05 Jul 2026 13:48:26 +0000",
       "teams": [
         "Canada"
+      ]
+    },
+    {
+      "headline": "Canada co-hosted the World Cup – but whose party was it?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/canada-co-hosted-the-world-cup-but-whose-party-was-it"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 13:48:26 GMT",
+      "teams": [
+        "Canada",
+        "Morocco"
       ]
     },
     {
@@ -148,7 +446,7 @@
       ]
     },
     {
-      "headline": "Barca-Leao, new Juve-Kolo plan and Chalobah block? Today's buzz 🤑",
+      "headline": "Barça-Leão, new Juve-Kolo deal, Khalaili hint: today’s market 🤑",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/bar-eye-le-o-juve-125800847.html"
@@ -206,46 +504,6 @@
       "teams": [
         "Mexico",
         "England"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:02:46 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Sunday best bets feature Mexico's Raul Jimenez",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-sunday-best-bets-feature-mexicos-raul-jimenez/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/68dc3d8c-9dea-41f7-9257-8ec263bef5a5/jimenez.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:00:50 +0000",
-      "teams": [
-        "Mexico"
       ]
     },
     {
@@ -377,7 +635,7 @@
       ]
     },
     {
-      "headline": "England fighting history as well as Mexican nation in Azteca cauldron",
+      "headline": "England battling history as well as Mexican nation in Azteca cauldron",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cvg7z7zxkw9o?at_medium=RSS&at_campaign=rss"
@@ -501,20 +759,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 05 Jul 2026 11:00:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Peter Shilton reveals he has ‘put the beef to bed’ Maradona’s ‘Hand of God’ goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/peter-shilton-reveals-put-beef-101141444.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 10:11:41 +0000",
-      "teams": [
-        "England"
-      ]
     },
     {
       "headline": "Stay humble - the Premier League feud about to hit world stage",
@@ -4431,21 +4675,6 @@
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/murals-flags-beef-dishes-messi-053758210.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 08:31:59 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/farewell-cape-verde-underdogs-world-030049115.html"
         }
       },
       "images": [],
@@ -15860,241 +16089,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 01 Jul 2026 00:48:54 +0000",
       "teams": []
-    },
-    {
-      "headline": "😳 What now, Paraguay? France racks up ABSURD records",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/now-paraguay-france-piles-absurd-004800347.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:48:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mexico vs. Ecuador live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/mexico-vs-ecuador-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/afc94073-569d-49af-8837-8d576381bdeb/mexico-5.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:25:51 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappe and Michael Olise’s devastating double act is driving France to another World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kylian-mbappe-michael-olise-devastating-232756469.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:22:06 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "'Like The World Cup Final.' USA Loose But Not Overlooking Bosnia And Herzegovina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-bosnia-herzegovina-world-cup-round-32-knockout"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/a6ca7aed-poch1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 20:18:41 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Koeman resigns, while Netherlands report racist abuse",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/koeman-resigns-while-netherlands-report-214853335.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:13:53 +0000",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Back Bosnia and Herzegovina To Cover Against The U.S.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-back-bosnia-herzegovina-cover-against-u-s"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/back-bosnia_will-hill_world-cup-odds_horizontal.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 20:12:23 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: 'USA Winning On Penalties Would Be Best Outcome'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-betting-usa-big-liability-bosnia-herzegovina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-soccer_liability_bosnia_odds_everson.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 20:02:01 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "🚨 Mexico and Ecuador name starting XIs for last-32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-ecuador-name-starting-xis-235300035.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 23:53:00 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Mbappe scores twice as France dominate Sweden",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c6216q7d62ro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28f3/live/1dc23c70-74d9-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 23:34:58 GMT",
-      "teams": [
-        "Paraguay",
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "England and Tuchel prepare to go deep but know ignominy may lie in wait if they fail | Jacob Steinberg",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/england-thomas-tuchel-world-cup-dr-congo-last-32"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 23:30:19 GMT",
-      "teams": [
-        "Colombia",
-        "England"
-      ]
-    },
-    {
-      "headline": "💥End of an era: Bielsa quits Uruguay after World Cup flop",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/end-era-bielsa-quits-uruguay-232800687.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 23:28:00 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Unstoppable Mbappé: 4 Takeaways From France's Calm And Comfortable Win vs. Sweden",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/unstoppable-mbappe-4-takeaways-from-frances-comfortable-win-vs-sweden"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/fb604032-takeaways1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:19:45 -0400",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Declan Rice: England Has Never Had 'A Better Crop Of Penalty Takers' Than This World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/declan-rice-doesnt-think-englands-ever-had-a-better-crop-penalty-takers-than-year"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/rice1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:17:00 -0400",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "How Merlin the duck became Mexico’s viral World Cup ‘mascot’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/meet-merlin-duck-mexico-city-212221245.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 23:15:13 +0000",
-      "teams": [
-        "Mexico"
-      ]
     }
   ]
 }
