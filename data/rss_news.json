@@ -1,6 +1,67 @@
 {
-  "asOf": "2026-07-05T20:31:22.032Z",
+  "asOf": "2026-07-05T21:37:41.843Z",
   "items": [
+    {
+      "headline": "Quansah set to start at right-back for England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spence-muscle-problem-adds-england-193920017.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:30:38 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Shelter-in-place order at Azteca before Mexico-England because of weather",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/shelter-place-order-azteca-mexico-211421346.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:30:38 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Shelter-in-place order at Azteca before Mexico-England because of weather",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2117/live/8c88b0c0-78b8-11f1-a153-7f64e09767e4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 21:28:10 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "FIFA's bizarre Folarin Balogun flip-flop stuns World Cup, but should anyone really be surprised?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/fifas-bizarre-folarin-balogun-flip-flop-stuns-world-cup-but-should-anyone-really-be-surprised-212530001.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:25:30 +0000",
+      "teams": []
+    },
     {
       "headline": "Brazil v Norway: World Cup 2026 last 16 – live",
       "links": {
@@ -10,7 +71,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 20:25:26 GMT",
+      "pubDate": "Sun, 05 Jul 2026 21:25:17 GMT",
       "teams": [
         "Brazil",
         "Norway"
@@ -25,9 +86,153 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:21:39 +0000",
+      "pubDate": "Sun, 05 Jul 2026 21:23:06 +0000",
       "teams": [
         "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Neymar introduced with Brazil goalless against Norway in World Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-face-brazil-haaland-gabriel-140558049.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:22:32 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Folarin Balogun's Return Leaves Books Scrambling",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-folarin-baloguns-leaves-books-scrambling"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun-75.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 17:20:07 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Donald Trump called Gianni Infantino before Fifa’s stunning decision to suspend Folarin Balogun’s World Cup ban, report says",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/donald-trump-called-gianni-infantino-211443995.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:19:17 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Mexico v England: World Cup 2026 last 16 tie hit by thunderstorm in buildup – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 21:18:10 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-lifted-belgium/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/43061936-e6a3-4f0d-9c0b-2671cc716db8/untitled-design-2026-07-05t145551-890.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:45:40 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/kill-me-23-years-cristiano-ronaldo-world-cup-last-portugal-spain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 20:41:28 GMT",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "England, Mexico's Most Heartbreaking World Cup Exits, Led By The 'Hand Of God'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-mexicos-most-heartbreaking-world-cup-exits"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/eng-mex-biggest-heartbreaks-16x9-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 16:40:55 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo confirms international retirement after World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-confirms-international-retirement-204000116.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:40:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Belgium ‘astonished’ by Fifa’s decision to wipe Folarin Balogun’s World Cup ban",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-astonished-fifa-decision-wipe-195343602.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:35:26 +0000",
+      "teams": [
         "Belgium"
       ]
     },
@@ -35,15 +240,50 @@
       "headline": "Quansah set to start at right-back for England",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/spence-muscle-problem-adds-england-193920017.html"
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7699/live/339f2140-78b0-11f1-b521-65ff63ab8f29.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 20:31:31 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Online outrage over Brazil's missed penalty: why didn't Vini take it?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/online-outrage-over-brazils-missed-203100741.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:21:39 +0000",
+      "pubDate": "Sun, 05 Jul 2026 20:31:00 +0000",
       "teams": [
-        "Mexico",
-        "England"
+        "Brazil",
+        "United States",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "USA v Belgium tactical analysis: what’s Pochettino’s plan with Balogun available?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-v-belgium-tactical-analysis-151330754.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:24:34 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
       ]
     },
     {
@@ -78,21 +318,6 @@
       "teams": []
     },
     {
-      "headline": "Guimaraes has VAR-awarded penalty saved for Brazil against Norway in last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-face-brazil-haaland-gabriel-140558049.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:14:43 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
       "headline": "Folarin Balogun available for USMNT World Cup round of 16 match vs. Belgium: FIFA lifts red card suspension",
       "links": {
         "web": {
@@ -108,20 +333,6 @@
       "pubDate": "Sun, 05 Jul 2026 20:04:31 +0000",
       "teams": [
         "Bosnia-Herzegovina",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Belgium ‘astonished’ by Fifa’s decision to wipe Folarin Balogun’s World Cup ban",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-astonished-fifa-decision-wipe-195343602.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 19:54:26 +0000",
-      "teams": [
         "Belgium"
       ]
     },
@@ -250,25 +461,6 @@
       ]
     },
     {
-      "headline": "Quansah set to start at right-back for England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 19:32:47 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "2026 World Cup Odds: Mexico Slight Underdog vs. England In Round of 16",
       "links": {
         "web": {
@@ -317,25 +509,6 @@
       "source": "Fox Sports",
       "pubDate": "Sun, 05 Jul 2026 15:20:42 -0400",
       "teams": []
-    },
-    {
-      "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-lifted-belgium/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/43061936-e6a3-4f0d-9c0b-2671cc716db8/untitled-design-2026-07-05t145551-890.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 19:03:54 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium"
-      ]
     },
     {
       "headline": "🚨 Cristiano Ronaldo confirms 2026 World Cup will be his last",
@@ -1064,21 +1237,6 @@
       "pubDate": "Sun, 05 Jul 2026 15:15:00 +0000",
       "teams": [
         "Mexico"
-      ]
-    },
-    {
-      "headline": "USA v Belgium tactical analysis: how does Pochettino replace Folarin Balogun’s goal threat?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-v-belgium-tactical-analysis-151330754.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 15:13:30 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
       ]
     },
     {
@@ -15856,169 +16014,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 01 Jul 2026 09:10:41 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Time for Tuchel to show hand as England enter World Cup danger zone",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c17y8r90082o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25e5/live/2df5cf30-74b6-11f1-9c5b-41132a229f02.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 09:10:35 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Piero Hincapie becomes second World Cup player to be sent off for covering his mouth",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/piero-hincapie-becomes-second-world-043546612.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 09:06:32 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: Hincapié loses it, Mexico rocks the Azteca",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-hincapi-loses-085200475.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 08:52:00 +0000",
-      "teams": [
-        "Mexico",
-        "Germany",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Bigger than Rumble in the Jungle? DR Congo bid for World Cup history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bigger-rumble-jungle-dr-congo-182640043.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 08:40:50 +0000",
-      "teams": [
-        "Congo DR"
-      ]
-    },
-    {
-      "headline": "Real Madrid World Cup Spotlight: Kylian Mbappe rewrites history, while Antonio Rudiger sees exit door",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-084000879.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 08:40:00 +0000",
-      "teams": [
-        "Brazil",
-        "France"
-      ]
-    },
-    {
-      "headline": "How to Watch England vs. DR Congo: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-dr-congo-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-32"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/how-to-watch-england-vs-congo-dr-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:02:34 -0400",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who has scored the most goals at a World Cup without winning the Golden Boot?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/knowledge-world-cup-most-goals-without-golden-boot"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 07:00:29 GMT",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "In ceding the reins to Mbappé, Olise and Dembélé, France look as under control as ever",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/france-world-cup-mbappe-olise-dembele"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 07:00:29 GMT",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Fifa explains decision to rule out Germany goal",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c862yvvd2qdo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/acd2/live/405c9100-7514-11f1-b1db-af71d47507d6.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 06:40:56 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "England vs. DR Congo Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-dr-congo-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283914206-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 02:00:57 -0400",
-      "teams": [
-        "Congo DR",
         "England"
       ]
     }
