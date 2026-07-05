@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-05T15:39:18.379Z",
+  "asOf": "2026-07-05T16:45:13.531Z",
   "items": [
     {
       "headline": "World Cup 2026: Mexico fans try to disturb England’s sleep, France and Morocco march on – live",
@@ -10,13 +10,126 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 15:23:10 GMT",
+      "pubDate": "Sun, 05 Jul 2026 16:39:36 GMT",
       "teams": [
         "Mexico",
         "Morocco",
         "Paraguay",
         "Spain",
         "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "USA Star Folarin Balogun To Play In World Cup Match vs. Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-star-folarin-balogun-play-world-cup-match-vs-belgium"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284572280-scaled-e1783268422958.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 12:28:35 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Spain vs. Portugal odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-16 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-portugal-odds-prediction-time-2026-world-cup-round-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/8f33bc2a-9807-4da9-a65e-fe92c5502865/ronaldo-yamal-spain-portugal.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 16:19:52 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Mexico returns gift of Rolex watches from online content creator to avoid violating FIFA rules",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-mexico-returns-gift-of-rolex-watches-from-online-content-creator-to-avoid-violating-fifa-rules-161220200.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 16:12:20 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador"
+      ]
+    },
+    {
+      "headline": "📸 Home game for World Cup hosts: even England get Mexico flags",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/home-game-world-cup-hosts-160200727.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 16:02:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "El Aynaoui after Morocco&#8217;s success: &#8220;I&#8217;m in touch with Gasp.&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/el-aynaoui-morocco-success-m-155500502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:55:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "How to watch Mexico vs England World Cup 2026 match &#8211; BBC or ITV",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-mexico-vs-england-world-155000710.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:50:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "What is England’s route to the World Cup final if they beat Mexico?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 15:30:32 +0000",
+      "teams": [
+        "Mexico",
         "England"
       ]
     },
@@ -37,6 +150,21 @@
       "teams": [
         "United States",
         "Belgium"
+      ]
+    },
+    {
+      "headline": "France deliver knockout punch to Paraguay in the Battle of Philadelphia",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/football-daily-france-knockout-punch-paraguay-battle-of-philadelphia-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 15:15:40 GMT",
+      "teams": [
+        "Paraguay",
+        "France"
       ]
     },
     {
@@ -15947,148 +16075,6 @@
       "teams": [
         "England"
       ]
-    },
-    {
-      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-prediction-start-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/702b13c5-b088-40f1-a35f-36cd2a4a59c9/christian-pulisic-usa-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 01:47:13 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "USA's Pulisic, England's Bellingham In the World Cup Spotlight For Match Day 21",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-usmnt-bosnia-pulisic-england-belgium-senegal-dr-congo-matchday21"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-121.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 21:29:27 -0400",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Senegal",
-        "England"
-      ]
-    },
-    {
-      "headline": "England right-backs Quansah and James out of DR Congo game",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c23yz02rrkgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ea5/live/b7af52f0-74b1-11f1-9c5b-41132a229f02.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 01:25:48 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "United, free and brilliant - can anyone stop France masterclass?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cp8r1zdj9k5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc6d/live/b724c890-74e5-11f1-970c-3df9d79440a4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 01:07:39 GMT",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mexico vs. Ecuador World Cup Weather Delay: Start Time, Hydration Break Updates",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-vs-ecuador-world-cup-weather-delay-start-time-hydration-break-updates"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/azteca-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 21:01:11 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé at the double as France swat aside Sweden in World Cup masterclass",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/france-sweden-world-cup-2026-last-32-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 00:58:53 GMT",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "How USMNT prepare for World Cup penalty drama: confidence, composure and consultants",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/usmnt-penalty-kicks-mauricio-pochettino-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 00:48:54 GMT",
-      "teams": [
-        "Morocco",
-        "United States",
-        "Paraguay",
-        "Germany",
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "How USMNT prepare for World Cup penalty drama: confidence, composure and consultants",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usmnt-prepare-world-cup-penalty-231327146.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:48:54 +0000",
-      "teams": []
     }
   ]
 }
