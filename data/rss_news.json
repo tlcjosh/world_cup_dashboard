@@ -1,6 +1,456 @@
 {
-  "asOf": "2026-07-05T17:51:41.724Z",
+  "asOf": "2026-07-05T19:09:22.928Z",
   "items": [
+    {
+      "headline": "🚨 Cristiano Ronaldo confirms 2026 World Cup will be his last",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-confirms-2026-world-190000693.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 19:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Brazil vs Norway Lineups – Bologna’s Heggem and Juventus target Sorloth face star studded Brazil side",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-brazil-vs-185500752.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:55:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "CR7 challenges Brazilian journalist: he doesn't like me 🎥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cr7-challenges-brazilian-journalist-doesnt-185300514.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:53:00 +0000",
+      "teams": [
+        "Brazil",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Brazil v Norway: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/brazil-v-norway-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 18:50:27 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Mbappé Favored to Win Player of the Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:48:21 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:47:24 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Which Nations Are Favored To Reach Semifinals?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:45:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Is Brazil vs Norway on TV? Channel, kick-off time and how to watch World Cup fixture",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-vs-norway-tv-channel-075815010.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:44:02 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:43:54 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/salah-73.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:39:27 -0400",
+      "teams": []
+    },
+    {
+      "headline": "🚨 Brazil v Norway: the official line-ups!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-v-norway-official-line-183700788.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:37:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Mbappé Favored In Historic Golden Boot Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian-616.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:36:29 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Remain Favorites",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:35:27 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo praises Lamine Yamal ahead of World Cup showdown: &#8216;Has a bright future&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-praises-lamine-yamal-183500625.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:35:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Balogun no isolated case! How FIFA 'distorted' a 1962 World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/balogun-no-isolated-case-fifa-183400661.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:34:00 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Balogun Back; USA Favored Over Belgium In Round Of 16",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 14:32:23 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Sunday include Brazil, Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-sunday-include-brazil-mexico/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/84f5cf3a-98ca-406f-9442-6a3375564672/mexico-soccer.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:30:56 +0000",
+      "teams": [
+        "Mexico",
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Norway vs. Brazil prediction, picks, odds, betting preview, start time for 2026 World Cup match on Sunday",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/norway-vs-brazil-prediction-picks-odds-betting-preview-start-time-for-2026-world-cup-match-on-sunday/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/9d2298d8-6bf5-4321-a49e-4a7f282ed70f/brazilcunha.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:30:32 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "World Cup emerging star gains ground as target for Real Madrid after Enzo Fernandez ruled out",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-emerging-star-gains-183000888.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "📋 Brazil line-up named to face Norway in the Cup last 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-named-face-norway-copa-183000020.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:30:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Sunday best bets feature Mexico's Raul Jimenez",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-sunday-best-bets-feature-mexicos-raul-jimenez/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/68dc3d8c-9dea-41f7-9257-8ec263bef5a5/jimenez.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:27:43 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Brazil vs. Norway odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/brazil-norway-odds-prediction-time-2026-world-cup-round-16-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/dcbf8fff-70fb-4910-ae51-a725404b4d01/eling-haaland-norway-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:15:36 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "USA striker Balogun's one-game ban suspended by Fifa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-striker-baloguns-one-game-171536135.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:04:30 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-offers-stay-catch-england-104606788.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:03:03 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff2/live/aa7d0530-7738-11f1-86a5-f1785a468aa8.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 18:02:58 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Gavi talks Lamine, Messi, Alvarez, Oyarzabal, World Cup: &#8216;Even at 60%, he&#8217;s still the best&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gavi-talks-lamine-messi-alvarez-180000999.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 18:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Report: Newcastle exodus set to continue as rivals prepare second bid for World Cup ace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-newcastle-exodus-set-continue-175000048.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 17:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mexico vs. England live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/mexico-vs-england-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/f2fa5726-2dde-4a07-a418-626c3d403008/mexico-jimenez-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 17:48:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
     {
       "headline": "Folarin Balogun red card extraordinarily wiped by Fifa in huge World Cup boost for USA",
       "links": {
@@ -52,21 +502,6 @@
       ]
     },
     {
-      "headline": "USA striker Balogun's one-game ban suspended by Fifa",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-striker-baloguns-one-game-171536135.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 17:31:28 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
       "headline": "Serie A winger has the perfect opportunity to impress Barcelona during Spain vs Portugal",
       "links": {
         "web": {
@@ -82,7 +517,7 @@
       ]
     },
     {
-      "headline": "🚨 FIFA overturn Balogun's red card, Trump intervention?",
+      "headline": "🚨 FIFA overturns Balogun red card, White House reportedly intervened",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/fifa-overturns-folarin-baloguns-red-172400209.html"
@@ -116,7 +551,7 @@
       ]
     },
     {
-      "headline": "USA striker Balogun's one-game ban suspended by Fifa",
+      "headline": "Trump thanks Fifa after USA striker Balogun's ban suspended",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss"
@@ -505,43 +940,6 @@
       "pubDate": "Sun, 05 Jul 2026 14:45:00 +0000",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Sunday include Brazil, Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-sunday-include-brazil-mexico/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/84f5cf3a-98ca-406f-9442-6a3375564672/mexico-soccer.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:42:18 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Sunday best bets feature Mexico's Raul Jimenez",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-sunday-best-bets-feature-mexicos-raul-jimenez/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/68dc3d8c-9dea-41f7-9257-8ec263bef5a5/jimenez.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:37:49 +0000",
-      "teams": [
-        "Mexico"
       ]
     },
     {
@@ -1272,25 +1670,6 @@
       ]
     },
     {
-      "headline": "Norway vs. Brazil prediction, picks, odds, betting preview, start time for 2026 World Cup match on Sunday",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/norway-vs-brazil-prediction-picks-odds-betting-preview-start-time-for-2026-world-cup-match-on-sunday/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/9d2298d8-6bf5-4321-a49e-4a7f282ed70f/brazilcunha.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 09:00:42 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
       "headline": "England at the Azteca Stadium: a potted history – in pictures",
       "links": {
         "web": {
@@ -1526,21 +1905,6 @@
       "teams": [
         "Paraguay",
         "France"
-      ]
-    },
-    {
-      "headline": "Is Brazil vs Norway on TV? Channel, kick-off time and how to watch World Cup fixture",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-vs-norway-tv-channel-075815010.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 07:58:15 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
       ]
     },
     {
@@ -3621,26 +3985,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: USA-Belgium Round Of 16 Match Lands As Pick 'Em",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/d7fa6da9-artboard-1t-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 12:03:27 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
       "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Canada's Jonathan David featured in Saturday best bets",
       "links": {
         "web": {
@@ -3783,40 +4127,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Ball: Mbappé Favored to Win Player of the Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:49:34 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Messi Favored Over Mbappé In Historic Golden Boot Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284544474-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:46:37 -0400",
-      "teams": []
-    },
-    {
       "headline": "Real Madrid midfielder to be out for four days after fresh knock at the World Cup",
       "links": {
         "web": {
@@ -3832,57 +4142,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-lead-race-reach-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:43:53 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Which Nations Are Favored To Reach Semifinals?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:40:14 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/vini-61.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:36:12 -0400",
-      "teams": []
-    },
-    {
       "headline": "Barcelona new signing pushes for start with England at World Cup after decisive impact in Ro32 clash",
       "links": {
         "web": {
@@ -3896,22 +4155,6 @@
         "Mexico",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/salah-73.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:29:49 -0400",
-      "teams": []
     },
     {
       "headline": "World Cup 2026: England get hostile reception in Mexico City as last 16 begins; Cape Verde give huge scare to Argentina – live",
@@ -3953,25 +4196,6 @@
       "teams": [
         "Canada",
         "Morocco"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: France Favored; Argentina Rises After Close Call",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:25:57 -0400",
-      "teams": [
-        "France",
-        "Argentina"
       ]
     },
     {
@@ -8357,21 +8581,6 @@
       ]
     },
     {
-      "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bbc-offers-stay-catch-england-104606788.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 10:56:13 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "Cristiano Ronaldo pays tribute to Diogo Jota after Portugal&#8217;s World Cup win",
       "links": {
         "web": {
@@ -8398,25 +8607,6 @@
       "teams": [
         "Spain",
         "Austria"
-      ]
-    },
-    {
-      "headline": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff2/live/aa7d0530-7738-11f1-86a5-f1785a468aa8.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 03 Jul 2026 10:39:10 GMT",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -15849,212 +16039,6 @@
         "Belgium",
         "Senegal",
         "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "It's not coming home yet: How England's World Cup runs have ended by bad luck, bad play and the Hand of God",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/its-not-coming-home-yet-how-englands-world-cup-runs-have-ended-by-bad-luck-bad-play-and-the-hand-of-god-043032781.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:30:32 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: Memorable Night In Mexico; Mbappé, Haaland Stay Hot",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-norway-mexico-france-june-30"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/f9303aa2-mexico1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:27:07 -0400",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "🎥 Copa round-of-32 Tuesday, Europeans on the attack, Mexican party",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/copa-round-32-tuesday-europeans-042300893.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:23:00 +0000",
-      "teams": [
-        "Mexico",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "🙌The star of this World Cup: Julián Quiñones makes history with Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/star-world-cup-juli-n-041400350.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:14:00 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "🚨 Mexico see off Ecuador and book their place in the last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-see-off-ecuador-book-041300524.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:13:00 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Mexico end World Cup knockout drought with last-32 win over Ecuador in Azteca cauldron",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/mexico-ecuador-world-cup-2026-last-32-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 04:09:56 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Who Is Mexico's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/who-is-mexicos-next-world-cup-opponent-el-tris-path-to-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/81e984f6-mexico2-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 00:02:08 -0400",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Mexico's strong start buoys 2-0 win over Ecuador to move on to Round of 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-mexicos-strong-start-buoys-2-0-win-over-ecuador-to-move-on-to-round-of-16-040131305.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:01:31 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "'The Azteca erupts!' Quinones fires Mexico into lead",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c8j2xwlgxzeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67ae/live/d92b7730-74f5-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 04:01:24 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "¡Arriba Mexico! Hosts dominate, dump out Ecuador and advance! 🎥",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/come-mexico-hosts-dominate-dump-040100707.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 04:01:00 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Ecuador",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Who is Gilberto Mora? Mexico’s 17-year-old starlet shines in World Cup win against Ecuador",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/gilberto-mora-mexico-17-old-035633272.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 03:56:33 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Right-backs Quansah and James out of DR Congo game",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-backs-quansah-james-miss-185732577.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 03:30:56 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Tuchel will stick to Southgate's penalty plan",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-stick-southgates-penalty-plan-014936690.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 03:30:56 +0000",
-      "teams": [
         "England"
       ]
     }
