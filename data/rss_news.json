@@ -1,6 +1,409 @@
 {
-  "asOf": "2026-07-05T05:45:21.395Z",
+  "asOf": "2026-07-05T08:33:49.644Z",
   "items": [
+    {
+      "headline": "England enter the Azteca - where football kings are crowned",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edb6/live/70f0d6f0-7627-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 08:26:39 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "RFEF President Rafael Louzan: &#8216;The 2030 World Cup final has to be at Camp Nou or the Bernabeu&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rfef-president-rafael-louzan-2030-082500905.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 08:25:00 +0000",
+      "teams": [
+        "Morocco",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Mexico v England buildup, France battle past Paraguay, Morocco march on – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/world-cup-2026-live-last-16-concludes-morocco-france-paraguay"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 08:23:22 GMT",
+      "teams": [
+        "Mexico",
+        "Morocco",
+        "Paraguay",
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unbeaten-34-matches-why-morocco-212031797.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 08:18:20 +0000",
+      "teams": [
+        "Canada",
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Mexico return luxury watches gifted by YouTuber",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-return-luxury-watches-gifted-075955554.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 08:17:28 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona ace Gavi defends Cristiano Ronaldo ahead of Spain vs Portugal: &#8216;One of the best in history&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-ace-gavi-defends-cristiano-081000115.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 08:10:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "📸 Paraguay keeper tears into Mbappé's attitude 🤯",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguay-goalkeeper-blasts-mbapp-attitude-080100467.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 08:01:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Is Brazil vs Norway on TV? Channel, kick-off time and how to watch World Cup fixture",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-vs-norway-tv-channel-075815010.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:58:15 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Mexico return luxury watches gifted by YouTuber",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyrpy3kn9po?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67be/live/95c1a080-7844-11f1-b976-0b9c15b0ccfc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 07:57:34 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid World Cup Spotlight: Mbappe on target as France beat Paraguay, Brahim shines for Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-075500347.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:55:00 +0000",
+      "teams": [
+        "Canada",
+        "Morocco",
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Barcelona World Cup Spotlight: Kounde solid and steady as France beat Paraguay",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-world-cup-spotlight-kounde-075000892.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:50:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "France find a way past Paraguay and what awaits England in Mexico? | World Cup Daily – video",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jul/05/france-paraguay-england-mexico-world-cup-daily-podcast-video"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 07:49:38 GMT",
+      "teams": [
+        "Mexico",
+        "Paraguay",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Morocco & France set up quarter-final tie before England play Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-morocco-france-062503723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:48:47 +0000",
+      "teams": [
+        "Mexico",
+        "Morocco",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "England can survive complication and mayhem in Mexico with one vital change",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-survive-complication-mayhem-mexico-074700522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:47:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🥐☕️ FC breakfast: Mbappé >>> CR7, Vozinha... too 🤔",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fc-breakfast-mbapp-cr7-vozinha-074200242.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:42:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "What is Mexico City weather forecast for England’s World Cup clash at the Azteca?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-city-weather-forecast-england-200758992.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:41:17 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Ancelotti confirms Raphinha will return for Brazil vs Norway: &#8216;Not quite at 100%, but he’s available&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ancelotti-confirms-raphinha-return-brazil-073000906.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:30:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🥐Oyarzabal and Barça, Klopp and Germany... the day's 5️⃣ stories",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/oyarzabal-bar-klopp-germany-days-071400112.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 07:14:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Luis de la Fuente: ‘I say this with the greatest respect: we have the best midfield in the world’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/luis-de-la-fuente-spain-world-cup-2026-lamine-yamal"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 07:00:21 GMT",
+      "teams": [
+        "United States",
+        "Spain",
+        "Cape Verde Islands",
+        "Argentina",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Lionel Messi and football’s ageless wonders can excel into their 40s | Emma Hayes",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/lionel-messi-ageless-wonders-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 07:00:20 GMT",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Football is at the centre of the universe in Brazil in a way it is not in the US | Rodrygo",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/05/football-centre-of-universe-brazil-not-in-us"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 05 Jul 2026 07:00:20 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Nelson Semedo wary of Lamine Yamal&#8217;s quality ahead of Spain vs Portugal: &#8216;He&#8217;s a gem and could prove decisive&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nelson-semedo-wary-lamine-yamal-065000588.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 06:50:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Defeated at the World Cup, Teams Sometimes Face Abuse and Violence",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/03/sports/soccer/world-cup-fans-anger.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 05 Jul 2026 06:32:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Brahim Diaz looking forward to working with Mourinho at Real Madrid: &#8216;I&#8217;m very excited&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brahim-diaz-looking-forward-working-062000778.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 06:20:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Report: Liverpool must pay huge price tag to sign World Cup midfielder",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-liverpool-must-pay-huge-055500466.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 05:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 28",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx21k039r7qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97a1/live/51487170-6b94-11f1-8e1d-bbbb1017d210.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 05 Jul 2026 05:46:18 GMT",
+      "teams": []
+    },
     {
       "headline": "Reece James doubtful for England’s crunch World Cup clash with Mexico",
       "links": {
@@ -963,21 +1366,6 @@
       ]
     },
     {
-      "headline": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unbeaten-34-matches-why-morocco-212031797.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:29:50 +0000",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
       "headline": "Canada's Jesse Marsch After Morocco Loss: 'I’d Rather Be Us Than Them'",
       "links": {
         "web": {
@@ -1279,21 +1667,6 @@
         "Morocco",
         "Paraguay",
         "France"
-      ]
-    },
-    {
-      "headline": "What is Mexico City weather forecast for England’s World Cup clash at the Azteca?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-city-weather-forecast-england-200758992.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 19:40:38 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -4439,18 +4812,6 @@
         "Cape Verde Islands",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Defeated at the World Cup, Teams Sometimes Face Abuse and Violence",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/03/sports/soccer/world-cup-fans-anger.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 04 Jul 2026 00:55:52 +0000",
-      "teams": []
     },
     {
       "headline": "Did debutants Cabo Verde deliver the moment of the World Cup? 🤯",
@@ -15758,377 +16119,6 @@
         "Brazil",
         "Ivory Coast",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Ecuador make Mexico fans hotel noise complaint",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ecuador-mexico-fans-hotel-noise-193058393.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:30:58 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Ecuador make Mexico fans hotel noise complaint",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/clyrgng719eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2058/live/5f9b81a0-74b7-11f1-8572-b986307331bd.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 19:30:52 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Harry Kane, Jude Bellingham have England dreaming of a World Cup title",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/harry-kane-jude-bellingham-have-england-dreaming-of-a-world-cup-title-193005114.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:30:05 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Erling Haaland Hits Game-Winner As Norway Wins 1st World Cup Knockout Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/norway-first-world-cup-knockout-stage-win-erling-haaland-ivory-coast"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/erling1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:25:44 -0400",
-      "teams": [
-        "Norway"
-      ]
-    },
-    {
-      "headline": "📲 Hoodoo fears? Social media reacts to Brazil v Norway at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-hoodoo-worries-social-reaction-191600797.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:16:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Erling Haaland sends Norway into last-16 against Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-191500268.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:15:00 +0000",
-      "teams": [
-        "Brazil",
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Mexico Fans Blast Horns Outside Ecuador's Hotel Ahead Of Round Of 32 Game",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/other/mexican-fans-blast-horns-outside-ecuadors-hotel-fueling-a-sleepless-night-at-the-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mex-fans.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:06:58 -0400",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Who Is Norway's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/who-norway-next-world-cup-opponent"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/norway_horizontal.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 30 Jun 2026 15:05:40 -0400",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "France vs. Sweden odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 10-5 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-sweden-odds-prediction-betting-line-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/57216adc-e75c-467f-b40c-8232d34ebd59/kylian-mbappe-france-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:05:17 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Erling Haaland's late goal lifts Norway over Ivory Coast and into the Round of 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-erling-haalands-late-goal-lifts-norway-over-ivory-coast-and-into-the-round-of-16-190435588.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 19:04:35 +0000",
-      "teams": [
-        "Brazil",
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Brazil's last-16 rivals for 2026 set; have your say",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazils-last-16-rival-2026-185800045.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 18:58:00 +0000",
-      "teams": [
-        "Brazil",
-        "United States",
-        "Ivory Coast",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Iran hit out at ‘lies and mistreatment’ following US official’s joy at team’s exit",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/markwayne-mullin-iran-soccer-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 18:48:03 GMT",
-      "teams": [
-        "Mexico",
-        "Egypt",
-        "Iran"
-      ]
-    },
-    {
-      "headline": "Is France vs Sweden on TV? Channel, kick-off and how to watch World Cup last-32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-vs-sweden-tv-channel-085947764.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 18:38:17 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Bigger than Rumble in the Jungle? DR Congo bid for World Cup history",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn8k75j9epzo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cae/live/06bd0c20-74a3-11f1-b1db-af71d47507d6.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 30 Jun 2026 18:26:34 GMT",
-      "teams": [
-        "Congo DR"
-      ]
-    },
-    {
-      "headline": "EXCLUSIVE | Stefan Schwarz: &#8216;Sweden have the attacking ability to put pressure on the French defence&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/exclusive-stefan-schwarz-sweden-attacking-182000012.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 18:20:00 +0000",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal talks Pedri, Rodri, World Cup, fitness: &#8216;I&#8217;m ready for 90 minutes&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lamine-yamal-talks-pedri-rodri-180000507.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 18:00:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Côte d’Ivoire v Norway: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jun/30/cote-divoire-v-norway-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 17:56:29 GMT",
-      "teams": [
-        "Germany",
-        "Ivory Coast",
-        "Ecuador",
-        "France",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "World Cup: Mexico fans make excessive noise outside Ecuador's hotel to prevent team from sleeping before match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-mexico-fans-make-excessive-noise-outside-ecuadors-hotel-to-prevent-team-from-sleeping-before-match-173717771.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 17:37:17 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Mourinho expected to hand Jude Bellingham familiar role at Real Madrid",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mourinho-expected-hand-jude-bellingham-173000937.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 17:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Reece James and Jarell Quansah miss England training on eve of DR Congo World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/reece-james-jarell-quansah-miss-172330132.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 17:23:30 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Why doubts remain if 'world No 1' will remain Villa's No 1",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-doubts-remain-world-no-170431851.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 17:04:31 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Journalist: Liverpool have already held &#8216;positive talks&#8217; to sign World Cup star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/journalist-liverpool-already-held-positive-165500544.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 30 Jun 2026 16:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Football Daily | What next for Germany as Paraguay and penalties fuel more World Cup pain?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jun/30/what-next-for-germany-as-paraguay-and-penalties-fuel-more-world-cup-pain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 30 Jun 2026 16:48:34 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany",
-        "Iran",
-        "Uruguay",
-        "Portugal",
-        "England",
-        "Croatia"
       ]
     }
   ]
