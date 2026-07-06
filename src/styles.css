@@ -346,6 +346,7 @@ body {
 .score-col {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   flex-shrink: 0;
+  position: relative;
 }
 
 .score {
@@ -357,6 +358,9 @@ body {
 
 .score-sub {
   font-size: 10px; font-weight: 600; letter-spacing: .02em;
+  position: absolute;
+  top: 100%;
+  margin-top: 4px;
   white-space: nowrap;
 }
 
@@ -365,28 +369,13 @@ body {
 .score-sub.vs   { font-size: 12px; color: var(--ink-3); font-weight: 400; }
 .score.vs       { font-size: 16px; color: var(--ink-3); font-weight: 400; }
 
-/* Real (non-absolutely-positioned) row under .match-teams, mirroring its 3-column
-   layout, so the clock and any "N men" red-card tags sit in true document flow —
-   properly pushing .match-events/.match-stats down instead of overlapping them,
-   and landing on the same line as each other since they're grid siblings. */
-.match-subrow {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: start;
-  gap: 0 16px;
-  padding: 0 0 4px;
-}
-
-.man-down-cell { min-width: 0; }
-.man-down-cell.home { text-align: right; padding-right: 4px; }
-.man-down-cell.away { text-align: left; padding-left: 4px; }
-.clock-cell { text-align: center; }
-
-.man-down {
-  font-size: 9px; font-weight: 700; letter-spacing: .02em;
-  color: var(--red); opacity: .85;
-  text-transform: uppercase;
-  white-space: nowrap;
+/* Red-card indicator: same corner-badge treatment as the clinch-dot used in
+   Standings/Bracket (pinned to a team's flag via .team-flag-wrap), just larger and
+   red so a 2-digit "players remaining" count still fits legibly. */
+.clinch-dot.man-down {
+  width: 14px; height: 14px;
+  font-size: 8px;
+  background: var(--red);
 }
 
 /* Match headline (ESPN recap summary) */
