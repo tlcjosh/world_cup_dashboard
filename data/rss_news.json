@@ -1,6 +1,55 @@
 {
-  "asOf": "2026-07-06T19:18:48.393Z",
+  "asOf": "2026-07-06T21:07:43.737Z",
   "items": [
+    {
+      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spain-quarters.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:02:55 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Spain scores in stoppage time to defeat Portugal, potentially end Cristiano Ronaldo's World Cup career",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/article/spain-scores-in-stoppage-time-to-defeat-portugal-potentially-end-cristiano-ronaldos-world-cup-career-210221723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 21:02:21 +0000",
+      "teams": [
+        "United States",
+        "Belgium",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812576-1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:02:00 -0400",
+      "teams": []
+    },
     {
       "headline": "Portugal v Spain: World Cup 2026 last 16 – live",
       "links": {
@@ -10,11 +59,205 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 19:12:43 GMT",
+      "pubDate": "Mon, 06 Jul 2026 20:58:13 GMT",
       "teams": [
         "Spain",
         "Portugal",
         "England"
+      ]
+    },
+    {
+      "headline": "Aurélien Tchouaméni likely to miss France&#8217;s World Cup quarter-final against Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/aur-lien-tchouam-ni-likely-204000430.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 20:40:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Is USA vs Belgium on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-vs-belgium-tv-channel-051638645.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 20:16:19 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USA vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usa-belgium-odds-prediction-line-start-time-2026-world-cup-round-of-16-picks-with-folarin-balogun-playing/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/80d621ff-8413-4dfb-acc9-9619c51d675e/folarin-balogun-usmnt-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 20:15:35 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:55:30 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:52:47 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Trump, Fifa and Balogun: The World Cup controversy explained",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-fifa-balogun-world-cup-190446644.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:51:12 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "📸 In his final World Cup match! CR7 spurns huge chance v Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/not-last-match-cr7-misses-194900682.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:49:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 18-7 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-odds-prediction-time-line-2026-world-cup-round-of-16-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/c3fbece1-985b-4f50-a798-f8e353348ddb/usmnt-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:45:40 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "After a year of ICE raids, Southern California finds joy in Mexico's World Cup run",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexicos-world-cup-run-brought-052906092.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:35:58 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "British PM Keir Starmer pushed to keep England's World Cup win over Mexico from being moved up earlier in the day",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/british-pm-keir-starmer-pushed-to-keep-englands-world-cup-win-over-mexico-from-being-moved-up-earlier-in-the-day-192930814.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:29:30 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina vs. Egypt odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 18-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-egypt-odds-prediction-time-2026-world-cup-round-of-16-picks-messi-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/81315629-ade4-4708-af70-1e6fcd1e1937/lionel-messi-argentina-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:23:39 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Germany U19 secure European Championship semi-final spot and World Cup ticket",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/germany-u19-secure-european-championship-191500723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:15:00 +0000",
+      "teams": [
+        "Germany"
       ]
     },
     {
@@ -65,21 +308,6 @@
       ]
     },
     {
-      "headline": "Trump, FIFA and Balogun: The World Cup controversy explained",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-fifa-balogun-world-cup-190446644.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 19:04:46 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
       "headline": "2026 World Cup Golden Glove: Mike Maignan Favored, Jordan Pickford Rising",
       "links": {
         "web": {
@@ -109,20 +337,6 @@
       "pubDate": "Mon, 06 Jul 2026 18:55:00 +0000",
       "teams": [
         "Croatia"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:52:18 +0000",
-      "teams": [
-        "Jordan"
       ]
     },
     {
@@ -715,22 +929,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812576-1-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:33:29 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup Odds: Haaland Skyrockets In Historic Golden Boot Race",
       "links": {
         "web": {
@@ -966,28 +1164,6 @@
         "Mexico",
         "Jordan",
         "England"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 15:17:11 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "Portugal"
       ]
     },
     {
@@ -1416,21 +1592,6 @@
       "teams": [
         "Mexico",
         "England"
-      ]
-    },
-    {
-      "headline": "Is USA vs Belgium on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-vs-belgium-tv-channel-051638645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:30:48 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
       ]
     },
     {
@@ -2049,21 +2210,7 @@
       ]
     },
     {
-      "headline": "How Mexico's World Cup run brought joy after a year of fear",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexicos-world-cup-run-brought-052906092.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 05:29:06 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "How Mexico's World Cup run brought joy after a year of fear",
+      "headline": "After a year of ICE raids, Southern California finds joy in Mexico's World Cup run",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cx2wwdn6n15o?at_medium=RSS&at_campaign=rss"
@@ -2479,22 +2626,6 @@
         "Mexico",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/jude-bellingham.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:08:06 -0400",
-      "teams": []
     },
     {
       "headline": "England’s 10 men hang on after Kane penalty to beat Mexico in World Cup thriller",
@@ -15846,121 +15977,6 @@
       "teams": [
         "Spain",
         "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: guide to all 1,248 players",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 08:59:35 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Thibaut Courtois compares Belgium comeback to Real Madrid mentality: &#8216;Have experienced that many times&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thibaut-courtois-compares-belgium-comeback-082000489.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 08:20:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Resilience, Belief And 'Steely Focus': How USA Weathered Storm For Gritty World Cup Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/resilience-belief-steely-focus-how-usa-weathered-storm-gritty-world-cup-win"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ream1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 04:09:15 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Your World Cup scouting: Moroccan midfielders and French forwards",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-scouting-moroccan-midfielders-080521096.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 08:05:21 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Madrid World Cup Spotlight: Thibaut Courtois and Belgium survive by the skin of their teeth against Senegal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/madrid-world-cup-spotlight-thibaut-080000994.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 08:00:00 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Barca World Cup Spotlight: Anthony Gordon dazzles for England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barca-world-cup-spotlight-anthony-080000826.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 08:00:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Your World Cup scouting: American attackers and Swiss starlets",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-scouting-american-attackers-074209027.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:42:09 +0000",
-      "teams": [
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Brighton to land Vuskovic",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brighton-land-vuskovic-054556421.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:23:19 +0000",
-      "teams": [
-        "Croatia"
       ]
     }
   ]
