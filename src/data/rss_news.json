@@ -1,6 +1,339 @@
 {
-  "asOf": "2026-07-05T23:45:43.980Z",
+  "asOf": "2026-07-06T01:28:59.729Z",
   "items": [
+    {
+      "headline": "Mexico v England: World Cup 2026 last 16 updates – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 01:26:38 GMT",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Before Balogun: Meet The Only Other Player To Have A World Cup Red Card Rescinded",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/before-balogun-meet-only-other-player-have-world-cup-red-card-rescinded"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/brazil1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:23:10 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Erling Haaland Powers Norway Past Brazil In World Cup Win: 'Maybe This Will Write History'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-powers-norway-past-brazil-world-cup-win-maybe-will-write-history"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16693a7a-norway1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:06:03 -0400",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "📹 Casemiro in tears, Vini apologises and more after the exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/casemiro-tears-vini-apologises-more-010400823.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 01:04:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "England vs Mexico referee: Who is World Cup 2026 official Alireza Faghani?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-vs-mexico-referee-world-222349098.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 01:02:55 +0000",
+      "teams": [
+        "Mexico",
+        "Australia",
+        "England"
+      ]
+    },
+    {
+      "headline": "The man no-one wants to face - Haaland fires Norway to history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-no-one-wants-face-005758377.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:57:58 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "The man no-one wants to face - Haaland fires Norway to history",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ce/live/6e68af30-78c9-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 00:57:52 GMT",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "The lesser-known players making waves at the 2026 World Cup so far",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lesser-known-players-making-waves-005734212.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:57:34 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ageing Brazil need major surgery - but is Ancelotti the man to do it?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ageing-brazil-major-surgery-ancelotti-005334045.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:53:34 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Ageing Brazil need major surgery - but is Ancelotti the man to do it?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c20yywnqwl5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85df/live/039bc9d0-78d3-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 00:51:36 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "'Sportsmanship in question' after decision to suspend Balogun red card",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cp8rr2px3rwo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3319/live/02c048d0-78d1-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 00:38:09 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Mexico v England kick-off time delayed as World Cup last 16 tie hit by ‘severe weather’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-v-england-kick-off-231247306.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:22:03 +0000",
+      "teams": [
+        "Mexico",
+        "Brazil",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 World Cup highlights: brilliant Haaland sends Brazil out",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-highlights-brilliant-haaland-002000426.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:20:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "USA-Belgium Is The World Cup Game Mauricio Pochettino Was Hired To Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-belgium-world-cup-mauricio-pochettino"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/poch1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 20:17:59 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "🔄 Fresh start: after being knocked out, when Brazil play again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fresh-start-exit-brazil-next-001700668.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:17:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "United States vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/united-states-belgium-odds-prediction-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/c8372442-84c4-4734-85ad-c47d21709ba6/falonrin-balogun-usa-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:15:02 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "How 'remarkable' Haaland lead Norway to win over Brazil",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c6211d0vzm3o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3020/live/2a69aa00-78ce-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 00:13:36 GMT",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Unstoppable Erling Haaland drums out Brazil as Norway write World Cup history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unstoppable-erling-haaland-drums-brazil-224800243.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:12:01 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Norway boss tears into Fifa over ‘big mistake’ to overturn Folarin Balogun’s red card at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-boss-tears-fifa-over-001009114.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 00:10:09 +0000",
+      "teams": [
+        "Belgium",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks via expert on 16-6 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-time-2026-world-cup-round-16-picks-soccer-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/1f9fe15c-51f8-4879-8b7f-2fd8fff155aa/harry-kane-england-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:59:51 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
     {
       "headline": "How to Watch Mexico vs. England: TV Channel, Live Stream, Time",
       "links": {
@@ -24,6 +357,51 @@
       "headline": "England's match with Mexico delayed by an hour",
       "links": {
         "web": {
+          "href": "https://sports.yahoo.com/articles/englands-match-mexico-delayed-hour-231836955.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:43:09 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mexico-England World Cup matchup delayed due to thunderstorms",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/mexico-england-world-cup-matchup-delayed-due-to-thunderstorms-234247078.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:42:47 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 After World Cup exit to Norway: Neymar retires from Brazil!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-exit-norway-neymar-233600393.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:36:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "England's match with Mexico delayed by an hour",
+      "links": {
+        "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c78yy4x7n5jo?at_medium=RSS&at_campaign=rss"
         }
       },
@@ -36,37 +414,6 @@
       "pubDate": "Sun, 05 Jul 2026 23:35:38 GMT",
       "teams": [
         "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "England's match with Mexico delayed by an hour",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-match-mexico-delayed-hour-231836955.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:30:26 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mexico v England: World Cup 2026 last 16 kick-off time delayed by an hour – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 23:29:07 GMT",
-      "teams": [
-        "Mexico",
-        "Norway",
         "England"
       ]
     },
@@ -86,7 +433,7 @@
       ]
     },
     {
-      "headline": "🚨 Confirmed by FIFA: Mexico v England postponed!",
+      "headline": "🚨 FIFA confirm, Mexico v England kicks off late!",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/confirmed-fifa-mexico-v-england-232600697.html"
@@ -131,23 +478,6 @@
       "pubDate": "Sun, 05 Jul 2026 19:17:30 -0400",
       "teams": [
         "Brazil"
-      ]
-    },
-    {
-      "headline": "Mexico v England kick-off time delayed as World Cup last 16 tie hit by ‘severe weather’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-v-england-kick-off-231247306.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:12:47 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "England"
       ]
     },
     {
@@ -337,21 +667,6 @@
       "pubDate": "Sun, 05 Jul 2026 22:55:27 GMT",
       "teams": [
         "Ghana"
-      ]
-    },
-    {
-      "headline": "Unstoppable Erling Haaland drums out Brazil as Norway write new World Cup history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unstoppable-erling-haaland-drums-brazil-224800243.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:53:36 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
       ]
     },
     {
@@ -569,6 +884,20 @@
       ]
     },
     {
+      "headline": "Neymar announces retirement from international soccer after Brazil crashes out of World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/neymar-announces-retirement-from-international-soccer-after-brazil-crashes-out-of-world-cup-222830558.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:28:30 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
       "headline": "Haaland double fires Norway into World Cup quarter-finals",
       "links": {
         "web": {
@@ -664,7 +993,6 @@
       "pubDate": "Sun, 05 Jul 2026 22:15:11 GMT",
       "teams": [
         "Brazil",
-        "United States",
         "Norway"
       ]
     },
@@ -3925,22 +4253,6 @@
       "teams": [
         "Canada",
         "Morocco"
-      ]
-    },
-    {
-      "headline": "England vs Mexico referee: Who is World Cup 2026 official Alireza Faghani?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-vs-mexico-referee-world-222349098.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 22:23:49 +0000",
-      "teams": [
-        "Mexico",
-        "Australia",
-        "England"
       ]
     },
     {
@@ -15692,333 +16004,6 @@
       "teams": [
         "Congo DR",
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup picks, odds: USA vs. Bosnia and Herzegovina predictions, best bets by expert on 25-15 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-picks-odds-to-advance-usa-bosnia-and-herzegovina-predictions-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/c8372442-84c4-4734-85ad-c47d21709ba6/falonrin-balogun-usa-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 16:32:16 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "'Wonderful finish' - Cipenga gives DR Congo shock lead against England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cjdg9vp3m1po?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/841d/live/042dc3c0-7569-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 16:30:09 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Bosnia and Herzegovina odds, prediction: 2026 World Cup Round of 32 picks by expert on 12-5 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-line-prediction-start-time-2026-world-cup-round-of-32-picks-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/4e76abc7-eb02-41ea-af99-65f19e873208/christian-pulisic-usmnt-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 16:08:04 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "USA vs. Bosnia And Herzegovina Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-vs-bosnia-herzegovina-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283368306-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 12:00:26 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Brighton agree £50m deal for Spurs’ Vuskovic, Liverpool seal Jacquet signing",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/liverpool-sign-jeremy-jacquet-rennes"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 15:56:18 GMT",
-      "teams": [
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "‘An artist who captures hearts’: France is falling in love with Michael Olise",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/michael-olise-artist-hearts-france-love-world-cup-bayern-munich"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 15:55:13 GMT",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Wednesday include England, USA",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-wednesday-include-england-usa/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/30/a318dd67-8fdf-45d3-a395-ac612d89e81d/christian-pulisic-usmnt-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:23:13 +0000",
-      "teams": [
-        "United States",
-        "England"
-      ]
-    },
-    {
-      "headline": "England vs. Congo DR odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 12-5 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-congo-dr-odds-prediction-line-start-time-2026-world-cup-round-of-32-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/6799f4ce-22c2-4970-ae10-e69e3373e60d/harry-kane-england-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:20:54 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to watch England vs DR Congo: TV channel, start time and how to stream World Cup last-32 clash online",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-england-vs-dr-congo-061945550.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:18:08 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Concern over rise in online racist abuse at World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c1dy61921kko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4075/live/85167360-755f-11f1-bd47-e1ebd62de3b7.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 15:16:29 GMT",
-      "teams": []
-    },
-    {
-      "headline": "How Jude Bellingham became England’s very un-English superstar",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-became-england-very-204121357.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:14:55 +0000",
-      "teams": [
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "Belgium vs. Senegal odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 12-5 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/belgium-senegal-odds-prediction-time-2026-world-cup-round-of-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/8996c140-160d-430e-abda-74aaf79cc28e/usatsi-29282241-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:07:36 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Why Are So Many Players Wearing Pink Cleats At The World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-pink-shoes-cleats"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/41cdc44c-41cdc44c-c78a86ce-6f62ca8d-gettyimages-2282495481-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 11:03:56 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Weston McKennie meets the moment as USMNT come of age at 2026 FIFA World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/weston-mckennie-meets-the-moment-usmnt-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/8a2f3c79-9e1b-4e37-8ede-86179549eef5/usmnt-mckennie.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:02:24 +0000",
-      "teams": []
-    },
-    {
-      "headline": "USMNT day at the World Cup: How dangerous an opponent is Bosnia? Does Belgium or Senegal loom in quarters?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-day-at-the-world-cup-how-dangerous-an-opponent-is-bosnia-does-belgium-or-senegal-loom-in-quarters/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/a2cdb9c0-73a6-4afa-a56b-4e4c63574f8d/untitled-design-2026-07-01t085003-740.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:02:20 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "USMNT penalty kicks plan: How Mauricio Pochettino prepared for World Cup's ultimate shootout tie-breaker",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-penalty-kicks-mauricio-pochettinos-shootout-world-cup-tie-breaker/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/62668fc2-1ef2-4820-9de2-ffcfb2ac0bef/untitled-design-2026-07-01t091444-715.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:02:15 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Bosnia and Herzegovina live stream: How to watch FIFA World Cup, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-vs-bosnia-and-herzegovina-live-stream-fifa-world-cup-predictions-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/f6c2f6a2-d41f-4af2-b09d-21a19440e802/untitled-design-2026-07-01t095459-356.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 15:02:10 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "It’s Soccer, but Set to Disco. And May the Best Dancers Win.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/06/30/arts/dance/discofoot-soccer-dance-world-cup.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 01 Jul 2026 14:52:48 +0000",
-      "teams": [
-        "United States",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mo Salah stands in Socceroos’ World Cup path as he strives to become Egypt’s greatest | Jack Snape",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/world-cup-mo-salah-egypt-v-australia-socceroos-match"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 14:51:16 GMT",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "New Zealand"
       ]
     }
   ]
