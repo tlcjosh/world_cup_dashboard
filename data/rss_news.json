@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-06T01:28:59.729Z",
+  "asOf": "2026-07-06T03:00:42.173Z",
   "items": [
     {
       "headline": "Mexico v England: World Cup 2026 last 16 updates – live",
@@ -10,11 +10,147 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 01:26:38 GMT",
+      "pubDate": "Mon, 06 Jul 2026 02:56:28 GMT",
       "teams": [
         "Mexico",
         "Norway",
         "England"
+      ]
+    },
+    {
+      "headline": "Norway's historic World Cup journey rows on with \"cheat code\" Erling Haaland leading the charge",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norways-historic-world-cup-journey-025215548.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:52:15 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Watch as 10-man England lead Mexico but under pressure in closing stages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fans-arrive-iconic-azteca-englands-220432249.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:51:08 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Penalty? Red card? Why were they given against England?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27a0/live/bd0bf4b0-78e4-11f1-97ae-b59a76778e79.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 02:50:51 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Kane registers unwanted World Cup record against Mexico 😅",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kane-registers-unwanted-world-cup-024600601.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:46:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Why Jarell Quansah was sent off in England’s World Cup clash with Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-jarell-quansah-sent-off-022337531.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:37:59 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Tyler Adams, the USMNT's unsung hero, knows Americans are chasing history against Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-tyler-adams-the-usmnts-unsung-hero-knows-americans-are-chasing-history-against-belgium-020829293.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:08:29 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Bellingham stuns Mexico to announce World Cup arrival 🔥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bellingham-stuns-mexico-announce-world-020500948.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:05:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "🤯 Bellingham matches Maradona: England star makes history!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bellingham-matches-maradona-england-star-020200504.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:02:00 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "The man no-one wants to face - Haaland fires Norway to history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-no-one-wants-face-005758377.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 01:24:22 +0000",
+      "teams": [
+        "Norway"
       ]
     },
     {
@@ -33,6 +169,21 @@
       "pubDate": "Sun, 05 Jul 2026 21:23:10 -0400",
       "teams": [
         "United States"
+      ]
+    },
+    {
+      "headline": "🤝World-class touch: Vinicius’s heartfelt gesture to Haaland",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-class-touch-vinicius-heartfelt-012300743.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 01:23:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
       ]
     },
     {
@@ -82,20 +233,6 @@
         "Mexico",
         "Australia",
         "England"
-      ]
-    },
-    {
-      "headline": "The man no-one wants to face - Haaland fires Norway to history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-no-one-wants-face-005758377.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 00:57:58 +0000",
-      "teams": [
-        "Norway"
       ]
     },
     {
@@ -418,7 +555,7 @@
       ]
     },
     {
-      "headline": "🚨 Neymar confirms Brazil retirement after World Cup exit",
+      "headline": "Neymar confirms Brazil retirement after World Cup exit",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/neymar-confirms-brazil-retirement-world-232600653.html"
@@ -15863,145 +16000,6 @@
       "pubDate": "Wed, 01 Jul 2026 17:28:12 +0000",
       "teams": [
         "United States",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Belgium vs. Senegal live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/belgium-vs-senegal-live-stream-fifa-world-cup-odds-prediction-pick-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/b84a277a-cc47-4fea-975f-e543581307ad/untitled-design-2026-07-01t132003-589.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:27:06 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Major Elliot Anderson transfer update moments before England vs DR Congo in FIFA World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/major-elliot-anderson-transfer-moments-171000420.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:10:00 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Pulisic. Ream. Who Else? Charting The USA's Penalty Takers At A World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-pks-penalties-pulisic"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/penalty.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 13:06:31 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Shock on the cards? England's first half ends with two wild stats",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/upset-cards-englands-first-half-170600421.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:06:00 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "FEATURE | What we learned from Germany&#8217;s World Cup elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/feature-learned-germany-world-cup-170500832.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:05:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "England booed at World Cup after falling behind to DR Congo in last 32",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-booed-world-cup-falling-163703407.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 16:54:33 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨 England already up against it: two very worrying stats!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-already-against-two-very-164100906.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 16:41:00 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "“To Win A World Cup All Players Have To Feel Part Of The Squad”",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/win-world-cup-players-feel-164000251.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 16:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Are England doomed to World Cup failure after DR Congo opener? 👀",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-doomed-world-cup-failure-163400657.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 16:34:00 +0000",
-      "teams": [
         "Congo DR",
         "England"
       ]

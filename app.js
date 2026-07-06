@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v25.4';
-const APP_UPDATED = '2026-07-01 23:23 UTC';
+const APP_VERSION = 'v26';
+const APP_UPDATED = '2026-07-06 02:57 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1200,6 +1200,13 @@ function pausedStatusLabel(match) {
   return 'HT';
 }
 
+// Muted "N men" sub-label shown under the affected team once it's taken a red card,
+// in line with the live clock beneath the score. Live only — this is about the state
+// of play, not a permanent record, so it doesn't apply once the match is FINISHED.
+function manDownText(redCards) {
+  return redCards > 0 ? `${11 - redCards} men` : '';
+}
+
 function getMatchMinute(match) {
   if (match.status === 'PAUSED') return pausedStatusLabel(match);
   if (match.status !== 'IN_PLAY') return null;
@@ -2166,17 +2173,32 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     ? `<div class="score">${hs !== null ? hs : '-'} – ${as !== null ? as : '-'}</div>`
     : `<div class="score vs">vs</div>`;
 
-  let scoreSubHtml = '';
+  // The clock text lives in its own .clock-text span so tick()'s once-a-second textContent
+  // update can refresh just the minute count without clobbering any sibling content.
+  let scoreSubCls = '', scoreSubText = '';
   const showPens = hasScore && hs === as && hasShootoutScore;
   if (showPens) {
-    const cls = isLive ? 'score-sub live match-clock' : 'score-sub match-clock';
-    scoreSubHtml = `<div class="${cls}" data-matchnum="${match.matchNum}">PENS ${hSO}–${aSO}</div>`;
+    scoreSubCls = isLive ? 'score-sub live match-clock' : 'score-sub match-clock';
+    scoreSubText = `PENS ${hSO}–${aSO}`;
   } else if (match.status === 'IN_PLAY') {
     const minute = getMatchMinute(match);
-    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${minute || '1\''}</div>`;
+    scoreSubCls = 'score-sub live match-clock';
+    scoreSubText = minute || '1\'';
   } else if (match.status === 'PAUSED') {
-    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${pausedStatusLabel(match)}</div>`;
+    scoreSubCls = 'score-sub live match-clock';
+    scoreSubText = pausedStatusLabel(match);
   }
+  const scoreSubHtml = scoreSubText
+    ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span></div>`
+    : '';
+
+  // Red-card "N men" tags anchor to .match-teams (not to .match-home/.match-away
+  // individually) so they land on the same line as the clock regardless of the
+  // team-name row's own (shorter) box height — see .man-down in styles.css.
+  const homeManDownHtml = isLive && manDownText(match.homeRedCards)
+    ? `<div class="man-down home">${manDownText(match.homeRedCards)}</div>` : '';
+  const awayManDownHtml = isLive && manDownText(match.awayRedCards)
+    ? `<div class="man-down away">${manDownText(match.awayRedCards)}</div>` : '';
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
@@ -2229,6 +2251,8 @@ function matchCardHtml(match, extraLabel, opts = {}) {
           <span class="flag-link" data-team="${match.awayTeam || ''}">${flagImg(match.awayIso, match.awayTeam)}</span>
           <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
         </div>
+        ${homeManDownHtml}
+        ${awayManDownHtml}
       </div>
       ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnShootoutHtml(match) : ''}
@@ -3257,7 +3281,10 @@ function tick() {
     if (!match) return;
     if (match.status === 'IN_PLAY' && match._espnPeriod !== 5) {
       const min = getMatchMinute(match);
-      if (min !== null && min !== undefined) clockEl.textContent = min;
+      if (min !== null && min !== undefined) {
+        const textEl = clockEl.querySelector('.clock-text') || clockEl;
+        textEl.textContent = min;
+      }
     }
   });
 
@@ -3883,6 +3910,32 @@ async function init() {
     renderView();
   };
 
+  // Injects a synthetic in-progress match with a red card into the Live & Today card so
+  // the "N men" score-sub indicator (manDownLabel()) can be visually checked without
+  // waiting for a real sending-off. Mirrors testShootout()'s pattern.
+  window.testManDown = () => {
+    if (state.matches.some(m => m.matchNum === -998)) { renderView(); return; }
+    state.matches.push({
+      matchNum: -998, stage: 'Group Stage', group: 'J',
+      homeTeam: 'Argentina', homeIso: 'ar', homeScore: 1,
+      awayTeam: 'Algeria',   awayIso: 'dz', awayScore: 1,
+      venue: 'Arrowhead Stadium, Kansas City',
+      kickoff: new Date().toISOString(),
+      status: 'IN_PLAY',
+      firstHalfStart: new Date(Date.now() - 63 * 60000).toISOString(),
+      secondHalfStart: new Date(Date.now() - 18 * 60000).toISOString(),
+      homeRedCards: 1, awayRedCards: 0,
+      _espnEvents: { home: ['L. Messi 37\''], away: ['R. Mahrez 55\''] },
+      _espnStats: {
+        home: { possessionPct: 58, totalShots: 9, shotsOnTarget: 4, wonCorners: 4, yellowCards: 2 },
+        away: { possessionPct: 42, totalShots: 6, shotsOnTarget: 2, wonCorners: 3, yellowCards: 1 },
+      },
+      _espnColors: { home: '#75AADB', away: '#006233' },
+      _espnHeadline: 'Argentina reduced to 10 men after a second-half red card, but hold on for a point.',
+    });
+    renderView();
+  };
+
   // Debug panel — only shown when URL contains ?debug
   if (new URLSearchParams(location.search).has('debug')) {
     const panel = document.createElement('div');
@@ -3893,6 +3946,7 @@ async function init() {
       <button onclick="testNotif('goal')">🥅 Goal</button>
       <button onclick="testNotif('final')">🏁 Full Time</button>
       <button onclick="testShootout()">🎯 Shootout</button>
+      <button onclick="testManDown()">🟥 Man Down</button>
     `;
     document.body.appendChild(panel);
   }
