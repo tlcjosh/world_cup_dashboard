@@ -1,6 +1,57 @@
 {
-  "asOf": "2026-07-06T22:37:53.871Z",
+  "asOf": "2026-07-06T23:45:13.087Z",
   "items": [
+    {
+      "headline": "Cristiano Ronaldo in tears after Portugal crash out of World Cup to Spain’s stoppage-time winner",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-tears-portugal-crash-211919237.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:37:48 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "CR7 OUT! Spain Eliminates Portugal 1-0, World Cup Post-Match Reaction & USMNT vs Belgium Preview",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/cr7-out-spain-eliminates-portugal-1-0-world-cup-post-match-reaction--usmnt-vs-belgium-preview-233459623.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:34:59 +0000",
+      "teams": [
+        "United States",
+        "Belgium",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "USA Fans Take Over Seattle: Best Fan Moments From USMNT-Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-usa-belgium-fans-seattle-video-photos"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284959208-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:31:05 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
     {
       "headline": "Cristiano Ronaldo’s latest World Cup failure leaves one predictable regret",
       "links": {
@@ -10,8 +61,291 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 22:29:25 +0000",
+      "pubDate": "Mon, 06 Jul 2026 23:27:46 +0000",
       "teams": []
+    },
+    {
+      "headline": "USA v Belgium: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/06/usa-v-belgium-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 23:25:39 GMT",
+      "teams": [
+        "United States",
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "📹 CR7 keeps future under wraps and likens biggest title to the Copa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cr7-keeps-future-under-wraps-232300729.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:23:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Trump Wanted a U.S. Soccer Star to Play in the World Cup. FIFA Found a Way.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/06/world/europe/fifa-trump-infantino-world-cup-red-card.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Mon, 06 Jul 2026 23:18:08 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Spain's World Cup challenge built on historic defence",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spains-world-cup-challenge-built-231709233.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:17:09 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Fatigue, Tension, Joy: England Pulls a World Cup All-Nighter",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/06/world/europe/england-mexico-world-cup-london.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Mon, 06 Jul 2026 23:17:03 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain's World Cup challenge built on historic defence",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cyv00rzd3lpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9753/live/af13aa80-798c-11f1-97bb-1f6a9ee67044.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 23:16:51 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "When do yellow cards reset at the World Cup? All the England players on bookings before Norway game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/yellow-cards-reset-world-cup-094436682.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:06:07 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 Official, Cristiano confirms: it was my last World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-cristiano-confirms-last-world-230600343.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:06:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Is USA vs Belgium on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/usa-vs-belgium-tv-channel-051638645.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:05:26 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Roberto Martinez confirms decision to leave Portugal after tepid World Cup exit to Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/roberto-martinez-confirms-decision-leave-230208191.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:02:08 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "USA vs. Belgium: Storylines, Lineup, Predictions For World Cup Game",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-belgium-world-cup-storylines-projected-lineup-predictions"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/33d75db8-usa-matchday-wc-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:58:31 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France Favored; Spain Takes A Leap",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:58:04 -0400",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Is Folarin Balogun Playing Today? USA Star's Status For World Cup Round Of 16 vs. Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/folarin-balogun-playing-today-latest-usa-stars-status-vs-belgium"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/e614ab29-balogun1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:53:58 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USA vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usa-belgium-odds-prediction-line-start-time-2026-world-cup-round-of-16-picks-with-folarin-balogun-in-the-lineup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/80d621ff-8413-4dfb-acc9-9619c51d675e/folarin-balogun-usmnt-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 22:43:21 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Everything Cristiano Ronaldo Did In His Final World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/everything-ronaldo-did-his-final-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ronaldo-retire-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:42:32 -0400",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Mikel Merino comes full circle with Spain in touching tale of fathers and sons | Sid Lowe",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/mikel-merino-spain-world-cup-winner-portugal"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 22:42:14 GMT",
+      "teams": [
+        "Spain",
+        "Portugal",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Christian Pulisic Playing Today Against Belgium?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-playing-today-belgium-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284568246-scaled-e1783377847271.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:38:13 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
     },
     {
       "headline": "USMNT vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 18-7 run",
@@ -48,22 +382,6 @@
         "United States",
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "USA v Belgium: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/06/usa-v-belgium-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 22:17:39 GMT",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Senegal"
       ]
     },
     {
@@ -328,21 +646,6 @@
       ]
     },
     {
-      "headline": "Cristiano Ronaldo in tears after Portugal crash out of World Cup to Spain’s stoppage-time winner",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-tears-portugal-crash-211919237.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:19:19 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
       "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
       "links": {
         "web": {
@@ -585,21 +888,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "Is USA vs Belgium on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-vs-belgium-tv-channel-051638645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 20:16:19 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
       ]
     },
     {
@@ -1999,21 +2287,6 @@
       ]
     },
     {
-      "headline": "Fatigue, Tension, Joy: England Pulls a World Cup All-Nighter",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/06/world/europe/england-mexico-world-cup-london.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Mon, 06 Jul 2026 12:31:19 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
       "headline": "Football Extra newsletter: World Cup gets a match for the ages, but Balogun reversal leaves sour taste",
       "links": {
         "web": {
@@ -2312,21 +2585,6 @@
       "pubDate": "Mon, 06 Jul 2026 09:45:00 +0000",
       "teams": [
         "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "When do yellow cards reset at the World Cup? All the England players on bookings before Norway game",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/yellow-cards-reset-world-cup-094436682.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 09:44:36 +0000",
-      "teams": [
-        "Norway",
         "England"
       ]
     },
@@ -2775,25 +3033,6 @@
         "Belgium",
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "USA vs. Belgium: Storylines, Projected Lineup, Predictions For World Cup Game",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-belgium-world-cup-storylines-projected-lineup-predictions"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/33d75db8-usa-matchday-wc-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 00:31:17 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
       ]
     },
     {
@@ -15753,232 +15992,6 @@
       "pubDate": "Thu, 02 Jul 2026 13:10:47 +0000",
       "teams": [
         "Belgium"
-      ]
-    },
-    {
-      "headline": "How the USMNT refused to blink against Bosnia and Herzegovina and kept World Cup dreams alive",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-refused-to-blink-against-bosnia-world-cup-dreams-alive/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/ea7d43ac-0a91-4fad-aea8-cef9563a662f/pochettino-2.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 13:10:43 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Croatia Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/portugal-vs-croatia-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2282965616.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 09:00:40 -0400",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Football Daily | England survive a Lionel M masterclass and roll on to the Azteca … just",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/02/england-football-daily-geopolitics-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 12:52:12 GMT",
-      "teams": [
-        "United States",
-        "Germany",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "The World Cup's free agents looking for their next move",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cups-free-agents-looking-124929728.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:50:39 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup round of 32: Can Croatia keep a decade of magic going vs. Portugal? Time for Spain to thrive?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-round-of-32-croatia-portugal-spain/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/84c42716-6c55-446c-b142-7f7d21180b30/untitled-design-2026-07-02t084421-619.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:47:14 +0000",
-      "teams": [
-        "Spain",
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "The World Cup's free agents looking for their next move",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzleqqvjqo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/08e4/live/5cfe25b0-7610-11f1-a627-714adb4eed6e.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 12:44:02 GMT",
-      "teams": []
-    },
-    {
-      "headline": "First Afcon, now World Cup - Senegal trapped in 'football hell'",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/first-afcon-now-world-cup-120658786.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:40:37 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Stats: Here is how Real Madrid are ruling the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/stats-real-madrid-ruling-world-124000343.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Kyle Walker outlines stance on possible England return after Wayne Rooney’s World Cup claim",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kyle-walker-outlines-stance-possible-122905737.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:29:05 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "England’s World Cup win over DR Congo delivers biggest audience of the year for BBC as viewing figures revealed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-world-cup-win-over-120716726.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:20:09 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "16.3m tune in to watch England beat DR Congo",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/16-3m-tune-watch-england-121523324.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:15:23 +0000",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "16.3m tune in to watch England beat DR Congo",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvg40883026o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d99/live/e7b45390-75f8-11f1-8c3f-e37c76e39331.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 12:15:18 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Spain, Portugal, More",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-spain-portugal-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-jul-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 08:05:19 -0400",
-      "teams": [
-        "Switzerland",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Andres Iniesta claims Spain&#8217;s World Cup fortunes hinge on Lamine Yamal: &#8216;A very important player&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/andres-iniesta-claims-spain-world-120500339.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 12:05:00 +0000",
-      "teams": [
-        "Spain"
       ]
     }
   ]
