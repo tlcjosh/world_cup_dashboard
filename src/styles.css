@@ -367,6 +367,13 @@ body {
 .score-sub.live { color: var(--red); }
 .score-sub.ht   { color: var(--blue); }
 .score-sub.vs   { font-size: 12px; color: var(--ink-3); font-weight: 400; }
+
+.man-down {
+  margin-top: 3px;
+  font-size: 9px; font-weight: 700; letter-spacing: .02em;
+  color: var(--red); opacity: .85;
+  text-transform: uppercase;
+}
 .score.vs       { font-size: 16px; color: var(--ink-3); font-weight: 400; }
 
 /* Match headline (ESPN recap summary) */

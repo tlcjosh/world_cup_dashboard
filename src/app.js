@@ -1200,6 +1200,19 @@ function pausedStatusLabel(match) {
   return 'HT';
 }
 
+// Muted "N men" sub-label shown under the live clock once a side has taken a red card.
+// Points a small arrow toward the affected side so it reads unambiguously even though
+// the score-col sits centered between both teams. Live only — this is about the state
+// of play, not a permanent record, so it doesn't apply once the match is FINISHED.
+function manDownLabel(match) {
+  const homeRed = match.homeRedCards || 0;
+  const awayRed = match.awayRedCards || 0;
+  const parts = [];
+  if (homeRed > 0) parts.push(`◀ ${11 - homeRed} men`);
+  if (awayRed > 0) parts.push(`${11 - awayRed} men ▶`);
+  return parts.join(' · ');
+}
+
 function getMatchMinute(match) {
   if (match.status === 'PAUSED') return pausedStatusLabel(match);
   if (match.status !== 'IN_PLAY') return null;
@@ -2166,17 +2179,26 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     ? `<div class="score">${hs !== null ? hs : '-'} – ${as !== null ? as : '-'}</div>`
     : `<div class="score vs">vs</div>`;
 
-  let scoreSubHtml = '';
+  // The clock text lives in its own .clock-text span so tick()'s once-a-second textContent
+  // update can refresh just the minute count without clobbering the .man-down sibling below.
+  let scoreSubCls = '', scoreSubText = '';
   const showPens = hasScore && hs === as && hasShootoutScore;
   if (showPens) {
-    const cls = isLive ? 'score-sub live match-clock' : 'score-sub match-clock';
-    scoreSubHtml = `<div class="${cls}" data-matchnum="${match.matchNum}">PENS ${hSO}–${aSO}</div>`;
+    scoreSubCls = isLive ? 'score-sub live match-clock' : 'score-sub match-clock';
+    scoreSubText = `PENS ${hSO}–${aSO}`;
   } else if (match.status === 'IN_PLAY') {
     const minute = getMatchMinute(match);
-    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${minute || '1\''}</div>`;
+    scoreSubCls = 'score-sub live match-clock';
+    scoreSubText = minute || '1\'';
   } else if (match.status === 'PAUSED') {
-    scoreSubHtml = `<div class="score-sub live match-clock" data-matchnum="${match.matchNum}">${pausedStatusLabel(match)}</div>`;
+    scoreSubCls = 'score-sub live match-clock';
+    scoreSubText = pausedStatusLabel(match);
   }
+  const manDown = isLive ? manDownLabel(match) : '';
+  const manDownHtml = manDown ? `<div class="man-down">${manDown}</div>` : '';
+  const scoreSubHtml = scoreSubText
+    ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span>${manDownHtml}</div>`
+    : '';
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
@@ -3257,7 +3279,10 @@ function tick() {
     if (!match) return;
     if (match.status === 'IN_PLAY' && match._espnPeriod !== 5) {
       const min = getMatchMinute(match);
-      if (min !== null && min !== undefined) clockEl.textContent = min;
+      if (min !== null && min !== undefined) {
+        const textEl = clockEl.querySelector('.clock-text') || clockEl;
+        textEl.textContent = min;
+      }
     }
   });
 
@@ -3883,6 +3908,32 @@ async function init() {
     renderView();
   };
 
+  // Injects a synthetic in-progress match with a red card into the Live & Today card so
+  // the "N men" score-sub indicator (manDownLabel()) can be visually checked without
+  // waiting for a real sending-off. Mirrors testShootout()'s pattern.
+  window.testManDown = () => {
+    if (state.matches.some(m => m.matchNum === -998)) { renderView(); return; }
+    state.matches.push({
+      matchNum: -998, stage: 'Group Stage', group: 'J',
+      homeTeam: 'Argentina', homeIso: 'ar', homeScore: 1,
+      awayTeam: 'Algeria',   awayIso: 'dz', awayScore: 1,
+      venue: 'Arrowhead Stadium, Kansas City',
+      kickoff: new Date().toISOString(),
+      status: 'IN_PLAY',
+      firstHalfStart: new Date(Date.now() - 63 * 60000).toISOString(),
+      secondHalfStart: new Date(Date.now() - 18 * 60000).toISOString(),
+      homeRedCards: 1, awayRedCards: 0,
+      _espnEvents: { home: ['L. Messi 37\''], away: ['R. Mahrez 55\''] },
+      _espnStats: {
+        home: { possessionPct: 58, totalShots: 9, shotsOnTarget: 4, wonCorners: 4, yellowCards: 2 },
+        away: { possessionPct: 42, totalShots: 6, shotsOnTarget: 2, wonCorners: 3, yellowCards: 1 },
+      },
+      _espnColors: { home: '#75AADB', away: '#006233' },
+      _espnHeadline: 'Argentina reduced to 10 men after a second-half red card, but hold on for a point.',
+    });
+    renderView();
+  };
+
   // Debug panel — only shown when URL contains ?debug
   if (new URLSearchParams(location.search).has('debug')) {
     const panel = document.createElement('div');
@@ -3893,6 +3944,7 @@ async function init() {
       <button onclick="testNotif('goal')">🥅 Goal</button>
       <button onclick="testNotif('final')">🏁 Full Time</button>
       <button onclick="testShootout()">🎯 Shootout</button>
+      <button onclick="testManDown()">🟥 Man Down</button>
     `;
     document.body.appendChild(panel);
   }
