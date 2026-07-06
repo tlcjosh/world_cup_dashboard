@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v26.2';
-const APP_UPDATED = '2026-07-06 03:28 UTC';
+const APP_VERSION = 'v27';
+const APP_UPDATED = '2026-07-06 15:40 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -1200,11 +1200,16 @@ function pausedStatusLabel(match) {
   return 'HT';
 }
 
-// Muted "N men" sub-label shown under the affected team once it's taken a red card,
-// in line with the live clock beneath the score. Live only — this is about the state
-// of play, not a permanent record, so it doesn't apply once the match is FINISHED.
-function manDownText(redCards) {
-  return redCards > 0 ? `${11 - redCards} men` : '';
+// Small red-card icon shown on the outer side of the affected team's name (away
+// from the flag/score) once it's taken a red card — reuses the exact .rcard glyph
+// already used in the stats pill for card counts. Tilted slightly outward (away
+// from center) per side for a bit of flair. Hover/long-press reveals the player
+// count via title. Live only — this is about the state of play, not a permanent
+// record, so it doesn't apply once the match is FINISHED.
+function manDownIconHtml(redCards, side) {
+  if (!redCards) return '';
+  const remaining = 11 - redCards;
+  return `<span class="rcard man-down-icon ${side}" title="Playing with ${remaining} players"></span>`;
 }
 
 function getMatchMinute(match) {
@@ -2192,21 +2197,8 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span></div>`
     : '';
 
-  const homeManDownHtml = isLive && manDownText(match.homeRedCards)
-    ? `<div class="man-down">${manDownText(match.homeRedCards)}</div>` : '';
-  const awayManDownHtml = isLive && manDownText(match.awayRedCards)
-    ? `<div class="man-down">${manDownText(match.awayRedCards)}</div>` : '';
-
-  // A real (non-absolutely-positioned) row under .match-teams — mirrors its 3-column
-  // layout so the clock and any "N men" tags sit in true document flow, in line with
-  // each other, and properly push .match-events/.match-stats down instead of
-  // overlapping them the way an absolutely-positioned clock used to.
-  const subRowHtml = scoreSubText ? `
-      <div class="match-subrow">
-        <div class="man-down-cell home">${homeManDownHtml}</div>
-        <div class="clock-cell">${scoreSubHtml}</div>
-        <div class="man-down-cell away">${awayManDownHtml}</div>
-      </div>` : '';
+  const homeManDownIconHtml = isLive ? manDownIconHtml(match.homeRedCards, 'home') : '';
+  const awayManDownIconHtml = isLive ? manDownIconHtml(match.awayRedCards, 'away') : '';
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
@@ -2248,18 +2240,20 @@ function matchCardHtml(match, extraLabel, opts = {}) {
       </div>
       <div class="match-teams">
         <div class="match-home">
+          ${homeManDownIconHtml}
           <span class="team-name ${homeClass} team-link" data-team="${match.homeTeam || ''}">${match.homeTeam || 'TBD'}</span>
           <span class="flag-link" data-team="${match.homeTeam || ''}">${flagImg(match.homeIso, match.homeTeam)}</span>
         </div>
         <div class="score-col">
           ${scoreHtml}
+          ${scoreSubHtml}
         </div>
         <div class="match-away">
           <span class="flag-link" data-team="${match.awayTeam || ''}">${flagImg(match.awayIso, match.awayTeam)}</span>
           <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
+          ${awayManDownIconHtml}
         </div>
       </div>
-      ${subRowHtml}
       ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnShootoutHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
