@@ -380,8 +380,8 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
 }
-.man-down.home { right: 4px; }
-.man-down.away { left: 4px; }
+.man-down.home { left: 4px; }
+.man-down.away { right: 4px; }
 .score.vs       { font-size: 16px; color: var(--ink-3); font-weight: 400; }
 
 /* Match headline (ESPN recap summary) */
