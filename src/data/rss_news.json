@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-06T03:00:42.173Z",
+  "asOf": "2026-07-06T03:06:24.045Z",
   "items": [
     {
       "headline": "Mexico v England: World Cup 2026 last 16 updates – live",
@@ -51,6 +51,21 @@
       "headline": "Penalty? Red card? Why were they given against England?",
       "links": {
         "web": {
+          "href": "https://sports.yahoo.com/articles/penalty-red-card-why-were-025056711.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:50:56 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Penalty? Red card? Why were they given against England?",
+      "links": {
+        "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss"
         }
       },
@@ -81,6 +96,41 @@
       ]
     },
     {
+      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:40:42 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Erling Haaland shines again as Norway stun Brazil 2-1 to reach World Cup quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/erling-haaland-norway-brazil-world-cup-quarterfinals/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/2033017a-ae9c-4e57-a17c-159d4ba704c8/untitled-design-2026-07-05t181324-644.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 02:39:08 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
       "headline": "Why Jarell Quansah was sent off in England’s World Cup clash with Mexico",
       "links": {
         "web": {
@@ -94,6 +144,22 @@
         "Mexico",
         "England"
       ]
+    },
+    {
+      "headline": "World Cup Red Cards: 2026 Has More Red Cards Than Last 2 World Cups Combined",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-red-card-rules-totals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 22:33:19 -0400",
+      "teams": []
     },
     {
       "headline": "World Cup 2026: Tyler Adams, the USMNT's unsung hero, knows Americans are chasing history against Belgium",
@@ -137,6 +203,43 @@
       "teams": [
         "Mexico",
         "England"
+      ]
+    },
+    {
+      "headline": "Brilliant Bellingham! England Star Scores 2 Goals In 2 Minutes vs. Mexico",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jude-bellingham-two-goals-two-minutes-vs-mexico-2026-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812576-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:58:47 -0400",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Top Mexico Goalscorers In World Cup History: Julián Quiñones Moves Into Tie For First",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/top-mexico-goalscorers-world-cup-history-julian-quinones-breaks-top-five"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/cf549035-mexico1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 21:53:19 -0400",
+      "teams": [
+        "Mexico"
       ]
     },
     {
@@ -359,7 +462,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/poch1.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-67.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -1063,25 +1166,6 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Sun, 05 Jul 2026 22:25:26 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Erling Haaland shines again as Norway stun Brazil 2-1 to reach World Cup quarterfinals",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/erling-haaland-norway-brazil-world-cup-quarterfinals/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/2033017a-ae9c-4e57-a17c-159d4ba704c8/untitled-design-2026-07-05t181324-644.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:17:34 +0000",
       "teams": [
         "Brazil",
         "Norway"
@@ -4295,22 +4379,6 @@
         "Paraguay",
         "France"
       ]
-    },
-    {
-      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 18:46:48 -0400",
-      "teams": []
     },
     {
       "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Back With Messi, Kane Lurking",
@@ -14409,22 +14477,6 @@
       ]
     },
     {
-      "headline": "World Cup Red Cards: 2026 Has More Red Cards Than Last 2 World Cups Combined",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-red-card-rules-totals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284257447-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 21:41:25 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup: USMNT striker Folarin Balogun shown red card in second half after first-half goal",
       "links": {
         "web": {
@@ -15953,53 +16005,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 01 Jul 2026 17:37:00 +0000",
       "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Why are red cards given to World Cup players covering their mouths?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-red-cards-given-world-173056738.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:30:56 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Meet Bosnia's Esmir Bajraktarevic, the former USMNT player who will face his old team in World Cup round of 32",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/bosnia-esmir-bajraktarevic-former-usmnt-player-world-cup-round-of-32-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/3c07fdd8-4b44-4a23-ae70-3621bb77da47/esmir.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:28:18 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Why is Lumumba Vea not at England vs DR Congo? All the people unable to enter Trump’s United States for World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/iran-fans-african-referee-people-151145786.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:28:12 +0000",
-      "teams": [
-        "United States",
         "Congo DR",
         "England"
       ]
