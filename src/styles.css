@@ -369,12 +369,15 @@ body {
 .score-sub.vs   { font-size: 12px; color: var(--ink-3); font-weight: 400; }
 .score.vs       { font-size: 16px; color: var(--ink-3); font-weight: 400; }
 
-/* Red-card indicator: the .rcard glyph next to the affected team's name,
-   slightly larger than its stats-pill usage so it reads at a glance. */
+/* Red-card indicator: the .rcard glyph on the outer side of the affected team's
+   name, slightly larger than its stats-pill usage so it reads at a glance, tilted
+   outward per side for a bit of flair. */
 .man-down-icon {
   transform: scale(1.15);
   margin: 0 1px;
 }
+.man-down-icon.home { transform: scale(1.15) rotate(-5deg); }
+.man-down-icon.away { transform: scale(1.15) rotate(5deg); }
 
 /* Match headline (ESPN recap summary) */
 .match-headline {

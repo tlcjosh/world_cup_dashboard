@@ -1200,15 +1200,16 @@ function pausedStatusLabel(match) {
   return 'HT';
 }
 
-// Small red-card icon shown next to the affected team's name once it's taken a red
-// card — reuses the exact .rcard glyph already used in the stats pill for card
-// counts, so no new visual element is introduced. Hover/long-press reveals the
-// player count via title. Live only — this is about the state of play, not a
-// permanent record, so it doesn't apply once the match is FINISHED.
-function manDownIconHtml(redCards) {
+// Small red-card icon shown on the outer side of the affected team's name (away
+// from the flag/score) once it's taken a red card — reuses the exact .rcard glyph
+// already used in the stats pill for card counts. Tilted slightly outward (away
+// from center) per side for a bit of flair. Hover/long-press reveals the player
+// count via title. Live only — this is about the state of play, not a permanent
+// record, so it doesn't apply once the match is FINISHED.
+function manDownIconHtml(redCards, side) {
   if (!redCards) return '';
   const remaining = 11 - redCards;
-  return `<span class="rcard man-down-icon" title="Playing with ${remaining} players"></span>`;
+  return `<span class="rcard man-down-icon ${side}" title="Playing with ${remaining} players"></span>`;
 }
 
 function getMatchMinute(match) {
@@ -2196,8 +2197,8 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span></div>`
     : '';
 
-  const homeManDownIconHtml = isLive ? manDownIconHtml(match.homeRedCards) : '';
-  const awayManDownIconHtml = isLive ? manDownIconHtml(match.awayRedCards) : '';
+  const homeManDownIconHtml = isLive ? manDownIconHtml(match.homeRedCards, 'home') : '';
+  const awayManDownIconHtml = isLive ? manDownIconHtml(match.awayRedCards, 'away') : '';
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
@@ -2239,8 +2240,8 @@ function matchCardHtml(match, extraLabel, opts = {}) {
       </div>
       <div class="match-teams">
         <div class="match-home">
-          <span class="team-name ${homeClass} team-link" data-team="${match.homeTeam || ''}">${match.homeTeam || 'TBD'}</span>
           ${homeManDownIconHtml}
+          <span class="team-name ${homeClass} team-link" data-team="${match.homeTeam || ''}">${match.homeTeam || 'TBD'}</span>
           <span class="flag-link" data-team="${match.homeTeam || ''}">${flagImg(match.homeIso, match.homeTeam)}</span>
         </div>
         <div class="score-col">
@@ -2249,8 +2250,8 @@ function matchCardHtml(match, extraLabel, opts = {}) {
         </div>
         <div class="match-away">
           <span class="flag-link" data-team="${match.awayTeam || ''}">${flagImg(match.awayIso, match.awayTeam)}</span>
-          ${awayManDownIconHtml}
           <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
+          ${awayManDownIconHtml}
         </div>
       </div>
       ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
