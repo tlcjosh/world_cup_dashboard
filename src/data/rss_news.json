@@ -1,6 +1,513 @@
 {
-  "asOf": "2026-07-06T17:26:51.177Z",
+  "asOf": "2026-07-06T19:18:48.393Z",
   "items": [
+    {
+      "headline": "Portugal v Spain: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/06/portugal-v-spain-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 19:12:43 GMT",
+      "teams": [
+        "Spain",
+        "Portugal",
+        "England"
+      ]
+    },
+    {
+      "headline": "Trump confirms he asked Fifa to review Balogun ban",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-confirms-asked-fifa-review-144349798.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:06:39 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Trump confirms he asked Fifa to review Balogun ban",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f002/live/3fd125b0-794d-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 19:06:34 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: France's Kylian Mbappé responds to racist attack by Paraguyan senator, condemning her as 'despicable' and 'unworthy'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-frances-kylian-mbappe-responds-to-racist-attack-by-paraguyan-senator-condemning-her-as-despicable-and-unworthy-190537175.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:05:37 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "Trump, FIFA and Balogun: The World Cup controversy explained",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-fifa-balogun-world-cup-190446644.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:04:46 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Mike Maignan Favored, Jordan Pickford Rising",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284249201-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 14:58:16 -0400",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Real Madrid set sights on Inter Milan midfielder who could cost €50-60 million &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-set-sights-inter-185500214.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:55:00 +0000",
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:52:18 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Haaland beats his own drum as Norway get set for England epic | Paul MacInnes",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/erling-haaland-norway-england-world-cup-quarter-finals"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 18:50:18 GMT",
+      "teams": [
+        "Brazil",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "John Stones on England’s World Cup clash with Erling Haaland’s Norway: ‘We know what they’ve got’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/john-stones-england-world-cup-184140522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:41:40 +0000",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "FIFA's mismanagement of Folarin Balogun's red card suspension mars USMNT’s big moment, and World Cup at large",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/fifas-folarin-baloguns-red-card-suspension-usmnt-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/9feb5b37-d0d8-4ab0-8710-0dcd436834eb/untitled-design-2026-07-06t143739-482.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:40:52 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Adidas Unveils Shiny New Match Ball For 2026 World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/adidas-unveils-trionda-final-official-match-ball-2026-fifa-world-cup-knockout-rounds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/adidas-ball-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 14:35:53 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Mbappé and FFF respond to racist attacks by Paraguayan senator",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-fff-respond-racist-attacks-183100463.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:31:00 +0000",
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 Golden Boot: Mbappe v Messi v Haaland standings as Kane joins thrilling race to finish top scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:27:11 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:25:52 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Portugal vs Spain lineups – Milan’s Leao on the bench as Ronaldo leads the line",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-portugal-vs-181000042.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:10:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Pirlo on Italy World Cup absence: ‘It’s a disaster, but it’s what we deserve’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pirlo-italy-world-cup-absence-181000309.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 18:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Back Talented USA, Belgium To Play Tight Contest",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-back-talented-usa-belgium-play-tight-contest"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/adams-76.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 14:00:26 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "‘Everyone’s pumped up’: John Stones on the mentality helping England chase World Cup dream",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/john-stones-england-thomas-tuchel-world-cup-dream"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 18:00:17 GMT",
+      "teams": [
+        "Mexico",
+        "Brazil",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel claims World Cup refereeing ‘not good enough’ but says England have belief to go all the way",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/thomas-tuchel-england-mexico-norway-world-cup-2026"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 18:00:16 GMT",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Fans: Norwegians Row From Oslo With Norway Team, England Fans Up How Late?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-reaction-videos-england-fans-mexico-norway"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/englans2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 13:58:49 -0400",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Portugal and Spain set for cup clash, see the line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/portugal-spain-set-cup-clash-175800879.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:58:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Monday best bets include USMNT's Christian Pulisic",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-monday-best-bets-include-usmnts-christian-pulisic/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/eeb69b03-1eca-4cee-988e-a18fb6d29c0a/usmnt-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:56:50 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Report: Liverpool have made contact over move for World Cup wonderkid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-liverpool-made-contact-over-175500844.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:55:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "James expected to return for Norway quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/james-expected-return-england-norway-174313806.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:54:18 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Monday include Portugal-Spain, USA",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-monday-include-portugal-spain-usa/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/77745527-e863-4c01-b649-712877292d0c/adamsusmnt.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:54:06 +0000",
+      "teams": [
+        "United States",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Juventus manager continues to push for Real Madrid star shining at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/juventus-manager-continues-push-real-174500548.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:45:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "James expected to return for Norway quarter-final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2xxl6772no?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6cb9/live/e685e4d0-795d-11f1-b461-8fc790ffbac8.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 17:37:05 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Belgium FA to challenge Folarin Balogun&#8217;s eligibility for USA clash as FIFA row escalates",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-fa-challenge-folarin-balogun-173500031.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:35:00 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Belgium live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/67205652-d10f-413f-9075-311353d08654/balogun-poch.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:32:24 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "‘I got three hours’ sleep’: fans on watching England beat Mexico at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/three-hours-sleep-fans-watching-england-mexico-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 17:29:42 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Confirmed: Four Barcelona players start for Spain against Portugal | World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/confirmed-four-barcelona-players-start-172000389.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 17:20:00 +0000",
+      "teams": [
+        "Spain",
+        "Austria",
+        "Portugal"
+      ]
+    },
     {
       "headline": "World Cup 2026: Trump admits lobbying Fifa over Balogun red card; Starmer intervened on England kick-off time – live",
       "links": {
@@ -260,6 +767,22 @@
       ]
     },
     {
+      "headline": "‘These guys are losers’: Brazil berated back home after defeat by Norway",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/brazil-players-shameful-defeat-norway-world-cup-carlo-ancelotti-embarrassing"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 16:22:15 GMT",
+      "teams": [
+        "Brazil",
+        "Iran",
+        "Norway"
+      ]
+    },
+    {
       "headline": "Portugal vs. Spain live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
       "links": {
         "web": {
@@ -370,20 +893,6 @@
       ]
     },
     {
-      "headline": "Trump confirms he asked Fifa to review Balogun ban",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-confirms-asked-fifa-review-144349798.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 15:54:29 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
       "headline": "Van Dijk to Milan truth, Uzun and Timber updates: today's transfer news 🤑",
       "links": {
         "web": {
@@ -427,21 +936,36 @@
       ]
     },
     {
-      "headline": "Trump confirms he asked Fifa to review Balogun ban",
+      "headline": "Belgium are looking for a new beginning at the World Cup against USA | Jonathan Wilson",
       "links": {
         "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss"
+          "href": "https://www.theguardian.com/football/2026/jul/06/belgium-look-for-a-new-beginning-against-usa"
         }
       },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f002/live/3fd125b0-794d-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 15:27:59 GMT",
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 15:38:11 GMT",
       "teams": [
-        "United States"
+        "Brazil",
+        "United States",
+        "Belgium",
+        "France"
+      ]
+    },
+    {
+      "headline": "Jordan Henderson out of World Cup with broken wrist sustained in post-match celebrations",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/jordan-henderson-wrist-injury-england-mexico-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 15:27:52 GMT",
+      "teams": [
+        "Mexico",
+        "Jordan",
+        "England"
       ]
     },
     {
@@ -537,6 +1061,21 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 06 Jul 2026 15:04:32 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Trump confirms he asked Infantino for review of Folarin Balogun red card",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/06/trump-fifa-balogun-red-card-review-intervention"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 15:04:32 GMT",
       "teams": [
         "United States",
         "Belgium"
@@ -1008,26 +1547,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Monday include Portugal-Spain, USA",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-monday-include-portugal-spain-usa/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/77745527-e863-4c01-b649-712877292d0c/adamsusmnt.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 11:30:39 +0000",
-      "teams": [
-        "United States",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
       "headline": "'You've been trying to kill me for 23 years' - should Ronaldo start?",
       "links": {
         "web": {
@@ -1059,24 +1578,6 @@
       "pubDate": "Mon, 06 Jul 2026 11:07:49 GMT",
       "teams": [
         "Spain"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Monday best bets include USMNT's Christian Pulisic",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-monday-best-bets-include-usmnts-christian-pulisic/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/eeb69b03-1eca-4cee-988e-a18fb6d29c0a/usmnt-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 11:00:44 +0000",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -1762,30 +2263,6 @@
         "Mexico",
         "England"
       ]
-    },
-    {
-      "headline": "World Cup 2026 Golden Boot: Mbappe v Messi v Haaland standings as Kane joins thrilling race to finish top scorer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 04:04:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 04:02:31 +0000",
-      "teams": []
     },
     {
       "headline": "What is England’s likely route to the World Cup final if they beat Norway?",
@@ -4506,20 +4983,6 @@
         "Norway",
         "Jordan",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Declan Rice, Raphinha and Nico Williams updates",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 13:18:38 +0000",
-      "teams": [
-        "Scotland"
       ]
     },
     {
@@ -7340,22 +7803,6 @@
         "Canada",
         "Scotland"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Glove: Mike Maignan Takes Over Atop Oddsboard",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/maignan-630.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:53:17 -0400",
-      "teams": []
     },
     {
       "headline": "Report: Cheslea set to battle Liverpool in the race for World Cup midfielder",
@@ -15514,448 +15961,6 @@
       "pubDate": "Thu, 02 Jul 2026 07:23:19 +0000",
       "teams": [
         "Croatia"
-      ]
-    },
-    {
-      "headline": "Luis de la Fuente talks Lamine Yamal&#8217;s fitness, Dani Olmo, Pedri: &#8216;We’ve been very cautious&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/luis-la-fuente-talks-lamine-072000886.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:20:00 +0000",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Real Madrid priority target open to new challenge; will hold talks with current club after the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-priority-target-open-072000378.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🗞️ The front pages: Spain chase the last 16, USA make history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/front-pages-spain-chase-last-071900521.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:19:00 +0000",
-      "teams": [
-        "United States",
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Out of nowhere, Liverpool ready move for surprise World Cup star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/nowhere-liverpool-ready-move-surprise-070500769.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Lopes will relish Messi duel, says Cape Verde defender's mother",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c07yjj5j299o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc48/live/d3d67f60-751c-11f1-adcf-e1eef1a1ef9c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 07:02:26 GMT",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "🤯 Scenes as the goal goes in! World Cup fans trigger quake back home",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scenes-goal-goes-world-cup-070100314.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 07:01:00 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Modric and Ronaldo reunited at World Cup as Croatia aim to snap Portugal’s streak",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/02/modric-ronaldo-reunited-world-cup-croatia-portugal"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 07:00:06 GMT",
-      "teams": [
-        "Switzerland",
-        "Scotland",
-        "Saudi Arabia",
-        "Uruguay",
-        "Argentina",
-        "Portugal",
-        "England",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Mexico fans celebrating World Cup win against Ecuador cause ‘earthquake’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-fans-celebrating-world-cup-051012704.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 06:36:07 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Wales face World Cup play-off after U19s elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/wales-face-world-cup-play-063102574.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 06:31:02 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 25",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj4pl4jdk4ko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c3c/live/bcbc2f10-6b93-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 05:51:25 GMT",
-      "teams": []
-    },
-    {
-      "headline": "K League 1 Returns: Here’s How Every Team’s 2026 Has Gone So Far",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/k-league-1-returns-every-052000629.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 05:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Can The USA Appeal Folarin Balogun's World Cup Red Card?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-red-card-balogun-can-usa-appeal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/c7b79e05-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 01:19:07 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "A goal, a red and a LeBron James shout: Folarin Balogun gets the spotlight in US’s wild World Cup win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/goal-red-lebron-james-shout-051135114.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 05:11:35 +0000",
-      "teams": []
-    },
-    {
-      "headline": "A goal, a red and a LeBron James shout: Folarin Balogun gets the spotlight in US’s wild World Cup win",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/folarin-balogun-red-card-goal-usmnt-world-cup-birthright-citizenship"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 05:11:35 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Mauricio Pochettino gives firm stance on Folarin Balogun red card for USA at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mauricio-pochettino-gives-firm-stance-050041487.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 05:00:41 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "'I spent $6,000 on a World Cup trip but was left stranded at the gate'",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e82/live/5992ae70-7573-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 04:59:47 GMT",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: USMNT Generating Record-Breaking Soccer Handle",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-usmnt-generating-record-breaking-soccer-handle"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/matt-71.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 00:47:06 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic Says Folarin Balogun 'Didn’t Deserve The Red Card' In World Cup Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-bosnia-world-cup-pulisic-balogun-red-card"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun1-4.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 00:34:31 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "USMNT Beats Bosnia to Reach World Cup Round of 16! Taylor Twellman Reacts & Belgium Awaits",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/usmnt-beats-bosnia-to-reach-world-cup-round-of-16-taylor-twellman-reacts--belgium-awaits-043330453.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 04:33:30 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Balogun scores and is sent off as USA reach last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-usa-face-bosnia-herzegovina-230157545.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 04:01:18 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "World Cup What to Watch: Spain aims for first knockout win since 2010; Cristiano Ronaldo leads Portugal against Croatia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-spain-aims-for-first-knockout-win-since-2010-cristiano-ronaldo-leads-portugal-against-croatia-035802479.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 03:58:02 +0000",
-      "teams": [
-        "Spain",
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "World Cup Roundup: USA Moves On Despite Balogun's Red; Kane Rescues England",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-usmnt-balogun-red-goal-harry-kane-rescues-england"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tillman1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 23:56:53 -0400",
-      "teams": [
-        "United States",
-        "England"
-      ]
-    },
-    {
-      "headline": "Will Folarin Balogun’s World Cup red card be struck off? No",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/01/folarin-balogun-red-card-world-cup-appeal-usmnt"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 03:53:43 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Will Folarin Balogun’s World Cup red card be struck off? No",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/folarin-balogun-world-cup-red-035343256.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 03:53:43 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USA march on but will Balogun red card prove costly?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-march-balogun-red-card-035320454.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 03:53:20 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USA march on but will Balogun red card prove costly?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cgjx07ql6v0o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d4/live/a81240e0-75f2-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 03:53:14 GMT",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USMNT Player Ratings vs. Bosnia and Herzegovina: USA Rallies After Red Card",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usmnt-player-ratings-vs-bosnia-herzegovina-july-1"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-20.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 01 Jul 2026 23:49:28 -0400",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Why the USMNT can't appeal Folarin Balogun's suspension after his controversial World Cup red card",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/why-the-usmnt-cant-appeal-folarin-baloguns-suspension-after-his-controversial-world-cup-red-card-032022353.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 03:20:22 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
       ]
     }
   ]
