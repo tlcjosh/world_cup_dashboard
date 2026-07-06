@@ -1200,17 +1200,11 @@ function pausedStatusLabel(match) {
   return 'HT';
 }
 
-// Muted "N men" sub-label shown under the live clock once a side has taken a red card.
-// Points a small arrow toward the affected side so it reads unambiguously even though
-// the score-col sits centered between both teams. Live only — this is about the state
+// Muted "N men" sub-label shown under the affected team once it's taken a red card,
+// in line with the live clock beneath the score. Live only — this is about the state
 // of play, not a permanent record, so it doesn't apply once the match is FINISHED.
-function manDownLabel(match) {
-  const homeRed = match.homeRedCards || 0;
-  const awayRed = match.awayRedCards || 0;
-  const parts = [];
-  if (homeRed > 0) parts.push(`◀ ${11 - homeRed} men`);
-  if (awayRed > 0) parts.push(`${11 - awayRed} men ▶`);
-  return parts.join(' · ');
+function manDownText(redCards) {
+  return redCards > 0 ? `${11 - redCards} men` : '';
 }
 
 function getMatchMinute(match) {
@@ -2180,7 +2174,7 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     : `<div class="score vs">vs</div>`;
 
   // The clock text lives in its own .clock-text span so tick()'s once-a-second textContent
-  // update can refresh just the minute count without clobbering the .man-down sibling below.
+  // update can refresh just the minute count without clobbering any sibling content.
   let scoreSubCls = '', scoreSubText = '';
   const showPens = hasScore && hs === as && hasShootoutScore;
   if (showPens) {
@@ -2194,11 +2188,17 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     scoreSubCls = 'score-sub live match-clock';
     scoreSubText = pausedStatusLabel(match);
   }
-  const manDown = isLive ? manDownLabel(match) : '';
-  const manDownHtml = manDown ? `<div class="man-down">${manDown}</div>` : '';
   const scoreSubHtml = scoreSubText
-    ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span>${manDownHtml}</div>`
+    ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span></div>`
     : '';
+
+  // Red-card "N men" tags anchor to .match-teams (not to .match-home/.match-away
+  // individually) so they land on the same line as the clock regardless of the
+  // team-name row's own (shorter) box height — see .man-down in styles.css.
+  const homeManDownHtml = isLive && manDownText(match.homeRedCards)
+    ? `<div class="man-down home">${manDownText(match.homeRedCards)}</div>` : '';
+  const awayManDownHtml = isLive && manDownText(match.awayRedCards)
+    ? `<div class="man-down away">${manDownText(match.awayRedCards)}</div>` : '';
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
@@ -2251,6 +2251,8 @@ function matchCardHtml(match, extraLabel, opts = {}) {
           <span class="flag-link" data-team="${match.awayTeam || ''}">${flagImg(match.awayIso, match.awayTeam)}</span>
           <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
         </div>
+        ${homeManDownHtml}
+        ${awayManDownHtml}
       </div>
       ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnShootoutHtml(match) : ''}

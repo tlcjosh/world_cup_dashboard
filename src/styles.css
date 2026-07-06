@@ -323,6 +323,7 @@ body {
   align-items: center;
   gap: 0 16px;
   padding: 4px 0 8px;
+  position: relative;
 }
 
 .match-home {
@@ -368,12 +369,19 @@ body {
 .score-sub.ht   { color: var(--blue); }
 .score-sub.vs   { font-size: 12px; color: var(--ink-3); font-weight: 400; }
 
+/* Anchored to .match-teams (not .match-home/.match-away) so it lands on the same
+   line as the live clock below the score, regardless of the team row's own height. */
 .man-down {
-  margin-top: 3px;
+  position: absolute;
+  top: 100%;
+  margin-top: 4px;
   font-size: 9px; font-weight: 700; letter-spacing: .02em;
   color: var(--red); opacity: .85;
   text-transform: uppercase;
+  white-space: nowrap;
 }
+.man-down.home { right: 4px; }
+.man-down.away { left: 4px; }
 .score.vs       { font-size: 16px; color: var(--ink-3); font-weight: 400; }
 
 /* Match headline (ESPN recap summary) */
