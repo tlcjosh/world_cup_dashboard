@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-07-06T03:06:24.045Z",
+  "asOf": "2026-07-06T03:28:46.522Z",
   "items": [
     {
-      "headline": "Mexico v England: World Cup 2026 last 16 updates – live",
+      "headline": "Mexico 2-3 England: World Cup 2026 last 16 updates – live reaction",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live"
@@ -10,10 +10,158 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 02:56:28 GMT",
+      "pubDate": "Mon, 06 Jul 2026 03:25:18 GMT",
       "teams": [
         "Mexico",
         "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: 1 bettor loses $1 million on Mexico's 3-2 loss to England in Round of 16",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/betting/article/world-cup-2026-1-bettor-loses-1-million-on-mexicos-3-2-loss-to-england-in-round-of-16-032222571.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 03:22:22 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "The man England will fear most - Haaland fires Norway to history",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ce/live/6e68af30-78c9-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 03:20:59 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:15:07 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England player ratings: Jude Bellingham and Jordan Pickford shine in dramatic World Cup win over Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-jarell-quansah-sent-off-022337531.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 03:11:33 +0000",
+      "teams": [
+        "Mexico",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: 10-man England defeat Mexico in tournament classic",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-031000868.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 03:10:00 +0000",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: Short-handed England holds off Mexico at home behind 2-minute Jude Bellingham brace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-short-handed-england-holds-off-mexico-at-home-behind-2-minute-jude-bellingham-brace-030847028.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 03:08:47 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/jude-bellingham.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:08:06 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: Haaland Skyrockets In Historic Golden Boot Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284699470-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:05:18 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England Weathers Storm With 10 Men To Beat Mexico, Advance To World Cup Quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-weathers-storm-10-men-beat-mexico-advance-world-cup-quarterfinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/32ddf287-kane1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 05 Jul 2026 23:04:32 -0400",
+      "teams": [
+        "Mexico",
         "England"
       ]
     },
@@ -128,21 +276,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Why Jarell Quansah was sent off in England’s World Cup clash with Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-jarell-quansah-sent-off-022337531.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 02:37:59 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     },
     {
@@ -336,24 +469,6 @@
         "Mexico",
         "Australia",
         "England"
-      ]
-    },
-    {
-      "headline": "The man no-one wants to face - Haaland fires Norway to history",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ce/live/6e68af30-78c9-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 00:57:52 GMT",
-      "teams": [
-        "Norway"
       ]
     },
     {
@@ -673,7 +788,7 @@
       ]
     },
     {
-      "headline": "🚨 FIFA confirm, Mexico v England kicks off late!",
+      "headline": "🚨 Confirmed: Mexico v England kicks off late!",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/confirmed-fifa-mexico-v-england-232600697.html"
@@ -1187,22 +1302,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Haaland Skyrockets In Historic Golden Boot Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284699470-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 18:15:14 -0400",
-      "teams": []
-    },
-    {
       "headline": "Haaland’s heroic double stuns Brazil and sends Norway into World Cup quarter-finals",
       "links": {
         "web": {
@@ -1309,22 +1408,6 @@
         "Mexico",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haaland-quarters.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 18:08:04 -0400",
-      "teams": []
     },
     {
       "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
@@ -4005,22 +4088,6 @@
         "Mexico",
         "England"
       ]
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:09:19 -0400",
-      "teams": []
     },
     {
       "headline": "After Folarin Balogun's Red Card, Ricardo Pepi Has A Chance Of A Lifetime",
@@ -15939,71 +16006,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Wed, 01 Jul 2026 18:00:16 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "England v DR Congo: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/01/england-v-dr-congo-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 01 Jul 2026 17:53:55 GMT",
-      "teams": [
-        "Congo DR",
-        "Uzbekistan",
-        "England",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "Should England have had a penalty for challenge on Kane?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cg53nlder6zo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6344/live/fcaa12a0-756f-11f1-8eb5-8b4f46f6e33b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 01 Jul 2026 17:48:24 GMT",
-      "teams": [
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kane overtakes Pelé in World Cup goals tally",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kane-overtakes-pel-world-cup-174800444.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:48:00 +0000",
-      "teams": [
-        "Congo DR"
-      ]
-    },
-    {
-      "headline": "🔥 Even heroic Mpasi can't save them: Kane rescues England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/even-hero-mpasi-cant-save-173700378.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 01 Jul 2026 17:37:00 +0000",
       "teams": [
         "Congo DR",
         "England"

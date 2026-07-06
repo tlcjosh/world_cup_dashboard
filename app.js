@@ -2,8 +2,8 @@ import { Idiomorph } from './vendor/idiomorph.esm.js';
 
 // Bump both of these (and src/sw.js's CACHE string) on every change to a static
 // frontend file, so the footer reflects what's actually deployed — see CLAUDE.md.
-const APP_VERSION = 'v26.1';
-const APP_UPDATED = '2026-07-06 03:04 UTC';
+const APP_VERSION = 'v26.2';
+const APP_UPDATED = '2026-07-06 03:28 UTC';
 
 // Patches `el`'s children to match `html` instead of destroying/rebuilding the
 // subtree (avoids image re-decode flicker and restarting in-flight CSS animations
@@ -2192,13 +2192,21 @@ function matchCardHtml(match, extraLabel, opts = {}) {
     ? `<div class="${scoreSubCls}" data-matchnum="${match.matchNum}"><span class="clock-text">${scoreSubText}</span></div>`
     : '';
 
-  // Red-card "N men" tags anchor to .match-teams (not to .match-home/.match-away
-  // individually) so they land on the same line as the clock regardless of the
-  // team-name row's own (shorter) box height — see .man-down in styles.css.
   const homeManDownHtml = isLive && manDownText(match.homeRedCards)
-    ? `<div class="man-down home">${manDownText(match.homeRedCards)}</div>` : '';
+    ? `<div class="man-down">${manDownText(match.homeRedCards)}</div>` : '';
   const awayManDownHtml = isLive && manDownText(match.awayRedCards)
-    ? `<div class="man-down away">${manDownText(match.awayRedCards)}</div>` : '';
+    ? `<div class="man-down">${manDownText(match.awayRedCards)}</div>` : '';
+
+  // A real (non-absolutely-positioned) row under .match-teams — mirrors its 3-column
+  // layout so the clock and any "N men" tags sit in true document flow, in line with
+  // each other, and properly push .match-events/.match-stats down instead of
+  // overlapping them the way an absolutely-positioned clock used to.
+  const subRowHtml = scoreSubText ? `
+      <div class="match-subrow">
+        <div class="man-down-cell home">${homeManDownHtml}</div>
+        <div class="clock-cell">${scoreSubHtml}</div>
+        <div class="man-down-cell away">${awayManDownHtml}</div>
+      </div>` : '';
 
   const venueText = match.venue || '';
   const extraLabelHtml = extraLabel ? `<span class="badge badge-soon" style="font-size:11px;">${extraLabel}</span>` : '';
@@ -2245,15 +2253,13 @@ function matchCardHtml(match, extraLabel, opts = {}) {
         </div>
         <div class="score-col">
           ${scoreHtml}
-          ${scoreSubHtml}
         </div>
         <div class="match-away">
           <span class="flag-link" data-team="${match.awayTeam || ''}">${flagImg(match.awayIso, match.awayTeam)}</span>
           <span class="team-name ${awayClass} team-link" data-team="${match.awayTeam || ''}">${match.awayTeam || 'TBD'}</span>
         </div>
-        ${homeManDownHtml}
-        ${awayManDownHtml}
       </div>
+      ${subRowHtml}
       ${hasScore && !opts.suppressStats ? espnEventsHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnShootoutHtml(match) : ''}
       ${hasScore && !opts.suppressStats ? espnStatsHtml(match) : ''}
