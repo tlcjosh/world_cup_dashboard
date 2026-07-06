@@ -369,13 +369,11 @@ body {
 .score-sub.vs   { font-size: 12px; color: var(--ink-3); font-weight: 400; }
 .score.vs       { font-size: 16px; color: var(--ink-3); font-weight: 400; }
 
-/* Red-card indicator: same corner-badge treatment as the clinch-dot used in
-   Standings/Bracket (pinned to a team's flag via .team-flag-wrap), just larger and
-   red so a 2-digit "players remaining" count still fits legibly. */
-.clinch-dot.man-down {
-  width: 14px; height: 14px;
-  font-size: 8px;
-  background: var(--red);
+/* Red-card indicator: the .rcard glyph next to the affected team's name,
+   slightly larger than its stats-pill usage so it reads at a glance. */
+.man-down-icon {
+  transform: scale(1.15);
+  margin: 0 1px;
 }
 
 /* Match headline (ESPN recap summary) */
