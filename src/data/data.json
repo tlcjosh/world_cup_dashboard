@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T06:08:02.976Z",
+  "lastUpdated": "2026-07-06T11:02:49.463Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4472,7 +4472,8 @@
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760508"
     },
     {
       "matchId": 537383,
