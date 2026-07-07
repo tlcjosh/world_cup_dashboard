@@ -1,6 +1,471 @@
 {
-  "asOf": "2026-07-07T05:48:20.251Z",
+  "asOf": "2026-07-07T09:00:54.193Z",
   "items": [
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:51:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid spent over €150 to replace retired Brazilian defender",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-spent-over-150-085000660.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:50:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "England FA considering Quansah red card appeal after USA-Balogun World Cup controversy",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-fa-considering-quansah-red-084500419.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:45:00 +0000",
+      "teams": [
+        "Mexico",
+        "United States",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/07/world-cup-2026-usa-bounced-out-by-belgium-after-balogun-furore-backlash-against-fifa-builds-argentina-egypt-colombia-switzerlandlive"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 08:43:42 GMT",
+      "teams": [
+        "Mexico",
+        "Switzerland",
+        "United States",
+        "Belgium",
+        "Egypt",
+        "Argentina",
+        "Colombia",
+        "England"
+      ]
+    },
+    {
+      "headline": "💡 Better than Messi and Olise, this player is the World Cup's most creative",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/better-messi-olise-player-world-083800567.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:38:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Fifa president Gianni Infantino faces calls to resign as Gary Lineker joins backlash to World Cup controversy",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-president-gianni-infantino-faces-063814864.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:35:58 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Injustice drove Belgium to win over USA - Raskin",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/injustice-drove-belgium-win-over-083221652.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:32:21 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Madrid World Cup Spotlight: Marc Cucurella and Thibaut Courtois progress; Bernardo Silva returns home",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/madrid-world-cup-spotlight-marc-083000265.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:30:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Gianni Infantino’s Trumpification of Fifa will have repercussions well beyond this stained World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gianni-infantino-trumpification-fifa-repercussions-082504874.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:25:04 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 World Cup: a Belgium regular suffers a cruciate ligament tear!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-belgium-regular-suffers-082400445.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:24:00 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Belgium manager reveals what he told Folarin Balogun after win over USA: ‘It’s not his fault’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-manager-reveals-told-folarin-082109893.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:21:09 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "🚨 Amadou Onana suffers ACL rupture in Belgium's World Cup win over USA",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/amadou-onana-suffers-acl-rupture-082000818.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:20:00 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "📲 Big Tuesday for Argentina and Colombia in the Copa, see fixtures",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/big-tuesday-argentina-colombia-copa-081800462.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:18:00 +0000",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Argentina",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Who has been eliminated from the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09c5/live/83c3fe00-79d9-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 07 Jul 2026 08:17:51 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Today’s Papers – It’s over for Ronaldo, Juventus move for Pellegrino",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/today-papers-over-ronaldo-juventus-081000751.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "A shambolic end for the American dream - did Balogun saga play a part?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/shambolic-end-american-dream-did-050016486.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:02:43 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Portugal World Cup exit accelerates Barcelona&#8217;s move for versatile full-back",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/portugal-world-cup-exit-accelerates-080000287.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 08:00:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 07 Jul 2026 07:58:30 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Brazil legend tears into Real Madrid star after costly World Cup miss: &#8216;He was terrible&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-legend-tears-real-madrid-075000932.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 07:50:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "World Cup: Serie A stars De Ketelaere and Lukaku on the scoresheet as Belgium eliminate USMNT – video",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-serie-stars-ketelaere-074500386.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 07:45:00 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Watch: Barcelona superstar Lamine Yamal consoles Cristiano Ronaldo in emotional World Cup moment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-barcelona-superstar-lamine-yamal-074000146.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 07:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Trump Wanted a U.S. Soccer Star to Play in the World Cup. FIFA Found a Way.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/06/world/europe/fifa-trump-infantino-world-cup-red-card.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Tue, 07 Jul 2026 07:33:41 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "USA Knows What World Cup Disappointment Feels Like. It Hurts All The Same.",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-world-cup-loss-disappointment-balogun-pulisic"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284984196-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 03:23:10 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Barcelona forward responds to criticism with game-changing cameo for Spain in Portugal win: &#8216;In tournaments like this&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-forward-responds-criticism-game-072000874.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 07:20:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "🗞️ World press hails the MERINAZO that sends Spain into the last eight",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-press-hails-merinazo-sends-071500481.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 07:15:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Folarin Balogun Leaves The World Cup A Star, Red Card Controversy And All",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/folarin-balogun-leaves-world-cup-star-red-card-controversy-all"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun1-8.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 03:01:49 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Best fans at the World Cup? How Colombia’s support powered the team to success",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/07/best-fans-at-the-world-cup-how-colombias-support-powered-the-team-to-success"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 07:00:33 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Switzerland",
+        "Brazil",
+        "United States",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "USA fall asleep in Seattle and it’s tchau Ronaldo | World Cup Daily – video",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jul/07/usa-fall-asleep-in-seattle-and-its-tchau-ronaldo-world-cup-daily-video"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 06:48:04 GMT",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "How to Watch Argentina and Messi vs. Egypt: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-egypt-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-argentina-vs-egypt-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 02:21:27 -0400",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina vs. Egypt Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-egypt-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283952864-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 02:00:09 -0400",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
     {
       "headline": "World Cup: Mauricio Pochettino rejects Trump, Balogun controversy as excuse after USMNT elimination",
       "links": {
@@ -31,18 +496,6 @@
         "United States",
         "Belgium"
       ]
-    },
-    {
-      "headline": "A shambolic end for the American dream - did Balogun saga play a part?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/shambolic-end-american-dream-did-050016486.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 05:33:06 +0000",
-      "teams": []
     },
     {
       "headline": "Man City 2026 World Cup Watch: Jeremy Doku and Belgium set up last-eight clash with Spain",
@@ -660,20 +1113,6 @@
       ]
     },
     {
-      "headline": "Trump Wanted a U.S. Soccer Star to Play in the World Cup. FIFA Found a Way.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/06/world/europe/fifa-trump-infantino-world-cup-red-card.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 07 Jul 2026 02:06:02 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
       "headline": "Mauricio Pochettino reaction: What did USA boss say after exiting World Cup vs Belgium?",
       "links": {
         "web": {
@@ -976,6 +1415,21 @@
       "teams": [
         "United States",
         "Belgium",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/07/cristiano-ronaldo-portugal-roberto-martinez-world-cup-2026-spain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 06 Jul 2026 23:33:01 GMT",
+      "teams": [
         "Spain",
         "Portugal"
       ]
@@ -1442,27 +1896,6 @@
       ]
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:28:28 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
       "headline": "Spain set remarkable World Cup record in knockout win over Portugal 🧤",
       "links": {
         "web": {
@@ -1496,22 +1929,6 @@
         "Portugal",
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:22:28 +0000",
-      "teams": []
     },
     {
       "headline": "USA vs. Belgium score, World Cup live updates: Folarin Balogun to play Monday after red card fiasco",
@@ -3460,22 +3877,6 @@
         "Norway",
         "England"
       ]
-    },
-    {
-      "headline": "Who has been eliminated from the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48c7/live/20eee200-7910-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 08:10:39 GMT",
-      "teams": []
     },
     {
       "headline": "‘Bullshit’: Socceroo Awer Mabil hits out at Pauline Hanson’s monoculture claim",
@@ -10230,7 +10631,7 @@
       ]
     },
     {
-      "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
+      "headline": "Chris Sutton predicts World Cup's last-16 matches",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss"
@@ -10245,7 +10646,6 @@
       "pubDate": "Sat, 04 Jul 2026 09:33:37 GMT",
       "teams": [
         "Mexico",
-        "Brazil",
         "England"
       ]
     },
@@ -15616,422 +16016,6 @@
       "teams": [
         "Portugal",
         "Croatia"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Croatia odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/portugal-croatia-odds-prediction-2026-world-cup-round-32-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/24/6e9d06c4-19f3-4667-b245-b24376b8589d/cristiano-ronaldo-2.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 21:27:03 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Mikel Oyarzabal at the double as Spain beat Austria and cruise into last 16",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/02/spain-austria-world-cup-2026-last-32-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 21:12:38 GMT",
-      "teams": [
-        "Spain",
-        "Austria",
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Rodri helps Spain into mouth-watering last-16 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-210500226.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 21:05:00 +0000",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Who Is Spain's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-next-world-cup-opponent"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/878fec02-d2baa3f6-gettyimages-2283790660-scaled-e1783026165487.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 17:01:14 -0400",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Spain coasts past Austria behind Mikel Oyarzabal brace, into Round of 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-spain-coasts-past-austria-behind-mikel-oyarzabal-brace-into-round-of-16-210038593.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 21:00:38 +0000",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "🎥 Bring on Portugal or Croatia! Spain dominate, reach Copa last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bring-portugal-croatia-spain-cruise-205900026.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:59:00 +0000",
-      "teams": [
-        "Spain",
-        "Austria",
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "🥇 Unai Simón breaks the all-time World Cup clean-sheet record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unai-sim-n-breaks-time-205800714.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:58:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Pubs allowed to stay open until 5am on Monday for England Mexico match",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/0c455db0-76a5-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 20:49:17 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "The 10 (not entirely serious…) right-back options Thomas Tuchel should consider",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/10-not-entirely-serious-back-203251495.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:32:51 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Croatia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/portugal-croatia-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/c3bc1b88-f3aa-4d40-a1a0-0abaa47a8322/portugal-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:30:36 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "10 reasons for Senegal to take heart after the disappointment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/10-reasons-senegal-heart-disappointment-202200560.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:22:00 +0000",
-      "teams": [
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Spain v Austria: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/02/spain-v-austria-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 20:16:26 GMT",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "World Cup Round of 32: Spain vs. Austria official line-ups",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-round-32-spain-201500573.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:15:00 +0000",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Why was Marc Cucurella’s goal for Spain disallowed in World Cup last-32?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-marc-cucurella-goal-spain-195832071.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 20:13:12 +0000",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 23",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-23"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/3.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 16:13:05 -0400",
-      "teams": []
-    },
-    {
-      "headline": "'It had been coming' - Oyarzabal puts Spain ahead",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cvge042v5k7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97e1/live/071a63e0-764f-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 02 Jul 2026 20:00:00 GMT",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "🔢 Spain star continues to shine by extending incredible scoring form",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-star-continues-shine-extending-195200507.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 19:52:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Malik Tillman's World Cup Moment Came At The Perfect Time For USA",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usmnt-malik-tillman-world-cup-goal-usa-knockout"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tillman1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 15:50:58 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "‘Curse’ ends three African teams’ dream of a World Cup spot",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/curse-ends-three-african-teams-193600410.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 19:36:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "USMNT vs Belgium Preview with Brian Dunseth + Harry Kane Saves England & Exclusive ROC Nation Interview",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/usmnt-vs-belgium-preview-with-brian-dunseth--harry-kane-saves-england--exclusive-roc-nation-interview-190303717.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 19:03:03 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Switzerland",
-        "United States",
-        "Australia",
-        "Belgium",
-        "Egypt",
-        "Cape Verde Islands",
-        "Senegal",
-        "Argentina",
-        "Algeria",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup: In America, there's no crying over red cards",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-in-america-theres-no-crying-over-red-cards-183242260.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 18:32:42 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Is Spain vs Austria on TV? Channel, kick-off and how to watch World Cup last-32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-vs-austria-tv-channel-061752232.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 18:31:04 +0000",
-      "teams": [
-        "Spain",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Highs and lows for Newcastle players at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/highs-lows-newcastle-players-world-182453683.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 18:24:53 +0000",
-      "teams": [
-        "Sweden",
-        "Congo DR"
-      ]
-    },
-    {
-      "headline": "EXCLUSIVE | Brad Friedel on Folarin Balogun: &#8216;The confidence he brings from AS Monaco is excellent&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/exclusive-brad-friedel-folarin-balogun-181500946.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 18:15:00 +0000",
-      "teams": [
-        "United States",
-        "France"
-      ]
-    },
-    {
-      "headline": "The change Thomas Tuchel has made to England’s World Cup plans to combat Azteca altitude",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/change-thomas-tuchel-made-england-180955488.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 18:09:55 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Azteca avengers? England return to scene of infamous Maradona handball",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/02/azteca-england-diego-maradona-handball-mexico-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 02 Jul 2026 18:00:06 GMT",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     }
   ]
