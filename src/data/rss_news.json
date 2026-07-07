@@ -1,6 +1,391 @@
 {
-  "asOf": "2026-07-07T15:14:08.678Z",
+  "asOf": "2026-07-07T17:28:30.816Z",
   "items": [
+    {
+      "headline": "Second Egypt goal against Argentina ruled out for foul",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/alvarez-starts-alongside-messi-argentina-150655982.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 17:25:02 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 07 Jul 2026 17:24:26 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Switzerland",
+        "United States",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Argentina v Egypt: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/07/argentina-v-egypt-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 17:16:57 GMT",
+      "teams": [
+        "United States",
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Journalist: Liverpool move for World Cup forward has &#8216;real potential&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-liverpool-move-world-cup-171500886.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 17:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina's Lionel Messi sets record with second missed PK in 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/argentinas-lionel-messi-sets-record-with-second-missed-pk-in-2026-world-cup-170704219.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 17:07:04 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🚨 World Cup: a record Messi could well have done without!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-record-messi-could-164800629.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:48:00 +0000",
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "🫣 He could've done without that! Messi with unwanted World Cup record",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/couldve-done-without-messi-sets-164600222.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:46:00 +0000",
+      "teams": [
+        "Egypt",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Switzerland vs. Colombia odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 25-16 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/switzerland-colombia-odds-prediction-time-2026-world-cup-round-of-16-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/bb3ee5a1-2eee-44ba-9801-dce894129d4b/luis-diaz-colombia-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:45:25 +0000",
+      "teams": [
+        "Switzerland",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "📉 Lionel Messi sets unwanted World Cup record with penalty miss",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-sets-unwanted-world-163900688.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:39:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Norway team struck by illness in days before England World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-team-struck-illness-days-163307693.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:33:07 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Can Scotland learn from history-making Norway?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/scotland-learn-history-making-norway-155451900.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:10:39 +0000",
+      "teams": [
+        "Scotland",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Balogun decision could lead to football 'cesspit'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/balogun-decision-could-lead-football-154346364.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:05:28 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "USA Knows What World Cup Disappointment Feels Like. It Hurts All The Same.",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-world-cup-loss-disappointment-balogun-pulisic"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-69.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 12:05:25 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Christian Pulisic’s World Cup of TV stardom and ‘little glimpses’ ends in disappointment",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/07/christian-pulisic-usmnt-world-cup-disappointment"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 16:00:33 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Christian Pulisic’s World Cup of TV stardom and ‘little glimpses’ ends in disappointment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/christian-pulisic-world-cup-tv-160033565.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 16:00:33 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Can Scotland learn from history-making Norway?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cr7xk8r9xl4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f83c/live/344a3460-7a1b-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 07 Jul 2026 15:54:46 GMT",
+      "teams": [
+        "Scotland",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "As Messi Dominates the World Cup, a War Is Waged Over Maradona’s Image",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/07/world/americas/world-cup-argentina-maradona-trademark.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Tue, 07 Jul 2026 15:53:15 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: FIFA condemns racist abuse directed at IShowSpeed during Argentina-Cape Verde match",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-fifa-condemns-racist-abuse-directed-at-ishowspeed-during-argentina-cape-verde-match-154835015.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:48:35 +0000",
+      "teams": [
+        "Cape Verde Islands",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Roma postpone talks for Moreira until end of World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/roma-postpone-talks-moreira-until-154500712.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Report: Liverpool ready to trigger £18m release clause to sign World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-liverpool-ready-trigger-18m-154500560.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:45:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Fifa's Balogun decision could lead to football 'cesspit' - McAllister",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cgmdkjg9pkno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a80/live/3118b8a0-7a1d-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 07 Jul 2026 15:43:41 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Is Switzerland vs Colombia on TV? Channel, kick-off and how to watch World Cup last-16 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/switzerland-vs-colombia-tv-channel-054333600.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:37:41 +0000",
+      "teams": [
+        "Switzerland",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Is Argentina vs Egypt on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-vs-egypt-tv-channel-054257759.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:37:35 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: Argentina vs. Egypt confirmed line-ups – Lautaro left out",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-argentina-vs-152000307.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:20:00 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Switzerland vs Colombia live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/switzerland-colombia-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/dbe39f0d-962b-45e2-b977-cc5c8da511ca/switzerland-colombia.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 07 Jul 2026 15:03:51 +0000",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Argentina",
+        "Colombia"
+      ]
+    },
     {
       "headline": "Half of Grêmio's squad has scored this year, see the numbers",
       "links": {
@@ -12,23 +397,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 14:59:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Argentina v Egypt: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/07/argentina-v-egypt-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 14:52:44 GMT",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
     },
     {
       "headline": "Wright's World Cup over before it even began",
@@ -58,21 +426,6 @@
       "pubDate": "Tue, 07 Jul 2026 14:47:50 +0000",
       "teams": [
         "United States"
-      ]
-    },
-    {
-      "headline": "Is Argentina vs Egypt on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-vs-egypt-tv-channel-054257759.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:46:49 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
       ]
     },
     {
@@ -742,18 +1095,6 @@
       ]
     },
     {
-      "headline": "As Messi Dominates the World Cup, a War Is Waged Over Maradona’s Image",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/07/world/americas/world-cup-argentina-maradona-trademark.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 07 Jul 2026 09:00:14 +0000",
-      "teams": []
-    },
-    {
       "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
       "links": {
         "web": {
@@ -959,27 +1300,6 @@
       ]
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 07:58:30 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
       "headline": "Brazil legend tears into Real Madrid star after costly World Cup miss: &#8216;He was terrible&#8217;",
       "links": {
         "web": {
@@ -1031,25 +1351,7 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Tue, 07 Jul 2026 07:33:41 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "USA Knows What World Cup Disappointment Feels Like. It Hurts All The Same.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-world-cup-loss-disappointment-balogun-pulisic"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284984196-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 03:23:10 -0400",
+      "pubDate": "Tue, 07 Jul 2026 07:33:42 +0000",
       "teams": [
         "United States"
       ]
@@ -15672,328 +15974,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Fri, 03 Jul 2026 02:27:04 GMT",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Croatia's potential game-tying goal called back thanks to sensor chip embedded in the game ball",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-croatias-potential-game-tying-goal-called-back-thanks-to-sensor-chip-embedded-in-the-game-ball-021853784.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 02:18:53 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Ball don't lie: How the World Cup match ball helped deny Croatia a dramatic equalizer vs. Portugal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/ball-dont-lie-how-the-world-cup-match-ball-helped-deny-croatia-a-dramatic-equalizer-vs-portugal-021853784.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 02:18:53 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Switzerland v Algeria: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/03/fifa-world-cup-2026-live-switzerland-v-algeria-updates-sui-vs-alg-last-round-32-match-score-latest"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 02:16:24 GMT",
-      "teams": [
-        "Switzerland",
-        "Germany",
-        "Algeria",
-        "Austria"
-      ]
-    },
-    {
-      "headline": "Ronaldo Over Modrić: 4 Takeaways From Portugal's Electric Win Over Croatia",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/cristiano-ronaldo-portugal-goal-world-cup-croatia-modric-4-takeaways"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/857ddbe3-ronaldo1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 22:15:21 -0400",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Why VAR Denied Croatia's Late Equalizer In Portugal World Cup Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/var-world-cup-croatia-equalizer-portugal-offside"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284408454-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 22:14:27 -0400",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Yamal vs. Ronaldo Part 2: Spain And Portugal To Meet In World Cup Round Of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/yamal-vs-ronaldo-part-2-spain-portugal-meet-world-cup-round-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/yamal1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 22:09:37 -0400",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Ronaldo’s tears, Martinez’s choice and Modric’s ending: Inside Portugal v Croatia, a World Cup epic",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ronaldo-tears-martinez-choice-jota-015928411.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 02:07:22 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "🙏🏽 Portugal pays tribute on first anniversary of Diogo Jota's death +",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-pays-tribute-first-anniversary-020300230.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 02:03:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Portugal beat Croatia in chaotic finish to reach last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-face-croatia-spain-waiting-210819570.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 02:02:01 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Melting hot! When Ireland played Mexico in 43C heat at 1994 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/ng-interactive/2026/jul/03/melting-hot-when-ireland-played-mexico-in-sweltering-1994-world-cup-clash"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 02:00:15 GMT",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Ange Postecoglou is exactly what Japan need after fifth-straight World Cup knockout loss | John Duerden",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/blog/2026/jul/03/world-cup-japan-team-samurai-blue-losses-ange-postecoglou-comments"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 01:59:37 GMT",
-      "teams": [
-        "Brazil",
-        "Australia",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "🚨 Switzerland and Algeria name starting XIs for last-32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/switzerland-algeria-name-starting-xis-015400536.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 01:54:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Algeria"
-      ]
-    },
-    {
-      "headline": "Diogo Jota given touching World Cup tribute during Portugal national anthem",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/diogo-jota-given-touching-world-001743604.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 01:50:49 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Upset about the US red card in the World Cup? Domino’s is here to help you cope",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/upset-us-red-card-world-014739039.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 01:47:39 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "Late VAR drama as Croatia denied equaliser",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/ckg7eerdx6go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f21/live/0ac9fd90-767f-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 03 Jul 2026 01:38:29 GMT",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Ramos sends Portugal into last 16 as VAR drama caps wild finish against Croatia",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/02/portugal-croatia-world-cup-2026-last-32-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 01:32:31 GMT",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Ramos sends Portugal into last 16 as VAR drama caps wild finish against Croatia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ramos-sends-portugal-last-16-013231979.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 01:32:31 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Enzo Maresca&#8217;s stars to clash in last-16 as Portugal defeat Croatia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-012000038.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 01:20:00 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Switzerland vs. Algeria odds, prediction, time: 2026 World Cup Round of 32 picks by expert on 25-15 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/switzerland-algeria-odds-prediction-time-2026-world-cup-round-32-soccer-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/13/52320c87-8e0b-433f-bc7a-48c8c0d276ef/dan-ndoye-switzerland-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 01:18:25 +0000",
-      "teams": [
-        "Switzerland",
-        "Algeria"
-      ]
-    },
-    {
-      "headline": "Who Is Portugal's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/portugal-next-world-cup-opponent"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284404154-scaled-e1783040984915.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 02 Jul 2026 21:16:08 -0400",
       "teams": [
         "Portugal"
       ]

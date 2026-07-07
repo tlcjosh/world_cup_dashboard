@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T15:14:07.360Z",
+  "lastUpdated": "2026-07-07T17:28:03.228Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4508,10 +4508,10 @@
       "awayIso": "eg",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "kickoff": "2026-07-07T16:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-07-07T17:28:03.228Z",
       "secondHalfStart": null,
       "espnEventId": "760509"
     },
