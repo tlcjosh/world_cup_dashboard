@@ -1,6 +1,216 @@
 {
-  "asOf": "2026-07-06T23:45:13.087Z",
+  "asOf": "2026-07-07T01:28:24.234Z",
   "items": [
+    {
+      "headline": "USA v Belgium: World Cup 2026 last 16 – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/06/usa-v-belgium-world-cup-2026-last-16-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 01:13:23 GMT",
+      "teams": [
+        "United States",
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Cristiano Ronaldo plays down career World Cup failure: ‘Euros just as significant’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-plays-down-career-011045683.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 01:10:45 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Trump Wanted a U.S. Soccer Star to Play in the World Cup. FIFA Found a Way.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/06/world/europe/fifa-trump-infantino-world-cup-red-card.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Tue, 07 Jul 2026 01:06:48 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 00:46:23 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 00:28:10 +0000",
+      "teams": []
+    },
+    {
+      "headline": "📞 Trump to ring Infantino? Belgium striker stuns USA with brace!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-calling-infantino-usa-concede-002800580.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 00:28:00 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ronaldos-world-cup-career-ends-235110038.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 00:25:48 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Where In The World Cup Is Jameis Winston?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 20:22:54 -0400",
+      "teams": []
+    },
+    {
+      "headline": "John Stones on England’s World Cup clash with Erling Haaland’s Norway: ‘We know what they’ve got’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/john-stones-england-world-cup-184140522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 00:13:30 +0000",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain's World Cup challenge built on record-breaking historic defence",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spains-world-cup-challenge-built-231709233.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 00:10:58 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Will Cristiano Ronaldo Retire After World Cup?: 'I Will Have Time To Think'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/will-cristiano-ronaldo-retire-after-world-cup-i-will-have-time-think"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ronaldo1-5.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 06 Jul 2026 19:55:44 -0400",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "USMNT vs. Belgium live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-world-cup-2026-preview-predictions-watch/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/67205652-d10f-413f-9075-311353d08654/balogun-poch.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:55:09 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3vyyq1kg5go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a83e/live/3391e580-799a-11f1-a284-630313c9a0fe.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 06 Jul 2026 23:51:04 GMT",
+      "teams": []
+    },
+    {
+      "headline": "😲 Incredible run ended! Belgium superstar only on the bench v USA",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/incredible-run-ended-belgium-superstar-234300673.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 06 Jul 2026 23:43:00 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
     {
       "headline": "Cristiano Ronaldo in tears after Portugal crash out of World Cup to Spain’s stoppage-time winner",
       "links": {
@@ -65,22 +275,6 @@
       "teams": []
     },
     {
-      "headline": "USA v Belgium: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/06/usa-v-belgium-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 23:25:39 GMT",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
       "headline": "📹 CR7 keeps future under wraps and likens biggest title to the Copa",
       "links": {
         "web": {
@@ -93,34 +287,6 @@
       "teams": [
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "Trump Wanted a U.S. Soccer Star to Play in the World Cup. FIFA Found a Way.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/06/world/europe/fifa-trump-infantino-world-cup-red-card.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Mon, 06 Jul 2026 23:18:08 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Spain's World Cup challenge built on historic defence",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spains-world-cup-challenge-built-231709233.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:17:09 +0000",
-      "teams": [
-        "Spain"
       ]
     },
     {
@@ -139,7 +305,7 @@
       ]
     },
     {
-      "headline": "Spain's World Cup challenge built on historic defence",
+      "headline": "Spain's World Cup challenge built on record-breaking historic defence",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cyv00rzd3lpo?at_medium=RSS&at_campaign=rss"
@@ -910,20 +1076,6 @@
       ]
     },
     {
-      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 19:55:30 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
-    {
       "headline": "Trump, Fifa and Balogun: The World Cup controversy explained",
       "links": {
         "web": {
@@ -1115,22 +1267,6 @@
       ]
     },
     {
-      "headline": "John Stones on England’s World Cup clash with Erling Haaland’s Norway: ‘We know what they’ve got’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/john-stones-england-world-cup-184140522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:41:40 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
       "headline": "FIFA's mismanagement of Folarin Balogun's red card suspension mars USMNT’s big moment, and World Cup at large",
       "links": {
         "web": {
@@ -1188,18 +1324,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 06 Jul 2026 18:27:11 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:25:52 +0000",
       "teams": []
     },
     {
@@ -1429,24 +1553,6 @@
       "pubDate": "Mon, 06 Jul 2026 17:35:00 +0000",
       "teams": [
         "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Belgium live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/67205652-d10f-413f-9075-311353d08654/balogun-poch.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 17:32:24 +0000",
-      "teams": [
         "Belgium"
       ]
     },
@@ -7525,22 +7631,6 @@
         "United States",
         "Belgium"
       ]
-    },
-    {
-      "headline": "Where In The World Cup Is Jameis Winston?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 17:41:32 -0400",
-      "teams": []
     },
     {
       "headline": "Real Madrid player apologises for World Cup showing – ‘Even if…’",
@@ -15901,97 +15991,6 @@
       "teams": [
         "Bosnia-Herzegovina",
         "United States"
-      ]
-    },
-    {
-      "headline": "Malik Tillman’s bloody sock game rockets into US World Cup history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/malik-tillman-bloody-sock-game-140001745.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 14:00:01 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Rashford's future remains unresolved",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rashfords-future-remains-unresolved-135925555.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 13:59:25 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Portugal vs. Croatia odds, prediction: 2026 World Cup Round of 32 picks by expert on 18-8 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/portugal-croatia-odds-prediction-2026-world-cup-round-32-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/e5cde13a-0536-4bef-ac07-691d820a65d7/ronaldo-portugal.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 13:57:02 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Real Madrid president seeks club legend&#8217;s help to convince star winger over renewal &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-president-seeks-club-134500466.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 13:45:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Man City confirm deal to sign England star Elliot Anderson for club-record fee",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-confirm-deal-sign-134000813.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 02 Jul 2026 13:40:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Folarin Balogun red card suspension: Can USMNT appeal or will striker miss World Cup round of 16 vs. Belgium?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/folarin-balogun-red-card-suspension-usmnt-appeal-world-cup-round-of-16/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/d26389b6-9866-4bd4-9b6d-9f0ca1b9e98b/balogun.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 02 Jul 2026 13:10:47 +0000",
-      "teams": [
-        "Belgium"
       ]
     }
   ]
