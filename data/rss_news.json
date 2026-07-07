@@ -1,8 +1,245 @@
 {
-  "asOf": "2026-07-07T22:22:17.383Z",
+  "asOf": "2026-07-07T23:28:49.455Z",
   "items": [
     {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Favored After Argentina's Improbable Comeback",
+      "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fury-heartbreak-egypts-stunning-world-214711361.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 23:21:33 +0000",
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 19:15:18 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Quarterfinals Preview: The Key Storyline For Every Team",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinals-preview-key-storyline-every-team"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/c7b022c8-artboard-1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 19:15:18 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Semifinal Odds: Which Nations Are Favored To Reach Final Four?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 19:10:49 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 19:08:27 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Where do USMNT go from here after golden generation lets World Cup moment slip away in cruel fashion",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/where-do-usmnt-go-from-here-2026-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/c40ee30b-b31d-4208-b953-0f945a0cb772/tillman-usmnt-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 07 Jul 2026 23:04:37 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: Argentina Surges After Historic Comeback",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091355-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 19:03:02 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 16 Results",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812576-1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 18:57:16 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Argentina complete extraordinary comeback to beat Egypt",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/alvarez-starts-alongside-messi-argentina-150655982.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 22:54:55 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Switzerland heads to the quarterfinals after beating Colombia on penalty kicks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-switzerland-heads-to-the-quarterfinals-after-beating-colombia-on-penalty-kicks-225230435.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 22:52:30 +0000",
+      "teams": [
+        "Switzerland",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: The Quarterfinals Matchups Are Set",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-quarterfinals-bracket.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 18:52:15 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup quarterfinals: Confirmed schedule, results, predictions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 22:51:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Egypt furious at controversial referee decisions and claim World Cup ‘directed towards Argentina’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/egypt-furious-controversial-referee-decisions-223504897.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 22:35:04 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🔙 Dusting off: Brazil’s last title turns 7",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dusting-off-brazil-last-title-222400496.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 22:24:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Messi Favored After Argentina Comeback",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
@@ -44,7 +281,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285098589-scaled-e1783461529878.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi-inevitable-16x9-1.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -82,6 +319,18 @@
       "teams": []
     },
     {
+      "headline": "World Cup: Thierry Henry, Alexi Lalas get into heated exchange about Folarin Balogun's red card decision",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-thierry-henry-alexi-lalas-get-into-heated-exchange-about-folarin-baloguns-red-card-decision-214815756.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 21:48:15 +0000",
+      "teams": []
+    },
+    {
       "headline": "📸 He's one of us! How Klopp is watching the World Cup last 16",
       "links": {
         "web": {
@@ -99,21 +348,7 @@
       ]
     },
     {
-      "headline": "The fury and heartbreak of Egypt's stunning World Cup collapse",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fury-heartbreak-egypts-stunning-world-214711361.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:47:11 +0000",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "The fury and heartbreak of Egypt's stunning World Cup collapse",
+      "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c5yzd23jll5o?at_medium=RSS&at_campaign=rss"
@@ -337,21 +572,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 20:39:00 +0000",
       "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina complete extraordinary comeback to beat Egypt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/alvarez-starts-alongside-messi-argentina-150655982.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:32:56 +0000",
-      "teams": [
-        "Egypt",
         "Argentina"
       ]
     },
@@ -930,25 +1150,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: Which Squads Will Face Off In The Final?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:27:28 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Switzerland vs. Colombia odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 25-16 run",
       "links": {
         "web": {
@@ -984,24 +1185,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Title Odds: Argentina Surges After Historic Comeback",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091355-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:23:58 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Fernandez header seals dramatic Argentina comeback",
       "links": {
         "web": {
@@ -1021,22 +1204,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Semifinal Odds: Which Nations Are Favored To Reach Final Four?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:18:29 -0400",
-      "teams": []
-    },
-    {
       "headline": "😭Messi, in tears after Argentina's win",
       "links": {
         "web": {
@@ -1049,38 +1216,6 @@
       "teams": [
         "Argentina"
       ]
-    },
-    {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Make Final 8?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:15:57 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At Quarterfinals Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-quarterfinals-bracket.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:10:23 -0400",
-      "teams": []
     },
     {
       "headline": "Why was Egypt’s second goal against Argentina disallowed by VAR in World Cup last 16?",
@@ -4179,22 +4314,6 @@
         "Spain",
         "Portugal"
       ]
-    },
-    {
-      "headline": "2026 World Cup Round Of 16 Odds: Who's Favored To Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812576-1-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 17:02:00 -0400",
-      "teams": []
     },
     {
       "headline": "Portugal v Spain: World Cup 2026 last 16 – live",
@@ -11508,18 +11627,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Round of 16: Confirmed schedule, results, predictions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 17:09:00 +0000",
-      "teams": []
-    },
-    {
       "headline": "The five hours of chaos surrounding England’s World Cup tie that exposed Fifa’s lack of leadership",
       "links": {
         "web": {
@@ -15873,126 +15980,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Julian Nagelsmann out as Germany manager as Jürgen Klopp emerges as replacement",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-julian-nagelsmann-out-as-germany-manager-as-jurgen-klopp-emerges-as-replacement-132503910.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:25:03 +0000",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "World Cup schedule: Results for USMNT, Argentina, Brazil and the entire 48-team field",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/05/a24b37e2-d0ca-461d-94c1-74bba96d7aa4/untitled-design-2026-06-05t150919-590.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:15:38 +0000",
-      "teams": [
-        "Brazil",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup knockout round schedule: Kickoff times, dates, fixtures, how to live stream, watch on TV",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-2026-schedule-times-dates/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/03/0137efde-fd18-4b84-aa11-40b0559f2c54/untitled-design-2026-06-03t174612-054.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:15:31 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup round of 32 wraps up: Can Cabo Verde do it again, this time against Lionel Messi and Argentina?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-round-of-32-cabo-verde-lionel-messiargentina/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/78cd2565-a726-4929-9530-6cc49abfaf44/untitled-design-2026-07-03t091219-661.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:14:19 +0000",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "Spain",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "How Chelsea players are performing at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chelsea-players-performing-world-cup-130022137.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:00:22 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch Colombia vs. Ghana: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/colombia-vs-ghana-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-group-k"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-colombia-vs-ghana-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 08:52:46 -0400",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Ronaldo, Portugal survive Round of 32 thriller at World Cup; NBA's top 5 offseason moves",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/ronaldo-portugal-survive-round-of-32-thriller-at-world-cup-nbas-top-5-offseason-moves/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/53fe06ad-24b1-43f6-bb93-250d31a1e27f/gettyimages-2284403578-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 12:47:48 +0000",
-      "teams": [
-        "Portugal"
       ]
     }
   ]
