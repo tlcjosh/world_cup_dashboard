@@ -1,6 +1,22 @@
 {
-  "asOf": "2026-07-08T17:08:20.233Z",
+  "asOf": "2026-07-08T18:45:22.009Z",
   "items": [
+    {
+      "headline": "Why The Remaining 8 World Cup Teams Ea Could Win It All — And Why They Won't",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-ranking-quarterfinal-teams-france-argentina-spain"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-70.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:42:41 -0400",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: Egypt fury after Argentina win thriller, injured Henderson staying with England – live",
       "links": {
@@ -10,12 +26,141 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 16:59:24 GMT",
+      "pubDate": "Wed, 08 Jul 2026 18:25:19 GMT",
       "teams": [
         "Switzerland",
         "Egypt",
         "Argentina",
         "England"
+      ]
+    },
+    {
+      "headline": "Egyptian FA questions ‘fairness’ of loss to Argentina amid refereeing furore",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/egyptian-fa-questions-fairness-of-loss-to-argentina-amid-refereeing-furore"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 18:23:18 GMT",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Barcelona youngster hopes to win over Flick during pre-season after World Cup breakthrough",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-youngster-hopes-win-over-182000414.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 18:20:00 +0000",
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Trump's revenge? Belgium to demand new training ground from FIFA",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trumps-revenge-belgium-demand-training-181800286.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 18:18:00 +0000",
+      "teams": [
+        "United States",
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Guimaraes asks to leave amid Arsenal interest",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/guimaraes-asks-leave-amid-arsenal-180124093.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 18:01:24 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Homecoming Complete: Olympic Champion Shelina Zadorsky Joins AFC Toronto",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/homecoming-complete-olympic-champion-shelina-175000976.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 17:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Marcus Rashford expected to start new season back at Manchester United",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/marcus-rashford-return-manchester-united-new-season-move-away-not-ruled-out-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 17:11:54 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Brazil World Cup Review: Old Problems Return as Future Questions Begin",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazil-world-cup-review-old-170500428.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 17:05:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "🥺Farewell to the legends, a World Cup saying goodbye to icons",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/farewell-legends-world-cup-saying-170300777.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 17:03:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "France’s Deschamps unruffled by Argentinian officials helming Morocco quarter-final",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/france-deschamps-unruffled-argentinian-officials-morocco-world-cup-quarter-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 16:57:16 GMT",
+      "teams": [
+        "Morocco",
+        "Egypt",
+        "France",
+        "Argentina"
       ]
     },
     {
@@ -1356,20 +1501,6 @@
       "source": "BBC Sport",
       "pubDate": "Wed, 08 Jul 2026 10:52:26 GMT",
       "teams": []
-    },
-    {
-      "headline": "Marcus Rashford expected to start new season back at Manchester United",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/08/marcus-rashford-return-manchester-united-new-season-move-away-not-ruled-out-football"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 10:51:25 GMT",
-      "teams": [
-        "England"
-      ]
     },
     {
       "headline": "Arsenal lead Premier League clubs in key World Cup stat",
@@ -15640,160 +15771,6 @@
         "Brazil",
         "Colombia",
         "Ghana"
-      ]
-    },
-    {
-      "headline": "World Cup Round of 16 Preview: One Player For Every Team You Need To Know",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-round-16-preview-one-player-every-team-you-need-know"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/one-player-team-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:42:37 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Bracket: A Full Look At The Round Of 16 Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-live-bracket-knockout-games-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/colombia.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:39:32 -0400",
-      "teams": []
-    },
-    {
-      "headline": "🏆Bracket set: all last-16 ties confirmed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/round-16-set-ties-now-033600847.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 03:36:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France",
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Who Is Colombia's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/who-colombias-next-world-cup-opponent"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/colombia-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:35:56 -0400",
-      "teams": [
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Round Of 32 Results",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/usa-626.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:31:26 -0400",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026: Colombia completes the Round of 16 field with a 1-0 win over Ghana",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-colombia-completes-the-round-of-16-field-with-a-1-0-win-over-ghana-033123226.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 03:31:23 +0000",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "🎥 'Brazilian' goal and stunning save! Last side into the last 16 set",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazilian-goal-stunning-save-last-033100492.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 03:31:00 +0000",
-      "teams": [
-        "Brazil",
-        "Egypt",
-        "Argentina",
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Messi, Argentina Defeat Cape Verde 3-2 In Extra time To Advance To Round Of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/messi-and-argentina-beat-cape-verde-32-in-extra-time-thriller-advancing-to-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mes.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:19:33 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Through Brilliance And Bravery, Cape Verde Epitomized The Beauty Of The World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-cape-verde-cinderella-world-cup-magic"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-63.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:12:34 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
       ]
     }
   ]
