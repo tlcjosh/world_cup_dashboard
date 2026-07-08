@@ -1,8 +1,111 @@
 {
-  "asOf": "2026-07-08T13:13:32.580Z",
+  "asOf": "2026-07-08T15:37:27.394Z",
   "items": [
     {
-      "headline": "World Cup 2026: Egypt fury after Argentina win thriller, Croatia head coach Dalic quits – live",
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:35:38 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Messi Favored After Argentina Comeback",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284541517-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:33:55 -0400",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:32:42 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Jordan Henderson rejoins England camp after undergoing successful surgery on freak injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jordan-henderson-breaks-silence-freak-150101417.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:32:35 +0000",
+      "teams": [
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Semifinal Odds: Which Nations Are Favored To Reach Final Four?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:31:19 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Title Odds: Argentina Surges After Historic Comeback",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091355-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:29:40 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Egypt fury after Argentina win thriller, injured Henderson staying with England – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/08/world-cup-2026-egypt-fury-after-argentina-win-thriller-switzerland-triumph-in-shootout-live"
@@ -10,12 +113,393 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 13:03:53 GMT",
+      "pubDate": "Wed, 08 Jul 2026 15:29:15 GMT",
       "teams": [
         "Switzerland",
         "Egypt",
         "Argentina",
-        "Croatia"
+        "England"
+      ]
+    },
+    {
+      "headline": "France boss issues update on Mbappe, Tchouameni ahead of Morocco clash: &#8216;He&#8217;s doing better&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-boss-issues-mbappe-tchouameni-152500241.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:25:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 futures odds: France remain favorites, Spain ahead of defending champions Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-2026-futures-odds-france-remain-favorites-spain-ahead-of-defending-champions-argentina/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/16/8f018fe6-329a-48c3-9367-503da3169fa3/lionel-messi-argentina-iceland.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:14:07 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "For U.S. Soccer, hiring Mauricio Pochettino was a coup. Bringing him back would be indefensible.",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/usa-world-cup-pochettino-future-usmnt"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/64f2a235-poch1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:12:13 -0400",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "The key players walking disciplinary tightrope",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/key-players-walking-disciplinary-tightrope-150716963.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:07:16 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "The key players walking disciplinary tightrope",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/07e6/live/9fd72a10-7a40-11f1-bc29-738b6960c215.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 15:07:12 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup power rankings: The 8 quarterfinalists, from title favorite to long shot",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-power-rankings-the-8-quarterfinalists-from-title-favorite-to-long-shot-150025894.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:00:25 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Newcastle target Manzambi 'wants to improve every single day'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/newcastle-target-manzambi-wants-improve-145553595.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:55:53 +0000",
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "Journalist: Salah&#8217;s next club plan cleared as Liverpool legend exits World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-salah-next-club-plan-145500665.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid move for Manchester City superstar just a matter of time &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-move-manchester-city-145500681.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:55:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Report: Newcastle target Swiss Word Cup star as rebuild plans take shape",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-newcastle-target-swiss-word-145000457.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "I’ve covered Fifa for years – ask me anything on Infantino and this World Cup’s crisis of trust",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ve-covered-fifa-years-ask-143442954.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:34:42 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What World Cup teams do on their days off could decide who wins it all",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/what-world-cup-teams-do-on-their-days-off-could-decide-who-wins-it-all-142555249.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:25:55 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Boot odds: Lionel Messi retakes lead and favored betting role entering quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/2026-world-cup-golden-boot-odds-lionel-messi-retakes-lead-and-favored-betting-role-entering-quarterfinals/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/10465b07-3740-48c8-8a01-29c85e6ff557/usatsi-29345378-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:23:04 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Egypt demand referees kicked out of World Cup after ‘double standards’ against Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/egypt-demand-fifa-kick-referees-132307878.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:13:07 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup quiz: Teams to have played the most quarter-finals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj3plgedn30o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2219/live/14c4f5f0-7a0a-11f1-bee8-53ce494e1abc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 14:04:38 GMT",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Egyptian FA calls out 'controversial and influential refereeing incidents' in Argentina loss",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 14:00:58 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Football Daily | Argentina, VAR machinations and the greatest goal that never was",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/football-daily-email-gwc-argentina-egypt"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 13:46:05 GMT",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Egypt want officials kicked out of World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/egypt-want-officials-kicked-world-114656047.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 13:45:29 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Egypt want officials kicked out of World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cee/live/998e4d00-7ac2-11f1-8918-eb9b5adcff36.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 13:45:24 GMT",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Four EFL players remain in the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/four-efl-players-remain-world-133529907.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 13:35:29 +0000",
+      "teams": []
+    },
+    {
+      "headline": "USMNT 'continues conversations' to keep Mauricio Pochettino as head coach after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-continues-conversations-to-keep-mauricio-pochettino/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/3035ab7f-cbd7-46d3-ad62-cd74be605b3d/poch.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 13:22:11 +0000",
+      "teams": []
+    },
+    {
+      "headline": "A World Cup free agent XI: summer bargains and top targets among clubless players",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/world-cup-free-agent-xi-vozinha-salah-clubless-players"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 13:21:06 GMT",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Where do USMNT go from here after golden generation lets World Cup moment slip away in cruel fashion",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/where-do-usmnt-go-from-here-2026-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/c40ee30b-b31d-4208-b953-0f945a0cb772/tillman-usmnt-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 13:21:03 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "USMNT 2030 World Cup roster prediction: Who are the 26 players that could lead USA soccer in next edition?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-2030-world-cup-roster-prediction/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/5d6f6f5c-8359-4356-9ab0-fa8923f29ce3/balogun-3.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 13:20:59 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "No league tables, no trophies: how Norway made sport fun for kids – and built a football team that beat Brazil",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/how-norway-made-sport-fun-kids-built-football-team-beat-brazil-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 13:13:57 GMT",
+      "teams": [
+        "Brazil",
+        "United States",
+        "Norway"
       ]
     },
     {
@@ -335,21 +819,6 @@
       "teams": []
     },
     {
-      "headline": "Egypt want officials kicked out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/egypt-want-officials-kicked-world-114656047.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:46:56 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Which Serie A side has the most players left in the 2026 World Cup quarter-finals?",
       "links": {
         "web": {
@@ -381,25 +850,6 @@
         "Switzerland",
         "United States",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "Egypt want officials kicked out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzdd070r3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cee/live/998e4d00-7ac2-11f1-8918-eb9b5adcff36.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 11:42:01 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
       ]
     },
     {
@@ -1355,24 +1805,6 @@
       ]
     },
     {
-      "headline": "USMNT 2030 World Cup roster prediction: Who are the 26 players that could lead USA soccer in next edition?",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-2030-world-cup-roster-prediction/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/5d6f6f5c-8359-4356-9ab0-fa8923f29ce3/balogun-3.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 08 Jul 2026 00:36:21 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
       "headline": "Switzerland Prevails: 4 Takeaways From Swiss' Penalty Kicks Win vs. Colombia",
       "links": {
         "web": {
@@ -1454,22 +1886,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:15:18 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 World Cup Quarterfinals Preview: The Key Storyline For Every Team",
       "links": {
         "web": {
@@ -1486,41 +1902,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Semifinal Odds: Which Nations Are Favored To Reach Final Four?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/03/128/72/7fe915f1-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:10:49 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:08:27 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
       "links": {
         "web": {
@@ -1533,42 +1914,6 @@
       "teams": [
         "Switzerland",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "Where do USMNT go from here after golden generation lets World Cup moment slip away in cruel fashion",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/where-do-usmnt-go-from-here-2026-world-cup/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/c40ee30b-b31d-4208-b953-0f945a0cb772/tillman-usmnt-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 23:04:37 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Argentina Surges After Historic Comeback",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091355-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:03:02 -0400",
-      "teams": [
-        "Argentina"
       ]
     },
     {
@@ -1677,25 +2022,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Favored After Argentina Comeback",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284541517-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:20:17 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
       ]
     },
     {
@@ -2453,22 +2779,6 @@
         "United States",
         "Belgium"
       ]
-    },
-    {
-      "headline": "USMNT 'continues conversations' to keep Mauricio Pochettino as head coach after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-continues-conversations-to-keep-mauricio-pochettino/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/3035ab7f-cbd7-46d3-ad62-cd74be605b3d/poch.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:45:48 +0000",
-      "teams": []
     },
     {
       "headline": "📲 Messi GOAT and no VAR for me, social media erupts",
@@ -15501,353 +15811,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 00:47:21 +0000",
       "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina stunned as Duarte equalises for Cape Verde",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cly8p49l2vwo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6198/live/93a162d0-7737-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 00:45:00 GMT",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "What madness was that? 🤯 Argentina and Cape Verde serve up epic match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-cape-verde-serve-epic-004500165.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:45:00 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "'Sensational' Messi finish gives Argentina the lead",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c5yz02je4n9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5136/live/6fb2aec0-7731-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 00:44:21 GMT",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "England-Mexico kick-off unchanged after Fifa U-turn",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-mexico-could-move-184805568.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:36:35 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Colombia and Ghana name starting XIs for Round of 32 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/colombia-ghana-name-starting-xi-002400578.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:24:00 +0000",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "England-Mexico 1am kick-off unchanged after Fifa U-turn",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f30/live/6152b0e0-770f-11f1-beb9-b5355696e847.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 00:16:26 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Canada vs. Morocco odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-15 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/canada-morocco-odds-prediction-time-2026-world-cup-round-of-16-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/893e8a48-efab-46a5-9ba5-bfc59e15a9af/jonathan-david-canada-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:11:25 +0000",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "🚨 Total World Cup madness! Argentina go into extra time",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/complete-world-cup-madness-argentina-000500630.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:05:00 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "How England Striker Harry Kane Has Become Lionel Messi-Esque",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/why-harry-kane-becoming-lionel-messi-esque-for-england-is-a-good-thing-with-record-breaking-goalscorer-benefiting-from-a-mindset-that-others-have-lacked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GOAL20-20Multiple20Images20-20220Split20-20Facebook20-202026-07-03T135435.422.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 20:00:13 -0400",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Cape Verde Comeback On? Duarte Equalizes vs. Argentina and Vozinha Denies Messi",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/cape-verde-comeback-on-duarte-equalizes-vs-argentina-vozinha-denies-messi"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 19:44:26 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina v Cape Verde: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 23:34:47 GMT",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "England’s game against Mexico to stay at 1am UK kick-off after day of chaos",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/03/england-mexico-match-timing"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 23:26:43 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Lionel Messi lauded by Ian Wright and Gary Neville for ‘total control’ after sublime Argentina goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-lauded-ian-wright-230909991.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 23:09:09 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Extends Multiple Records With 20th World Cup Goal For Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-extends-multiple-records-20th-world-cup-goal-argentina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 19:06:40 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Rice likely to be available for England v Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rice-likely-available-england-v-212930639.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:44:45 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "👽 He is INEVITABLE! Messi nets his 20th goal in the Copas; watch 🎥",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inevitable-messi-bags-20th-copa-224400728.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:44:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "🚨 Out of this world! Messi breaks another World Cup record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-messi-breaks-another-world-224300982.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:43:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Colombia vs. Ghana odds, prediction: 2026 World Cup Round of 32 picks by expert on 16-6 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/colombia-ghana-odds-prediction-line-time-2026-world-cup-round-of-32-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/bb3ee5a1-2eee-44ba-9801-dce894129d4b/luis-diaz-colombia-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:36:37 +0000",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Mexico boss furious at Fifa over proposed World Cup kick-off change vs England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-boss-furious-fifa-over-221638297.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:31:46 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Classy Folarin Balogun Handling 'Unjust' World Cup Red Card The 'Correct Way'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/classy-folarin-balogun-handling-unjust-world-cup-red-card-correct-way"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/05a0fdef-balogun1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 18:29:07 -0400",
-      "teams": []
-    },
-    {
-      "headline": "📸 Peekaboo! Argentina star copies the Busquets meme",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/peekaboo-argentina-star-copies-busquets-222800857.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 22:28:00 +0000",
-      "teams": [
-        "Spain",
         "Cape Verde Islands",
         "Argentina"
       ]
