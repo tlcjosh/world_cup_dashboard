@@ -1,6 +1,362 @@
 {
-  "asOf": "2026-07-08T15:37:27.394Z",
+  "asOf": "2026-07-08T17:08:20.233Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Egypt fury after Argentina win thriller, injured Henderson staying with England – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/08/world-cup-2026-egypt-fury-after-argentina-win-thriller-switzerland-triumph-in-shootout-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 16:59:24 GMT",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Gutted' Christie 'desperate' to help Scotland to more finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gutted-christie-desperate-help-scotland-165312163.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:53:12 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Jordan Henderson Returns To England Camp After Wrist Surgery For Freak Injury",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-player-jordan-henderson-world-cup-injury"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/henderson2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 12:53:09 -0400",
+      "teams": [
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "FIFA turns down France&#8217;s request to rescind Michael Olise&#8217;s controversial yellow card",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-turns-down-france-request-165000319.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:50:00 +0000",
+      "teams": [
+        "Paraguay",
+        "France"
+      ]
+    },
+    {
+      "headline": "&#8220;The best club in the world&#8221; &#8211; Fabino hints at return to former club as Saudi contract ends",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-club-world-fabino-hints-165000903.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:50:00 +0000",
+      "teams": [
+        "Brazil",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "headline": "Jordan Henderson breaks silence on England injury nightmare",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jordan-henderson-breaks-silence-england-165000070.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:50:00 +0000",
+      "teams": [
+        "Norway",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Gutted' Christie 'desperate' to help Scotland to more finals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp8le3v25j5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb55/live/f8f37b60-7ae2-11f1-9a9c-53fd8f110370.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 16:45:20 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Champions League Restarts With Cape Verde World Cup Star Pico Lopes Missing",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/champions-league-cape-verde-world-cup-star-pico-lopes-shamrock-rovers"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lopes1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 12:44:38 -0400",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "A Golden Boot race for the ages - but who will come out on top?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/golden-boot-race-ages-come-163110906.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:31:10 +0000",
+      "teams": []
+    },
+    {
+      "headline": "A Golden Boot race for the ages - but who will come out on top?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8m526mjmeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ed1/live/2ba03d90-6eaf-11f1-b1db-af71d47507d6.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 16:31:05 GMT",
+      "teams": []
+    },
+    {
+      "headline": "👋 Inter sale! Leao ❌ Milan, David vs Spalletti? Today's market 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/inter-sale-leao-milan-david-162700027.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:27:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "⏳Unai Simón, the World Cup record-holder between the sticks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unai-sim-n-world-cup-161700549.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:17:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Canada hero Jonathan David seeking Juventus stay, Spalletti has other ideas",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/canada-hero-jonathan-david-seeking-161000023.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:10:00 +0000",
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "headline": "Italy out of Under-20 World Cup after defeat on penalties to Denmark",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italy-under-20-world-cup-160000159.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Norway World Cup chaos continues as squad switch Miami hotels before England clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-world-cup-chaos-continues-155952070.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:59:52 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Return Dates Revealed: When will Van Dijk and Liverpool&#8217;s World Cup stars return?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/return-dates-revealed-van-dijk-155500323.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:55:00 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Are Argentina being treated favourably at World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-being-treated-favourably-world-154348855.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:54:47 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:49:39 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Unai Simón Takes Over As Favorite",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/unai-78.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:48:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Footy Fix: Blockbuster World Cup quarterfinals await as Lionel Messi seeks repeat; England, France loom",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/footy-fix-blockbuster-world-cup-quarterfinals-await-as-lionel-messi-seeks-repeat-england-france-loom/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/b7ec8f44-ff94-4f62-b0d1-e845742f1265/untitled-design-2026-07-08t090355-034.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:40:35 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Kylian Mbappé, Lionel Messi In Tight Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 11:39:08 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Crisis, emptiness and loneliness without the World Cup, see memes 😅",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/crisis-emptiness-loneliness-without-world-153900897.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:39:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Are Argentina being treated favourably at World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 15:37:07 GMT",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
     {
       "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
       "links": {
@@ -35,6 +391,18 @@
         "Egypt",
         "Argentina"
       ]
+    },
+    {
+      "headline": "Which World Cup teams are most at risk to yellow card suspensions for key players? What are the rules?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-teams-most-risk-153247951.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:32:47 +0000",
+      "teams": []
     },
     {
       "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
@@ -105,23 +473,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026: Egypt fury after Argentina win thriller, injured Henderson staying with England – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/08/world-cup-2026-egypt-fury-after-argentina-win-thriller-switzerland-triumph-in-shootout-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 15:29:15 GMT",
-      "teams": [
-        "Switzerland",
-        "Egypt",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "France boss issues update on Mbappe, Tchouameni ahead of Morocco clash: &#8216;He&#8217;s doing better&#8217;",
       "links": {
         "web": {
@@ -131,6 +482,21 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 08 Jul 2026 15:25:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "How France’s greatest strength could become their undoing against Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-greatest-strength-could-become-152237074.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 15:22:37 +0000",
       "teams": [
         "Morocco",
         "France"
@@ -6152,24 +6518,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Glove: Mike Maignan Favored, Jordan Pickford Rising",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284249201-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 14:58:16 -0400",
-      "teams": [
-        "Jordan"
-      ]
-    },
-    {
       "headline": "Real Madrid set sights on Inter Milan midfielder who could cost €50-60 million &#8211; report",
       "links": {
         "web": {
@@ -6573,22 +6921,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:54:08 -0400",
-      "teams": []
-    },
-    {
       "headline": "USA vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
       "links": {
         "web": {
@@ -6624,24 +6956,6 @@
       "teams": [
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Ball: Mbappé Favored To Win Player Of The Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:47:36 -0400",
-      "teams": [
-        "France"
       ]
     },
     {
@@ -15477,339 +15791,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 23:12:34 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7b4/live/b7fee070-774c-11f1-8e4e-2dc6898b0152.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 03:09:37 GMT",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "❌ Chaos before last 16, World Cup coach lashes out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chaos-last-16-world-cup-022000676.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 02:20:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Erik Lira's stats that put him ahead of Pedri and Declan Rice",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/erik-liras-numbers-put-him-021100642.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 02:11:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🎥 World Cup highlights: Epic duel! Argentina answer Cape Verde’s dream goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-epic-duel-015700697.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:57:00 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup breaks own-goal record with 14, surpassing 2018 tournament",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-breaks-own-goal-record-with-14-surpassing-2018-tournament-014951562.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:49:51 +0000",
-      "teams": [
-        "Egypt",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "🎙️Scaloni: We suffered a lot, but we deserved to win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scaloni-suffered-lot-deserved-win-014800732.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:48:00 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Meet Vozinha, The Cape Verde Goalkeeper Who Was The Hero In Near Argentina Upset",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/meet-vozinha-cape-verdean-goalkeeper-who-shut-out-spain"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/vozinha.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 21:43:20 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "After win over Cape Verde, 3 of Argentina's last 4 World Cup knockout wins have gone past 90 minutes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/after-win-over-cape-verde-3-of-argentinas-last-4-world-cup-knockout-wins-have-gone-past-90-minutes-013709757.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:37:09 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Five and a half hours that left England's World Cup tie in chaos",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c0ey24q42w2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a110/live/5dd8ea40-774d-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 01:36:43 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "How Cape Verde immortalised themselves in valiant World Cup exit to Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verde-immortalised-themselves-valiant-013603711.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:36:03 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "🔝The unexpected hero: Vozinha joins an elite list",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unexpected-hero-vozinha-joins-elite-013400464.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:34:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Messi vs. Vozinha: Best Moments From The Legendary Battle",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/best-moments-from-vozinhas-heroic-performance-against-messi-argentina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 21:20:14 -0400",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Colombia v Ghana: World Cup 2026 last 32 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/04/colombia-v-ghana-world-cup-2026-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 01:16:40 GMT",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "📲 Now it’s Brazil meets Egypt! Social media hails 🇨🇻 and much more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/now-brazil-mixed-egypt-socials-011400018.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 01:14:00 +0000",
-      "teams": [
-        "Brazil",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina Narrowly Avoids Historic Upset vs. Cape Verde With Extra Time Winner",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-narrowly-avoids-historic-upset-vs-cape-verde-extra-time-winner"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/romero1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 21:13:32 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Cape Verde's Vozinha frustrates Lionel Messi in heroic loss to Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-cape-verdes-vozinha-frustrates-lionel-messi-in-heroic-loss-to-argentina-005734254.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:57:34 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Did debutants Cabo Verde deliver the moment of the World Cup? 🤯",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/did-debutants-cabo-verde-deliver-005100032.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:51:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Martinez restores Argentina's lead against Cape Verde",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c4gy8exgyd3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa57/live/ed3d6ee0-773e-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 00:48:33 GMT",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Argentina escapes stunningly close matchup against Cape Verde in extra time to advance",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-argentina-escapes-stunningly-close-matchup-against-cape-verde-in-extra-time-to-advance-004721136.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:47:21 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Argentina survives against Cape Verde in extra time to advance",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-argentina-survives-against-cape-verde-in-extra-time-to-advance-004721136.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 00:47:21 +0000",
       "teams": [
         "Cape Verde Islands",
         "Argentina"
