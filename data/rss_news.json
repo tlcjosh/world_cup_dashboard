@@ -1,6 +1,65 @@
 {
-  "asOf": "2026-07-08T22:40:17.491Z",
+  "asOf": "2026-07-08T23:47:45.332Z",
   "items": [
+    {
+      "headline": "Landon Donovan, Tim Howard Empathize With Christian Pulisic, But Call On Him To Change",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/landon-donovan-tim-howard-empathize-christian-pulisic-call-him-change"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/christian-pulisic.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 18:53:43 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "As the World Cup Takes a Break, So Do N.Y.C. Bars: ‘It’s a Sigh of Relief’",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/08/nyregion/bars-world-cup-soccer.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 08 Jul 2026 22:43:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Starmer hints at bank holiday if England are victorious at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/starmer-hints-bank-holiday-england-223712596.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 22:37:12 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Chris Sutton's World Cup quarter-final predictions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chris-suttons-world-cup-quarter-223457389.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 22:34:57 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "Chris Sutton's World Cup quarter-final predictions",
       "links": {
@@ -75,18 +134,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 08 Jul 2026 22:20:18 +0000",
-      "teams": []
-    },
-    {
-      "headline": "As the World Cup Takes a Break, So Do N.Y.C. Bars: ‘It’s a Sigh of Relief’",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/08/nyregion/bars-world-cup-soccer.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 08 Jul 2026 22:14:09 +0000",
       "teams": []
     },
     {
@@ -15676,54 +15723,6 @@
       "teams": [
         "Paraguay",
         "Germany"
-      ]
-    },
-    {
-      "headline": "😱 Cape Verde's heartbreak, a viral dog... Friday's World Cup best",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verdes-heartbreak-viral-dog-070600844.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 07:06:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Canada vs. Morocco Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/canada-vs-morocco-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283951026-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 03:00:27 -0400",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Survival is key for England in epic test or it will be a Mexican wave goodbye",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/england-survival-mexico-world-cup-2026-thomas-tuchel"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 07:00:08 GMT",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     }
   ]
