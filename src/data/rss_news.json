@@ -1,6 +1,42 @@
 {
-  "asOf": "2026-07-07T23:28:49.455Z",
+  "asOf": "2026-07-08T01:05:34.238Z",
   "items": [
+    {
+      "headline": "World Cup Roundup: Lionel Messi Moves On, Switzerland Continues To Surprise",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-roundup-lionel-messi-moves-on-switzerland-continues-surprise"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-1.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 21:04:36 -0400",
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "From Country Roads To Viewership Records, U.S. Soccer Thanks Fans After World Cup Run",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/from-country-roads-viewership-records-u-s-soccer-thanks-fans-after-world-cup-run"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/country-roads.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 20:56:29 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
     {
       "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
       "links": {
@@ -10,9 +46,108 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 23:21:33 +0000",
+      "pubDate": "Wed, 08 Jul 2026 00:36:32 +0000",
       "teams": [
         "Egypt"
+      ]
+    },
+    {
+      "headline": "USMNT 2030 World Cup roster prediction: Who are the 26 players that could lead USA soccer in next edition?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnt-2030-world-cup-roster-prediction/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/5d6f6f5c-8359-4356-9ab0-fa8923f29ce3/balogun-3.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 00:36:21 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Switzerland Prevails: 4 Takeaways From Swiss' Penalty Kicks Win vs. Colombia",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/switzerland-colombia-world-cup-penalty-kicks-takeaways"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/takeaways1-3.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 20:35:32 -0400",
+      "teams": [
+        "Switzerland",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "World Cup Round of 16 takeaways: How much longer can Argentina continue to live on the edge?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-round-of-16-takeaways-how-much-longer-can-argentina-continue-to-live-on-the-edge-001012153.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 00:10:12 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/whos-left-2026-world-cup-whos-been-eliminated"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812664.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 19:54:30 -0400",
+      "teams": []
+    },
+    {
+      "headline": "😱Was it his LAST World Cup? James may have said goodbye to Colombia",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/last-world-cup-james-may-234200309.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 23:42:00 +0000",
+      "teams": [
+        "Switzerland",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Switzerland edge Colombia in dramatic penalty shoot-out to set up World Cup quarter-final with Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/switzerland-edge-colombia-dramatic-penalty-233609939.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 23:36:09 +0000",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Argentina",
+        "Colombia"
       ]
     },
     {
@@ -2044,22 +2179,6 @@
         "Egypt",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/whos-left-2026-world-cup-whos-been-eliminated"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812664.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:55:54 -0400",
-      "teams": []
     },
     {
       "headline": "Belgium unites to enjoy national team’s World Cup success over USA and Trump",
@@ -15875,112 +15994,6 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 03 Jul 2026 10:09:27 -0400",
       "teams": []
-    },
-    {
-      "headline": "Luka Modric, Cristiano Ronaldo, and Toronto's World Cup classic with global, local, and generational stakes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/luka-modric-cristiano-ronaldo-world-025621072.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:02:00 +0000",
-      "teams": [
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Germany pursues Jurgen Klopp to replace Julian Nagelsmann after disastrous World Cup crash out",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/germany-jurgen-klopp-julian-nagelsmann-world-cup-disaster/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/73497599-65db-4401-9350-0e26b4cff8c0/untitled-design-2026-07-03t094446-783.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:01:16 +0000",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "World Cup schedule today: How to watch Argentina v Cape Verde, TV channels & live stream Friday 3 July",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140030918.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:00:30 +0000",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina",
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Barcelona prodigy continues to build excitement with steady progress at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-prodigy-continues-build-excitement-140000919.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:00:00 +0000",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Inside the French revolution that forged a generational World Cup team",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inside-french-revolution-forged-generational-061101221.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:59:26 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Report: Liverpool have set their sights on move for World Cup forward",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-liverpool-set-sights-move-135500559.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Ancelotti opens up on Neymar's starting role and behaviour for 🇧🇷",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ancelotti-opens-neymars-starting-role-133900677.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 13:39:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
     }
   ]
 }
