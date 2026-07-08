@@ -1,6 +1,66 @@
 {
-  "asOf": "2026-07-08T01:05:34.238Z",
+  "asOf": "2026-07-08T04:30:40.270Z",
   "items": [
+    {
+      "headline": "Switzerland edge Colombia in dramatic penalty shoot-out to set up World Cup quarter-final with Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/switzerland-edge-colombia-dramatic-penalty-233609939.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 03:45:48 +0000",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Argentina",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Ranking the 4 quarterfinal games from best to worst",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-ranking-the-4-quarterfinal-games-from-best-to-worst-030555754.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 03:05:55 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🙄Only Argentina escape: CONMEBOL's worst World Cup since 2002",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/only-argentina-escape-conmebols-worst-022600663.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 02:26:00 +0000",
+      "teams": [
+        "Argentina",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Round Of 16 Power Rankings",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-16-power-rankings"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-power-rankings.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 07 Jul 2026 21:43:42 -0400",
+      "teams": []
+    },
     {
       "headline": "World Cup Roundup: Lionel Messi Moves On, Switzerland Continues To Surprise",
       "links": {
@@ -130,23 +190,6 @@
       "pubDate": "Tue, 07 Jul 2026 23:42:00 +0000",
       "teams": [
         "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Switzerland edge Colombia in dramatic penalty shoot-out to set up World Cup quarter-final with Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/switzerland-edge-colombia-dramatic-penalty-233609939.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 23:36:09 +0000",
-      "teams": [
-        "Switzerland",
-        "Egypt",
-        "Argentina",
         "Colombia"
       ]
     },
@@ -15949,50 +15992,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Fri, 03 Jul 2026 14:36:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Sassuolo target Italian midfielder to replace injured Canada star Koné",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/sassuolo-target-italian-midfielder-replace-143500116.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:35:00 +0000",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Zenga reacts to Unai Simon’s new World Cup record with cheeky comment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/zenga-reacts-unai-simon-world-142500483.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:25:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "FOX Sports Celebrates AMERICA 250 with Unrivaled Fourth of July Slate Featuring FIFA WORLD CUP 2026™ and MLB",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/presspass/fox-sports-celebrates-america-250-unrivaled-fourth-july-slate-featuring-fifa-world-cup-2026-mlb"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/screenshot-2026-07-01-094808.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 10:09:27 -0400",
       "teams": []
     }
   ]
