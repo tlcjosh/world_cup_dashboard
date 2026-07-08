@@ -1,6 +1,160 @@
 {
-  "asOf": "2026-07-08T21:33:52.160Z",
+  "asOf": "2026-07-08T22:40:17.491Z",
   "items": [
+    {
+      "headline": "Chris Sutton's World Cup quarter-final predictions",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 22:34:48 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "🙄Will he stay? Quintero returns to River after the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/stay-quintero-returns-river-world-222700410.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 22:27:00 +0000",
+      "teams": [
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Egypt want officials kicked out of World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/egypt-want-officials-kicked-world-114656047.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 22:20:35 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "White House’s World Cup head defends Trump lobbying Fifa over red card",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 22:20:18 GMT",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Brazil",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "White House’s World Cup head defends Trump lobbying Fifa over red card",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/white-house-world-cup-head-195632177.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 22:20:18 +0000",
+      "teams": []
+    },
+    {
+      "headline": "As the World Cup Takes a Break, So Do N.Y.C. Bars: ‘It’s a Sigh of Relief’",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/08/nyregion/bars-world-cup-soccer.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 08 Jul 2026 22:14:09 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ranking top 10 moments from USMNT's 2026 World Cup from Folarin Balogun red card fiasco to making history",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/ranking-top-10-moment-usmnts-2026-world-cup-folarin-balogun/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/80046969-be23-4ead-bc01-18fab482150f/balogun-red-card.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 22:10:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Journalist: Man United preparing £85m bid for French World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-man-united-preparing-85m-215000425.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 21:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "📊Surprise in the FIFA rankings: Argentina lose top spot to France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/surprise-fifa-rankings-argentina-lose-214700375.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 21:47:00 +0000",
+      "teams": [
+        "Egypt",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 08 Jul 2026 21:35:22 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Morocco",
+        "United States",
+        "France"
+      ]
+    },
     {
       "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
       "links": {
@@ -148,22 +302,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "White House’s World Cup head defends Trump lobbying Fifa over red card",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 19:56:32 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Brazil",
-        "Belgium"
       ]
     },
     {
@@ -1009,7 +1147,7 @@
       ]
     },
     {
-      "headline": "The key players walking disciplinary tightrope",
+      "headline": "The key World Cup players walking disciplinary tightrope",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cly7e9879m9o?at_medium=RSS&at_campaign=rss"
@@ -1186,21 +1324,6 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Wed, 08 Jul 2026 13:46:05 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Egypt want officials kicked out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/egypt-want-officials-kicked-world-114656047.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 13:45:29 +0000",
       "teams": [
         "Egypt",
         "Argentina"
@@ -1632,28 +1755,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 08 Jul 2026 11:45:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:44:49 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Switzerland",
-        "United States",
-        "Colombia"
-      ]
     },
     {
       "headline": "📹 Check out OneFootball’s World Cup last-16 XI",
@@ -15623,109 +15724,6 @@
       "teams": [
         "Mexico",
         "England"
-      ]
-    },
-    {
-      "headline": "‘An incredible man’: how Carlo Ancelotti has turned Brazil into potential World Cup winners",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/brazil-carlo-ancelotti-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 07:00:06 GMT",
-      "teams": [
-        "Qatar",
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Barcelona director Deco travels to the United States to watch World Cup matches",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-director-deco-travels-united-065500069.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 06:55:00 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Real Madrid mainstay to miss France&#8217;s Round of 16 clash through injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-mainstay-miss-france-065500715.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 06:55:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "♾️ Messi, endless legend: 30 matches, 20 goals, new world records 🐐",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-endless-legend-30-matches-064800379.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 06:48:00 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
-      "headline": "😍 Cape Verde’s World Cup fairytale: Vozinha to Messi, iconic moments",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cape-verde-world-cup-fairytale-063300881.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 06:33:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "2026 World Cup | What should France expect from Paraguay?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-france-expect-063000388.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 06:30:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "📝 World Cup: full last-16 schedule!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-full-last-16-062100208.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 06:21:00 +0000",
-      "teams": [
-        "Colombia",
-        "Ghana"
       ]
     }
   ]
