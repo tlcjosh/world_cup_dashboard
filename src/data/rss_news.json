@@ -1,22 +1,263 @@
 {
-  "asOf": "2026-07-08T04:30:40.270Z",
+  "asOf": "2026-07-08T07:10:55.418Z",
   "items": [
     {
-      "headline": "Switzerland edge Colombia in dramatic penalty shoot-out to set up World Cup quarter-final with Argentina",
+      "headline": "Is Neymar the first to bookend his international career with goals at the same venue? | The Knowledge",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/switzerland-edge-colombia-dramatic-penalty-233609939.html"
+          "href": "https://www.theguardian.com/football/2026/jul/08/is-neymar-the-first-to-bookend-his-international-career-with-goals-at-the-same-venue"
         }
       },
       "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 03:45:48 +0000",
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 07:00:23 GMT",
+      "teams": [
+        "Brazil",
+        "Scotland",
+        "United States",
+        "Senegal",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Morocco set a proud example for Africa as France await at World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/08/morocco-proud-example-africa-france-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 07:00:23 GMT",
+      "teams": [
+        "Mexico",
+        "Qatar",
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Egypt fury after Argentina win thriller, Switzerland triumph in shootout – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/08/world-cup-2026-egypt-fury-after-argentina-win-thriller-switzerland-triumph-in-shootout-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 08 Jul 2026 07:00:22 GMT",
       "teams": [
         "Switzerland",
+        "United States",
         "Egypt",
         "Argentina",
         "Colombia"
       ]
+    },
+    {
+      "headline": "🎥 From Atlanta to Buenos Aires, World Cup madness, Tuesday's best 🤣",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/atlanta-buenos-aires-world-cup-064800638.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:48:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid talent&#8217;s future once again in focus after disappointing World Cup campaign",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-talent-future-once-064500817.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:45:00 +0000",
+      "teams": [
+        "Brazil",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "What is England’s likely route to the World Cup final if they beat Norway?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:44:10 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:43:18 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "🎥 Mr manager – Ex! Still: Müller winds Klopp up",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mr-manager-ex-still-m-063600265.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:36:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 Golden Boot: Messi moves clear of Mbappe and Haaland as Kane joins thrilling race to finish top scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:35:33 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Liverpool open talks over deal for 17-year-old FIFA World Cup jewel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-open-talks-over-deal-063500696.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:27:49 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fury-heartbreak-egypts-stunning-world-214711361.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:06:35 +0000",
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Unusual or predictable? How Europe is dominating the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unusual-predictable-europe-dominating-world-050255374.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:06:35 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Messi inspires epic Argentina fightback as Mbappe breaks silence on racist attack",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-inspires-epic-argentina-fightback-060500427.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🔥 La Pulga still has fire! Messi explains his emotional outburst",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/la-pulga-still-fire-messi-055600036.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 05:56:00 +0000",
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 31",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3r2325v399o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1309/live/75cc2bb0-7952-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 05:47:35 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Omar Marmoush&#8217;s Egypt dream ends in heartbreaking fashion",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-053000260.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 08 Jul 2026 05:30:00 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Unusual or predictable? How Europe is dominating the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cr479drd159o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1355/live/d7a0b940-7a6b-11f1-b3a0-9d60633dee75.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 08 Jul 2026 05:02:22 GMT",
+      "teams": []
     },
     {
       "headline": "World Cup 2026: Ranking the 4 quarterfinal games from best to worst",
@@ -98,20 +339,6 @@
       ]
     },
     {
-      "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fury-heartbreak-egypts-stunning-world-214711361.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 00:36:32 +0000",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
       "headline": "USMNT 2030 World Cup roster prediction: Who are the 26 players that could lead USA soccer in next edition?",
       "links": {
         "web": {
@@ -190,6 +417,23 @@
       "pubDate": "Tue, 07 Jul 2026 23:42:00 +0000",
       "teams": [
         "Switzerland",
+        "Colombia"
+      ]
+    },
+    {
+      "headline": "Switzerland edge Colombia in dramatic penalty shoot-out to set up World Cup quarter-final with Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/switzerland-edge-colombia-dramatic-penalty-233609939.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 07 Jul 2026 23:36:09 +0000",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Argentina",
         "Colombia"
       ]
     },
@@ -327,6 +571,24 @@
       "source": "Fox Sports",
       "pubDate": "Tue, 07 Jul 2026 18:57:16 -0400",
       "teams": []
+    },
+    {
+      "headline": "England into quarter-finals - what is their path to the final?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b84/live/85f4ebd0-78e9-11f1-a627-714adb4eed6e.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 07 Jul 2026 22:55:09 GMT",
+      "teams": [
+        "England"
+      ]
     },
     {
       "headline": "Argentina complete extraordinary comeback to beat Egypt",
@@ -1409,18 +1671,6 @@
         "Egypt",
         "Argentina"
       ]
-    },
-    {
-      "headline": "World Cup 2026 Golden Boot: Messi moves clear of Mbappe and Haaland as Kane joins thrilling race to finish top scorer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:08:09 +0000",
-      "teams": []
     },
     {
       "headline": "GOAT's World Cup History: Messi Stands Alone As Top World Cup Goalscorer",
@@ -3471,32 +3721,6 @@
       "teams": [
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 02:13:41 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 02:12:02 +0000",
-      "teams": [
-        "Jordan"
       ]
     },
     {
@@ -6564,21 +6788,6 @@
       "pubDate": "Mon, 06 Jul 2026 04:06:23 GMT",
       "teams": [
         "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "What is England’s likely route to the World Cup final if they beat Norway?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 04:01:13 +0000",
-      "teams": [
-        "Norway",
         "England"
       ]
     },
@@ -15768,231 +15977,6 @@
         "Australia",
         "Egypt"
       ]
-    },
-    {
-      "headline": "World Cup 2026: Germany hold Klopp talks after Nagelsmann quits; Neymar unhappy with Brazil role – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/03/world-cup-2026-portugal-spain-switzerland-australia-egypt-argentina-cape-verde-colombia-ghana-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 16:03:24 GMT",
-      "teams": [
-        "Switzerland",
-        "Brazil",
-        "Australia",
-        "Germany",
-        "Egypt",
-        "Spain",
-        "Argentina",
-        "Portugal",
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Mbappé becomes leader of France’s collective under Deschamps’ regime of trust",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/03/mbappe-becomes-leader-of-frances-collective-under-deschamps-regime-of-trust"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 16:01:20 GMT",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Predict the World Cup and win a holiday to Spain with Jet2: Have you got what it takes?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/predict-world-cup-win-holiday-160033233.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 16:00:33 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-v-cape-verde-breaking-110527579.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 15:56:58 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Could 2026 Be The Year For A Shock Winner of the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/could-2026-shock-winner-world-155000653.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 15:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Tielemans stars as Villa's players keep World Cup dream alive",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tielemans-stars-villas-players-keep-154204824.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 15:42:04 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to turn BBC Sport alerts on or off for England v Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2wv22v93zo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03a1/live/c91b1890-76f4-11f1-ab95-f1a10991b6dc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 03 Jul 2026 15:35:30 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Colombia vs. Ghana Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/colombia-vs-ghana-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283638685-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 11:30:28 -0400",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "How to watch Argentina vs Cape Verde live: Stream link, TV channel, team news, prediction",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-argentina-vs-cape-verde-152306977.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 15:23:06 +0000",
-      "teams": [
-        "Brazil",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 24",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-24"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/best-bets-16x9-bb-wc-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 03 Jul 2026 11:17:13 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Genoa want Stroud of Sweden and Morocco striker Bentayeb",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/genoa-want-stroud-sweden-morocco-151500425.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 15:15:00 +0000",
-      "teams": [
-        "Morocco",
-        "Sweden"
-      ]
-    },
-    {
-      "headline": "Altitude: how does it affect players and how big is England’s disadvantage?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/03/mexico-england-world-cup-2026-altitude"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 03 Jul 2026 15:02:43 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Australia vs. Egypt live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/australia-vs-egypt-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/3000438a-2a75-4b67-af7c-81657db4fa2b/mohamed-salah-2.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 03 Jul 2026 15:00:49 +0000",
-      "teams": [
-        "Australia",
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Huge Vlahović bid, Inter 🙅‍♂️ Solet and Zaniolo latest 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/huge-vlahovi-bid-inter-solet-143600725.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 03 Jul 2026 14:36:00 +0000",
-      "teams": []
     }
   ]
 }
