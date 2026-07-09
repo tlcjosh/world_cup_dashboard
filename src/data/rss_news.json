@@ -1,6 +1,60 @@
 {
-  "asOf": "2026-07-09T20:58:01.097Z",
+  "asOf": "2026-07-09T22:40:16.435Z",
   "items": [
+    {
+      "headline": "Best World Cup Goals: The Top 50 Goals Of The Tournament So Far",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/best-world-cup-goals-top-50-goals-tournament-so-far"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/messi1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:38:39 -0400",
+      "teams": []
+    },
+    {
+      "headline": "4 Takeaways From France's Win vs. Morocco In The World Cup Quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-frances-win-vs-morocco-world-cup-quarterfinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/5c1b18bc-takeaways1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:34:37 -0400",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: France Strengthens Grip As Favorites",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284789703-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:32:38 -0400",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
     {
       "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
       "links": {
@@ -14,13 +68,374 @@
         }
       ],
       "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:54:53 +0000",
+      "pubDate": "Thu, 09 Jul 2026 22:24:01 +0000",
       "teams": [
         "Mexico",
         "Canada",
         "United States",
         "Belgium",
         "Spain"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 09 Jul 2026 22:17:21 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT",
+      "teams": [
+        "Qatar",
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "France v Morocco player ratings: Ousmane Dembele stars in dominant World Cup quarter-final victory",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-v-morocco-player-ratings-220751890.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 22:07:51 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Norway's Haaland says pressure is all on England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norways-haaland-wants-pressure-put-180531062.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 22:07:42 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Michael Olise Avoids Yellow Card vs. Morocco, Will Be Available For World Cup Semifinals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/michael-olise-avoids-yellow-card-vs-morocco-will-available-world-cup-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/olise1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:07:27 -0400",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: France overpowers Morocco behind Kylian Mbappé, Ousmane Dembélé goals to return to semifinals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-france-overpowers-morocco-behind-kylian-mbappe-ousmane-dembele-goals-to-return-to-semifinals-220628026.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 22:06:28 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Schedule: Bracket, matches, dates, locations, group tables, results, how to watch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-fifa-world-cup-schedule-115500871.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 22:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:03:36 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Haaland Lurks",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bappppe.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:02:24 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 22:01:51 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Mbappé Favored After Goal vs. Morocco",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285412303-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:00:37 -0400",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At Semifinals Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/semifinals-bracket.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 18:00:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "France beat Morocco and become the first World Cup semi-finalists",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-beat-morocco-become-first-220000763.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 22:00:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappé Equals Lionel Messi's Record For Most Non-Penalty World Cup Goals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-equals-lionel-messis-record-most-non-penalty-world-cup-goals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/e2feca0f-mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 17:46:55 -0400",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Mbappé's unreal World Cup numbers 🔥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-unreal-world-cup-numbers-214400012.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 21:44:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Mbappé's push for Messi's mantle continues with latest summer exploit 😎",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-push-messis-mantle-continues-214000602.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 21:40:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 17:37:53 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 17:35:05 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 Golden Boot: Messi, Mbappe, Haaland and Kane in thrilling race to finish top scorer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 21:30:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "‘There is a magnificent balance’: how Spain built a record-breaking defence",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/there-is-a-magnificent-balance-how-spain-built-a-record-breaking-defence"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 21:25:51 GMT",
+      "teams": [
+        "Qatar",
+        "Switzerland",
+        "Japan",
+        "Belgium",
+        "Spain",
+        "Austria",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Bounou joins goalkeepers' union elite with Mbappé penalty save 🧤",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bounou-joins-goalkeepers-union-elite-211900176.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 21:19:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Bukayo Saka insists he’s ‘ready to go’ after battling Achilles issue at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bukayo-saka-insists-ready-battling-205906963.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:59:06 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kylian Mbappé answers first World Cup penalty miss with goal, assist in France's win over Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/kylian-mbappe-answers-first-world-cup-penalty-miss-with-goal-assist-in-frances-win-over-morocco-205651150.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:56:51 +0000",
+      "teams": [
+        "Morocco",
+        "France"
       ]
     },
     {
@@ -39,22 +454,32 @@
       ]
     },
     {
-      "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
+      "headline": "Mbappé makes rare France blunder, leaves social media stunned",
       "links": {
         "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss"
+          "href": "https://sports.yahoo.com/articles/mbapp-makes-rare-france-blunder-204700627.html"
         }
       },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85d6/live/3db2fd70-7bba-11f1-bada-857505afa282.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 20:51:13 GMT",
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:47:00 +0000",
       "teams": [
-        "Norway",
-        "England"
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Bounou's MONSTROUS penalty stats 🤯",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bounous-monstrous-penalty-stats-204400063.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:44:00 +0000",
+      "teams": [
+        "France"
       ]
     },
     {
@@ -856,25 +1281,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Favored After Argentina Comeback",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284541517-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 12:33:34 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "France vs. Morocco live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
       "links": {
         "web": {
@@ -963,40 +1369,6 @@
       "pubDate": "Thu, 09 Jul 2026 16:30:08 +0000",
       "teams": [
         "Belgium"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 12:29:54 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Argentina Surges After Historic Comeback",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091355-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 12:28:18 -0400",
-      "teams": [
-        "Argentina"
       ]
     },
     {
@@ -1548,18 +1920,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 Golden Boot: Messi moves clear of Mbappe and Haaland as Kane joins thrilling race to finish top scorer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-golden-boot-093312240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 11:58:16 +0000",
-      "teams": []
-    },
-    {
       "headline": "Liverpool urged to move for impressive World Cup midfielder",
       "links": {
         "web": {
@@ -1780,22 +2140,6 @@
         "Morocco",
         "France"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 08:29:07 +0000",
-      "teams": []
     },
     {
       "headline": "Morocco boss confirms star absence, says France are favourites",
@@ -11390,22 +11734,6 @@
       ]
     },
     {
-      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:40:42 -0400",
-      "teams": []
-    },
-    {
       "headline": "Erling Haaland shines again as Norway stun Brazil 2-1 to reach World Cup quarterfinals",
       "links": {
         "web": {
@@ -15316,352 +15644,6 @@
       "pubDate": "Sat, 04 Jul 2026 23:19:25 +0000",
       "teams": [
         "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: France reach quarter-finals with Paraguay win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-231500204.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 23:15:00 +0000",
-      "teams": [
-        "Morocco",
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: France secures frustrating win over Paraguay with Kylian Mbappé penalty",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-france-secures-frustrating-win-over-paraguay-with-kylian-mbappe-penalty-231047241.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 23:10:47 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Philadelphia delivers incredible World Cup party to celebrate America's 250th Birthday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/philadelphia-delivers-incredible-world-cup-230736841.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 23:07:36 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Mbappe coolly fires France into lead from penalty spot",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c1dy2y6xyr5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c742/live/f7e25d20-77fb-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 23:06:35 GMT",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Back With Messi, Kane Lurking",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/km.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 18:44:17 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Tracking Every Kylian Mbappé Goal At The 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-can-kylian-mbappe-break-all-time-goalscoring-record"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/mbappe-tracker-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 18:40:35 -0400",
-      "teams": []
-    },
-    {
-      "headline": "🔥 Mbappé scored! World Cup scoring race stays mad",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-scored-race-time-world-224000356.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 22:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Paraguay v France: World Cup last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/04/france-v-paraguay-world-cup-last-32-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 22:37:20 GMT",
-      "teams": [
-        "Canada",
-        "Morocco",
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "'I'd Rather Be Us Than Them': Canada's Jesse Marsch Defiant After Loss To Morocco",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/id-rather-us-than-them-canada-jesse-marsch-after-loss-morocco"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/marsch_horizontal.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 18:26:31 -0400",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Two Massive Fan Bases And A Cathedral: Mexico-England Can Become World Cup Lore",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-england-world-cup-round-of-16-azteca"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/eng_mex_epic-16x9-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 18:14:31 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "James doubtful for Mexico tie but Quansah fit again",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ce8jpjx1dkvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12a5/live/a6a70d00-77f3-11f1-8911-63b505ab1e28.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 22:13:11 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Paraguay turning the World Cup into the Liberta gets fans buzzing 😂",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-turning-world-cup-libertadores-220000062.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 22:00:00 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "For The USA, A Rare World Cup Opportunity Knocks vs. Belgium In The Round Of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-rare-world-cup-opportunity-knocks-vs-belgium-round-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/c1e38c90-usmnt1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 17:44:53 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Real Madrid player apologises for World Cup showing – ‘Even if…’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-player-apologises-world-214000701.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:40:00 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Annoys him all the more: what Gräfe is upset about in Paraguay v France",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/annoys-him-more-gr-fe-213300995.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:33:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Neymar To Start At World Cup? Brazil's Carlo Ancelotti Says 'He Wants To Play'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/neymar-to-start-at-world-cup-carlo-ancelotti-says-brazil-forward-can-finally-play-full-90-minutes-and-admits-hes-not-happy-with-bench-role"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2284437666.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 17:30:49 -0400",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Canada's Jesse Marsch After Morocco Loss: 'I’d Rather Be Us Than Them'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/morocco-canada-world-cup-jesse-marsch"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283293618-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 17:28:59 -0400",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Canada’s World Cup exit revives questions over Alphonso Davies injury management",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/canada-world-cup-alphonso-davies-injury-management"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 21:23:43 GMT",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Canada’s World Cup exit revives questions over Alphonso Davies injury management",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/canada-world-cup-exit-revives-212343933.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:23:43 +0000",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Unbeaten in 34 matches - why Morocco are World Cup contenders",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cy4e22gqe50o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9140/live/2df0c2e0-77e7-11f1-b24a-2dac1f24311d.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 21:20:25 GMT",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Morocco reach quarter-finals as co-hosts Canada out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/canada-v-morocco-131241645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:18:30 +0000",
-      "teams": [
-        "Canada",
-        "Morocco"
       ]
     }
   ]
