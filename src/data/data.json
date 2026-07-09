@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T05:36:18.703Z",
+  "lastUpdated": "2026-07-09T08:54:35.457Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4620,13 +4620,14 @@
       "homeIso": "es",
       "awayTeam": "Belgium",
       "awayIso": "be",
-      "venue": "Sofi Stadium, Inglewood",
+      "venue": "SoFi Stadium, Inglewood",
       "kickoff": "2026-07-10T19:00:00.000Z",
       "homeScore": null,
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760511"
     },
     {
       "matchId": 537385,
