@@ -1,6 +1,28 @@
 {
-  "asOf": "2026-07-09T19:11:02.179Z",
+  "asOf": "2026-07-09T20:58:01.097Z",
   "items": [
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:54:53 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Belgium",
+        "Spain"
+      ]
+    },
     {
       "headline": "France v Morocco: World Cup 2026 quarter-final – live",
       "links": {
@@ -10,7 +32,81 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 19:07:34 GMT",
+      "pubDate": "Thu, 09 Jul 2026 20:52:32 GMT",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85d6/live/3db2fd70-7bba-11f1-bada-857505afa282.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 20:51:13 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "📸 Mbappé does a Messi: the WORST penalty at this World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-does-messi-worst-penalty-204200521.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:42:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 29",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-29"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/best-bets-16x9-bb-wc-02.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 16:40:59 -0400",
+      "teams": []
+    },
+    {
+      "headline": "The next Erling Haaland is coming to join Liverpool",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/next-erling-haaland-coming-join-203500532.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026 quarter final: France vs. Morocco with Milan and Roma stars",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-quarter-final-202500928.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:25:00 +0000",
       "teams": [
         "Morocco",
         "France"
@@ -25,10 +121,53 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 19:00:13 +0000",
+      "pubDate": "Thu, 09 Jul 2026 20:11:00 +0000",
       "teams": [
         "Morocco",
         "France"
+      ]
+    },
+    {
+      "headline": "Anthony Gordon speaks out on Mexico manager’s viral X-rated taunt during World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/anthony-gordon-speaks-mexico-manager-201029723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 20:10:29 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "US confirm Pulisic leg fracture in defeat by Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-confirm-pulisic-leg-fracture-193234069.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:46:16 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Erling Haaland ramps up mind games with England before World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-ramps-mind-games-194313234.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:43:13 +0000",
+      "teams": [
+        "England"
       ]
     },
     {
@@ -40,9 +179,138 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 19:00:01 +0000",
+      "pubDate": "Thu, 09 Jul 2026 19:36:17 +0000",
       "teams": [
         "Qatar",
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "🐐 In Pelé's footsteps: Morocco wonderkid makes WC history today!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pel-footsteps-morocco-wonderkid-makes-193300412.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:33:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Erling Haaland invited to The Tonight Show With Jimmy Fallon amid Norway World Cup run",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-invited-tonight-show-193000609.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:30:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "US confirm Pulisic leg fracture in defeat by Belgium",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq613v53emlo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e3e/live/3aea09b0-7bcb-11f1-b543-9988255dfa81.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 19:28:14 GMT",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Norway Team Doctor Provides Update On 'Sickness Bug' Ahead Of England Matchup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/norway-team-doctor-sickness-england-world-cup-quarterfinal-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2284881021-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 09 Jul 2026 15:25:31 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "France-Morocco: Bouaddi makes World Cup history, behind Pelé 👑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-morocco-bouaddi-makes-world-192300863.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:23:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Morocco's unfinished business with France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/moroccos-unfinished-business-france-124018041.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:05:53 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Celtic’s £3.5m Bid Rejected For This World Cup Star: Should They Launch A Second Bid?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/celtic-3-5m-bid-rejected-190500627.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:05:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Ousmane Dembele, Brahim Diaz feature in Thursday best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-thursdays-best-bets-include-ousmane-dembele-brahim-diaz/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/f6cfc9e5-05cd-41b0-a51c-bf86943022a2/dembele.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 09 Jul 2026 19:00:57 +0000",
+      "teams": [
         "Morocco",
         "France"
       ]
@@ -1375,25 +1643,6 @@
       "teams": []
     },
     {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Thursday's best bets include Ousmane Dembele, Brahim Diaz",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-thursdays-best-bets-include-ousmane-dembele-brahim-diaz/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/f6cfc9e5-05cd-41b0-a51c-bf86943022a2/dembele.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 11:00:53 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
       "headline": "Egypt’s World Cup adventure gave the country its first collective joy in 15 years | Karim Zidan",
       "links": {
         "web": {
@@ -1529,28 +1778,6 @@
       "pubDate": "Thu, 09 Jul 2026 08:35:29 GMT",
       "teams": [
         "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 08:32:18 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Morocco",
-        "United States",
         "France"
       ]
     },
@@ -15435,261 +15662,6 @@
       "teams": [
         "Canada",
         "Morocco"
-      ]
-    },
-    {
-      "headline": "Andoni Iraola intervenes in deal for £43m World Cup standout",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/andoni-iraola-intervenes-deal-43m-211000116.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:10:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "‘We were better than them’: Marsch bullish despite Canada’s World Cup exit to Morocco",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/jesse-marsch-canada-morocco-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 20:58:47 GMT",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "England's 3 Keys To Beating Mexico In World Cup Showdown",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-england-mexico-harry-kane-warren-barton"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-64.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 16:56:12 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mexico authorities announce police action for World Cup showdown against England after tragic incident",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-authorities-announce-police-action-203748934.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 20:37:48 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Egypt’s coach waves Palestinian flag after World Cup victory: ‘My heart and soul are with them’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/egypt-coach-waves-palestinian-flag-202251263.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 20:22:51 +0000",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Vinícius Júnior Can't Just Win. He Has To Help Brazil Do It With Style.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/brazil-world-cup-vinicius-junior"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/vini-jr-profile-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 16:12:01 -0400",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for matches on Saturday include Morocco, France",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-matches-on-saturday-include-morocco-france/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/e65fafc8-f91e-4091-99c6-faa64ef144ae/kylian-mbappe-fracne.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 20:01:09 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: France's Bradley Barcola features in Saturday best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-frances-bradley-barcola-features-in-saturday-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/c0c92aa7-9726-49cf-be95-ae286e2db1b7/barcola.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 20:00:59 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "France vs. Paraguay live stream: Michael Olise chases Pele's historic World Cup record in round of 16",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-vs-paraguay-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/b830bb88-0a7c-4e28-90c1-9fd3c0124f50/france-olise.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 20:00:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Is Paraguay vs France on TV? Channel, kick-off time and how to watch World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-vs-france-tv-channel-051357284.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 19:59:32 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup Round of 16: Paraguay vs. France with Roma and Milan stars",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-round-16-paraguay-195000311.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 19:50:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Morocco reach quarter-finals as co-hosts Canada knocked out",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cddlpql2e98o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c352/live/7099b550-77df-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 19:49:57 GMT",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Ounahi Spoils Canada's Party: 4 Takeaways From Morocco's World Cup Round Of 16 Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/morocco-vs-canda-4-takeaways-2026-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/morocco1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 15:46:08 -0400",
-      "teams": [
-        "Canada",
-        "Morocco",
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "France vs. Paraguay odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-paraguay-odds-prediction-line-time-2026-world-cup-round-of-16-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/57216adc-e75c-467f-b40c-8232d34ebd59/kylian-mbappe-france-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 04 Jul 2026 19:39:27 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "📋 Paraguay and France name confirmed line-ups for the decider",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-france-line-ups-confirmed-193900962.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 19:39:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
       ]
     }
   ]
