@@ -1,6 +1,88 @@
 {
-  "asOf": "2026-07-08T23:47:45.332Z",
+  "asOf": "2026-07-09T01:22:19.742Z",
   "items": [
+    {
+      "headline": "🇲🇽 Looking to 2029: Mexico weighs Club World Cup bid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/looking-2029-mexico-weighs-club-011600752.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 01:16:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Christian Pulisic Breaks Silence On Social Media, Thanks Fans Following World Cup Exit",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-breaks-silence-social-media-thanks-fans-following-world-cup-exit"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usa1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 08 Jul 2026 20:49:15 -0400",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "😂 Japanese tantrum, White Chicks, granny and more: top Copa memes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/japanese-tantrum-white-chicks-granny-004100756.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 00:41:00 +0000",
+      "teams": [
+        "Brazil",
+        "Japan",
+        "Uzbekistan",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "France vs. Morocco odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-morocco-odds-prediction-line-time-2026-world-cup-quarterfinals-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/72a52a17-0651-41ea-ac96-368c44d4c835/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 09 Jul 2026 00:35:22 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "🙄New era for El Tri: does Rafa Márquez joining help Chivas?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/era-el-tri-does-rafa-002800127.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 00:28:00 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
     {
       "headline": "Landon Donovan, Tim Howard Empathize With Christian Pulisic, But Call On Him To Change",
       "links": {
@@ -15646,83 +15728,6 @@
       "teams": [
         "Spain",
         "Austria"
-      ]
-    },
-    {
-      "headline": "2026 World Cup | Which Paraguay players could pose a threat to France?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-paraguay-players-073000331.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 07:30:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Today's 5⃣ stories: Klopp and Germany, Enzo and Real Madrid's no..",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/todays-5-stories-klopp-germany-072700531.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 07:27:00 +0000",
-      "teams": [
-        "Germany"
-      ]
-    },
-    {
-      "headline": "For all Cape Verde’s heroics, Africa’s World Cup could and perhaps should have been better | Jonathan Wilson",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/for-all-cape-verdes-heroics-africas-world-cup-could-and-perhaps-should-have-been-better"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 07:26:06 GMT",
-      "teams": [
-        "Qatar",
-        "Morocco",
-        "Egypt",
-        "Cape Verde Islands",
-        "France"
-      ]
-    },
-    {
-      "headline": "Jürgen Klopp holds Germany talks: ‘I’m more than recharged, I’m ready’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/jurgen-klopp-germany-talks-recharged-ready"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 07:24:12 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "Germany are desperate and this is why Jurgen Klopp can end their bleak decade",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/germany-desperate-why-jurgen-klopp-071538046.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 07:15:38 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany"
       ]
     }
   ]
