@@ -1,6 +1,476 @@
 {
-  "asOf": "2026-07-09T05:36:45.683Z",
+  "asOf": "2026-07-09T08:54:36.706Z",
   "items": [
+    {
+      "headline": "World Cup 2026: France v Morocco quarter-final buildup, Collina defends refereeing – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/09/world-cup-2026-france-v-morocco-quarter-final-news-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 08:41:52 GMT",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Collina defends World Cup referees and controversial Argentina vs. Egypt call",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/collina-defends-world-cup-referees-084000167.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:40:00 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Fifa hit back after Egypt’s ‘fix’ claim over controversial Argentina decisions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-hit-back-egypt-fix-083544343.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:35:44 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "France’s match with Morocco sums up this diverse, multicultural World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/france-morocco-diverse-multicultural-world-cup-tournament-quarter-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 08:35:29 GMT",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:32:18 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Morocco",
+        "United States",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:29:07 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Morocco boss confirms star absence, says France are favourites",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/morocco-boss-confirms-star-absence-082700525.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:27:00 +0000",
+      "teams": [
+        "Morocco",
+        "United States",
+        "France"
+      ]
+    },
+    {
+      "headline": "Why selling Guimaraes simply wouldn't look good",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-selling-guimaraes-simply-wouldnt-082343651.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:23:43 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Could Morocco become a football powerhouse?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/could-morocco-become-football-powerhouse-075022123.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:20:57 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "🎥 Consolation pint for Germany? Zlatan taunts World Cup losers",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/consolation-pint-germany-zlatan-taunts-081600332.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:16:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Today’s Papers: Italy’s 20th anniversary, Milan’s Amorim era, Mbappe vs. Morocco",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/today-papers-italy-20th-anniversary-081000041.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 08:10:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Barcelona superstar Lamine Yamal calls Real Madrid veteran &#8216;one of the best in the world&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-superstar-lamine-yamal-calls-075500332.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:55:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Could Morocco become a football powerhouse?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cewqqxz4ye9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8253/live/ce9ef630-7acb-11f1-a130-2b898c796aa9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 07:50:17 GMT",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Noboody can question integrity of World Cup referees - Collina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/noboody-integrity-world-cup-referees-073708959.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:37:08 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Nobody can question integrity of World Cup referees - Collina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cze9z1307p2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d155/live/d68ffcf0-7b65-11f1-936a-038dbfe02d14.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 07:35:33 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Lamine Yamal opens up on pressure, criticism and Spain&#8217;s World Cup hopes: &#8216;When you win, everything hurts less&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lamine-yamal-opens-pressure-criticism-073000586.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:30:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "🗞️ World Cup heats up in the quarter-finals, Thursday's front pages",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-heats-quarter-finals-072500539.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup quarter-final predictions: will anyone derail France? Some of our panel believe so …",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/world-cup-2026-quarter-final-predictions-france-spain-argentina-england-messi-mbappe-haaland"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 07:15:54 GMT",
+      "teams": [
+        "Egypt",
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup quarter-final predictions: will anyone derail France? Some of our panel believe so …",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-quarter-final-predictions-071554456.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:15:54 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "🎥 Best of the World Cup rest day: Zlatan, graduations... 🤣",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-world-cup-rest-day-071100376.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:11:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup | Which Morocco players could pose a threat to France?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-morocco-players-071000519.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:10:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "How should England line-up against Norway? Our writers pick their XIs for World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-line-against-norway-writers-070558404.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:05:58 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup | What should France expect from Morocco?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-france-expect-070500105.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:05:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "England’s big chances and France’s shots: how World Cup quarter-finalists’ stats line up",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/england-big-chances-france-shots-how-world-cup-quarter-finalists-stats"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 07:00:56 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Warping the World Cup: the rise of homespun ‘photographs’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/ng-interactive/2026/jul/09/warping-the-world-cup-rise-homespun-photographs"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 07:00:56 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "‘Best player England has developed’: Olise’s rise from Hayes to the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/best-player-england-developed-michael-olise-2026-world-cup-france"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 07:00:54 GMT",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup | Who are France&#8217;s opponents, Morocco?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-france-opponents-070000340.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 07:00:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/goals-comebacks-upsets-record-breaking-054825528.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 06:53:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The lasting legacy Didier Deschamps and France could leave with another World Cup crown",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lasting-legacy-didier-deschamps-france-062522713.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 09 Jul 2026 06:25:22 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2dzy11epeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/becd/live/c9bf1210-7b18-11f1-b976-0b9c15b0ccfc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 05:48:18 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 32",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce9p4zvlnv5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36f8/live/473d9260-7953-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 05:44:26 GMT",
+      "teams": []
+    },
     {
       "headline": "World Cup What to Watch: France, Morocco meet for first time since 2022 semifinals",
       "links": {
@@ -37,7 +507,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eeb9/live/28acba60-7ad4-11f1-b976-0b9c15b0ccfc.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd53/live/75aa4c70-7b6e-11f1-bee8-53ce494e1abc.png"
         }
       ],
       "source": "BBC Sport",
@@ -432,44 +902,6 @@
       ]
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 08 Jul 2026 21:35:22 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Morocco",
-        "United States",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 08 Jul 2026 21:26:47 +0000",
-      "teams": []
-    },
-    {
       "headline": "Henderson not ruled out of World Cup despite breaking arm",
       "links": {
         "web": {
@@ -562,7 +994,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87ec/live/386bf190-7adf-11f1-bee8-53ce494e1abc.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c25/live/c2507320-7b6d-11f1-936a-038dbfe02d14.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -15291,448 +15723,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sat, 04 Jul 2026 11:14:51 +0000",
-      "teams": []
-    },
-    {
-      "headline": "In spotlight but shunning limelight - Olise's unique rise to top",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzr42943lo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec37/live/30515480-77ad-11f1-b21a-9d51504ec77b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 11:02:02 GMT",
-      "teams": []
-    },
-    {
-      "headline": "France vs. Paraguay Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-paraguay-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284082341-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 07:00:39 -0400",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Tiny Cape Verde steal the show against Argentina in a performance to last in World Cup lore",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/cape-verde-argentina-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 11:00:11 GMT",
-      "teams": [
-        "Spain",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Tiny Cape Verde steal the show against Argentina in a performance to last in World Cup lore",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tiny-cape-verde-steal-show-110011053.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 11:00:11 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Barcelona midfield mainstay finished the World Cup with a knee injury &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-midfield-mainstay-finished-world-104500385.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 10:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Where to catch your EFL players in the round of 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/where-catch-efl-players-round-101353259.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 10:13:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘I was at Mexico ‘86 – you could sense the history’: Meet the photographer who took most-liked Instagram photo ever",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-86-could-sense-history-100357053.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 10:03:57 +0000",
-      "teams": [
-        "Mexico",
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "'Raskin decision after World Cup amid Atalanta interest' - gossip",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/raskin-decision-world-cup-amid-100331737.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 10:03:31 +0000",
-      "teams": [
-        "Belgium",
-        "France"
-      ]
-    },
-    {
-      "headline": "England get hostile welcome on arrival at Mexico City hotel for World Cup showdown",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/england-mexico-hotel-world-cup-kick-off"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 09:58:50 GMT",
-      "teams": [
-        "Mexico",
-        "Ecuador",
-        "England"
-      ]
-    },
-    {
-      "headline": "From one to 16 - ranking every team left in the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cd6elwx7eepo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec6a/live/8ef6d710-6ac1-11f1-b1db-af71d47507d6.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 09:55:36 GMT",
-      "teams": [
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Paraguay predicted XI v France: Julio Enciso and Miguel Almiron to start",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-predicted-xi-v-france-095500549.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:55:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany",
-        "France"
-      ]
-    },
-    {
-      "headline": "Brazil on the rise: supercomputer updates each team's Cup odds 🏆",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-rising-supercomputer-updates-sides-094500964.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:45:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "France predicted XI v Paraguay: Aurélien Tchouaméni out, Manu Koné in",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-predicted-xi-v-paraguay-094000192.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:40:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Germany",
-        "France"
-      ]
-    },
-    {
-      "headline": "Brazil going out? Chris Sutton predicts World Cup's last-16 matches",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-going-chris-sutton-predicts-093652707.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:36:52 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 Who's cutting onions? This is the World Cup's most emotional moment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/whos-cutting-onions-world-cups-093400772.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:34:00 +0000",
-      "teams": [
-        "Spain",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Chris Sutton predicts World Cup's last-16 matches",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c1my20zyn2eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 09:33:37 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid unlikely to sanction key forward&#8217;s summer exit; confident of contract resolution",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-unlikely-sanction-key-093000577.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Mexico’s Secret 12th Man in the World Cup: Baby Jesus",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/04/world/americas/mexicos-secret-12th-man-in-the-world-cup-baby-jesus.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 04 Jul 2026 09:24:53 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Mexico’s Secret 12th Man in the World Cup: Baby Jesus",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/04/world/americas/mexico-world-cup-baby-jesus.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 04 Jul 2026 09:24:53 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "World Cup chance for Roma’s Kone as Tchouameni ruled out of Paraguay vs. France",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-chance-roma-kone-092000424.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:20:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "🏆 Star power galore: the 2026 World Cup last-16 ties!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/star-power-galore-2026-world-091200264.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:12:00 +0000",
-      "teams": [
-        "Colombia",
-        "Ghana"
-      ]
-    },
-    {
-      "headline": "Eight of the 10 most populous countries are not in the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/c621je3we82o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a501/live/0d6a3de0-7561-11f1-9510-1546718f668b.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 04 Jul 2026 09:09:18 GMT",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 power rankings: undisputed No 1, co-hosts surge and giants fall",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/world-cup-2026-power-rankings-last-32"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 09:00:10 GMT",
-      "teams": [
-        "Sweden",
-        "France"
-      ]
-    },
-    {
-      "headline": "Some Americans are reluctant to cheer for the US at the World Cup. They shouldn’t be | Alexander Abnos",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/04/some-americans-are-reluctant-to-cheer-for-the-us-at-the-world-cup-they-shouldnt-be"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 04 Jul 2026 09:00:10 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 power rankings: undisputed No 1, co-hosts surge and giants fall",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-power-rankings-090010602.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 09:00:10 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup: How to buy tickets for Mexico vs. England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-buy-tickets-mexico-085000537.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 08:50:00 +0000",
-      "teams": [
-        "Mexico",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to Watch Canada vs. Morocco: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-canada-vs-morocco-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-canada-vs-morocco-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 04:41:26 -0400",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Today’s Papers: Inter double deal, Milan hands on GIla, Messi magic",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/today-papers-inter-double-deal-084000505.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 08:40:00 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Modric leaning towards decision to stay at Milan after 2026 World Cup elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/modric-leaning-towards-decision-stay-084000976.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 04 Jul 2026 08:40:00 +0000",
       "teams": []
     }
   ]
