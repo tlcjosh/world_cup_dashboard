@@ -1,6 +1,207 @@
 {
-  "asOf": "2026-07-10T02:35:53.936Z",
+  "asOf": "2026-07-10T06:27:53.722Z",
   "items": [
+    {
+      "headline": "Born in Leeds, crafted in Norway - Haaland's worlds about to collide",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/born-leeds-crafted-norway-haalands-054728147.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 06:11:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Why was Jarell Quansah banned for two World Cup matches by Fifa? England defender suspended after red card against Mexico",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jarell-quansah-banned-two-world-163112162.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 06:03:29 +0000",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid star dismisses injury concerns after scare vs Morocco: &#8216;Took a hit to the ankle, but&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-star-dismisses-injury-060000478.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 06:00:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Why Lionel Messi can’t lead Argentina to win this World Cup (on his own)",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-lionel-messi-t-lead-055943794.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 05:59:43 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Born in Leeds, crafted in Norway - Haaland's worlds about to collide",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cd7pqdyy9v2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dc4/live/366a8e30-7add-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 05:47:23 GMT",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Who is Clement Turpin? Norway v England referee for World Cup who angered Thomas Tuchel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/clement-turpin-norway-v-england-052042614.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 05:20:42 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 33",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cwy20q7wd3go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5973/live/9bc39a50-7953-11f1-a627-714adb4eed6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 05:20:12 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Is Spain vs Belgium on TV? Channel, kick-off time and how to watch World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-vs-belgium-tv-channel-051730113.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 05:17:30 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Norway camp hit with sickness bug ahead of England clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-camp-hit-sickness-bug-051000613.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 05:10:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "🤯 Wild, wilder, Mbappé! When breaking records becomes a hobby...",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wild-wilder-mbapp-breaking-records-050600450.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 05:06:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "☕️🥐 FC Breakfast: France’s finest among the greats 🤩",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fc-breakfast-france-finest-among-045800373.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 04:58:00 +0000",
+      "teams": [
+        "Brazil",
+        "Germany",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Just How Dominant Has France, Mbappé Been?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-just-how-dominant-has-france-been"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-11.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 00:33:59 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup What to Watch: Spain, Lamine Yamal look to keep unbeaten streak going against Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-spain-lamine-yamal-look-to-keep-unbeaten-streak-going-against-belgium-040000004.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 04:00:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
     {
       "headline": "Kylian Mbappe downplays ankle injury after France secure World Cup semifinal spot: 'Everything is OK'",
       "links": {
@@ -14,7 +215,7 @@
         }
       ],
       "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 02:04:56 +0000",
+      "pubDate": "Fri, 10 Jul 2026 03:05:58 +0000",
       "teams": [
         "France"
       ]
@@ -360,6 +561,25 @@
       "teams": []
     },
     {
+      "headline": "France into semi-finals after comfortable win over Morocco",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3f8/live/f7c5b270-7be2-11f1-9510-1546718f668b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
       "headline": "Who Is France's Next World Cup Opponent?",
       "links": {
         "web": {
@@ -630,6 +850,25 @@
       "teams": [
         "Norway",
         "England"
+      ]
+    },
+    {
+      "headline": "'Absolute perfection!' Mbappe fires France ahead against Morocco",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cwyemrl4dw8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af8/live/a87f3b30-7bdf-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 09 Jul 2026 22:00:43 GMT",
+      "teams": [
+        "Morocco",
+        "France"
       ]
     },
     {
@@ -1510,20 +1749,6 @@
       "teams": [
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "Jarell Quansah banned for two World Cup matches by Fifa after red card against Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jarell-quansah-banned-two-world-163112162.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:07:00 +0000",
-      "teams": [
-        "Mexico"
       ]
     },
     {
@@ -3150,7 +3375,7 @@
       ]
     },
     {
-      "headline": "Chris Sutton's World Cup quarter-final predictions",
+      "headline": "BBC expert Sutton's World Cup quarter-final predictions",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss"
@@ -15420,244 +15645,6 @@
       "pubDate": "Sun, 05 Jul 2026 06:20:00 +0000",
       "teams": [
         "Morocco"
-      ]
-    },
-    {
-      "headline": "Report: Liverpool must pay huge price tag to sign World Cup midfielder",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-liverpool-must-pay-huge-055500466.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 05:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 28",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx21k039r7qo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97a1/live/51487170-6b94-11f1-8e1d-bbbb1017d210.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 05:46:18 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Reece James doubtful for England’s crunch World Cup clash with Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/reece-james-doubtful-england-crunch-051500648.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 05:15:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "France survive Paraguay's 'disgraceful' and 'embarrassing' dark arts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-survive-paraguays-disgraceful-embarrassing-015308260.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 04:22:34 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "The Norway story - 28-year wait for their biggest-ever party",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cpq3pgdp500o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79ea/live/aaffe660-7820-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 03:39:49 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "France survive Paraguay's physicality and antics at World Cup, but Morocco will pose a different threat",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-survive-paraguays-physicality-antics-world-cup-morocco/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/8c3aba3f-91ee-441b-aadc-48185ea40937/saliba-france.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 03:18:12 +0000",
-      "teams": [
-        "Morocco",
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "France find a way past Paraguay and what awaits England in Mexico? - World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/audio/2026/jul/05/france-find-a-way-past-paraguay-and-what-awaits-england-in-mexico-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 02:59:42 GMT",
-      "teams": [
-        "Mexico",
-        "Morocco",
-        "Paraguay",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "‘Here to write our own chapters’: England not daunted by unique occasion of Mexico game, says Tuchel",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/world-cup-last-16-england-thomas-tuchel-mexico-city-azteca"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 02:51:46 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "France Coach Takes Aim At Paraguay For 'Cheap Shots' In Heated World Cup Clash",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-coach-takes-aim-paraguay-cheap-shots-heated-world-cup-clash"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/france1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 22:03:46 -0400",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Two Brazilian clubs eye World Cup sensation 🤩",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/two-brazilian-clubs-eye-world-020000421.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 02:00:00 +0000",
-      "teams": [
-        "Brazil",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Behind The 'Incredulous Joy' Of Calling Argentina-Cape Verde's Epic Game",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-argentina-cape-verde-stu-holden-john-strong"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-65.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:56:26 -0400",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Norway. Mexico vs. England. A World Cup Slate For The Ages.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-mexico-brazil-vs-norway-a-world-cup-slate-for-the-ages"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-125.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 04 Jul 2026 21:54:15 -0400",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "France survive Paraguay's 'disgraceful' and 'embarrassing' dark arts",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn4dpd11v1eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/391f/live/bd051c20-780e-11f1-b37e-11764f8e5983.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 01:53:01 GMT",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "With a laugh, Tuchel denies altitude pills and dismisses revenge",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/laughing-tuchel-denies-altitude-meds-013600117.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 01:36:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
       ]
     }
   ]
