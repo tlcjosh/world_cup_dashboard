@@ -1,6 +1,44 @@
 {
-  "asOf": "2026-07-10T18:50:48.101Z",
+  "asOf": "2026-07-10T20:17:44.251Z",
   "items": [
+    {
+      "headline": "Erling Haaland Still Isn't Convinced Norway Can Win The World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-shifts-world-cup-pressure-england-ahead-quarterfinal-clash"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haaland1-3.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 16:14:39 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "England favourites to reach semis, says Norway boss",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq61n2gqqv0o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a099/live/94bf2710-7c96-11f1-9b18-bb5b415621a9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 20:10:44 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "Spain v Belgium: World Cup 2026 quarter-final – live",
       "links": {
@@ -10,12 +48,42 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 18:32:06 GMT",
+      "pubDate": "Fri, 10 Jul 2026 20:10:23 GMT",
       "teams": [
         "Germany",
         "Belgium",
         "Spain",
         "Portugal"
+      ]
+    },
+    {
+      "headline": "The incredible World Cup record that Belgium broke against Spain 😱",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/incredible-world-cup-record-belgium-200500424.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 20:05:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Belgium forced into last-minute team change after Youri Tielemans injury blow before Spain clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/belgium-forced-last-minute-team-185548275.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 20:00:32 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
       ]
     },
     {
@@ -27,9 +95,126 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 18:28:06 +0000",
+      "pubDate": "Fri, 10 Jul 2026 20:00:15 +0000",
       "teams": [
         "Jordan"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:59:06 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Video: Atalanta’s De Ketelaere ends historic Spain World Cup record after 649 minutes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/video-atalanta-ketelaere-ends-historic-195500159.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:55:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "New species named after Cape Verde keeper Vozinha",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/species-named-cape-verde-keeper-193012188.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:54:20 +0000",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "New species named after Cape Verde keeper Vozinha",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cn8kdxgxlkeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c0c/live/adb97d00-7c92-11f1-b9b6-03aa1610fbc2.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 19:30:06 GMT",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "Revealed: Christopher Nolan&#8217;s The Odyssey sponsors Erling Haaland&#8217;s Man City World Cup diaries",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/revealed-christopher-nolan-odyssey-sponsors-193000437.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina vs. Switzerland odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-switzerland-odds-prediction-time-2026-world-cup-quarterfinal-picks-lionel-messi-props/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/10/7159270b-21c5-4f62-8224-c6c22ba76cdd/usatsi-29345819-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:27:19 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Heat, humidity and Haaland: Why Norway can upset England in World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/heat-humidity-haaland-why-norway-175154549.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:18:26 +0000",
+      "teams": [
+        "Norway",
+        "England"
       ]
     },
     {
@@ -116,6 +301,63 @@
       ]
     },
     {
+      "headline": "2026 World Cup parlay, best bets: Top picks for Spain vs. Belgium in Friday's quarterfinal match",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-spain-vs-belgium-in-fridays-quarterfinal-match/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/58bce9df-3165-43d9-a3b4-4872b7fdb6bb/lamineyamalspain.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:01:17 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Mikel Oyarzabal, Leandro Trossard among Friday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-mikel-oyarzabal-leandro-trossard-among-fridays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/4cecbedb-306b-417b-8787-a0b09db8f9f7/mikel.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:01:04 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Spain vs. Belgium odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-belgium-odds-prediction-line-start-time-location-2026-world-cup-quarterfinal-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/20/d217fb5f-fb66-404d-a0fd-508d8dc9c303/spain-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:00:48 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
       "headline": "Cutting off Erling Haaland is key but Norway are not just a one-man team | Emma Hayes",
       "links": {
         "web": {
@@ -172,21 +414,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Heat, humidity and Haaland: Why Norway can upset England in World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/heat-humidity-haaland-why-norway-175154549.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 17:51:54 +0000",
-      "teams": [
-        "Norway",
-        "England"
       ]
     },
     {
@@ -414,28 +641,6 @@
       "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
       "teams": [
         "Portugal"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 15:41:50 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Belgium",
-        "Spain"
       ]
     },
     {
@@ -859,25 +1064,6 @@
       "teams": []
     },
     {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Mikel Oyarzabal, Leandro Trossard among Friday's best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-mikel-oyarzabal-leandro-trossard-among-fridays-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/4cecbedb-306b-417b-8787-a0b09db8f9f7/mikel.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 12:00:57 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
       "headline": "Time marches on: what the next three years will bring for the USMNT",
       "links": {
         "web": {
@@ -1094,25 +1280,6 @@
       "pubDate": "Fri, 10 Jul 2026 10:24:28 +0000",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for Spain vs. Belgium in Friday's quarterfinal match",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-spain-vs-belgium-in-fridays-quarterfinal-match/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/58bce9df-3165-43d9-a3b4-4872b7fdb6bb/lamineyamalspain.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 10:00:50 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
       ]
     },
     {
@@ -15488,169 +15655,6 @@
         "Paraguay",
         "Spain",
         "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Paraguay showed France can be stifled – Morocco will have taken note | Paul MacInnes",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/paraguay-france-morocco-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 17:39:30 GMT",
-      "teams": [
-        "Morocco",
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Serie A winger has the perfect opportunity to impress Barcelona during Spain vs Portugal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/serie-winger-perfect-opportunity-impress-172500621.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 17:25:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "🚨 FIFA overturns Balogun red card, White House reportedly intervened",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-overturns-folarin-baloguns-red-172400209.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 17:24:00 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: USMNT striker Folarin Balogun available vs. Belgium after red-card ban suspended",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-usmnt-striker-folarin-balogun-available-vs-belgium-after-red-card-ban-suspended-164042013.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:40:42 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Norway live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/brazil-norway-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/a67a7f75-1cee-4d69-852c-378320139874/haaland.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:31:39 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "USA Star Folarin Balogun Cleared To Play In World Cup Match vs. Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-star-folarin-balogun-play-world-cup-match-vs-belgium"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balo.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:28:35 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Spain vs. Portugal odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-16 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/spain-portugal-odds-prediction-time-2026-world-cup-round-16-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/03/8f33bc2a-9807-4da9-a65e-fe92c5502865/ronaldo-yamal-spain-portugal.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:19:52 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Mexico returns gift of Rolex watches from online content creator to avoid violating FIFA rules",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-mexico-returns-gift-of-rolex-watches-from-online-content-creator-to-avoid-violating-fifa-rules-161220200.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:12:20 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador"
-      ]
-    },
-    {
-      "headline": "Freddy the German: psyop, mirror to US rapacity or Tocqueville in a CR7 shirt?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/freddy-the-german-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 16:08:33 GMT",
-      "teams": [
-        "United States",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "📸 Home game for World Cup hosts: even England get Mexico flags",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/home-game-world-cup-hosts-160200727.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:02:00 +0000",
-      "teams": [
-        "Mexico",
         "England"
       ]
     }
