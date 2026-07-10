@@ -1,6 +1,226 @@
 {
-  "asOf": "2026-07-10T15:18:38.309Z",
+  "asOf": "2026-07-10T17:14:12.716Z",
   "items": [
+    {
+      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and Marc Guehi blow",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:07:42 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Spain v Belgium: World Cup 2026 quarter-final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/10/spain-v-belgium-world-cup-2026-quarter-final-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 10 Jul 2026 17:00:25 GMT",
+      "teams": [
+        "Brazil",
+        "United States",
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Spain vs. Belgium odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-belgium-odds-prediction-time-2026-world-cup-quarterfinal-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/b0d2712e-67aa-4347-a09f-4cdadceec970/lamine-yamal-spain.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 16:55:35 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Sky Sports: Man United have set their sights on move for World Cup forward",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sky-sports-man-united-set-165000624.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 16:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Erling Haaland says Norway’s World Cup chances are 'really low,' puts pressure on England ahead of quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/erling-haaland-says-norways-world-cup-chances-are-really-low-puts-pressure-on-england-ahead-of-quarterfinals-164851742.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 16:48:51 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Erling Haaland is Norway’s humble hero – and England might not be able to stop him",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-norway-humble-hero-141220735.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 16:21:24 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid ace Vinicius apologises after Brazil World Cup exit: &#8216;The feeling of frustration is overwhelming&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-ace-vinicius-apologises-160000136.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 16:00:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Fifa releases over 1,000 World Cup final tickets at eye-watering prices",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-releases-over-1-000-154743277.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 15:47:43 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Jesus reunites with Ronaldo as new Portugal head coach",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jesus-reunites-ronaldo-portugal-head-154204892.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 15:42:04 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Jesus reunites with Ronaldo as new Portugal head coach",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46d5/live/7f3638b0-7c6f-11f1-98fd-6b03daaf8a77.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 15:41:50 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 15:31:54 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Portugal Hires New Coach Jorge Jesus, Who Plans To Discuss Ronaldo's Future",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-portugal-coach"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/jesush1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 11:27:50 -0400",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Uruguay World Cup Review: Disappointment From Start To Finish",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/uruguay-world-cup-review-disappointment-151500088.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 15:15:00 +0000",
+      "teams": [
+        "Uruguay"
+      ]
+    },
     {
       "headline": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco; Spain v Belgium buildup; Jesus takes Portugal job – live",
       "links": {
@@ -193,21 +413,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 10 Jul 2026 14:22:22 +0000",
       "teams": []
-    },
-    {
-      "headline": "Erling Haaland is Norway’s humble hero – and England might not be able to stop him",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/erling-haaland-norway-humble-hero-141220735.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 14:12:20 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
     },
     {
       "headline": "Barcelona plan to table a new €130 million offer for Julian Alvarez after World Cup",
@@ -419,6 +624,7 @@
       "pubDate": "Fri, 10 Jul 2026 12:00:20 GMT",
       "teams": [
         "United States",
+        "Belgium",
         "Saudi Arabia"
       ]
     },
@@ -479,7 +685,7 @@
       ]
     },
     {
-      "headline": "'What old timers can do' - the evolution of Belgium's golden generation",
+      "headline": "'What old-timers can do' - the evolution of Belgium's golden generation",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c5yz0g0mg4no?at_medium=RSS&at_campaign=rss"
@@ -1349,7 +1555,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-3.png"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-4.png"
         }
       ],
       "source": "Fox Sports",
@@ -1582,44 +1788,6 @@
         "Morocco",
         "France"
       ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:24:01 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:17:21 +0000",
-      "teams": []
     },
     {
       "headline": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
@@ -6532,20 +6700,6 @@
       "teams": [
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Jordan Henderson freak arm break, Reece James recovery and more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 06:43:18 +0000",
-      "teams": [
-        "Jordan"
       ]
     },
     {
@@ -15517,164 +15671,6 @@
       "pubDate": "Sun, 05 Jul 2026 10:00:26 -0400",
       "teams": [
         "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Canada co-hosted the World Cup – but whose party was it?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/canada-co-hosted-world-cup-134826279.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 13:48:26 +0000",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Canada co-hosted the World Cup – but whose party was it?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/canada-co-hosted-the-world-cup-but-whose-party-was-it"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 13:48:26 GMT",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "World Cup round of 16 gets serious: Brazil vs. Norway in heavyweight showdown; England face Mexico at Azteca",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-round-of-16-brazil-norway-england-mexico-azteca/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/d1f5e416-bb63-4c29-bddc-a0126f5ff5dd/untitled-design-2026-07-05t092336-018.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 13:25:24 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup What to Watch: Mexico, England battle at Estadio Azteca; Erling Haaland, Norway take on Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-mexico-england-battle-at-estadio-azteca-erling-haaland-norway-take-on-brazil-131038392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 13:10:38 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Paraguay hero Gill coy on Torino rumours: ‘They’re one of the biggest clubs in Italy’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/paraguay-hero-gill-coy-torino-130000699.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 13:00:00 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "Barça-Leão, new Juve-Kolo deal, Khalaili hint: today’s market 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bar-eye-le-o-juve-125800847.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:58:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🇨🇻 Pride of a nation: Cape Verde come home to a wild party; watch",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pride-nation-cape-verde-return-124700218.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:47:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "🎥 With drums and fireworks! Mexico fans keep England stars awake",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/drums-fireworks-mexico-fans-keep-120000609.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:00:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid&#8217;s La Liga opener against Real Sociedad set to be postponed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-la-liga-opener-120000412.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 12:00:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Brazil, Norway, Mexico, England",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-brazil-norway-mexico-england-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-5.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 07:52:46 -0400",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
         "England"
       ]
     }
