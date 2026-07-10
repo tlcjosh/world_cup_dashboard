@@ -1,20 +1,6 @@
 {
-  "asOf": "2026-07-10T17:14:12.716Z",
+  "asOf": "2026-07-10T18:50:48.101Z",
   "items": [
-    {
-      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and Marc Guehi blow",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 17:07:42 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
     {
       "headline": "Spain v Belgium: World Cup 2026 quarter-final – live",
       "links": {
@@ -24,12 +10,291 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 17:00:25 GMT",
+      "pubDate": "Fri, 10 Jul 2026 18:32:06 GMT",
       "teams": [
-        "Brazil",
-        "United States",
+        "Germany",
+        "Belgium",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and Marc Guehi blow",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:28:06 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Why an emotionally-charged Argentina need to win this World Cup more than you might think",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-emotionally-charged-argentina-win-182451875.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:24:51 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Why English-speaking soccer fans across the US are choosing Spanish World Cup commentary",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-english-speaking-soccer-fans-181850537.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:18:50 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Why Erling Haaland has 'Braut' on the back of his Norway jersey",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-why-erling-haaland-has-braut-on-the-back-of-his-norway-jersey-181657227.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:16:57 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Players and staff to reap £19m bonus bonanza if England win World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/10/players-and-staff-to-reap-19m-bonus-bonanza-if-england-win-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 10 Jul 2026 18:11:13 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 World Cup: Vinicius Jr breaks silence after Brazil exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-vinicius-jr-breaks-180800236.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 18:08:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappé embraces leadership role for France to urge team humility",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Cutting off Erling Haaland is key but Norway are not just a one-man team | Emma Hayes",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/10/erling-haaland-england-norway-2026-world-cup-quarter-final-emma-hayes"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 10 Jul 2026 17:59:57 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Haaland & Heggem inspiring Baggies' striker Heggebo",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/haaland-heggem-inspiring-baggies-striker-173823810.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:59:13 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Is Spain vs Belgium on TV? Channel, kick-off time and how to watch World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-vs-belgium-tv-channel-051730113.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:54:27 +0000",
+      "teams": [
         "Belgium",
         "Spain"
+      ]
+    },
+    {
+      "headline": "👀 Come back stronger? Vini Jr. makes promise to all Brazil",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/come-back-stronger-vini-jr-175400232.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:54:00 +0000",
+      "teams": [
+        "Brazil",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Heat, humidity and Haaland: Why Norway can upset England in World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/heat-humidity-haaland-why-norway-175154549.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:51:54 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 quarter final: Spain vs. Belgium official line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-quarter-final-174000733.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:40:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Haaland & Heggem inspiring Baggies' striker Heggebo",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1eyx73842do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0060/live/964329a0-7c83-11f1-a046-0508c8c5d104.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 17:38:16 GMT",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Confirmed: Three Barcelona stars in Spain starting lineup vs Belgium &#8211; Pedri benched",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/confirmed-three-barcelona-stars-spain-173500552.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:35:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Hacking worry for Argentine FA over World Cup emails",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hacking-worry-argentine-fa-over-172620124.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:26:20 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Hacking worry for Argentine FA over World Cup emails",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ccd9/live/4aa98760-7c78-11f1-917a-91e958a7e786.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Clattenburg claim Mariani officiating 2026 World Cup Final ‘would upset people’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/clattenburg-claim-mariani-officiating-2026-172500033.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🥺Vinícius breaks his silence after Brazil’s painful exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/vin-cius-breaks-silence-brazil-170400981.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 17:04:00 +0000",
+      "teams": [
+        "Brazil"
       ]
     },
     {
@@ -1281,21 +1546,6 @@
       "teams": []
     },
     {
-      "headline": "Is Spain vs Belgium on TV? Channel, kick-off time and how to watch World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-vs-belgium-tv-channel-051730113.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 05:17:30 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
       "headline": "Norway camp hit with sickness bug ahead of England clash",
       "links": {
         "web": {
@@ -1898,7 +2148,7 @@
       "teams": []
     },
     {
-      "headline": "Norway's Haaland calls for media pressure on England before quarter-final",
+      "headline": "Norway's Haaland says pressure is all on England",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss"
@@ -15399,276 +15649,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 05 Jul 2026 16:02:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "El Aynaoui after Morocco&#8217;s success: &#8220;I&#8217;m in touch with Gasp.&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/el-aynaoui-morocco-success-m-155500502.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 15:55:00 +0000",
-      "teams": [
-        "Canada",
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "How to watch Mexico vs England World Cup 2026 match &#8211; BBC or ITV",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-mexico-vs-england-world-155000710.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 15:50:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "France deliver knockout punch to Paraguay in the Battle of Philadelphia",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/football-daily-france-knockout-punch-paraguay-battle-of-philadelphia-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 15:15:40 GMT",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "From drunkard to folk hero: he's already the World Cup's big winner",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/drunkard-folk-hero-hes-already-151500664.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 15:15:00 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "England have struggled against low block - could they use it to beat Mexico?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-nemesis-low-block-could-140905457.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 15:02:50 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Tony Popovic gets FA backing but is he is right man to take Socceroos forward? | Jack Snape",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/blog/2026/jul/06/tony-popovic-socceroos-australia-world-cup-analysis"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 15:00:30 GMT",
-      "teams": [
-        "Australia",
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "Thousands welcome home Cape Verde players after stunning World Cup run",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17e6/live/de1c6440-7877-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 14:59:10 GMT",
-      "teams": [
-        "United States",
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/farewell-cape-verde-underdogs-world-030049115.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:50:41 +0000",
-      "teams": [
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Peter Shilton reveals he has ‘put the beef to bed’ with Maradona’s ‘Hand of God’ goal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/peter-shilton-reveals-put-beef-101141444.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:50:05 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks by expert on 16-6 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-2026-world-cup-round-16-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/17/564ec5af-f5e2-4306-9194-c8af20f84736/raul-jimenez.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:47:16 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "🔥 What’s the limit? Mbappé racks up absurd World Cup records",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/limit-mbapp-racks-absurd-world-144500723.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:45:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Barcelona remain very interested in Australian teenager who has impressed at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-remain-very-interested-australian-142000478.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:20:00 +0000",
-      "teams": [
-        "Australia"
-      ]
-    },
-    {
-      "headline": "Brazil vs. Norway odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-16 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/brazil-norway-odds-prediction-time-2026-world-cup-round-16-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/061224b8-48bf-4c5b-a0db-b0737eca43de/vini-jr-neymay-brazil.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:15:59 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "England have struggled against low block - could they use it to beat Mexico?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cq51p6787jlo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c67/live/7b6b01a0-7816-11f1-a76a-9924e1ee4969.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 14:08:59 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 Return home! How Cape Verde's World Cup heroes were welcomed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/return-home-cape-verdes-world-140500084.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:05:00 +0000",
-      "teams": [
-        "Cape Verde Islands"
-      ]
-    },
-    {
-      "headline": "World Cup schedule today: How to watch Mexico v England, TV channels & live stream Sunday July 5th",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140029800.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 14:00:29 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mexico vs. England Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mexico-vs-england-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mexico-england.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 10:00:26 -0400",
       "teams": [
         "Mexico",
         "England"
