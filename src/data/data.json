@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T12:35:09.316Z",
+  "lastUpdated": "2026-07-10T15:18:37.062Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4685,13 +4685,14 @@
       "homeIso": "ar",
       "awayTeam": "Switzerland",
       "awayIso": "ch",
-      "venue": "Arrowhead Stadium, Kansas City",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City",
       "kickoff": "2026-07-12T01:00:00.000Z",
       "homeScore": null,
       "awayScore": null,
       "status": "SCHEDULED",
       "firstHalfStart": null,
-      "secondHalfStart": null
+      "secondHalfStart": null,
+      "espnEventId": "760513"
     },
     {
       "matchId": null,

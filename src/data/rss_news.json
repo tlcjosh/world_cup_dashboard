@@ -1,6 +1,312 @@
 {
-  "asOf": "2026-07-10T12:35:15.112Z",
+  "asOf": "2026-07-10T15:18:38.309Z",
   "items": [
+    {
+      "headline": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco; Spain v Belgium buildup; Jesus takes Portugal job – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/10/world-cup-2026-france-power-on-quansah-ban-fallout-spain-v-belgium-buildup-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 10 Jul 2026 15:03:26 GMT",
+      "teams": [
+        "Morocco",
+        "United States",
+        "Belgium",
+        "Spain",
+        "France",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Spain vs. Belgium live stream: How to watch FIFA World Cup, predictions and lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-belgium-fifa-world-cup-predictions-lineups/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/10/a2110240-f75c-49f9-a7f7-ec95fd8f7fcc/untitled-design-2026-07-10t105339-601.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 14:55:58 +0000",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Mike Maignan Takes Over As Favorite",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284679973-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 10:49:33 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Mbappé Favored After Goal vs. Morocco",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285412303-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 10:48:18 -0400",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 10:47:37 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Semifinal Odds: Which Nations Are Favored To Reach Final Four?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284795766-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 10:46:12 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 10:44:39 -0400",
+      "teams": [
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: France Strengthens Grip As Favorite",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284789703-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 10:43:30 -0400",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Footy Fix: World Cup quarterfinals in full swing as Mbappe and France advance. Spain vs. Belgium up next",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/footy-fix-world-cup-quarterfinals-in-full-swing-as-mbappe-and-france-advance-spain-vs-belgium-up-next/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/10/4c8199fa-3634-48ac-a7ce-cd8650e3332d/untitled-design-2026-07-10t095341-754.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 14:39:37 +0000",
+      "teams": [
+        "Switzerland",
+        "Belgium",
+        "Spain",
+        "France",
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The impact of Serie A players on Norway’s World Cup run",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/impact-serie-players-norway-world-143000130.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 14:30:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Best away days covering Coventry",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-away-days-covering-coventry-142222152.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 14:22:22 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Erling Haaland is Norway’s humble hero – and England might not be able to stop him",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-norway-humble-hero-141220735.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 14:12:20 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona plan to table a new €130 million offer for Julian Alvarez after World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-plan-table-130-million-141000846.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 14:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Spain vs. Belgium odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-belgium-odds-prediction-time-2026-world-cup-quarterfinal-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/b0d2712e-67aa-4347-a09f-4cdadceec970/lamine-yamal-spain.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 13:52:56 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Erling Haaland slams France vs Morocco referee after latest nightmare for World Cup officials",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-slams-france-vs-134228413.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 13:42:28 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "🚨 Official: Portugal's new manager has been revealed!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-portugals-manager-revealed-133800795.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 13:38:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Football Daily | Mbappé and France are on the march. Who’s going to stop them?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/10/football-daily-email-gwc-france-morocco"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 10 Jul 2026 13:18:48 GMT",
+      "teams": [
+        "Morocco",
+        "United States",
+        "Paraguay",
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "How do England stop Norway - and Haaland?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c621jyxkvzko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c92d/live/c1618f20-7c45-11f1-8ccc-df652c9169a7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 10 Jul 2026 12:39:21 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "How to Watch Spain vs. Belgium: TV Channel, Live Stream, Live",
       "links": {
@@ -67,24 +373,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026: ‘violent disorder’ in London after France’s win over Morocco, Spain v Belgium buildup – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/10/world-cup-2026-france-power-on-quansah-ban-fallout-spain-v-belgium-buildup-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 12:11:28 GMT",
-      "teams": [
-        "Morocco",
-        "United States",
-        "Belgium",
-        "Spain",
-        "France"
-      ]
-    },
-    {
       "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
       "links": {
         "web": {
@@ -99,6 +387,25 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 10 Jul 2026 08:08:16 -0400",
       "teams": []
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Mikel Oyarzabal, Leandro Trossard among Friday's best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-mikel-oyarzabal-leandro-trossard-among-fridays-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/4cecbedb-306b-417b-8787-a0b09db8f9f7/mikel.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 10 Jul 2026 12:00:57 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
     },
     {
       "headline": "Time marches on: what the next three years will bring for the USMNT",
@@ -949,7 +1256,7 @@
       ]
     },
     {
-      "headline": "France cruise into semi-finals - could this be the best Les Bleus ever?",
+      "headline": "France cruise into semi-finals - are they best-ever version of Les Bleus?",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c4gy74978myo?at_medium=RSS&at_campaign=rss"
@@ -966,22 +1273,6 @@
         "Morocco",
         "France"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Glove: Mike Maignan Takes Over As Favorite",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284679973-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:39:08 -0400",
-      "teams": []
     },
     {
       "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
@@ -1208,22 +1499,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Semifinal Odds: Which Nations Are Favored To Reach Final Four?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284795766-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:50:53 -0400",
-      "teams": []
-    },
-    {
       "headline": "World Cup 2026: Carli Lloyd doubles down on Christian Pulisic 'rest' comments after USMNT star's microfracture diagnosis",
       "links": {
         "web": {
@@ -1274,25 +1549,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:40:18 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Best World Cup Goals: The Top 50 Goals Of The Tournament So Far",
       "links": {
         "web": {
@@ -1322,25 +1578,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Thu, 09 Jul 2026 18:34:37 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Title Odds: France Strengthens Grip As Favorite",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284789703-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:32:38 -0400",
       "teams": [
         "Morocco",
         "France"
@@ -1477,22 +1714,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Quarterfinal Odds: Which Squads Will Advance?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham-76.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:03:36 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Haaland Lurks",
       "links": {
         "web": {
@@ -1544,24 +1765,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot Odds: Mbappé Favored After Goal vs. Morocco",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285412303-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:00:37 -0400",
-      "teams": [
-        "Morocco"
       ]
     },
     {
@@ -15473,186 +15676,6 @@
         "Brazil",
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup: How to buy tickets for Argentina vs. Egypt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-buy-tickets-argentina-115000280.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:50:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Barcelona star contradicts narrative around Cristiano Ronaldo: ‘I’ve never heard…’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-star-contradicts-narrative-around-115000654.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:50:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "How to Watch Brazil vs. Norway: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/brazil-vs-norway-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-brazil-vs-norway-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 07:41:48 -0400",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Spain star hails Barcelona duo Lamine, Cubarsi: &#8216;Surprised by their age and how they handle things&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-star-hails-barcelona-duo-114000920.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:40:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "England fighting history as well as Mexican nation in Azteca cauldron",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-fighting-history-well-mexican-113456659.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:34:56 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "England battling history as well as Mexican nation in Azteca cauldron",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvg7z7zxkw9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de24/live/39acc050-77fd-11f1-9f1f-0d563b557b65.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 11:34:49 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappe delighted with France win over Paraguay – “We know how to play ugly football”",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kylian-mbappe-delighted-france-win-113000409.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:30:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Real Madrid left with an uncomfortable question for their players shining at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-left-uncomfortable-players-113000912.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Jose Mourinho studying every Real Madrid player at the World Cup very closely",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jose-mourinho-studying-every-real-111500643.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:15:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Barcelona midfielder hits back at critics ahead of Spain vs Portugal &#8211; &#8220;I will never change&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-midfielder-hits-back-critics-110500137.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:05:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "France manager strongly denies Kylian Mbappe “dictator” claims – “His public image does not reflect reality”",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-manager-strongly-denies-kylian-110500143.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:05:00 +0000",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "Jurgen Klopp agrees to become Germany manager",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jurgen-klopp-agrees-become-germany-110000457.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 11:00:00 +0000",
-      "teams": [
-        "Germany"
       ]
     }
   ]
