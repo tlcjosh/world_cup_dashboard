@@ -1,6 +1,62 @@
 {
-  "asOf": "2026-07-11T11:17:52.109Z",
+  "asOf": "2026-07-11T12:10:43.241Z",
   "items": [
+    {
+      "headline": "‘A brilliant reprieve, a unifying force’: America falls in love with World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brilliant-reprieve-unifying-force-america-120049336.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 12:00:49 +0000",
+      "teams": []
+    },
+    {
+      "headline": "OPEN TRAINING SESSION AHEAD OF THE SQUAD'S FULL RETURN",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/open-training-session-ahead-squads-120000704.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 12:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "From Arsenal jeers to Swiss tears: Xhaka's redemption",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-jeers-swiss-tears-xhakas-115903173.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 11:59:03 +0000",
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "headline": "From Arsenal jeers to Swiss tears: Xhaka's redemption",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy06zgdz728o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a2c/live/ce3cf2b0-7b10-11f1-994a-0f37fa57a855.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 11:58:58 GMT",
+      "teams": [
+        "Switzerland"
+      ]
+    },
     {
       "headline": "World Cup 2026: Norway v England buildup, Kane’s round of golf with Trump, Spain set up France semi-final – live",
       "links": {
@@ -10,13 +66,32 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 11:12:45 GMT",
+      "pubDate": "Sat, 11 Jul 2026 11:56:51 GMT",
       "teams": [
         "Belgium",
         "Spain",
         "France",
         "Norway",
         "England"
+      ]
+    },
+    {
+      "headline": "Argentina vs. Switzerland odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 19-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-switzerland-odds-prediction-line-time-2026-world-cup-quarterfinal-picks-lionel-messi-props/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/11/a871cfbf-0c77-448f-8fbf-e46af937b463/lionel-messi-argentina-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 11:18:18 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
       ]
     },
     {
@@ -15556,92 +15631,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Mon, 06 Jul 2026 00:57:34 +0000",
       "teams": []
-    },
-    {
-      "headline": "Ageing Brazil need major surgery - but is Ancelotti the man to do it?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ageing-brazil-major-surgery-ancelotti-005334045.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 00:53:34 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Ageing Brazil need major surgery - but is Ancelotti the man to do it?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20yywnqwl5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85df/live/039bc9d0-78d3-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 00:51:36 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Erling Haaland hails ‘one of the sickest days’ in Norway’s history after beating Brazil",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/erling-haaland-one-of-the-sickest-days-norway-history-beating-brazil-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 00:44:14 GMT",
-      "teams": [
-        "Brazil",
-        "United States",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "'Sportsmanship in question' after decision to suspend Balogun red card",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cp8rr2px3rwo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3319/live/02c048d0-78d1-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 00:38:09 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Mexico v England kick-off time delayed as World Cup last 16 tie hit by ‘severe weather’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mexico-v-england-kick-off-231247306.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 00:22:03 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "England"
-      ]
     }
   ]
 }
