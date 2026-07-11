@@ -1,6 +1,68 @@
 {
-  "asOf": "2026-07-10T23:37:32.603Z",
+  "asOf": "2026-07-11T01:08:27.028Z",
   "items": [
+    {
+      "headline": "France vs. Spain Is The World Cup Final That Arrived Early",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-vs-spain-world-cup-final-arrived-early"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 21:00:26 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "England's Guehi, Rice & James all train before Norway game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/guehi-could-miss-norway-game-224206850.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 00:58:37 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Top 25 players in the USMNT pool right now: A post-World Cup view of the USA men",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/top-25-players-usmnt-pool-004616586.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 00:46:16 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "As the World Cup Wraps in L.A., the 2028 Olympics Beckon",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/10/us/world-cup-los-angeles-olympics.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 11 Jul 2026 00:35:31 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
     {
       "headline": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
       "links": {
@@ -10,8 +72,143 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 23:30:05 +0000",
+      "pubDate": "Sat, 11 Jul 2026 00:24:27 +0000",
       "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Lammens' error spells end for Belgium's golden generation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lammens-error-spells-end-belgiums-231457672.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 00:24:27 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "England vs. Norway odds, prediction, time: 2026 World Cup quarterfinals picks by expert on 25-16 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-norway-odds-prediction-time-2026-world-cup-quarterfinals-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/6677ae56-2850-4bf9-aff9-72d6ee83d57e/harry-kane-england.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 00:19:45 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "🛒 United give up on Ancelotti call-up, target another Brazilian",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/united-cool-ancelotti-call-eye-001500393.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 00:15:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Could Lamine Yamal Be Benched For Spain vs. France World Cup Semifinal?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/could-spains-lamine-yamal-benched-vs-france-semis"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-yamal.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 20:09:49 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Tuchel fears more Haaland heroics as England seek identity against Norway",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/11/thomas-tuchel-erling-haaland-england-norway-2026-world-cup-quarter-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 00:00:34 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lamine-yamal-thinks-france-not-spain-should-worried-about-world-cup-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/yamal-11.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:53:31 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "How Do You Stop Lionel Messi? Switzerland Focused On Simply Containing Argentina’s GOAT",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-argentina-switzerland-messi-xhaka-quarterfinal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-73.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 10 Jul 2026 19:44:51 -0400",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup: After Thibaut Courtois' injury, one mistake sent Belgium home and Spain through",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-after-thibaut-courtois-injury-one-mistake-sent-belgium-home-and-spain-through-233950923.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 10 Jul 2026 23:39:50 +0000",
+      "teams": [
+        "Belgium",
         "Spain"
       ]
     },
@@ -24,7 +221,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd94/live/52b72730-7cac-11f1-baaa-97e400ac6020.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c4d/live/36c6f360-7cbc-11f1-b6c2-a71c5c448f77.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -50,7 +247,7 @@
       "teams": []
     },
     {
-      "headline": "Who wins now? France and Spain to meet again in decisive duel",
+      "headline": "Who wins now? France and Spain meet again in another decider",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/wins-now-france-spain-meet-232600138.html"
@@ -62,21 +259,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "Lammens' error spells end for Belgium's golden generation",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lammens-error-spells-end-belgiums-231457672.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 23:19:14 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
       ]
     },
     {
@@ -250,21 +432,6 @@
       "source": "Fox Sports",
       "pubDate": "Fri, 10 Jul 2026 18:26:43 -0400",
       "teams": []
-    },
-    {
-      "headline": "England's Guehi, Rice & James all train before Norway game",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/guehi-could-miss-norway-game-224206850.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 22:25:28 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
     },
     {
       "headline": "England's Guehi, Rice & James all train before Norway game",
@@ -567,20 +734,6 @@
       "pubDate": "Fri, 10 Jul 2026 21:12:18 +0000",
       "teams": [
         "Belgium"
-      ]
-    },
-    {
-      "headline": "As the World Cup Wraps in L.A., the 2028 Olympics Beckon",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/10/us/world-cup-los-angeles-olympics.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Fri, 10 Jul 2026 21:09:21 +0000",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -15512,156 +15665,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 05 Jul 2026 21:23:06 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Folarin Balogun's Return Leaves Books Scrambling",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-folarin-baloguns-leaves-books-scrambling"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun-75.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 17:20:07 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "‘They’ve tried to kill me for 23 years’: Cristiano Ronaldo says this World Cup will be his last",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/kill-me-23-years-cristiano-ronaldo-world-cup-last-portugal-spain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 20:41:28 GMT",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "England, Mexico's Most Heartbreaking World Cup Exits, Led By The 'Hand Of God'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-mexicos-most-heartbreaking-world-cup-exits"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/eng-mex-biggest-heartbreaks-16x9-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:40:55 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Cristiano Ronaldo confirms international retirement after World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-confirms-international-retirement-204000116.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:40:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Belgium ‘astonished’ by Fifa’s decision to wipe Folarin Balogun’s World Cup ban",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-astonished-fifa-decision-wipe-195343602.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:35:26 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Quansah set to start at right-back for England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c8r225dm81yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7699/live/339f2140-78b0-11f1-b521-65ff63ab8f29.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 20:31:31 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Outrage online after Brazil penalty miss: Why didn't Vini take it?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/online-outrage-over-brazils-missed-203100741.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:31:00 +0000",
-      "teams": [
-        "Brazil",
-        "United States",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "USA v Belgium tactical analysis: what’s Pochettino’s plan with Balogun available?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-v-belgium-tactical-analysis-151330754.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 20:24:34 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "'USA vs. The World': Lalas Thinks Balogun Decision Puts Target On Americans' Back",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/it-now-usa-vs-world-decision"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/flo.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 16:18:03 -0400",
       "teams": [
         "United States",
         "Belgium"
