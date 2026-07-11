@@ -1,8 +1,22 @@
 {
-  "asOf": "2026-07-11T22:26:09.745Z",
+  "asOf": "2026-07-11T23:32:12.548Z",
   "items": [
     {
-      "headline": "Norway v England: World Cup 2026 quarter-final – live",
+      "headline": "📸 Club World Cup: huge controversy! First English goal ruled out?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/club-world-cup-huge-controversy-232700706.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:27:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Norway v England: World Cup 2026 quarter-final goes to extra time – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live"
@@ -10,12 +24,147 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 22:13:36 GMT",
+      "pubDate": "Sat, 11 Jul 2026 23:26:10 GMT",
       "teams": [
         "Mexico",
         "United States",
         "Norway",
         "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:20:59 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Haaland Lurks",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-boot-race-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:17:29 -0400",
+      "teams": []
+    },
+    {
+      "headline": "How to take a World Cup shootout penalty",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-shootout-penalty-124630295.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:03:20 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How to take a World Cup shootout penalty",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c04yk2rzv2wo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 23:03:14 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Why was Norway’s second goal against England ruled out by VAR for Erling Haaland foul?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-norway-second-goal-against-224537823.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 22:45:37 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: Norway burned after missed collision with sky cam wire led to England goal, along with controversial VAR review",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-norway-burned-after-missed-collision-with-sky-cam-wire-led-to-england-goal-along-with-controversial-var-review-224530813.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 22:45:30 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina midfield great Rattin dies aged 89",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-midfield-great-rattin-dies-222432761.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 22:24:32 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina midfield great Rattin dies aged 89",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ccd/live/68cc4860-7d75-11f1-98dd-61279ae4cdce.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who is Clement Turpin? Norway v England referee for World Cup who angered Thomas Tuchel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/clement-turpin-norway-v-england-052042614.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 22:19:31 +0000",
+      "teams": [
+        "Norway",
         "England"
       ]
     },
@@ -63,22 +212,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Sat, 11 Jul 2026 18:02:39 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Haaland Lurks",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-boot-race-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 17:50:39 -0400",
       "teams": []
     },
     {
@@ -161,21 +294,6 @@
       "teams": [
         "Switzerland",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Who is Clement Turpin? Norway v England referee for World Cup who angered Thomas Tuchel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/clement-turpin-norway-v-england-052042614.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 21:08:30 +0000",
-      "teams": [
-        "Norway",
-        "England"
       ]
     },
     {
@@ -2623,20 +2741,6 @@
       "teams": [
         "Belgium",
         "Spain"
-      ]
-    },
-    {
-      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and Marc Guehi blow",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:51:13 +0000",
-      "teams": [
-        "Jordan"
       ]
     },
     {
@@ -8856,34 +8960,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Wed, 08 Jul 2026 12:50:16 GMT",
-      "teams": []
-    },
-    {
-      "headline": "How to take a World Cup shootout penalty",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-shootout-penalty-124630295.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 12:46:30 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to take a World Cup shootout penalty",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c04yk2rzv2wo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 12:46:23 GMT",
       "teams": []
     },
     {
@@ -15542,76 +15618,6 @@
       "teams": [
         "Mexico",
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Norway stun Brazil, sparking debate over Italy’s coaches",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-norway-stun-102000013.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:20:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Newcastle set sights on Manu Kone as Tonali replacement",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/newcastle-set-sights-manu-kone-101000132.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:10:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Uefa claims Fifa ‘crossed a red line’ after ‘unjustifiable’ decision to lift Folarin Balogun’s ban",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/uefa-claims-fifa-crossed-red-100738674.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:07:38 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Is Declan Rice suspended after yellow card vs Mexico?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/declan-rice-suspended-yellow-card-100500196.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:05:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Queiroz leaves Ghana following World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/queiroz-leaves-ghana-following-world-225532180.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:04:20 +0000",
-      "teams": [
-        "Ghana"
       ]
     }
   ]
