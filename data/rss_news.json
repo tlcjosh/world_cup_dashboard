@@ -1,6 +1,185 @@
 {
-  "asOf": "2026-07-11T08:29:10.195Z",
+  "asOf": "2026-07-11T10:03:52.352Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 09:54:36 GMT",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid&#8217;s Santiago Bernabeu could miss out on opportunity to host 2030 World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-santiago-bernabeu-could-095000516.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 09:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Spain legend compares Arsenal star to David Villa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-legend-compares-arsenal-star-095000599.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 09:50:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Lammens laments late mistake as Spain make the semis | World Cup Daily",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jul/11/lammens-laments-late-mistake-as-spain-make-the-semis-world-cup-daily"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 09:47:30 GMT",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Xavi Espart talks Barcelona debut, Flick, La Masia, U19 Euro final: &#8216;Almost a dream&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/xavi-espart-talks-barcelona-debut-093500838.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 09:35:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "‘The final before the final’: Spain must improve to beat France – but two things are in their favour",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/final-final-spain-must-improve-092943962.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 09:29:43 +0000",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Real Madrid veteran superstar could be out for 4-8 weeks after World Cup injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-veteran-superstar-could-092000084.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 09:20:00 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 34",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cd0pmv2mr3jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0839/live/30305150-7955-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 09:00:05 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid World Cup Spotlight: Cucurella progresses while Courtois suffers an injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-084500893.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 08:45:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Barcelona World Cup Spotlight: Cubarsi, Lamine Yamal impress for Spain vs Belgium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-world-cup-spotlight-cubarsi-084500622.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 08:45:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Hey Jude: Bellingham's return to England indispensability",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hey-jude-bellinghams-return-england-075440111.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 08:37:30 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "The Man Utd youngsters to look out for in Finland and Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-utd-youngsters-look-finland-082604261.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 08:26:04 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
     {
       "headline": "The Man Utd youngsters to look out for in Finland and Norway",
       "links": {
@@ -17,37 +196,6 @@
       "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT",
       "teams": [
         "Norway"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 08:18:26 GMT",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Hey Jude: Bellingham's return to England indispensability",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/hey-jude-bellinghams-return-england-075440111.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 08:11:07 +0000",
-      "teams": [
-        "England"
       ]
     },
     {
@@ -493,6 +641,25 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "More than the Score",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0ny3ths?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ny3tmn.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 05:02:00 GMT",
       "teams": [
         "Norway",
         "England"
@@ -15486,181 +15653,6 @@
       "teams": [
         "Mexico",
         "England"
-      ]
-    },
-    {
-      "headline": "England's match with Mexico delayed by an hour",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-match-mexico-delayed-hour-231836955.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:43:09 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mexico-England World Cup matchup delayed due to thunderstorms",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/mexico-england-world-cup-matchup-delayed-due-to-thunderstorms-234247078.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:42:47 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨 After World Cup exit to Norway: Neymar retires from Brazil!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-exit-norway-neymar-233600393.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:36:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "England's match with Mexico delayed by an hour",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c78yy4x7n5jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b07c/live/e2da0500-78c7-11f1-b8ab-e717d2affec9.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 23:35:38 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Neymar confirms Brazil retirement after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/neymar-confirms-brazil-retirement-world-232600653.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:26:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "🚨 Confirmed: Mexico v England kicks off late!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/confirmed-fifa-mexico-v-england-232600697.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:26:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "What is Fifa’s weather protocol for World Cup 2026 after Mexico v England delayed?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-world-cup-games-could-144300011.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:19:43 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Brazil Star Neymar Announces International Retirement: 'It Is Now Over'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/brazil-star-neymar-announces-international-retirement-it-now-over"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/neymar-retire-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 19:17:30 -0400",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "England vs. Mexico World Cup Round Of 16 Match Delayed Due To Extreme Weather",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-mexico-world-cup-round-16-match-delayed-due-extreme-weather"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/435955bf-mexico1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 19:10:42 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨 Neymar announces his international retirement",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/neymar-announces-international-retirement-230300731.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:03:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Donald Trump called Gianni Infantino before Fifa’s stunning decision to suspend Folarin Balogun’s World Cup ban, report says",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/donald-trump-called-gianni-infantino-211443995.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:02:46 +0000",
-      "teams": [
-        "United States"
       ]
     }
   ]
