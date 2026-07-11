@@ -1,6 +1,42 @@
 {
-  "asOf": "2026-07-11T13:56:18.058Z",
+  "asOf": "2026-07-11T15:04:05.634Z",
   "items": [
+    {
+      "headline": "Argentina vs. Switzerland Prediction, Odds, Picks For World Cup Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-switzerland-prediction-odds-picks-world-cup-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091642-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 11:00:59 -0400",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Norway v England buildup; Fifa to sell bits of MetLife pitch; Kane’s round of golf with Trump – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 14:55:57 GMT",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "South Africa World Cup midfielder Adams dies aged 25",
       "links": {
@@ -10,39 +46,7 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:43:51 +0000",
-      "teams": [
-        "South Africa"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Norway v England buildup, Kane’s round of golf with Trump, Germany close on Klopp – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 13:38:52 GMT",
-      "teams": [
-        "Germany",
-        "Belgium",
-        "Spain",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "South Africa star Jayden Adams dies, aged 25, weeks after starring at World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-star-jayden-adams-133241817.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:32:41 +0000",
+      "pubDate": "Sat, 11 Jul 2026 14:47:51 +0000",
       "teams": [
         "South Africa"
       ]
@@ -56,13 +60,139 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee7/live/695fd8a0-7d2f-11f1-8f06-e145dd803033.jpg"
         }
       ],
       "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 13:29:51 GMT",
+      "pubDate": "Sat, 11 Jul 2026 14:47:47 GMT",
       "teams": [
         "South Africa"
+      ]
+    },
+    {
+      "headline": "Thibaut Courtois makes strange request after World Cup exit: ‘I don’t know if Belgium will agree to this’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thibaut-courtois-reveals-cause-thigh-223051900.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 14:40:07 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Norway vs. England live stream: How to watch FIFA World Cup, predictions and lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/norway-vs-england-live-stream-how-to-watch-fifa-world-cup-predictions-and-lineups/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/11/f5daf669-cec2-416b-995f-69d36a87f3bf/untitled-design-2026-07-11t101108-037.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 14:18:44 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "South Africa midfielder Jayden Adams dies weeks after playing in World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/south-africa-midfielder-jayden-adams-dies-weeks-after-playing-in-world-cup-140839403.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 14:08:39 +0000",
+      "teams": [
+        "South Africa"
+      ]
+    },
+    {
+      "headline": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany"
+      ]
+    },
+    {
+      "headline": "World Cup schedule today: How to watch Norway v England, TV channels & live stream Saturday 11 July",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140051783.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 14:00:51 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "South Africa star Jayden Adams dies at 25 just days after World Cup 2026 exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/south-africa-star-jayden-adams-133241817.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 13:57:40 +0000",
+      "teams": [
+        "South Africa"
+      ]
+    },
+    {
+      "headline": "Harry Kane relishes golden boot battle but, 'my main goal is to win the World Cup with England'",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/harry-kane-golden-boot-battle-world-cup-england/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/11/f92e455e-2dfc-49ab-a1df-2d6e00a2549d/untitled-design-2026-07-11t095033-411.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 13:53:15 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona new signing receives advice from England legend ahead of World Cup semi-final bid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-signing-receives-advice-england-134500939.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 13:45:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
       ]
     },
     {
@@ -141,7 +271,7 @@
       "teams": []
     },
     {
-      "headline": "When do England play next at World Cup? Kick-off time for Norway clash in round of 16",
+      "headline": "What is England’s likely route to the World Cup final if they beat Norway?",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
@@ -149,7 +279,7 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:14:11 +0000",
+      "pubDate": "Sat, 11 Jul 2026 13:13:10 +0000",
       "teams": [
         "Norway",
         "England"
@@ -15499,139 +15629,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 06 Jul 2026 03:22:22 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "The man England will fear most - Haaland fires Norway to history",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ce/live/6e68af30-78c9-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 03:20:59 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: 10-man England defeat Mexico in tournament classic",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-031000868.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 03:10:00 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Short-handed England holds off Mexico at home behind 2-minute Jude Bellingham brace",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-short-handed-england-holds-off-mexico-at-home-behind-2-minute-jude-bellingham-brace-030847028.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 03:08:47 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "England’s 10 men hang on after Kane penalty to beat Mexico in World Cup thriller",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/england-mexico-match-report-jude-bellingham-harry-kane-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 03:06:05 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "England Weathers Storm With 10 Men To Beat Mexico, Advance To World Cup Quarterfinals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-weathers-storm-10-men-beat-mexico-advance-world-cup-quarterfinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/32ddf287-kane1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 23:04:32 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Norway's historic World Cup journey rows on with \"cheat code\" Erling Haaland leading the charge",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norways-historic-world-cup-journey-025215548.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 02:52:15 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Watch as 10-man England lead Mexico but under pressure in closing stages",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fans-arrive-iconic-azteca-englands-220432249.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 02:51:08 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup referees are just not good enough - Tuchel",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9551/live/e107a9a0-7901-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 02:50:51 GMT",
       "teams": [
         "Mexico",
         "England"
