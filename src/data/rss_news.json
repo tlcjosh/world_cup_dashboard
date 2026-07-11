@@ -1,6 +1,115 @@
 {
-  "asOf": "2026-07-11T19:34:24.750Z",
+  "asOf": "2026-07-11T20:27:19.884Z",
   "items": [
+    {
+      "headline": "Argentina v Switzerland",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-v-switzerland-201727685.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:17:27 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Norway v England: World Cup 2026 quarter-final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 20:12:03 GMT",
+      "teams": [
+        "Mexico",
+        "United States",
+        "Norway",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 To stop Haaland, Tuchel springs two surprises for England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/stop-haaland-tuchel-springs-two-200200362.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:02:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/william-saliba-dayot-upamecano-absent-200000096.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:00:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Is Norway v England on TV? Channel, kick-off time and how to watch World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-vs-england-tv-channel-040400765.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:53:05 +0000",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Norway vs England lineups: Heggem starts as Haaland faces Three Lions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-norway-vs-194000539.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:40:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "👑 Harry Kane or Erling Haaland, who's having the better season?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/harry-kane-erling-haaland-whos-193000483.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:30:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "2026 World Cup parlay, best bets: Top picks for Saturday's quarterfinal matches include Argentina, Haaland",
       "links": {
@@ -20,24 +129,6 @@
       ]
     },
     {
-      "headline": "Norway v England: World Cup 2026 quarter-final – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 19:23:46 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Norway",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
       "headline": "England vs. Norway odds, prediction, time: 2026 World Cup quarterfinal picks by expert on 25-16 roll",
       "links": {
         "web": {
@@ -52,22 +143,6 @@
       "source": "CBS Sports",
       "pubDate": "Sat, 11 Jul 2026 19:22:25 +0000",
       "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Is Norway v England on TV? Channel, kick-off time and how to watch World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-vs-england-tv-channel-040400765.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:21:42 +0000",
-      "teams": [
-        "Mexico",
         "Norway",
         "England"
       ]
@@ -6618,6 +6693,22 @@
       "teams": [
         "Morocco",
         "France"
+      ]
+    },
+    {
+      "headline": "The US delivered their best modern World Cup performance – and also let themselves down",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/09/the-us-delivered-their-best-modern-world-cup-performance-and-also-let-themselves-down"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 09 Jul 2026 10:00:02 GMT",
+      "teams": [
+        "United States",
+        "Paraguay",
+        "Belgium"
       ]
     },
     {
@@ -15513,99 +15604,6 @@
       "pubDate": "Mon, 06 Jul 2026 09:00:01 GMT",
       "teams": [
         "Brazil"
-      ]
-    },
-    {
-      "headline": "Quiz: Name every team England have played in a World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c8j22mvdgp4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74ec/live/983410c0-78ec-11f1-a627-714adb4eed6e.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 08:12:59 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "‘Bullshit’: Socceroo Awer Mabil hits out at Pauline Hanson’s monoculture claim",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/socceroo-awer-mabil-on-pauline-hanson-monoculture-claim"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 07:56:13 GMT",
-      "teams": [
-        "Australia",
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "The World Cup Gave Mexicans a Fantasy They Won’t Soon Forget",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/06/world/americas/world-cup-mexico-city.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Mon, 06 Jul 2026 07:26:05 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 26",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-26"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/best-bets-16x9-bb-wc-10.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 03:17:01 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Let’s talk about Mikel Oyarzabal: Spain’s quiet man forced into the limelight",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/mikel-oyarzabal-spain-world-cup-2026-portugal"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 07:00:06 GMT",
-      "teams": [
-        "Spain",
-        "Austria",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Brazil’s World Cup exit raises a question: are they more a brand than a team?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/brazil-world-cup-2026-norway-defeat"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 07:00:06 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
       ]
     }
   ]
