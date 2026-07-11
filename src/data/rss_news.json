@@ -1,6 +1,122 @@
 {
-  "asOf": "2026-07-11T20:27:19.884Z",
+  "asOf": "2026-07-11T21:26:24.523Z",
   "items": [
+    {
+      "headline": "Norway v England: World Cup 2026 quarter-final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 21:13:46 GMT",
+      "teams": [
+        "Mexico",
+        "United States",
+        "Norway",
+        "Congo DR",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 21:10:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina vs. Switzerland odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 19-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-switzerland-odds-prediction-line-time-2026-world-cup-quarterfinal-picks-lionel-messi-props-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/81315629-ade4-4708-af70-1e6fcd1e1937/lionel-messi-argentina-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 21:10:28 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who is Clement Turpin? Norway v England referee for World Cup who angered Thomas Tuchel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/clement-turpin-norway-v-england-052042614.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 21:08:30 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Jordan Henderson opens door to shock World Cup semi-final return after freak injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jordan-henderson-opens-door-shock-205657094.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:56:57 +0000",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "When do yellow cards reset at the World Cup? All the England players on bookings before Norway game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/yellow-cards-reset-world-cup-094436682.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:47:36 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Norway v England on TV? Channel, kick-off time and how to watch World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-vs-england-tv-channel-040400765.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:20:01 +0000",
+      "teams": [
+        "Mexico",
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "Argentina v Switzerland",
       "links": {
@@ -14,24 +130,6 @@
       "teams": [
         "Switzerland",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Norway v England: World Cup 2026 quarter-final – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 20:12:03 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Norway",
-        "Congo DR",
-        "England"
       ]
     },
     {
@@ -62,22 +160,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "Is Norway v England on TV? Channel, kick-off time and how to watch World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-vs-england-tv-channel-040400765.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:53:05 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
       ]
     },
     {
@@ -715,21 +797,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 11 Jul 2026 15:20:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "When do yellow cards reset at the World Cup? All the England players on bookings before Norway game",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/yellow-cards-reset-world-cup-094436682.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 15:15:35 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
     },
     {
       "headline": "Odegaard praises England & Arsenal star pre-World Cup clash",
@@ -1513,21 +1580,6 @@
       "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT",
       "teams": [
         "Norway"
-      ]
-    },
-    {
-      "headline": "Who is Clement Turpin? Norway v England referee for World Cup who angered Thomas Tuchel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/clement-turpin-norway-v-england-052042614.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 08:07:26 +0000",
-      "teams": [
-        "Norway",
-        "England"
       ]
     },
     {
@@ -2371,22 +2423,6 @@
         "Norway",
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 22:31:10 +0000",
-      "teams": []
     },
     {
       "headline": "Where In The World Cup Is Jameis Winston?",
@@ -15571,39 +15607,6 @@
       "teams": [
         "Brazil",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Spain vs. Portugal Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-vs-portugal-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2219199357-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 05:00:03 -0400",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Unwelcome and undue: Trump’s red-card intervention hurts the US’s World Cup more than it helps | Pablo Iglesias Maurer",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/donald-trump-folarin-balogun-world-cup-usmnt-intervention"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 09:00:01 GMT",
-      "teams": [
-        "Brazil"
       ]
     }
   ]
