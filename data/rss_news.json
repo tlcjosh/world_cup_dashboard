@@ -1,6 +1,231 @@
 {
-  "asOf": "2026-07-11T04:28:28.518Z",
+  "asOf": "2026-07-11T06:39:24.426Z",
   "items": [
+    {
+      "headline": "England’s tortured relationship with quarter-finals is over – but beating Norway would break new ground",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-tortured-relationship-quarter-finals-062112589.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:21:12 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thiago Pitarch talks Mourinho, Bellingham, Modric and Iniesta: &#8216;Best players in the world&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thiago-pitarch-talks-mourinho-bellingham-062000345.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:20:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Who could take a penalty for England if World Cup quarter-final against Norway goes to a shootout?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-best-five-penalty-takers-153458336.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:19:55 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Haaland & Kane set for epic battle, Lammens sends Spain through",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/haaland-kane-set-epic-battle-061500279.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:15:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "When the World Cup finishes, the football continues on BBC Sport",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-finishes-football-continues-060341221.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:03:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "When the World Cup finishes, the football continues on BBC Sport",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c9w2zr9wzj1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d2d/live/7bc0e940-7c89-11f1-b976-0b9c15b0ccfc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 06:03:35 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Thibaut Courtois explains his injury status after Belgium crash out of FIFA World Cup: &#8216;Lot of pain&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thibaut-courtois-explains-injury-status-060000542.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:00:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Jeremy Doku and Belgium eliminated after Spain&#8217;s late, late show",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-060000673.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 06:00:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Is it time to give record-breaker Pickford the credit he deserves?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-record-breaker-pickford-credit-055538585.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 05:55:38 +0000",
+      "teams": [
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is it time to give record-breaker Pickford the credit he deserves?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9325/live/9e569ad0-7c80-11f1-a046-0508c8c5d104.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT",
+      "teams": [
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Triple injury boost for England ahead of World Cup quarter-final vs Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/triple-injury-boost-england-ahead-054500498.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 05:45:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "All the goals from England's 2026 World Cup campaign so far",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4542/live/e3e331f0-7c88-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Haaland has advantage over Man City team-mates",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d422/live/71298950-7cad-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "England set for open-air Miami heat - but do Norway hold the edge?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33d3/live/2a391080-7c65-11f1-ab77-73970114f4de.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "Is Argentina vs Switzerland on TV? Channel, kick-off time and how to watch World Cup quarter-final",
       "links": {
@@ -15457,233 +15682,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 05 Jul 2026 22:32:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup: 5 things to know about Belgium ahead of Round of 16 matchup against the USMNT",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-5-things-to-know-about-belgium-ahead-of-round-of-16-matchup-against-the-usmnt-223001386.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:30:01 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "After what is likely his last World Cup game, Neymar breaks down in tears after Brazil's loss to Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/after-what-is-likely-his-last-world-cup-game-neymar-breaks-down-in-tears-after-brazils-loss-to-norway-222830558.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:28:30 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Neymar breaks down in tears after likely final World Cup game as Norway eliminates Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/neymar-breaks-down-in-tears-after-likely-final-world-cup-game-as-norway-eliminates-brazil-222830558.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:28:30 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Neymar announces retirement from international soccer after Brazil crashes out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/neymar-announces-retirement-from-international-soccer-after-brazil-crashes-out-of-world-cup-222830558.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:28:30 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Haaland double fires Norway into World Cup quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cwy00v2xk05o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f5/live/6ab3a200-78bf-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 05 Jul 2026 22:27:08 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Brazil 1-2 Norway: World Cup 2026 last 16 – live reaction",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/05/brazil-v-norway-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 22:25:26 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "📸 Haaland stuns the football world with his brace",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/haaland-stuns-football-world-brace-221700812.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:17:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Haaland’s heroic double stuns Brazil and sends Norway into World Cup quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/05/brazil-norway-world-cup-2026-last-16-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 05 Jul 2026 22:15:11 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Erling Haaland scores brace to send Norway into quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-221500279.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:15:00 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "😭 Anger, sadness, disillusion and grief as Brazil crash out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/anger-sadness-dismay-grief-dominate-221500389.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:15:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Quansah set to start at right-back for England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spence-muscle-problem-adds-england-193920017.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:10:49 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Erling Haaland Ends Brazil's World Cup With Brace For Norway In Round Of 16",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-ends-brazils-world-cup-brace-norway-round-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haaland1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 05 Jul 2026 18:10:24 -0400",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "USMNT react as Folarin Balogun's World Cup suspension lifted: 'I think a lot of us thought it was AI at first'",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-lifted-belgium/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/43061936-e6a3-4f0d-9c0b-2671cc716db8/untitled-design-2026-07-05t145551-890.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:07:31 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "England vs. Mexico odds, prediction: 2026 World Cup Round of 16 picks via expert on 16-6 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-mexico-odds-prediction-2026-world-cup-round-16-picks-soccer-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/31ef973e-9f3e-44d6-91af-eebd5061ae16/mexico-soccer.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 05 Jul 2026 22:06:31 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
     }
   ]
 }
