@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-12T13:48:30.796Z",
+  "asOf": "2026-07-12T14:45:14.787Z",
   "items": [
     {
       "headline": "Listen: Sunday Sportsound including Falkirk manager John McGlynn",
@@ -26,12 +26,91 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 13:42:50 GMT",
+      "pubDate": "Sun, 12 Jul 2026 14:24:31 GMT",
       "teams": [
         "Switzerland",
         "Senegal",
         "Norway",
         "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "💣 Milan seal Rabiot, Juve-Pellegrino, Zeballos-Napoli 🤏: deals 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/milan-seal-rabiot-juve-pellegrino-142000029.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 14:20:00 +0000",
+      "teams": [
+        "Switzerland",
+        "Spain",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "France vs. Spain odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-spain-odds-prediction-time-2026-world-cup-semifinal-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/72a52a17-0651-41ea-ac96-368c44d4c835/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 12 Jul 2026 14:09:31 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Two phone calls between Real Madrid and Vinicius Jr. changed the course of contract talks &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/two-phone-calls-between-real-140500452.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 14:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup: What we've learned about Argentina, England, France and Spain ahead of the semifinals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-what-weve-learned-about-argentina-england-france-and-spain-ahead-of-the-semifinals-135625486.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:56:25 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Just strolling around on the pitch: Ibrahimović lays into England star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/just-strolling-around-pitch-ibrahimovi-135200473.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:52:00 +0000",
+      "teams": [
         "England"
       ]
     },
@@ -1949,25 +2028,6 @@
       "teams": [
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "France vs. Spain odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-spain-odds-prediction-time-2026-world-cup-semifinal-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/72a52a17-0651-41ea-ac96-368c44d4c835/kylian-mbappe-france-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 12 Jul 2026 01:05:25 +0000",
-      "teams": [
-        "Spain",
-        "France"
       ]
     },
     {
@@ -15498,63 +15558,6 @@
         "Belgium",
         "Senegal"
       ]
-    },
-    {
-      "headline": "Cristiano Ronaldo plays down career World Cup failure: ‘Euros just as significant’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-plays-down-career-011045683.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 01:10:45 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "‘They have Messi, but we have Salah’: Egypt prepare to take on Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/07/lionel-messi-mo-salah-egypt-argentina-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 01:08:15 GMT",
-      "teams": [
-        "Australia",
-        "Egypt",
-        "Senegal",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "📞 Will Trump ring Infantino? Belgian striker stuns USA twice!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-calling-infantino-usa-concede-002800580.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 00:28:00 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ronaldos-world-cup-career-ends-235110038.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 00:25:48 +0000",
-      "teams": []
     }
   ]
 }
