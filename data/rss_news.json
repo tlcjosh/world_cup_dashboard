@@ -1,6 +1,22 @@
 {
-  "asOf": "2026-07-12T11:58:48.616Z",
+  "asOf": "2026-07-12T13:48:30.796Z",
   "items": [
+    {
+      "headline": "Listen: Sunday Sportsound including Falkirk manager John McGlynn",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0h39mr3.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 16:00:00 GMT",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – live",
       "links": {
@@ -10,11 +26,252 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 11:43:54 GMT",
+      "pubDate": "Sun, 12 Jul 2026 13:42:50 GMT",
       "teams": [
         "Switzerland",
         "Senegal",
         "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06d1/live/fffe9600-7cdc-11f1-bee8-53ce494e1abc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 13:29:06 GMT",
+      "teams": []
+    },
+    {
+      "headline": "FIFA weighs expanding teams for the 2030 World Cup, explained",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-weighs-expanding-teams-2030-132500570.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why Lautaro avoided suspension for England vs. Argentina World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-lautaro-avoided-suspension-england-131500089.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:15:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Premier League legend backs Real Madrid midfielder to become England&#8217;s greatest player &#8211; &#8220;This is superstar reaction&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/premier-league-legend-backs-real-131000491.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:10:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Wesley overcomes injury, set to join Roma&#8217;s preseason",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wesley-overcomes-injury-set-join-131000765.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:10:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "EFL players' World Cup involvement ends",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/efl-players-world-cup-involvement-130856394.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:08:56 +0000",
+      "teams": []
+    },
+    {
+      "headline": "⚠️The Athletic drops a bombshell: FIFA plans a 64-team World Cup!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/athletic-drops-bombshell-fifa-plans-130700854.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:07:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Preston postpone friendly after England win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/preston-postpone-friendly-england-win-130149649.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 13:01:49 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup star Christ Oulai: Fiorentina make key progress in move",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-star-christ-oulai-124000934.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 12:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Big stars and old rivals - what to expect in semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/big-stars-old-rivals-expect-122917686.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 12:29:17 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Big stars and old rivals - what to expect in semi-finals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cd6ed5x95ygo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c316/live/83dd8b10-7dab-11f1-926f-c90d1bcfbc84.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 12:29:10 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/animals-hand-god-beckham-argentina-101038662.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 12:27:16 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Are There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/any-world-cup-games-today-semifinal-schedule-france-vs-spain-england-vs-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-12.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 08:01:44 -0400",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid  World Cup Spotlight: Jude Bellingham emerges as the protagonist in England vs Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-115500205.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:55:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona World Cup Spotlight: Anthony Gordon provides an assist as England get past Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-world-cup-spotlight-anthony-115500522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:55:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Arsenal pushing to seal quick transfer for Argentina’s World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-pushing-seal-quick-transfer-114934119.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:49:34 +0000",
+      "teams": [
         "Argentina",
         "England"
       ]
@@ -44,21 +301,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 11:30:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/animals-hand-god-beckham-argentina-101038662.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:15:40 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "Rice in bed for nearly three days before Norway game - Tuchel",
@@ -784,6 +1026,21 @@
       "teams": [
         "Brazil",
         "Norway"
+      ]
+    },
+    {
+      "headline": "Switzerland hit out at VAR after ‘mistaken identity’ check ends in Breel Embolo red card",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/12/switzerland-argentina-world-cup-var-mistaken-identity-red-card-breel-emobolo"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 05:20:50 GMT",
+      "teams": [
+        "Switzerland",
+        "Argentina"
       ]
     },
     {
@@ -15298,274 +15555,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 00:25:48 +0000",
       "teams": []
-    },
-    {
-      "headline": "John Stones on England’s World Cup clash with Erling Haaland’s Norway: ‘We know what they’ve got’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/john-stones-england-world-cup-184140522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 00:13:30 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Spain's World Cup challenge built on record-breaking historic defence",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spains-world-cup-challenge-built-231709233.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 00:10:58 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Will Cristiano Ronaldo Retire After World Cup?: 'I Will Have Time To Think'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/will-cristiano-ronaldo-retire-after-world-cup-i-will-have-time-think"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ronaldo1-5.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 19:55:44 -0400",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Belgium live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-world-cup-2026-preview-predictions-watch/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/67205652-d10f-413f-9075-311353d08654/balogun-poch.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:55:09 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Ronaldo's World Cup career ends in tears as 'pandering' Martinez departs",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c3vyyq1kg5go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a83e/live/3391e580-799a-11f1-a284-630313c9a0fe.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 23:51:04 GMT",
-      "teams": []
-    },
-    {
-      "headline": "😲 Incredible run ended! Belgium superstar only on the bench v USA",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/incredible-run-ended-belgium-superstar-234300673.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:43:00 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Cristiano Ronaldo in tears after Portugal crash out of World Cup to Spain’s stoppage-time winner",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-tears-portugal-crash-211919237.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:37:48 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "CR7 OUT! Spain Eliminates Portugal 1-0, World Cup Post-Match Reaction & USMNT vs Belgium Preview",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/cr7-out-spain-eliminates-portugal-1-0-world-cup-post-match-reaction--usmnt-vs-belgium-preview-233459623.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:34:59 +0000",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "‘I go with a clear conscience’: Cristiano Ronaldo confirms he has played his last World Cup game",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/07/cristiano-ronaldo-portugal-roberto-martinez-world-cup-2026-spain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 23:33:01 GMT",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "USA Fans Take Over Seattle: Best Fan Moments From USMNT-Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-usa-belgium-fans-seattle-video-photos"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284959208-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 19:31:05 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Cristiano Ronaldo’s latest World Cup failure leaves one predictable regret",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-latest-world-cup-222925208.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:27:46 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📹 CR7 keeps future under wraps and likens biggest title to the Copa",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cr7-keeps-future-under-wraps-232300729.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:23:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Fatigue, Tension, Joy: England Pulls a World Cup All-Nighter",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/06/world/europe/england-mexico-world-cup-london.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Mon, 06 Jul 2026 23:17:03 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Spain's World Cup challenge built on record-breaking historic defence",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cyv00rzd3lpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9753/live/af13aa80-798c-11f1-97bb-1f6a9ee67044.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 23:16:51 GMT",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "🚨 Official, Cristiano confirms: it was my last World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/official-cristiano-confirms-last-world-230600343.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:06:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Is USA vs Belgium on TV? Channel, kick-off time and how to watch World Cup last-16 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usa-vs-belgium-tv-channel-051638645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:05:26 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Roberto Martinez confirms decision to leave Portugal after tepid World Cup exit to Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/roberto-martinez-confirms-decision-leave-230208191.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:02:08 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
     }
   ]
 }
