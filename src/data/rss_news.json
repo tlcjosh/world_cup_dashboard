@@ -1,6 +1,53 @@
 {
-  "asOf": "2026-07-12T20:54:38.452Z",
+  "asOf": "2026-07-12T21:56:33.442Z",
   "items": [
+    {
+      "headline": "Ranking potential World Cup finals: England vs. France epic, but Argentina in final again would top it",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/ranking-potential-world-cup-finals-england-france-spain-argentina-lionel-messi-jude-bellingham-kylian-mbappe-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/e6c230a2-866e-438e-9f5b-de3b3a40cb8a/argentina-mbappe.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 12 Jul 2026 21:21:10 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid broker 2030 World Cup final talks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-broker-2030-world-211500499.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 21:15:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "A Manchester City midfielder has reminded everyone of his undoubted quality at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-midfielder-reminded-everyone-210500732.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 21:05:00 +0000",
+      "teams": []
+    },
     {
       "headline": "The Ohio State Of The World Cup? Each Semifinalist As A College Football Powerhouse",
       "links": {
@@ -15487,49 +15534,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 08:00:00 +0000",
       "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Brazil legend tears into Real Madrid star after costly World Cup miss: &#8216;He was terrible&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-legend-tears-real-madrid-075000932.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 07:50:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "World Cup: Serie A stars De Ketelaere and Lukaku on the scoresheet as Belgium eliminate USMNT – video",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-serie-stars-ketelaere-074500386.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 07:45:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Watch: Barcelona superstar Lamine Yamal consoles Cristiano Ronaldo in emotional World Cup moment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-barcelona-superstar-lamine-yamal-074000146.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 07:40:00 +0000",
-      "teams": [
-        "Spain",
         "Portugal"
       ]
     }
