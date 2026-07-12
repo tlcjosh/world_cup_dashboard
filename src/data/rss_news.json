@@ -1,8 +1,20 @@
 {
-  "asOf": "2026-07-12T09:22:15.918Z",
+  "asOf": "2026-07-12T10:53:21.389Z",
   "items": [
     {
-      "headline": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+      "headline": "💥The omens of a possible World Cup final, revealed",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/omens-possible-world-cup-final-104300922.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:43:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live"
@@ -10,12 +22,198 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 09:13:46 GMT",
+      "pubDate": "Sun, 12 Jul 2026 10:36:37 GMT",
       "teams": [
         "Switzerland",
+        "Senegal",
         "Norway",
         "Argentina",
         "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid coach excited about England superstar after sensational World Cup performances",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-coach-excited-england-103500239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:35:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/animals-hand-god-beckham-argentina-101038662.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:34:15 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "In-demand Argentina forward has bids near R$1 billion 💰",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/demand-argentina-forward-bids-near-102200607.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:22:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "⚽️Real Madrid rule the World Cup with a flurry of goals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-rule-world-cup-102100742.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:21:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Six Serie A players set to take part in 2026 World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/six-serie-players-set-part-102000772.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:20:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Real Madrid midfielder joins ranks with Pele after achieving key milestone against Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-joins-ranks-102000668.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:20:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c621y75w2x2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14c2/live/c0979910-7ced-11f1-b976-0b9c15b0ccfc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 10:10:33 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The City That Never Sleeps Suits Up to Play Late-Night Soccer",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/12/nyregion/new-york-city-night-soccer-world-cup.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 12 Jul 2026 10:00:25 +0000",
+      "teams": []
+    },
+    {
+      "headline": "8 Arsenal players make World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/8-arsenal-players-world-cup-095000858.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 09:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What is England’s semi-final record? History beckons as Norway victory sets up Argentina World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-semi-final-record-history-094918940.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 09:49:18 +0000",
+      "teams": [
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Report: Coventry City and West Ham United interested in move for World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-coventry-city-west-ham-094000913.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 09:40:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Liverpool star breaks silence on World Cup injury heartbreak",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-star-breaks-silence-world-093500029.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 09:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Deal signed: Mo Salah's next club announcement is coming",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/deal-signed-mo-salahs-next-092000294.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 09:20:00 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
       ]
     },
     {
@@ -124,7 +322,7 @@
       ]
     },
     {
-      "headline": "Bellingham blunts Norway as England make the semis | World Cup Daily",
+      "headline": "Bellingham blunts Norway as England make the semis | World Cup Daily – video",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/video/2026/jul/12/bellingham-blunts-norway-as-england-make-the-semis-world-cup-daily"
@@ -358,6 +556,22 @@
       "pubDate": "Sun, 12 Jul 2026 06:35:00 +0000",
       "teams": [
         "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina’s World Cup built on ‘suffering’ faces its biggest test in England | Pablo Iglesias Maurer",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/12/argentina-switzerland-england-world-cup-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 06:30:10 GMT",
+      "teams": [
+        "Switzerland",
+        "Argentina",
         "England"
       ]
     },
@@ -15372,251 +15586,6 @@
         "Spain",
         "Portugal",
         "England"
-      ]
-    },
-    {
-      "headline": "Is Christian Pulisic Playing Today Against Belgium?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-playing-today-belgium-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284568246-scaled-e1783377847271.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:38:13 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 18-7 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-odds-prediction-start-time-line-2026-world-cup-round-of-16-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/c3fbece1-985b-4f50-a798-f8e353348ddb/usmnt-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 22:25:23 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: that's it for CR7! Spain stun Portugal late",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-thats-cr7-222300389.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 22:23:00 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Trump confirms he asked Fifa to review Balogun ban",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-confirms-asked-fifa-review-144349798.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 22:13:54 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "🚨 Right after the World Cup exit! Portugal boss announces exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-exit-portugal-boss-220800060.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 22:08:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Cristiano Ronaldo Ends World Cup Career Without Elusive Title",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/cristiano-ronaldo-ends-world-cup-career-without-elusive-title"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/cristiano-ronaldo-walks-away.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:02:58 -0400",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Unai Simón Breaks 36-Year-Old World Cup Record As Spain Reaches Sixth Straight Shutout",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/unai-simon-breaks-36-year-old-world-cup-record-spain-reaches-sixth-straight-shutout"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spain1-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:02:31 -0400",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Substitute Merino scores late winner as Spain knock out Portugal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-mendes-strikes-crossbar-portugal-175015852.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:50:20 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Cristiano Ronaldo sets unwanted record, targeted on social media 📱",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cristiano-ronaldo-sets-unwanted-record-215000953.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:50:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Spain into quarter-finals after Merino's late winner against Portugal",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cx2338eg1ndo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb2e/live/ec2a6720-7981-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 21:46:32 GMT",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal Gets 7.5/10 | Spain Players Rated After They Steal It Late Against Portugal In The FIFA World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lamine-yamal-gets-7-5-214500441.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:45:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "📸 Cristiano Ronaldo in tears following final World Cup match 😪",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/last-time-cristiano-ronaldo-tears-214200589.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:42:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Portugal vs Spain player ratings: How did Cristiano Ronaldo perform on his World Cup swansong?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-vs-spain-player-ratings-213537067.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:36:45 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Cristiano Ronaldo fights back tears after his final World Cup appearance for Portugal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/cristiano-ronaldo-fights-back-tears-after-his-final-world-cup-appearance-for-portugal-213611902.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:36:11 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Spain set remarkable World Cup record in knockout win over Portugal 🧤",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-set-remarkable-world-cup-212800561.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 21:28:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
       ]
     }
   ]
