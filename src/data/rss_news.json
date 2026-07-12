@@ -1,8 +1,648 @@
 {
-  "asOf": "2026-07-11T23:32:12.548Z",
+  "asOf": "2026-07-12T01:09:53.769Z",
   "items": [
     {
-      "headline": "📸 Club World Cup: huge controversy! First English goal ruled out?",
+      "headline": "Argentina v Switzerland: World Cup 2026 quarter-final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/11/argentina-v-switzerland-world-cup-2026-quarter-final-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 00:57:51 GMT",
+      "teams": [
+        "Switzerland",
+        "Egypt",
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cup on social media: Neymar's revenge, paddle home, Haaland and Bellingham",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cup-social-media-neymars-revenge-005300880.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:53:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "BBC to show England's World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-show-englands-world-cup-235433803.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:45:26 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "'He has dragged them through all tournament' - England player ratings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rate-players-england-face-norway-215056897.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:41:30 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina face Switzerland as England await in semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-v-switzerland-201727685.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:39:41 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Argentina vs Switzerland on TV? Channel, kick-off time and how to watch World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-vs-switzerland-tv-channel-040447892.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:37:36 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel rages at interviewer and claims England were ‘lucky’ to beat Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-rages-interviewer-claims-003711712.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:37:11 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:35:46 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who else? How Bellingham became indispensable again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hey-jude-bellinghams-return-england-075440111.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:29:50 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 What a goosebump moment: England fans belt out Wonderwall again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/goosebump-moment-england-fans-belt-002500072.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:25:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham brings clarity to down Norway and carry England into World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-brings-clarity-down-002424091.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:24:24 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham Scores Twice To Send England To World Cup Semifinals Over Norway",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-vs-norway-highlights-jude-bellingham-brace-2026-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:21:38 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "From Birmingham To The World Cup: How Jude Bellingham Became An England Hero",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/from-birmingham-world-cup-how-jude-bellingham-became-england-hero"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/4960cdd5-jude1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:16:37 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham Gets 9.5/10 | England Players Rated Vs Norway As They March Into The Semi-Final Of The FIFA World Cup 2026",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-gets-9-5-001500720.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:15:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/whos-left-2026-world-cup-whos-been-eliminated"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812664.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:14:46 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Jude Bellingham's star shines as risk-averse England advance to World Cup semifinals over tepid Norway",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/jude-bellinghams-england-world-cup-semifinals-norway/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/5756836d-1b21-414b-be83-a6f7922b0ac3/untitled-design-2026-07-11t201253-078.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:14:05 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: England Surges After Win Over Norway",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285682273-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:11:42 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Bellingham Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-boot-race-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:09:34 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Norway vs England player ratings: Bellingham shines but Madueke struggles as Three Lions reach World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-vs-england-player-ratings-000814485.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 00:08:14 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who else? How Bellingham became indispensable again",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30d5/live/fd1276c0-7cd5-11f1-96b0-c159ef728dbe.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 00:06:50 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Bellingham Powers England: 4 Takeaways From Three Lions' Win vs. Norway, Haaland",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-england-norway-jude-bellingham-haaland"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/jude2-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:05:27 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to Watch Argentina and Messi vs. Switzerland: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-switzerland-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-quarterfinal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-argentina-vs-switzerland-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 20:02:22 -0400",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "When do England play next at World Cup after quarter-final win over Norway?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:57:06 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "England 2-1 Norway: Jude Bellingham brace sends Three Lions into World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-2-1-norway-jude-235500591.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:55:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "'He has dragged them through all tournament' - England player ratings",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a71/live/4d950120-7d81-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is Erling Haaland injured? Norway star bizarrely replaced vs England in World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-injured-norway-star-233747331.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:48:16 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Jude Bellingham's heroics continue as England advances to semis with 2-1 win over Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-jude-bellinghams-heroics-continue-as-england-advances-to-semis-with-2-1-win-over-norway-234816139.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:48:16 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham has dragged England to the World Cup semifinals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-dragged-england-world-234803369.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:48:03 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Jude Bellingham Skyrockets After Brace",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285682386-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:47:22 -0400",
+      "teams": []
+    },
+    {
+      "headline": "BBC to show England's World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46cf/live/9e53f650-7d7e-11f1-9493-592225228524.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Bellingham’s extra-time winner sinks Norway and sends England into World Cup semi-finals",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/12/norway-england-world-cup-quarter-final-match-report"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 11 Jul 2026 23:47:01 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "📹 It could still come home! England knock out Norway, reach semis",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/still-come-home-england-knock-234700469.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:47:00 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Man of all the moments' - Bellingham gives England the lead",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c20yrd39ge8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f1e/live/92661c00-7d7f-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 11 Jul 2026 23:46:44 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Live Look At Semifinals Matchups",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-semifinals-bracket.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:46:38 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Why Does England Sing 'Wonderwall' After Every World Cup Win?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-sing-wonderwall-world-cup-win-norway"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/wonderwall.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:46:36 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "📋 Argentina named to face Switzerland and try to reach the semis",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-named-face-switzerland-try-234500868.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:45:00 +0000",
+      "teams": [
+        "Switzerland",
+        "United States",
+        "Norway",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina and Switzerland name starting XIs for quarter-final clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-switzerland-name-starting-xis-234500274.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:45:00 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "If Erling Haaland Is Norway's Tom Brady, Then Who Is Harry Kane For England?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-norways-tom-brady-who-harry-kane-england"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/teddy-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 11 Jul 2026 19:33:40 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina vs. Switzerland odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 19-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-switzerland-odds-prediction-line-time-best-bets-2026-world-cup-quarterfinal-picks-lionel-messi-prop/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/c1f1bd55-f034-40b4-9ec3-4d99b7b68158/lionel-messi-argentina-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 11 Jul 2026 23:30:47 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "📸 Club World Cup: huge controversy, was the first English goal invalid?",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/club-world-cup-huge-controversy-232700706.html"
@@ -46,22 +686,6 @@
       "teams": [
         "Jordan"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Haaland Lurks",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-boot-race-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:17:29 -0400",
-      "teams": []
     },
     {
       "headline": "How to take a World Cup shootout penalty",
@@ -111,6 +735,21 @@
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-norway-burned-after-missed-collision-with-sky-cam-wire-led-to-england-goal-along-with-controversial-var-review-224530813.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 11 Jul 2026 22:45:30 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup: FIFA disputes sky-cam wire contact as controversial calls help England past Norway",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-fifa-disputes-sky-cam-wire-contact-as-controversial-calls-help-england-past-norway-224530813.html"
         }
       },
       "images": [],
@@ -342,21 +981,6 @@
         "Mexico",
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "Argentina v Switzerland",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-v-switzerland-201727685.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 20:17:27 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
       ]
     },
     {
@@ -798,24 +1422,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Mbappé Favored After Goal vs. Morocco",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285412303-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 12:38:06 -0400",
-      "teams": [
-        "Morocco"
-      ]
-    },
-    {
       "headline": "South Africa star Jayden Adams dies aged 25 just days after World Cup exit",
       "links": {
         "web": {
@@ -931,25 +1537,6 @@
       "pubDate": "Sat, 11 Jul 2026 12:20:26 -0400",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Spain Surges After Win Over Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285562778.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 12:18:53 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
       ]
     },
     {
@@ -1279,21 +1866,6 @@
       "teams": []
     },
     {
-      "headline": "What is England’s likely route to the World Cup final if they beat Norway?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:13:10 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
       "headline": "World Cup Day What to Watch: Norway-England, Argentina-Switzerland wrap up quarterfinals",
       "links": {
         "web": {
@@ -1308,25 +1880,6 @@
         "Norway",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "How to Watch Argentina and Messi vs. Switzerland: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-switzerland-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-quarterfinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-argentina-vs-switzerland-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 08:47:23 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina"
       ]
     },
     {
@@ -1764,20 +2317,6 @@
       ]
     },
     {
-      "headline": "Hey Jude: Bellingham's return to England indispensability",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/hey-jude-bellinghams-return-england-075440111.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 08:37:30 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
       "headline": "The Man Utd youngsters to look out for in Finland and Norway",
       "links": {
         "web": {
@@ -1821,24 +2360,6 @@
       "pubDate": "Sat, 11 Jul 2026 08:00:00 +0000",
       "teams": [
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Hey Jude: Bellingham's return to England indispensability",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30d5/live/fd1276c0-7cd5-11f1-96b0-c159ef728dbe.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT",
-      "teams": [
-        "England"
       ]
     },
     {
@@ -2228,21 +2749,6 @@
       "teams": [
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "Is Argentina vs Switzerland on TV? Channel, kick-off time and how to watch World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-vs-switzerland-tv-channel-040447892.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 04:04:47 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
       ]
     },
     {
@@ -2868,18 +3374,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every knockout game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:08:22 +0000",
-      "teams": []
-    },
-    {
       "headline": "World Cup 2026: Belgium goalkeeper Thibaut Courtois forced off due to injury during quarterfinal loss to Spain",
       "links": {
         "web": {
@@ -2893,22 +3387,6 @@
         "Belgium",
         "Spain"
       ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Live Look At Semifinals Matchups",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spain-bracket.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 17:06:19 -0400",
-      "teams": []
     },
     {
       "headline": "France to face Spain in World Cup semi-final",
@@ -3896,22 +4374,6 @@
         "Belgium",
         "Spain"
       ]
-    },
-    {
-      "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/whos-left-2026-world-cup-whos-been-eliminated"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812664.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 08:08:16 -0400",
-      "teams": []
     },
     {
       "headline": "Time marches on: what the next three years will bring for the USMNT",
@@ -15164,459 +15626,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Mon, 06 Jul 2026 14:50:00 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona relieved after Raphinha not risked in Brazil&#8217;s World Cup loss vs Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-relieved-raphinha-not-risked-144000261.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 14:40:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Leao open to Saudi Arabia if European move fails to materialise amid Milan exit rumours",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/leao-open-saudi-arabia-european-143500768.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 14:35:00 +0000",
-      "teams": [
-        "Saudi Arabia",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "🤬 Chupaba cocos, Paraguayan politician's racism towards Mbappé",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/politics/articles/chupaba-cocos-paraguayan-politicians-racism-142700543.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 14:27:00 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "USA vs. Belgium Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-vs-belgium-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284252185-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:00:05 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Carlo Ancelotti explains controversial Vinicius Junior penalty snub during Brazil’s 2026 World Cup exit – “We did some stats”",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/carlo-ancelotti-explains-controversial-vinicius-140000583.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 14:00:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Milan forward Gimenez suffers injury in Mexico’s World Cup defeat to England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/milan-forward-gimenez-suffers-injury-140000890.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 14:00:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Integrity of game at stake over Fifa Balogun decision - Uefa",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-criticises-fifa-over-balogun-084436469.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 13:58:43 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Integrity of game at stake over Fifa Balogun decision - Uefa",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzzd73871o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09db/live/3f792730-7938-11f1-a8cf-13bdb1aa2cdd.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 13:58:37 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Spain vs. Portugal odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 25-16 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/spain-portugal-odds-prediction-time-2026-world-cup-round-16-picks-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/26/adb0538e-cb7f-46d8-9605-819f7f06c01a/lamine-yamal-spain-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 13:51:18 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "How to Watch USA vs. Belgium: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/united-states-vs-belgium-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-usa-vs-belgium-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 09:22:57 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Barcelona star Dani Olmo hits back at Real Madrid over Negreira noise: &#8216;They want to destabilise things&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-star-dani-olmo-hits-132000126.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 13:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Football Daily | England’s altitude era defies World Cup history and encourages ‘another shot’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/football-daily-email-england-gwc-mexico"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 13:02:03 GMT",
-      "teams": [
-        "Mexico",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Report: Liverpool have made &#8216;serious move&#8217; for World Cup forward",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-liverpool-made-serious-move-125500916.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Will Haaland edge Pickford again?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/haaland-edge-pickford-again-124037597.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:40:37 +0000",
-      "teams": [
-        "Germany",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "USMNT vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 18-7 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usmnt-belgium-odds-prediction-time-2026-world-cup-round-of-16-picks-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/0bd1e5b4-8ea7-481d-849d-ea795566c9e6/christian-pulisic-usa-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:39:56 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Belgium granted appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-belgium-granted-appeal-after-fifa-reversed-usmnts-folarin-balogun-1-game-ban-after-red-card-123613835.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:36:13 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "The Scottish set-piece guru plotting Portugal's World Cup glory",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scottish-set-piece-guru-plotting-060804157.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:32:33 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Football Extra newsletter: World Cup gets a match for the ages, but Balogun reversal leaves sour taste",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/football-extra-newsletter-world-cup-115541111.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:17:55 +0000",
-      "teams": [
-        "Mexico",
-        "Brazil",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "The Scottish set-piece guru plotting Portugal's World Cup glory",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c809zz07pe1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bbb/live/7e9eabb0-5eb7-11f1-9877-71c2729415b9.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 12:16:52 GMT",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "USA vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usa-belgium-odds-prediction-time-2026-world-cup-round-of-16-picks-with-folarin-balogun-playing/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/18/8da3f1df-83d6-4b7e-9e7f-a3290d102b3f/folarin-balogun-usa.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 12:16:39 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for USA, Portugal, Spain, Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-usa-portugal-spain-belgium"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-6.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 08:13:32 -0400",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "How England used five mini games to beat Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cqx113327eyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46e3/live/455e11e0-7930-11f1-84e1-059650f3613e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 11:57:53 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to Watch Portugal vs. Spain: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/portugal-vs-spain-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-portugal-vs-spain-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 07:31:36 -0400",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "'You've been trying to kill me for 23 years' - should Ronaldo start?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz7523l9rdvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a2/live/5c5dfe00-7895-11f1-b200-7987f6593f8c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 11:21:44 GMT",
-      "teams": []
-    },
-    {
-      "headline": "The numbers behind Spain defence chasing World Cup history",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cwy00jx3y91o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e05/live/70ff3900-784f-11f1-9cc3-8d218550015b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 06 Jul 2026 11:07:49 GMT",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "A ‘lose-lose’ situation? Americans fear Trump’s red card interference on Folarin Balogun could ruin World Cup run",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lose-lose-situation-americans-fear-092757828.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:29:44 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Barcelona captain De Jong expresses disappointment after World Cup elimination: &#8216;Lump in my stomach&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-captain-jong-expresses-disappointment-102500728.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:25:00 +0000",
-      "teams": [
-        "Turkey",
-        "Germany",
-        "Netherlands",
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham insists England must win World Cup to banish ‘Hand of God’ ghost",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-insists-england-must-102241970.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 06 Jul 2026 10:22:41 +0000",
-      "teams": [
-        "Mexico",
         "England"
       ]
     }
