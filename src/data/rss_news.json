@@ -1,6 +1,142 @@
 {
-  "asOf": "2026-07-12T19:54:36.982Z",
+  "asOf": "2026-07-12T20:54:38.452Z",
   "items": [
+    {
+      "headline": "The Ohio State Of The World Cup? Each Semifinalist As A College Football Powerhouse",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-college-football-france-ohio-state-spain-georgia-england-texas-argentina-alabama"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-78.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 16:53:37 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Video Footage Indicates England's Jude Bellingham Still Hampered By Shoulder Injury",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/video-footage-indicates-englands-jude-bellingham-still-hampered-shoulder-injury"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2285097130-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 16:53:19 -0400",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Senegal fires manager Pape Thiaw, entire coaching staff following disappointing World Cup run",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/senegal-fires-manager-pape-thiaw-entire-coaching-staff-following-disappointing-world-cup-run-204643407.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 20:46:43 +0000",
+      "teams": [
+        "Belgium",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Why blockbuster World Cup semi-finals could be the best of all time",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-blockbuster-world-cup-semi-203108065.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 20:31:08 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Erling Haaland Labels England 'Lucky To Have' Jude Bellingham After World Cup Heroics",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-labels-england-lucky-have-jude-bellingham-after-world-cup-heroics"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2285711672-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 16:29:13 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Infantino opens door to 64-team World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/infantino-opens-door-64-team-190943692.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 20:15:07 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ranking the World Cup semifinalists: How do Argentina, France, Spain and England stack up?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/ranking-world-cup-semifinalists-argentina-france-spain-england/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/50197dbf-fb1e-4e25-95cd-ae4420c9be3f/argentina-messi-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 12 Jul 2026 20:04:06 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England on collision course with Messi and Argentina in World Cup semi-final grudge match",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/12/england-lionel-messi-argentina-world-cup-2026-semi-final-norway"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 19:51:33 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
     {
       "headline": "World Cup Expansion? FIFA President Gianni Infantino Says It Will Be 'Examined'",
       "links": {
@@ -15,18 +151,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Sun, 12 Jul 2026 15:30:46 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Infantino opens door to 64-team World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/infantino-opens-door-64-team-190943692.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 19:19:48 +0000",
       "teams": []
     },
     {
@@ -183,7 +307,7 @@
       ]
     },
     {
-      "headline": "Tuchel and Bellingham need to cool tension with England so close to history",
+      "headline": "Tuchel and Bellingham need to cool tension with England so close to history | Jacob Steinberg",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/12/thomas-tuchel-jude-bellingham-tension-england-argentina-norway-world-cup-2026"
@@ -15407,120 +15531,6 @@
       "teams": [
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "Trump Wanted a U.S. Soccer Star to Play in the World Cup. FIFA Found a Way.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/06/world/europe/fifa-trump-infantino-world-cup-red-card.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 07 Jul 2026 07:33:42 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Barcelona forward responds to criticism with game-changing cameo for Spain in Portugal win: &#8216;In tournaments like this&#8230;&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-forward-responds-criticism-game-072000874.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 07:20:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "🗞️ World press hails the MERINAZO that sends Spain into the last eight",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-press-hails-merinazo-sends-071500481.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 07:15:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Folarin Balogun Leaves The World Cup A Star, Red Card Controversy And All",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/folarin-balogun-leaves-world-cup-star-red-card-controversy-all"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/balogun1-8.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 03:01:49 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Best fans at the World Cup? How Colombia’s support powered the team to success",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/07/best-fans-at-the-world-cup-how-colombias-support-powered-the-team-to-success"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 07:00:33 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Switzerland",
-        "Brazil",
-        "United States",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "USA fall asleep in Seattle and it’s tchau Ronaldo | World Cup Daily – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/07/usa-fall-asleep-in-seattle-and-its-tchau-ronaldo-world-cup-daily-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 06:48:04 GMT",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "How to Watch Argentina and Messi vs. Egypt: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-egypt-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-argentina-vs-egypt-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 02:21:27 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
       ]
     }
   ]
