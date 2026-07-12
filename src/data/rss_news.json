@@ -1,6 +1,18 @@
 {
-  "asOf": "2026-07-12T21:56:33.442Z",
+  "asOf": "2026-07-12T22:57:46.649Z",
   "items": [
+    {
+      "headline": "🚨 Reports: CL club pips Newcastle to Manzambi with €70m package",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reports-cl-club-pips-newcastle-222000774.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 22:20:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Ranking potential World Cup finals: England vs. France epic, but Argentina in final again would top it",
       "links": {
@@ -15522,20 +15534,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 08:02:43 +0000",
       "teams": []
-    },
-    {
-      "headline": "Portugal World Cup exit accelerates Barcelona&#8217;s move for versatile full-back",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-world-cup-exit-accelerates-080000287.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:00:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
     }
   ]
 }
