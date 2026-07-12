@@ -1,6 +1,111 @@
 {
-  "asOf": "2026-07-12T10:53:21.389Z",
+  "asOf": "2026-07-12T11:58:48.616Z",
   "items": [
+    {
+      "headline": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 11:43:54 GMT",
+      "teams": [
+        "Switzerland",
+        "Senegal",
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Legendary no.10s: Messi gifts Baggio Argentina shirt after World Cup quarter-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/legendary-no-10s-messi-gifts-113500505.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:35:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Real Madrid surpass Bayern and PSG with historic World Cup feat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-surpass-bayern-psg-113000081.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/animals-hand-god-beckham-argentina-101038662.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:15:40 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Rice in bed for nearly three days before Norway game - Tuchel",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cpd3wv3v1eeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5d2/live/1ef90aa0-7de0-11f1-91f9-abeb669686c2.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 11:15:14 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Three things to watch out for as Barcelona begin pre-season under Flick",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/three-things-watch-barcelona-begin-110000617.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why Thomas Tuchel’s plan B could win England the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-thomas-tuchel-plan-b-060052755.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 10:55:20 +0000",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
     {
       "headline": "💥The omens of a possible World Cup final, revealed",
       "links": {
@@ -12,24 +117,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 10:43:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 10:36:37 GMT",
-      "teams": [
-        "Switzerland",
-        "Senegal",
-        "Norway",
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "Real Madrid coach excited about England superstar after sensational World Cup performances",
@@ -46,18 +133,17 @@
       ]
     },
     {
-      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
+      "headline": "Odegaard set Arsenal World Cup record before elimination",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/animals-hand-god-beckham-argentina-101038662.html"
+          "href": "https://sports.yahoo.com/articles/odegaard-set-arsenal-world-cup-103500309.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:34:15 +0000",
+      "pubDate": "Sun, 12 Jul 2026 10:35:00 +0000",
       "teams": [
-        "Argentina",
-        "England"
+        "Norway"
       ]
     },
     {
@@ -683,21 +769,6 @@
       "pubDate": "Sun, 12 Jul 2026 06:02:28 +0000",
       "teams": [
         "Switzerland"
-      ]
-    },
-    {
-      "headline": "Why Thomas Tuchel’s plan B could win England the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-thomas-tuchel-plan-b-060052755.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:00:52 +0000",
-      "teams": [
-        "Norway",
-        "England"
       ]
     },
     {
@@ -15494,98 +15565,6 @@
       "teams": [
         "Spain",
         "Portugal"
-      ]
-    },
-    {
-      "headline": "USA vs. Belgium: Storylines, Lineup, Predictions For World Cup Game",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-belgium-world-cup-storylines-projected-lineup-predictions"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/33d75db8-usa-matchday-wc-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:58:31 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Is Folarin Balogun Playing Today? USA Star's Status For World Cup Round Of 16 vs. Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/folarin-balogun-playing-today-latest-usa-stars-status-vs-belgium"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/e614ab29-balogun1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:53:58 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USA vs. Belgium odds, prediction, time: 2026 World Cup Round of 16 picks via expert on 25-16 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/usa-belgium-odds-prediction-line-start-time-2026-world-cup-round-of-16-picks-with-folarin-balogun-in-the-lineup/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/80d621ff-8413-4dfb-acc9-9619c51d675e/folarin-balogun-usmnt-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 06 Jul 2026 22:43:21 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Everything Cristiano Ronaldo Did In His Final World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/everything-ronaldo-did-his-final-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ronaldo-retire-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 18:42:32 -0400",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Mikel Merino comes full circle with Spain in touching tale of fathers and sons | Sid Lowe",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/06/mikel-merino-spain-world-cup-winner-portugal"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 06 Jul 2026 22:42:14 GMT",
-      "teams": [
-        "Spain",
-        "Portugal",
-        "England"
       ]
     }
   ]
