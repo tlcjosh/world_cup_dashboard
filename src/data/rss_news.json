@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-12T14:45:14.787Z",
+  "asOf": "2026-07-12T15:43:53.492Z",
   "items": [
     {
       "headline": "Listen: Sunday Sportsound including Falkirk manager John McGlynn",
@@ -18,6 +18,59 @@
       "teams": []
     },
     {
+      "headline": "2026 World Cup Semifinal Odds: France, England Favored In Final Four Tilts",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284795766-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:38:55 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: Argentina, England Surge After Quarterfinal Wins",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285126019-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:31:29 -0400",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "France defenders discuss defending against Lamine Yamal: &#8220;I thik we&#8217;ll do the job.&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-defenders-discuss-defending-against-152500004.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 15:25:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
       "headline": "World Cup 2026: England set up Argentina semi, Haaland’s father says Norway ‘robbed’, Senegal sack Thiaw – live",
       "links": {
         "web": {
@@ -26,7 +79,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 14:24:31 GMT",
+      "pubDate": "Sun, 12 Jul 2026 15:21:12 GMT",
       "teams": [
         "Switzerland",
         "Senegal",
@@ -36,7 +89,49 @@
       ]
     },
     {
-      "headline": "💣 Milan seal Rabiot, Juve-Pellegrino, Zeballos-Napoli 🤏: deals 🤑",
+      "headline": "Gianni Infantino hints at expansion to 64-team World Cup before 2030 event",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/12/gianni-infantino-expansion-64-team-world-cup-2030-fifa"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 15:16:56 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Senegal Fires Men's Football Coach Pape Thiaw After World Cup Exit",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/senegal-fires-coach-pape-thiaw-2026-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/thiaw2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 11:12:25 -0400",
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Man City respond to Chelsea&#8217;s £75M Malo Gusto demand as post-World Cup talks loom",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-respond-chelsea-75m-150000782.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 15:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "💣 Milan lock in Rabiot, Juve-Pellegrino and Zeballos-Napoli 🤏",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/milan-seal-rabiot-juve-pellegrino-142000029.html"
@@ -262,7 +357,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c316/live/83dd8b10-7dab-11f1-926f-c90d1bcfbc84.png"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png"
         }
       ],
       "source": "BBC Sport",
@@ -1354,25 +1449,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Semifinal Odds: France, Argentina Favored In Final Four Tilts",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284795766-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:10:59 -0400",
-      "teams": [
-        "France",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "2026 World Cup Odds: France, Argentina Favored For Finals Rematch",
       "links": {
         "web": {
@@ -1502,26 +1578,6 @@
       "source": "Fox Sports",
       "pubDate": "Sat, 11 Jul 2026 23:57:08 -0400",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Argentina, England Surge After Quarterfinal Wins",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285126019-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:51:41 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "England vs. Argentina Confirmed For Semifinals: Here's What To Know",
@@ -15497,66 +15553,6 @@
       "teams": [
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "World Cup: Disastrous U.S. sequence with goalie Matt Freese out of box allows Belgium to double lead in 4-1 win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-disastrous-us-sequence-with-goalie-matt-freese-out-of-box-allows-belgium-to-double-lead-in-4-1-win-014711089.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 01:47:11 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic exits USMNT's World Cup loss to Belgium with potential leg injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/christian-pulisic-exits-usmnts-world-cup-loss-to-belgium-with-potential-leg-injury-014100264.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 01:41:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "📸 Freese-framed: US keeper gifts Belgium a howler!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/briefly-freeze-framed-us-keeper-013500157.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 01:35:00 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USA v Belgium: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/06/usa-v-belgium-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 01:13:23 GMT",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Senegal"
       ]
     }
   ]
