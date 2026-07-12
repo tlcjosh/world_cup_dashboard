@@ -1,6 +1,157 @@
 {
-  "asOf": "2026-07-12T17:43:47.770Z",
+  "asOf": "2026-07-12T18:40:50.971Z",
   "items": [
+    {
+      "headline": "Tuchel and Bellingham need to cool tension with England so close to history",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/12/thomas-tuchel-jude-bellingham-tension-england-argentina-norway-world-cup-2026"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 18:30:40 GMT",
+      "teams": [
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid midfielder set to return from injury and start vs Spain in World Cup semi final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-set-return-183000605.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 18:30:00 +0000",
+      "teams": [
+        "Paraguay",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "England have another level we can reach - Kane",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-another-level-reach-kane-182658902.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 18:26:58 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "🇧🇷 CBF sends message to Brazilian fans over the hunt for hexa, watch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cbf-sends-message-brazilian-fans-182400258.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 18:24:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "'We have another level we can reach' - Kane defends frustrated Tuchel",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc69/live/bdd18370-7e1a-11f1-9b4a-473830aebee3.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 18:18:22 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Alisson Becker opens up on his World Cup heartbreak with Brazil",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/alisson-becker-opens-world-cup-175500843.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 17:55:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Roma star Kone expecting to be benched for France World Cup semi final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/roma-star-kone-expecting-benched-175500945.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 17:55:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Arsenal plot surprise move for Barcelona&#8217;s priority target and Argentina&#8217;s World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-plot-surprise-move-barcelona-174000960.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 17:40:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Former Spanish PM accused of racism in remarks about French football team",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/world/2026/jul/12/spain-mariano-rajoy-accused-of-racism-french-football-team-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 12 Jul 2026 17:39:13 GMT",
+      "teams": [
+        "United States",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "🎥 She had to be there! How Argentina's gangster granny celebrates victory",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/she-had-argentinas-gangster-granny-173500542.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 17:35:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "Senegal sack manager Pape Thiaw after World Cup 2026 exit",
       "links": {
@@ -15362,179 +15513,6 @@
         "Egypt",
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "End Of The World Cup: 4 Takeaways From USA's Knockout Loss To Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-world-cup-belgium-takeaways-highlights"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/takeaways1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 00:34:46 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Recapping USA's Run At The 2026 FIFA World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/united-states-2026-world-cup-recap"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usa_wc-in-review-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 00:27:29 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "🚨 Official: Roberto Martínez is no longer Portugal manager",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/official-roberto-mart-nez-no-042300602.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 04:23:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "World Cup Day What to Watch: Lionel Messi, Argentina take on Egypt; Switzerland faces Colombia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-day-what-to-watch-lionel-messi-argentina-take-on-egypt-switzerland-faces-colombia-041904665.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 04:19:04 +0000",
-      "teams": [
-        "Switzerland",
-        "Egypt",
-        "Argentina",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "🎙️ Ancelotti fronts up, sends message after Brazil exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ancelotti-fronts-sends-message-brazil-041000949.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 04:10:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "USA Dealt With A Familiar Feeling In Its Latest World Cup Eliminating Loss",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-dealt-familiar-feeling-its-latest-world-cup-eliminating-loss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/7bc4f319-balo1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:56:57 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "USMNT Player Ratings For The 2026 World Cup After Loss To Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usmnt-player-ratings-2026-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pulisic1-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:43:57 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Belgium trolls USA, FIFA, Donald Trump after dominant World Cup win: 'Overturn this'",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/belgium-trolls-usa-fifa-donald-trump-after-dominant-world-cup-win-overturn-this-033735788.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 03:37:35 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Zlatan Ibrahimović Delivers Honest Take After USA Falls To Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/zlatan-delivers-honest-take-after-u-s-falls-belgium-it-reality-check"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ream1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:35:47 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Was The 2026 World Cup A Success For USA?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/alexi-lalas-reacts-usa-world-cup-loss-belgium-im-sick-moral-victories"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/poch1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 06 Jul 2026 23:31:27 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
       ]
     }
   ]
