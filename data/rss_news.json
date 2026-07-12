@@ -1,6 +1,187 @@
 {
-  "asOf": "2026-07-12T18:40:50.971Z",
+  "asOf": "2026-07-12T19:54:36.982Z",
   "items": [
+    {
+      "headline": "World Cup Expansion? FIFA President Gianni Infantino Says It Will Be 'Examined'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-expansion-fifa-president-gianni-infantino-says-will-examined"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gianni1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 12 Jul 2026 15:30:46 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Infantino opens door to 64-team World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/infantino-opens-door-64-team-190943692.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 19:19:48 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Infantino opens door to 64-team World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj9gm31jwg8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/451c/live/d63516a0-7e21-11f1-a1b8-3d436696a874.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 19:18:56 GMT",
+      "teams": []
+    },
+    {
+      "headline": "'Written off as too old' - France beat up-and-coming Spain in 2006",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c3vyg507xd2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97ee/live/afe997c0-7e24-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 19:07:01 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "England hail incredible World Cup resilience as epic Argentina semifinal awaits",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-hail-incredible-world-cup-190457728.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 19:04:57 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup semifinal picks, predictions: Best bets for Spain-France, England-Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/betting/article/world-cup-semifinal-picks-predictions-best-bets-for-spain-france-england-argentina-185857632.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 18:58:57 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "How Maradona dominated England in 1986",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/clyxj3x99l9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e3b/live/977ad240-7e23-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 18:58:20 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina v England 2002 - Redemption for Beckham",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cy5vxevngndo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c66/live/0e523620-7e23-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 18:54:43 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina v England 1998 - Owen, Beckham and penalty pain",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cz75405qe3wo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2221/live/a75d6660-7e22-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 12 Jul 2026 18:51:53 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England have another level we can reach - Kane",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-another-level-reach-kane-182658902.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 18:46:19 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid new signing responds to Barcelona superstar ahead of World Cup semifinal &#8211; &#8220;He can say whatever he wants&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-signing-responds-barcelona-184000385.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 18:40:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "Tuchel and Bellingham need to cool tension with England so close to history",
       "links": {
@@ -34,21 +215,7 @@
       ]
     },
     {
-      "headline": "England have another level we can reach - Kane",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-another-level-reach-kane-182658902.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 18:26:58 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "🇧🇷 CBF sends message to Brazilian fans over the hunt for hexa, watch",
+      "headline": "🇧🇷 CBF sends message to Brazil fans on the hunt for hexa, watch",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/cbf-sends-message-brazilian-fans-182400258.html"
@@ -15353,165 +15520,6 @@
       "pubDate": "Tue, 07 Jul 2026 02:21:27 -0400",
       "teams": [
         "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina vs. Egypt Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-egypt-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283952864-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 02:00:09 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup: Mauricio Pochettino rejects Trump, Balogun controversy as excuse after USMNT elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-mauricio-pochettino-rejects-trump-balogun-controversy-as-excuse-after-usmnt-elimination-054002510.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 05:40:02 +0000",
-      "teams": []
-    },
-    {
-      "headline": "USA Coach Mauricio Pochettino Gives Update On Christian Pulisic Injury",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-coach-mauricio-pochettino-gives-update-christian-pulisic-injury"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/51fc5e3a-pulisic1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 01:38:22 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Jeremy Doku and Belgium set up last-eight clash with Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-053000329.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 05:30:00 +0000",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 30",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c0l2y4p59n9o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df56/live/640272f0-7951-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 05:29:07 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Carli Lloyd Disappointed With Christian Pulisic After USA's World Cup Exit",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/carli-lloyd-disappointed-christian-pulisic-after-usas-world-cup-exit"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pulisic1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 01:22:23 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "📝 2026 World Cup: overnight round-up",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-overnight-round-051900107.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 05:19:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "‘It had no impact’: USMNT insist Balogun political circus did not affect World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/had-no-impact-usmnt-insist-050319693.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 05:03:19 +0000",
-      "teams": []
-    },
-    {
-      "headline": "A shambolic end for the American dream - did Balogun saga play part?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gyxdeql5eo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c767/live/d72f45f0-79bf-11f1-b078-9b61a92fb8b3.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 05:00:10 GMT",
-      "teams": []
-    },
-    {
-      "headline": "🎙️ Scaloni on the World Cup final: If it's Spain, I'd take it",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scaloni-world-cup-final-spain-043500980.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 04:35:00 +0000",
-      "teams": [
-        "Egypt",
-        "Spain",
         "Argentina"
       ]
     }
