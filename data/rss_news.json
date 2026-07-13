@@ -1,6 +1,128 @@
 {
-  "asOf": "2026-07-13T19:07:04.610Z",
+  "asOf": "2026-07-13T20:34:01.853Z",
   "items": [
+    {
+      "headline": "Yamal And Mbappé Headline Blockbuster Semifinal: What To Know For France vs. Spain",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/yamal-mbappe-headline-blockbuster-semifinal-what-know-france-vs-spain"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1argsui-1.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 15:58:00 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "📸 France v Spain: line-ups from their last World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-v-spain-line-ups-193300170.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 19:33:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Dutch referee dies weeks after being dropped from World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dutch-referee-dies-weeks-being-154246198.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 19:25:28 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Dutch referee dies weeks after being dropped from World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/077d/live/81119c50-7ec8-11f1-af40-3101fe5a127d.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 19:25:25 GMT",
+      "teams": []
+    },
+    {
+      "headline": "All 5 Times Lamine Yamal Has Beaten Kylian Mbappé In Elimination Matches",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/all-5-times-lamine-yamal-has-beaten-kylian-mbappe-elimination-matches"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe1-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 15:08:41 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Spain star defends Lamine Yamal ahead of World Cup semi-final vs France: &#8216;Delivering a huge tournament&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-star-defends-lamine-yamal-190500058.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 19:05:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Diego Forlán succeeds Marcelo Bielsa as Uruguay manager on temporary basis",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/diego-forlan-succeeds-marcelo-bielsa-uruguay-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 19:03:42 GMT",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup final prep! In Argentina, voodoo dolls with meal deals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-prep-argentina-190300392.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 19:03:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "Kerim Alajbegovic: Atalanta prepare offer for World Cup hero",
       "links": {
@@ -367,18 +489,6 @@
       ]
     },
     {
-      "headline": "Dutch referee dies weeks after being dropped from World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dutch-referee-dies-weeks-being-154246198.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 15:54:26 +0000",
-      "teams": []
-    },
-    {
       "headline": "World Cup 2026: England’s James ready for semi-final, Bilic returns as Croatia coach – live",
       "links": {
         "web": {
@@ -416,22 +526,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "Dutch referee dies weeks after being dropped from World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cy06ej10n3xo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/077d/live/81119c50-7ec8-11f1-af40-3101fe5a127d.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 15:42:41 GMT",
-      "teams": []
     },
     {
       "headline": "'What's the plan? What's the ambition?'",
@@ -15400,108 +15494,6 @@
       "teams": [
         "Egypt",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Tearful Messi inspires Argentina’s great escape in World Cup thriller with Egypt",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/07/argentina-egypt-world-cup-2026-last-16-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 18:31:54 GMT",
-      "teams": [
-        "Brazil",
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Breaks World Cup All-Time Assists Record In Comeback Win vs. Egypt",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-breaks-world-cup-all-time-assists-record-comeback-win-vs-egypt"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/9d17dbf0-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:30:59 -0400",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "The Best Matches Of The 2026 World Cup: The Top 5 After Argentina vs. Egypt",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/best-matches-2026-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/top5-wc-match-16x9-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:30:51 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Barcelona great Messi breaks more World Cup records in Argentina&#8217;s stunning comeback vs Egypt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-great-messi-breaks-more-183000247.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:30:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Tom Brady: Argentina's stunning World Cup rally past Egypt might top 28-3",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/tom-brady-argentinas-stunning-world-cup-rally-past-egypt-might-top-28-3-182917570.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:29:17 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Switzerland vs. Colombia odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 25-16 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/switzerland-colombia-odds-prediction-time-2026-world-cup-round-of-16-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/8e3d50e1-1b32-4dec-80e6-fc84c6c6da90/johan-manzambi-switzerland-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:26:09 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
       ]
     }
   ]
