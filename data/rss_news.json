@@ -1,6 +1,277 @@
 {
-  "asOf": "2026-07-13T06:54:34.995Z",
+  "asOf": "2026-07-13T10:31:12.251Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Buildup to blockbuster semi-finals, Infantino hints at 64-team expansion – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/13/world-cup-2026-buildup-to-blockbuster-semi-finals-infantino-hints-at-64-team-expansion-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 10:13:10 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mourinho sees new Real Madrid signing as key piece despite World Cup disappointment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mourinho-sees-real-madrid-signing-101000702.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 10:10:00 +0000",
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Chris Sutton's World Cup semi-final predictions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chris-suttons-world-cup-semi-095600839.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 09:56:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Chris Sutton's World Cup semi-final predictions",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 09:55:54 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Who has been eliminated from the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b3a3/live/85cc4cc0-7e9d-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 09:46:35 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Andy Burnham has body of work that speaks volumes about how he gets football | Rob Draper",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/andy-burnham-body-of-work-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 09:38:05 GMT",
+      "teams": [
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "World Cup quiz: how well do you remember USA 94?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/world-cup-quiz-usa-94-united-states"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 09:33:37 GMT",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "📺 Monday's guide (13): where to watch the games on a Cup-free day",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mondays-guide-13-where-watch-092300367.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 09:23:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Manchester United to lodge Manu Koné bid, Gian Piero Gasperini addresses Frenchman&#8217;s Roma future",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-united-lodge-manu-kon-091000544.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 09:10:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pick-england-xi-world-cup-013936005.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 09:05:32 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 09:05:27 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 08:55:43 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 08:47:52 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Football Extra newsletter: It's tough to reach the top – and that's the point",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/football-extra-newsletter-tough-reach-083921942.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 08:39:21 +0000",
+      "teams": [
+        "Australia",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Official | Salvadoran referee Ivan Barton to officiate France v Spain World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-salvadoran-referee-ivan-barton-082000347.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 08:20:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "England top air miles among semi-finalists - does it matter?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ca7/live/8825fcb0-7d07-11f1-923a-a7d66f37fd92.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 07:30:25 GMT",
+      "teams": [
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3075/live/1e1b5410-7adb-11f1-9c5e-418249f4ce83.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 06:57:04 GMT",
+      "teams": []
+    },
     {
       "headline": "How France and Spain’s World Cup clash of contrasts could decide football’s tactical future",
       "links": {
@@ -3116,24 +3387,6 @@
       ]
     },
     {
-      "headline": "Pick your England XI for World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
       "headline": "🐐 Will it ever stop? Messi's bonkers record World Cup rolls on!",
       "links": {
         "web": {
@@ -3916,22 +4169,6 @@
       "teams": [
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 21:10:51 +0000",
-      "teams": []
     },
     {
       "headline": "Argentina vs. Switzerland odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 19-7 roll",
@@ -6032,28 +6269,6 @@
       "teams": [
         "Switzerland",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 22:36:35 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Norway",
-        "England"
       ]
     },
     {
@@ -13024,22 +13239,6 @@
       "teams": []
     },
     {
-      "headline": "Who has been eliminated from the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09c5/live/83c3fe00-79d9-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 08:16:07 GMT",
-      "teams": []
-    },
-    {
       "headline": "Real Madrid midfielder one yellow card away from missing potential World Cup semi-final",
       "links": {
         "web": {
@@ -15314,221 +15513,6 @@
         "Argentina",
         "Colombia"
       ]
-    },
-    {
-      "headline": "Argentina vs. Egypt odds, prediction, time: 2026 World Cup Round of 16 picks from expert on 18-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/argentina-egypt-odds-prediction-line-time-2026-world-cup-round-of-16-picks-messi-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/c1f1bd55-f034-40b4-9ec3-4d99b7b68158/lionel-messi-argentina-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 12:02:56 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "How to Watch Switzerland vs. Colombia: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/switzerland-vs-colombia-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-round-of-16"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-switzerland-vs-colombia-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:02:49 -0400",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: USA bounced out by Belgium after Balogun furore; backlash against Fifa builds – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/07/world-cup-2026-usa-bounced-out-by-belgium-after-balogun-furore-backlash-against-fifa-builds-argentina-egypt-colombia-switzerlandlive"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 11:59:42 GMT",
-      "teams": [
-        "Mexico",
-        "Switzerland",
-        "United States",
-        "Belgium",
-        "Egypt",
-        "Argentina",
-        "Colombia",
-        "England"
-      ]
-    },
-    {
-      "headline": "9.1m watch England's epic win over Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/9-1m-watch-englands-epic-115130074.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:51:30 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "9.1m watch England's epic win over Mexico",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cdejw7xxe23o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3361/live/b8d36620-79cb-11f1-86c6-df420601713b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 11:50:56 GMT",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Switzerland vs. Colombia odds, prediction, time: 2026 World Cup Round of 16 picks by expert on 25-16 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/switzerland-vs-colombia-odds-prediction-time-2026-world-cup-round-of-16-picks-by-expert-on-25-16-run/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/05/bb379bdd-30b3-4bdb-b77f-14cf211fd3cb/james-rodriguez.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:46:44 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Former Liverpool star suffers horror injury after &#8216;freak accident&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/former-liverpool-star-suffers-horror-114000591.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:40:00 +0000",
-      "teams": [
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kane and Bellingham: How superstar double act became England's Wonderwall",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kane-bellingham-superstar-double-act-111205944.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:26:30 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Belgium mock Donald Trump after knocking USA out of World Cup: ‘Overturn this’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/belgium-mock-donald-trump-knocking-060427422.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:18:58 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "‘The Trump effect’: President ridiculed in US after team thrashed by Belgium at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-effect-president-ridiculed-us-104923600.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:12:06 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "The superstar double act that became England's Wonderwall",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c24yym25rgjo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6895/live/a64d4ec0-7968-11f1-9ade-614b823fa1e3.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 11:11:58 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Gavi sends message to Joao Cancelo after Portugal&#8217;s World Cup loss to Spain: &#8216;Always together&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/gavi-sends-message-joao-cancelo-111000228.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:10:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "10 Arsenal players set to miss start of pre-season",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/10-arsenal-players-set-miss-110500842.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 11:05:00 +0000",
-      "teams": []
     }
   ]
 }
