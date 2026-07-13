@@ -1,6 +1,192 @@
 {
-  "asOf": "2026-07-13T03:53:44.895Z",
+  "asOf": "2026-07-13T06:54:34.995Z",
   "items": [
+    {
+      "headline": "How France and Spain’s World Cup clash of contrasts could decide football’s tactical future",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-spain-world-cup-clash-062040457.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 06:20:40 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Why Trump and Fifa, try as they might, will never overshadow World Cup’s most beautiful feature",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-trump-fifa-try-might-062019466.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 06:20:19 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Bellingham hits back at Tuchel as Switzerland rage over unprecedented VAR decision",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bellingham-hits-back-tuchel-switzerland-061000762.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 06:10:00 +0000",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Being on the periphery at the World Cup may be what pushes a Manchester City playmaker on",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/being-periphery-world-cup-may-060500671.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 06:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid offered the chance to sign French World Cup star but club remain uninterested",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-offered-chance-sign-060000356.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 06:00:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Joan Laporta talks Adeyemi, Messi, Alvarez, Raphinha&#8217;s future and more — &#8220;We&#8217;re very excited&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/joan-laporta-talks-adeyemi-messi-060000769.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 06:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The World Cup has provided a glimpse of the terrifying midfield duo that Manchester City will unleash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-provided-glimpse-terrifying-054500879.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 05:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "☕️🥐 FC Breakfast: Real rock the Club World Cup 😳, Forlán manager",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fc-breakfast-real-rock-club-054300762.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 05:43:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 36",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c62elldp6l7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/387e/live/2c51eed0-7dac-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 05:29:30 GMT",
+      "teams": []
+    },
+    {
+      "headline": "🔥 Semi-final heats up! Konaté hits back at Yamal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/semi-final-heats-konat-hits-052900168.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 05:29:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Ever so quietly, a Manchester City youngster has been vital for England at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ever-quietly-manchester-city-youngster-052000250.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 05:20:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup power rankings: France, Spain, Argentina and England were the top 4 all along",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-power-rankings-france-spain-argentina-and-england-were-the-top-4-all-along-040018495.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 04:00:18 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚩 Ref confirmed, Iván Bartón to officiate the France-Spain semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/referee-confirmed-france-spain-035800333.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 03:58:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "📸 With an emotional message: how Haaland bid farewell to the World Cup",
       "links": {
@@ -15343,199 +15529,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 11:05:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Danny Murphy shares new Bob the missing cat update following criticism",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/danny-murphy-shares-bob-missing-104430406.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 10:44:30 +0000",
-      "teams": [
-        "Ivory Coast",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Messi v Salah: A World Cup meeting of two national icons",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-v-salah-world-cup-095838635.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 10:42:56 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Liverpool star breaks silence on &#8216;heartbreaking&#8217; World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-star-breaks-silence-heartbreaking-104000687.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 10:40:00 +0000",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "Fifa president Gianni Infantino faces calls to resign as Gary Lineker joins backlash to World Cup controversy",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-president-gianni-infantino-faces-063814864.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 10:34:13 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How Textor's unproven claim became Trump ammo in Balogun case",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/textors-baseless-claim-became-trump-103300392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 10:33:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Arsenal World Cup hero admits he didn’t expect to be called up",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-world-cup-hero-admits-101000817.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 10:10:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Switzerland vs. Colombia Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/switzerland-vs-colombia-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283952977.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 06:00:08 -0400",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Messi v Salah: A World Cup meeting of two national icons",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvg55yl9xj4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd77/live/ebeb1ec0-7982-11f1-9510-1546718f668b.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 09:58:33 GMT",
-      "teams": []
-    },
-    {
-      "headline": "David Squires on … England’s World Cup classic in Mexico and a Trump novelty",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/picture/2026/jul/07/david-squires-on-england-world-cup-classic-mexico-donald-trump-fifa-usa-belgium"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 09:50:04 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Belgium",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid spent over €150 to replace retired Brazilian defender",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-spent-over-150-085000660.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:50:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "England FA considering Quansah red card appeal after USA-Balogun World Cup controversy",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-fa-considering-quansah-red-084500419.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:45:00 +0000",
-      "teams": [
-        "Mexico",
-        "United States",
-        "England"
-      ]
-    },
-    {
-      "headline": "💡 Better than Messi and Olise, this player is the World Cup's most creative",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/better-messi-olise-player-world-083800567.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:38:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Injustice drove Belgium to win over USA - Raskin",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/injustice-drove-belgium-win-over-083221652.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:32:21 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
     }
   ]
 }
