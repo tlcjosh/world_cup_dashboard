@@ -1,6 +1,267 @@
 {
-  "asOf": "2026-07-13T15:49:34.108Z",
+  "asOf": "2026-07-13T17:48:32.043Z",
   "items": [
+    {
+      "headline": "2026 World Cup Golden Glove: Maignan, Simón In Heated Contest",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284679973-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:47:10 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Argentina, Spain, France, England: A World Cup Semifinal Round Like No Other",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-semifinal-argentina-spain-france-england"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/0f96262f-artboard-1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:38:22 -0400",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball: Kylian Mbappé, Lionel Messi In Tight Race",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:35:26 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Semifinal Odds: France, England Favored In Final Four Tilts",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285412177-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:32:45 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: France, England Favored For Finals Showdown",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284675480.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:26:12 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Mbappé Favored; Bellingham In The Mix",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285682386-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:21:07 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Title Odds: France Favored, England Surges After Quarterfinals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285579810-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:17:03 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Dutch referee dropped from World Cup 2026 dies at age of 38",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dutch-referee-dropped-world-cup-171116891.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 17:11:16 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Police launch investigation after South Africa World Cup star Jayden Adams found dead",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/police-launch-investigation-south-africa-115853417.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 17:04:04 +0000",
+      "teams": [
+        "South Africa"
+      ]
+    },
+    {
+      "headline": "‘Knocking you out was a huge joy’: reliving the dramas of England v Argentina in 1998 and 2002",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/knocking-you-out-was-a-huge-joy-reliving-the-dramas-of-england-v-argentina-in-1998-and-2002"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 17:00:05 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain vs. France Combined XI: Mbappé, Yamal Lead Star-Studded Team",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-france-world-cup-combined-xi-mbappe-yamal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9esp-fra-xi-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 12:38:16 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-2026-world-cup-semifinal-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/06/a1db19ce-2e53-4b25-bb93-eccf179ba2d5/lionel-messi-argentina-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:22:39 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid likely to hold Jose Mourinho&#8217;s official presentation after the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-likely-hold-jose-162000793.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ederson deal off - for now",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ederson-deal-off-now-160654688.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:06:54 +0000",
+      "teams": [
+        "Brazil",
+        "United States",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "Arsenal teammates joked about facing off – now they will at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-teammates-joked-facing-off-160500828.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:05:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Dutch referee dies weeks after being dropped from World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dutch-referee-dies-weeks-being-154246198.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 15:54:26 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: England’s James ready for semi-final, Bilic returns as Croatia coach – live",
       "links": {
@@ -20,6 +281,27 @@
       ]
     },
     {
+      "headline": "Footy Fix: And then there were four; Argentina, England, France, Spain fight for World Cup title",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/footy-fix-and-then-there-were-four-argentina-england-france-spain-fight-for-world-cup-title/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/13/b259c21c-2498-4859-96e6-31e4ddbdd876/untitled-design-2026-07-13t094923-790.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 15:46:11 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
       "headline": "Dutch referee dies weeks after being dropped from World Cup",
       "links": {
         "web": {
@@ -33,6 +315,18 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Mon, 13 Jul 2026 15:42:41 GMT",
+      "teams": []
+    },
+    {
+      "headline": "'What's the plan? What's the ambition?'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/whats-plan-whats-ambition-153509929.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 15:35:09 +0000",
       "teams": []
     },
     {
@@ -487,20 +781,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Mon, 13 Jul 2026 12:10:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Police launch investigation after South Africa World Cup star Jayden Adams found dead",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/police-launch-investigation-south-africa-115853417.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 11:58:53 +0000",
-      "teams": [
-        "South Africa"
-      ]
     },
     {
       "headline": "Spain vs. France odds, prediction, time: 2026 World Cup semifinal picks from expert on 25-16 run",
@@ -1938,22 +2218,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Golden Glove: Simón, Maignan In Heated Contest",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284679973-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:58:11 -0400",
-      "teams": []
-    },
-    {
       "headline": "2026 FIFA World Cup semifinals: Schedule, how to watch live, predictions",
       "links": {
         "web": {
@@ -1964,24 +2228,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 15:54:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Golden Ball: Kylian Mbappé, Lionel Messi In Tight Race",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/04/128/72/mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:53:46 -0400",
-      "teams": [
-        "France"
-      ]
     },
     {
       "headline": "Lineker makes huge claim about Real Madrid star after World Cup heroics",
@@ -1996,22 +2242,6 @@
       "teams": [
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot Odds: Mbappé Favored; Bellingham In The Mix",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285682386-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:48:32 -0400",
-      "teams": []
     },
     {
       "headline": "Big game Bellingham steps up again with show-stopping World Cup run for England | Andrew Beasley",
@@ -2030,25 +2260,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Odds: France, England Favored For Finals Showdown",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-make-the-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2025/12/128/72/gettyimages-1450091836-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:45:01 -0400",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
       "headline": "\"World class\" Jude Bellingham has dragged England to the World Cup semifinals",
       "links": {
         "web": {
@@ -2059,45 +2270,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 15:45:00 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Semifinal Odds: France, England Favored In Final Four Tilts",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284795766-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:38:55 -0400",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Argentina, England Surge After Quarterfinal Wins",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285126019-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:31:29 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina",
         "England"
       ]
     },
@@ -15324,173 +15496,6 @@
       "pubDate": "Tue, 07 Jul 2026 18:06:00 +0000",
       "teams": [
         "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup: Lionel Messi rips Argentina from the jaws of defeat vs. Egypt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-lionel-messi-rips-argentina-from-the-jaws-of-defeat-vs-egypt-180541451.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:05:41 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Messi denied from penalty spot by 'brilliant' Shobeir save",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cwy0eqq40y2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f856/live/090001c0-7a4a-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 18:05:36 GMT",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "VAR controversially rules out Egypt goal",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cddlj37zej7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9593/live/e3c3d300-7a2b-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 18:05:31 GMT",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "🔝 Just at the right time! Messi extends World Cup goals record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/just-time-messi-extends-world-175400909.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:54:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Barcelona legend Lionel Messi sets unwanted penalty record at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-legend-lionel-messi-sets-174000155.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:40:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "📲 The fans agree: can only Infantino save Messi?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fans-agree-only-infantino-save-173700105.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:37:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "📸 Egypt goal ruled out: harsh call from the referee and VAR?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/egypt-goal-ruled-harsh-call-173600294.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:36:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Books In 'Strong Position' Following USA Elimination",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-usa-was-liability-books-in-strong-position"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usmnt_pulisic_everson_odds_july7_world-cup.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 13:34:15 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Argentina v Egypt: World Cup 2026 last 16 – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/07/argentina-v-egypt-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 17:16:57 GMT",
-      "teams": [
-        "United States",
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Journalist: Liverpool move for World Cup forward has &#8216;real potential&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/journalist-liverpool-move-world-cup-171500886.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:15:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Argentina's Lionel Messi sets record with second missed PK in 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/argentinas-lionel-messi-sets-record-with-second-missed-pk-in-2026-world-cup-170704219.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:07:04 +0000",
-      "teams": [
         "Argentina"
       ]
     }
