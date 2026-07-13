@@ -1,6 +1,107 @@
 {
-  "asOf": "2026-07-13T17:48:32.043Z",
+  "asOf": "2026-07-13T19:07:04.610Z",
   "items": [
+    {
+      "headline": "Kerim Alajbegovic: Atalanta prepare offer for World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kerim-alajbegovic-atalanta-prepare-offer-184500402.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 18:45:00 +0000",
+      "teams": [
+        "Bosnia-Herzegovina"
+      ]
+    },
+    {
+      "headline": "Expert World Cup Predictions For France-Spain, England-Argentina Semifinals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-predictions-semifinals-france-spain-argentina-england"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1arg-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 14:31:29 -0400",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Big Bets Report: France Futures Impacting Both Miniscule, Major Wagers",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/big-bets-report-france-futures-impacting-both-miniscule-major-wagers"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-12.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 14:13:06 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "From cowboy hats to Patti Smith, how Erling Haaland conquered the World Cup even in defeat",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/erling-haaland-world-cup-defeat-norway-cowboy-hat-patti-smith/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/13/19e6b6ce-1308-4703-91d1-e467572327f7/untitled-design-2026-07-13t122434-360.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 18:10:03 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Bellingham Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 14:02:32 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 13:50:06 -0400",
+      "teams": []
+    },
     {
       "headline": "2026 World Cup Golden Glove: Maignan, Simón In Heated Contest",
       "links": {
@@ -109,7 +210,7 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Title Odds: France Favored, England Surges After Quarterfinals",
+      "headline": "2026 World Cup Title Odds: France Favored; England Surges After QF Win",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
@@ -166,6 +267,21 @@
       "teams": [
         "Argentina",
         "England"
+      ]
+    },
+    {
+      "headline": "Aston Villa hijack Newcastle’s pursuit of £49m Johan Manzambi from Freiburg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/aston-villa-hijack-newcastle-pursuit-of-johan-manzambi-from-freiburg-transfer-window"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 16:50:27 GMT",
+      "teams": [
+        "Switzerland",
+        "Germany"
       ]
     },
     {
@@ -2156,22 +2272,6 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 12:02:44 -0400",
-      "teams": []
-    },
-    {
       "headline": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
       "links": {
         "web": {
@@ -3718,22 +3818,6 @@
       "teams": [
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Bellingham Rises",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-boot-race-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:57:08 -0400",
-      "teams": []
     },
     {
       "headline": "England vs. Argentina Confirmed For Semifinals: Here's What To Know",
@@ -15418,85 +15502,6 @@
       "teams": [
         "Switzerland",
         "Colombia"
-      ]
-    },
-    {
-      "headline": "Fernandez header seals dramatic Argentina comeback",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cdjk02y8133o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d645/live/525c2c60-7a2f-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 18:19:14 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "😭Messi, in tears after Argentina's win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-tears-argentinas-win-181600625.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:16:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Why was Egypt’s second goal against Argentina disallowed by VAR in World Cup last 16?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-egypt-second-goal-against-180017286.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:09:02 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "GOAT's World Cup History: Messi Stands Alone As Top World Cup Goalscorer",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/mls/lionel-messi-goals-world-cup-argentina-assists-mls-inter-miami-stats"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/16x9-messi-tracker-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:06:10 -0400",
-      "teams": []
-    },
-    {
-      "headline": "😱📹 Argentina score three late to seal EPIC comeback over Egypt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-score-three-complete-epic-180600868.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:06:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
       ]
     }
   ]
