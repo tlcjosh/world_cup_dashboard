@@ -1,6 +1,140 @@
 {
-  "asOf": "2026-07-13T21:33:02.529Z",
+  "asOf": "2026-07-13T22:33:09.133Z",
   "items": [
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 22:12:52 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Didier Deschamps names Spain as favourites to reach World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/didier-deschamps-names-spain-favourites-221224102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 22:12:24 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chance-face-messi-once-lifetime-203312398.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 22:12:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf8c/live/ba810e20-7f05-11f1-bf9d-c5939b8ebb1d.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 22:08:56 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 22:07:40 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How Bellingham and Haaland Stayed Pals Across Big Clubs And At The World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-bellingham-haaland-england-norway-borussia-dortmund-manchester-city-real-madrid"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bromance.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 18:05:31 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Declan Rice winning fitness battle to start for England against Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/england-declan-rice-winning-fitness-battle-argentina-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 21:30:11 GMT",
+      "teams": [
+        "Norway",
+        "Argentina",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Alonso ‘optimistic’ he can thrive at Chelsea and avoid coaching carousel",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/xabi-alonso-chelsea-premier-league"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 21:30:11 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
     {
       "headline": "England to make late call on Rice for World Cup semi-final",
       "links": {
@@ -40,21 +174,6 @@
       ]
     },
     {
-      "headline": "Chance to face Messi once in a lifetime - O'Reilly",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chance-face-messi-once-lifetime-203312398.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 20:50:03 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "🎥 Here’s all of Norway welcoming its World Cup heroes - and a raccoon",
       "links": {
         "web": {
@@ -66,6 +185,22 @@
       "pubDate": "Mon, 13 Jul 2026 20:49:00 +0000",
       "teams": [
         "Norway"
+      ]
+    },
+    {
+      "headline": "France unleashed: reinvention could earn Deschamps all-time great status | Nick Ames",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/13/france-didier-deschamps-kylian-mbappe-michael-olise-spain-world-cup-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 13 Jul 2026 20:47:12 GMT",
+      "teams": [
+        "Belgium",
+        "Spain",
+        "France"
       ]
     },
     {
@@ -104,25 +239,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "Chance to face Messi once in a lifetime - O'Reilly",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f72/live/7741d120-7ef7-11f1-83a7-0959f8cc10cc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 20:33:07 GMT",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -1423,44 +1539,6 @@
       "pubDate": "Mon, 13 Jul 2026 09:05:27 GMT",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 13 Jul 2026 08:55:43 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 13 Jul 2026 08:47:52 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "France"
       ]
     },
     {
@@ -15416,85 +15494,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Tue, 07 Jul 2026 15:33:42 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Lionel Messi's Late-Game Heroics Are Hard To Believe; Not For Zlatan and Henry",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messis-late-game-heroics-unbelievable-not-zlatan-henry"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/zlatan1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 15:18:44 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "USMNT Crashes Out: Pulisic Leadership Drama, World Cup Takeaways & 2030 Lookahead",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/usmnt-crashes-out-pulisic-leadership-drama-world-cup-takeaways--2030-lookahead-191604673.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:16:04 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Argentina make incredible late comeback to beat Egypt",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cd95wjv1nedo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3d8/live/003fa630-7a36-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 19:13:22 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Gets 8/10 | Argentina Players Rated After A Thrilling 3-2 Win Against Egypt In The FIFA World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-gets-8-10-191000972.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:10:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: Drama v Egypt! Messi & co keep it tense",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-drama-v-190800636.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:08:00 +0000",
       "teams": [
         "Egypt",
         "Argentina"
