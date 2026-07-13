@@ -1,6 +1,20 @@
 {
-  "asOf": "2026-07-12T22:57:46.649Z",
+  "asOf": "2026-07-13T00:03:28.406Z",
   "items": [
+    {
+      "headline": "A Manchester City superstar entered another stratosphere at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-superstar-entered-another-234500638.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 12 Jul 2026 23:45:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
     {
       "headline": "🚨 Reports: CL club pips Newcastle to Manzambi with €70m package",
       "links": {
@@ -15521,18 +15535,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 08:10:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "A shambolic end for the American dream - did Balogun saga play a part?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/shambolic-end-american-dream-did-050016486.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 08:02:43 +0000",
       "teams": []
     }
   ]
