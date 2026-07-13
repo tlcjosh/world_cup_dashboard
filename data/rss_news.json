@@ -1,6 +1,156 @@
 {
-  "asOf": "2026-07-13T20:34:01.853Z",
+  "asOf": "2026-07-13T21:33:02.529Z",
   "items": [
+    {
+      "headline": "England to make late call on Rice for World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f306/live/3f85fdc0-7ef1-11f1-83a7-0959f8cc10cc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 21:30:05 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Why England Shouldn't Fear 'Mortal' Lionel Messi Ahead Of Semifinal Clash",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-is-mortal-england-told-why-goat-shouldnt-scare-them-as-ex-three-lions-star-backs-thomas-tuchels-side-to-end-argentinas-world-cup-title-defence"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi-down-11.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:51:30 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Chance to face Messi once in a lifetime - O'Reilly",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chance-face-messi-once-lifetime-203312398.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 20:50:03 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Here’s all of Norway welcoming its World Cup heroes - and a raccoon",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/norway-welcoming-world-cup-heroes-204900734.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 20:49:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Odds: Books Hoping For Spain-England Title Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-books-hoping-spain-england-title-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mikel-713.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:45:51 -0400",
+      "teams": [
+        "Spain",
+        "England"
+      ]
+    },
+    {
+      "headline": "Rodri Tells Lamine Yamal, Who's Battling World Cup 'Anxiety,' To 'Calm Down'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/rodri-lamine-yamal-calm-down-2026-world-cup-spain-france-semifinal-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2284922456-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 16:33:44 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Chance to face Messi once in a lifetime - O'Reilly",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f72/live/7741d120-7ef7-11f1-83a7-0959f8cc10cc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 13 Jul 2026 20:33:07 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid receive relief as key player avoids injury after World Cup scare",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-receive-relief-key-203000432.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 20:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "📸 Erling Haaland brings a taxidermy racoon home from the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-brings-taxidermy-racoon-202800823.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 20:28:00 +0000",
+      "teams": [
+        "Norway"
+      ]
+    },
     {
       "headline": "Yamal And Mbappé Headline Blockbuster Semifinal: What To Know For France vs. Spain",
       "links": {
@@ -15345,152 +15495,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 19:08:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "👑 Messi infinite ∞ Leo in tears, still driving Argentina at 39",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/infinite-messi-leo-tears-39-190700618.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:07:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "The Numbers that confirm Barcelona gem as one of the best centre-backs at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/numbers-confirm-barcelona-gem-one-190000019.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:00:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Who Is Argentina's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/who-argentinas-next-world-cup-opponent"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284557214-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:56:27 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Villa and Belgium midfielder Onana ruptures ACL",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/villa-belgium-midfielder-onana-ruptures-185520239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:55:20 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Villa and Belgium midfielder Onana ruptures ACL",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68e6/live/d6a8e630-7a33-11f1-ab76-d75965dea4d1.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 18:51:59 GMT",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "The Great Escape: 4 Takeaways From Argentina's Frantic Comeback Win vs. Egypt",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-comeback-egypt-messi-takeaways"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-4.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:51:38 -0400",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Lionel Messi in tears after dramatic Argentina win over Egypt in World Cup last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-tears-dramatic-argentina-185104143.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:51:04 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Belgium's Surgical Dismantling Of The USA Proves Its Ready For The Moment",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/belgium-usa-world-cup-de-ketelaere-mistakes"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/belgium-advance-16x9-1.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 14:47:58 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "📲 Messi GOAT and no VAR for me, social media erupts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-goat-not-var-socials-184300876.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:43:00 +0000",
       "teams": [
         "Egypt",
         "Argentina"
