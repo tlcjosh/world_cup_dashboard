@@ -1,6 +1,61 @@
 {
-  "asOf": "2026-07-13T22:33:09.133Z",
+  "asOf": "2026-07-13T23:31:45.771Z",
   "items": [
+    {
+      "headline": "2026 World Cup Odds: Back Spain In Double Chance Market Against France",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-spain-france-semifinal-best-bet"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/yamal-713.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 19:09:17 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chance-face-messi-once-lifetime-203312398.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 13 Jul 2026 22:46:32 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup semifinals: Why Argentina, England, France, and Spain will and won't win the trophy",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-semifinals-argentina-england-france-spain/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/13/24af36e3-5b7f-4056-aac1-efee0f7e4621/untitled-design-2026-07-13t182927-005.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 13 Jul 2026 22:30:27 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
     {
       "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
       "links": {
@@ -36,21 +91,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chance-face-messi-once-lifetime-203312398.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 22:12:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -15462,40 +15502,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 19:43:00 +0000",
       "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Is Switzerland vs Colombia on TV? Channel, kick-off and how to watch World Cup last-16 clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/switzerland-vs-colombia-tv-channel-054333600.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:36:23 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Owns Unfortunate World Cup Record Despite Avoiding World Cup Upset",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-owns-unfortunate-world-cup-record-despite-avoiding-world-cup-upset"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-3.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 15:33:42 -0400",
-      "teams": [
-        "Egypt",
         "Argentina"
       ]
     }
