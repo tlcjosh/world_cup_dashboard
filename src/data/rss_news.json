@@ -1,6 +1,128 @@
 {
-  "asOf": "2026-07-14T00:59:33.431Z",
+  "asOf": "2026-07-14T04:12:05.258Z",
   "items": [
+    {
+      "headline": "Lamine Yamal Is Ready For His And Spain's World Cup Moment",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lamine-yamal-world-cup-spain-france"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-19.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 23:23:02 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Strike action threatens new A-League season as post-World Cup glow again fades too fast | Joey Lynch",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/a-league-strike-action-cba-australia-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 03:22:09 GMT",
+      "teams": [
+        "Qatar",
+        "Australia",
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal enjoys birthday with a kickabout and a show before France World Cup semi-final test",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/lamine-yamal-birthday-spain-vs-france-world-cup-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 03:16:30 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Spain vs. France",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-spain-vs-france"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/best-bets-16x9-bb-wc-fraesp.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 13 Jul 2026 21:57:31 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Kylian Mbappé is '100 percent' for semifinal match vs. Spain, France's Didier Deschamps says",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-kylian-mbappe-is-100-percent-for-semifinal-match-vs-spain-frances-didier-deschamps-says-013614272.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 01:36:14 +0000",
+      "teams": [
+        "Morocco",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: After 100 matches, the semifinals belong to soccer's heavyweights",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-after-100-matches-the-semifinals-belong-to-soccers-heavyweights-011116826.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 01:11:16 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain vs. France odds, prediction, time: 2026 World Cup semifinal picks from expert on 25-16 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-france-odds-prediction-time-2026-world-cup-semifinal-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/ae067164-51fd-4078-911d-6297dbc8aece/lamine-yamal-spain.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 01:00:45 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "Deschamps predicts 'spectacular' France v Spain semi-final",
       "links": {
@@ -70,7 +192,7 @@
       ]
     },
     {
-      "headline": "‘We have a different team’: Revenge for Euro exit drives France ahead of Spain semi-final",
+      "headline": "France ready to get ‘revenge for the Euros’ in World Cup semi-final against Spain",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/14/france-team-news-spain-world-cup-semi-final-euro-revenge"
@@ -1380,25 +1502,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Mon, 13 Jul 2026 12:10:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Spain vs. France odds, prediction, time: 2026 World Cup semifinal picks from expert on 25-16 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/spain-france-odds-prediction-time-2026-world-cup-semifinal-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/ae067164-51fd-4078-911d-6297dbc8aece/lamine-yamal-spain.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 13 Jul 2026 11:52:01 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
     },
     {
       "headline": "Most clinical? Least creative? Best in the air? Comparing the last four",
@@ -15420,95 +15523,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 20:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Pochettino’s future uncertain as US Soccer weighs next move after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/07/mauricio-pochettino-us-soccer-future-world-cup-2026-talks"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 20:18:16 GMT",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Pochettino’s future uncertain as US Soccer weighs next move after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pochettino-future-uncertain-us-soccer-201816885.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:18:16 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: 30 million people watched USMNT-Belgium, making it the most-watched soccer match in U.S. history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-30-million-people-watched-usmnt-belgium-making-it-the-most-watched-soccer-match-in-us-history-201511170.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:15:11 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Argentina preferred?! Ittrich and Egypt star agree",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-preferred-ittrich-egypt-star-201200353.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:12:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "France vs. Morocco odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-morocco-odds-prediction-time-2026-world-cup-quarterfinals-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/07/ce4f86d4-f626-48ea-9f77-e9f417778be3/usatsi-29336531-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:09:12 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: What's next for the USMNT? 3 biggest questions that will shape 2030",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-whats-next-for-the-usmnt-3-biggest-questions-that-will-shape-2030-195523559.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 19:55:23 +0000",
       "teams": []
     }
   ]
