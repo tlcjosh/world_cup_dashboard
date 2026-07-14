@@ -1,6 +1,252 @@
 {
-  "asOf": "2026-07-14T04:12:05.258Z",
+  "asOf": "2026-07-14T06:28:08.382Z",
   "items": [
+    {
+      "headline": "When the World Cup finishes, the football continues on BBC Sport",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-finishes-football-continues-061321327.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 06:13:21 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who is Ismail Elfath? England v Argentina referee for World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ismail-elfath-england-v-argentina-061019038.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 06:10:19 +0000",
+      "teams": [
+        "Morocco",
+        "United States",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal on Spain vs France World Cup semi-final clash: &#8220;This is the biggest and most important game of my career, no doubts&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lamine-yamal-spain-vs-france-060500415.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Declan Rice expected to recover in time for Argentina clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/declan-rice-expected-recover-time-060000385.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 06:00:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappe sparks injury fears ahead of World Cup semi-final – but set to be fit for Spain clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbappe-sparks-injury-fears-055509788.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:55:09 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Who will win the World Cup? The view from the semi-finalists",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/win-world-cup-view-semi-054359247.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:43:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who will win the World Cup? The view from the semi-finalists",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 05:43:53 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Is the hunt for a right-back for Manchester City pointing in one direction?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hunt-back-manchester-city-pointing-054000121.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "France out against Spain? Yamal's run against Mbappé is mad",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-against-spain-yamals-run-053500518.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:35:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 37",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8e82462y7eo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1740/live/60aa0c80-7dac-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 05:25:53 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Time for Lamine Yamal to ignite? Or another Mbappe World Cup masterclass?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-lamine-yamal-ignite-another-051329533.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:22:35 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Didier Deschamps names Spain as favourites to reach World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/didier-deschamps-names-spain-favourites-221224102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:21:51 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "What time is France v Spain kick-off? TV channel and how to watch World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-france-v-spain-kick-051858131.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 05:18:58 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Time for Lamine Yamal to ignite? Or another Mbappe World Cup masterclass?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9774/live/90e1a0c0-7ef1-11f1-926f-c90d1bcfbc84.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 05:13:23 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Spain's road to semi-final - every goal so far",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/clye4yej26zo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/691e/live/6bfcdcd0-7eff-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 05:12:51 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "All the goals from France's run to semi-finals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c23yj388pryo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4bb/live/b5d13820-7ef9-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 05:11:18 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "Lamine Yamal Is Ready For His And Spain's World Cup Moment",
       "links": {
@@ -279,21 +525,6 @@
         "Mexico",
         "Canada",
         "United States",
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Didier Deschamps names Spain as favourites to reach World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/didier-deschamps-names-spain-favourites-221224102.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 22:12:24 +0000",
-      "teams": [
         "Spain",
         "France"
       ]
@@ -15297,233 +15528,6 @@
         "Switzerland",
         "Colombia"
       ]
-    },
-    {
-      "headline": "As Messi Dominates the World Cup, a War Is Waged Over Maradona’s Image",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/07/world/americas/world-cup-argentina-maradona-trademark.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 07 Jul 2026 21:12:06 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Brazil’s World Cup Exit Signals The Need For A New Beginning But Is Carlo Ancelotti The Right Man To Lead It?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-world-cup-exit-signals-211000559.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:10:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Fifa condemns racist abuse toward IShowSpeed at World Cup match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-condemns-racist-abuse-toward-192302479.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:06:32 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Egypt's coach blamed 'injustice' after Argentina's comeback. His team's collapse said otherwise",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/egypts-coach-blamed-injustice-after-argentinas-comeback-his-teams-collapse-said-otherwise-210442828.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:04:42 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "James Rodríguez makes Colombian national team history against Switzerland 📊",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/james-rodr-guez-makes-colombian-205700814.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:57:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "USA Fans Might Be Disappointed In Christian Pulisic's World Cup. He Is Too.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-usa-world-cup-disappointed"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/10498ec6-pulisic1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 16:53:20 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Which Songs Will BTS, Shakira, Madonna Perform First?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-halftime-bts-shakira-madonaa"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bts_world-cup_halftime_odds.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 16:52:44 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Belgium Midfielder Amadou Onana Out For Remainder Of World Cup With Torn ACL",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/belgium-midfielder-amadou-onana-out-for-remainder-of-world-cup-with-torn-acl"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/onanna.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 16:51:38 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "All the presidents’ meddling: the Balogun scandal shows how Fifa can break football | Barney Ronay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/07/donald-trump-gianni-infantino-folarin-balogun-fifa-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 20:45:02 GMT",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "World Cup: The inevitability of Leo Messi",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-the-inevitability-of-leo-messi-204246802.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:42:46 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Tears of relief? Messi adds another incredible chapter to World Cup career",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tears-relief-messi-adds-another-202825264.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:41:49 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina’s act of escapology highlights the problem with Enzo Fernandez",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-were-doomed-then-lionel-191531450.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:39:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "GOAT Greatness: All Of Lionel Messi's World Cup Goals, Ranked",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/messi-2026-world-cup-goals-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/artboard-1-58.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 16:28:36 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Tears of relief? Messi adds another incredible chapter to World Cup career",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz6v407y3qjo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e029/live/36107270-7a3c-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 20:28:19 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Report: Newcastle Target World Cup Star After £100m Tonali Exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-newcastle-target-world-cup-202000703.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 20:20:00 +0000",
-      "teams": []
     }
   ]
 }
