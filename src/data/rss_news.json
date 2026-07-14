@@ -1,16 +1,43 @@
 {
-  "asOf": "2026-07-14T11:56:49.207Z",
+  "asOf": "2026-07-14T14:04:59.948Z",
   "items": [
     {
-      "headline": "Sky Sports: Aston Villa considering move for World Cup hero",
+      "headline": "How VAR turned this World Cup into a review booth",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/sky-sports-aston-villa-considering-115000826.html"
+          "href": "https://sports.yahoo.com/soccer/article/how-var-turned-this-world-cup-into-a-review-booth-134714054.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 11:50:00 +0000",
+      "pubDate": "Tue, 14 Jul 2026 13:47:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "England and Argentina’s epic rivalry is much deeper than just football",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-argentina-epic-rivalry-much-123135825.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:45:57 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Italy: How Can the Azzurri Challenge Again?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italy-azzurri-challenge-again-134500898.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:45:00 +0000",
       "teams": []
     },
     {
@@ -22,13 +49,403 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 11:48:25 GMT",
+      "pubDate": "Tue, 14 Jul 2026 13:40:47 GMT",
       "teams": [
         "Spain",
         "France",
         "Argentina",
         "England"
       ]
+    },
+    {
+      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-2026-world-cup-semifinal-picks-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/c1f1bd55-f034-40b4-9ec3-4d99b7b68158/lionel-messi-argentina-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:38:12 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Just in: Barcelona captain could be out for 4 months after returning from World Cup with serious knee injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/just-barcelona-captain-could-4-133500823.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "France vs. Spain live stream: How to watch FIFA World Cup semifinals, predictions and lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-spain-live-stream-fifa-world-cup-semifinals-predictions-and-lineups/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/3a8b8223-5583-490e-8cb3-3d5b05f064e3/untitled-design-2026-07-14t091333-894.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:33:09 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Inter on Kovacic, David or Openda 👀 Estupinan, Premier move for Koné 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/inter-kovacic-david-openda-estupinan-133100687.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:31:00 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "What is the perfect age to win the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/perfect-age-win-world-cup-131255074.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:22:55 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Manchester City eye World Cup breakout star to continue midfield rebuild",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-eye-world-cup-131950542.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:19:50 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Mikel Merino among Tuesday's France vs. Spain best bets",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-mikel-merino-among-tuesdays-france-vs-spain-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/2ff770cc-262f-4fc5-8f64-3744d027dc96/mikel-merino.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:18:52 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "What age gives a squad best chance to win World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp8l8y5451vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/898f/live/5c655070-7f79-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 13:12:48 GMT",
+      "teams": []
+    },
+    {
+      "headline": "EXCLUSIVE | Michael Owen on Michael Olise: &#8216;He&#8217;s lethal and would walk into any team in the world&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/exclusive-michael-owen-michael-olise-130000469.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:00:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Del Piero, Van Bronckhorst, Messi... top semi-final goals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/del-piero-van-bronckhorst-messi-130000903.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:00:00 +0000",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "2026 World Cup odds: Lionel Messi, Kylian Mbappe may be on Golden Boot collision course entering semifinals",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/2026-world-cup-odds-lionel-messi-kylian-mbappe-may-be-on-golden-boot-collision-course-entering-semifinals/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/13/6af5d129-4184-4f62-9762-1c7d0b19164a/kylian-mbappe.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:56:33 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Are There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/are-any-world-cup-games-today-semifinal-schedule-france-vs-spain-england-vs-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-14.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 08:55:39 -0400",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Fifa president Gianni Infantino facing formal complaint after Trump phone call over Folarin Balogun ban",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-president-gianni-infantino-facing-125357365.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:53:57 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "The nations with the most World Cup semi-final appearances",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nations-most-world-cup-semi-125300405.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:53:00 +0000",
+      "teams": [
+        "Sweden",
+        "Uruguay",
+        "Spain",
+        "Portugal",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "France vs. Spain odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-spain-odds-prediction-line-time-2026-world-cup-semifinal-picks-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/82e37db8-9df1-4bf2-b809-c614fbd5af29/kylian-mbappe-france-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:50:30 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "American Elfath to referee England v Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/american-elfath-referee-england-v-124246086.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:42:46 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "American Elfath to referee England v Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c2lylenekjpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/749d/live/3fdf29c0-7f7f-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 12:42:41 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Erling Haaland brings $750 stuffed raccoon back to Norway after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/erling-haaland-brings-750-stuffed-124206857.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:42:06 +0000",
+      "teams": [
+        "United States",
+        "Norway"
+      ]
+    },
+    {
+      "headline": "🤯 World Cup makes Haaland immortal! Madness in South America",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-hype-makes-him-123900008.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:39:00 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "Spain vs. France odds, prediction, time: 2026 World Cup semifinal picks from expert on 25-16 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-france-odds-prediction-time-2026-world-cup-semifinal-picks-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/4412a37f-319c-4664-9c3e-63f0b90438bf/mikel-oyarzabal-spain-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:30:41 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Courtois Groin Scare Proves Minor as Real Madrid Start Looms",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/courtois-groin-scare-proves-minor-123000523.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 12:30:00 +0000",
+      "teams": [
+        "Belgium",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "How to Watch France and Mbappé vs. Spain: TV Channel, Live Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-vs-spain-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-semifinal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-france-vs-spain-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 08:25:22 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "The agony and ecstasy of World Cup penalty shootouts – in pictures",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/gallery/2026/jul/14/the-agony-and-ecstasy-of-world-cup-penalty-shootouts-in-pictures"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 12:00:25 GMT",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Sky Sports: Aston Villa considering move for World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sky-sports-aston-villa-considering-115000826.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 11:50:00 +0000",
+      "teams": []
     },
     {
       "headline": "Barry's journey from Accrington Stanley to World Cup semi-final",
@@ -173,25 +590,6 @@
       "teams": [
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Mikel Merino among Tuesday's France vs. Spain best bets",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-mikel-merino-among-tuesdays-france-vs-spain-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/13/9d5a1441-9b22-4838-8b42-2ed010b68e57/merinospain.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 14 Jul 2026 11:00:41 +0000",
-      "teams": [
-        "Spain",
-        "France"
       ]
     },
     {
@@ -2379,27 +2777,6 @@
       "pubDate": "Mon, 13 Jul 2026 12:31:36 +0000",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "Are There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/are-any-world-cup-games-today-semifinal-schedule-france-vs-spain-england-vs-argentina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-13.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 13 Jul 2026 08:24:41 -0400",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -15202,352 +15579,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 08 Jul 2026 10:30:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Brazil icon slams Endrick in wake of 2026 World Cup exit – “He has to score that f****** goal”",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brazil-icon-slams-endrick-wake-101000887.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:10:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "BOYLE Sports World Cup offer: Free bets, enhanced odds and latest promotions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/boylesports-world-cup-offer-free-070000739.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:02:13 +0000",
-      "teams": []
-    },
-    {
-      "headline": "USMNT World Cup player ratings: high marks for McKennie and Tillman, but Pulisic and Dest fall short",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/08/usmnt-world-cup-player-grades"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 10:00:27 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
-      "headline": "USMNT World Cup player ratings: high marks for McKennie and Tillman, but Pulisic and Dest fall short",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usmnt-world-cup-player-ratings-100027943.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:00:27 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Barcelona make it a mission to help key superstar rediscover best form after painful World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-mission-help-key-superstar-100000256.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup 2026 team power rankings: England on the rise as last eight are set",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/08/world-cup-2026-team-rankings-last-16"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 09:55:04 GMT",
-      "teams": [
-        "Paraguay",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 team power rankings: England on the rise as last eight are set",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-team-power-095504481.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:55:04 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Milan remain calm as Pulisic set for medical tests after World Cup disappointment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/milan-remain-calm-pulisic-set-095500326.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "The World Cup stars who could have played for England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-stars-could-played-094928327.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:49:28 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "The World Cup stars who could have played for England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c0lyj77w9z7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5a2/live/34f82370-7a22-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 09:49:22 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 power rankings: Rating all eight nations ahead of the quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-power-rankings-100230282.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:48:33 +0000",
-      "teams": []
-    },
-    {
-      "headline": "More than the Score",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0nxhmw7?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nxhn2c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 09:39:00 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid do not see key midfielder as captain material heading into new season &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-not-see-key-093000531.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Refereeing at this World Cup has been fine, we don’t need input of Tuchel and Trump | Chris Foy",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/08/refereeing-world-cup-fine-input-tuchel-trump-comment"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 09:22:43 GMT",
-      "teams": [
-        "Mexico",
-        "Egypt",
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Your boys took a hell of a beating' - England and Norway's football rivalry",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz9l74k031do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/518a/live/a2f90f70-7a80-11f1-b8ef-0ded546eca19.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 09:22:41 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "🇧🇷 Brasileirão has just one team left in the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brasileir-o-just-one-team-092100276.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:21:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Is there such a thing as ‘the perfect penalty’ in football? – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/08/is-there-such-a-thing-as-the-perfect-penalty-in-football-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 09:05:48 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Why Newcastle target Manzambi is in demand",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-newcastle-target-manzambi-demand-090315591.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:03:15 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Why Newcastle target Manzambi is in demand",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cwyllrxveklo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d008/live/057f9b30-7966-11f1-9ade-614b823fa1e3.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 09:03:10 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Anthony Gordon hails ‘amazing’ England World Cup team spirit and reveals advice from Harry Kane",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/anthony-gordon-hails-amazing-england-090135837.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 09:01:35 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "JASHARI FEATURES AS SWITZERLAND WIN ON PENALTIES",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jashari-features-switzerland-win-penalties-085600148.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 08:56:00 +0000",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "🚨 Portugal confirm Roberto Martínez departure after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/portugal-confirm-roberto-mart-nez-085300114.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 08:53:00 +0000",
-      "teams": [
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Trump claims USA World Cup defeat to Belgium would be ‘rigged’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-claims-usa-world-cup-083624610.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 08:36:24 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Argentina avert disaster with controversial late comeback | World Cup Daily – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/08/argentina-avert-disaster-with-late-controversial-comeback-world-cup-daily-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 08:35:11 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
     }
   ]
 }
