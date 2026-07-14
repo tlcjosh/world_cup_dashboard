@@ -1,6 +1,189 @@
 {
-  "asOf": "2026-07-14T06:28:08.382Z",
+  "asOf": "2026-07-14T08:39:09.867Z",
   "items": [
+    {
+      "headline": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/14/world-cup-2026-france-spain-buildup-england-argentina-news-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 08:32:00 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuesday decides the first World Cup finalist, see the schedule 📲",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuesday-decides-first-world-cup-082400272.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 08:24:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "'Everyone will talk about Messi... but we have so much ability' - Pickford",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/everyone-talk-messi-much-ability-081806566.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 08:18:06 +0000",
+      "teams": [
+        "Argentina",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Chance to face Messi once in a lifetime - O'Reilly",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chance-face-messi-once-lifetime-080550471.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 08:13:42 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Beyond the World Cup... The 5️⃣ stories shaping Tuesday",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/beyond-world-cup-5-stories-072600869.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 07:26:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Increased security for England and Argentina tie",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/increased-security-england-argentina-tie-071421487.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 07:24:50 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona star Lamine Yamal lays down marker before World Cup semi-final vs France: &#8216;I&#8217;m not afraid&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-star-lamine-yamal-lays-072000756.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 07:20:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "France vs Spain World Cup 2026 semi-final preview: Prediction, team news & line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-vs-spain-world-cup-071500054.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 07:15:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Increased security for England and Argentina tie",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyey5glv4ko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b03/live/85c525f0-7f4f-11f1-a97a-9b1029617ccb.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 07:14:16 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "‘Spain’s superstar fan’: Lamine Yamal’s little brother takes World Cup by storm",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/spain-superstar-fan-lamine-yamal-little-brother-takes-world-cup-by-storm"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 07:00:23 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "The other Lionel: how Scaloni went from accidental manager to World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/lionel-scaloni-messi-argentina-england-world-cup-hero"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 07:00:23 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "France coach provides update on Real Madrid star ahead of World Cup semifinal: &#8216;100% ready&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-coach-provides-real-madrid-064000377.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 06:40:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "When the World Cup finishes, the football continues on BBC Sport",
       "links": {
@@ -191,7 +374,7 @@
       ]
     },
     {
-      "headline": "Time for Lamine Yamal to ignite? Or another Mbappe World Cup masterclass?",
+      "headline": "Lamine Yamal v Mbappe: La Liga stars set for World Cup showdown",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/clywep30z7jo?at_medium=RSS&at_campaign=rss"
@@ -385,7 +568,7 @@
       ]
     },
     {
-      "headline": "Deschamps predicts 'spectacular' France v Spain semi-final",
+      "headline": "Deschamps predicts spectacular France v Spain semi-final",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c79y29l32gxo?at_medium=RSS&at_campaign=rss"
@@ -664,7 +847,7 @@
       ]
     },
     {
-      "headline": "France unleashed: reinvention could earn Deschamps all-time great status | Nick Ames",
+      "headline": "France unleashed: reinvention could earn Deschamps all-time great status",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/13/france-didier-deschamps-kylian-mbappe-michael-olise-spain-world-cup-semi-final"
@@ -15343,187 +15526,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 07 Jul 2026 22:52:30 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: The Quarterfinals Matchups Are Set",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-bracket-live-quarterfinals-update-standings"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-quarterfinals-bracket.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:52:15 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup quarterfinals: Confirmed schedule, results, predictions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-round-32-014406748.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 22:51:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🔙 Dusting off: Brazil’s last title turns 7",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dusting-off-brazil-last-title-222400496.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 22:24:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Switzerland v Colombia: World Cup 2026 last-16 tie goes to extra time – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/07/switzerland-v-colombia-world-cup-2026-last-16-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 07 Jul 2026 22:15:58 GMT",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Is Inevitable.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-inevitable-argentina-egypt-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi-inevitable-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 18:03:50 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Which Songs Will BTS, Shakira, Madonna Perform First?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-halftime-bts-shakira-madonna"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bts_world-cup_halftime_odds.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 07 Jul 2026 17:55:50 -0400",
-      "teams": []
-    },
-    {
-      "headline": "World Cup: Thierry Henry, Alexi Lalas get into heated exchange about Folarin Balogun's red card dec",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-thierry-henry-alexi-lalas-get-into-heated-exchange-about-folarin-baloguns-red-card-d-214815756.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:48:15 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup: Thierry Henry, Alexi Lalas get into heated exchange about Folarin Balogun's red card decision",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-thierry-henry-alexi-lalas-get-into-heated-exchange-about-folarin-baloguns-red-card-decision-214815756.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:48:15 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📸 He's one of us! How Klopp is watching the World Cup last 16",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/hes-one-us-klopps-watching-214800627.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:48:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Egypt",
-        "Argentina",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Egypt fume at 'injustice' and make Messi favouritism claims after exit",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzd23jll5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b40/live/396b6f30-7a3a-11f1-ab76-d75965dea4d1.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 07 Jul 2026 21:33:21 GMT",
-      "teams": [
-        "Egypt"
-      ]
-    },
-    {
-      "headline": "🤯 Simply historic! Argentina star hits World Cup milestone",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/simply-historic-argentina-star-hits-212900623.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:29:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "🚨 James Rodríguez sets a prestigious record with Colombia",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/james-rodr-guez-sets-prestigious-212900162.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 07 Jul 2026 21:29:00 +0000",
       "teams": [
         "Switzerland",
         "Colombia"
