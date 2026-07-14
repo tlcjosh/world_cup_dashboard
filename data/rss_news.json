@@ -1,11 +1,316 @@
 {
-  "asOf": "2026-07-14T14:04:59.948Z",
+  "asOf": "2026-07-14T15:43:17.260Z",
   "items": [
+    {
+      "headline": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/14/world-cup-2026-france-spain-buildup-england-argentina-news-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 15:38:04 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain vs. France odds, prediction, time: 2026 World Cup semifinal picks from expert on 25-16 run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-france-odds-prediction-time-2026-world-cup-semifinal-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/4412a37f-319c-4664-9c3e-63f0b90438bf/mikel-oyarzabal-spain-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:37:47 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Messi's lucky charm? Elfath to ref England v Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/american-elfath-referee-england-v-124246086.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:34:45 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Messi's lucky charm? Elfath to ref England v Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c2lylenekjpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/749d/live/3fdf29c0-7f7f-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 15:32:11 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Premier League rules World Cup defences - but not attacks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/premier-league-rules-world-cup-152006322.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:28:28 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Premier League rules World Cup defences - but not attacks",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzy9g501vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48f2/live/dfc295a0-7f87-11f1-bee8-53ce494e1abc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 15:19:17 GMT",
+      "teams": []
+    },
+    {
+      "headline": "England vs Argentina World Cup 2026 semi-final preview: Prediction, team news & line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-vs-argentina-world-cup-151500405.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:15:00 +0000",
+      "teams": [
+        "Mexico",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Folarin Balogun admits Trump’s ‘unique’ World Cup intervention affected US team before Belgium loss",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/folarin-balogun-admits-trump-unique-151135667.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:11:35 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "‘For Diego’: spectre of Maradona looms over Argentina ahead of England clash",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/diego-maradona-argentina-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 15:08:25 GMT",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "‘For Diego’: spectre of Maradona looms over Argentina ahead of England clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/diego-spectre-maradona-looms-over-150825247.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:08:25 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lionel Messi’s first meeting with England will be a contest of will and aura",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/lionel-messis-first-meeting-with-england-will-be-a-contest-of-will-and-aura"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 15:00:29 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona could pull the plug on homegrown midfielder&#8217;s exit after De Jong injury blow",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-could-pull-plug-homegrown-150000680.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup semifinal live updates: France vs. Spain score, highlights and analysis",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/live/france-vs-spain-world-cup-2026-scores-results-schedule-live-updates-150000075.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 15:00:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Real Madrid set for $2.7 million compensation from FIFA for players&#8217; World Cup participation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-set-2-7-144000887.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Liverpool could be set for transfer bombshell after Fabrizio Romano hint",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-could-set-transfer-bombshell-144000204.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: How the Blues fared in the quarter-finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-143000177.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and more",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:08:55 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "Card row destabilised the USA at the World Cup, reveals Balogun",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/card-row-destabilised-usa-world-140700837.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:07:00 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:05:23 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup schedule today: How to watch France v Spain, TV channels & live stream Tuesday 14 July",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140027546.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 14:00:27 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "How VAR turned this World Cup into a review booth",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/article/how-var-turned-this-world-cup-into-a-review-booth-134714054.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 13:47:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup: VAR shows the downside of getting more calls right",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-var-shows-the-downside-of-getting-more-calls-right-134714054.html"
         }
       },
       "images": [],
@@ -39,23 +344,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 14 Jul 2026 13:45:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026: France v Spain semi-final buildup; Atlanta police step up security for England v Argentina – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/14/world-cup-2026-france-spain-buildup-england-argentina-news-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 13:40:47 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 roll",
@@ -301,40 +589,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "American Elfath to referee England v Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/american-elfath-referee-england-v-124246086.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 12:42:46 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "American Elfath to referee England v Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c2lylenekjpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/749d/live/3fdf29c0-7f7f-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 12:42:41 GMT",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -725,18 +979,6 @@
         "Spain",
         "France"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:20:48 +0000",
-      "teams": []
     },
     {
       "headline": "The politics behind World Cup referee appointments",
@@ -5511,20 +5753,6 @@
       ]
     },
     {
-      "headline": "World Cup injury tracker: Kylian Mbappe latest, Jordan Henderson freak arm break and more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 04:34:46 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
-    {
       "headline": "Argentina survive World Cup scare after Julian Alvarez screamer but these major flaws offer England hope in grudge match",
       "links": {
         "web": {
@@ -7855,7 +8083,6 @@
         "Mexico",
         "Canada",
         "Haiti",
-        "Ivory Coast",
         "Iran",
         "Senegal"
       ]
@@ -15362,223 +15589,6 @@
         "Jordan",
         "England"
       ]
-    },
-    {
-      "headline": "World Cup quarterfinals picks: Predictions and best bets for every match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-quarterfinals-picks-predictions-and-best-bets-for-every-match-120000775.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 12:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Croatia boss Zlatko Dalic steps down after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/croatia-boss-zlatko-dalic-steps-115505645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:55:05 +0000",
-      "teams": [
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Meet the duo visiting all 16 World Cup venues in a London cab",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/crlw73llp3jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7d7/live/7bacd6f0-7a16-11f1-8233-417a25d303da.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 11:51:49 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Which Serie A side has the most players left in the 2026 World Cup quarter-finals?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/serie-side-most-players-left-114500412.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📹 Check out OneFootball’s World Cup last-16 XI",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/check-onefootball-world-cup-last-113500399.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "21 Serie A players left as 2026 World Cup moves into quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/21-serie-players-left-2026-113500521.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "A striker duel for the ages & Qatar revenge - what to expect in quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/striker-duel-ages-qatar-revenge-110817992.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:29:58 +0000",
-      "teams": [
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "World Cup 2026 stats: Who’s hit more shots than Mbappe? Who’s run further than Kane? Who’s tackled more than Anderson?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-stats-hit-112650559.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:26:50 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🚨 After dramatic World Cup exit, top nation parts with winning coach",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dramatic-world-cup-exit-top-112100393.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:21:00 +0000",
-      "teams": [
-        "Portugal",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "Confirmed: Real Madrid will have representation in 2026 World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/confirmed-real-madrid-representation-2026-110000609.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 11:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Jordan Henderson injury update as England star’s dad reveals shocking details of freak broken arm",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jordan-henderson-injury-england-star-105838385.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:58:38 +0000",
-      "teams": [
-        "Mexico",
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "A striker duel for the ages & Qatar revenge - what to expect in quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gyyvn1yn7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b9/live/d921c210-7aba-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 10:56:31 GMT",
-      "teams": [
-        "Qatar"
-      ]
-    },
-    {
-      "headline": "Goals galore - how dominant is Premier League wealth at World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/goals-galore-dominant-premier-league-105233056.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:52:33 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Goals galore - how dominant is Premier League wealth at World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c77yg8nr516o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6aa/live/5b8b71d0-7a00-11f1-8329-119e86ad1936.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 10:52:26 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Arsenal lead Premier League clubs in key World Cup stat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-lead-premier-league-clubs-103500986.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid condemn racist remarks aimed at Kylian Mbappe in official statement",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-condemn-racist-remarks-103000567.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 10:30:00 +0000",
-      "teams": []
     }
   ]
 }
