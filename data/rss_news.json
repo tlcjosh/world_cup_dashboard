@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-14T19:42:04.203Z",
+  "asOf": "2026-07-14T20:45:20.741Z",
   "items": [
     {
       "headline": "France v Spain: World Cup 2026 semi-final – live",
@@ -10,7 +10,161 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 19:36:57 GMT",
+      "pubDate": "Tue, 14 Jul 2026 20:36:12 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Report: Liverpool to return for World Cup midfielder this summer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-liverpool-return-world-cup-202500805.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 20:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why has the ball changed for World Cup semi-finals?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-ball-changed-world-cup-202447364.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 20:24:47 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Bellingham Rises",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 16:23:10 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Why has the ball changed for World Cup semi-finals?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/articles/c3wyw7pjv6qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/377d/live/05ef0710-7fc2-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 20:21:34 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Henderson & Quansah only England absentees for Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0gp3p70o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21d5/live/1b3dcc10-7fbc-11f1-9c5f-190f51e64b46.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 14 Jul 2026 20:16:52 GMT",
+      "teams": [
+        "Argentina",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "🚨 During a World Cup semi-final! Ligue 1 star moves for record fee",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/during-world-cup-semi-final-200800802.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 20:08:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 19:57:35 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "William Saliba suffers injury setback in huge World Cup blow for France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/william-saliba-suffers-injury-setback-195552840.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 19:55:52 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "William Saliba injury news: France, Arsenal defender subbed off in World Cup semifinal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/william-saliba-injury-news-france-194331917.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 19:43:31 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "🇪🇸 Mikel Oyarzabal levels iconic Spain duo in World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mikel-oyarzabal-levels-iconic-spain-193700648.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 19:37:00 +0000",
       "teams": [
         "Spain",
         "France"
@@ -31,20 +185,23 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Bellingham Rises",
+      "headline": "England vs. Argentina odds, prediction, time: 2026 World Cup semifinal picks by expert on 25-16 roll",
       "links": {
         "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+          "href": "https://www.cbssports.com/soccer/news/england-argentina-odds-prediction-time-2026-world-cup-semifinal-picks/"
         }
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/01/6799f4ce-22c2-4970-ae10-e69e3373e60d/harry-kane-england-imagn-images-1.jpg"
         }
       ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:22:31 -0400",
-      "teams": []
+      "source": "CBS Sports",
+      "pubDate": "Tue, 14 Jul 2026 19:31:53 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
     },
     {
       "headline": "Who Tops Zlatan Ibrahimović's 'King Of The Jungle' Ahead Of World Cup Semifinals?",
@@ -1941,28 +2098,6 @@
       "pubDate": "Tue, 14 Jul 2026 09:11:00 +0000",
       "teams": [
         "Morocco"
-      ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:10:40 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "France"
       ]
     },
     {
@@ -15464,140 +15599,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 08 Jul 2026 16:27:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "⏳Unai Simón, the World Cup record-holder between the sticks",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unai-sim-n-world-cup-161700549.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 16:17:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Canada hero Jonathan David seeking Juventus stay, Spalletti has other ideas",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/canada-hero-jonathan-david-seeking-161000023.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 16:10:00 +0000",
-      "teams": [
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Italy out of Under-20 World Cup after defeat on penalties to Denmark",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/italy-under-20-world-cup-160000159.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Norway World Cup chaos continues as squad switch Miami hotels before England clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-world-cup-chaos-continues-155952070.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:59:52 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Return Dates Revealed: When will Van Dijk and Liverpool&#8217;s World Cup stars return?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/return-dates-revealed-van-dijk-155500323.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:55:00 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Are Argentina being treated favourably at World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-being-treated-favourably-world-154348855.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:54:47 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Footy Fix: Blockbuster World Cup quarterfinals await as Lionel Messi seeks repeat; England, France loom",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/footy-fix-blockbuster-world-cup-quarterfinals-await-as-lionel-messi-seeks-repeat-england-france-loom/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/b7ec8f44-ff94-4f62-b0d1-e845742f1265/untitled-design-2026-07-08t090355-034.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:40:35 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Crisis, emptiness and loneliness without the World Cup, see memes 😅",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/crisis-emptiness-loneliness-without-world-153900897.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:39:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Are Argentina being treated favourably at World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 15:37:07 GMT",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
     }
   ]
 }
