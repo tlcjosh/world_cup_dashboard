@@ -1,6 +1,154 @@
 {
-  "asOf": "2026-07-15T19:54:08.800Z",
+  "asOf": "2026-07-15T21:01:50.040Z",
   "items": [
+    {
+      "headline": "England v Argentina: World Cup 2026 semi-final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/15/england-v-argentina-world-cup-2026-semi-final-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 20:55:31 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "What are the rules around players covering their mouths at the World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-red-cards-given-world-173056738.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:46:47 +0000",
+      "teams": []
+    },
+    {
+      "headline": "All the celebrities at England v Argentina World Cup semi-final from David Beckham to Mick Jagger",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/attending-england-v-argentina-famous-202017522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:45:57 +0000",
+      "teams": [
+        "United States",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "NYC Mayor Zohran Mamdani attends World Cup semi-final watch party at Rikers Island",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nyc-mayor-zohran-mamdani-attends-204520426.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:45:20 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Gordon puts England ahead against Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c07re9rxd29o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fa3/live/1d6788d0-808b-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 20:28:54 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham laughs off Argentina antics after heated start to World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-laughs-off-argentina-193230868.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:25:51 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who is Marco Di Bello, Italian VAR in England vs. Argentina World Cup semi final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/marco-di-bello-italian-var-202000191.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:20:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "USMNT goalkeeper Matt Freese reflects on 'devastating' elimination from World Cup: 'We wanted it so badly'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/usmnt-goalkeeper-matt-freese-reflects-on-devastating-elimination-from-world-cup-we-wanted-it-so-badly-201331361.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:13:31 +0000",
+      "teams": [
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "Anthony Barry outlines England’s half-time plan to overcome Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/anthony-barry-outlines-england-half-201230970.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:12:30 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England v Argentina sets unwanted World Cup record after ‘physical’ first half",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-argentina-sets-unwanted-200426015.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:10:04 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
     {
       "headline": "England and Argentina national anthems drowned out",
       "links": {
@@ -21,15 +169,15 @@
       ]
     },
     {
-      "headline": "England v Argentina: World Cup 2026 semi-final – live",
+      "headline": "England v Argentina shatters an unheard-of World Cup record 🤯",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/15/england-v-argentina-world-cup-2026-semi-final-live"
+          "href": "https://sports.yahoo.com/articles/england-v-argentina-shatters-unheard-194800070.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 19:39:30 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 19:48:00 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -53,17 +201,17 @@
       ]
     },
     {
-      "headline": "Jude Bellingham laughs off Argentina antics after heated start to World Cup semi-final",
+      "headline": "Kylian Mbappé feels sands of time shifting as France suffer fresh World Cup angst",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-laughs-off-argentina-193230868.html"
+          "href": "https://www.theguardian.com/football/2026/jul/15/kylian-mbappe-next-chapter-world-cup-angst"
         }
       },
       "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:32:30 +0000",
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 19:31:52 GMT",
       "teams": [
-        "Argentina"
+        "France"
       ]
     },
     {
@@ -5881,7 +6029,7 @@
       ]
     },
     {
-      "headline": "Spain's road to semi-final - every goal so far",
+      "headline": "Spain's road to the final - every goal so far",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/clye4yej26zo?at_medium=RSS&at_campaign=rss"
@@ -5895,8 +6043,7 @@
       "source": "BBC Sport",
       "pubDate": "Tue, 14 Jul 2026 05:12:51 GMT",
       "teams": [
-        "Spain",
-        "France"
+        "Spain"
       ]
     },
     {
@@ -15544,167 +15691,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Thu, 09 Jul 2026 22:07:51 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Norway's Haaland says pressure is all on England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norways-haaland-wants-pressure-put-180531062.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:07:42 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Michael Olise Avoids Yellow Card vs. Morocco, Will Be Available For World Cup Semifinals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/michael-olise-avoids-yellow-card-vs-morocco-will-available-world-cup-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/olise1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:07:27 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: France overpowers Morocco behind Kylian Mbappé, Ousmane Dembélé goals to return to semifinals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-france-overpowers-morocco-behind-kylian-mbappe-ousmane-dembele-goals-to-return-to-semifinals-220628026.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:06:28 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup Schedule: Bracket, matches, dates, locations, group tables, results, how to watch",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-fifa-world-cup-schedule-115500871.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Norway's Haaland says pressure is all on England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d0f/live/95327a00-7be0-11f1-bdcd-e913eca119a7.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 22:01:51 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Absolute perfection!' Mbappe fires France ahead against Morocco",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cwyemrl4dw8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af8/live/a87f3b30-7bdf-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 22:00:43 GMT",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "France beat Morocco and become the first World Cup semi-finalists 🎥",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-beat-morocco-become-first-220000763.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:00:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé Equals Lionel Messi's Record For Most Non-Penalty World Cup Goals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-equals-lionel-messis-record-most-non-penalty-world-cup-goals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/e2feca0f-mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:46:55 -0400",
-      "teams": [
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Mbappé's unreal World Cup numbers 🔥",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-unreal-world-cup-numbers-214400012.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 21:44:00 +0000",
-      "teams": [
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "Mbappé's push for Messi's mantle continues with latest summer exploit 😎",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-push-messis-mantle-continues-214000602.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 21:40:00 +0000",
       "teams": [
         "Morocco",
         "France"
