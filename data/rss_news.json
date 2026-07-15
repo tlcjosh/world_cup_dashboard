@@ -1,8 +1,110 @@
 {
-  "asOf": "2026-07-14T23:36:07.229Z",
+  "asOf": "2026-07-15T00:59:57.917Z",
   "items": [
     {
-      "headline": "End of incredible Deschamps era as France exit World Cup with a whimper",
+      "headline": "2026 World Cup Golden Glove: Unai Simón Surges After Clean Sheet vs. France",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/unai-714.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 20:45:33 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Spain Feeling 'Unbeatable' After Shutting Out France To Reach World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-feeling-unbeatable-after-shutting-out-france-reach-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-11-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 20:39:42 -0400",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 20:38:32 -0400",
+      "teams": []
+    },
+    {
+      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/team-blowing-away-individuals-spain-002853019.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 00:38:11 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "How an unlikely Spain player stunned France to clinch World Cup final berth",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/unlikely-spain-source-stunned-france-213202759.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 00:34:44 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cpv3v0gkw9vo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29f5/live/d65d5e30-7fd9-11f1-b73c-6d5c8f5196f7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 00:28:35 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "'Extremely happy' Deschamps gets the farewell game no-one wants",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/end-incredible-deschamps-era-france-232058094.html"
@@ -10,9 +112,131 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 23:20:58 +0000",
+      "pubDate": "Wed, 15 Jul 2026 00:25:23 +0000",
       "teams": [
         "France"
+      ]
+    },
+    {
+      "headline": "Pressure is on Argentina, they're world champions - Guehi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pressure-argentina-theyre-world-champions-001845559.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 00:18:45 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Pressure is on world champions Argentina in semi-final - Guehi",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp8l87vevj2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e33/live/dc2a4880-7fdb-11f1-9a75-99d0152ee48b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 00:18:30 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Conmebol adopts new rules, but drops Vini Jr law: CBF to discuss",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/conmebol-adopts-rules-drops-vini-001400034.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 00:14:00 +0000",
+      "teams": [
+        "United States",
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup final half-time to last up to 25 minutes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-220159062.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 23:54:10 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kylian Mbappé Misses The Final, But He Is Already A World Cup Legend",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappes-fifa-world-cup-resume-stands-apart"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9mbappe-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 19:41:41 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup: France coach Didier Deschamps slams referee after semifinal loss to Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-france-coach-didier-deschamps-slams-referee-after-semifinal-loss-to-spain-233313253.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 23:33:13 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "‘It means love’: Scottish World Cup fans celebrate Boston with orange traffic cone",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/14/world-cup-traffic-cone-scotland-boston"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 23:33:08 GMT",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "World Cup injury tracker: Declan Rice latest, William Saliba blow and Jordan Henderson freak arm break",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 14 Jul 2026 23:24:40 +0000",
+      "teams": [
+        "Jordan"
       ]
     },
     {
@@ -32,7 +256,22 @@
       "teams": []
     },
     {
-      "headline": "End of incredible Deschamps era as France exit World Cup with a whimper",
+      "headline": "Thomas Tuchel: ‘Argentina will be fuelled by history – but we are ready’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-argentina-fuelled-history-england-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 23:18:21 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "'Extremely happy' Deschamps gets the farewell game no-one wants",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/czx5x14v5w2o?at_medium=RSS&at_campaign=rss"
@@ -166,20 +405,6 @@
       ]
     },
     {
-      "headline": "World Cup injury tracker: Declan Rice latest, William Saliba blow and Jordan Henderson freak arm break",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 22:17:45 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
-    {
       "headline": "World Cup 2026 TV schedule: How to watch every game live in the UK",
       "links": {
         "web": {
@@ -189,18 +414,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 14 Jul 2026 22:03:43 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup final half-time to last up to 25 minutes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-220159062.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 22:01:59 +0000",
       "teams": []
     },
     {
@@ -392,21 +605,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Tue, 14 Jul 2026 21:32:59 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "How an unlikely Spain source stunned France to clinch World Cup final berth",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/unlikely-spain-source-stunned-france-213202759.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:32:02 +0000",
       "teams": [
         "Spain",
         "France"
@@ -1346,22 +1544,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Tue, 14 Jul 2026 12:37:28 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Golden Glove: Maignan, Simón In Heated Contest",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284679973-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 12:36:49 -0400",
       "teams": []
     },
     {
@@ -7129,22 +7311,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Sun, 12 Jul 2026 00:00:33 -0400",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:00:28 -0400",
       "teams": []
     },
     {
@@ -15501,152 +15667,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Wed, 08 Jul 2026 17:04:08 -0400",
-      "teams": []
-    },
-    {
-      "headline": "England to get bank holiday if team win World Cup, Starmer expected to announce",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/08/england-to-get-bank-holiday-if-team-win-world-cup-starmer-expected-to-announce"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 21:00:41 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Journalist: Real Madrid lineup £113m offer for World Cup midfield ace",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/journalist-real-madrid-lineup-113m-205000808.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 20:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "He’s refereeing a quarter-final! World Cup ref once showed 10 reds",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/refereeing-quarter-final-world-cup-204100964.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 20:41:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Arsenal on alert after Bruno Guimarães tells Newcastle he wants to leave",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/08/arsenal-on-alert-after-bruno-guimaraes-tells-newcastle-he-wants-to-leave"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 20:22:34 GMT",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Henderson not ruled out of World Cup despite breaking arm",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c70ygpg95vlo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c25/live/c2507320-7b6d-11f1-936a-038dbfe02d14.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 20:13:54 GMT",
-      "teams": [
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "📸 World Cup 2026: team of the last 16 💥",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-team-last-200000074.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 20:00:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Fifa rejects France’s appeal of Olise’s yellow card ahead of World Cup clash with Morocco",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-rejects-france-appeal-olise-195638494.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 19:56:38 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mbappé Is The Best Player In The World. Another World Cup Would Make It Undeniable.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/mbappe-best-player-world-another-world-cup-would-make-undeniable"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/9e2b0533-mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:55:50 -0400",
-      "teams": []
-    },
-    {
-      "headline": "America's second-favorite team: Who to root for now that the USMNT is out of the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/americas-second-favorite-team-who-to-root-for-now-that-the-usmnt-is-out-of-the-world-cup-195351350.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 19:53:51 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Justin Bieber To Co-Headline Stacked 2026 World Cup Final Halftime Show",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/justin-bieber-perform-fifa-world-cup-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bieber1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 15:52:52 -0400",
       "teams": []
     }
   ]
