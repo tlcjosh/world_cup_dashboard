@@ -1,6 +1,234 @@
 {
-  "asOf": "2026-07-15T00:59:57.917Z",
+  "asOf": "2026-07-15T04:13:51.914Z",
   "items": [
+    {
+      "headline": "World Cup: Players, managers downplay magnitude of England and Argentina history … for now",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-players-managers-downplay-magnitude-of-england-and-argentina-history--for-now-040754752.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 04:07:54 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "For Argentina, a World Cup Semifinal Against England Isn’t Just Soccer",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-england-rivalry-world-cup.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 15 Jul 2026 04:01:16 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "As Argentina Tries to Win the World Cup, the Rest of Latin America Cheers Against It",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-world-cup-semifinals.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 15 Jul 2026 04:01:08 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to watch England vs Argentina live: Stream link, TV channel, team news, prediction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-vs-argentina-live-030616748.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 03:06:16 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England and Argentina renew historic World Cup rivalry with spot in final on the line",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-argentina-renew-historic-world-cup-rivalry/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/6693a6e1-76dd-47a9-a65e-7ad14dd6fb56/argentina-vs-england.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 02:44:14 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/still-feel-pain-98-different-015925154.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 02:41:40 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "How Luis de la Fuente used Rodri and Ruiz to help Spain upset France at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/luis-la-fuente-used-rodri-023552332.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 02:35:52 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mates-mate-freedom-argentina-got-020540869.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 02:05:40 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ff8/live/4bab3450-7fb7-11f1-9c5f-190f51e64b46.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 02:05:33 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/englands-biggest-match-since-1966-020521061.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 02:05:21 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 02:05:15 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c6212j5zw3ko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35b8/live/0c49d520-7fa6-11f1-a5f4-433bb9aa2e5a.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 01:59:13 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "How Ice Cream Helps England Coach Thomas Tuchel Unwind As World Cup History Beckons",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-ice-cream-helps-england-coach-thomas-tuchel-unwind-world-cup-history-beckons"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tuchel1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 14 Jul 2026 21:43:43 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/team-blowing-away-individuals-spain-002853019.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 01:12:20 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "2026 World Cup Golden Glove: Unai Simón Surges After Clean Sheet vs. France",
       "links": {
@@ -20,7 +248,7 @@
       ]
     },
     {
-      "headline": "Spain Feeling 'Unbeatable' After Shutting Out France To Reach World Cup Final",
+      "headline": "Lamine Yamal, Mikel Oyarzabal And Spain Feel 'Unbeatable' After France Shutout",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/spain-feeling-unbeatable-after-shutting-out-france-reach-world-cup-final"
@@ -55,21 +283,6 @@
       "teams": []
     },
     {
-      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/team-blowing-away-individuals-spain-002853019.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 00:38:11 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
       "headline": "How an unlikely Spain player stunned France to clinch World Cup final berth",
       "links": {
         "web": {
@@ -101,6 +314,25 @@
       "teams": [
         "Spain",
         "France"
+      ]
+    },
+    {
+      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-2026-world-cup-semifinal-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/81315629-ade4-4708-af70-1e6fcd1e1937/lionel-messi-argentina-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 00:27:02 +0000",
+      "teams": [
+        "Argentina",
+        "England"
       ]
     },
     {
@@ -482,7 +714,7 @@
       ]
     },
     {
-      "headline": "La Roja Rolls On: 4 Takeaways From Spain's World Cup Semifinal Win Over France",
+      "headline": "La Roja Roll On: 4 Takeaways From Spain's World Cup Semifinal Win Over France",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/spain-france-world-cup-semifinals-4-takeaways"
@@ -15458,216 +15690,6 @@
       "teams": [
         "Mexico"
       ]
-    },
-    {
-      "headline": "Landon Donovan, Tim Howard Empathize With Christian Pulisic, But Call On Him To Change",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/landon-donovan-tim-howard-empathize-christian-pulisic-call-him-change"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/christian-pulisic.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 18:53:43 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "As the World Cup Takes a Break, So Do N.Y.C. Bars: ‘It’s a Sigh of Relief’",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/08/nyregion/bars-world-cup-soccer.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 08 Jul 2026 22:43:19 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Starmer hints at bank holiday if England are victorious at World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/starmer-hints-bank-holiday-england-223712596.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:37:12 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Chris Sutton's World Cup quarter-final predictions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chris-suttons-world-cup-quarter-223457389.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:34:57 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "BBC expert Sutton's World Cup quarter-final predictions",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c15y1j32jxko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 08 Jul 2026 22:34:48 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "🙄Will he stay? Quintero returns to River after the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/stay-quintero-returns-river-world-222700410.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:27:00 +0000",
-      "teams": [
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Egypt want officials kicked out of World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/egypt-want-officials-kicked-world-114656047.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:20:35 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "White House’s World Cup head defends Trump lobbying Fifa over red card",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 08 Jul 2026 22:20:18 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "Brazil",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "White House’s World Cup head defends Trump lobbying Fifa over red card",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/white-house-world-cup-head-195632177.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:20:18 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Ranking top 10 moments from USMNT's 2026 World Cup from Folarin Balogun red card fiasco to making history",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/ranking-top-10-moment-usmnts-2026-world-cup-folarin-balogun/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/08/80046969-be23-4ead-bc01-18fab482150f/balogun-red-card.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:10:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Journalist: Man United preparing £85m bid for French World Cup star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/journalist-man-united-preparing-85m-215000425.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 21:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📊Surprise in the FIFA rankings: Argentina lose top spot to France",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/surprise-fifa-rankings-argentina-lose-214700375.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 21:47:00 +0000",
-      "teams": [
-        "Egypt",
-        "France",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Henderson not ruled out of World Cup despite breaking arm",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/henderson-surgery-usa-breaking-arm-152834484.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 08 Jul 2026 21:22:47 +0000",
-      "teams": [
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rafael Márquez Named Mexican National Team Head Coach For 2030 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/rafael-marquez-mexican-national-team-coach-2030-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/marquez1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 17:04:08 -0400",
-      "teams": []
     }
   ]
 }
