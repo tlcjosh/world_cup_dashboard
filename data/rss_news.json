@@ -1,6 +1,63 @@
 {
-  "asOf": "2026-07-15T10:59:10.570Z",
+  "asOf": "2026-07-15T12:22:20.932Z",
   "items": [
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Time, TV, Streaming for Second Semifinal",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-time-tv-streaming-second-semifinal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-15.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 08:19:16 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England vs. Argentina odds, prediction, time: 2026 World Cup semifinal picks by expert on 25-18 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-argentina-odds-prediction-start-time-2026-world-cup-semifinal-picks/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/3336d9d2-78b7-4203-a154-deef4d8019bf/jude-bellingham-england-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 12:11:10 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who Are the Announcers for England vs. Argentina in the 2026 World Cup Semifinal?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/who-announcers-england-vs-argentina-2026-world-cup-semifinal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-vs-argentina-announcers.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 08:10:07 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
     {
       "headline": "World Cup 2026: Spain stun listless France to reach final; England v Argentina buildup – live",
       "links": {
@@ -10,10 +67,250 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 10:51:30 GMT",
+      "pubDate": "Wed, 15 Jul 2026 12:01:53 GMT",
       "teams": [
         "Spain",
         "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-8 roll",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-line-2026-world-cup-semifinal-picks-best-bets/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/64011ea9-9a6d-42be-aa07-eae78516aa74/lionel-messi-argentina-imagn-images.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:56:26 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Report: Liverpool have resumed their pursuit of World Cup forward",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-liverpool-resumed-pursuit-world-115000781.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "At least 12 dead in World Cup-related violence in Bangladesh",
+      "links": {
+        "web": {
+          "href": "https://www.yahoo.com/news/world/articles/least-12-dead-world-cup-114306330.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:43:06 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lamine Yamal extends remarkable record over Kylian Mbappe after World Cup triumph",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lamine-yamal-extends-remarkable-record-113000943.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:28:39 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "‘Collective failure’: French press digests World Cup semi-final defeat by Spain",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/france-world-cup-semi-final-media-reactions-spain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 11:28:20 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/englands-biggest-match-since-1966-020521061.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:19:55 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 11:19:50 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lionel Messi tops best bets for England vs. Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lionel-messi-tops-best-bets-for-england-vs-argentina/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/76ddc8cd-8f42-48e2-9183-7750072b7700/messi-6.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:15:36 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Meunier ‘hugely excited’ about joining Sunderland on a free transfer",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/thomas-meunier-sunderland-transfer-window"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 11:09:02 GMT",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "How far have England got in previous World Cups? Everything you need to know ahead of Argentina clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/far-england-got-previous-world-110850216.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:08:50 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lethal Spain execute plan to perfection against France on way to World Cup final | Jeff Rueter",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/spain-game-plan-france-fifa-world-cup-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 11:00:54 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Lethal Spain execute plan to perfection on way to World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lethal-spain-execute-plan-perfection-110054944.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 11:00:54 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup final half-time show: Who is performing, how long will it take and how can I watch it?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-105603302.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 10:56:03 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What is England’s semi-final record? Key stats before World Cup clash with Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-semi-final-record-history-094918940.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 10:54:10 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Could England v Argentina be delayed by storms? World Cup 2026 weather protocol explained ahead of semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-world-cup-games-could-144300011.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 10:54:10 +0000",
+      "teams": [
+        "Mexico",
         "Argentina",
         "England"
       ]
@@ -1148,21 +1445,6 @@
       ]
     },
     {
-      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-biggest-match-since-1966-020521061.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 05:32:16 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
       "links": {
         "web": {
@@ -1298,21 +1580,6 @@
       ]
     },
     {
-      "headline": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 05:07:27 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "England and Argentina fans ready to \"suffer\" together in World Cup semifinal",
       "links": {
         "web": {
@@ -1360,25 +1627,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Wed, 15 Jul 2026 05:02:28 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 05:02:16 GMT",
       "teams": [
         "Argentina",
         "England"
@@ -1794,6 +2042,21 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Tue, 14 Jul 2026 23:18:21 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel trusts England’s ‘special breed’ to find a way past Messi’s Argentina | David Hytner",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-england-lionel-messi-argentina-world-cup-2026-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 14 Jul 2026 23:18:12 GMT",
       "teams": [
         "Argentina",
         "England"
@@ -7948,22 +8211,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 09:50:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "What is England’s semi-final record? History beckons as Norway victory sets up Argentina World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-semi-final-record-history-094918940.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 09:49:18 +0000",
-      "teams": [
-        "Norway",
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "Report: Coventry City and West Ham United interested in move for World Cup star",
@@ -15460,241 +15707,6 @@
       "teams": [
         "Mexico",
         "England"
-      ]
-    },
-    {
-      "headline": "France Starting XI vs Morocco: Predicted Lineup and Confirmed Team News",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-starting-xi-vs-morocco-162000896.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 16:20:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "X-Ray, MRI Reveal Christian Pulisic's Latest World Cup Injury",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-christian-pulisic-injury-fracture-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284413843-scaled-e1783613476975.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 12:17:47 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Premier League pre-season - who are your club playing?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/premier-league-pre-season-club-160533292.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 16:05:33 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Premier League pre-season - who are your club playing?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn59deldv70o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbff/live/0a23b660-7bac-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 16:05:27 GMT",
-      "teams": []
-    },
-    {
-      "headline": "World Cup schedule today: How to watch France v Morocco, TV channels & live stream Thursday July 9th",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-160055651.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 16:00:55 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Del Piero reveals Italy focus during 2006 World Cup win amid Calciopoli tensions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/del-piero-reveals-italy-focus-155500543.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 15:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "As France and Morocco Take the Field, Colonial Past and Global Present Will Mix",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/09/world/europe/france-morocco-world-cup-soccer.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Thu, 09 Jul 2026 15:48:32 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Dan Burn reveals guilt over Jordan Henderson’s freak World Cup injury: ‘I killed him a bit’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dan-burn-reveals-guilt-over-154345761.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 15:43:45 +0000",
-      "teams": [
-        "Jordan"
-      ]
-    },
-    {
-      "headline": "USA Star Christian Pulisic Fractured Leg In World Cup Loss To Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-star-christian-pulisic-fractured-leg-world-cup-loss-ac-milan"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/christian2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 11:24:54 -0400",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic suffered fractured leg in USA’s World Cup loss to Belgium",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/christian-pulisic-suffered-fractured-leg-152141801.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 15:21:41 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Going first in a penalty shootout gives teams an advantage … or does it?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/09/world-cup-first-penalty-shootout-advantage-second"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 15:18:48 GMT",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Chermiti & Naderi 'perfect foils' for Shankland - Halliday",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chermiti-naderi-perfect-foils-shankland-151715928.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 15:17:15 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "🎥 Haaland as Techno Viking! Best AI clips before quarters",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/haaland-techno-viking-best-ai-151600720.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 15:16:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "USA Great And Former LAFC Coach Steve Cherundolo To Lead American Men At 2028 Olympics",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/usa-soccer-steve-cherundolo-hired-coach-2028-olympics-los-angeles"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2248011769-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 11:06:38 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "I’ve covered Fifa for years – ask me anything on Infantino and this World Cup’s crisis of trust",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ve-covered-fifa-years-ask-143442954.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 15:02:23 +0000",
-      "teams": []
-    },
-    {
-      "headline": "'This oxygen is spreading' - inside Morocco's mission to become a powerhouse",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/could-morocco-become-football-powerhouse-075022123.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 14:56:41 +0000",
-      "teams": [
-        "Morocco",
-        "France"
       ]
     }
   ]
