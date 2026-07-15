@@ -1,8 +1,84 @@
 {
-  "asOf": "2026-07-15T21:01:50.040Z",
+  "asOf": "2026-07-15T22:10:33.460Z",
   "items": [
     {
-      "headline": "England v Argentina: World Cup 2026 semi-final – live",
+      "headline": "Spain vs. Argentina Confirmed For World Cup Final: Here's What To Know",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-vs-england-argentina-confirmed-world-cup-final-heres-what-know"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1spaarg.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 18:05:46 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England suffer World Cup heartbreak with loss to Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67e9/live/86735b40-8097-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 22:05:15 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lionel Messi Delivers 2 Clutch Assists To Lead Argentina To Back-To-Back World Cup Finals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-delivers-2-clutch-assists-lead-argentina-back-to-back-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/fc53047b-messi1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 18:02:31 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thierry Henry and Zlatan Critical Of England's Defensive Approach vs. Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/thierry-henry-and-zlatan-criticize-england-defensive-approach-against-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/thumbnail-trebby2-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:58:09 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England 1-2 Argentina: World Cup 2026 semi-final – live reaction",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/15/england-v-argentina-world-cup-2026-semi-final-live"
@@ -10,11 +86,611 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 20:55:31 GMT",
+      "pubDate": "Wed, 15 Jul 2026 21:53:46 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina celebrate progressing to World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c9w0jlx451go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f44/live/0fbbc650-8096-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 21:53:27 GMT",
       "teams": [
         "Argentina",
         "England"
       ]
+    },
+    {
+      "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/whos-left-2026-world-cup-whos-been-eliminated"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285645472.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:49:20 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England vs. Argentina History: Every Head to Head Match Between the World Cup Rivals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-vs-argentina-history-every-head-head-match-between-world-cup-rivals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-vs-argentina-history.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:45:24 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel lost his bottle and his pure cowardice ended England’s World Cup dream",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-lost-bottle-pure-214455925.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:44:55 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England 1-2 Argentina: World Cup semi-final player ratings",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/england-argentina-world-cup-semi-final-player-ratings"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 21:44:17 GMT",
+      "teams": [
+        "Argentina",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup final early preview: Argentina's comebacks meet Spain's impenetrable defense",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-final-early-preview-argentinas-comebacks-meet-spains-impenetrable-defense-214251519.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:42:51 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'The change didn't work' - England player ratings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rate-players-england-face-argentina-194959517.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:42:48 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England fans across UK devastated as World Cup journey ends in emotional rollercoaster",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-fans-across-uk-devastated-214227949.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:42:27 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "France to face England in World Cup Bronze final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-face-england-world-cup-214000417.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:40:00 +0000",
+      "teams": [
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "What TV channel is the World Cup final on? How to watch every game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:39:35 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Final two World Cup matches to be shown live on BBC",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/final-two-world-cup-matches-212905689.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:39:35 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Cameras catch Messi's outpour of emotion after reaching World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cameras-catch-messis-outpour-emotion-213800576.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:38:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:37:12 +0000",
+      "teams": []
+    },
+    {
+      "headline": "England v Argentina player ratings: Iconic defender earns 8/10 but Thomas Tuchel costs Three Lions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-argentina-player-ratings-212451874.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:35:55 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup final: Spain is favored against Lionel Messi's Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-final-spain-is-favored-against-lionel-messis-argentina-213432777.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:34:32 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Final start time, date and results in full",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:33:09 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Semifinal Results",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/yamal3.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:32:50 -0400",
+      "teams": []
+    },
+    {
+      "headline": "🎥 Emotional explosion! Enough World Cup tears to water the pitch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/emotional-explosion-enough-world-cup-213100861.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:31:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: Spain Favored Over Argentina In Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pedro-714.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:29:16 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to watch the World Cup on the BBC and ITV",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-world-cup-bbc-itv-203042261.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:29:05 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi leads Argentina's unbelievable late comeback as England collapse in World Cup semifinal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-leads-argentinas-unbelievable-212505455.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:25:05 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Rangers Identify This World Cup Centre-back As A Summer Target: Why He Could Be A Smart Signing",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rangers-identify-world-cup-centre-212500855.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:25:00 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:24:38 -0400",
+      "teams": []
+    },
+    {
+      "headline": "As Argentina Tries to Win the World Cup, the Rest of Latin America Cheers Against It",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-world-cup-semifinals.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 15 Jul 2026 21:24:08 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Fernandez fires in equaliser for Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cj4kx9n4pv5o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c78b/live/ee6b9570-8090-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 21:20:38 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored After Semifinal Heroics",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/leo-715.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:19:03 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Late Martinez header sends Argentina to World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/ckg3184ymemo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d1f/live/c0ad9290-8091-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 21:18:38 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Final two World Cup matches to be shown live on BBC",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06e7/live/6be874e0-8088-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 21:16:12 GMT",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Is There A 3rd-Place World Cup Game? Who's Playing In Bronze Game?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/third-place-world-cup-game-france"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/fifa1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:14:14 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Argentina 2-1 England: Messi inspires comeback to send holders into World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-2-1-england-messi-211000701.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:10:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The key stat Spain can't ignore against Argentina 🎯",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/key-stat-spain-cant-ignore-210900748.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:09:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "'The change didn't work' - England player ratings",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2w3rqp6w1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11f0/live/e6fab7c0-8091-11f1-9946-258bcfdcbe12.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 21:08:21 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Reece James sparks new injury fears as England suffer World Cup heartbreak against Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reece-james-sparks-injury-fears-210756065.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:07:56 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Bracket: Argentina Set To Face Spain In World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-final-matchups"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-world-cup-bracket.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 17:05:20 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup SF: England 1-2 Argentina: Inter’s heroic Lautaro Martinez seals comeback victory",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-sf-england-1-210500803.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "When is the Fifa World Cup 2026 final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-world-cup-2026-final-183013831.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:03:18 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina leave it late to turn it round and reach World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-leave-turn-round-reach-210200663.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:02:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "NYC Mayor Zohran Mamdani attends World Cup semi-final watch party at Rikers Island",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/nyc-mayor-zohran-mamdani-attends-204520426.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:47:44 +0000",
+      "teams": []
     },
     {
       "headline": "What are the rules around players covering their mouths at the World Cup?",
@@ -43,18 +719,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "NYC Mayor Zohran Mamdani attends World Cup semi-final watch party at Rikers Island",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/nyc-mayor-zohran-mamdani-attends-204520426.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 20:45:20 +0000",
-      "teams": []
     },
     {
       "headline": "Gordon puts England ahead against Argentina",
@@ -400,22 +1064,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:57:36 +0000",
-      "teams": []
-    },
-    {
       "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
       "links": {
         "web": {
@@ -450,20 +1098,6 @@
       "teams": [
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "As Argentina Tries to Win the World Cup, the Rest of Latin America Cheers Against It",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-world-cup-semifinals.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 15 Jul 2026 17:44:50 +0000",
-      "teams": [
-        "Argentina"
       ]
     },
     {
@@ -638,22 +1272,6 @@
       "teams": [
         "Belgium"
       ]
-    },
-    {
-      "headline": "Is There A 3rd-Place World Cup Game? Who's Playing In Bronze Game?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/third-place-world-cup-game-france"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/fifa1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:44:27 -0400",
-      "teams": []
     },
     {
       "headline": "Nobby Stiles died with brain condition caused by repeatedly heading a football, coroner rules",
@@ -864,41 +1482,6 @@
         "Spain",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Favored; Mbappé Still In Running",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-5.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:11:31 -0400",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Spain Favored After Upset Win Over France",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pedro-714.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:09:33 -0400",
-      "teams": [
-        "Spain",
-        "France"
       ]
     },
     {
@@ -1379,25 +1962,6 @@
       ]
     },
     {
-      "headline": "England vs. Argentina History: Every Head to Head Match Between the World Cup Rivals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-argentina-history-every-head-head-match-between-world-cup-rivals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-vs-argentina-history.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 08:49:40 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "How to Watch England vs. Argentina and Messi: TV Channel, Live Stream, Time",
       "links": {
         "web": {
@@ -1426,18 +1990,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 12:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "When is the Fifa World Cup 2026 final?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-world-cup-2026-final-183013831.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:22:35 +0000",
       "teams": []
     },
     {
@@ -1790,21 +2342,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 10:21:40 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Final start time, semi-final schedule and results in full",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 10:20:21 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -2519,18 +3056,6 @@
       ]
     },
     {
-      "headline": "World Cup 2026 TV schedule: How to watch every game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 06:03:39 +0000",
-      "teams": []
-    },
-    {
       "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
       "links": {
         "web": {
@@ -3078,22 +3603,6 @@
       ]
     },
     {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 20:38:32 -0400",
-      "teams": []
-    },
-    {
       "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
       "links": {
         "web": {
@@ -3539,22 +4048,6 @@
       "teams": []
     },
     {
-      "headline": "Who's Left in the 2026 World Cup? Who's Been Eliminated?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/whos-left-2026-world-cup-whos-been-eliminated"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284812664.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:22:44 -0400",
-      "teams": []
-    },
-    {
       "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
       "links": {
         "web": {
@@ -3617,44 +4110,6 @@
         "Spain",
         "France",
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Semifinal Odds: England Favored Over Argentina; Spain Wins",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/harry-714.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:01:42 -0400",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Spain First Team To Clinch Ticket To Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-final-matchups"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-bracket.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:01:21 -0400",
-      "teams": [
-        "Spain"
       ]
     },
     {
@@ -15212,485 +15667,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Fri, 10 Jul 2026 05:06:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "☕️🥐 FC Breakfast: France’s finest among the greats 🤩",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fc-breakfast-france-finest-among-045800373.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 04:58:00 +0000",
-      "teams": [
-        "Brazil",
-        "Germany",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: Just How Dominant Has France, Mbappé Been?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-just-how-dominant-has-france-been"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-11.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 00:33:59 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup What to Watch: Spain, Lamine Yamal look to keep unbeaten streak going against Belgium",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-spain-lamine-yamal-look-to-keep-unbeaten-streak-going-against-belgium-040000004.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 04:00:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappe downplays ankle injury after France secure World Cup semifinal spot: 'Everything is OK'",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/kylian-mbappe-downplays-ankle-injury-france-advance-to-world-cup-semifinals/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/10/92683939-b5c5-41d6-aaf2-d9dc0022a201/france-mbappe-2.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 03:05:58 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Haaland Downplays Norway’s World Cup Chances Before England Clash",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/haaland-says-norways-world-cup-chances-really-low"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2284045437-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 21:55:38 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé Demands Absolute Focus From France Ahead Of World Cup Semifinals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-demands-perfection-from-france-only-one-way-relax-thats-winning"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/france1-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:55:04 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England reached rare heights at the Azteca. Now comes Erling Haaland's Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-england-reached-rare-heights-at-the-azteca-now-comes-erling-haalands-norway-004349832.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 00:43:49 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Ominous France show potential to be Les Bleus' greatest",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ominous-france-show-potential-les-004317297.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 00:43:17 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "France cruise into semi-finals - are they best-ever version of Les Bleus?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gy74978myo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c39b/live/5e1ef190-7bfb-11f1-b60b-a55b51f89291.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 00:43:10 GMT",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "All-Time World Cup Top Scorers: Messi Makes History, Who's Next On The List?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2283650903-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:25:50 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Why Kylian Mbappé Is On Track To Become The World Cup's GOAT",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-greatest-world-cup-player-ever"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/thumbnail-9.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:20:23 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "The Lore Of Lamine Yamal: From The Lionel Messi Baby Picture To The 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lore-lamine-yamal-from-lionel-messi-baby-picture-2026-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/yamal-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:17:22 -0400",
-      "teams": []
-    },
-    {
-      "headline": "France’s attacking evolution under Didier Deschamps passes latest Morocco test | Raphaël Jucobin",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/france-morocco-world-cup-attacking-evolution-didier-deschamps-analysis"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 00:10:10 GMT",
-      "teams": [
-        "Qatar",
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "The Young Star vs. The Old Guard: What To Know For Spain vs. Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/young-star-vs-old-guard-what-know-spain-vs-belgium"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-4.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:06:32 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Cedric Itten Says Switzerland Ready for 'Dream' Battle Against Lionel Messi",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/cedric-itten-says-switzerland-ready-dream-battle-against-lionel-messi"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina20switzerland.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:05:01 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Ranking The Top 10 Goals Of The 2026 FIFA World Cup (So Far)",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/top-10-goals-2026-world-cup-tournament"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-6.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 20:04:32 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Arsene Wenger Names The Only Team Capable of Stopping France At The World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/arsene-wenger-names-only-team-capable-stopping-france-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2249991072-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 19:55:35 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Is Didier Deschamps The Greatest International Soccer Coach? Former Pros Say Yes.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/didier-deschamps-greatest-international-coach-football"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/d691a706-france1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 19:55:27 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Thierry Henry, Zlatan Compare France Star Michael Olise To Tom Brady",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/thierry-henry-zlatan-compare-france-star-michael-olise-tom-brady"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/thumbnail-912.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 19:30:39 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Rooting For The Underdog Is Easy; Stopping Kylian Mbappé And France Is Not",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/rooting-underdog-easy-stopping-kylian-mbappe-france-not"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-2-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 19:26:13 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mbappe and Dembele send France into World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-face-morocco-place-world-185218024.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:54:13 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: Semi-finals!!! Mbappé fires France through",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-semi-finals-225300609.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:53:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Carli Lloyd doubles down on Christian Pulisic 'rest' comments after USMNT star's microfracture diagnosis",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-carli-lloyd-doubles-down-on-christian-pulisic-rest-comments-after-usmnt-stars-microfracture-diagnosis-225033321.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:50:33 +0000",
-      "teams": []
-    },
-    {
-      "headline": "France into semi-finals after comfortable win over Morocco",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3f8/live/f7c5b270-7be2-11f1-9510-1546718f668b.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Who Is France's Next World Cup Opponent?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/who-france-next-world-cup-opponent"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/kylian_mbappe_horizontal.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:47:43 -0400",
-      "teams": [
-        "Paraguay",
-        "France"
-      ]
-    },
-    {
-      "headline": "4 Takeaways From France's Win vs. Morocco In The World Cup Quarterfinals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-from-frances-win-vs-morocco-world-cup-quarterfinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/5c1b18bc-takeaways1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:34:37 -0400",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT",
-      "teams": [
-        "Qatar",
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "France v Morocco player ratings: Ousmane Dembele stars in dominant World Cup quarter-final victory",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-v-morocco-player-ratings-220751890.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 22:07:51 +0000",
       "teams": [
         "Morocco",
         "France"
