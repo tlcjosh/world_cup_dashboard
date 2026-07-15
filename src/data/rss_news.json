@@ -1,6 +1,556 @@
 {
-  "asOf": "2026-07-15T04:13:51.914Z",
+  "asOf": "2026-07-15T06:31:32.818Z",
   "items": [
+    {
+      "headline": "Tuchel puts Bellingham issue to bed as he backs &#8216;world-class&#8217; Real Madrid midfielder ahead of semi-final showdown vs Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-puts-bellingham-issue-bed-060500459.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Infantino controversy erupts, Kane seeking history-defining moment against Messi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/infantino-controversy-erupts-kane-seeking-060500263.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Where did it all go wrong for France against Spain?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/where-did-wrong-france-against-060500011.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 TV schedule: How to watch every game live in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:03:39 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Semi-final start times, final date and results in full",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:03:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/happened-david-batty-shook-off-060002003.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:00:02 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona starlet Lamine Yamal sends defiant message after World Cup semi-final win: &#8216;We are coming for you&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-starlet-lamine-yamal-sends-060000015.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 06:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:59:56 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The ‘anti-football’ red card that explains why Lionel Messi has never faced England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/anti-football-red-card-explains-055627205.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:56:27 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The truth about England v Argentina and where a chaotic World Cup semi-final will be decided",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/truth-england-v-argentina-where-055533721.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:55:33 +0000",
+      "teams": [
+        "Norway",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Report: Liverpool could reignite interest in England World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-liverpool-could-reignite-interest-055500887.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:55:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 38",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c9d3n10pwvqo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cc2/live/8f2cf090-7dac-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:52:19 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Didier Deschamps questions World Cup semi-final referee after France beaten by Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/didier-deschamps-questions-world-cup-054504515.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:45:04 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Bellingham best player at World Cup - Rooney",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bellingham-best-player-world-cup-054041294.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:40:41 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Bellingham best player at World Cup - Rooney",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzy0kl2gzo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c79/live/56ccdda0-7fb9-11f1-9c5f-190f51e64b46.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:40:35 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappe reveals the big mistake France made in ‘sloppy’ World Cup semi-final defeat to Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbappe-reveals-big-mistake-052803202.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:37:58 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/englands-biggest-match-since-1966-020521061.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:32:16 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/team-blowing-away-individuals-spain-002853019.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:32:16 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "'Extremely happy' Deschamps gets the farewell game no-one wants",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/end-incredible-deschamps-era-france-232058094.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:32:16 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "'Extremely happy' Deschamps gets the farewell game no-one wants",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/czx5x14v5w2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b4c8/live/a5485300-7fd8-11f1-ad55-ebd3bf8ee1a7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:32:11 GMT",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Man City 2026 World Cup Watch: Rodri inspires Spain into final at expense of Rayan Cherki and France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-053000450.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:30:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "A World Cup master-class from a Manchester City midfielder is a reminder of what City simply must do",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-master-class-manchester-052000078.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:20:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "☕️🥐 FC Breakfast: Cherki hits out 😡, Spain bogey team 👹, Tielemans 🚀",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fc-breakfast-spain-bogey-side-051700890.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:17:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mates-mate-freedom-argentina-got-020540869.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:11:27 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Pressure is on Argentina, they're world champions - Guehi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pressure-argentina-theyre-world-champions-001845559.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:10:55 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/still-feel-pain-98-different-015925154.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:10:21 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:07:27 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England and Argentina fans ready to \"suffer\" together in World Cup semifinal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-argentina-fans-ready-suffer-050337057.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 05:03:37 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ff8/live/4bab3450-7fb7-11f1-9c5f-190f51e64b46.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:02:40 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c6212j5zw3ko?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35b8/live/0c49d520-7fa6-11f1-a5f4-433bb9aa2e5a.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:02:28 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 05:02:16 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "All the goals from England's 2026 World Cup campaign so far",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4542/live/e3e331f0-7c88-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 04:56:53 GMT",
+      "teams": [
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "All of Argentina's goals from the World Cup so far",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cevlr32zzrno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb3/live/46b8d620-7ef2-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 04:56:42 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England or Argentina? Luis de la Fuente picks final rival",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-argentina-luis-la-fuente-042900699.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 04:29:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England, Argentina's World Cup Semifinal Is So Much More Than 'Just Another Match'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-argentinas-world-cup-semifinal-so-much-more-than-just-another-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-81.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 00:17:58 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
     {
       "headline": "World Cup: Players, managers downplay magnitude of England and Argentina history … for now",
       "links": {
@@ -25,7 +575,7 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Wed, 15 Jul 2026 04:01:16 +0000",
+      "pubDate": "Wed, 15 Jul 2026 04:01:17 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -43,6 +593,22 @@
       "pubDate": "Wed, 15 Jul 2026 04:01:08 +0000",
       "teams": [
         "Argentina"
+      ]
+    },
+    {
+      "headline": "‘Diego, give us a hand’: Argentina v England revives historic tensions",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/argentina-england-tensions-world-cup-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 04:00:44 GMT",
+      "teams": [
+        "Switzerland",
+        "Argentina",
+        "England"
       ]
     },
     {
@@ -80,21 +646,6 @@
       ]
     },
     {
-      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/still-feel-pain-98-different-015925154.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 02:41:40 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "How Luis de la Fuente used Rodri and Ruiz to help Spain upset France at the World Cup",
       "links": {
         "web": {
@@ -107,93 +658,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mates-mate-freedom-argentina-got-020540869.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 02:05:40 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mates, mate and freedom - how Argentina got the best out of Messi",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j24y9jzyo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ff8/live/4bab3450-7fb7-11f1-9c5f-190f51e64b46.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 02:05:33 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-biggest-match-since-1966-020521061.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 02:05:21 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 02:05:15 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c6212j5zw3ko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35b8/live/0c49d520-7fa6-11f1-a5f4-433bb9aa2e5a.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 01:59:13 GMT",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -212,21 +676,6 @@
       "pubDate": "Tue, 14 Jul 2026 21:43:43 -0400",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/team-blowing-away-individuals-spain-002853019.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 01:12:20 +0000",
-      "teams": [
-        "Spain",
-        "France"
       ]
     },
     {
@@ -330,35 +779,6 @@
       ],
       "source": "CBS Sports",
       "pubDate": "Wed, 15 Jul 2026 00:27:02 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Extremely happy' Deschamps gets the farewell game no-one wants",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/end-incredible-deschamps-era-france-232058094.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 00:25:23 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Pressure is on Argentina, they're world champions - Guehi",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pressure-argentina-theyre-world-champions-001845559.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 00:18:45 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -503,24 +923,6 @@
       ]
     },
     {
-      "headline": "'Extremely happy' Deschamps gets the farewell game no-one wants",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/czx5x14v5w2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b4c8/live/a5485300-7fd8-11f1-ad55-ebd3bf8ee1a7.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 23:15:55 GMT",
-      "teams": [
-        "France"
-      ]
-    },
-    {
       "headline": "How Spain Star Lamine Yamal Instills Real Fear In Opposing Defenders",
       "links": {
         "web": {
@@ -635,18 +1037,6 @@
         "Spain",
         "France"
       ]
-    },
-    {
-      "headline": "World Cup 2026 TV schedule: How to watch every game live in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 22:03:43 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup final half-time to last up to 25 minutes",
@@ -824,7 +1214,7 @@
       ]
     },
     {
-      "headline": "Spain into World Cup final after victory over France",
+      "headline": "Spain into World Cup final with victory over France",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss"
@@ -2819,21 +3209,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 14 Jul 2026 10:30:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026: Semi-final start times, final date and results in full",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-fixtures-results-083236383.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:26:46 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "Jules Kounde responds to Lamine Yamal&#8217;s comments ahead of World Cup semi-final: &#8216;At no point have we felt disrespected&#8217;",
@@ -10446,25 +10821,6 @@
       ]
     },
     {
-      "headline": "All the goals from England's 2026 World Cup campaign so far",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4542/live/e3e331f0-7c88-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
       "headline": "Haaland has advantage over Man City team-mates",
       "links": {
         "web": {
@@ -15335,360 +15691,6 @@
         "France",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "Warping the World Cup: the rise of homespun ‘photographs’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/ng-interactive/2026/jul/09/warping-the-world-cup-rise-homespun-photographs"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 07:00:56 GMT",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "‘Best player England has developed’: Olise’s rise from Hayes to the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/09/best-player-england-developed-michael-olise-2026-world-cup-france"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 07:00:54 GMT",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup | Who are France&#8217;s opponents, Morocco?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-france-opponents-070000340.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 07:00:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/goals-comebacks-upsets-record-breaking-054825528.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 06:53:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "The lasting legacy Didier Deschamps and France could leave with another World Cup crown",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lasting-legacy-didier-deschamps-france-062522713.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 06:25:22 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Late goals, comebacks and upsets - is record-breaking World Cup best ever?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2dzy11epeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/becd/live/c9bf1210-7b18-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 05:48:18 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 32",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ce9p4zvlnv5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36f8/live/473d9260-7953-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 05:44:26 GMT",
-      "teams": []
-    },
-    {
-      "headline": "World Cup What to Watch: France, Morocco meet for first time since 2022 semifinals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-what-to-watch-france-morocco-meet-for-first-time-since-2022-semifinals-052700563.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 05:27:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "How Kane and Haaland compare - who would you pick?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kane-haaland-compare-pick-051906466.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 05:19:06 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How Kane and Haaland compare - who would you pick?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzzz54kllo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd53/live/75aa4c70-7b6e-11f1-bee8-53ce494e1abc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 05:18:59 GMT",
-      "teams": []
-    },
-    {
-      "headline": "France predicted XI v Morocco: Désiré Doué to start, Aurélien Tchouaméni out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-predicted-xi-v-morocco-050000875.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 05:00:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "📼With Memo front and centre: Mexico's thank-you video",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/memo-front-centre-mexicos-thank-033400338.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 03:34:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Odds: France 'Head And Shoulders The Most Popular Team' Left",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-france-head-shoulders-most-popular-team-left"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-78.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 23:30:56 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup: Blowout England-Mexico TV ratings in U.S. top those of USA-Belgium, rival NFL playoffs",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-blowout-england-mexico-tv-ratings-in-us-top-those-of-usa-belgium-rival-nfl-playoffs-025308679.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 02:53:08 +0000",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Belgium",
-        "England"
-      ]
-    },
-    {
-      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Match Day 28",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-match-day-28"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/best-bets-16x9-bb-wc-01.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 22:20:25 -0400",
-      "teams": []
-    },
-    {
-      "headline": "🔥Main event: the thrilling race for the 2026 World Cup Golden Boot",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/main-event-thrilling-race-2026-013700242.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 01:37:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🎓Incredible story: He played at the World Cup, now he's left school",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/incredible-story-played-world-cup-013400672.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 01:34:00 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Starmer hints at bank holiday if England win World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/c20y9g2v2wvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff07/live/4822f750-7b2a-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 09 Jul 2026 01:25:24 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "🇲🇽 Looking to 2029: Mexico weighs Club World Cup bid",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/looking-2029-mexico-weighs-club-011600752.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 01:16:00 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic Breaks Silence On Social Media, Thanks Fans Following World Cup Exit",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/christian-pulisic-breaks-silence-social-media-thanks-fans-following-world-cup-exit"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/usa1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 08 Jul 2026 20:49:15 -0400",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "😂 Japanese tantrum, White Chicks, granny and more: top Copa memes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/japanese-tantrum-white-chicks-granny-004100756.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 00:41:00 +0000",
-      "teams": [
-        "Brazil",
-        "Japan",
-        "Uzbekistan",
-        "Panama"
-      ]
-    },
-    {
-      "headline": "France vs. Morocco odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-morocco-odds-prediction-line-time-2026-world-cup-quarterfinals-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/72a52a17-0651-41ea-ac96-368c44d4c835/kylian-mbappe-france-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 09 Jul 2026 00:35:22 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "🙄New era for El Tri: does Rafa Márquez joining help Chivas?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/era-el-tri-does-rafa-002800127.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 00:28:00 +0000",
-      "teams": [
-        "Mexico"
       ]
     }
   ]
