@@ -1,6 +1,357 @@
 {
-  "asOf": "2026-07-15T14:19:14.972Z",
+  "asOf": "2026-07-15T15:58:02.335Z",
   "items": [
+    {
+      "headline": "Argentina’s vice-president calls England ‘usurping pirates’ in rant before World Cup clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-vice-president-calls-england-100238941.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:45:45 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: England v Argentina buildup, Spain stun listless France to reach final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/15/world-cup-2026-spain-stun-listless-france-to-reach-final-england-v-argentina-buildup-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 15:41:26 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona offered chance to sign influential Spain star after successful World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-offered-chance-sign-influential-154000585.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:40:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Real Madrid ready to meet Bayern Munich&#8217;s €200 million price tag for French international",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-ready-meet-bayern-153500513.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:35:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Footy Fix: Lionel Messi and Argentina face Jude Bellingham and England for chance at Spain in World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messi-argentina-jude-bellingham-england-spain-in-world-cup-final/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/44f87d4d-d227-475a-963c-bf52cddbd449/untitled-design-2026-07-15t111401-261.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:22:43 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England World Cup hero Nobby Stiles died with brain injury caused by heading the ball, coroner rules",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-world-cup-hero-nobby-150134985.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:22:25 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona admire World Cup-winning Premier League defender, but prefer a different profile",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-admire-world-cup-winning-151000697.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Fifa hit by injunction in Germany over World Cup ticket resale prices",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/fifa-injunction-germany-world-cup-ticket-resale-prices"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 15:04:55 GMT",
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "headline": "Argentina Starting XI vs England: Confirmed Team News and Predicted Lineup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-starting-xi-vs-england-150000308.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:00:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup semifinal live updates: England vs. Argentina score, highlights and analysis",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/live/england-vs-argentina-world-cup-2026-score-result-schedule-live-updates-150000908.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 15:00:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who is Ismail Elfath? England v Argentina referee for World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ismail-elfath-england-v-argentina-061019038.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:57:52 +0000",
+      "teams": [
+        "Morocco",
+        "United States",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:57:28 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England vs. Argentina live stream: How to watch FIFA World Cup semifinals, predictions and lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-argentina-live-stream-fifa-world-cup-semifinals-predictions-lineups/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/f2556de6-6573-4cbc-a684-737d2efaf871/untitled-design-2026-07-15t104646-172.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:53:32 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "When Was England’s Last World Cup Win?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/fifa-2026-world-cup-england-germany"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/kaneh1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 10:48:15 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "ITV reveals broadcast plan for World Cup final and half-time show",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/itv-reveals-broadcast-plan-world-082617445.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:47:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "As Argentina Tries to Win the World Cup, the Rest of Latin America Cheers Against It",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-world-cup-semifinals.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 15 Jul 2026 14:45:31 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Michael Olise wants to move to Real Madrid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/michael-olise-wants-move-real-144000495.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:40:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Next Italy coach: Pirlo links cause controversy, what’s the best option?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/next-italy-coach-pirlo-links-143000911.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Brazilian World Cup legend Jairzinho takes a shot: Michael Donald’s best photograph",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/artanddesign/2026/jul/15/jairzinho-footballer-brazil-rio-favelas-michael-donalds-best-photograph"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 14:23:53 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Could England v Argentina be delayed by storms? World Cup 2026 weather protocol explained ahead of semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-world-cup-games-could-144300011.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:22:38 +0000",
+      "teams": [
+        "Mexico",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "For Argentina, a World Cup Semifinal Against England Isn’t Just Soccer",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-england-rivalry-world-cup.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 15 Jul 2026 14:20:36 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England v Argentina predicted line-ups: Who is set to start World Cup semi-final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-v-argentina-predicted-line-141115857.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 14:20:10 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Football Daily | Spain leave France at sixes and sevens as L’Équipe dish out the twos",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/football-daily-email-gwc-spain-france"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 14:09:18 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina"
+      ]
+    },
     {
       "headline": "2030 World Cup: Locations, Hosts, Dates, For The Centenary Tournament",
       "links": {
@@ -16,23 +367,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 15 Jul 2026 10:06:02 -0400",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026: England v Argentina buildup, Spain stun listless France to reach final – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/15/world-cup-2026-spain-stun-listless-france-to-reach-final-england-v-argentina-buildup-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 14:04:23 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "Lamine Yamal’s home ‘targeted by burglars’ hours after Spain reach World Cup final",
@@ -147,20 +481,6 @@
       "teams": [
         "Uruguay",
         "Spain"
-      ]
-    },
-    {
-      "headline": "As Argentina Tries to Win the World Cup, the Rest of Latin America Cheers Against It",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-world-cup-semifinals.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 15 Jul 2026 13:21:52 +0000",
-      "teams": [
-        "Argentina"
       ]
     },
     {
@@ -385,21 +705,6 @@
       "teams": []
     },
     {
-      "headline": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 11:28:39 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "‘Collective failure’: French press digests World Cup semi-final defeat by Spain",
       "links": {
         "web": {
@@ -539,22 +844,6 @@
       ]
     },
     {
-      "headline": "Could England v Argentina be delayed by storms? World Cup 2026 weather protocol explained ahead of semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-world-cup-games-could-144300011.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 10:54:10 +0000",
-      "teams": [
-        "Mexico",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "How Does England Coach Thomas Tuchel Handle World Cup Stress? Ice Cream.",
       "links": {
         "web": {
@@ -616,21 +905,6 @@
       "teams": []
     },
     {
-      "headline": "Argentina’s vice-president calls England ‘usurping pirates’ in rant before World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-vice-president-calls-england-100238941.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 10:29:27 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "World Cup: Tuchel, Konsa, Guéhi & Stones before Argentina",
       "links": {
         "web": {
@@ -646,23 +920,6 @@
       "pubDate": "Wed, 15 Jul 2026 10:27:00 GMT",
       "teams": [
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Who is Ismail Elfath? England v Argentina referee for World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ismail-elfath-england-v-argentina-061019038.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 10:23:58 +0000",
-      "teams": [
-        "Morocco",
-        "United States",
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -1011,18 +1268,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 08:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "ITV reveals broadcast plan for World Cup final and half-time show",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/itv-reveals-broadcast-plan-world-082617445.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 08:26:17 +0000",
       "teams": []
     },
     {
@@ -1940,21 +2185,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 04:07:54 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "For Argentina, a World Cup Semifinal Against England Isn’t Just Soccer",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/15/world/americas/argentina-england-rivalry-world-cup.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 15 Jul 2026 04:01:17 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -15465,230 +15695,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "📋 Rematch on the cards? France and Morocco line-ups confirmed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rematch-cards-france-morocco-line-184100442.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:41:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "🐐 Out-of-this-world World Cup level! Why Messi still owns everyone",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-world-cup-level-why-183700704.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:37:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How should England line-up against Norway? Our writers pick their XIs for World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-line-against-norway-writers-070558404.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:20:55 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rice and Ødegaard put club union on hold in decisive duel between England and Norway",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/09/declan-rice-martin-odegaard-arsenal-norway-england-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 18:15:19 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona star Gavi: &#8216;I dream of scoring the World Cup final winner against Messi&#8217;s Argentina&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-star-gavi-dream-scoring-180500344.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:05:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Leeds United In New Serious Push For €30m World Cup Star: Why They Have To Pay The Premium Now?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/leeds-united-serious-push-30m-180500911.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 18:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Anthony Gordon: ‘I have always been very intrigued to see who I can become’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/09/anthony-gordon-i-have-always-been-very-intrigued-to-see-who-i-can-become"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 18:00:58 GMT",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Liverpool get involved in near 20-club scramble for FIFA World Cup breakout jewel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-involved-near-20-club-174000006.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "England Defender Jarell Quansah Suspended 2 Games For World Cup Red Card",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-player-jarell-quansah-suspended-world-cup-red-card-norway-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/quansah1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 09 Jul 2026 13:35:25 -0400",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/christian-pulisic-suffered-leg-fracture-173113318.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:31:13 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Marc Guehi injury scare eased ahead of Man City-laden Norway vs England quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/marc-guehi-injury-scare-eased-173000231.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:30:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "⚖️Referee confirmed: João Pinheiro to officiate Argentina v Switzerland",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/referee-confirmed-jo-o-pinheiro-172700155.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:27:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup: FIFA bans England’s Jarell Quansah for two games after red card vs. Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/article/world-cup-fifa-bans-englands-jarell-quansah-for-two-games-after-red-card-vs-mexico-172518608.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:25:18 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup: FIFA bans England's Jarell Quansah for two games after red card vs. Mexico",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-fifa-bans-englands-jarell-quansah-for-two-games-after-red-card-vs-mexico-172518608.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 09 Jul 2026 17:25:18 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
       ]
     }
   ]
