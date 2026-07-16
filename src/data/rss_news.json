@@ -1,6 +1,190 @@
 {
-  "asOf": "2026-07-16T18:36:15.936Z",
+  "asOf": "2026-07-16T19:45:06.289Z",
   "items": [
+    {
+      "headline": "Pelé's Brazil jersey worn during 1958 World Cup final sells at auction for $4.9 million",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/peles-brazil-jersey-worn-during-1958-world-cup-final-sells-at-auction-for-49-million-192554393.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 19:25:54 +0000",
+      "teams": [
+        "Brazil",
+        "Sweden"
+      ]
+    },
+    {
+      "headline": "No Longer A Baby In A Bathtub, Yamal Reunites With Messi At The World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-final-messi-argentina-yamal-spain-baby-finalissima"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/f8aac8c8-artboard-11-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:23:26 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Some England players disappointed at Tuchel's tactics",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-players-disappointed-tuchels-tactics-191455960.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 19:14:55 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Some England players disappointed at Tuchel's tactics",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cqjxl90x27ro?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fd0/live/9714bd30-8133-11f1-b525-63787292c170.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 19:14:49 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel blames England’s ‘DNA’ following World Cup semi-final defeat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-blames-england-dna-191420607.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 19:14:20 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Donald Trump to attend World Cup final and present trophy",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/donald-trump-attend-world-cup-190702679.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 19:07:02 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to watch England vs France live: World Cup third place game stream, TV channel, team news, prediction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-vs-france-live-190351324.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 19:03:51 +0000",
+      "teams": [
+        "Qatar",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "The 26 Most Incredible Stats From The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/26-most-incredible-stats-from-2026-fifa-world-cup-messi-ronaldo-mbappe-haaland"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/6f8af610-artboard-1-3.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:01:56 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona impressed by Premier League star&#8217;s World Cup displays but no move planned",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-impressed-premier-league-star-185000553.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 18:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "US Soccer’s JT Batson deflects on Trump’s role in Balogun saga: ‘The president is the president’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-soccer-jt-batson-deflects-184541142.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 18:45:41 +0000",
+      "teams": [
+        "Bosnia-Herzegovina",
+        "United States",
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "♾️ Infinite Leo! The incredible records Messi can break in the final 🤯",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/infinite-leo-incredible-records-messi-184300872.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 18:43:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Four passes in 19 minutes: damning numbers behind England’s collapse",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/four-england-passes-19-minutes-argentina-2026-world-cup-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 18:41:58 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
     {
       "headline": "Brasileirão round-up: what changed at clubs during the Copa break",
       "links": {
@@ -232,7 +416,7 @@
       ]
     },
     {
-      "headline": "England Was Good At The World Cup But, As Always, Not Good Enough To Bring It Home",
+      "headline": "England's World Cup Run Wasn't Good Enough, Again. Who's Really To Blame?",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/england-argentina-world-cup-loss-tuchel-bellingham"
@@ -15432,185 +15616,6 @@
       "pubDate": "Sat, 11 Jul 2026 11:01:34 +0000",
       "teams": [
         "Argentina"
-      ]
-    },
-    {
-      "headline": "England vs. Norway Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-norway-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284831245-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 07:00:51 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Tunnel vision: candid photos of World Cup 2026 stars",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/gallery/2026/jul/11/tunnel-vision-candid-photos-of-world-cup-2026-stars"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 11:00:48 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Should Argentina take Messi off penalties?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c6214y2dlgno?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba55/live/87d35590-7d17-11f1-b61e-1b6852ddc42f.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 10:51:33 GMT",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Erling Haaland: Norway's Goal-Scoring Machine, And 'Babygirl'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-norway-erling-haaland"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haalandh1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:51:01 -0400",
-      "teams": [
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Barcelona forward staying at club remains a possibility despite advanced PSG talks",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-forward-staying-club-remains-105000206.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 10:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Forget Mbappe and Messi, Haaland is the star of this World Cup forcing England into a vital change",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/erling-haaland-norway-humble-hero-141220735.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 10:38:59 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mbappé and Dembélé outscore 45 sides at World Cup, eye record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-demb-l-outscore-45-100200949.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 10:02:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid&#8217;s Santiago Bernabeu could miss out on opportunity to host 2030 World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-santiago-bernabeu-could-095000516.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 09:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Spain legend compares Arsenal star to David Villa",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-legend-compares-arsenal-star-095000599.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 09:50:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Lammens laments late mistake as Spain make the semis | World Cup Daily",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/11/lammens-laments-late-mistake-as-spain-make-the-semis-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 09:47:30 GMT",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Xavi Espart talks Barcelona debut, Flick, La Masia, U19 Euro final: &#8216;Almost a dream&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/xavi-espart-talks-barcelona-debut-093500838.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 09:35:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "‘The final before the final’: Spain must improve to beat France – but two things are in their favour",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/final-final-spain-must-improve-092943962.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 09:29:43 +0000",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "France"
       ]
     }
   ]
