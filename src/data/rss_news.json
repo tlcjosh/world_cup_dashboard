@@ -1,6 +1,239 @@
 {
-  "asOf": "2026-07-15T23:13:50.532Z",
+  "asOf": "2026-07-16T00:13:01.786Z",
   "items": [
+    {
+      "headline": "Who is injured for the World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:52:21 +0000",
+      "teams": []
+    },
+    {
+      "headline": "'That's why he's the king' - Messi sets up third World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thats-why-hes-king-messi-234225267.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:48:53 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "'That's why he's the king' - Messi sets up third World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8jnl9zdzn2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48d0/live/8eb95380-80a7-11f1-a71d-c716243bdc80.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 23:42:19 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "'He was my biggest fan' - BBC pundit Richards' father dies",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yv3e5y0w4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b4c/live/e5068e40-80a4-11f1-b6e5-2d837322ffae.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 15 Jul 2026 23:41:05 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel speaks out on his England future amid criticism over World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-speaks-england-future-233622087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:36:22 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Sports World Reacts To Argentina's Comeback Win vs. England In World Cup Semis",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/sports-world-reacts-argentinas-comeback-win-vs-england-world-cup-semis"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-7.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 19:36:03 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The World Cup, in Photos",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Wed, 15 Jul 2026 23:33:57 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How Lionel Messi, Argentina Have Owned The Closing Minutes At The World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/messi-and-argentina-have-been-kings-of-lategame-heroics-at-this-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi-group.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 19:30:56 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Is Thomas Tuchel to blame for England's loss to Argentina?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-is-thomas-tuchel-to-blame-for-englands-loss-to-argentina-232546143.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:25:46 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "‘We didn’t know what to do’: Why did England make so many defensive changes?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/didn-t-know-why-did-220237677.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:23:38 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England Manager Thomas Tuchel Defends Strategy Following World Cup Semifinal Defeat",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-manager-thomas-tuchel-defends-strategy-following-world-cup-semifinal-defeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tuchel_horizontal.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 19:19:36 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel lost his bottle and his pure cowardice ended England’s World Cup dream",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-lost-bottle-pure-214455925.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:14:03 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina face fine for Falklands banner in semi-final win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-face-fine-falklands-banner-224952313.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:12:29 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/lionel-messi-england-argentina-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 23:07:35 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Party in Argentina! The Obelisco celebrates reaching the final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/party-argentina-obelisco-celebrates-reaching-230500731.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:05:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "Spain vs. Argentina Combined XI: Messi, Yamal Lead World Cup Final Team",
       "links": {
@@ -74,6 +307,21 @@
       ]
     },
     {
+      "headline": "It was supposed to be different but Argentina showed intent, Tuchel showed fear | Jacob Steinberg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/15/thomas-tuchel-england-argentina-semi-final-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 15 Jul 2026 22:55:37 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
       "headline": "What next for England? Why there’s hope for the future despite World Cup pain",
       "links": {
         "web": {
@@ -84,36 +332,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 22:53:26 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Thomas Tuchel lost his bottle and his pure cowardice ended England’s World Cup dream",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-lost-bottle-pure-214455925.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 22:53:10 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina face fine for Falklands banner in semi-final win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-face-fine-falklands-banner-224952313.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 22:49:52 +0000",
-      "teams": [
-        "Argentina",
         "England"
       ]
     },
@@ -145,7 +363,7 @@
       },
       "images": [
         {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286100411.jpg"
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-715.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -235,21 +453,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 22:30:00 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "‘We didn’t know what to do’: Why did England make so many defensive changes?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/didn-t-know-why-did-220237677.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 22:29:00 +0000",
-      "teams": [
-        "Argentina",
         "England"
       ]
     },
@@ -395,6 +598,25 @@
       "images": [
         {
           "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1spaarg.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 18:05:46 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain vs. Argentina Confirmed For World Cup Final: Here's What To Know",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-vs-england-argentina-confirmed-world-cup-final-heres-what-knowcmpidorgoneagowned-othermcreferralsrcfscmp10010131002add625e"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mixcollage-15-jul-2026-04-38-pm-3022.jpg"
         }
       ],
       "source": "Fox Sports",
@@ -1366,20 +1588,6 @@
       "source": "The Guardian",
       "pubDate": "Wed, 15 Jul 2026 18:22:54 GMT",
       "teams": []
-    },
-    {
-      "headline": "World Cup injury tracker: Declan Rice latest, William Saliba blow and Jordan Henderson freak arm break",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:08:17 +0000",
-      "teams": [
-        "Jordan"
-      ]
     },
     {
       "headline": "Headers caused Stiles' brain disease, coroner finds",
@@ -6400,18 +6608,6 @@
       "teams": [
         "Morocco"
       ]
-    },
-    {
-      "headline": "The World Cup, in Photos",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Tue, 14 Jul 2026 09:04:26 +0000",
-      "teams": []
     },
     {
       "headline": "France vs. Spain Prediction, Odds, Picks For World Cup Match",
@@ -15515,183 +15711,6 @@
       "pubDate": "Fri, 10 Jul 2026 10:57:06 +0000",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "A-Z World Cup quiz: Name the best performing team for every letter",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cjepy9vk5vzo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/667d/live/796fa350-7be6-11f1-bee8-53ce494e1abc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 10:51:06 GMT",
-      "teams": []
-    },
-    {
-      "headline": "France&#8217;s Adrien Rabiot on Morocco: &#8216;We didn&#8217;t have to worry a lot about this team.&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-adrien-rabiot-morocco-didn-103500356.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 10:35:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Church of England forced to defend World Cup ‘hand of God’ prayer",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/world/articles/church-england-forced-defend-world-102428489.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 10:24:28 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "‘What’s more American than baseball?’: World Cup brings fans, chants and verve to the national pastime",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/world-cup-major-league-baseball-fans-michael-harris-braves"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 10:00:17 GMT",
-      "teams": []
-    },
-    {
-      "headline": "More than the Score",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ny0prm?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ny0pwt.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 09:49:00 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid chasing a historic goals record at the 2026 FIFA World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-chasing-historic-goals-093500727.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 09:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📺 Friday guide (10): where to watch Spain v Belgium and more",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fridays-schedule-10-where-watch-091900394.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 09:19:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "FRANCE THROUGH TO THE SEMIFINALS, 90' FOR MAIGNAN AND RABIOT",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-semifinals-90-maignan-rabiot-091600998.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 09:16:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Courtois: Two-on-One Is Belgium&#8217;s Best Hope Against Yamal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/courtois-two-one-belgium-best-090500681.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 09:05:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Exit strategies: how and why 27% of World Cup coaches have left their jobs",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/world-cup-coaches-left-their-jobs"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 09:03:32 GMT",
-      "teams": [
-        "Sweden",
-        "Tunisia"
-      ]
-    },
-    {
-      "headline": "How the World Cup Made Me Norwegian",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/10/magazine/world-cup-diary-norway-nationalism.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Fri, 10 Jul 2026 09:03:28 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Spain vs. Belgium Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-vs-belgium-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284935408-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 05:00:47 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
       ]
     }
   ]
