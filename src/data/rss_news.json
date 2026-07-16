@@ -1,6 +1,287 @@
 {
-  "asOf": "2026-07-16T10:31:50.560Z",
+  "asOf": "2026-07-16T12:06:11.240Z",
   "items": [
+    {
+      "headline": "Argentina face action over Falklands banner",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4aa5/live/ab442060-80e9-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 12:01:37 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "24m tune in to watch England-Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cwyjwdvq6dno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4a6/live/22302ca0-8108-11f1-b8b2-1fedac836136.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 11:51:33 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Messi could break and match several records, including 🇧🇷 ones, on Sunday",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-could-break-match-several-114700048.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:47:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: UK government backs calls for Fifa to investigate Argentina over Falklands banner; Tuchel takes blame amid criticism of tactics – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/16/world-cup-2026-argentina-break-england-hearts-and-head-for-final-with-spain-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 11:32:21 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Jude Bellingham clarifies Lionel Messi confrontation in England’s World Cup semi-final loss to Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-clarifies-lionel-messi-090554307.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:28:13 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🤯 Crazy stats! How likely was Argentina’s comeback v England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/crazy-stats-likely-argentina-comeback-112100446.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:21:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona duo closing in on historic World Cup milestone with Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-duo-closing-historic-world-112000753.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:20:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "The deeper question England must answer after latest World Cup failure",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/deeper-england-must-answer-latest-091858499.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:13:26 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "‘Tuchel threw the game away’: Readers split on manager after England’s World Cup exit to Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-threw-game-away-readers-084558671.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:07:04 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The remarkable photos of Lionel Messi and baby Lamine Yamal as pair prepare to clash in World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/remarkable-photos-lionel-messi-baby-110432893.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:04:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Thomas Tuchel lost his bottle and his pure cowardice ended England’s World Cup dream",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-lost-bottle-pure-214455925.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:00:16 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Manchester United stalling offer for Manu Kone",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-united-stalling-offer-manu-110000574.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Jude Bellingham slaps Argentina star after England exit World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-slaps-argentina-star-082133144.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 10:57:36 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Craig Gordon retires from football after making Scotland World Cup squad at 43",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/craig-gordon-retires-football-making-105239327.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 10:52:39 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "Argentina midfielder defends Malvinas banner after World Cup win: ‘A sad part of our history’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-midfielder-defends-malvinas-banner-104807422.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 10:48:07 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Why you should care about World Cup third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-care-world-cup-third-104408274.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 10:44:08 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Why you should care about World Cup third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cly5we2lgq4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3097/live/5acbca60-809a-11f1-926f-c90d1bcfbc84.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 10:44:03 GMT",
+      "teams": []
+    },
+    {
+      "headline": "The World Cup has shown why Manchester City are prepared to spend big to bolster their midfield",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-shown-why-manchester-104000265.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 10:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "In 60 years of hurt, this might be England’s most painful World Cup defeat yet",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/60-years-hurt-might-england-103231868.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 10:32:31 +0000",
+      "teams": [
+        "England"
+      ]
+    },
     {
       "headline": "From risk of death to the oldest man at World Cup",
       "links": {
@@ -17,22 +298,6 @@
       "pubDate": "Thu, 16 Jul 2026 10:16:51 GMT",
       "teams": [
         "Scotland"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Tuchel takes blame amid speculation over England future; Argentina players criticised for banner – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/16/world-cup-2026-argentina-break-england-hearts-and-head-for-final-with-spain-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 10:15:07 GMT",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -162,20 +427,6 @@
       ]
     },
     {
-      "headline": "The deeper question England must answer after latest World Cup failure",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/deeper-england-must-answer-latest-091858499.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:29:32 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
       "headline": "📸 UK papers savage Tuchel: his fault, suicidal tactics! Falklands...",
       "links": {
         "web": {
@@ -214,21 +465,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Thu, 16 Jul 2026 09:25:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham clarifies Lionel Messi confrontation in England’s World Cup semi-final loss to Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-clarifies-lionel-messi-090554307.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:24:15 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -1375,7 +1611,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b4c/live/e5068e40-80a4-11f1-b6e5-2d837322ffae.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5834/live/f7641cc0-810c-11f1-bc2f-2bbab5acc9ff.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -1481,21 +1717,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 15 Jul 2026 19:19:36 -0400",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Thomas Tuchel lost his bottle and his pure cowardice ended England’s World Cup dream",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-lost-bottle-pure-214455925.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:14:03 +0000",
-      "teams": [
-        "Argentina",
         "England"
       ]
     },
@@ -1626,25 +1847,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 22:53:26 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina face action over Falklands banner",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4aa5/live/ab442060-80e9-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 22:49:47 GMT",
-      "teams": [
-        "Argentina",
         "England"
       ]
     },
@@ -15447,240 +15649,6 @@
       "teams": [
         "United States",
         "Norway"
-      ]
-    },
-    {
-      "headline": "Colombia condemn death threats against player after World Cup shootout exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/colombia-condemn-death-threats-against-225633041.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 22:56:33 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "England's Guehi, Rice & James all train before Norway game",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f88f/live/b04248c0-7ca8-11f1-ae7a-17343cbf3bfa.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 22:06:14 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "France vs. Spain Confirmed For Semifinals: Here's What To Know",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-spain-confirmed-semifinals-heres-what-know"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/b2c7a3a4-artboard-1-1.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 18:02:07 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/063e/live/a3453dd0-7ca8-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "'Influential' Lamine Yamal has 'more to give' to Spain",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/cy9r3dnngqno?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b3d/live/dacbad80-7ca7-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 21:52:15 GMT",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Mikel Merino Rescues La Roja Again: 4 Takeaways From Spain's Win Over Belgium",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-vs-belgium-takeaways-mikel-merino-world-cup-july-10"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/merino1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 17:46:27 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Norway invite pressure as dream World Cup return continues with quarterfinal match against England",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/norway-invite-pressure-dream-world-cup-england-quarterfinals/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/10/fdf7704a-3074-4049-8b9c-dbc1b30f80fb/erling-haaland.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:43:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "🔥 A manager for the ages! De la Fuente makes football history",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/manager-ages-la-fuente-makes-214200452.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:42:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Marc Guehi and Declan Rice train in huge World Cup injury boost for England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/marc-guehi-declan-rice-train-213147465.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:31:47 +0000",
-      "teams": [
-        "Mexico",
-        "England"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal Gets 7/10 | Spanish Players Rated After Their 2-1 Win Vs Belgium In The FIFA World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lamine-yamal-gets-7-10-213000650.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:30:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/spain-belgium-world-cup-2026-quarter-final-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 21:13:02 GMT",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Tearful Thibaut Courtois forced off before Senne Lammens error costs Belgium in World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thibaut-courtois-forced-off-tears-204241922.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:12:18 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Belgium goalkeeper Thibaut Courtois forced off due to injury during quarterfinal loss to Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-belgium-goalkeeper-thibaut-courtois-forced-off-due-to-injury-during-quarterfinal-loss-to-spain-210721554.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:07:21 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "France to face Spain in World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-face-spain-world-cup-210500563.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:05:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
       ]
     }
   ]
