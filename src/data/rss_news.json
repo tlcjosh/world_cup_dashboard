@@ -1,8 +1,23 @@
 {
-  "asOf": "2026-07-16T15:54:22.145Z",
+  "asOf": "2026-07-16T17:19:14.893Z",
   "items": [
     {
-      "headline": "World Cup reader Q&A: Nick Ames answers your questions now - live",
+      "headline": "World Cup 2026: Argentina-Spain final ticket prices approaching Super Bowl levels",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-argentina-spain-final-ticket-prices-approaching-super-bowl-levels-171118897.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 17:11:18 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "‘The post-Kane era isn’t really one I want to contemplate!’ – your World Cup questions answered",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/sport/live/2026/jul/16/world-cup-reader-qa-post-your-questions-for-nick-ames-now"
@@ -10,9 +25,10 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 15:50:49 GMT",
+      "pubDate": "Thu, 16 Jul 2026 16:57:38 GMT",
       "teams": [
         "Mexico",
+        "Saudi Arabia",
         "Spain",
         "France",
         "Norway",
@@ -22,6 +38,232 @@
         "Croatia",
         "Ghana",
         "Panama"
+      ]
+    },
+    {
+      "headline": "England Was Good At The World Cup But, As Always, Not Enough Bring It Home",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-argentina-world-cup-loss-tuchel-bellingham"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9sad-eng-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:36:57 -0400",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:31:37 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Unai Simón Heavily Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/unai-714.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:31:01 -0400",
+      "teams": []
+    },
+    {
+      "headline": "💣 Milan dream of Foden, Juve-Icardi, Kean's future 🤷‍♂️: today's market 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/milan-dream-foden-juve-icardi-163000840.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 16:30:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball Odds: Messi Heavily Favored After Semifinal Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285110611-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:29:53 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored After Semifinal Heroics",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/leo-715.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:28:59 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Third-Place Odds: France Favored Over England",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-odds-france-england"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/4a1dc6df-france-714.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:27:59 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain vs. Argentina Odds: Spain Favored In World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-vs-argentina-odds-spain-favored-over-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-715.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:26:56 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Title Odds: Spain Favored Over Argentina In Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pedro-714.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 12:26:17 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Europe&#8217;s Top Football Leagues: A Season Preview",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/europe-top-football-leagues-season-162000700.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 16:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Cruzeiro target winger and midfielder to complete squad; state of play",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cruzeiro-target-winger-midfielder-complete-162000034.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 16:20:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "'I'm disappointed for Watkins - he never got a sniff'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/im-disappointed-watkins-never-got-160623182.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 16:06:23 +0000",
+      "teams": [
+        "Argentina",
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "🚨Alarm bells in Spain: Lamine Yamal misses training before final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/alarm-bells-spain-lamine-yamal-160100625.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 16:01:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "What next for England? How does Tuchel fix key problems for Euro 2028?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/next-england-does-tuchel-fix-154922658.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:49:22 +0000",
+      "teams": [
+        "England"
       ]
     },
     {
@@ -516,6 +758,22 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 16 Jul 2026 12:15:00 +0000",
       "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Keir Starmer wants Fifa investigation into Argentina players who held Falklands banner",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/keir-starmer-fifa-investigation-argentina-players-falklands-banner-malvinas-england-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 12:11:09 GMT",
+      "teams": [
+        "Spain",
         "Argentina",
         "England"
       ]
@@ -1688,22 +1946,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Ball Odds: Messi Heavily Favored After Semifinal Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285110611-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 22:25:38 -0400",
-      "teams": []
-    },
-    {
       "headline": "Now for the trophy! All about the World Cup final: Spain v Argentina",
       "links": {
         "web": {
@@ -1847,22 +2089,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 20:34:32 -0400",
-      "teams": []
-    },
-    {
       "headline": "Why Lionel Messi vs. Lamine Yamal Makes the World Cup Final A Must-Watch",
       "links": {
         "web": {
@@ -1915,22 +2141,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Glove: Unai Simón Heavily Favored Amid Historic Summer",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/unai-714.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 20:23:00 -0400",
-      "teams": []
     },
     {
       "headline": "Argentina Beats England 2-1: Tuchel’s Tactical Collapse, Messi's Brilliance & Spain Final Preview",
@@ -2259,25 +2469,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Third-Place Odds: France Favored Over England",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-third-place-odds-france-england"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/4a1dc6df-france-714.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:56:21 -0400",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
       "headline": "It was supposed to be different but Argentina showed intent, Tuchel showed fear | Jacob Steinberg",
       "links": {
         "web": {
@@ -2304,25 +2495,6 @@
       "pubDate": "Wed, 15 Jul 2026 22:53:26 +0000",
       "teams": [
         "England"
-      ]
-    },
-    {
-      "headline": "Spain vs. Argentina Odds: Spain Favored In World Cup Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-vs-argentina-odds-spain-favored-over-world-cup-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-715.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:48:08 -0400",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     },
     {
@@ -2373,25 +2545,6 @@
         "Spain",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Title Odds: Spain Favored Over Argentina In Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/pedro-714.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:35:22 -0400",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     },
     {
@@ -2962,22 +3115,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored After Semifinal Heroics",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/leo-715.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:19:03 -0400",
-      "teams": []
     },
     {
       "headline": "Late Martinez header sends Argentina to World Cup final",
@@ -15474,138 +15611,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 11 Jul 2026 07:00:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Watch: Real Madrid veteran leaves Spain vs Belgium injured and in tears",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-real-madrid-veteran-leaves-070000508.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 07:00:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Report: Man United eyeing move for World Cup star with £5.2m release clause",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-man-united-eyeing-move-065000951.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:50:00 +0000",
-      "teams": [
-        "Paraguay"
-      ]
-    },
-    {
-      "headline": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/merino-unlikely-hero-again-spain-233005397.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:49:50 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Lammens' error spells end for Belgium's golden generation",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lammens-error-spells-end-belgiums-231457672.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:49:50 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Voices: Poll: Should there be a bank holiday if England win the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/voices-poll-bank-holiday-england-064500402.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:45:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Is it time to give record-breaker Pickford the credit he deserves?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/time-record-breaker-pickford-credit-055538585.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:43:37 +0000",
-      "teams": [
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "England’s tortured relationship with quarter-finals is over – but beating Norway would break new ground",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-tortured-relationship-quarter-finals-062112589.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:21:12 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Thiago Pitarch talks Mourinho, Bellingham, Modric and Iniesta: &#8216;Best players in the world&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thiago-pitarch-talks-mourinho-bellingham-062000345.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:20:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Haaland & Kane set for epic battle, Lammens sends Spain through",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/haaland-kane-set-epic-battle-061500279.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:15:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
     }
   ]
 }
