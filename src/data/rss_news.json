@@ -1,6 +1,30 @@
 {
-  "asOf": "2026-07-16T22:42:47.584Z",
+  "asOf": "2026-07-16T23:42:05.557Z",
   "items": [
+    {
+      "headline": "The World Cup, in Photos",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Thu, 16 Jul 2026 23:11:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "William Saliba struggled with back fracture throughout the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/william-saliba-struggled-back-fracture-223500388.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 22:35:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Will Kylian Mbappé Play vs. England? France Star's Status For Bronze Medal Match",
       "links": {
@@ -33,7 +57,7 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Best XI possibilities: Who will makes the Team of the Tournament?",
+      "headline": "2026 World Cup Best XI possibilities: Who will make the Team of the Tournament?",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/2026-world-cup-best-xi-221038328.html"
@@ -2697,18 +2721,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "The World Cup, in Photos",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Thu, 16 Jul 2026 01:35:02 +0000",
-      "teams": []
     },
     {
       "headline": "Argentina face action after waving Falklands banner",
@@ -15579,20 +15591,6 @@
       "teams": [
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "South Africa midfielder Jayden Adams dies weeks after playing in World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/south-africa-midfielder-jayden-adams-dies-weeks-after-playing-in-world-cup-140839403.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 14:08:39 +0000",
-      "teams": [
-        "South Africa"
       ]
     }
   ]
