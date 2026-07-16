@@ -1,6 +1,47 @@
 {
-  "asOf": "2026-07-16T14:20:54.035Z",
+  "asOf": "2026-07-16T15:54:22.145Z",
   "items": [
+    {
+      "headline": "World Cup reader Q&A: Nick Ames answers your questions now - live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/sport/live/2026/jul/16/world-cup-reader-qa-post-your-questions-for-nick-ames-now"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 15:50:49 GMT",
+      "teams": [
+        "Mexico",
+        "Spain",
+        "France",
+        "Norway",
+        "Argentina",
+        "Congo DR",
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "What next for England? How does Tuchel fix key problems for Euro 2028?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq56djw19z2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f614/live/92fa61b0-812d-11f1-b525-63787292c170.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 15:49:15 GMT",
+      "teams": [
+        "England"
+      ]
+    },
     {
       "headline": "World Cup 2026: UK government backs calls for Fifa to investigate Argentina over Falklands banner; Tuchel takes blame amid criticism of tactics – live",
       "links": {
@@ -10,11 +51,228 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 14:06:10 GMT",
+      "pubDate": "Thu, 16 Jul 2026 15:49:10 GMT",
       "teams": [
         "Spain",
         "Argentina",
         "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid&#8217;s current renewal offer €6-10 million short of Vinicius&#8217; demands &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-current-renewal-offer-154000177.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:40:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Messi's Iconic Shrug And Bellingham's Barco Slap: Argentina-England Was Tense",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-jude-bellingham-england-argentina-fight-world-cup-semifinal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi9.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 11:38:13 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Move over Soccerey Bally: how Striker the dog became a 1994 World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/striker-the-dog-mascot-origin-story"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 15:30:42 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Move over Soccerey Bally: how Striker the dog became a 1994 World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/move-over-soccerey-bally-striker-153042198.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:30:42 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The 5️⃣ best World Cup finals 🔥",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/5-best-world-cup-finals-152800557.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:28:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "👀 Spain's dressing-room line: I'm here to win the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spains-dressing-room-line-im-151800278.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 15:18:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Nearly one in five World Cup matches reached heat levels players’ union warns against",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/world-cup-heat-players-union"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 15:01:37 GMT",
+      "teams": []
+    },
+    {
+      "headline": "60 years of hurt: Ranking England's 5 most painful World Cup exits",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/60-years-of-hurt-ranking-englands-5-most-painful-world-cup-exits-145629920.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:56:29 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Malvinas banner could land Argentina in trouble with FIFA, why 🤔",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/banner-over-malvinas-could-see-145000533.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:50:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Manchester City taking close interest in PSG and Senegal World Cup sensation Ibrahim Mbaye",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-taking-close-interest-144500462.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:45:00 +0000",
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Lionel Messi's heroics, Cape Verde's run, viral ducks and other top moments from the 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/lionel-messis-heroics-cape-verdes-run-viral-ducks-and-other-top-moments-from-the-2026-world-cup-143512363.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:35:12 +0000",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "World Cup final picks, predictions: Best bets for Spain-Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/betting/article/world-cup-final-picks-predictions-best-bets-for-spain-argentina-142729568.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:27:29 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "More than the Score",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nz61by?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nz61fd.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 14:26:00 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup final extended half-time break could increase player injury risk, expert warns",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-extended-half-142430308.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:24:30 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Revealed: Milan considered World Cup finalist De la Fuente in 2024",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/revealed-milan-considered-world-cup-142000470.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 14:20:00 +0000",
+      "teams": [
+        "Spain"
       ]
     },
     {
@@ -71,6 +329,21 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 16 Jul 2026 13:39:10 +0000",
       "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Football Daily | It’s the end of the World Cup as England know it",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/football-daily-email-gwc-england-argentina"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 13:38:05 GMT",
+      "teams": [
+        "Argentina",
         "England"
       ]
     },
@@ -1360,7 +1633,7 @@
       ]
     },
     {
-      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To DR Congo's 'Statue Fan'",
+      "headline": "Best Of World Cup: Top Fan Moments, From Mexico's Duck To Argentina's Supporters",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
@@ -1374,7 +1647,8 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 15 Jul 2026 23:18:35 -0400",
       "teams": [
-        "Congo DR"
+        "Mexico",
+        "Argentina"
       ]
     },
     {
@@ -15331,306 +15605,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "When the World Cup finishes, the football continues on BBC Sport",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-finishes-football-continues-060341221.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:03:41 +0000",
-      "teams": []
-    },
-    {
-      "headline": "When the World Cup finishes, the football continues on BBC Sport",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c9w2zr9wzj1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d2d/live/7bc0e940-7c89-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 06:03:35 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Thibaut Courtois explains his injury status after Belgium crash out of FIFA World Cup: &#8216;Lot of pain&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thibaut-courtois-explains-injury-status-060000542.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:00:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: Jeremy Doku and Belgium eliminated after Spain&#8217;s late, late show",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-060000673.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 06:00:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Is it time to give record-breaker Pickford the credit he deserves?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9325/live/9e569ad0-7c80-11f1-a046-0508c8c5d104.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT",
-      "teams": [
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "Triple injury boost for England ahead of World Cup quarter-final vs Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/triple-injury-boost-england-ahead-054500498.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 05:45:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Haaland has advantage over Man City team-mates",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d422/live/71298950-7cad-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Risk of thunderstorms before England face Norway in Miami heat",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cda/live/d0939c10-7d01-11f1-b6e3-7521a4959d1c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "More than the Score",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0ny3ths?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ny3tmn.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 05:02:00 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "England Reveals Plan For Quarterfinals Matchup With Norway: Stop Erling Haaland",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/its-england-against-norway-in-the-world-cup-quarterfinals-with-all-eyes-on-erling-haaland"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haa.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:53:42 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Erling Haaland, Norway face ultimate World Cup test against Harry Kane's England",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/erling-haaland-norway-ultimate-world-cup-test-harry-kane-england/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/11/5684247e-8019-4dad-82ac-18cab66dc023/norway-haaland.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 01:53:10 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "What's next for the USMNT after World Cup? USA men's soccer timeline: Olympics, Copa America, 2030 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/whats-next-usmnt-world-cup-014208149.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 01:42:08 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "England's 3 Keys To Beating Erling Haaland, Norway To Advance To World Cup Semis",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-england-norway-haaland-kane-bellingham-warren-barton"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9eng-nor.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:37:56 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "USMNT upcoming schedule — Friendlies, CONCACAF Nations League after the 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/usmnt-upcoming-schedule-friendly-vs-134800512.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 01:22:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "France vs. Spain Is The World Cup Final That Arrived Early",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-spain-world-cup-final-arrived-early"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 21:00:26 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "England's Guehi, Rice & James all train before Norway game",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/guehi-could-miss-norway-game-224206850.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 00:58:37 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Top 25 players in the USMNT pool right now: A post-World Cup view of the USA men",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/top-25-players-usmnt-pool-004616586.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 00:46:16 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "England vs. Norway odds, prediction, time: 2026 World Cup quarterfinals picks by expert on 25-16 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-norway-odds-prediction-time-2026-world-cup-quarterfinals-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/04/6677ae56-2850-4bf9-aff9-72d6ee83d57e/harry-kane-england.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 00:19:45 +0000",
-      "teams": [
-        "Norway",
-        "England"
       ]
     }
   ]
