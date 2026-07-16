@@ -1,6 +1,500 @@
 {
-  "asOf": "2026-07-16T00:13:01.786Z",
+  "asOf": "2026-07-16T03:42:24.501Z",
   "items": [
+    {
+      "headline": "Best Of World Cup: Top Fan Moments, From The Messi Duck To DR Congo's 'Statue Fan'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-fans-discover-usa-culture-ranch"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/best-wc-fanmoments-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 23:18:35 -0400",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "Where In The World Cup Is Jameis Winston?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 22:34:39 -0400",
+      "teams": []
+    },
+    {
+      "headline": "With World Cup Dream Intact, Argentina Turns Focus To Spain With Confidence",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-dream-intact-argentina-turns-focus-spain-confidence"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-11-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 22:26:53 -0400",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Ball Odds: Messi Heavily Favored After Semifinal Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285110611-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 22:25:38 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Defeat will haunt England for a long time, says Burn",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/defeat-haunt-england-history-repeats-005043039.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 02:24:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Why England's loss to Argentina felt like most painful in 60 years of hurt",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-englands-loss-argentina-felt-014124761.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 02:24:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel retains FA backing despite England defeat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-retains-fa-backing-despite-001527912.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 02:24:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/passive-crumbled-did-tuchels-defensive-010509020.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 02:24:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Now for the trophy! All about the World Cup final: Spain v Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/now-trophy-world-cup-final-015100041.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 01:51:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'That's why he's the king' - Messi sets up third World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thats-why-hes-king-messi-234225267.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 01:40:57 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Why England's loss to Argentina felt like most painful in 60 years of hurt",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj365n05mgdo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd8c/live/edb06350-80b2-11f1-bc06-bdd2d07f7b58.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 01:35:24 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "The World Cup, in Photos",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Thu, 16 Jul 2026 01:35:02 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina face action after waving Falklands banner",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-face-fine-falklands-banner-224952313.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 01:11:46 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal vs. Lionel Messi As Spain-Argentina Set Up World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-final-argentina-spain-lionel-messi-lamine-yamal"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1spaarg.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 21:01:26 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c710/live/f0c66170-80a8-11f1-a6a9-eb791cdccb29.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 00:57:21 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "It's Coming Home, Until It Wasn't: England's Brutal Eliminations Since Last World Cup Win",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-world-cup-tournament-elimination-losses-history"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/harry-kane-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:44:47 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Defeat will haunt England for a long time, says Burn",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1k13mvgyljo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15cd/live/5bf9dd90-80af-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 00:43:58 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎙️ Messi: Like it or not, this group gets nothing handed to them",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-not-group-gets-nothing-004300182.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:43:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'Gutted' Harry Kane on Messi, Argentina and devastation of World Cup exit – video",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/video/2026/jul/16/gutted-harry-kane-on-messi-argentina-and-devastation-of-world-cup-semi-final-exit-video"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 00:35:43 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:34:32 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Why Lionel Messi vs. Lamine Yamal Makes the World Cup Final A Must-Watch",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/thierry-henry-explains-why-lionel-messi-vs-lamine-yamal-makes-world-cup-final-so-special"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-vs-messi.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:34:02 -0400",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel retains FA backing despite England defeat",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cly5ljl414xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810b/live/67d96760-80ab-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 00:33:35 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "How England blew it at the World Cup, as \"missing piece\" and lack of bravery cost them again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-blew-world-cup-missing-003252361.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:32:52 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "England's loss to Argentina a 'similar story' as missed opportunity sees World Cup dream evaporate",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/england-argentina-similar-story-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/0c1c572f-b49d-47a6-aaab-c8d2bd759b25/argentina-england.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:26:15 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup Golden Glove: Unai Simón Heavily Favored Amid Historic Summer",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/unai-714.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Wed, 15 Jul 2026 20:23:00 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Argentina Beats England 2-1: Tuchel’s Tactical Collapse, Messi's Brilliance & Spain Final Preview",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/argentina-beats-england-2-1-tuchels-tactical-collapse-messis-brilliance--spain-final-preview-002159664.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:21:59 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup: Argentina, the team that will not die, claims another victim in England. Heads up, Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-argentina-the-team-that-will-not-die-claims-another-victim-in-england-heads-up-spain-001912734.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:19:12 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "A sad and familiar World Cup ending reveals regrets for England and Thomas Tuchel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sad-familiar-world-cup-ending-215907572.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:19:05 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup: Argentina invokes Falklands War in celebration after beating England — 'Las Malvinas son Argentinas'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-argentina-invokes-falklands-war-in-celebration-after-beating-england--las-malvinas-son-argentinas-001759173.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 00:17:59 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Football Daily",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nz1dsp?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nylm8z.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "teams": [
+        "England"
+      ]
+    },
     {
       "headline": "Who is injured for the World Cup final?",
       "links": {
@@ -12,20 +506,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 23:52:21 +0000",
       "teams": []
-    },
-    {
-      "headline": "'That's why he's the king' - Messi sets up third World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thats-why-hes-king-messi-234225267.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:48:53 +0000",
-      "teams": [
-        "England"
-      ]
     },
     {
       "headline": "'That's why he's the king' - Messi sets up third World Cup final",
@@ -96,18 +576,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "The World Cup, in Photos",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Wed, 15 Jul 2026 23:33:57 +0000",
-      "teams": []
     },
     {
       "headline": "How Lionel Messi, Argentina Have Owned The Closing Minutes At The World Cup",
@@ -191,21 +659,6 @@
       ]
     },
     {
-      "headline": "Argentina face fine for Falklands banner in semi-final win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-face-fine-falklands-banner-224952313.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:12:29 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
       "headline": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
       "links": {
         "web": {
@@ -254,7 +707,7 @@
       ]
     },
     {
-      "headline": "Lionel Messi, Lamine Yamal Met Almost 20 Years Ago For This Delightful Photo Shoot",
+      "headline": "Messi And Yamal Have Met Before, At A Photoshoot When Spain's Star Was Just A Baby",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/messi-yamal-faceoff-world-cup-final-wont-first-meeting"
@@ -336,7 +789,7 @@
       ]
     },
     {
-      "headline": "Argentina face fine for displaying Falklands banner after semi-final",
+      "headline": "Argentina face disciplinary action over Falklands banner after semi-final",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss"
@@ -675,21 +1128,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Wed, 15 Jul 2026 18:02:31 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "A sad and familiar World Cup ending reveals regrets for England and Thomas Tuchel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/sad-familiar-world-cup-ending-215907572.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:59:07 +0000",
       "teams": [
         "Argentina",
         "England"
@@ -1944,24 +2382,6 @@
       ]
     },
     {
-      "headline": "2026 World Cup Golden Glove: Unai Simón Rise After Clean Sheet vs. France",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-glove-odds-emiliano-martinez-favored-repeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/unai-714.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:23:19 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
       "headline": "England–Argentina: the combined XI for the semi-final ⚔️",
       "links": {
         "web": {
@@ -1975,22 +2395,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Golden Ball Odds: Messi Favored; Bellingham Chasing",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285110611-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:21:10 -0400",
-      "teams": []
     },
     {
       "headline": "The former Lioness now cheering on Argentina in the World Cup",
@@ -2021,22 +2425,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "2026 World Cup Young Player of the Tournament Odds: Lamine Yamal Favored",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-young-player-tournament-odds-lamine-yamal-favored"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/lamine-68.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:13:49 -0400",
-      "teams": []
     },
     {
       "headline": "2026 World Cup Odds: Spain Awaits Winner Of Argentina-England In Final",
@@ -4523,22 +4911,6 @@
       ]
     },
     {
-      "headline": "Where In The World Cup Is Jameis Winston?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/jameis-winston-world-cup-2026"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/jameisxspeedthumbnail.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:39:37 -0400",
-      "teams": []
-    },
-    {
       "headline": "Lamine Yamal Reaches World Cup Final At 19. How Old Were Pelé, Maradona, Messi?",
       "links": {
         "web": {
@@ -4896,7 +5268,7 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Tue, 14 Jul 2026 19:36:39 +0000",
+      "pubDate": "Tue, 14 Jul 2026 19:36:40 +0000",
       "teams": [
         "United States"
       ]
@@ -15372,346 +15744,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 10 Jul 2026 14:22:22 +0000",
       "teams": []
-    },
-    {
-      "headline": "Barcelona plan to table a new €130 million offer for Julian Alvarez after World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-plan-table-130-million-141000846.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 14:10:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Spain vs. Belgium odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 18-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/spain-belgium-odds-prediction-time-2026-world-cup-quarterfinal-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/02/b0d2712e-67aa-4347-a09f-4cdadceec970/lamine-yamal-spain.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 10 Jul 2026 13:52:56 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Erling Haaland slams France vs Morocco referee after latest nightmare for World Cup officials",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/erling-haaland-slams-france-vs-134228413.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 13:42:28 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "🚨 Official: Portugal's new manager has been revealed!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/official-portugals-manager-revealed-133800795.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 13:38:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Football Daily | Mbappé and France are on the march. Who’s going to stop them?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/football-daily-email-gwc-france-morocco"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 13:18:48 GMT",
-      "teams": [
-        "Morocco",
-        "United States",
-        "Paraguay",
-        "Spain",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "How do England stop Norway - and Haaland?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c621jyxkvzko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c92d/live/c1618f20-7c45-11f1-8ccc-df652c9169a7.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 12:39:21 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to Watch Spain vs. Belgium: TV Channel, Live Stream, Live",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-vs-belgium-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-quarterfinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-spain-vs-belgium-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 08:20:13 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Miguel Delaney answers your questions on Fifa’s crisis – from Infantino’s grip on power to a possible Uefa breakaway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/miguel-delaney-answers-questions-fifa-112120673.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 12:19:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Wing wizards or worries? England and Norway have choices to make out wide",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/wing-wizards-england-norway-2026-world-cup-quarter-final"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 12:15:09 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Quarterfinal Two",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-quarterfinal-two"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-june-10.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 10 Jul 2026 08:14:44 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Time marches on: what the next three years will bring for the USMNT",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/usmnt-world-cup-qualifying-gold-cup-copa-america"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 12:00:20 GMT",
-      "teams": [
-        "United States",
-        "Belgium",
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "headline": "Time marches on: what the next three years will bring for the USMNT",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/time-marches-next-three-years-120020384.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 12:00:20 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Assistant manager demands England &#8216;take the handbrake off&#8217; against Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/assistant-manager-demands-england-handbrake-115500522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 11:55:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mbappé x Dembélé: legendary, unbeatable World Cup duo 🐐🐐",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-x-demb-l-legendary-115500696.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 11:55:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
-    },
-    {
-      "headline": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT",
-      "teams": [
-        "Switzerland",
-        "Egypt",
-        "Cape Verde Islands",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "'What old timers can do' - the evolution of Belgium's golden generation",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/old-timers-evolution-belgiums-golden-113903655.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 11:39:03 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "'What old-timers can do' - the evolution of Belgium's golden generation",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yz0g0mg4no?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91c9/live/30d0d4d0-7a0a-11f1-92a1-2dcee5cd2863.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 10 Jul 2026 11:38:58 GMT",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Like Nosferatu on a golf weekend – but England players trust Tuchel and his aura | Barney Ronay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/10/nosferatu-golf-weekend-england-players-trust-thomas-tuchel"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 10 Jul 2026 11:30:19 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "&#8220;Put every bit of pressure on the English lads&#8221; &#8211; Erling Haaland jokes with journalists ahead of World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/put-every-bit-pressure-english-113000056.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 11:30:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨 Sadio Mané announces his international retirement",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/sadio-man-announces-international-retirement-111000138.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 11:10:00 +0000",
-      "teams": [
-        "Belgium",
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "Arsenal sign 27yo Spanish full-back from Barcelona",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-sign-27yo-spanish-full-110500240.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 11:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Nobby Stiles becomes latest England World Cup winner death linked to brain injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/nobby-stiles-becomes-latest-england-105706850.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 10 Jul 2026 10:57:06 +0000",
-      "teams": [
-        "England"
-      ]
     }
   ]
 }
