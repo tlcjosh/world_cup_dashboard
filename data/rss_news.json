@@ -1,6 +1,77 @@
 {
-  "asOf": "2026-07-16T21:45:55.746Z",
+  "asOf": "2026-07-16T22:42:47.584Z",
   "items": [
+    {
+      "headline": "Will Kylian Mbappé Play vs. England? France Star's Status For Bronze Medal Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/will-kylian-mbappe-play-vs-england-france-stars-status-bronze-medal-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/25fd3eca-mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 18:31:59 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "New York issues air quality alert days before World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.yahoo.com/news/weather-news/articles/york-issues-air-quality-alert-212917775.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 22:27:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup Best XI possibilities: Who will makes the Team of the Tournament?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-best-xi-221038328.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 22:10:38 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Arsenal to assess Saliba back injury with surgery an option",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-assess-saliba-back-injury-215559448.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:55:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Arsenal to assess Saliba back injury with surgery an option",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cp87np4282po?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7644/live/e5da6f10-815f-11f1-b220-2f707fe15ddf.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 21:55:52 GMT",
+      "teams": []
+    },
     {
       "headline": "Kylian Mbappé Leaves World Cup With Legacy Intact, But Nothing To Show For It",
       "links": {
@@ -64,7 +135,7 @@
       ]
     },
     {
-      "headline": "US Soccer coy on Mauricio Pochettino and future of the sporting director position",
+      "headline": "US Soccer coy on Mauricio Pochettino and future of sporting director position",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/us-soccer-coy-mauricio-pochettino-211921983.html"
@@ -169,7 +240,7 @@
       ]
     },
     {
-      "headline": "Will World Cup Final determine Ballon d'Or winner? Or has the race been blown wide open",
+      "headline": "Will World Cup Final determine Ballon d'Or winner, or has the race been blown wide open?",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/world-cup-final-determine-ballon-201428183.html"
@@ -15522,88 +15593,6 @@
       "pubDate": "Sat, 11 Jul 2026 14:08:39 +0000",
       "teams": [
         "South Africa"
-      ]
-    },
-    {
-      "headline": "Jürgen Klopp reaches agreement to take over as Germany head coach",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
-      "headline": "World Cup schedule today: How to watch Norway v England, TV channels & live stream Saturday 11 July",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140051783.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 14:00:51 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Harry Kane relishes golden boot battle but, 'my main goal is to win the World Cup with England'",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/harry-kane-golden-boot-battle-world-cup-england/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/11/f92e455e-2dfc-49ab-a1df-2d6e00a2549d/untitled-design-2026-07-11t095033-411.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:53:15 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona new signing receives advice from England legend ahead of World Cup semi-final bid",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-signing-receives-advice-england-134500939.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:45:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "South Africa World Cup midfielder Jayden Adams dies aged 25",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT",
-      "teams": [
-        "Mexico",
-        "South Africa",
-        "South Korea",
-        "Czechia",
-        "Canada"
       ]
     }
   ]
