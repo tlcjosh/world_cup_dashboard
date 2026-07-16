@@ -1,6 +1,173 @@
 {
-  "asOf": "2026-07-16T20:38:42.713Z",
+  "asOf": "2026-07-16T21:45:55.746Z",
   "items": [
+    {
+      "headline": "Kylian Mbappé Leaves World Cup With Legacy Intact, But Nothing To Show For It",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-leaves-world-cup-legacy-intact-nothing-show"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-11-5.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 17:39:26 -0400",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: FIFA to award first-ever championship rings to winner of Spain-Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-fifa-to-award-first-ever-championship-rings-to-winner-of-spain-argentina-213350085.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:33:50 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "New York issues air quality alert days before World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c9w0jen8x90o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31cd/live/14857bf0-815d-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 16 Jul 2026 21:29:07 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Argentina players privately stunned by Thomas Tuchel’s defensive approach to World Cup semi-final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-players-privately-stunned-thomas-181822206.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:21:46 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "US Soccer coy on Mauricio Pochettino and future of the sporting director position",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-soccer-coy-mauricio-pochettino-211921983.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:19:21 +0000",
+      "teams": [
+        "United States",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "headline": "The bigger picture: Tuchel gets blame for England exit but this is not only about him | Barney Ronay",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/thomas-tuchel-england-2026-world-cup-semi-final-exit-argentina"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 21:18:02 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Romero’s World Cup heroics for Argentina make him one of Messi’s most trusted",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/argentina-world-cup-romero-semi-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 21:15:11 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain vs. Argentina predicted lineups: World Cup starting XI projection as giants battle for biggest prize",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-vs-argentina-predicted-lineups-world-cup-starting-xi-projection/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/f31182ae-b6f4-4052-b913-039a5df23187/lionel-messi-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 16 Jul 2026 20:59:09 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Pele's 1958 World Cup final shirt sells for $4.9m",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/peles-1958-world-cup-final-204236404.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 20:56:06 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ayyoub Bouaddi briefed on Man City pathway as Enzo Maresca and Hugo Viana pursue Lille midfielder",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ayyoub-bouaddi-briefed-man-city-204500380.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 16 Jul 2026 20:45:00 +0000",
+      "teams": [
+        "Morocco",
+        "France"
+      ]
+    },
+    {
+      "headline": "Players ‘puzzled’ by tactics but Tuchel left himself no other option with his squad picks | Jacob Steinberg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/16/players-puzzled-tactics-tuchel-no-option-england-squad-picks"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 16 Jul 2026 20:18:40 GMT",
+      "teams": [
+        "England"
+      ]
+    },
     {
       "headline": "Will World Cup Final determine Ballon d'Or winner? Or has the race been blown wide open",
       "links": {
@@ -323,21 +490,6 @@
       "pubDate": "Thu, 16 Jul 2026 18:20:00 +0000",
       "teams": [
         "Brazil"
-      ]
-    },
-    {
-      "headline": "Argentina players privately stunned by Thomas Tuchel’s defensive approach to World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-players-privately-stunned-thomas-181822206.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:18:22 +0000",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     },
     {
@@ -15452,162 +15604,6 @@
         "South Korea",
         "Czechia",
         "Canada"
-      ]
-    },
-    {
-      "headline": "Barcelona guaranteed World Cup final representation for fifth consecutive tournament",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-guaranteed-world-cup-final-132500319.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:25:00 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "How to watch England vs Norway: Free live World Cup streaming from anywhere",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-england-vs-norway-free-132000645.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:20:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid just two goals away from breaking World Cup record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-just-two-goals-132000235.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup Day What to Watch: Norway-England, Argentina-Switzerland wrap up quarterfinals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-day-what-to-watch-norway-england-argentina-switzerland-wrap-up-quarterfinals-130016486.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 13:00:16 +0000",
-      "teams": [
-        "Switzerland",
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rabiot confirms no Amorim talks yet as his mother hints at Milan future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rabiot-confirms-no-amorim-talks-124500008.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 12:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch Norway vs. England: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/norway-vs-england-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-quarterfinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-norway-vs-england-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 08:21:51 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina starter bats away controversy and praises Copa referees 🗣️",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-starter-bats-away-controversy-121900446.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 12:19:00 +0000",
-      "teams": [
-        "United States",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Argentina, Norway, England, More",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-argentina-norway-england-more"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-11.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 08:15:15 -0400",
-      "teams": [
-        "Switzerland",
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "‘A brilliant reprieve, a unifying force’: America falls in love with World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brilliant-reprieve-unifying-force-america-120049336.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 12:00:49 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘A brilliant reprieve, a unifying force’: America falls in love with World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/11/america-world-cup-love-football"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 12:00:49 GMT",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "Haiti",
-        "Iran",
-        "Senegal"
       ]
     }
   ]
