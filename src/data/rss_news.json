@@ -1,6 +1,79 @@
 {
-  "asOf": "2026-07-17T01:14:25.623Z",
+  "asOf": "2026-07-17T04:29:41.267Z",
   "items": [
+    {
+      "headline": "Another Argentina Comeback, Another World Cup Title Berth For 'X-Factor' Messi",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-argentina-messi-comeback-stu-holden"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/5f3090bc-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 22:13:20 -0400",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Back-To-Back Men's World Cup Champions: Will Argentina Become The Third?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/back-to-back-mens-world-cup-champions-will-argentina-become-third"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/801f9ea2-argentina1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:52:30 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Pelé’s Historic 1958 World Cup Jersey Fetches $4.9 Million, Breaking Memorabilia Records",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/peles-historic-1958-world-cup-jersey-fetches-4-9-million-breaking-memorabilia-records"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/07/128/72/pele.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:51:56 -0400",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Lionel Messi Has A Message For Critics Of Argentina Ahead Of World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-has-message-critics-argentina-ahead-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-9.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:27:29 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "World Cup Final Preparations Clouded As Spain Practices Through New Jersey Smoke",
       "links": {
@@ -15534,68 +15607,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sat, 11 Jul 2026 15:51:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "UK pubs set to stay open longer for England v Norway World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-fans-celebrate-pubs-set-103608743.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 15:43:26 +0000",
-      "teams": [
-        "Mexico",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Report: Arsenal have held talks over move for World Cup midfielder",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-arsenal-held-talks-over-152000062.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 15:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Odegaard praises England & Arsenal star pre-World Cup clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/odegaard-praises-england-arsenal-star-150500847.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 15:05:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina vs. Switzerland Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-switzerland-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285091642-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 11:00:59 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
     }
   ]
 }
