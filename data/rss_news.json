@@ -1,6 +1,359 @@
 {
-  "asOf": "2026-07-17T12:18:23.079Z",
+  "asOf": "2026-07-17T14:09:49.602Z",
   "items": [
+    {
+      "headline": "Five reasons for England to be cheerful despite World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/five-reasons-cheerful-despite-englands-134531097.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 14:00:11 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/17/world-cup-2026-spain-v-argentina-countdown-trump-to-attend-final-england-news-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 13:52:10 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "Algeria",
+        "England"
+      ]
+    },
+    {
+      "headline": "Five reasons for England to be cheerful despite World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyxllv7lmpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/341f/live/ddf955e0-81cd-11f1-b976-0b9c15b0ccfc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 13:45:13 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Uefa will not use VAR for diving like at World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/uefa-not-var-diving-world-133921102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:39:21 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Uefa will not use VAR for diving like at World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c89nlvwx410o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef87/live/18cbc900-81dd-11f1-8b86-31ce3d5ecce7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 13:39:15 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Tottenham&#8217;s Djed Spence: Inter ready to push for WC hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tottenham-djed-spence-inter-ready-133500625.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "England vs France faces low demand with thousands of tickets unsold for World Cup bronze final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-vs-france-faces-low-133348800.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:33:48 +0000",
+      "teams": [
+        "United States",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup quiz: Can you name finalists since 1930?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj4pw98d29eo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a80/live/ae42b880-81e8-11f1-bee8-53ce494e1abc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 13:33:33 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Spain have reclaimed their football identity at this World Cup but is their style boring?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-reclaimed-football-identity-world-112038554.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:32:05 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Bronze final? How about World Cup’s most pointless match? Why Fifa should bin off third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bronze-final-world-cup-most-063848398.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:30:25 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Teacher and the student: How history ties Argentina, Spain coaches ahead of FIFA World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/the-history-that-ties-spains-luis-de-la-fuente-and-argentinas-lionel-scaloni-as-they-chase-tournament-glory/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/a4e7dbc7-553e-40bf-8701-504ba10c4725/delafuente-scaloni.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:29:54 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Footy Fix: All eyes on World Cup as Argentina and Spain meet in epic clash for the trophy",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/footy-fix-all-eyes-on-world-cup-as-argentina-and-spain-meet-in-epic-clash-for-the-trophy/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/17/7614683e-c4d0-46a9-8b9c-1868221f7717/untitled-design-2026-07-17t084640-607.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:26:42 +0000",
+      "teams": [
+        "United States",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Slovenia's Slavko Vinčić selected to officiate Argentina-Spain final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-slovenias-slavko-vincic-selected-to-officiate-argentina-spain-final-130748888.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:07:48 +0000",
+      "teams": [
+        "Mexico",
+        "Ecuador",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The big World Cup final quiz",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/world-cup-final-quiz-argentina-spain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 13:04:09 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2030 World Cup will see games played on 2 continents and in 6 countries",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/2030-world-cup-will-see-games-played-on-2-continents-and-in-6-countries-130000081.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 13:00:00 +0000",
+      "teams": [
+        "Uruguay"
+      ]
+    },
+    {
+      "headline": "How World Cup final could be pivotal in Ballon d'Or race",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-could-pivotal-125630966.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:56:30 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How World Cup final could be pivotal in Ballon d'Or race",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c87ngl370p4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31b9/live/aa1483f0-813f-11f1-926f-c90d1bcfbc84.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 12:56:23 GMT",
+      "teams": []
+    },
+    {
+      "headline": "The 10 top scorers in World Cup finals 👑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/10-top-scorers-world-cup-125400726.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:54:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Unbeatables v untouchables? Spain’s run faces ultimate test in World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/unbeatables-v-untouchables-spains-run-faces-ultimate-test-in-world-cup-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 12:46:44 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Player likens Bota v Santos to 🇦🇷 v 🏴󠁧󠁢󠁥󠁮󠁧󠁿 at the World Cup, goes viral",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/player-likens-bota-v-santos-124100833.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:41:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pele-azteca-england-66-ranking-115422978.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:32:15 +0000",
+      "teams": [
+        "Brazil",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Final: How to buy tickets for Spain vs. Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-buy-tickets-123000860.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:30:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🇫🇷 x 🏴󠁧󠁢󠁥󠁮󠁧󠁿! Who do you fancy for third place at the Cup? Have your say!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/x-fancy-third-place-cup-121400052.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:14:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
     {
       "headline": "Citing Superstition, Argentine President Won't Attend World Cup Final",
       "links": {
@@ -52,21 +405,6 @@
       "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/pele-azteca-england-66-ranking-115422978.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:54:22 +0000",
-      "teams": [
-        "Brazil",
-        "England"
-      ]
-    },
-    {
-      "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-      "links": {
-        "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss"
         }
       },
@@ -93,23 +431,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 17 Jul 2026 11:50:53 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/17/world-cup-2026-spain-v-argentina-countdown-trump-to-attend-final-england-news-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 11:48:26 GMT",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "Algeria",
-        "England"
-      ]
     },
     {
       "headline": "Harry Kane’s stance on Real Madrid move emerges after World Cup disappointment",
@@ -183,21 +504,6 @@
       ]
     },
     {
-      "headline": "Spain have reclaimed their football identity at this World Cup but is their style boring?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-reclaimed-football-identity-world-112038554.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:20:38 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
       "headline": "Will wildfire smoke over New York threaten the World Cup final?",
       "links": {
         "web": {
@@ -246,7 +552,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7d1/live/ea5524f0-8163-11f1-a3a9-99558c035618.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1271/live/fdb61be0-81da-11f1-b976-0b9c15b0ccfc.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -496,21 +802,6 @@
       ]
     },
     {
-      "headline": "Bronze final? How about World Cup’s most pointless match? Why Fifa should bin off third-place play-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bronze-final-world-cup-most-063848398.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 08:50:23 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
       "headline": "Report: Tottenham World Cup Star Wants Move To La Liga Giant",
       "links": {
         "web": {
@@ -681,7 +972,7 @@
       "teams": []
     },
     {
-      "headline": "World Cup stars who could move this summer",
+      "headline": "Nine World Cup stars who could move this summer",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c87ng4xq9nwo?at_medium=RSS&at_campaign=rss"
@@ -15215,314 +15506,6 @@
       "pubDate": "Sun, 12 Jul 2026 00:50:48 GMT",
       "teams": [
         "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "BBC to show England's World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bbc-show-englands-world-cup-235433803.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:45:26 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham unimpressed after Tuchel criticises ‘lucky’ England’s performance",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/jude-bellingham-thomas-tuchel-criticises-lucky-england-performance"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 00:44:08 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "'He has dragged them through all tournament' - England player ratings",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rate-players-england-face-norway-215056897.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:41:30 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina face Switzerland as England await in semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-v-switzerland-201727685.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:39:41 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Is Argentina vs Switzerland on TV? Channel, kick-off time and how to watch World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-vs-switzerland-tv-channel-040447892.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:37:36 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Thomas Tuchel rages at interviewer and claims England were ‘lucky’ to beat Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-rages-interviewer-claims-003711712.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:37:11 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who else? How Bellingham became indispensable again",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/hey-jude-bellinghams-return-england-075440111.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:29:50 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 What a goosebump moment: England fans belt out Wonderwall again",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/goosebump-moment-england-fans-belt-002500072.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:25:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham Scores Twice To Send England To World Cup Semifinals Over Norway",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-norway-highlights-jude-bellingham-brace-2026-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/bellingham1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 20:21:38 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "From Birmingham To The World Cup: How Jude Bellingham Became An England Hero",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/from-birmingham-world-cup-how-jude-bellingham-became-england-hero"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/4960cdd5-jude1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 20:16:37 -0400",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham Gets 9.5/10 | England Players Rated Vs Norway As They March Into The Semi-Final Of The FIFA World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-gets-9-5-001500720.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:15:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Norway vs England player ratings: Bellingham shines but Madueke struggles as Three Lions reach World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-vs-england-player-ratings-000814485.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:08:14 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who else? How Bellingham became indispensable again",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30d5/live/fd1276c0-7cd5-11f1-96b0-c159ef728dbe.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 00:06:50 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/norway-1-2-england-world-cup-quarter-final-player-ratings-from-miami"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 00:03:09 GMT",
-      "teams": [
-        "Brazil",
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to Watch Argentina and Messi vs. Switzerland: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-switzerland-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-quarterfinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-argentina-vs-switzerland-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 20:02:22 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "England 2-1 Norway: Jude Bellingham brace sends Three Lions into World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-2-1-norway-jude-235500591.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:55:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "'He has dragged them through all tournament' - England player ratings",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a71/live/4d950120-7d81-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Jude Bellingham's heroics continue as England advances to semis with 2-1 win over Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-jude-bellinghams-heroics-continue-as-england-advances-to-semis-with-2-1-win-over-norway-234816139.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:48:16 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "BBC to show England's World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46cf/live/9e53f650-7d7e-11f1-9493-592225228524.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT",
-      "teams": [
-        "Argentina",
         "England"
       ]
     }
