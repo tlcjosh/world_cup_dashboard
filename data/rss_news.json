@@ -1,6 +1,21 @@
 {
-  "asOf": "2026-07-17T15:41:22.060Z",
+  "asOf": "2026-07-17T16:49:55.412Z",
   "items": [
+    {
+      "headline": "💣 Premier clubs after Tomori, Juve-Brandt, Romero 👀 Inter and Lazio coup 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/premier-clubs-tomori-juve-brandt-163600679.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:36:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
       "links": {
@@ -10,11 +25,292 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 15:36:59 GMT",
+      "pubDate": "Fri, 17 Jul 2026 16:31:44 GMT",
       "teams": [
         "Spain",
         "Argentina",
         "Algeria",
+        "England"
+      ]
+    },
+    {
+      "headline": "Goooool v goal: English speakers flock to Telemundo for lively World Cup coverage",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/goooool-v-goal-english-speakers-163049571.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:30:49 +0000",
+      "teams": []
+    },
+    {
+      "headline": "'Chaos v calm' - Sutton's World Cup final and third-place predictions",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/chaos-v-calm-suttons-world-162650603.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:26:50 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Are Argentina being treated favourably at World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-being-treated-favourably-world-154348855.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:26:47 +0000",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'Chaos v calm' - Sutton's World Cup final and third-place predictions",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4g3zrgxkzdo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 16:26:43 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Are Argentina being treated favourably at World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2wkwd7e6go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b722/live/caed38d0-7acb-11f1-a130-2b898c796aa9.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 16:26:43 GMT",
+      "teams": [
+        "Egypt",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How Lionel Messi reaching another World Cup final with Argentina provides the ultimate boost for MLS",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/how-lionel-messi-reaching-another-world-cup-final-with-argentina-provides-the-ultimate-boost-for-mls/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/17/e7a0e306-2efd-4c5d-bf47-01a2c7ea4555/messi-argentina-2.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:21:48 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🕺 Not 30 minutes: what the World Cup final half-time will be",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/not-30-minutes-world-cup-160700371.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:07:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final, the Tour de France and Open golf – follow with us",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/sport/2026/jul/17/world-cup-final-the-tour-de-france-and-open-golf-follow-with-us"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 16:06:56 GMT",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Who Are The Oldest Players To Win A World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-messi-final-argentina-oldest-players-to-win-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/dino.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:05:49 -0400",
+      "teams": []
+    },
+    {
+      "headline": "😱 Cucurella loses it: if I win the World Cup, I retire from Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cucurella-loses-win-world-cup-155900653.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:59:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Who is injured for the World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:58:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch the 2026 World Cup Final This Sunday",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-world-cup-final-sunday"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-the-world-cup-final.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:57:25 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Next Generation Of World Cup Stars: The Top Players Under The Age Of 21",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/best-young-players-world-cup-under-21-lamine-yamal-gilberto-mora"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9best-wc-21-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:54:24 -0400",
+      "teams": []
+    },
+    {
+      "headline": "&#8216;Spain were better&#8217; &#8211; Ibrahima Konaté on France’s loss in the World Cup semifinals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-were-better-ibrahima-konat-155000313.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:50:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Report: Arsenal want to hijack move for World Cup midfielder",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-arsenal-want-hijack-move-155000223.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina’s Grit Meets Spain’s Elegance In World Cup Final Clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-grit-meets-spain-elegance-155000965.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:50:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Duo return for Man Utd game - but Wrexham not at full strength",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/duo-return-man-utd-game-154911655.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:49:11 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "England players, not Tuchel, to blame for poor ‘mentality’ in Argentina defeat, says former Southgate assistant",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-players-not-tuchel-blame-153607484.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:36:07 +0000",
+      "teams": [
+        "Netherlands",
+        "Argentina",
         "England"
       ]
     },
@@ -1021,18 +1317,6 @@
       ]
     },
     {
-      "headline": "Who is injured for the World Cup final?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 07:14:49 +0000",
-      "teams": []
-    },
-    {
       "headline": "🤔 Tuchel defends his tactics: is English DNA to blame?",
       "links": {
         "web": {
@@ -1573,7 +1857,7 @@
       ]
     },
     {
-      "headline": "New York air quality alert days before World Cup final",
+      "headline": "New York issues air quality alert days before World Cup final",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c9w0jen8x90o?at_medium=RSS&at_campaign=rss"
@@ -15201,299 +15485,6 @@
       "source": "Fox Sports",
       "pubDate": "Sat, 11 Jul 2026 23:48:00 -0400",
       "teams": []
-    },
-    {
-      "headline": "2026 World Cup Bracket: Historic Semifinal Matchups Set",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-bracket.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:45:19 -0400",
-      "teams": []
-    },
-    {
-      "headline": "📹 Wonder goal in extra time saves it, Argentina face England in semi",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/worldie-saves-extra-time-argentina-034500172.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:45:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Julián Álvarez's extra-time golazo powers Argentina's 3-1 quarterfinal win over 10-man Switzerland",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-julian-alvarezs-extra-time-golazo-powers-argentinas-3-1-quarterfinal-win-over-10-man-switzerland-034422006.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:44:22 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham's star shines as risk-averse England advance to World Cup semifinals over tepid Norway",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/jude-bellinghams-england-world-cup-semifinals-norway/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/5756836d-1b21-414b-be83-a6f7922b0ac3/untitled-design-2026-07-11t201253-078.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:31:08 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "👀 Norway fume over English goal, Haaland's dad hits out, Fifa acts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-fume-over-english-goal-031800335.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:18:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "🩸 Messi bleeding above the eye, treated on the touchline 🧑‍⚕️",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-bloodied-above-eye-treated-031600566.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:16:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Tuchel angry at 'lucky' England - but Bellingham defends players",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e625/live/812ffc70-7d99-11f1-9750-97a471ba3018.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Breel Embolo in tears after Switzerland forward given red card after mistaken identity VAR decision",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/breel-embolo-tears-switzerland-forward-025524108.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:03:01 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina's Antonio Rattín Dies; 1966 World Cup Dismissal Led To Red & Yellow Cards",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/other/argentine-antonio-rattin-whose-dismissal-in-the-1966-world-cup-prompted-a-rules-change-dies-at-89"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/rattin.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:02:39 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Neymar enters World Series of Poker event after Brazil's elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-neymar-enters-world-series-of-poker-event-after-brazils-elimination-030040600.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 03:00:40 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "World Cup Red Cards: 2026 Has More Red Cards Than Last 2 World Cups Combined",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-red-card-rules-totals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/switz-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:59:17 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Switzerland's Breel Embolo Receives Red Card For Diving Against Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/switzerlands-breel-embolo-receives-red-card-diving-against-argentina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285706085-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:49:55 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "📹 New rule causes red card in Switzerland v Argentina, player distraught",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rule-sees-red-switzerland-v-024700897.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 02:47:00 +0000",
-      "teams": [
-        "Switzerland",
-        "United States",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "📸 He burst into tears at once: Swiss star sent off for a dive!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bursts-tears-straight-away-switzerland-024500791.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 02:45:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham excels in parallel World Cup but cannot win trophy alone | Barney Ronay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/jude-bellingham-parallel-world-cup-norway-england"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 02:37:55 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/did-ball-hit-spidercam-england-022027669.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 02:20:27 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d256/live/cce243b0-7d8c-11f1-bc93-cb7def7b7e6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 02:20:21 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Is Erling Haaland injured? Norway star bizarrely replaced vs England in World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/erling-haaland-injured-norway-star-233747331.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 02:10:49 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
     }
   ]
 }
