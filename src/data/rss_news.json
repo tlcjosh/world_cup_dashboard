@@ -1,8 +1,75 @@
 {
-  "asOf": "2026-07-17T20:27:06.420Z",
+  "asOf": "2026-07-17T21:24:18.204Z",
   "items": [
     {
-      "headline": "Beyond Goals And Assists: The Numbers Behind Lionel Messi's 2026 World Cup Run",
+      "headline": "Tuchel urges England to finish strongly in emotional address",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-urges-england-finish-strongly-203951210.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 21:06:31 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 20:50:22 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "👀The match no one wants to play? Tuchel and Deschamps spill all",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/match-no-one-wants-play-204800970.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 20:48:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Final Preview: Spain vs Argentina, Tournament Superlatives & NYC Czar Maya Handa",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-final-preview-spain-vs-argentina-tournament-superlatives--nyc-czar-maya-handa-204524951.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 20:45:24 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Beyond Messi's Goals And Assists: The Numbers Behind His 2026 World Cup Run",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/deep-dive-numbers-behind-lionel-messis-incredible-2026-fifa-world-cup-run"
@@ -14,7 +81,77 @@
         }
       ],
       "source": "Fox Sports",
-      "pubDate": "Fri, 17 Jul 2026 16:23:28 -0400",
+      "pubDate": "Fri, 17 Jul 2026 16:42:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England's World Cup Wonderwall Run Fell Short, But Don't Look Back In Anger",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/england-world-cup-third-place-france-argentina-loss-kane-bellingham"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/fa2e4671-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:41:53 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 20:41:42 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Tuchel urges England to finish strongly in emotional address",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c62ergl0py2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15c7/live/279553c0-8223-11f1-b966-41edf3b346b4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 20:39:45 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Winners Will Be Awarded Championship Rings For First Time Ever",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-winners-will-awarded-championship-rings-first-time-ever"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/trophy1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:27:47 -0400",
       "teams": []
     },
     {
@@ -35,6 +172,18 @@
         "Spain",
         "Argentina"
       ]
+    },
+    {
+      "headline": "Smoke, travel and Trump threaten New York’s grand World Cup finale",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/smoke-travel-trump-new-york-world-cup-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 20:21:02 GMT",
+      "teams": []
     },
     {
       "headline": "Star-Studded Bronze Match: Mbappé, Bellingham Lead France-England Third-Place Game",
@@ -314,44 +463,6 @@
         "Spain",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 17 Jul 2026 17:00:41 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 17 Jul 2026 16:56:54 +0000",
-      "teams": []
     },
     {
       "headline": "Liverpool sent warning over move for World Cup midfielder",
@@ -15349,115 +15460,6 @@
       "teams": [
         "Norway",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup QF Drama: Argentina Beats Swiss, England Overcomes Norway Cable Controversy & Semis Preview",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-qf-drama-argentina-beats-swiss-england-overcomes-norway-cable-controversy--semis-preview-061728167.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:17:28 +0000",
-      "teams": [
-        "Switzerland",
-        "Spain",
-        "France",
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 35",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx21gn50e08o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/026a/live/7990cd70-7955-11f1-a627-714adb4eed6e.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 06:15:52 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Bellingham turns on hero mode as Messi reaches another milestone",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bellingham-turns-hero-mode-messi-060500416.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:05:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 World Cup highlights: Alvarez screamer, Argentina stun Swiss late",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-highlights-alvarez-screamer-060300084.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:03:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Embolo sent off as result of mistaken identity rule",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/embolo-sent-off-result-mistaken-042303509.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:02:28 +0000",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Real Madrid remain confident of renewing the contract of Brazilian sensation",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-remain-confident-renewing-060000252.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:00:00 +0000",
-      "teams": [
-        "Brazil",
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Switzerland hit out at VAR after ‘mistaken identity’ check ends in Breel Embolo red card",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/switzerland-argentina-world-cup-var-mistaken-identity-red-card-breel-emobolo"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 05:20:50 GMT",
-      "teams": [
-        "Switzerland",
-        "Argentina"
       ]
     }
   ]
