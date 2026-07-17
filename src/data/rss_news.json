@@ -1,6 +1,33 @@
 {
-  "asOf": "2026-07-17T21:24:18.204Z",
+  "asOf": "2026-07-17T22:23:47.489Z",
   "items": [
+    {
+      "headline": "Wayne Rooney names only alternative to Thomas Tuchel as England manager",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wayne-rooney-names-only-alternative-215431938.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 21:54:31 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lille president hands Man City major Ayyoub Bouaddi transfer blow in press conference",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lille-president-hands-man-city-213000959.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 21:30:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Tuchel urges England to finish strongly in emotional address",
       "links": {
@@ -85,7 +112,7 @@
       "teams": []
     },
     {
-      "headline": "England's World Cup Wonderwall Run Fell Short, But Don't Look Back In Anger",
+      "headline": "England's World Cup 'Wonderwall' Run Fell Short, But Don't Look Back In Anger",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/england-world-cup-third-place-france-argentina-loss-kane-bellingham"
@@ -15428,37 +15455,6 @@
       "teams": [
         "Switzerland",
         "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Switzerland manager criticises controversial new ‘mistaken identity’ rule after World Cup exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/switzerland-manager-criticises-controversial-mistaken-062227355.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:22:27 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Norway talisman heaps praise on Jude Bellingham after World Cup quarterfinal clash: &#8216;Real Madrid and England are lucky&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/norway-talisman-heaps-praise-jude-062000566.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 06:20:00 +0000",
-      "teams": [
-        "Norway",
         "England"
       ]
     }
