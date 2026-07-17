@@ -1,8 +1,121 @@
 {
-  "asOf": "2026-07-17T19:23:04.321Z",
+  "asOf": "2026-07-17T20:27:06.420Z",
   "items": [
     {
-      "headline": "Spain vs. Argentina World Cup Finals Weather Update, Forecast",
+      "headline": "Beyond Goals And Assists: The Numbers Behind Lionel Messi's 2026 World Cup Run",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/deep-dive-numbers-behind-lionel-messis-incredible-2026-fifa-world-cup-run"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi-editorial-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:23:28 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Argentina vs. Spain: The 2026 World Cup Final By The Numbers",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-vs-spain-2026-world-cup-numbers"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/wc-final-by-the-numbers-16x9-2.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:21:27 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Star-Studded Bronze Match: Mbappé, Bellingham Lead France-England Third-Place Game",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-france-england-bronze-third-place-mbappe-bellingham-kane"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1spaeng.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 16:06:18 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "The 5️⃣ biggest shocks in World Cup final history 🤯",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/5-biggest-shocks-world-cup-200300572.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 20:03:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final predicted lineups: How will Argentina, Spain line up?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-predicted-lineups-194126508.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 19:41:26 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "EXCLUSIVE | Jérémie Aliadière: &#8216;It’s not the end but the beginning of a beautiful story for the French team&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/exclusive-j-r-mie-aliadi-193000209.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 19:30:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Spain vs. Argentina: What to expect at the World Cup final, from star performers to Trump's trophy presentation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/spain-vs-argentina-what-to-expect-at-the-world-cup-final-from-star-performers-to-trumps-trophy-presentation-192757019.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 19:27:57 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain vs. Argentina World Cup Final Weather Update, Forecast",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-final-spain-argentina-weather-forecast-smoke-aqi"
@@ -18,6 +131,20 @@
       "teams": [
         "Spain",
         "Argentina"
+      ]
+    },
+    {
+      "headline": "God’s will? Destiny? Lionel Messi, Lamine Yamal, that photo and the World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/gods-will-destiny-lionel-messi-lamine-yamal-that-photo-and-the-world-cup-final"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 19:00:36 GMT",
+      "teams": [
+        "Spain"
       ]
     },
     {
@@ -15328,144 +15455,6 @@
       "images": [],
       "source": "The Guardian",
       "pubDate": "Sun, 12 Jul 2026 05:20:50 GMT",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Tuchel angry at 'lucky' and 'sloppy' England - can 'mentality' be enough?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-angry-lucky-sloppy-england-030850445.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 05:08:16 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "England Hasn't Won The World Cup In 60 Years. Its Best Chance To Win Again Is Now.",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-world-cup-semifinals-argentina-quarterfinals-norway"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/c222881a-artboard-1-5.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:59:18 -0400",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "'We should all be excited' - Messi set for first England meeting",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/522e/live/003c3b60-7dc6-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup produces dream semifinal field in Argentina, England, France and Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-produces-dream-semifinal-field-in-argentina-england-france-and-spain-044446697.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 04:44:46 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🤯 Copa do Brasil semis have only champions after 36 years, off-pitch feud",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/copa-brasil-semis-only-champions-044300182.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 04:43:00 +0000",
-      "teams": [
-        "Mexico",
-        "South Africa"
-      ]
-    },
-    {
-      "headline": "Argentina set up England semi-final with extra-time victory over Switzerland",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a713/live/56842520-7da6-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Bellingham reaching heights of World Cup legends with Messi next",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b3aa/live/66ff3770-7d9f-11f1-a998-878927a5819d.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Lionel Messi Gets 7/10 | Argentina Players Rated After Their Win Vs Switzerland In The FIFA World Cup 2026",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-gets-7-10-043500075.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 04:35:00 +0000",
       "teams": [
         "Switzerland",
         "Argentina"
