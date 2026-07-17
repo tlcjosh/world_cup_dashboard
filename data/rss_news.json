@@ -1,6 +1,191 @@
 {
-  "asOf": "2026-07-17T06:59:40.056Z",
+  "asOf": "2026-07-17T09:17:46.183Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/17/world-cup-2026-spain-v-argentina-countdown-trump-to-attend-final-england-news-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 09:08:00 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "Algeria",
+        "England"
+      ]
+    },
+    {
+      "headline": "Concacaf whistleblower Mel Brennan: ‘Fifa survived Blatter and Warner. It will survive Infantino too’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/mel-brennan-fifa-concacaf-whistleblower-interview-fixing-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 09:00:03 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Jude Bellingham posts emotional World Cup poem from England driver",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jude-bellingham-posts-emotional-world-085408098.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 08:54:08 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Bronze final? How about World Cup’s most pointless match? Why Fifa should bin off third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bronze-final-world-cup-most-063848398.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 08:50:23 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Report: Tottenham World Cup Star Wants Move To La Liga Giant",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-tottenham-world-cup-star-085000186.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 08:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup rings for winners as Trump attendance confirmed",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cgmk7mnnyjeo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/f014a550-81b3-11f1-bc34-d11e2a8fe857.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 08:40:55 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Man Utd can be thankful Carrick is in charge",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/man-utd-thankful-carrick-charge-080900324.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 08:09:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who is Slavko Vincic? Spain vs Argentina referee for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/slavko-vincic-spain-vs-argentina-075306511.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 07:53:06 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Tottenham set to accelerate pursuit of Manchester City forward after FIFA World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tottenham-set-accelerate-pursuit-manchester-073500076.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 07:35:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Surgery 'among the options' for Saliba's back injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/surgery-among-options-salibas-back-072846747.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 07:28:46 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Who is injured for the World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 07:14:49 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🤔 Tuchel defends his tactics: is English DNA to blame?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-defends-tactics-english-dna-071100310.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 07:11:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "😭 Slavko Vincic in tears! after learning he'll ref World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/slavko-vincic-tears-learning-hell-070000220.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 07:00:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Joan Laporta talks Messi, Lamine, Deco, La Masia ahead of FIFA World Cup final: &#8216;We are very proud&#8217;",
       "links": {
@@ -14,21 +199,6 @@
       "teams": [
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Bronze final? How about World Cup’s most pointless match? Why Fifa should bin off third-place play-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bronze-final-world-cup-most-063848398.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 06:38:48 +0000",
-      "teams": [
-        "France",
-        "England"
       ]
     },
     {
@@ -3338,18 +3508,6 @@
       "teams": [
         "England"
       ]
-    },
-    {
-      "headline": "Who is injured for the World Cup final?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:52:21 +0000",
-      "teams": []
     },
     {
       "headline": "Thomas Tuchel accepts responsibility after substitutions backfire in England defeat",
@@ -15393,181 +15551,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Norway vs England lineups: Heggem starts as Haaland faces Three Lions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-norway-vs-194000539.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:40:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "👑 Harry Kane or Erling Haaland, who's having the better season?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/harry-kane-erling-haaland-whos-193000483.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:30:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for Saturday's quarterfinal matches include Argentina, Haaland",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-saturdays-quarterfinal-matches-include-argentina-haaland/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/16/064663e9-5a32-4808-b76e-9aa6975675d0/erling-haaland-norway-imagn.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:29:50 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "England vs. Norway odds, prediction, time: 2026 World Cup quarterfinal picks by expert on 25-16 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-norway-odds-prediction-line-time-2026-world-cup-quarterfinal-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/22/72a7f344-4854-4d37-9d57-3002d44dca7f/harry-kane-england.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:22:25 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Saturday's best bets feature Erling Haaland, Lionel Messi",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-saturdays-best-bets-feature-erling-haaland-lionel-messi/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/09/d7581834-1908-4600-915d-fba9c9bcfbc1/messi-4.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:20:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "🚨 World Cup: big news ahead of Norway v England kick-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-big-news-ahead-191200269.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:12:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "After last-16 exit! Death threats stop World Cup star going home",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/last-16-exit-death-threats-191100691.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:11:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Colombia"
-      ]
-    },
-    {
-      "headline": "Rudi Garcia faces Belgian backlash for taking Courtois off in World Cup loss to Spain",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/11/rudi-garcia-belgium-world-cup-thibaut-courtois-spain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 19:03:34 GMT",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "De Bruyne reassures Napoli fans after Belgium World Cup exit: ‘I’ll be back’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bruyne-reassures-napoli-fans-belgium-185500286.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 18:55:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "South Africa World Cup midfielder Jayden Adams dies at the age of 25",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-world-cup-midfielder-185444484.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 18:54:44 +0000",
-      "teams": [
-        "South Africa"
-      ]
-    },
-    {
-      "headline": "No One Can Stop Erling Haaland, Except For (Maybe) England's Ezri Konsa",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/no-one-can-stop-erling-haaland-except-maybe-englands-ezri-konsa"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/haaland-konsa-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 14:53:11 -0400",
-      "teams": [
-        "Norway",
-        "England"
       ]
     }
   ]
