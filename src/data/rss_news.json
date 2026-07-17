@@ -1,6 +1,99 @@
 {
-  "asOf": "2026-07-17T10:59:52.437Z",
+  "asOf": "2026-07-17T12:18:23.079Z",
   "items": [
+    {
+      "headline": "Citing Superstition, Argentine President Won't Attend World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/fifa-2026-world-cup-argentina-spain"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentinah1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 08:09:15 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Trump White House official reveals USA will host 2031 Women’s World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-white-house-official-reveals-120523207.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 12:05:23 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Five England players who deserve to play against France in World Cup bronze final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/five-england-players-deserve-play-115753786.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:57:53 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pele-azteca-england-66-ranking-115422978.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:54:22 +0000",
+      "teams": [
+        "Brazil",
+        "England"
+      ]
+    },
+    {
+      "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1af7/live/ae47a880-814e-11f1-bee8-53ce494e1abc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 11:54:14 GMT",
+      "teams": [
+        "Brazil",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup winners to be presented with Super Bowl-style rings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-winners-presented-super-115053177.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:50:53 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
       "links": {
@@ -10,11 +103,212 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 10:47:56 GMT",
+      "pubDate": "Fri, 17 Jul 2026 11:48:26 GMT",
       "teams": [
         "Spain",
         "Argentina",
         "Algeria",
+        "England"
+      ]
+    },
+    {
+      "headline": "Harry Kane’s stance on Real Madrid move emerges after World Cup disappointment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/harry-kane-stance-real-madrid-114000527.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:40:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "'Watching us (hopefully) climb the table' - excitement for club football's return",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watching-us-hopefully-climb-table-113822647.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:38:22 +0000",
+      "teams": []
+    },
+    {
+      "headline": "'Incredible' how Gordon came back from double leg break",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/incredible-gordon-came-back-double-112825037.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:37:54 +0000",
+      "teams": [
+        "Scotland"
+      ]
+    },
+    {
+      "headline": "The financial winners and losers from the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 11:36:11 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Why Bangladesh erupted at Argentina’s win over England and will be celebrating all the way to the final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/why-brazil-argentina-fans-fighting-120024183.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:24:52 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain have reclaimed their football identity at this World Cup but is their style boring?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-reclaimed-football-identity-world-112038554.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:20:38 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Will wildfire smoke over New York threaten the World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wildfire-smoke-over-york-threaten-111539007.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:15:39 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Pep Guardiola ‘had verbal agreement’ to become England boss as Thomas Tuchel exit clauses revealed",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pep-guardiola-had-verbal-agreement-111118348.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:11:18 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-did-not-deliver-time-110031191.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 11:00:31 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel did not deliver, but his time with England is not up - Shearer",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8xnl908y28o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7d1/live/ea5524f0-8163-11f1-a3a9-99558c035618.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 17 Jul 2026 11:00:24 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "BBC v ITV: who won the UK’s battle of the World Cup 2026 broadcasters?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/world-cup-bbc-itv-broadcast-battle"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 11:00:06 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England need fearless passers and three Tuchel omissions may point the way",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/17/england-passing-world-cup-thomas-tuchel"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 10:56:48 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Does World Cup third place play-off count towards Golden Boot?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/does-third-place-play-off-083050952.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 10:54:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "France vs England prediction: 2026 World Cup betting tips and odds",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-vs-england-prediction-2026-103541951.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 10:35:41 +0000",
+      "teams": [
+        "France",
         "England"
       ]
     },
@@ -91,22 +385,6 @@
       "teams": [
         "Switzerland"
       ]
-    },
-    {
-      "headline": "The financial winners and losers from the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 09:40:17 GMT",
-      "teams": []
     },
     {
       "headline": "Spain 2010 v Spain 2026: How do the two XIs compare?",
@@ -15245,310 +15523,6 @@
       "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT",
       "teams": [
         "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Bellingham’s extra-time winner sinks Norway and sends England into World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/norway-england-world-cup-quarter-final-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 23:47:01 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "📹 It could still come home! England knock out Norway, reach semis",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/still-come-home-england-knock-234700469.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:47:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Man of all the moments' - Bellingham gives England the lead",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/c20yrd39ge8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f1e/live/92661c00-7d7f-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 23:46:44 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Why Does England Sing 'Wonderwall' After Every World Cup Win?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-sing-wonderwall-world-cup-win-norway"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/wonderwall.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:46:36 -0400",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "📋 Argentina named to face Switzerland and try to reach the semis",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-named-face-switzerland-try-234500868.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:45:00 +0000",
-      "teams": [
-        "Switzerland",
-        "United States",
-        "Norway",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina and Switzerland name starting XIs for quarter-final clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-switzerland-name-starting-xis-234500274.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:45:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "If Erling Haaland Is Norway's Tom Brady, Then Who Is Harry Kane For England?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/erling-haaland-norways-tom-brady-who-harry-kane-england"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/teddy-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 11 Jul 2026 19:33:40 -0400",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina vs. Switzerland odds, prediction, time: 2026 World Cup quarterfinal picks from expert on 19-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/argentina-switzerland-odds-prediction-line-time-best-bets-2026-world-cup-quarterfinal-picks-lionel-messi-prop/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/c1f1bd55-f034-40b4-9ec3-4d99b7b68158/lionel-messi-argentina-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:30:47 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "📸 Club World Cup: huge controversy, was the first English goal invalid?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/club-world-cup-huge-controversy-232700706.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:27:00 +0000",
-      "teams": [
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Norway v England: World Cup 2026 quarter-final goes to extra time – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/11/norway-v-england-world-cup-2026-quarter-final-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 23:26:10 GMT",
-      "teams": [
-        "Mexico",
-        "United States",
-        "Norway",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to take a World Cup shootout penalty",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-shootout-penalty-124630295.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 23:03:20 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to take a World Cup shootout penalty",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c04yk2rzv2wo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2a0/live/eff70070-5f5f-11f1-89a3-d1f559421220.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 23:03:14 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Why was Norway’s second goal against England ruled out by VAR for Erling Haaland foul?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-norway-second-goal-against-224537823.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:45:37 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: Norway burned after missed collision with sky cam wire led to England goal, along with controversial VAR review",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-norway-burned-after-missed-collision-with-sky-cam-wire-led-to-england-goal-along-with-controversial-var-review-224530813.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:45:30 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: FIFA disputes sky-cam wire contact as controversial calls help England past Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-fifa-disputes-sky-cam-wire-contact-as-controversial-calls-help-england-past-norway-224530813.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:45:30 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina midfield great Rattin dies aged 89",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-midfield-great-rattin-dies-222432761.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:24:32 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina midfield great Rattin dies aged 89",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ccd/live/68cc4860-7d75-11f1-98dd-61279ae4cdce.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: England edge Norway in quarter-final – in pictures",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/gallery/2026/jul/11/world-cup-2026-norway-v-england-in-pictures"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 11 Jul 2026 22:19:33 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who is Clement Turpin? Norway v England referee for World Cup who angered Thomas Tuchel",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/clement-turpin-norway-v-england-052042614.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 22:19:31 +0000",
-      "teams": [
-        "Norway",
         "England"
       ]
     }
