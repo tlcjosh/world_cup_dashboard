@@ -1,6 +1,115 @@
 {
-  "asOf": "2026-07-17T17:58:27.136Z",
+  "asOf": "2026-07-17T19:23:04.321Z",
   "items": [
+    {
+      "headline": "Spain vs. Argentina World Cup Finals Weather Update, Forecast",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-final-spain-argentina-weather-forecast-smoke-aqi"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286432855-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 15:12:06 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'Get the players in before a big sale' - fans on midfield reinforcements",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/players-big-sale-fans-midfield-185234643.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 18:52:34 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 Club World Cup final: we know how long the half-time show will last!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/club-world-cup-final-know-184000502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 18:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "U.S. Soccer maps out long-term vision after USMNT's roller coaster World Cup run",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/u-s-soccer-vision-for-future-after-usmnts-rollercoaster-world-cup-run-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/17/963093a8-c95f-4af3-a25b-727e453113f4/usmnt-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 18:05:11 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "FIFA president to meet with White House about wildfire smoke's potential impact on World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/fifa-president-white-house-wildfire-smokes-potential-impact-on-world-cup-final/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/17/2d5f90b3-b042-4d9d-baad-662d68c1772a/new-york-air.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Fri, 17 Jul 2026 18:01:06 +0000",
+      "teams": [
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "headline": "🤯 A bit of the World Cup final at home: FIFA sells turf pieces",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bit-world-cup-final-home-175400088.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 17:54:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Calls for Spain to train indoors ahead of World Cup final as wildfire smoke engulfs New Jersey",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/calls-spain-train-indoors-ahead-174708877.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 17 Jul 2026 17:47:08 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
     {
       "headline": "World Cup 2026: Spain v Argentina countdown, Trump to attend final, England news – live",
       "links": {
@@ -31,24 +140,6 @@
       "teams": [
         "Spain",
         "France"
-      ]
-    },
-    {
-      "headline": "U.S. Soccer maps out long-term vision after USMNT's roller coaster World Cup run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/u-s-soccer-vision-for-future-after-usmnts-rollercoaster-world-cup-run-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/17/963093a8-c95f-4af3-a25b-727e453113f4/usmnt-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 17 Jul 2026 17:28:17 +0000",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -490,6 +581,21 @@
       "teams": [
         "Spain",
         "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup of memes: Japan fans, Beckham unbothered and a simmering bromance",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/world-cup-memes-messi-haaland-bellingham-beckham-viking-row-japan"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 17 Jul 2026 15:00:33 GMT",
+      "teams": [
+        "United States",
+        "Japan"
       ]
     },
     {
@@ -15360,119 +15466,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 04:35:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Argentina survive World Cup scare after Julian Alvarez screamer but these major flaws offer England hope in grudge match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-survive-world-cup-scare-042925053.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 04:29:25 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Top four ranked teams make semi-finals for first time",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c2ey9l3yl4vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/730c/live/259b3630-7da9-11f1-b8b7-61bca8be7527.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 04:26:44 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Argentina 3-1 Switzerland (aet): World Cup 2026 quarter-final – as it happened",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/11/argentina-v-switzerland-world-cup-2026-quarter-final-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 04:26:14 GMT",
-      "teams": [
-        "Switzerland",
-        "Egypt",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Embolo sent off as result of mistaken identity rule",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ec5/live/7f45e610-7da1-11f1-a049-155ea2296701.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Bellingham inspires England to beat Norway and reach World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-stunned-schjelderup-puts-norway-213919845.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 04:02:12 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Best World Cup Goals: The Top 50 Goals Of The Tournament So Far",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/best-world-cup-goals-top-50-goals-tournament-so-far"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1story-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 00:00:33 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Julián Álvarez’s extra-time stunner sinks 10-man Switzerland to send Argentina into semi-finals",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/switzerland-argentina-world-cup-quarter-final-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 03:58:37 GMT",
       "teams": [
         "Switzerland",
         "Argentina"
