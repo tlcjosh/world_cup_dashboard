@@ -1,6 +1,76 @@
 {
-  "asOf": "2026-07-16T23:42:05.557Z",
+  "asOf": "2026-07-17T01:14:25.623Z",
   "items": [
+    {
+      "headline": "World Cup Final Preparations Clouded As Spain Practices Through New Jersey Smoke",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-final-preparations-clouded-spain-practices-through-new-jersey-smoke"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spainfront.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 21:05:49 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Waka Waka, Minions And A Psychic Octopus: Recalling Spain's 2010 World Cup Run",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2010-world-cup-spain-shakira-waka-waka"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/main.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 20:57:46 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Every Teenager To Start In A World Cup Final — And Win It",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/every-teenager-start-world-cup-final-and-win"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/4dcfdb44-mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 20:28:35 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi's, Argentina's World Cup Final History Ahead Of Sunday's Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messis-argentinas-world-cup-final-history-ahead-sundays-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lionel-messi.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 16 Jul 2026 20:20:53 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "The World Cup, in Photos",
       "links": {
@@ -97,7 +167,7 @@
       "teams": []
     },
     {
-      "headline": "Kylian Mbappé Leaves World Cup With Legacy Intact, But Nothing To Show For It",
+      "headline": "Kylian Mbappé Leaves World Cup With Legacy Intact But Nothing To Show For It",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-leaves-world-cup-legacy-intact-nothing-show"
@@ -15525,72 +15595,6 @@
       "teams": [
         "Switzerland",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "South Africa World Cup midfielder Adams dies aged 25",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/south-africa-world-cup-midfielder-133056239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 14:47:51 +0000",
-      "teams": [
-        "South Africa"
-      ]
-    },
-    {
-      "headline": "South Africa World Cup midfielder Adams dies aged 25",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee7/live/695fd8a0-7d2f-11f1-8f06-e145dd803033.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sat, 11 Jul 2026 14:47:47 GMT",
-      "teams": [
-        "South Africa"
-      ]
-    },
-    {
-      "headline": "Thibaut Courtois makes strange request after World Cup exit: ‘I don’t know if Belgium will agree to this’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thibaut-courtois-reveals-cause-thigh-223051900.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 11 Jul 2026 14:40:07 +0000",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Norway vs. England live stream: How to watch FIFA World Cup, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/norway-vs-england-live-stream-how-to-watch-fifa-world-cup-predictions-and-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/11/f5daf669-cec2-416b-995f-69d36a87f3bf/untitled-design-2026-07-11t101108-037.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 11 Jul 2026 14:18:44 +0000",
-      "teams": [
-        "Norway",
-        "England"
       ]
     }
   ]
