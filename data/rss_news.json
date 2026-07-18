@@ -1,37 +1,6 @@
 {
-  "asOf": "2026-07-18T19:50:52.261Z",
+  "asOf": "2026-07-18T20:40:01.209Z",
   "items": [
-    {
-      "headline": "France v England: World Cup third-place playoff – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/18/france-v-england-world-cup-third-place-playoff-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 19:42:15 GMT",
-      "teams": [
-        "France",
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "Mbappé chasing the record? France and England set for Cup 3rd place",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mbapp-chasing-record-france-england-194200508.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 19:42:00 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
     {
       "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
       "links": {
@@ -41,7 +10,81 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 19:34:25 +0000",
+      "pubDate": "Sat, 18 Jul 2026 20:32:06 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "France v England: World Cup third-place playoff – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/18/france-v-england-world-cup-third-place-playoff-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 20:27:01 GMT",
+      "teams": [
+        "France",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Biggest controversies of the 2026 World Cup, from FIFA policies to Folarin Balogun's red card",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/biggest-controversies-of-the-2026-world-cup-from-fifa-policies-to-folarin-baloguns-red-card-200859432.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 20:08:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who Has The Most To Gain (Or Lose) From The 2026 World Cup Final?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/who-has-most-gain-or-lose-from-2026-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/ftf-7-17-d.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 16:06:50 -0400",
+      "teams": []
+    },
+    {
+      "headline": "The Argentina formula that can defy logic to beat Spain in World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-formula-defy-logic-beat-195315692.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:53:15 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Mbappé chasing record? France and England set for third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-chasing-record-france-england-194200508.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:42:00 +0000",
       "teams": [
         "France",
         "England"
@@ -15428,55 +15471,6 @@
       "teams": [
         "Morocco",
         "France"
-      ]
-    },
-    {
-      "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pick-england-xi-world-cup-013936005.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 09:05:32 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "BBC experts pick their England World Cup semi-final XI - do you agree?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b999/live/ff26aa50-7d91-11f1-9b2d-630268077fd8.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 09:05:27 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Football Extra newsletter: It's tough to reach the top – and that's the point",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/football-extra-newsletter-tough-reach-083921942.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 08:39:21 +0000",
-      "teams": [
-        "Australia",
-        "France",
-        "Argentina",
-        "England"
       ]
     }
   ]
