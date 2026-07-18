@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T20:39:59.699Z",
+  "lastUpdated": "2026-07-18T21:34:57.669Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4886,10 +4886,10 @@
       "awayIso": "england",
       "venue": "Hard Rock Stadium, Miami Gardens",
       "kickoff": "2026-07-18T21:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
-      "firstHalfStart": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "IN_PLAY",
+      "firstHalfStart": "2026-07-18T21:34:57.669Z",
       "secondHalfStart": null,
       "espnEventId": "760516"
     },

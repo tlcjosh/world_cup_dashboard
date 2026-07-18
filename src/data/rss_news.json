@@ -1,6 +1,82 @@
 {
-  "asOf": "2026-07-18T20:40:01.209Z",
+  "asOf": "2026-07-18T21:35:24.985Z",
   "items": [
+    {
+      "headline": "France v England: World Cup third-place playoff – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/18/france-v-england-world-cup-third-place-playoff-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 21:27:27 GMT",
+      "teams": [
+        "France",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup prize money: Third-place payout for England vs. France and the full list of team earnings",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-prize-money-third-place-payout-for-england-vs-france-and-the-full-list-of-team-earnings-212542101.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 21:25:42 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "🤯 Even before kick-off! England fans angry with Tuchel again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/even-kick-off-england-fans-205700545.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 20:57:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina wear 1986 kit replica against England",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-wear-1986-kit-replica-203418033.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 20:49:26 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Grosvenor Sport World Cup final betting offer: Double your odds and get £30 in free bets",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/grosvenor-sport-world-cup-final-204500874.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 20:45:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
       "links": {
@@ -13,22 +89,6 @@
       "pubDate": "Sat, 18 Jul 2026 20:32:06 +0000",
       "teams": [
         "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "France v England: World Cup third-place playoff – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/18/france-v-england-world-cup-third-place-playoff-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 20:27:01 GMT",
-      "teams": [
-        "France",
-        "Jordan",
         "England"
       ]
     },
@@ -390,7 +450,7 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Golden Ball Odds: Messi Heavily Favored After Semifinal Win",
+      "headline": "2026 World Cup Golden Ball Odds: Messi Heavily Favored Ahead Of Final",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-golden-ball-odds"
@@ -406,7 +466,7 @@
       "teams": []
     },
     {
-      "headline": "2026 World Cup Golden Boot Odds: Messi Heavily Favored After Semifinal Heroics",
+      "headline": "2026 World Cup Golden Boot Odds: Can Messi Hold Off Mbappé?",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot"
@@ -1262,7 +1322,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fd5/live/511764c0-829d-11f1-926f-c90d1bcfbc84.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5258/live/03609930-8221-11f1-b966-41edf3b346b4.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -15414,64 +15474,6 @@
       "source": "BBC Sport",
       "pubDate": "Mon, 13 Jul 2026 09:55:54 GMT",
       "teams": []
-    },
-    {
-      "headline": "Andy Burnham has body of work that speaks volumes about how he gets football | Rob Draper",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/13/andy-burnham-body-of-work-football"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 13 Jul 2026 09:38:05 GMT",
-      "teams": [
-        "England",
-        "Croatia"
-      ]
-    },
-    {
-      "headline": "World Cup quiz: how well do you remember USA 94?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/13/world-cup-quiz-usa-94-united-states"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 13 Jul 2026 09:33:37 GMT",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "📺 Monday's guide (13): where to watch the games on a Cup-free day",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mondays-guide-13-where-watch-092300367.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 09:23:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Manchester United to lodge Manu Koné bid, Gian Piero Gasperini addresses Frenchman&#8217;s Roma future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/manchester-united-lodge-manu-kon-091000544.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 09:10:00 +0000",
-      "teams": [
-        "Morocco",
-        "France"
-      ]
     }
   ]
 }
