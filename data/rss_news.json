@@ -1,6 +1,207 @@
 {
-  "asOf": "2026-07-18T18:37:55.758Z",
+  "asOf": "2026-07-18T19:50:52.261Z",
   "items": [
+    {
+      "headline": "France v England: World Cup third-place playoff – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/18/france-v-england-world-cup-third-place-playoff-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 19:42:15 GMT",
+      "teams": [
+        "France",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mbappé chasing the record? France and England set for Cup 3rd place",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbapp-chasing-record-france-england-194200508.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:42:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-v-france-tv-054632779.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:34:25 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "With three Brazilians: Portuguese paper 🇵🇹 names biggest World Cup flops",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/three-brazilians-portuguese-paper-names-192100500.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:21:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Manchester United start new signing Andrey Santos in pre-season loss to Wrexham",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Can Spain's historically great defense carry them over Lionel Messi and Argentina in Sunday's World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-argentina-2026-world-cup-final-lionel-messi-defense/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/18/d3c16417-a353-4823-98b0-bfb2f0ed7a86/untitled-design-2026-07-18t150331-297.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:09:06 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Opinion: Barcelona should consider signing Spain&#8217;s World Cup hero but only at the right price",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/opinion-barcelona-consider-signing-spain-190000577.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 19:00:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Play BBC Sport's new World Cup predictor game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/play-bbc-sports-world-cup-185935545.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:59:35 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Make your predictions for the last two games of World Cup 2026",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/predictor/mwc2026?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa09/live/f9eaa780-66a8-11f1-b1db-af71d47507d6.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 18:59:30 GMT",
+      "teams": []
+    },
+    {
+      "headline": "France v England: the combined XI for the third-place play-off ⚡️",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-england-combined-xi-third-185100316.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:51:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mbappe pays emotional tribute to Deschamps: &#8216;We should have given you a better send-off&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbappe-pays-emotional-tribute-deschamps-185000896.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:50:00 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "What Do The World Cup Third-Place Winners Get?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-france-england-bronze-third-prize"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/85b8afe8-mbappeh1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 14:41:17 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina or Spain, La Masia wins: Barcelona&#8217;s fingerprints are all over the World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-spain-la-masia-wins-184000937.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "2026 World Cup parlay, best bets: Top picks for France vs. England in Saturday's third-place match",
       "links": {
@@ -803,21 +1004,6 @@
       "source": "BBC Sport",
       "pubDate": "Sat, 18 Jul 2026 13:23:13 GMT",
       "teams": []
-    },
-    {
-      "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-england-v-france-tv-054632779.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 13:18:54 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
     },
     {
       "headline": "Huge rise in harmful social media posts this World Cup",
@@ -15292,182 +15478,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "Official | Salvadoran referee Ivan Barton to officiate France v Spain World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/official-salvadoran-referee-ivan-barton-082000347.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 08:20:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "England top air miles among semi-finalists - does it matter?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cj4g7v9e51jo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ca7/live/8825fcb0-7d07-11f1-923a-a7d66f37fd92.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 07:30:25 GMT",
-      "teams": [
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Borrowed shoes, no Golden Boot - the story of the World Cup's greatest scorer",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c621xndyd7no?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3075/live/1e1b5410-7adb-11f1-9c5e-418249f4ce83.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 06:57:04 GMT",
-      "teams": []
-    },
-    {
-      "headline": "How France and Spain’s World Cup clash of contrasts could decide football’s tactical future",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-spain-world-cup-clash-062040457.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 06:20:40 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Why Trump and Fifa, try as they might, will never overshadow World Cup’s most beautiful feature",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-trump-fifa-try-might-062019466.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 06:20:19 +0000",
-      "teams": [
-        "Mexico"
-      ]
-    },
-    {
-      "headline": "Bellingham hits back at Tuchel as Switzerland rage over unprecedented VAR decision",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bellingham-hits-back-tuchel-switzerland-061000762.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 06:10:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Being on the periphery at the World Cup may be what pushes a Manchester City playmaker on",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/being-periphery-world-cup-may-060500671.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 06:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid offered the chance to sign French World Cup star but club remain uninterested",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-offered-chance-sign-060000356.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 06:00:00 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "Joan Laporta talks Adeyemi, Messi, Alvarez, Raphinha&#8217;s future and more — &#8220;We&#8217;re very excited&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/joan-laporta-talks-adeyemi-messi-060000769.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 06:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "The World Cup has provided a glimpse of the terrifying midfield duo that Manchester City will unleash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-provided-glimpse-terrifying-054500879.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 05:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "☕️🥐 FC Breakfast: Real rock the Club World Cup 😳, Forlán manager",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fc-breakfast-real-rock-club-054300762.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 05:43:00 +0000",
-      "teams": [
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 36",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c62elldp6l7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/387e/live/2c51eed0-7dac-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 05:29:30 GMT",
-      "teams": []
     }
   ]
 }
