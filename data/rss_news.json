@@ -1,6 +1,268 @@
 {
-  "asOf": "2026-07-18T06:17:52.530Z",
+  "asOf": "2026-07-18T08:13:21.894Z",
   "items": [
+    {
+      "headline": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 08:05:59 GMT",
+      "teams": [
+        "Brazil",
+        "Spain",
+        "France",
+        "Norway",
+        "Argentina",
+        "England",
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "France predicted XI v England: Didier Deschamps to rotate for last ever game as Les Bleus boss",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-predicted-xi-v-england-080500647.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:05:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid consider the &#8216;main part&#8217; of their transfer window done",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-consider-main-part-080000573.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Best finishers, defensive kings & runners - World Cup finalists in numbers",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-finishers-defensive-kings-runners-073546316.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:35:46 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Best finishers, defensive kings & runners - World Cup finalists in numbers",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c0rd8zrwvwno?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/963a/live/a5b04c20-8213-11f1-bee8-53ce494e1abc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 07:35:40 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Luis de la Fuente delivers Lamine Yamal fitness update before World Cup final: &#8216;He took a heavy knock, but&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/luis-la-fuente-delivers-lamine-072500817.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:25:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/defiant-tuchel-defends-decisions-says-025043485.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:20:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 The national team unveils final shirt for Argentina clash",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/national-team-unveils-final-shirt-071400760.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:14:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina boss unsure about Lionel Messi’s future ahead of World Cup final: ‘He doesn’t stop surprising us’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-boss-unsure-lionel-messi-070928147.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:09:28 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina boss reveals the only way to stop Barcelona sensation Lamine Yamal: &#8216;I wish we could&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-boss-reveals-only-way-070500072.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:05:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain’s Mikel Merino: ‘The focus is on being a good human first, then a good footballer’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/spain-mikel-merino-good-human-footballer-interview-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 07:00:52 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Tuchel would rather put down the English game than admit to his own cowardice | Jonathan Liew",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/thomas-tuchel-england-dna-world-cup-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 07:00:51 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cold War Steve on … Don Quixote and Sancho Panza coming to save the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/picture/2026/jul/18/cold-war-steve-on-don-quixote-and-sancho-panza-coming-to-save-the-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 07:00:51 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid&#8217;s stance on Premier League star unchanged despite World Cup heroics",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-stance-premier-league-070000544.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "🎥 Lamine, Messi and au revoir, Deschamps... best bits before the final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lamine-messi-au-revoir-deschamps-064400102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 06:44:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Talks held as Liverpool move closer to deal for £51m World Cup midfield powerhouse",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/talks-held-liverpool-move-closer-064000796.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 06:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi reacts to iconic Lamine Yamal photo before World Cup final: &#8216;It&#8217;s crazy&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lionel-messi-reacts-iconic-lamine-064000098.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 06:40:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Real Madrid midfield target leaves door open to summer transfer: &#8216;As I said before&#8230;&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-midfield-target-leaves-062500246.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 06:25:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
     {
       "headline": "Final tickets reach insane prices, Bellingham tries to lift England spirits",
       "links": {
@@ -169,27 +431,12 @@
       "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/defiant-tuchel-defends-decisions-says-025043485.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 02:50:43 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
-      "links": {
-        "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/c3r0l4zn9jpo?at_medium=RSS&at_campaign=rss"
         }
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01e2/live/c8df0030-8248-11f1-8c83-d19dc49cf1a1.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cde5/live/09ccb3a0-8279-11f1-bee8-53ce494e1abc.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -15245,264 +15492,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 12 Jul 2026 13:07:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Preston postpone friendly after England win",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/preston-postpone-friendly-england-win-130149649.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:01:49 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup star Christ Oulai: Fiorentina make key progress in move",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-star-christ-oulai-124000934.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 12:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Big stars and old rivals - what to expect in semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/big-stars-old-rivals-expect-122917686.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 12:29:17 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Big stars and old rivals - what to expect in semi-finals",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cd6ed5x95ygo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a6f/live/a6cb8cd0-7e05-11f1-afb0-9dae682daff3.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 12:29:10 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/animals-hand-god-beckham-argentina-101038662.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 12:27:16 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Are There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/any-world-cup-games-today-semifinal-schedule-france-vs-spain-england-vs-argentina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-12.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 08:01:44 -0400",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid  World Cup Spotlight: Jude Bellingham emerges as the protagonist in England vs Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-115500205.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:55:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona World Cup Spotlight: Anthony Gordon provides an assist as England get past Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-world-cup-spotlight-anthony-115500522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:55:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Arsenal pushing to seal quick transfer for Argentina’s World Cup hero",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-pushing-seal-quick-transfer-114934119.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:49:34 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Legendary no.10s: Messi gifts Baggio Argentina shirt after World Cup quarter-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/legendary-no-10s-messi-gifts-113500505.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:35:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Real Madrid surpass Bayern and PSG with historic World Cup feat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-surpass-bayern-psg-113000081.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Rice in bed for nearly three days before Norway game - Tuchel",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cpd3wv3v1eeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5d2/live/1ef90aa0-7de0-11f1-91f9-abeb669686c2.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 11:15:14 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Three things to watch out for as Barcelona begin pre-season under Flick",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/three-things-watch-barcelona-begin-110000617.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 11:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Why Thomas Tuchel’s plan B could win England the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-thomas-tuchel-plan-b-060052755.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:55:20 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "💥The omens of a possible World Cup final, revealed",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/omens-possible-world-cup-final-104300922.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:43:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid coach excited about England superstar after sensational World Cup performances",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-coach-excited-england-103500239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:35:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Odegaard set Arsenal World Cup record before elimination",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/odegaard-set-arsenal-world-cup-103500309.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:35:00 +0000",
-      "teams": [
-        "Norway"
-      ]
     }
   ]
 }
