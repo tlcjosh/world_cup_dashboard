@@ -1,6 +1,37 @@
 {
-  "asOf": "2026-07-18T04:07:32.043Z",
+  "asOf": "2026-07-18T06:17:52.530Z",
   "items": [
+    {
+      "headline": "Final tickets reach insane prices, Bellingham tries to lift England spirits",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/final-tickets-reach-insane-prices-060500720.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain vs Argentina World Cup 2026 final preview: Prediction, team news & line-ups",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-vs-argentina-world-cup-060500112.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Trump questions Kane's 'defensive' role in semi-final loss",
       "links": {
@@ -10,8 +41,126 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 02:59:38 +0000",
+      "pubDate": "Sat, 18 Jul 2026 05:56:02 +0000",
       "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Who am I? Guess World Cup star No 41",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyp7m9qg4po?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c87/live/0fe07ae0-7dad-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 05:51:36 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Argentina players shocked by England&#8217;s defensive approach in World Cup semi final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-players-shocked-england-defensive-055000908.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 05:50:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-v-france-tv-054632779.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 05:46:32 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Thomas Tuchel criticises DNA of England players after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thomas-tuchel-criticises-dna-england-053500778.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 05:35:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "⏳ World Cup retro: 2002, when Adidas and France got ahead of themselves",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-rewind-2002-adidas-053100475.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 05:31:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "☕️🥐 Breakfast FC: Haaland superstar 😎, Deschamps 🥹",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/breakfast-fc-haaland-superstar-deschamps-052600918.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 05:26:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "FIFA to investigate Argentina over &#8216;Malvinas&#8217; flag in World Cup celebrations",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-investigate-argentina-over-malvinas-052000451.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 05:20:00 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Tuchel defiant in face of criticism over decisions in England exit: ‘I have no regrets’",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/thomas-tuchel-england-2026-world-cup-exit-no-regrets"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 04:28:21 GMT",
+      "teams": [
+        "France",
         "Argentina",
         "England"
       ]
@@ -15353,149 +15502,6 @@
       "pubDate": "Sun, 12 Jul 2026 10:35:00 +0000",
       "teams": [
         "Norway"
-      ]
-    },
-    {
-      "headline": "In-demand Argentina forward has bids near R$1 billion 💰",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/demand-argentina-forward-bids-near-102200607.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:22:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "⚽️Real Madrid rule the World Cup with a flurry of goals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-rule-world-cup-102100742.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:21:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Six Serie A players set to take part in 2026 World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/six-serie-players-set-part-102000772.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:20:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Real Madrid midfielder joins ranks with Pele after achieving key milestone against Norway",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-joins-ranks-102000668.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 10:20:00 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Animals', Hand of God and Beckham - Argentina and England's World Cup rivalry",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c621y75w2x2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14c2/live/c0979910-7ced-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 10:10:33 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "8 Arsenal players make World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/8-arsenal-players-world-cup-095000858.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 09:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Report: Coventry City and West Ham United interested in move for World Cup star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-coventry-city-west-ham-094000913.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 09:40:00 +0000",
-      "teams": [
-        "Norway"
-      ]
-    },
-    {
-      "headline": "Liverpool star breaks silence on World Cup injury heartbreak",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-star-breaks-silence-world-093500029.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 09:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Deal signed: Mo Salah's next club announcement is coming",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/deal-signed-mo-salahs-next-092000294.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 09:20:00 +0000",
-      "teams": [
-        "Egypt",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "SWITZERLAND OUT IN EXTRA TIME, JASHARI'S WORLD CUP ENDS",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/switzerland-extra-time-jasharis-world-090000499.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 09:00:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
       ]
     }
   ]
