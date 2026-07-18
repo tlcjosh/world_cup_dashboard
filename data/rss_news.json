@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-18T21:35:24.985Z",
+  "asOf": "2026-07-18T22:30:36.269Z",
   "items": [
     {
       "headline": "France v England: World Cup third-place playoff – live",
@@ -10,10 +10,242 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 21:27:27 GMT",
+      "pubDate": "Sat, 18 Jul 2026 22:27:34 GMT",
       "teams": [
         "France",
         "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Forecast In New York Postpones Dodgers-Yankees, Shouldn't Impact World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/mlb/dodgers-yankees-postponed-rescheduled-doubleheader-new-york-world-cup-final-argentina-spain"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/yankee_stadium.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:24:31 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Takes Lead, Messi Lurks",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:20:33 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Kylian Mbappé ties Lionel Messi as World Cup's all-time leading scorer with 21st goal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/kylian-mbappe-ties-lionel-messi-as-world-cups-all-time-leading-scorer-with-21st-goal-221842045.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 22:18:42 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Make Room, Messi! Kylian Mbappé Ties All-Time Record For World Cup Goals",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/make-room-messi-kylian-mbappe-ties-all-time-record-world-cup-goals"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:17:33 -0400",
+      "teams": [
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Club World Cup: Michael Olise matches a legendary Pelé record 👑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/club-world-cup-michael-olise-221500562.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 22:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Where To Find Ivory Coast's Stars After The 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/where-find-ivory-coasts-stars-after-2026-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2282023140-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:12:28 -0400",
+      "teams": [
+        "Ivory Coast"
+      ]
+    },
+    {
+      "headline": "🤯 Never happened before! France have already made unwanted history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/never-france-already-made-unwanted-220800748.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 22:08:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Where To Find Netherland's Stars After 2026 World Cup Elimination",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/where-find-netherland-stars-after-world-cup-elimination"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/gettyimages-2280987869-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:06:49 -0400",
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "headline": "📸 Humiliated by England, France are torn apart 😱",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/humiliated-england-france-torn-apart-220300891.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 22:03:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Where To Find South Africa's Stars After Their 2026 World Cup Elimination",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/where-find-south-africas-stars-after-2026-world-cup-elimination"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lylefoster1-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 18:00:59 -0400",
+      "teams": [
+        "South Africa"
+      ]
+    },
+    {
+      "headline": "Hydration breaks not popular and Fifa will review - Wenger",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/hydration-breaks-not-popular-fifa-215658030.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 21:56:58 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Could've done this against Argentina, eh? England steamrolling France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/couldve-v-argentina-eh-england-215400312.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 21:54:00 +0000",
+      "teams": [
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Club World Cup: France's disastrous numbers against England 🥶",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-france-dreadful-record-214600091.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 21:46:00 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Hydration breaks not popular and Fifa will review - Wenger",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c24m30v0gy9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7e1/live/ac6e4090-82ee-11f1-a54c-d7b64e5e84c2.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 21:42:23 GMT",
+      "teams": []
+    },
+    {
+      "headline": "🫡 Rice makes his mark as England captain in rout over France",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rice-makes-mark-england-captain-213800199.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 21:38:00 +0000",
+      "teams": [
+        "France",
         "England"
       ]
     },
@@ -33,7 +265,7 @@
       ]
     },
     {
-      "headline": "🤯 Even before kick-off! England fans angry with Tuchel again",
+      "headline": "🤯 Before kick-off! England fans angry with Tuchel again",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/even-kick-off-england-fans-205700545.html"
@@ -11569,22 +11801,6 @@
       ]
     },
     {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Ties Messi, Bellingham Rises",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:28:28 -0400",
-      "teams": []
-    },
-    {
       "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
       "links": {
         "web": {
@@ -15261,219 +15477,6 @@
       "teams": [
         "France"
       ]
-    },
-    {
-      "headline": "England to wear all-white kit against Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-wear-white-kit-against-121417076.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 12:14:17 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina to wear 'lucky' blue away kit against England",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/czx5v2p7qkgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dd7/live/614fce40-7eb0-11f1-bee8-53ce494e1abc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 12:14:11 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Football Daily | A 64-team World Cup? More is more when it comes to Fifa-land",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/13/football-daily-email-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 13 Jul 2026 12:12:40 GMT",
-      "teams": [
-        "Switzerland",
-        "Australia",
-        "England"
-      ]
-    },
-    {
-      "headline": "At 44, ageless Nenê returns to Botafogo-PB and delivers again",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/44-ageless-nen-returns-botafogo-121100478.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 12:11:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Just in: Real Madrid veteran avoids serious injury after World Cup scare",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/just-real-madrid-veteran-avoids-121000316.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 12:10:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Most clinical? Least creative? Best in the air? Comparing the last four",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/most-clinical-least-creative-best-110531784.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 11:36:00 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid superstar arrives at club amid uncertainty over severity of World Cup injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-superstar-arrives-club-111500018.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 11:15:00 +0000",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "Most clinical? Least creative? Best in the air? Comparing the last four",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2k9qj2nyvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9070/live/35b6c750-7e3a-11f1-9abb-e3440c15eda8.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 11:05:25 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rodri: ‘France are one of the best teams here, in great form, but so are Spain. We can beat them’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/13/rodri-interview-spain-captain-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 13 Jul 2026 11:00:46 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Manchester United in advanced talks to sign Youri Tielemans from Aston Villa",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/13/manchester-united-in-advanced-talks-to-sign-youri-tielemans-from-aston-villa"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 13 Jul 2026 10:56:57 GMT",
-      "teams": [
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "More than the Score",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sounds/play/p0nyh5jk?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nyh5n3.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 10:26:00 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Mourinho sees new Real Madrid signing as key piece despite World Cup disappointment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mourinho-sees-real-madrid-signing-101000702.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 10:10:00 +0000",
-      "teams": [
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Chris Sutton's World Cup semi-final predictions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chris-suttons-world-cup-semi-095600839.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 09:56:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Chris Sutton's World Cup semi-final predictions",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c4gynmr6vjro?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da24/live/94353bc0-641a-11f1-8546-8f19e4fe30f4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Mon, 13 Jul 2026 09:55:54 GMT",
-      "teams": []
     }
   ]
 }
