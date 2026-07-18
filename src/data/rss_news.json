@@ -1,6 +1,134 @@
 {
-  "asOf": "2026-07-18T00:56:47.909Z",
+  "asOf": "2026-07-18T04:07:32.043Z",
   "items": [
+    {
+      "headline": "Trump questions Kane's 'defensive' role in semi-final loss",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-questions-kanes-defensive-role-021931194.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 02:59:38 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/defiant-tuchel-defends-decisions-says-025043485.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 02:50:43 +0000",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3r0l4zn9jpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01e2/live/c8df0030-8248-11f1-8c83-d19dc49cf1a1.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 02:50:36 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal's Spain Is Out To End Lionel Messi And Argentina's World Cup Reign",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-argentina-messi-yamal-world-cup-final-history"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spain1-5.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Fri, 17 Jul 2026 22:49:18 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "With the World Cup spotlight on him, Lionel Messi won't make the final about himself",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/with-the-world-cup-spotlight-on-him-lionel-messi-wont-make-the-final-about-himself-022916473.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 02:29:16 +0000",
+      "teams": []
+    },
+    {
+      "headline": "'They made him a defensive player' - Trump questions Kane role in semi",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cjej3y1jgdpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f0f/live/aed0a990-8249-11f1-8192-1d2d6928ff6e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 02:12:52 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "New York is the heart of the world and is a fitting host for the 2026 World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/york-heart-world-fitting-host-005814189.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 00:58:14 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "‘He is pure history’: Scaloni pays tribute to Messi before World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pure-history-scaloni-pays-tribute-005213537.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 00:52:13 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Argentina like to leave mark on opponents - Laporte",
       "links": {
@@ -15368,122 +15496,6 @@
       "teams": [
         "Switzerland",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Video: Lautaro strikes 121st minute goal to send Argentina to World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/video-lautaro-strikes-121st-minute-085000588.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 08:50:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Barcelona ready to offer several youth players in exchange deal to sign Spanish top talent",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-ready-offer-several-youth-085000472.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 08:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "The absolute elite! Why these will be the best World Cup semis ever",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/absolute-elite-why-best-world-084700035.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 08:47:00 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Bellingham blunts Norway as England make the semis | World Cup Daily – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/12/bellingham-blunts-norway-as-england-make-the-semis-world-cup-daily"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 08:36:57 GMT",
-      "teams": [
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Brilliant Jude Bellingham bails out England again to sink Norway and reach World Cup semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-brings-clarity-down-002424091.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 08:04:13 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid ready to resolve contract situation of star player but not at any price — report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-ready-resolve-contract-074000349.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 07:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Inside Thomas Tuchel’s relationship with Jude Bellingham at the heart of England’s World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inside-thomas-tuchel-relationship-jude-073846670.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 07:38:46 +0000",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kone&#8217;s pricetag continues to rise: Roma asking for €60 mln",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kone-pricetag-continues-rise-roma-073000905.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 07:30:00 +0000",
-      "teams": [
-        "France"
       ]
     }
   ]
