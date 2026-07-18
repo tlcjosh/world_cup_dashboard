@@ -1,16 +1,32 @@
 {
-  "asOf": "2026-07-18T11:55:23.809Z",
+  "asOf": "2026-07-18T13:35:11.107Z",
   "items": [
     {
-      "headline": "A bit 'blah' or a worthy host? Is MetLife right World Cup final choice?",
+      "headline": "The Bronze Final - the unwanted tie or a match with a 'golden layer'?",
       "links": {
         "web": {
-          "href": "https://sports.yahoo.com/articles/bit-blah-worthy-host-metlife-114001674.html"
+          "href": "https://sports.yahoo.com/articles/bronze-final-unwanted-tie-match-132319322.html"
         }
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 11:40:01 +0000",
+      "pubDate": "Sat, 18 Jul 2026 13:23:19 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The Bronze Final - the unwanted tie or a match with a 'golden layer'?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4gk5jq2lj1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6525/live/7702dec0-8299-11f1-8421-87d3bb1c1a3f.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 13:23:13 GMT",
       "teams": []
     },
     {
@@ -22,13 +38,233 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 11:32:03 GMT",
+      "pubDate": "Sat, 18 Jul 2026 13:21:16 GMT",
       "teams": [
         "Spain",
         "France",
         "Argentina",
         "England"
       ]
+    },
+    {
+      "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-england-v-france-tv-054632779.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 13:18:54 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Huge rise in harmful social media posts this World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/huge-rise-harmful-social-media-130732004.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 13:07:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Huge rise in harmful social media posts this World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c7vg6q24e18o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2497/live/0ffb6900-82a7-11f1-84ea-29e7008b1ad8.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 13:07:27 GMT",
+      "teams": []
+    },
+    {
+      "headline": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/classroom-moment-bonds-finalists-la-130025396.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 13:00:25 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c7b6/live/4be576d0-822b-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 13:00:18 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Mauricio Pochettino to make a decision about USMNT future 'next week'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/mauricio-pochettino-to-make-a-decision-about-usmnt-future-next-week-125813102.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 12:58:13 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Quiz: Name every men's World Cup final host city",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgzp820y9xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cb3/live/2e509b00-6821-11f1-8546-8f19e4fe30f4.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 12:55:03 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Report: Tottenham Hotspur star wanted by European giants",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-tottenham-hotspur-star-wanted-125000762.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 12:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona icon hails Messi, backs Lamine Yamal to shine at World Cup final: &#8216;He enjoys pressure&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-icon-hails-messi-backs-124500136.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 12:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi on viral photos of him bathing baby Lamine Yamal: 'What a crazy picture'",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/lionel-messi-on-viral-photos-of-him-bathing-baby-lamine-yamal-what-a-crazy-picture-123045468.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 12:30:45 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ben Jacobs: Liverpool leading the race to sign World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ben-jacobs-liverpool-leading-race-122500750.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 12:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "How to Watch Mbappe and France vs. England: TV Channel, Live Stream, Live",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-to-watch-france-vs-england-tv-channel-live-stream-july-18-2026"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-france-vs-england-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:22:08 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid change stance on summer move for Man City superstar after World Cup excellence",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-change-stance-summer-121500181.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 12:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Football Daily | France v England in the third-place playoff: the game nobody wants to play",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/football-daily-email-gwc-england-france"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 11:46:20 GMT",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "Brazil",
+        "United States",
+        "Germany",
+        "Sweden",
+        "France",
+        "Austria",
+        "England"
+      ]
+    },
+    {
+      "headline": "A bit 'blah' or a worthy host? Is MetLife right World Cup final choice?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bit-blah-worthy-host-metlife-114001674.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 11:40:01 +0000",
+      "teams": []
     },
     {
       "headline": "A bit 'blah' or a worthy host? Is MetLife  right World Cup final choice?",
@@ -296,7 +532,7 @@
       "teams": []
     },
     {
-      "headline": "More games and more controversy - has World Cup been a success?",
+      "headline": "More games, more controversy - good and bad of biggest World Cup yet",
       "links": {
         "web": {
           "href": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss"
@@ -756,21 +992,6 @@
       "pubDate": "Sat, 18 Jul 2026 05:50:00 +0000",
       "teams": [
         "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-england-v-france-tv-054632779.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sat, 18 Jul 2026 05:46:32 +0000",
-      "teams": [
-        "France",
         "England"
       ]
     },
@@ -15276,233 +15497,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "Real Madrid midfielder set to return from injury and start vs Spain in World Cup semi final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-midfielder-set-return-183000605.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 18:30:00 +0000",
-      "teams": [
-        "Paraguay",
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "🇧🇷 CBF sends message to Brazil fans on the hunt for hexa, watch",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cbf-sends-message-brazilian-fans-182400258.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 18:24:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "'We have another level we can reach' - Kane defends frustrated Tuchel",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc69/live/bdd18370-7e1a-11f1-9b4a-473830aebee3.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 18:18:22 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Alisson Becker opens up on his World Cup heartbreak with Brazil",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/alisson-becker-opens-world-cup-175500843.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:55:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Roma star Kone expecting to be benched for France World Cup semi final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/roma-star-kone-expecting-benched-175500945.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:55:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Arsenal plot surprise move for Barcelona&#8217;s priority target and Argentina&#8217;s World Cup hero",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-plot-surprise-move-barcelona-174000960.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:40:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Former Spanish PM accused of racism in remarks about French football team",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/world/2026/jul/12/spain-mariano-rajoy-accused-of-racism-french-football-team-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 17:39:13 GMT",
-      "teams": [
-        "United States",
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "🎥 She had to be there! How Argentina's gangster granny celebrates victory",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/she-had-argentinas-gangster-granny-173500542.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:35:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Senegal sack manager Pape Thiaw after World Cup 2026 exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/senegal-sack-manager-pape-thiaw-172500607.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:25:00 +0000",
-      "teams": [
-        "Senegal"
-      ]
-    },
-    {
-      "headline": "The two physical factors that may leave Argentina at a disadvantage for World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/two-physical-factors-may-leave-163223204.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:20:32 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "France vs. Spain: Major Tournament Matchups Through The Years",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-spain-major-tournament-matchups-through-years"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine1-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:20:18 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Nico Paz proof Argentina 3-1 extra time win was stressful for everyone",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/nico-paz-proof-argentina-3-171000761.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 17:10:00 +0000",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Switzerland Manager On Breel Embolo Yellow Card Call: 'Completely Unacceptable'",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/switzerland-manager-breel-embolo-red-card-argentina-world-cup-controversy"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/breel2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:00:04 -0400",
-      "teams": [
-        "Switzerland",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "The City That Never Sleeps Suits Up to Play Late-Night Soccer",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/12/nyregion/new-york-city-night-soccer-world-cup.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 12 Jul 2026 16:54:44 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Real Madrid offered to sign World Cup star for just €25 million but club not interested",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-offered-sign-world-164500591.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 16:45:00 +0000",
-      "teams": []
     }
   ]
 }
