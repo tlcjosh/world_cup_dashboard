@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-18T08:13:21.894Z",
+  "asOf": "2026-07-18T09:49:13.703Z",
   "items": [
     {
       "headline": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
@@ -10,16 +10,154 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 08:05:59 GMT",
+      "pubDate": "Sat, 18 Jul 2026 09:40:44 GMT",
       "teams": [
-        "Brazil",
         "Spain",
         "France",
-        "Norway",
         "Argentina",
-        "England",
-        "Croatia"
+        "England"
       ]
+    },
+    {
+      "headline": "Merino: Arsenal star reveals common ground with Lautaro ahead of World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/merino-arsenal-star-reveals-common-094000913.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 09:40:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "More games and more controversy - has World Cup been a success?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/more-games-more-controversy-world-091659585.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 09:16:59 +0000",
+      "teams": []
+    },
+    {
+      "headline": "More games and more controversy - has World Cup been a success?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/ce8k0njm23yo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e34/live/08465ca0-81c7-11f1-97b7-87871fc222bc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 09:16:54 GMT",
+      "teams": []
+    },
+    {
+      "headline": "France vs. England: Who’s No. 3?",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/18/sports/soccer/france-vs-england-whos-no-3.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 18 Jul 2026 09:03:31 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "America’s World Cup report card: some As for atmosphere, but F for affordability",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/america-world-cup-report-card-090000084.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 09:00:00 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Messi and Brady in disbelief over 'prophetic' Lamine Yamal photo",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8e/live/0e128af0-828a-11f1-a23b-f5a17a30f7d0.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Report: Tottenham Hotspur interested in move for World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-tottenham-hotspur-interested-move-085000550.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Dani Olmo reacts to facing childhood idol Lionel Messi in World Cup final: &#8216;Playing against him gives you extra motivation&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/dani-olmo-reacts-facing-childhood-083000027.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:30:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The World Cup final is Messi v Yamal, master v successor, a planetary alignment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-messi-v-082305152.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:23:05 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup earnings revealed: Milan best in Serie A, Man City first overall",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-earnings-revealed-milan-081500563.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 08:15:00 +0000",
+      "teams": []
     },
     {
       "headline": "France predicted XI v England: Didier Deschamps to rotate for last ever game as Les Bleus boss",
@@ -15354,144 +15492,6 @@
         "Spain",
         "France"
       ]
-    },
-    {
-      "headline": "Two phone calls between Real Madrid and Vinicius Jr. changed the course of contract talks &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/two-phone-calls-between-real-140500452.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 14:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup: What we've learned about Argentina, England, France and Spain ahead of the semifinals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2026-world-cup-what-weve-learned-about-argentina-england-france-and-spain-ahead-of-the-semifinals-135625486.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:56:25 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Just strolling around on the pitch: Ibrahimović lays into England star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/just-strolling-around-pitch-ibrahimovi-135200473.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:52:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal? Mbappe? Kane? Pick your World Cup semi-final XI",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ckg4l37nm0do?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06d1/live/fffe9600-7cdc-11f1-bee8-53ce494e1abc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 13:29:06 GMT",
-      "teams": []
-    },
-    {
-      "headline": "FIFA weighs expanding teams for the 2030 World Cup, explained",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-weighs-expanding-teams-2030-132500570.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Why Lautaro avoided suspension for England vs. Argentina World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-lautaro-avoided-suspension-england-131500089.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:15:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Premier League legend backs Real Madrid midfielder to become England&#8217;s greatest player &#8211; &#8220;This is superstar reaction&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/premier-league-legend-backs-real-131000491.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:10:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Wesley overcomes injury, set to join Roma&#8217;s preseason",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/wesley-overcomes-injury-set-join-131000765.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:10:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "EFL players' World Cup involvement ends",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/efl-players-world-cup-involvement-130856394.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:08:56 +0000",
-      "teams": []
-    },
-    {
-      "headline": "⚠️The Athletic drops a bombshell: FIFA plans a 64-team World Cup!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/athletic-drops-bombshell-fifa-plans-130700854.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 13:07:00 +0000",
-      "teams": []
     }
   ]
 }
