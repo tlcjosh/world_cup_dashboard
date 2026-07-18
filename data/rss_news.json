@@ -1,6 +1,87 @@
 {
-  "asOf": "2026-07-18T16:36:46.752Z",
+  "asOf": "2026-07-18T17:39:42.285Z",
   "items": [
+    {
+      "headline": "Spain's final training session before World Cup final cancelled",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40d6/live/d05b9c40-82cc-11f1-adf9-c14531781464.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sat, 18 Jul 2026 17:32:45 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 latest: Trump criticises Tuchel, buildup to France v England and Spain v Argentina final",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 17:19:02 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Shackle Rodri the metronome and Argentina’s passion play can floor Spain | Jonathan Wilson",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/18/shackle-rodri-the-metronome-and-argentinas-passion-play-can-floor-spain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 17:00:03 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Briefly in custody! The wild story of the World Cup final ref",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/briefly-custody-wild-story-world-165100653.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 16:51:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Saliba weighs up avoiding back surgery after injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/saliba-weighs-avoiding-back-surgery-162700880.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 16:27:00 +0000",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
     {
       "headline": "Expert World Cup Predictions For The Spain-Argentina Final",
       "links": {
@@ -21,20 +102,17 @@
       ]
     },
     {
-      "headline": "World Cup 2026 latest: Trump criticises Tuchel, buildup to France v England and Spain v Argentina final",
+      "headline": "💣Juve-Richarlison, Milan exit and Romero fee: today's market 🤑",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina"
+          "href": "https://sports.yahoo.com/articles/juve-richarlison-milan-exit-romero-162600149.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 16:26:07 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 16:26:00 +0000",
       "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
+        "Argentina"
       ]
     },
     {
@@ -133,6 +211,21 @@
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/live/england-vs-france-world-cup-2026-score-result-schedule-live-updates-160000692.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 16:00:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup live updates: France vs. England lineups, preview for third-place game",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/live/france-england-world-cup-2026-score-result-schedule-live-updates-160000692.html"
         }
       },
       "images": [],
@@ -15376,99 +15469,6 @@
       "source": "Fox Sports",
       "pubDate": "Sun, 12 Jul 2026 20:53:10 -0400",
       "teams": []
-    },
-    {
-      "headline": "🚨 The scandal rolls on! The man behind Balogun avoiding a red emerges",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/scandal-rolls-man-behind-balogun-004900892.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 00:49:00 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "FIFA boss Gianni Infantino makes case for expansion of World Cup to 64 teams in 2030",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/breaking-news/article/fifa-boss-gianni-infantino-makes-case-for-expansion-of-world-cup-to-64-teams-in-2030-001328215.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 00:13:28 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Kevin De Bruyne and Thibaut Courtois Weigh Belgium Futures After World Cup Exit",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/kevin-de-bruyne-thibaut-courtois-weigh-belgium-futures-after-world-cup-exit"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GettyImages-2239780812-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 12 Jul 2026 20:06:32 -0400",
-      "teams": [
-        "Belgium",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "A Manchester City superstar entered another stratosphere at the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/manchester-city-superstar-entered-another-234500638.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 23:45:00 +0000",
-      "teams": [
-        "Norway"
-      ]
-    },
-    {
-      "headline": "🚨 Reports: CL club pips Newcastle to Manzambi with €70m package",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/reports-cl-club-pips-newcastle-222000774.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 22:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Ranking potential World Cup finals: England vs. France epic, but Argentina in final again would top it",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/ranking-potential-world-cup-finals-england-france-spain-argentina-lionel-messi-jude-bellingham-kylian-mbappe-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/12/e6c230a2-866e-438e-9f5b-de3b3a40cb8a/argentina-mbappe.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 12 Jul 2026 21:21:10 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
     }
   ]
 }
