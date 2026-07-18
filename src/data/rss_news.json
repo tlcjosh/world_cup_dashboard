@@ -1,6 +1,107 @@
 {
-  "asOf": "2026-07-18T13:35:11.107Z",
+  "asOf": "2026-07-18T14:38:02.588Z",
   "items": [
+    {
+      "headline": "World Cup 2026 latest: Trump criticises Tuchel, buildup to France v England and Spain v Argentina final",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sat, 18 Jul 2026 14:24:07 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "France vs. England: Who’s No. 3?",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/18/sports/soccer/france-vs-england-whos-no-3.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 18 Jul 2026 14:01:26 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Bronze Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-bronze-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286107765.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 09:53:31 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Barcelona change return plans for their 10 remaining World Cup players",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-change-return-plans-10-134500769.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sat, 18 Jul 2026 13:45:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi's international career comes full circle at MetLife Stadium a decade after Argentina retirement",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messis-international-career-full-circle-international-retirement-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/18/51d3cac8-c276-4094-b23d-c92f78f0a45c/messi-lionel-argentina-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 18 Jul 2026 13:32:26 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "France vs. England live stream: How to watch FIFA World Cup third place, odds, prediction, pick, lineups",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/france-vs-england-live-stream-how-to-watch-fifa-world-cup-third-place-odds-prediction-pick-lineups/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/18/115391dd-4160-4de4-9d5d-3810dc8858fb/untitled-design-2026-07-18t092244-501.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sat, 18 Jul 2026 13:29:33 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
     {
       "headline": "The Bronze Final - the unwanted tie or a match with a 'golden layer'?",
       "links": {
@@ -22,29 +123,12 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6525/live/7702dec0-8299-11f1-8421-87d3bb1c1a3f.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f6/live/a0eafba0-82b2-11f1-926f-c90d1bcfbc84.jpg"
         }
       ],
       "source": "BBC Sport",
       "pubDate": "Sat, 18 Jul 2026 13:23:13 GMT",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026 latest: Trump criticises Tuchel, buildup to France v England and Spain v Argentina final",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sat, 18 Jul 2026 13:21:16 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
     },
     {
       "headline": "How to watch England v France: TV channel and start time for World Cup third-place play-off",
@@ -546,21 +630,6 @@
       "source": "BBC Sport",
       "pubDate": "Sat, 18 Jul 2026 09:16:54 GMT",
       "teams": []
-    },
-    {
-      "headline": "France vs. England: Who’s No. 3?",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/18/sports/soccer/france-vs-england-whos-no-3.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sat, 18 Jul 2026 09:03:31 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
     },
     {
       "headline": "America’s World Cup report card: some As for atmosphere, but F for affordability",
@@ -15430,70 +15499,6 @@
       "source": "BBC Sport",
       "pubDate": "Sun, 12 Jul 2026 18:54:43 GMT",
       "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina v England 1998 - Owen, Beckham and penalty pain",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cz75405qe3wo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2221/live/a75d6660-7e22-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 12 Jul 2026 18:51:53 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England have another level we can reach - Kane",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-another-level-reach-kane-182658902.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 18:46:19 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid new signing responds to Barcelona superstar ahead of World Cup semifinal &#8211; &#8220;He can say whatever he wants&#8221;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-signing-responds-barcelona-184000385.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 12 Jul 2026 18:40:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Tuchel and Bellingham need to cool tension with England so close to history | Jacob Steinberg",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/12/thomas-tuchel-jude-bellingham-tension-england-argentina-norway-world-cup-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 12 Jul 2026 18:30:40 GMT",
-      "teams": [
-        "Norway",
         "Argentina",
         "England"
       ]
