@@ -1,6 +1,247 @@
 {
-  "asOf": "2026-07-19T16:33:36.440Z",
+  "asOf": "2026-07-19T17:39:04.002Z",
   "items": [
+    {
+      "headline": "The U.S. Braced For the World Cup. It Fell in Love Instead.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/19/world/europe/us-world-cup-trump-boston-kansas.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 19 Jul 2026 17:37:14 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "World Cup final: Trump, half-time show and everything but the football – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-final-trump-halftime-show-shakira-bts-madonna-everything-but-football"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 17:30:19 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain v Argentina: World Cup 2026 final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 17:28:47 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Cup title on the line! Spain and Argentina set for the final 📋",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/cup-title-line-spain-argentina-172800197.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:28:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Trump reveals who he’s rooting for in World Cup final and tells Fox pregame he’s already asking for another",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-reveals-rooting-world-cup-172747895.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:27:47 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Final: Spain vs. Argentina official line-ups, Juventus player starts",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-spain-vs-172500798.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:25:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2030 World Cup: Locations, Hosts, Dates, For The Centenary Tournament",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2030-world-cup-locations-hosts-dates-100-years"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/2ecb41ed-wc1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 13:15:10 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Fifa World Cup 2026 closing ceremony: Start time, how to watch and performers line-up including Robbie Williams and Tom Cruise",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-releases-world-cup-2026-170944228.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:09:50 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mauricio Pochettino set to decide USA future next week after World Cup exit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mauricio-pochettino-set-decide-usa-170000396.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:00:00 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Trump presence means long queues for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-presence-means-long-queues-161711097.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:57:16 +0000",
+      "teams": []
+    },
+    {
+      "headline": "What TV channel is the World Cup final on? How to watch Spain v Argentina in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:53:40 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "This Wild Argentina World Cup Stat Perfectly Sums Up Team's Messi-Led Comebacks",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/argentina-messi-world-cup-final-minutes-lead-comeback"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2283927275-scaled-e1784479162723.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:44:10 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "FIFA and New Jersey clash over plan to sell the grass at MetLife Stadium",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-jersey-clash-over-plan-163500271.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup final: Who are the ITV and BBC commentators, pundits and presenters?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:32:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "When is the World Cup final? Kick-off time for Spain v Argentina in 2026 Fifa showpiece",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-world-cup-2026-final-183013831.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:31:54 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final half-time show: Who is performing, how long will it take and how can I watch it?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-105603302.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:31:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who is Slavko Vincic? Spain vs Argentina referee for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/slavko-vincic-spain-vs-argentina-075306511.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:31:20 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "World Cup 2026: Spain v Argentina final buildup, security stepped up with Trump attendance – live",
       "links": {
@@ -36,20 +277,18 @@
       "teams": []
     },
     {
-      "headline": "Spain v Argentina: World Cup 2026 final – live",
+      "headline": "Fans descend on MetLife Stadium before Spain face Argentina in World Cup final",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
+          "href": "https://sports.yahoo.com/articles/spain-v-argentina-world-cup-145750319.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 16:25:17 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:21:54 +0000",
       "teams": [
-        "Iran",
         "Spain",
-        "Argentina",
-        "England"
+        "Argentina"
       ]
     },
     {
@@ -62,18 +301,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 19 Jul 2026 16:20:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Trump presence means long queues for World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-presence-means-long-queues-161711097.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 16:17:11 +0000",
       "teams": []
     },
     {
@@ -219,7 +446,7 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 15:47:07 +0000",
+      "pubDate": "Sun, 19 Jul 2026 15:47:08 +0000",
       "teams": [
         "Germany",
         "Spain",
@@ -263,21 +490,6 @@
       ]
     },
     {
-      "headline": "Fans descend on MetLife Stadium before Spain face Argentina in World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-v-argentina-world-cup-145750319.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 15:35:51 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "How to Watch the 2026 World Cup Final Halftime Show & Closing Ceremony",
       "links": {
         "web": {
@@ -292,21 +504,6 @@
       "source": "Fox Sports",
       "pubDate": "Sun, 19 Jul 2026 11:35:38 -0400",
       "teams": []
-    },
-    {
-      "headline": "What TV channel is the World Cup final on? How to watch Spain v Argentina in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 15:22:46 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
     },
     {
       "headline": "Argentina Fans Party Throughout The Night In Times Square Before World Cup Final",
@@ -472,18 +669,6 @@
       "teams": []
     },
     {
-      "headline": "World Cup final half-time show: Who is performing, how long will it take and how can I watch it?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-105603302.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 14:46:58 +0000",
-      "teams": []
-    },
-    {
       "headline": "Thomas Tuchel sends message of ‘trust’ to England fans after World Cup disappointment",
       "links": {
         "web": {
@@ -497,21 +682,6 @@
         "France",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "When is the World Cup final? Kick-off time for Spain v Argentina in 2026 Fifa showpiece",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-world-cup-2026-final-183013831.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 14:43:47 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     },
     {
@@ -722,7 +892,7 @@
       "teams": []
     },
     {
-      "headline": "Spain vs. Argentina History: All Head to Head Match Between the World Cup Finalists",
+      "headline": "Spain vs. Argentina History: All Head to Head Matches Between the World Cup Finalists",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/spain-vs-argentina-history-all-head-head-match-between-world-cup-finalists"
@@ -803,33 +973,6 @@
       ]
     },
     {
-      "headline": "World Cup final: Who are the ITV and BBC commentators, pundits and presenters?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 12:05:04 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Who is Slavko Vincic? Spain vs Argentina referee for World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/slavko-vincic-spain-vs-argentina-075306511.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 12:04:25 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "How to Watch Spain vs. Argentina and Messi in World Cup Final: TV Channel, Stream, Time",
       "links": {
         "web": {
@@ -887,20 +1030,6 @@
         "France",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "The U.S. Braced For the World Cup. It Fell in Love Instead.",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/19/world/europe/us-world-cup-trump-boston-kansas.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 11:28:19 +0000",
-      "teams": [
-        "United States"
       ]
     },
     {
@@ -12098,22 +12227,6 @@
       ]
     },
     {
-      "headline": "2030 World Cup: Locations, Hosts, Dates, For The Centenary Tournament",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2030-world-cup-locations-hosts-dates-100-years"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/2ecb41ed-wc1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 10:06:02 -0400",
-      "teams": []
-    },
-    {
       "headline": "Lamine Yamal’s home ‘targeted by burglars’ hours after Spain reach World Cup final",
       "links": {
         "web": {
@@ -14917,18 +15030,6 @@
       ]
     },
     {
-      "headline": "Fifa releases World Cup 2026 closing ceremony line-up including Robbie Williams and Tom Cruise",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-releases-world-cup-2026-170944228.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:09:44 +0000",
-      "teams": []
-    },
-    {
       "headline": "Balogun expected controversy after World Cup ban waived",
       "links": {
         "web": {
@@ -15358,103 +15459,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 14 Jul 2026 15:00:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup semifinal live updates: France vs. Spain score, highlights and analysis",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/live/france-vs-spain-world-cup-2026-scores-results-schedule-live-updates-150000075.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:00:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Football Daily | Will France’s showdown with Spain be the World Cup final in spirit?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/football-daily-email-gwc-france-spain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 14:54:28 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid set for $2.7 million compensation from FIFA for players&#8217; World Cup participation",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-set-2-7-144000887.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 14:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Liverpool could be set for transfer bombshell after Fabrizio Romano hint",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/liverpool-could-set-transfer-bombshell-144000204.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 14:40:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Man City 2026 World Cup Watch: How the Blues fared in the quarter-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-2026-world-cup-143000177.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 14:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Card row destabilised the USA at the World Cup, reveals Balogun",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/card-row-destabilised-usa-world-140700837.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 14:07:00 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "World Cup schedule today: How to watch France v Spain, TV channels & live stream Tuesday 14 July",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-schedule-today-watch-140027546.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 14:00:27 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
     }
   ]
 }
