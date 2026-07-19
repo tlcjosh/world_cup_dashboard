@@ -1,6 +1,160 @@
 {
-  "asOf": "2026-07-19T01:08:05.341Z",
+  "asOf": "2026-07-19T04:35:16.293Z",
   "items": [
+    {
+      "headline": "Lionel Messi Shares Message To Argentina Fans Ahead Of World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-shares-message-argentina-fans-ahead-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285651539-scaled-e1784432125655.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 23:38:25 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup set for longest half-time in tournament's history",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-220159062.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 03:03:25 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappé, Thomas Tuchel Share Postgame Hug After World Cup Meeting",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-thomas-tuchel-reunite-world-cup-stage"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tuchel.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 22:48:53 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Best England team for a long time? That's a fact, says Rice",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/best-england-team-long-time-023109470.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 02:45:50 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Best England team for a long time? That's a fact, says Rice",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c4g34gjmyl7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/477e/live/949c3070-8312-11f1-9b83-cd6592fb54b4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 02:29:00 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "10-Goal World Cup Goodbye: What The Wildest Third-Place Game Ever Tells Us About 2028",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/france-england-world-cup-third-place-chaos-mbappe-bellingham"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9fra-eng-3rd.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 22:07:58 -0400",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "Mbappé Breaks World Cup Scoring Record, But He'd Rather Play In World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/mbappe-wishes-he-playing-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/mbappe-cringe.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sat, 18 Jul 2026 21:38:20 -0400",
+      "teams": []
+    },
+    {
+      "headline": "England beat France in 10-goal thriller to win third-place play-off",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a259/live/f5a9d0c0-8308-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 01:12:34 GMT",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "📹 After making history, Mbappé throws in the towel v Messi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/making-history-mbapp-throws-towel-005700275.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 00:57:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
     {
       "headline": "Bellingham breaks England World Cup goals record",
       "links": {
@@ -12018,18 +12172,6 @@
       ]
     },
     {
-      "headline": "World Cup final half-time to last up to 25 minutes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-220159062.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 23:54:10 +0000",
-      "teams": []
-    },
-    {
       "headline": "Kylian Mbappé Misses The Final, But He Is Already A World Cup Legend",
       "links": {
         "web": {
@@ -15367,137 +15509,6 @@
         "Spain",
         "France"
       ]
-    },
-    {
-      "headline": "Diego Forlán succeeds Marcelo Bielsa as Uruguay manager on temporary basis",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/13/diego-forlan-succeeds-marcelo-bielsa-uruguay-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Mon, 13 Jul 2026 19:03:42 GMT",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "World Cup final prep! In Argentina, voodoo dolls with meal deals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-prep-argentina-190300392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 19:03:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Kerim Alajbegovic: Atalanta prepare offer for World Cup hero",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kerim-alajbegovic-atalanta-prepare-offer-184500402.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 18:45:00 +0000",
-      "teams": [
-        "Bosnia-Herzegovina"
-      ]
-    },
-    {
-      "headline": "Expert World Cup Predictions For France-Spain, England-Argentina Semifinals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-predictions-semifinals-france-spain-argentina-england"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1arg-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 13 Jul 2026 14:31:29 -0400",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Big Bets Report: France Futures Impacting Both Miniscule, Major Wagers",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/big-bets-report-france-futures-impacting-both-miniscule-major-wagers"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-12.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 13 Jul 2026 14:13:06 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "From cowboy hats to Patti Smith, how Erling Haaland conquered the World Cup even in defeat",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/erling-haaland-world-cup-defeat-norway-cowboy-hat-patti-smith/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/13/19e6b6ce-1308-4703-91d1-e467572327f7/untitled-design-2026-07-13t122434-360.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 13 Jul 2026 18:10:03 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Argentina, Spain, France, England: A World Cup Semifinal Round Like No Other",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-semifinal-argentina-spain-france-england"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/0f96262f-artboard-1-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Mon, 13 Jul 2026 13:38:22 -0400",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Dutch referee dropped from World Cup 2026 dies at age of 38",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/dutch-referee-dropped-world-cup-171116891.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 13 Jul 2026 17:11:16 +0000",
-      "teams": []
     }
   ]
 }
