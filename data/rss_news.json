@@ -1,23 +1,6 @@
 {
-  "asOf": "2026-07-19T15:35:12.392Z",
+  "asOf": "2026-07-19T16:33:36.440Z",
   "items": [
-    {
-      "headline": "How the MC Hotel in Montclair, N.J., Became a World Cup Hot Spot",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/18/nyregion/world-cup-mc-hotel-montclair-nj.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 15:24:14 +0000",
-      "teams": [
-        "Germany",
-        "Spain",
-        "Norway",
-        "England"
-      ]
-    },
     {
       "headline": "World Cup 2026: Spain v Argentina final buildup, security stepped up with Trump attendance – live",
       "links": {
@@ -27,7 +10,7 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 15:23:53 GMT",
+      "pubDate": "Sun, 19 Jul 2026 16:27:32 GMT",
       "teams": [
         "Spain",
         "France",
@@ -35,6 +18,280 @@
         "England",
         "Panama"
       ]
+    },
+    {
+      "headline": "Who's performing at World Cup final halftime show: How to watch, how long is it, start time, what to know",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/world-cup-final-halftime-show-shakira-bts-start-time/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/19/02f5d212-d06f-4dca-a55c-0f9ff1bff6a1/untitled-design-2026-07-19t091016-521.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:27:04 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Spain v Argentina: World Cup 2026 final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 16:25:17 GMT",
+      "teams": [
+        "Iran",
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "UEFA warns VAR against using the technology to detect diving after World Cup controversy",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/uefa-warns-var-against-using-162000904.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Trump presence means long queues for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-presence-means-long-queues-161711097.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:17:11 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Spain vs. Argentina keys to the game: Will a battle between Lionel Messi and Rodri define the World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-argentina-world-cup-final-live-stream-lionel-messi-rodri/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/19/b3ebd854-4482-4514-be9f-9effb4c9ebe5/untitled-design-2026-07-19t115425-872.png"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:17:09 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Trump presence means two-hour queues for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c304p73m3zgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a63e/live/f99ddf20-8388-11f1-8537-c5e158f8690c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 16:17:06 GMT",
+      "teams": []
+    },
+    {
+      "headline": "What Do The World Cup Final Winners Get?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-spain-argentina-winners-purse"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/yamalh1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:11:31 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona goalkeeper could match unusual milestone of club legend if Spain win the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-goalkeeper-could-match-unusual-161000985.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 16:10:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who Are The Referees For The 2026 World Cup Final?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-final-referee-spain-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/rrrref.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:00:02 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Council of Europe questions integrity of World Cup in scathing letter to Fifa hours before final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/council-europe-questions-integrity-world-143842703.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 15:59:32 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Is Lamine Yamal injured for the World Cup final? All potential absentees for Spain vs Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 15:49:53 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 15:49:28 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How the MC Hotel in Montclair, N.J., Became a World Cup Hot Spot",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/18/nyregion/world-cup-mc-hotel-montclair-nj.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 19 Jul 2026 15:47:07 +0000",
+      "teams": [
+        "Germany",
+        "Spain",
+        "Norway",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 15:43:26 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Spain vs. Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/chris-the-bear-fallicas-world-cup-best-bets-today-spain-vs-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/best-bets-16x9-bb-wc-esparg.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:35:54 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Fans descend on MetLife Stadium before Spain face Argentina in World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-v-argentina-world-cup-145750319.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 15:35:51 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 World Cup Final Halftime Show & Closing Ceremony",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-world-cup-final-halftime-show-time-performers-length"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-world-cup-final-halftime-show.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:35:38 -0400",
+      "teams": []
     },
     {
       "headline": "What TV channel is the World Cup final on? How to watch Spain v Argentina in the UK",
@@ -171,21 +428,6 @@
       "teams": []
     },
     {
-      "headline": "Spain v Argentina in the World Cup final - who will win?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-v-argentina-world-cup-145750319.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 14:57:50 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Infantino's 2026 World Cup Travels, By The Numbers",
       "links": {
         "web": {
@@ -287,18 +529,6 @@
         "France",
         "England"
       ]
-    },
-    {
-      "headline": "Council of Europe questions integrity of World Cup in scathing letter to Fifa hours before final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/council-europe-questions-integrity-world-143842703.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 14:38:42 +0000",
-      "teams": []
     },
     {
       "headline": "How the World Cup has affected your Premier League team",
@@ -406,22 +636,6 @@
         "Spain",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Who's performing at World Cup final halftime show: How to watch, how long is it, start time, what to know",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/world-cup-final-halftime-show-shakira-bts-start-time/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/19/02f5d212-d06f-4dca-a55c-0f9ff1bff6a1/untitled-design-2026-07-19t091016-521.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 19 Jul 2026 13:23:46 +0000",
-      "teams": []
     },
     {
       "headline": "The combined XI for the Spain-Argentina final ⚔️",
@@ -656,22 +870,6 @@
       "images": [],
       "source": "NY Times",
       "pubDate": "Sun, 19 Jul 2026 11:45:27 +0000",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch the 2026 World Cup Final Halftime Show: Time, Performers, Length",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-world-cup-final-halftime-show-time-performers-length"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-world-cup-final-halftime-show.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sun, 19 Jul 2026 07:33:22 -0400",
       "teams": []
     },
     {
@@ -3523,44 +3721,6 @@
       "teams": []
     },
     {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 18 Jul 2026 15:43:21 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sat, 18 Jul 2026 15:41:18 +0000",
-      "teams": []
-    },
-    {
       "headline": "Spain vs Argentina prediction: 2026 World Cup final betting tips, preview and best odds",
       "links": {
         "web": {
@@ -5658,18 +5818,6 @@
       "teams": [
         "Spain"
       ]
-    },
-    {
-      "headline": "Who is injured for the World Cup final?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:58:53 +0000",
-      "teams": []
     },
     {
       "headline": "How to Watch the 2026 World Cup Final This Sunday",
@@ -15307,135 +15455,6 @@
         "Spain",
         "France"
       ]
-    },
-    {
-      "headline": "How VAR turned this World Cup into a review booth",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/how-var-turned-this-world-cup-into-a-review-booth-134714054.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:47:14 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup: VAR shows the downside of getting more calls right",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-var-shows-the-downside-of-getting-more-calls-right-134714054.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:47:14 +0000",
-      "teams": []
-    },
-    {
-      "headline": "England and Argentina’s epic rivalry is much deeper than just football",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-argentina-epic-rivalry-much-123135825.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:45:57 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Italy: How Can the Azzurri Challenge Again?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/italy-azzurri-challenge-again-134500898.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:45:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-7 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-2026-world-cup-semifinal-picks-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/15/c1f1bd55-f034-40b4-9ec3-4d99b7b68158/lionel-messi-argentina-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:38:12 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Just in: Barcelona captain could be out for 4 months after returning from World Cup with serious knee injury",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/just-barcelona-captain-could-4-133500823.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "France vs. Spain live stream: How to watch FIFA World Cup semifinals, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/france-spain-live-stream-fifa-world-cup-semifinals-predictions-and-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/3a8b8223-5583-490e-8cb3-3d5b05f064e3/untitled-design-2026-07-14t091333-894.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:33:09 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Inter on Kovacic, David or Openda 👀 Estupinan, Premier move for Koné 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inter-kovacic-david-openda-estupinan-133100687.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:31:00 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "What is the perfect age to win the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/perfect-age-win-world-cup-131255074.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 13:22:55 +0000",
-      "teams": []
     }
   ]
 }
