@@ -1,6 +1,18 @@
 {
-  "asOf": "2026-07-19T10:51:03.731Z",
+  "asOf": "2026-07-19T11:51:11.875Z",
   "items": [
+    {
+      "headline": "MetLife Stadium Faces Monumental Last Test in Sunday’s World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/19/nyregion/metlife-stadium-world-cup-final.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 19 Jul 2026 11:45:27 +0000",
+      "teams": []
+    },
     {
       "headline": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
       "links": {
@@ -10,13 +22,46 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 10:40:53 GMT",
+      "pubDate": "Sun, 19 Jul 2026 11:40:36 GMT",
       "teams": [
         "Spain",
         "France",
         "Argentina",
         "England",
         "Panama"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 World Cup Final Halftime Show: Time, Performers, Length",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-world-cup-final-halftime-show-time-performers-length"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-world-cup-final-halftime-show.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 07:33:22 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid to be represented in eighth consecutive World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-represented-eighth-consecutive-113000737.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:30:00 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England"
       ]
     },
     {
@@ -28,9 +73,193 @@
       },
       "images": [],
       "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 10:27:35 +0000",
+      "pubDate": "Sun, 19 Jul 2026 11:28:19 +0000",
       "teams": [
         "United States"
+      ]
+    },
+    {
+      "headline": "History Says To Expect Many Goals In The World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-final-spain-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messih1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 07:25:13 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Mbappe takes Golden Boot lead but backs Lionel Messi to shine in the World Cup final: &#8216;He always delivers&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbappe-takes-golden-boot-lead-112500504.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:25:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Tuchel gives absurd reason for not playing Saka in World Cup semi final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/tuchel-gives-absurd-reason-not-112000288.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🎥 Has he still got the energy for the job? Tuchel answers critics",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/still-got-energy-job-tuchel-111200757.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:12:00 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for Spain vs. Argentina in Sunday's World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-spain-vs-argentina-in-sundays-world-cup-final/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6b35ca0a-8bb9-4371-b2d4-6e214a443dda/lionel-messi-argentina-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:10:31 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lionel Messi tops best bets for Argentina vs. Spain final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lionel-messi-tops-best-bets-for-argentina-vs-spain-final/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/b44fe2ef-4144-4187-bc6f-2d03614f34e3/messi-7.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:00:44 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England 2026 World Cup squad: player-by-player ratings",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/19/england-2026-world-cup-squad-player-by-player-ratings"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 11:00:28 GMT",
+      "teams": [
+        "Argentina",
+        "Jordan",
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain’s coaching culture leads the way, thanks to visionary Johan Cruyff | Philipp Lahm",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/19/spain-argentina-2026-world-cup-final-johan-cruyff-pep-guardiola"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 11:00:24 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Real Madrid will look to sell Brazilian international this summer if they fail to renew contract",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-look-sell-brazilian-105500211.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 10:55:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Real Madrid megastar achieves historic milestone for England at the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-megastar-achieves-historic-105000000.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 10:50:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain's side is worth nearly double Argentina's; see market values 💸",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spains-side-worth-nearly-double-104300200.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 10:43:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Have Your Say: Will Italy fans support Spain or Argentina in 2026 World Cup Final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italy-fans-support-spain-argentina-104000728.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 10:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
       ]
     },
     {
@@ -393,18 +622,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "MetLife Stadium Faces Monumental Last Test in Sunday’s World Cup Final",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/19/nyregion/metlife-stadium-world-cup-final.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 09:01:31 +0000",
-      "teams": []
     },
     {
       "headline": "Spain vs. Argentina Prediction, Odds, Picks For World Cup Final",
@@ -15228,216 +15445,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 14 Jul 2026 10:21:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "The politics behind World Cup referee appointments",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/falklands-war-factor-geo-politics-073123277.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:05:19 +0000",
-      "teams": []
-    },
-    {
-      "headline": "France v Spain: Who would England prefer in World Cup final? Independent writers’ verdicts",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-v-spain-england-prefer-100449887.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:04:49 +0000",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "David Squires on … England’s high-wire act continuing to the World Cup semis",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/picture/2026/jul/14/david-squires-england-high-wire-act-world-cup-semis-cartoon"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 10:01:57 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Why are pink boots so popular at the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-many-players-wearing-pink-225302168.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:59:13 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States"
-      ]
-    },
-    {
-      "headline": "Report: Liverpool would need to pay £42.6m to sign World Cup star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-liverpool-pay-42-6m-095500283.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:55:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Spain predicted XI v France: Fabián Ruiz to start over Pedri",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-predicted-xi-v-france-094500192.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:45:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Norway turn World Cup heartbreak into celebration as huge crowds pack Oslo",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/norway-world-cup-heartbreak-celebration-fans-oslo"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 09:42:27 GMT",
-      "teams": [
-        "Norway",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Pick your starting XI for England's semi-final against Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-pick-starting-091632629.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:28:06 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kone&#8217;s agent in England to negotiate with PL clubs",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/kone-agent-england-negotiate-pl-092500578.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:25:00 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Man City eye Morocco star, bid could top half a billion",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-city-eye-morocco-star-091100436.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 09:11:00 +0000",
-      "teams": [
-        "Morocco"
-      ]
-    },
-    {
-      "headline": "France vs. Spain Prediction, Odds, Picks For World Cup Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/france-vs-spain-prediction-odds-picks-world-cup-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2284804770-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 05:00:07 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "What is it like to face Lionel Messi? Inside the mind of Argentina’s genius as England finally find out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/face-lionel-messi-inside-mind-085143202.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 08:51:43 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup | Which Spain players could pose a threat to France?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-spain-players-084000755.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 08:40:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup | What can France expect from Spain?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-france-expect-084000392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 08:40:00 +0000",
       "teams": [
         "Spain",
         "France"
