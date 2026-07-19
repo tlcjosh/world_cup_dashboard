@@ -3252,15 +3252,28 @@ async function fetchData() {
 // immediate re-sync whenever the page becomes visible/focused again, and
 // restart the interval timers so their next tick is measured from "now"
 // instead of from whenever they last fired before being suspended.
+// Once every match in the schedule has reached FINISHED, the tournament is over and
+// nothing under active tracking can ever change again — data.json won't be re-synced
+// (the backend cron is off between tournaments, see CLAUDE.md "Off-Season Status") and
+// ESPN has nothing live to report. Gates the recurring polls below so an off-season
+// visitor's browser doesn't sit there hitting ESPN every 10s forever. Self-clears the
+// moment data.json is reseeded with a future tournament's non-FINISHED matches — no
+// code flip needed to resume polling.
+function isTournamentOver() {
+  return state.matches.length > 0 && state.matches.every(m => m.status === 'FINISHED');
+}
+
 function restartPollIntervals() {
   if (state.espnInterval) clearInterval(state.espnInterval);
-  state.espnInterval = setInterval(fetchESPN, 10000);
   if (state.syncInterval) clearInterval(state.syncInterval);
+  if (isTournamentOver()) return;
+  state.espnInterval = setInterval(fetchESPN, 10000);
   state.syncInterval = setInterval(fetchData, 2 * 60 * 1000);
 }
 
 async function resyncNow() {
-  await Promise.all([fetchData(), fetchESPN()]); // each guards its own re-entrancy
+  await fetchData(); // cheap no-op most of the time; re-checks in case a new tournament was reseeded
+  if (!isTournamentOver()) await fetchESPN();
   restartPollIntervals();
 }
 
@@ -3808,8 +3821,9 @@ async function init() {
   // combinations.json lookup table (fetched once, never refetched) in parallel.
   await Promise.all([fetchCombinations(), fetchFifaRankings(), fetchESPNNews(), fetchRssNews(), fetchData()]);
 
-  // Initial ESPN sync — overlays live scores immediately
-  await fetchESPN();
+  // Initial ESPN sync — overlays live scores immediately. Skipped once every match is
+  // already FINISHED (off-season) — see isTournamentOver().
+  if (!isTournamentOver()) await fetchESPN();
 
   // Tick every second for live clocks
   if (state.tickInterval) clearInterval(state.tickInterval);
@@ -3817,7 +3831,8 @@ async function init() {
 
   // ESPN: poll every 10s for live scores; data.json: re-fetch every 2 minutes
   // for schedule/standings/knockout updates. Also restarted on resume from
-  // background — see RESUME / VISIBILITY above.
+  // background — see RESUME / VISIBILITY above. No-ops off-season, see
+  // isTournamentOver().
   restartPollIntervals();
 
   // Rotate the hero stat pool every 24s, swapping out all three displayed stats at
