@@ -1,6 +1,193 @@
 {
-  "asOf": "2026-07-19T11:51:11.875Z",
+  "asOf": "2026-07-19T13:01:52.855Z",
   "items": [
+    {
+      "headline": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 12:58:29 GMT",
+      "teams": [
+        "Spain",
+        "France",
+        "Argentina",
+        "England",
+        "Panama"
+      ]
+    },
+    {
+      "headline": "Spain vs. Argentina History: All Head to Head Match Between the World Cup Finalists",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-vs-argentina-history-all-head-head-match-between-world-cup-finalists"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spain-vs-argentina-history.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 08:55:39 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England and France players lauded for praying together after World Cup thriller",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-france-players-lauded-praying-124203145.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:42:03 +0000",
+      "teams": [
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "How to Watch the World Cup Today: Schedule, Times, TV, Streaming for the Final",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-times-tv-streaming-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-19.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 08:26:32 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "England player ratings for entire World Cup: Wasted inclusion gets 2/10 but one star fetches 9/10",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/england-player-ratings-entire-world-122008420.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:20:08 +0000",
+      "teams": [
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup final: Who are the ITV and BBC commentators, pundits and presenters?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:05:04 +0000",
+      "teams": []
+    },
+    {
+      "headline": "When is the World Cup final? Kick-off time for Spain v Argentina in 2026 Fifa showpiece",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-world-cup-2026-final-183013831.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:04:52 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "What TV channel is the World Cup final on? How to watch Spain v Argentina in the UK",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:04:40 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final half-time show: Who is performing, how long will it take and how can I watch it?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-105603302.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:04:33 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Who is Slavko Vincic? Spain vs Argentina referee for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/slavko-vincic-spain-vs-argentina-075306511.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 12:04:25 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to Watch Spain vs. Argentina and Messi in World Cup Final: TV Channel, Stream, Time",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-vs-argentina-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-final"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-spain-vs-argentina-16x9-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 08:01:04 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Pau Cubarsi talks Aymeric Laporte, Julian Alvarez and Lionel Messi: &#8216;Can imagine him playing alongside me&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pau-cubarsi-talks-aymeric-laporte-115500093.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 11:55:00 +0000",
+      "teams": []
+    },
     {
       "headline": "MetLife Stadium Faces Monumental Last Test in Sunday’s World Cup Final",
       "links": {
@@ -12,24 +199,6 @@
       "source": "NY Times",
       "pubDate": "Sun, 19 Jul 2026 11:45:27 +0000",
       "teams": []
-    },
-    {
-      "headline": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 11:40:36 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "England",
-        "Panama"
-      ]
     },
     {
       "headline": "How to Watch the 2026 World Cup Final Halftime Show: Time, Performers, Length",
@@ -109,7 +278,7 @@
       ]
     },
     {
-      "headline": "Tuchel gives absurd reason for not playing Saka in World Cup semi final",
+      "headline": "Tuchel explains not playing Saka in World Cup semi-final",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/tuchel-gives-absurd-reason-not-112000288.html"
@@ -784,18 +953,6 @@
       ]
     },
     {
-      "headline": "World Cup final: Who are the ITV and BBC commentators, pundits and presenters?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bbc-confirms-world-cup-2026-111103665.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 08:06:59 +0000",
-      "teams": []
-    },
-    {
       "headline": "Real Madrid defensive duo to be under Mourinho&#8217;s &#8216;magnifying glass&#8217; in pre-season",
       "links": {
         "web": {
@@ -865,21 +1022,6 @@
       ]
     },
     {
-      "headline": "Who is Slavko Vincic? Spain vs Argentina referee for World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/slavko-vincic-spain-vs-argentina-075306511.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 07:37:11 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Real Madrid make history at 2026 FIFA World Cup",
       "links": {
         "web": {
@@ -918,21 +1060,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 19 Jul 2026 07:25:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "When is the World Cup final? Kick-off time for Spain v Argentina in 2026 Fifa showpiece",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fifa-world-cup-2026-final-183013831.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 07:05:37 +0000",
       "teams": [
         "Spain",
         "Argentina"
@@ -1015,21 +1142,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "What TV channel is the World Cup final on? How to watch Spain v Argentina in the UK",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-2026-tv-schedule-133803087.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 06:57:17 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
     },
     {
       "headline": "Messi v Yamal shows why there will never be another World Cup final like this one",
@@ -3067,6 +3179,23 @@
       "source": "The Guardian",
       "pubDate": "Sat, 18 Jul 2026 15:15:43 GMT",
       "teams": []
+    },
+    {
+      "headline": "How the MC Hotel in Montclair, N.J., Became a World Cup Hot Spot",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/18/nyregion/world-cup-mc-hotel-montclair-nj.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sat, 18 Jul 2026 15:07:34 +0000",
+      "teams": [
+        "Germany",
+        "Spain",
+        "Norway",
+        "England"
+      ]
     },
     {
       "headline": "‘Rifts began to appear’: Why many Latin Americans want Spain to beat Argentina in the World Cup final",
@@ -11860,18 +11989,6 @@
       ]
     },
     {
-      "headline": "World Cup final half-time show: Who is performing, how long will it take and how can I watch it?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-half-time-105603302.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 10:56:03 +0000",
-      "teams": []
-    },
-    {
       "headline": "What is England’s semi-final record? Key stats before World Cup clash with Argentina",
       "links": {
         "web": {
@@ -15341,110 +15458,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 14 Jul 2026 10:49:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup and Ballon d’Or in reach as Harry Kane enters defining week of his career",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/world-cup-and-ballon-dor-england-harry-kane"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 10:45:00 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Jerry Jones To Attend World Cup Semifinal, But Gave Up His Personal Suite To FIFA",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/other/fifa-2026-world-cup-jerry-jones-dallas-cowboys-france-spain"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/jonesh1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 06:39:51 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Atlanta police increase security for England vs Argentina World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/atlanta-police-increase-security-england-090427106.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:35:38 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "No club has ever done this: Barcelona set incredible World Cup record",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/no-club-ever-done-barcelona-103000964.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Jules Kounde responds to Lamine Yamal&#8217;s comments ahead of World Cup semi-final: &#8216;At no point have we felt disrespected&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jules-kounde-responds-lamine-yamal-102500445.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:25:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "BBC heads from Salford to Atlanta for live England v Argentina broadcast",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/bbc-salford-atlanta-present-england-v-argentina-live-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 10:22:58 GMT",
-      "teams": [
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 Best goals in World Cup semi-finals since 2006",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/best-goals-world-cup-semi-102100642.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 10:21:00 +0000",
       "teams": [
         "Spain",
         "France"
