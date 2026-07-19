@@ -1,8 +1,60 @@
 {
-  "asOf": "2026-07-19T22:01:24.957Z",
+  "asOf": "2026-07-19T22:56:16.479Z",
   "items": [
     {
-      "headline": "Spain v Argentina: World Cup 2026 final goes to extra time – live",
+      "headline": "Spain's Pau Cubarsí Wins 2026 World Cup Young Player Award",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-pau-cubarsi-spain-young-player-award"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/cubarsi2-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:54:49 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Goes Back-To-Back",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:52:20 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Zlatan, Thierry Henry On Spain's World Cup Victory: 'Football Won Today'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-argentina-world-cup-zlatan-thierry-henry"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/thumbnail-trbby-trebbycopy.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:50:05 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Spain beat Argentina 1-0 after extra time to win the 2026 World Cup – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
@@ -10,12 +62,28 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 21:46:13 GMT",
+      "pubDate": "Sun, 19 Jul 2026 22:45:06 GMT",
       "teams": [
         "Spain",
         "Argentina",
         "England"
       ]
+    },
+    {
+      "headline": "2026 FIFA World Cup: Every Golden Ball Winner since 1982",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-mens-world-cup-every-world-cup-golden-ball-winner-since-1982"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/rodri0-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:44:57 -0400",
+      "teams": []
     },
     {
       "headline": "World Cup final: Trump, half-time show and everything but the football – live",
@@ -26,7 +94,504 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 21:45:26 GMT",
+      "pubDate": "Sun, 19 Jul 2026 22:44:52 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Who made the difference for Spain? World Cup final player ratings",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60c2/live/b52da1c0-83b2-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 22:44:27 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "France's Kylian Mbappé Wins Golden Boot As World Cup's Top Goalscorer",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/frances-kylian-mbappe-wins-golden-boot-world-cups-top-goalscorer"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/09b60d3d-mbappe1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:40:28 -0400",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Spain Goalkeeper Unai Simón Wins Golden Glove After Historic World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-goalkeeper-unai-simon-wins-golden-glove-after-historic-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/simon1-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:36:03 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "FIFA World Cup: Every Winner Since 1930, From Uruguay To Spain In 2026",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-every-winner-since-1930-brazil-argentina-france-england-germany-uruguay-spain"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286806287-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:35:40 -0400",
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "How the World Cup has affected your Premier League team",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-affected-premier-league-133634496.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:35:13 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final player ratings: 9/10 for architect of Spain triumph but Argentina villain gets 3/10",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-player-ratings-223334333.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:33:34 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "📸 Messi in tears, then a hug with Yamal, the photos are historic",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/messi-tears-then-hug-yamal-223300445.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:33:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Five reasons why the World Cup final was so dull",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/five-reasons-why-world-cup-220338670.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:32:05 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Feeling glum, Messi? Social media erupt over Argentina's runner-up",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/feeling-sad-messi-social-media-223200715.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:32:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How the World Cup has affected your Premier League team",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c3ek99pz1wgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f6/live/498fd010-8375-11f1-b976-0b9c15b0ccfc.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 22:31:09 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain vs Argentina player ratings: Who shined brightest in 2026 World Cup final?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-vs-argentina-player-ratings-222733190.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:27:33 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Fresh off their World Cup victory, Spanish players will feast on a local delicacy: pizza.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/live/2026/us/fifa-world-cup/spanish-soccer-team-pizza"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 19 Jul 2026 22:26:50 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Rodri ever the maestro as Argentina's street fighters fail to ruin Spain's World Cup-winning symphony",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rodri-ever-maestro-argentinas-street-222300736.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:23:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Lamine Yamal shines in World Cup final as Lionel Messi passes the baton",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lamine-yamal-shines-world-cup-222120613.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:21:20 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Spain break Italy unbeaten record with 38 games, but Argentina leave Azzurri’s World Cup advantage",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-break-italy-unbeaten-record-222000253.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:20:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Leandro Paredes sent off after final whistle as Argentina’s World Cup ends with punches and in disgrace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/leandro-paredes-sent-off-final-221935614.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:19:35 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "4 Takeaways After Spain Beats Argentina In Extra Time To Win 2026 FIFA World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/4-takeaways-after-spain-beats-argentina-extra-time-win-2026-fifa-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spaintk1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:18:28 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/467e/live/42b59d30-83af-11f1-ab77-f798412624b5.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 22:16:39 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Spain crowned 2026 FIFA World Cup champions after extra-time win over Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-crowned-2026-fifa-world-221500806.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:15:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How to Watch the 2026 FIFA World Cup: Scores for Every Match",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:12:22 -0400",
+      "teams": []
+    },
+    {
+      "headline": "The 50 Best Moments Of The 2026 FIFA World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/50-best-moments-2026-fifa-world-cup"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9top-50-1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:11:45 -0400",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Hits, misses and Muppets: the star-studded World Cup half-time show nobody asked for",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/19/hits-misses-and-muppets-the-star-studded-world-cup-half-time-show-nobody-asked-for"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 22:11:12 GMT",
+      "teams": []
+    },
+    {
+      "headline": "💡 Check out the updated World Cup winners ranking",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/check-updated-world-cup-winners-221100037.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:11:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Mbappe first to win World Cup Golden Boot twice",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mbappe-first-win-world-cup-220829909.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:08:29 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup Final: Spain 1-0 Argentina – Inter captain forced to watch extra time defeat",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-spain-1-220500255.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Ferran Torres gives Spain extra-time lead against Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/cp30nd7vpn2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdd2/live/82b38750-83bc-11f1-b976-0b9c15b0ccfc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 22:03:04 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "📹 Spain beat Argentina after extra time to win the 2026 Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-beat-argentina-extra-time-220300568.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 22:03:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Has Lionel Messi Played His Final World Cup Game?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-last-world-cup-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286806222-scaled-e1784498609836.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:02:26 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Mbappe first to win World Cup Golden Boot twice",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cre4z58pzj9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a21/live/f2d6a7c0-83b1-11f1-a653-459bdcde0787.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 22:02:23 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Spain Wins 2026 FIFA World Cup Over Lionel Messi, Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-spain-wins-argentina-lamine-yamal-lionel-messi"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/torres-scaled.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:01:55 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "All the celebrities spotted at World Cup final as Spain and Argentina face off",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/celebs-spotted-world-cup-final-200231458.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 21:57:34 +0000",
       "teams": [
         "Spain",
         "Argentina"
@@ -70,6 +635,21 @@
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/soccer/article/world-cup-final-argentinas-emiliano-martinez-breaks-saves-record-to-deny-spain-and-send-game-to-extra-time-213801901.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 21:38:01 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final: Argentina's Emiliano Martínez breaks saves record in extra time loss to Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-final-argentinas-emiliano-martinez-breaks-saves-record-in-extra-time-loss-to-spain-213801901.html"
         }
       },
       "images": [],
@@ -137,22 +717,6 @@
       ]
     },
     {
-      "headline": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/467e/live/42b59d30-83af-11f1-ab77-f798412624b5.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 19 Jul 2026 21:29:21 GMT",
-      "teams": []
-    },
-    {
       "headline": "Enzo Fernández Sent Off As Argentina Goes Down To 10 Men In World Cup Final",
       "links": {
         "web": {
@@ -203,21 +767,6 @@
       "teams": []
     },
     {
-      "headline": "All the celebrities spotted at World Cup final as Spain and Argentina face off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/celebs-spotted-world-cup-final-200231458.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 21:13:54 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Fans rip Madonna, Bieber, BTS and Shakira World Cup halftime: ‘Look how they massacred my beautiful game’",
       "links": {
         "web": {
@@ -242,6 +791,21 @@
       "source": "Yahoo Sports",
       "pubDate": "Sun, 19 Jul 2026 20:57:36 +0000",
       "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup final: Late red card on Enzo Fernández leaves Argentina a man down in extra time of Spain's 1-0 win",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-final-late-red-card-on-enzo-fernandez-leaves-argentina-a-man-down-in-extra-time-of-spains-1-0-win-205736892.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 20:57:36 +0000",
+      "teams": [
+        "Spain",
         "Argentina"
       ]
     },
@@ -439,7 +1003,7 @@
       "teams": []
     },
     {
-      "headline": "Zlatan Ibrahimović's 'King Of The Jungle' Has A New No. 1 Ahead Of World Cup Final",
+      "headline": "Zlatan Ibrahimović's 'King Of The Jungle' Has A New No. 1 Ahead For World Cup Final",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/zlatan-ibrahimovics-king-jungle-messi-yamal-mbappe"
@@ -476,25 +1040,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sun, 19 Jul 2026 19:55:45 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Rate the Spain and Argentina players in World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgjgp7656xo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/ab89d8f0-837b-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 19 Jul 2026 19:55:40 GMT",
       "teams": [
         "Spain",
         "Argentina"
@@ -1574,21 +2119,6 @@
       ]
     },
     {
-      "headline": "How the World Cup has affected your Premier League team",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-affected-premier-league-133634496.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 14:35:02 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Barcelona taking cautious approach with midfield mainstay&#8217;s injury; official statement expected in coming days",
       "links": {
         "web": {
@@ -1659,25 +2189,6 @@
       "pubDate": "Sun, 19 Jul 2026 13:40:00 +0000",
       "teams": [
         "Spain"
-      ]
-    },
-    {
-      "headline": "How the World Cup has affected your Premier League team",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c3ek99pz1wgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f6/live/498fd010-8375-11f1-b976-0b9c15b0ccfc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 19 Jul 2026 13:29:34 GMT",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     },
     {
@@ -3244,7 +3755,7 @@
       ]
     },
     {
-      "headline": "Experience this match in 3D",
+      "headline": "Rewatch the World Cup final in 3D",
       "links": {
         "web": {
           "href": "https://www.3d-bbc.co.uk/?matchId=151710&at_medium=RSS&at_campaign=rss"
@@ -3289,22 +3800,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Sat, 18 Jul 2026 23:48:40 GMT",
-      "teams": []
-    },
-    {
-      "headline": "How to Watch the 2026 FIFA World Cup: Scores, Schedule, Dates for Every Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/ddb1e04c-artboard-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 18 Jul 2026 19:32:54 -0400",
       "teams": []
     },
     {
@@ -3490,22 +3985,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Sat, 18 Jul 2026 22:52:33 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 FIFA World Cup Golden Boot Race Tracker: Mbappé Extends Lead, Messi Lurks",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-golden-boot-tracker"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-80.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Sat, 18 Jul 2026 18:49:51 -0400",
       "teams": []
     },
     {
@@ -14927,489 +15406,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Tue, 14 Jul 2026 19:09:09 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Pedro Porro turns from defender to destroyer as Spain outwit France once more | Sid Lowe",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/pedro-porro-turns-from-defender-to-destroyer-as-spain-outwit-france-once-more"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 23:01:01 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "What's Next For France Once Didier Deschamps Steps Down?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/didier-deschamps-retire-france-coach-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/deschamps-retire.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 19:00:17 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé Goals: Can France's Star Still Win Golden Boot?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/kylian-mbappe-france-world-cup-golden-boot-odds-messi"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2285485292-scaled.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 18:59:48 -0400",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "William Saliba dealt injury blow in France’s World Cup exit to spark Arsenal fears",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/william-saliba-suffers-injury-setback-195552840.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 22:38:18 +0000",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "When is England v Argentina? Old rivals clash in World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-potential-route-2026-world-200815392.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 22:22:47 +0000",
-      "teams": [
-        "Norway",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Didier Deschamps pays price for breaking free from the shackles that led him to glory | Jonathan Wilson",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/didier-deschamps-france-spain-2026-world-cup-semi-final-dallas"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 22:22:22 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "France vs Spain player ratings: La Roja shut down Mbappe, Dembele, Olise in World Cup semifinal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-vs-spain-player-ratings-215121491.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:51:21 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Bellingham, Messi Lead England-Argentina Rivalry's Next Chapter",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-argentina-england-how-to-watch-messi-kane-bellingham"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard-1-5.png"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:50:13 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/came-alive-semi-final-france-211733508.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:49:44 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "La Roja Roll On: 4 Takeaways From Spain's World Cup Semifinal Win Over France",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-france-world-cup-semifinals-4-takeaways"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/12b3fb8c-spain1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:48:55 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Lamine Yamal Reaches World Cup Final At 19. How Old Were Pelé, Maradona, Messi?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lamine-yamal-reaches-world-cup-final-19-how-old-were-pele-maradona-messi"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/teen3.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 17:37:43 -0400",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "😂 Swagger gets punished! Social media roast France's exit",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pride-comes-fall-social-media-213600071.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:36:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Spain into World Cup final with victory over France",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7da/live/18684770-7fc8-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 21:32:59 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c1dydqedp73o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80d9/live/e5c32230-7fcd-11f1-82bc-eb96a9eb8087.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 21:10:54 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "FEATURE | Three things we learned as lacklustre France bow out to Spain in the semi-finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/feature-three-things-learned-lacklustre-210500827.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:05:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "World Cup: France 0-2 Spain, Serie A players crash out at semi final hurdle",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-france-0-2-210500790.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:05:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Spain reach World Cup final after Oyarzabal and Porro sink sorry France",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/france-spain-world-cup-semi-final-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 21:01:54 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Porro doubles Spain's lead over France",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cgjxjnny9j6o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a104/live/ea1040c0-7fc3-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 21:00:28 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "PLAYER RATINGS | France 0-2 Spain: Les Bleus crash out of World Cup in Dallas",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/player-ratings-france-0-2-210000967.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 21:00:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Spain Advances To 2026 World Cup Final With Win Over France",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-advances-2026-world-cup-final-win-over-france"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/porro1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Tue, 14 Jul 2026 16:59:30 -0400",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "📹 Spain see off France with olés, reach Cup final after 16 years",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/chants-ol-spain-beat-france-205800009.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 20:58:00 +0000",
-      "teams": [
-        "United States",
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "France v Spain: World Cup 2026 semi-final – live",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/14/france-v-spain-world-cup-2026-semi-final-live"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 20:36:12 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Was France free-kick against Spain overruled by VAR in World Cup semi-final?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-free-kick-against-spain-203346419.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 20:33:46 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Report: Liverpool to return for World Cup midfielder this summer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-liverpool-return-world-cup-202500805.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 20:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Why has the ball changed for World Cup semi-finals?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-ball-changed-world-cup-202447364.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 20:24:47 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Why has the ball changed for World Cup semi-finals?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/articles/c3wyw7pjv6qo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/377d/live/05ef0710-7fc2-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 20:21:34 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Henderson & Quansah only England absentees for Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0gp3p70o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21d5/live/1b3dcc10-7fbc-11f1-9c5f-190f51e64b46.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 20:16:52 GMT",
-      "teams": [
-        "Argentina",
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨 During a World Cup semi-final! Ligue 1 star moves for record fee",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/during-world-cup-semi-final-200800802.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 20:08:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "William Saliba injury news: France, Arsenal defender subbed off in World Cup semifinal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/william-saliba-injury-news-france-194331917.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 19:43:31 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "🇪🇸 Mikel Oyarzabal levels iconic Spain duo in World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/mikel-oyarzabal-levels-iconic-spain-193700648.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 19:37:00 +0000",
       "teams": [
         "Spain",
         "France"
