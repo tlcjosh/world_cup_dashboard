@@ -7,8 +7,11 @@ name: Snapshot Extra-Time Transitions
 # session has real data to work from instead of needing to catch it live.
 # See scripts/snapshot_extra_time.js for the trigger conditions.
 on:
-  schedule:
-    - cron: '*/5 * * * *'
+  # OFF-SEASON (as of 2026-07-19, WC2026 concluded): schedule trigger
+  # disabled, no live match to snapshot. workflow_dispatch left so it can
+  # still be run manually. See CLAUDE.md "Open Issues / Pre-Restart Checklist".
+  # schedule:
+  #   - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:

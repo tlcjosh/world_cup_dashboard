@@ -1,13 +1,18 @@
 name: Sync World Cup Data
 
 on:
-  schedule:
-    # GitHub minimum is */5. We loop inside the job every 30s to achieve
-    # 30-second data freshness within each 5-minute cron window.
-    - cron: '*/5 * * * *'
+  # OFF-SEASON (as of 2026-07-19, WC2026 concluded): schedule/push triggers
+  # disabled so this stops polling ESPN and stops auto-deploying to
+  # gh-pages. workflow_dispatch is left so it can still be run manually
+  # (e.g. to test scripts/update_tracker.js against a future tournament).
+  # See CLAUDE.md "Open Issues / Pre-Restart Checklist" for how to re-enable.
+  # schedule:
+  #   # GitHub minimum is */5. We loop inside the job every 30s to achieve
+  #   # 30-second data freshness within each 5-minute cron window.
+  #   - cron: '*/5 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
 
 jobs:
   sync:
