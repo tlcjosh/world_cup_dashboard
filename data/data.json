@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T18:39:11.938Z",
+  "lastUpdated": "2026-07-19T19:55:15.139Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4933,9 +4933,9 @@
       "awayIso": "ar",
       "venue": "MetLife Stadium, East Rutherford",
       "kickoff": "2026-07-19T19:00:00.000Z",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "SCHEDULED",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "PAUSED",
       "firstHalfStart": null,
       "secondHalfStart": null,
       "espnEventId": "760517"
