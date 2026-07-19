@@ -1,18 +1,36 @@
 {
-  "asOf": "2026-07-19T17:39:04.002Z",
+  "asOf": "2026-07-19T18:39:13.159Z",
   "items": [
     {
-      "headline": "The U.S. Braced For the World Cup. It Fell in Love Instead.",
+      "headline": "IShowSpeed kicks off World Cup closing ceremony in blaze of colour",
       "links": {
         "web": {
-          "href": "https://www.nytimes.com/2026/07/19/world/europe/us-world-cup-trump-boston-kansas.html"
+          "href": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/030c/live/5b9c41e0-839c-11f1-8c34-fb0b540950a3.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 18:33:03 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Spain v Argentina: World Cup 2026 final – live",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
         }
       },
       "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 17:37:14 +0000",
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 18:29:13 GMT",
       "teams": [
-        "United States"
+        "Spain",
+        "Argentina",
+        "England"
       ]
     },
     {
@@ -24,30 +42,276 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 17:30:19 GMT",
+      "pubDate": "Sun, 19 Jul 2026 18:28:05 GMT",
       "teams": [
         "Spain",
         "Argentina"
       ]
     },
     {
-      "headline": "Spain v Argentina: World Cup 2026 final – live",
+      "headline": "🚨 Will he be Klopp's new boss?! German World Cup winner confirms talks!",
       "links": {
         "web": {
-          "href": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
+          "href": "https://sports.yahoo.com/articles/klopps-boss-german-world-cup-182800574.html"
         }
       },
       "images": [],
-      "source": "The Guardian",
-      "pubDate": "Sun, 19 Jul 2026 17:28:47 GMT",
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:28:00 +0000",
       "teams": [
-        "Spain",
-        "Argentina",
-        "England"
+        "Argentina"
       ]
     },
     {
-      "headline": "Cup title on the line! Spain and Argentina set for the final 📋",
+      "headline": "Conte: ‘No Italy call, Romero best defender at 2026 World Cup’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/conte-no-italy-call-romero-182500251.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:25:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "MetLife Stadium Faces Monumental Last Test in Sunday’s World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/19/nyregion/metlife-stadium-world-cup-final.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 19 Jul 2026 18:21:34 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The U.S. Braced For the World Cup. It Fell in Love Instead.",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/19/world/europe/us-world-cup-trump-boston-kansas.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Sun, 19 Jul 2026 18:11:18 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Spain v Argentina lineups confirmed for World Cup final as Messi and Yamal go head to head",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-v-argentina-lineups-confirmed-181049749.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:10:49 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Shakira offers verdict on whether Lamine Yamal can emulate Lionel Messi — &#8220;It depends on discipline&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/shakira-offers-verdict-whether-lamine-181000041.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:10:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "🚨 World Cup final line-ups are in! Argentina make three changes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-line-ups-180200399.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:02:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup free bets: Best World Cup final betting offers for Spain vs Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-free-bets-best-180027702.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 18:00:27 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Trump presence means tight security for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-presence-means-long-queues-161711097.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:50:11 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Trump presence means tight security for World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c304p73m3zgo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a63e/live/f99ddf20-8388-11f1-8537-c5e158f8690c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Sun, 19 Jul 2026 17:50:07 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Trump demands another World Cup in United States ‘immediately’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-demands-another-world-cup-174303511.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:49:19 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Trump reveals who he’s rooting for in World Cup final and tells Fox pregame he’s already asking for another",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/trump-reveals-rooting-world-cup-172747895.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:46:07 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 BREAKING: Spain and Argentina name World Cup final XIs",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/breaking-spain-argentina-name-world-174400708.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:44:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Confirmed: Three Barcelona players start in FIFA World Cup final vs Argentina",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/confirmed-three-barcelona-players-start-174000698.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: New Jersey balks at FIFA, NY-NJ host committee selling pieces of MetLife Stadium pitch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-new-jersey-balks-at-fifa-ny-nj-host-committee-selling-pieces-of-metlife-stadium-pitch-173750678.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:37:50 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lionel Messi tops best bets for Argentina vs. Spain final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lionel-messi-tops-best-bets-for-argentina-vs-spain-final/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/b44fe2ef-4144-4187-bc6f-2d03614f34e3/messi-7.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:30:53 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2026 World Cup parlay, best bets: Top picks for Spain vs. Argentina in Sunday's World Cup final",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-spain-vs-argentina-in-sundays-world-cup-final/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6b35ca0a-8bb9-4371-b2d4-6e214a443dda/lionel-messi-argentina-imagn-images-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:30:41 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Brazilian legend heaps praise on Real Madrid superstar at World Cup &#8211; &#8220;He surpassed Lionel Messi&#8221;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brazilian-legend-heaps-praise-real-173000282.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Sun, 19 Jul 2026 17:30:00 +0000",
+      "teams": [
+        "Brazil",
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Copa title at stake! Spain and Argentina named for the final 📋",
       "links": {
         "web": {
           "href": "https://sports.yahoo.com/articles/cup-title-line-spain-argentina-172800197.html"
@@ -60,18 +324,6 @@
         "Spain",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Trump reveals who he’s rooting for in World Cup final and tells Fox pregame he’s already asking for another",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-reveals-rooting-world-cup-172747895.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 17:27:47 +0000",
-      "teams": []
     },
     {
       "headline": "World Cup Final: Spain vs. Argentina official line-ups, Juventus player starts",
@@ -129,18 +381,6 @@
       "teams": [
         "United States"
       ]
-    },
-    {
-      "headline": "Trump presence means long queues for World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-presence-means-long-queues-161711097.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Sun, 19 Jul 2026 16:57:16 +0000",
-      "teams": []
     },
     {
       "headline": "What TV channel is the World Cup final on? How to watch Spain v Argentina in the UK",
@@ -321,22 +561,6 @@
         "Spain",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Trump presence means two-hour queues for World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c304p73m3zgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a63e/live/f99ddf20-8388-11f1-8537-c5e158f8690c.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Sun, 19 Jul 2026 16:17:06 GMT",
-      "teams": []
     },
     {
       "headline": "What Do The World Cup Final Winners Get?",
@@ -1004,18 +1228,6 @@
       "teams": []
     },
     {
-      "headline": "MetLife Stadium Faces Monumental Last Test in Sunday’s World Cup Final",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/19/nyregion/metlife-stadium-world-cup-final.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Sun, 19 Jul 2026 11:45:27 +0000",
-      "teams": []
-    },
-    {
       "headline": "Real Madrid to be represented in eighth consecutive World Cup final",
       "links": {
         "web": {
@@ -1087,44 +1299,6 @@
       "teams": [
         "France",
         "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup parlay, best bets: Top picks for Spain vs. Argentina in Sunday's World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/2026-world-cup-parlay-best-bets-top-picks-for-spain-vs-argentina-in-sundays-world-cup-final/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/06/27/6b35ca0a-8bb9-4371-b2d4-6e214a443dda/lionel-messi-argentina-imagn-images-1.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 19 Jul 2026 11:10:31 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lionel Messi tops best bets for Argentina vs. Spain final",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lionel-messi-tops-best-bets-for-argentina-vs-spain-final/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/b44fe2ef-4144-4187-bc6f-2d03614f34e3/messi-7.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 19 Jul 2026 11:00:44 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     },
     {
@@ -15275,190 +15449,6 @@
         "Germany",
         "France"
       ]
-    },
-    {
-      "headline": "Spain vs. France odds, prediction, time: 2026 World Cup semifinal picks from expert on 25-16 run",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/spain-france-odds-prediction-time-2026-world-cup-semifinal-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/4412a37f-319c-4664-9c3e-63f0b90438bf/mikel-oyarzabal-spain-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:37:47 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Messi's lucky charm? Elfath to ref England v Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/american-elfath-referee-england-v-124246086.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:34:45 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Of all England’s great Black footballers, none has been the defining national figure. Until Jude Bellingham | Calum Jacobs",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/commentisfree/2026/jul/14/england-great-black-footballers-national-figure-jude-bellingham"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 15:33:54 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Messi's lucky charm? Elfath to ref England v Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c2lylenekjpo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/749d/live/3fdf29c0-7f7f-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 15:32:11 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Premier League rules World Cup defences - but not attacks",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/premier-league-rules-world-cup-152006322.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:28:28 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Premier League rules World Cup defences - but not attacks",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzy9g501vo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48f2/live/dfc295a0-7f87-11f1-bee8-53ce494e1abc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Tue, 14 Jul 2026 15:19:17 GMT",
-      "teams": []
-    },
-    {
-      "headline": "England vs Argentina World Cup 2026 semi-final preview: Prediction, team news & line-ups",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-vs-argentina-world-cup-151500405.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:15:00 +0000",
-      "teams": [
-        "Mexico",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Folarin Balogun admits Trump’s ‘unique’ World Cup intervention affected US team before Belgium loss",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/folarin-balogun-admits-trump-unique-151135667.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:11:35 +0000",
-      "teams": [
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "‘For Diego’: spectre of Maradona looms over Argentina ahead of England clash",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/diego-maradona-argentina-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 15:08:25 GMT",
-      "teams": [
-        "Switzerland",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "‘For Diego’: spectre of Maradona looms over Argentina ahead of England clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/diego-spectre-maradona-looms-over-150825247.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:08:25 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Lionel Messi’s first meeting with England will be a contest of will and aura",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/14/lionel-messis-first-meeting-with-england-will-be-a-contest-of-will-and-aura"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Tue, 14 Jul 2026 15:00:29 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona could pull the plug on homegrown midfielder&#8217;s exit after De Jong injury blow",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-could-pull-plug-homegrown-150000680.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 14 Jul 2026 15:00:00 +0000",
-      "teams": []
     }
   ]
 }
