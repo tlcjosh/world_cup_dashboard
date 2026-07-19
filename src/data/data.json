@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T22:01:24.375Z",
+  "lastUpdated": "2026-07-19T22:55:49.438Z",
   "matches": [
     {
       "matchId": 537327,
@@ -4935,10 +4935,39 @@
       "kickoff": "2026-07-19T19:00:00.000Z",
       "homeScore": 1,
       "awayScore": 0,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "firstHalfStart": null,
       "secondHalfStart": "2026-07-19T20:57:38.637Z",
-      "espnEventId": "760517"
+      "espnEventId": "760517",
+      "homeFouls": 21,
+      "awayFouls": 25,
+      "homeYellowCards": 0,
+      "awayYellowCards": 4,
+      "homeRedCards": 0,
+      "awayRedCards": 1,
+      "homeCorners": 9,
+      "awayCorners": 4,
+      "homePossession": 65.1,
+      "awayPossession": 34.9,
+      "homeSaves": 0,
+      "awaySaves": 11,
+      "homePassPct": 0.9,
+      "awayPassPct": 0.8,
+      "homeShots": 20,
+      "awayShots": 2,
+      "homeShotsOnTarget": 12,
+      "awayShotsOnTarget": 0,
+      "homeTackles": 17,
+      "awayTackles": 18,
+      "homeInterceptions": 11,
+      "awayInterceptions": 16,
+      "homeClearances": 22,
+      "awayClearances": 24,
+      "homeCrosses": 27,
+      "awayCrosses": 8,
+      "homeLongBalls": 52,
+      "awayLongBalls": 72,
+      "wentToPenalties": false
     }
   ],
   "standings": {
