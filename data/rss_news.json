@@ -1,6 +1,117 @@
 {
-  "asOf": "2026-07-20T20:09:54.901Z",
+  "asOf": "2026-07-20T21:34:10.511Z",
   "items": [
+    {
+      "headline": "Alexi Lalas’ Best XI From The Epic 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-best-xi-spain-argentina-messi-rodri-mbappe-haaland"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/wc26-top25-notext.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:19:51 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Argentina players face bans as Fifa opens investigation into World Cup final brawls",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/argentina-players-face-bans-as-fifa-opens-investigation-into-world-cup-final-brawls"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 20:42:33 GMT",
+      "teams": [
+        "Spain",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Real Madrid captain welcomes and congratulates World Cup winner Marc Cucurella",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-captain-welcomes-congratulates-204000050.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 20:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Our 5 Favorite 2026 World Cup Moments, From Argentina Comebacks To USA Chemistry",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-messi-bellingham-haaland-usa-cape-verde"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9fav-wc.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:32:43 -0400",
+      "teams": [
+        "United States",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Leandro Paredes not sent off after World Cup final brawl as Fifa opens investigation",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/leandro-paredes-not-sent-off-203115227.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 20:31:15 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Marc Cucurella To Get Luis De La Fuente's Face Tattooed After World Cup Triumph",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/marc-cucurella-confirms-he-will-get-tattoo-of-luis-de-la-fuentes-face-as-spain-hero-sticks-to-pre-world-cup-promise"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2161430715-scaled-e1784579337553.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:31:03 -0400",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Leandro Paredes sparks brawl at final whistle as Argentina’s World Cup ends with punches and in disgrace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/leandro-paredes-sent-off-final-221935614.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 20:29:41 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Belgium Parts Ways With Rudi Garcia Following World Cup Quarterfinal Appearance",
       "links": {
@@ -17,6 +128,33 @@
       "pubDate": "Mon, 20 Jul 2026 16:05:46 -0400",
       "teams": [
         "Belgium"
+      ]
+    },
+    {
+      "headline": "Juventus hope Emiliano Martinez will force Aston Villa into sale",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/juventus-hope-emiliano-martinez-force-200500087.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 20:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Fifa to investigate Argentina’s clashes with Spain players after World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fifa-investigate-argentina-clashes-spain-195318138.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 19:53:18 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
       ]
     },
     {
@@ -110,7 +248,7 @@
       "teams": []
     },
     {
-      "headline": "Argentina's Post-Messi Era Begins Now: Who Inherits World Cup Throne?",
+      "headline": "Argentina's Post-Messi Era Is Now: Who Inherits The Throne In The Next World Cup?",
       "links": {
         "web": {
           "href": "https://www.foxsports.com/stories/soccer/argentina-lionel-messi-world-cup-2030-nico-paz-franco-mastantuono"
@@ -2645,21 +2783,6 @@
       "pubDate": "Mon, 20 Jul 2026 01:19:50 GMT",
       "teams": [
         "Spain"
-      ]
-    },
-    {
-      "headline": "Leandro Paredes sent off after final whistle as Argentina’s World Cup ends with punches and in disgrace",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/leandro-paredes-sent-off-final-221935614.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 20 Jul 2026 01:15:32 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     },
     {
@@ -15094,139 +15217,6 @@
       "teams": [
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "How Lionel Messi, Argentina Have Owned The Closing Minutes At The World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/messi-and-argentina-have-been-kings-of-lategame-heroics-at-this-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi-group.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:30:56 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Is Thomas Tuchel to blame for England's loss to Argentina?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-is-thomas-tuchel-to-blame-for-englands-loss-to-argentina-232546143.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:25:46 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "‘We didn’t know what to do’: Why did England make so many defensive changes?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/didn-t-know-why-did-220237677.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:23:38 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England Manager Thomas Tuchel Defends Strategy Following World Cup Semifinal Defeat",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-manager-thomas-tuchel-defends-strategy-following-world-cup-semifinal-defeat"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/tuchel_horizontal.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:19:36 -0400",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Lionel Messi’s inevitable gravity bends another occasion in Argentina’s favour | Barney Ronay",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/16/lionel-messi-england-argentina-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 23:07:35 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 Party in Argentina! The Obelisco celebrates reaching the final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/party-argentina-obelisco-celebrates-reaching-230500731.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 23:05:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Spain vs. Argentina Combined XI: Messi, Yamal Lead World Cup Final Team",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/spain-vs-argentina-combined-xi-messi-yamal-lead-world-cup-final-team"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9esp-arg-xi-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:59:06 -0400",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Messi And Yamal Have Met Before, At A Photoshoot When Spain's Star Was Just A Baby",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/messi-yamal-faceoff-world-cup-final-wont-first-meeting"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/0926a195-messi1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:58:35 -0400",
-      "teams": [
-        "Spain",
-        "Argentina"
       ]
     }
   ]
