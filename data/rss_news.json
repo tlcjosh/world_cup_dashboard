@@ -1,6 +1,345 @@
 {
-  "asOf": "2026-07-20T16:27:10.191Z",
+  "asOf": "2026-07-20T18:31:01.951Z",
   "items": [
+    {
+      "headline": "CONMEBOL chief claims 2030 World Cup will be expanded to record 64 teams",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/conmebol-chief-claims-2030-world-181500668.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 18:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "💣Bombshell: CONMEBOL confirms 64-team World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bombshell-conmebol-confirms-64-team-181300972.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 18:13:00 +0000",
+      "teams": [
+        "Uruguay",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Arsenal star ready to use World Cup pain as fuel",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-star-ready-world-cup-180500680.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 18:05:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Argentina champions? Pilot trolls hermanos, sparks party on plane 😅",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-champions-pilot-winds-hermanos-174900293.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:49:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The 2026 FIFA World Cup was a spectacle from start to finish, for better or worse",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-was-a-spectacle-from-start-to-finish-for-better-or-worse/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/20/0d353c7c-a184-4499-a200-7671f4559231/world-cup-2026.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:40:47 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lionel Messi didn't win second World Cup, but 2026 run secured his status as an all-time global sports icon",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/lionel-messi-world-cup-2026-secured-status-all-time-global-sports-icon/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/20/cd647916-f108-45c7-bc33-048d0926e716/messi-argentina-3.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:37:05 +0000",
+      "teams": [
+        "Jordan"
+      ]
+    },
+    {
+      "headline": "FIFA will reportedly investigate Argentina for brawl after World Cup final loss to Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/fifa-will-reportedly-investigate-argentina-for-brawl-after-world-cup-final-loss-to-spain-173432819.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:34:32 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The numbers behind Rodri&#8217;s FIFA World Cup and Golden Ball winning campaign with Spain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/numbers-behind-rodri-fifa-world-173000661.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:30:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "😩 Biggest World Cup let-down? See our top 8 and comment",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/biggest-world-cup-let-down-172100533.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:21:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona&#8217;s contract woes mount as star attacker&#8217;s value rises on World Cup heroics",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-contract-woes-mount-star-172000876.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:20:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Footy Fix: Spain dynasty could be coming; Was World Cup 2026 Lionel Messi's last dance?",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/footy-fix-spain-dynasty-could-be-coming-was-world-cup-2026-lionel-messis-last-dance/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/20/49425ba2-ef4c-4b84-85e2-7d1bd7c8b666/rodri-spain.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:19:20 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "🚨 Reports: priciest deal of the summer! England star joins for €137m",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/reports-priciest-deal-summer-england-171900253.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:19:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Liverpool put Manu Kone at top of transfer shortlist",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-put-manu-kone-top-171000259.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 17:10:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Spain’s metronome: the statistics behind Rodri’s superb World Cup campaign",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/rodri-spain-world-cup-final-2026-argentina-pass-accuracy"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 17:00:46 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Lautaro, Pulisic, CDK & more: The biggest World Cup winners & losers in Serie A",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lautaro-pulisic-cdk-more-biggest-165500164.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "After 50 years, no Serie A players feature in World Cup Final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/50-years-no-serie-players-165500246.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:55:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Thank you for making this a World Cup to remember on the BBC",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/thank-making-world-cup-remember-165446714.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:54:46 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Thank you for making this a World Cup to remember on the BBC",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/articles/c1l1g3pjl3yo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f57c/live/2a89c2f0-8444-11f1-8075-ad45bd007d17.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 16:51:31 GMT",
+      "teams": []
+    },
+    {
+      "headline": "The 2026 World Cup was full of spectacle, scandal and compromise | Jonathan Wilson",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/a-world-cup-of-spectacle-scandal-and-compromise"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 16:45:46 GMT",
+      "teams": [
+        "Belgium",
+        "Argentina",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "The 2026 World Cup was full of spectacle, scandal and compromise",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-full-spectacle-164546314.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:45:46 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Could Argentina face action after post-final trouble?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/could-argentina-face-action-post-164407046.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 16:44:07 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Uefa president boycotts World Cup final in protest against Fifa",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cr59mg77ep2o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89fb/live/5f5ae690-8457-11f1-8cf4-43aed99842b4.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 16:44:02 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Could Argentina face action after post-final trouble?",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d24c/live/0a2e58b0-8447-11f1-878a-03d79d819c89.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 16:44:00 GMT",
+      "teams": [
+        "Argentina"
+      ]
+    },
     {
       "headline": "World Cup 2026: tributes for Kevin Keegan; Spain land in Madrid for heroes’ welcome – updates",
       "links": {
@@ -269,6 +608,21 @@
       "pubDate": "Mon, 20 Jul 2026 14:23:55 +0000",
       "teams": [
         "Spain"
+      ]
+    },
+    {
+      "headline": "More than a million people expected at Spain’s World Cup celebration in Madrid",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/spain-world-cup-celebration-madrid"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 14:21:48 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
       ]
     },
     {
@@ -14919,396 +15273,6 @@
       "source": "Fox Sports",
       "pubDate": "Wed, 15 Jul 2026 17:49:20 -0400",
       "teams": []
-    },
-    {
-      "headline": "England vs. Argentina History: Every Head to Head Match Between the World Cup Rivals",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-argentina-history-every-head-head-match-between-world-cup-rivals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-vs-argentina-history.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:45:24 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England 1-2 Argentina: World Cup semi-final player ratings",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/england-argentina-world-cup-semi-final-player-ratings"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 21:44:17 GMT",
-      "teams": [
-        "Argentina",
-        "Jordan",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup final early preview: Argentina's comebacks meet Spain's impenetrable defense",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-final-early-preview-argentinas-comebacks-meet-spains-impenetrable-defense-214251519.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:42:51 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "France to face England in World Cup Bronze final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-face-england-world-cup-214000417.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:40:00 +0000",
-      "teams": [
-        "France",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Final two World Cup matches to be shown live on BBC",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/final-two-world-cup-matches-212905689.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:39:35 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎥 Cameras catch Messi's outpour of emotion after reaching World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cameras-catch-messis-outpour-emotion-213800576.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:38:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England v Argentina player ratings: Iconic defender earns 8/10 but Thomas Tuchel costs Three Lions",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-argentina-player-ratings-212451874.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:35:55 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup final: Spain is favored against Lionel Messi's Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-final-spain-is-favored-against-lionel-messis-argentina-213432777.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:34:32 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Semifinal Results",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-which-nations-favored-reach-semifinals"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/yamal3.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:32:50 -0400",
-      "teams": []
-    },
-    {
-      "headline": "🎥 Emotional explosion! Enough World Cup tears to water the pitch",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/emotional-explosion-enough-world-cup-213100861.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:31:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Lionel Messi leads Argentina's unbelievable late comeback as England collapse in World Cup semifinal",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lionel-messi-leads-argentinas-unbelievable-212505455.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:25:05 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Rangers Identify This World Cup Centre-back As A Summer Target: Why He Could Be A Smart Signing",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/rangers-identify-world-cup-centre-212500855.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:25:00 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "Fernandez fires in equaliser for Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/cj4kx9n4pv5o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c78b/live/ee6b9570-8090-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 21:20:38 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina’s late double breaks England hearts in dramatic World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/england-argentina-world-cup-semi-final-match-report"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 21:19:52 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Late Martinez header sends Argentina to World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/videos/ckg3184ymemo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d1f/live/c0ad9290-8091-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 21:18:38 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Final two World Cup matches to be shown live on BBC",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cp8xn7178x1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06e7/live/6be874e0-8088-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 21:16:12 GMT",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Is There A 3rd-Place World Cup Game? Who's Playing In Bronze Game?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/third-place-world-cup-game-france"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/fifa1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:14:14 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Argentina 2-1 England: Messi inspires comeback to send holders into World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-2-1-england-messi-211000701.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:10:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "The key stat Spain can't ignore against Argentina 🎯",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/key-stat-spain-cant-ignore-210900748.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:09:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "'The change didn't work' - England player ratings",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2w3rqp6w1o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11f0/live/e6fab7c0-8091-11f1-9946-258bcfdcbe12.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 21:08:21 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Reece James sparks new injury fears as England suffer World Cup heartbreak against Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/reece-james-sparks-injury-fears-210756065.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:07:56 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "2026 World Cup Bracket: Argentina Set To Face Spain In World Cup Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-final-matchups"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentina-world-cup-bracket.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:05:20 -0400",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup SF: England 1-2 Argentina: Inter’s heroic Lautaro Martinez seals comeback victory",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-sf-england-1-210500803.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:05:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina leave it late to turn it round and reach World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-leave-turn-round-reach-210200663.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 21:02:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
     }
   ]
 }
