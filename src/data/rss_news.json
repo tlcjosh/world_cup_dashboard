@@ -1,8 +1,37 @@
 {
-  "asOf": "2026-07-20T07:27:36.129Z",
+  "asOf": "2026-07-20T10:26:16.389Z",
   "items": [
     {
-      "headline": "World Cup 2026: latest news and reaction after Spain beat Argentina to win trophy – live",
+      "headline": "Villa sign Wolves midfielder Gomes in £38m deal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/villa-sign-wolves-midfielder-gomes-101627676.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 10:16:27 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Barcelona World Cup Spotlight: Ferran helps Spain add a second star at Lionel Messi&#8217;s expense",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-world-cup-spotlight-ferran-101500324.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 10:15:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "World Cup 2026: Spain’s champions head home to Madrid welcome after beating Argentina – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
@@ -10,12 +39,342 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 20 Jul 2026 07:13:32 GMT",
+      "pubDate": "Mon, 20 Jul 2026 10:12:29 GMT",
       "teams": [
         "Scotland",
         "Spain",
         "Argentina"
       ]
+    },
+    {
+      "headline": "Villa sign Wolves midfielder Gomes in £38m deal",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cnvndy7pej9o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a635/live/bd2d4090-8422-11f1-8aab-7b42b0ff0499.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 10:08:19 GMT",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Muppets, Donald Trump and Lego trophies: The top 10 weirdest moments from the World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/muppets-donald-trump-lego-trophies-100622886.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 10:06:22 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Former Roma man Paredes loses his head in World Cup final chaos; sent off for throwing punches",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/former-roma-man-paredes-loses-100500567.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 10:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "The impossible Lionel Messi question Argentina must answer at the end of a golden era",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/impossible-lionel-messi-argentina-must-100024587.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 10:00:24 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain secure World Cup glory to banish miserable Argentina and their anti-football",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-secure-world-cup-glory-231034754.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:47:37 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Boro take 20% of Rogers profit",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/boro-20-rogers-profit-094640376.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:46:40 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Wayne Rooney delivers brutal verdict on first World Cup final half-time show",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/wayne-rooney-delivers-brutal-verdict-053201936.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:38:49 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Arsenal plotting free transfer for former Man City defender after eye-catching World Cup campaign",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arsenal-plotting-free-transfer-former-093000890.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Spain players presented with unusual gifts after winning World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-players-presented-unusual-gifts-092522600.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:25:22 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup 2026 awards including best player, goal, match and the unforgettable moments",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-2026-awards-including-092214298.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:22:14 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Argentina’s president Javier Milei promises the country a bank holiday... despite losing the World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/argentina-president-javier-milei-promises-091837856.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:18:37 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Zlatan Ibrahimovic abruptly quits punditry after World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/zlatan-ibrahimovic-abruptly-quits-punditry-090656163.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:06:56 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Ferran Torres after leading Spain to World Cup triumph: &#8216;Things always come to those who deserve them most&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/ferran-torres-leading-spain-world-090500775.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:05:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Stay or go - at 28, Rashford faces big Man Utd call",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/stay-28-rashford-faces-big-082641880.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:01:37 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Torres Strikes in Extra Time as Spain Conquer the World Again",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/torres-strikes-extra-time-spain-090000859.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 09:00:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "‘Go lock him up’: Juventus fans clamour for Martinez after World Cup final heroics",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lock-him-juventus-fans-clamour-085500559.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 08:55:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Barcelona move to keep Spain World Cup Hero Ferran Torres amid PSG interest",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-move-keep-spain-world-083000020.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 08:30:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Stay or go - at 28, Rashford faces big Man Utd call",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cy8m7n5827xo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee39/live/a00dcbe0-837f-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 08:26:36 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid new signing Cucurella gets emotional after Spain win World Cup: &#8216;It&#8217;s not easy to get here&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-signing-cucurella-gets-081500963.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 08:15:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Mbappe wins race for the 2026 World Cup golden boot",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c3v0l1yk7xpo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/057a/live/7d0127e0-83d0-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 08:03:37 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Football Daily",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0ny08fn?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0ny08k8.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 07:33:00 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Top 30: from half a million World Cup photos, why I love these the most",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/ng-interactive/2026/jul/20/world-cup-2026-best-30-photographs-gallery"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 07:00:49 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Podcast: World Cup lessons & Celtic's transfer standstill",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nzs5zc?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nzs602.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "teams": []
     },
     {
       "headline": "Ferran Torres’s Iniesta moment writes new chapter in World Cup history for Spain",
@@ -236,18 +595,6 @@
         "Spain",
         "Argentina"
       ]
-    },
-    {
-      "headline": "Wayne Rooney delivers brutal verdict on first World Cup final half-time show",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/wayne-rooney-delivers-brutal-verdict-053201936.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 20 Jul 2026 05:32:01 +0000",
-      "teams": []
     },
     {
       "headline": "Man City 2026 World Cup Watch: Rodri and Spain crowned world champions after extra-time victory",
@@ -1041,21 +1388,6 @@
       ]
     },
     {
-      "headline": "Spain secure World Cup glory to banish miserable Argentina and their anti-football",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-secure-world-cup-glory-231034754.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Mon, 20 Jul 2026 00:07:30 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
       "headline": "Lamine Yamal Embraces Lionel Messi After Spain Beats Argentina In World Cup Final",
       "links": {
         "web": {
@@ -1546,7 +1878,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a21/live/f2d6a7c0-83b1-11f1-a653-459bdcde0787.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9b/live/ecaec330-8412-11f1-b976-0b9c15b0ccfc.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -15069,362 +15401,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Wed, 15 Jul 2026 14:00:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "How have England fared in previous World Cups? The Three Lions’ best performances ahead of Argentina match",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/far-england-got-previous-world-110850216.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 13:46:57 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Will England get a Bank Holiday if we win the World Cup? Here’s when it could be as Argentina semi-final looms",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-bank-holiday-team-wins-115855155.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 13:43:36 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "How well have Arsenal duo been managed at the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/well-arsenal-duo-managed-world-134142739.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 13:41:42 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🔥 Spence in front, McTominay to renew? Gasp waits... today's market 🤑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spence-front-mctominay-renew-gasp-133000476.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 13:30:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Events boss defends Fifa over extended World Cup half-time show",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/events-boss-defends-fifa-over-131848790.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 13:29:16 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Ugarte knee surgery a success",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ugarte-knee-surgery-success-132519807.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 13:25:19 +0000",
-      "teams": [
-        "Uruguay",
-        "Spain"
-      ]
-    },
-    {
-      "headline": "The World Cup used to let us micro-dose politics. Now it is engulfed by it",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/news/2026/jul/15/world-cup-politics-england-us-africa-fifa"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 12:57:53 GMT",
-      "teams": [
-        "Spain",
-        "Cape Verde Islands",
-        "France",
-        "Norway",
-        "Congo DR",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona furious with Koeman and Netherlands over De Jong injury as he faces 4-6 months out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-furious-koeman-netherlands-over-125500135.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:55:00 +0000",
-      "teams": [
-        "Netherlands"
-      ]
-    },
-    {
-      "headline": "How to Watch England vs. Argentina and Messi: TV Channel, Live Stream, Time",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-vs-argentina-how-to-watch-tv-channel-live-stream-2026-fifa-world-cup-semifinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-england-vs-argentina-16x9-1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 08:25:00 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Roma set deadline for Summerville, await player&#8217;s answer",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/roma-set-deadline-summerville-await-122500895.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Exclusive: Barcelona boss Flick likes Spain World Cup hero but move complicated",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/exclusive-barcelona-boss-flick-likes-122000906.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:20:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "How to Watch the World Cup Today: Schedule, Time, TV, Streaming for Second Semifinal",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-world-cup-today-schedule-time-tv-streaming-second-semifinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-15.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 08:19:16 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England vs. Argentina odds, prediction, time: 2026 World Cup semifinal picks by expert on 25-18 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-argentina-odds-prediction-start-time-2026-world-cup-semifinal-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/3336d9d2-78b7-4203-a154-deef4d8019bf/jude-bellingham-england-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 15 Jul 2026 12:11:10 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who Are the Announcers for England vs. Argentina in the 2026 World Cup Semifinal?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/who-announcers-england-vs-argentina-2026-world-cup-semifinal"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/england-vs-argentina-announcers.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 08:10:07 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-line-2026-world-cup-semifinal-picks-best-bets/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/64011ea9-9a6d-42be-aa07-eae78516aa74/lionel-messi-argentina-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 15 Jul 2026 11:56:26 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Report: Liverpool have resumed their pursuit of World Cup forward",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-liverpool-resumed-pursuit-world-115000781.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 11:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "At least 12 dead in World Cup-related violence in Bangladesh",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/world/articles/least-12-dead-world-cup-114306330.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 11:43:06 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Lamine Yamal extends remarkable record over Kylian Mbappe after World Cup triumph",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lamine-yamal-extends-remarkable-record-113000943.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 11:30:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "‘Collective failure’: French press digests World Cup semi-final defeat by Spain",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/france-world-cup-semi-final-media-reactions-spain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 11:28:20 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/englands-biggest-match-since-1966-020521061.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 11:19:55 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England's biggest match since 1966 as Three Lions close in on immortality",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c20y0zzdx9go?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b08a/live/5f544fe0-7fc2-11f1-b890-9bba15144891.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 11:19:50 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Fans in Mexico, Canada and the US: have you enjoyed hosting the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/football-fans-mexico-canada-us-world-cup-hosts-tournament"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 11:19:45 GMT",
-      "teams": [
-        "Mexico",
-        "Canada"
-      ]
-    },
-    {
-      "headline": "Thomas Meunier ‘hugely excited’ about joining Sunderland on a free transfer",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/thomas-meunier-sunderland-transfer-window"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 11:09:02 GMT",
-      "teams": [
-        "Belgium"
-      ]
     }
   ]
 }
