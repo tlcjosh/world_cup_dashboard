@@ -1,8 +1,20 @@
 {
-  "asOf": "2026-07-20T12:34:52.649Z",
+  "asOf": "2026-07-20T14:55:23.767Z",
   "items": [
     {
-      "headline": "World Cup 2026: Spain’s champions head home to Madrid welcome after beating Argentina – live",
+      "headline": "First World Cup Halftime Show: Lots of Stars, Little Purpose",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/19/arts/music/world-cup-halftime-show-review.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Mon, 20 Jul 2026 14:43:25 +0000",
+      "teams": []
+    },
+    {
+      "headline": "World Cup 2026: Spain’s champions land in Madrid for heroes’ welcome after beating Argentina – live",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/live/2026/jul/20/world-cup-2026-final-reaction-news-spain-argentina"
@@ -10,9 +22,311 @@
       },
       "images": [],
       "source": "The Guardian",
-      "pubDate": "Mon, 20 Jul 2026 12:31:13 GMT",
+      "pubDate": "Mon, 20 Jul 2026 14:42:07 GMT",
       "teams": [
         "Scotland",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Team of the Tournament - Opta's selection",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/team-tournament-optas-selection-143931959.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:39:31 +0000",
+      "teams": [
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "World Cup final review | Another trophy for Fabián Ruiz, Didier Deschamps proven right on pitch quality",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-review-another-143000779.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:30:00 +0000",
+      "teams": [
+        "France",
+        "Senegal"
+      ]
+    },
+    {
+      "headline": "Did This World Cup Change Soccer Forever?",
+      "links": {
+        "web": {
+          "href": "https://www.nytimes.com/2026/07/19/world/europe/fifa-world-cup-final.html"
+        }
+      },
+      "images": [],
+      "source": "NY Times",
+      "pubDate": "Mon, 20 Jul 2026 14:27:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:23:55 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Arda Guler becomes first World Cup player to return to Real Madrid training",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/arda-guler-becomes-first-world-141500084.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "BBC dominates ITV in World Cup final viewing figures battle",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bbc-dominates-itv-world-cup-140517023.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:05:17 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Date set for Barcelona winger to return to pre-season training after World Cup injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/date-set-barcelona-winger-return-140500869.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:05:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "🔥 Richarlison to Juve, Leao sale, Dumfries heir: today's transfers 🤑",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/richarlison-juve-leao-sale-dumfries-140400835.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 14:04:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Rodri’s redemption story leaves stars in the shadow of Spain’s great controller | Jonathan Wilson",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/rodris-redemption-story-leaves-world-cup-stars-in-the-shadow-of-spains-great-controller"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 14:01:15 GMT",
+      "teams": [
+        "United States",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup final watched by 15.8m people on BBC",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-final-watched-15-133651511.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 13:57:46 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "World Cup final watched by 15.8m people on BBC",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq89v9jgwpzo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7612/live/86dff380-842b-11f1-bee8-53ce494e1abc.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 13:57:41 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "📹 Spain dominate OneFootball's 2026 World Cup XI, see who made it",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-dominate-onefootballs-2026-world-135700097.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 13:57:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Tuchel is clinging to an outdated English style – he must let players take risks | Jacob Steinberg",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/thomas-tuchel-football-assocation-fa-england-world-cup-2026-head-coach"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 13:55:15 GMT",
+      "teams": [
+        "France",
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "World Cup Golden Ball winner eager to join Real Madrid, has rejected renewal offers from Man City",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/world-cup-golden-ball-winner-135500584.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 13:55:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Report: Spurs considering €50m move for World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-spurs-considering-50m-move-135000570.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 13:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Uefa president Aleksander Ceferin boycotts World Cup final in protest against Fifa and Trump",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/uefa-president-aleksander-ceferin-boycotts-133302199.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 13:45:56 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Bayern Munich send clear message to Real Madrid over Michael Olise future",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/bayern-munich-send-clear-message-134000582.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 13:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "‘Beyond reproach’: Argentinian media praises Scaloni’s team despite World Cup final defeat",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/beyond-reproach-argentinian-media-praises-scaloni-team-despite-world-cup-final-defeat"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 13:30:34 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain win World Cup as Lionel Messi falls short; MLB's top 50 players of 2026 first half",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/spain-win-world-cup-as-lionel-messi-falls-short-mlbs-top-50-players-of-2026-first-half/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/20/b80f9699-4a8c-4494-8cea-7e8afc804607/gettyimages-2286809849-1.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Mon, 20 Jul 2026 12:53:55 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Watch the BBC's closing World Cup montage",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/videos/c5y4r79prw4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b24/live/fc14fec0-843a-11f1-926f-c90d1bcfbc84.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Mon, 20 Jul 2026 12:50:36 GMT",
+      "teams": []
+    },
+    {
+      "headline": "‘A unique collective experience’: Spain media hail team’s World Cup triumph",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/20/spain-media-hail-2026-world-cup-final-triumph"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Mon, 20 Jul 2026 12:30:34 GMT",
+      "teams": [
         "Spain",
         "Argentina"
       ]
@@ -54,18 +368,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 20 Jul 2026 12:25:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Did This World Cup Change Soccer Forever?",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/19/world/europe/fifa-world-cup-final.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Mon, 20 Jul 2026 12:22:07 +0000",
       "teams": []
     },
     {
@@ -132,18 +434,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Mon, 20 Jul 2026 12:14:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "First World Cup Halftime Show: Lots of Stars, Little Purpose",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/19/arts/music/world-cup-halftime-show-review.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Mon, 20 Jul 2026 12:13:05 +0000",
       "teams": []
     },
     {
@@ -2040,6 +2330,21 @@
       "pubDate": "Sun, 19 Jul 2026 19:57:10 -0400",
       "teams": [
         "Spain"
+      ]
+    },
+    {
+      "headline": "In Madrid fans defy heat, early starts and the torpor of a slow game to cheer Spain to World Cup victory",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/world/2026/jul/20/madrid-spain-fans-celebrate-world-cup-win"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Sun, 19 Jul 2026 23:53:38 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
       ]
     },
     {
@@ -4354,22 +4659,6 @@
         "Norway",
         "England"
       ]
-    },
-    {
-      "headline": "2026 FIFA World Cup odds: Complete odds for soccer's biggest tournament",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/betting/news/world-cup-odds/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/04/08/54eedbfb-70cf-4966-bf0a-8134f17b585b/lionel-messi-world-cup.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Sun, 19 Jul 2026 15:43:26 +0000",
-      "teams": []
     },
     {
       "headline": "Chris 'The Bear' Fallica's World Cup Best Bets Today — Spain vs. Argentina",
@@ -15034,316 +15323,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "England v Argentina shatters an unheard-of World Cup record 🤯",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-argentina-shatters-unheard-194800070.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:48:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who is Ismail Elfath? England v Argentina referee for World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/ismail-elfath-england-v-argentina-061019038.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:34:19 +0000",
-      "teams": [
-        "Morocco",
-        "United States",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Kylian Mbappé feels sands of time shifting as France suffer fresh World Cup angst",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/kylian-mbappe-next-chapter-world-cup-angst"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 19:31:52 GMT",
-      "teams": [
-        "France"
-      ]
-    },
-    {
-      "headline": "England vs. Argentina live stream: How to watch FIFA World Cup semifinals, predictions and lineups",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-argentina-live-stream-fifa-world-cup-semifinals-predictions-lineups/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/f2556de6-6573-4cbc-a684-737d2efaf871/untitled-design-2026-07-15t104646-172.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:26:21 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "The internet erupts over tensions between England and Argentina 💥🥊",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/internet-erupts-over-tensions-between-192500781.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:25:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Who is Giuliano Simeone? Argentina forward whose father got David Beckham sent off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/giuliano-simeone-argentina-forward-whose-181527747.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 19:09:13 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Report: Man City Make Decision On World Cup Sensation As Rivals Circle",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-man-city-decision-world-185000126.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "📸 Highway to the final! Why England are 1-0 up before kick-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/highway-final-why-england-1-183700614.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:37:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks from expert on 19-8 roll",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-betting-line-2026-world-cup-semifinal-picks/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/15/64011ea9-9a6d-42be-aa07-eae78516aa74/lionel-messi-argentina-imagn-images.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:31:48 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Thomas Tuchel explains ‘feeling’ to start Morgan Rogers in World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-explains-feeling-start-183025261.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:30:25 +0000",
-      "teams": [
-        "Spain",
-        "England"
-      ]
-    },
-    {
-      "headline": "ITV and BBC to screen full World Cup final half-time show despite time concerns",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/itv-bbc-world-cup-final-half-time-show"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 18:22:54 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Headers caused Stiles' brain disease, coroner finds",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/c5yzyygmxvgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/08de/live/a1e11430-7c4b-11f1-b92f-f7be89c06628.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Wed, 15 Jul 2026 18:05:19 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "🚨 Surprises on both sides! England's & Argentina's XIs are in",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/surprises-both-sides-englands-argentinas-180500107.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 18:05:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "In this star-powered World Cup, Spain show value of collective and control | Sid Lowe",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/in-this-star-powered-world-cup-spain-show-the-value-of-the-collective-and-control"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Wed, 15 Jul 2026 18:03:07 GMT",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "2026 World Cup: England vs. Argentina official line-ups, Juventus, Inter and Como stars benched",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-england-vs-174500422.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:45:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:44:28 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England v Argentina confirmed line-ups: Who starts World Cup semi-final?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-v-argentina-predicted-line-141115857.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:43:02 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina and England name surprise sides for Cup clash; see",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-england-set-cup-clash-173700685.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:37:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Free 2026 World Cup anytime goalscorer picks, odds: Lionel Messi tops best bets for England vs. Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/free-2026-world-cup-anytime-goalscorer-picks-odds-lionel-messi-tops-best-bets-for-england-vs-argentina/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/14/76ddc8cd-8f42-48e2-9183-7750072b7700/messi-6.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:23:46 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid defender faces a crunch season ahead after mixed debut campaign",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-defender-faces-crunch-172000732.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 15 Jul 2026 17:20:00 +0000",
-      "teams": []
     }
   ]
 }
