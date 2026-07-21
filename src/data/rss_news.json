@@ -1,6 +1,170 @@
 {
-  "asOf": "2026-07-21T13:02:42.425Z",
+  "asOf": "2026-07-21T15:15:01.027Z",
   "items": [
+    {
+      "headline": "Only 3 clubs will earn more than Arsenal from FIFA’s World Cup payouts",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/only-3-clubs-earn-more-150500623.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 15:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Premier League and World Cup referee Taylor retires",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/premier-league-world-cup-referee-150411662.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 15:04:11 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Mario Cortegana reveals Real Madrid stance on Rodri transfer",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mario-cortegana-reveals-real-madrid-144500577.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 14:45:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Real Madrid forward making good progress after serious injury; likely to return in January",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-forward-making-good-142000413.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 14:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona transfer news: Club&#8217;s stance on new centre-back amid links to World Cup hero",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-transfer-news-club-stance-140000885.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 14:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "The US should never host another tournament after World Cup debacle",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/us-never-host-another-tournament-060345305.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 13:57:41 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Rogers, Barcola and 10 huge Premier League transfers that could happen after World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rogers-barcola-10-huge-premier-135053727.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 13:50:53 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Report: Aston Villa ready to push hard to sign World Cup wonderkid",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-aston-villa-ready-push-135000791.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 13:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Fernandez defends Argentina as Messi questions remain",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/fernandez-defends-argentina-messi-questions-132936616.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 13:42:09 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "How PSG players fared at the 2026 World Cup?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/psg-players-fared-2026-world-134000823.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 13:40:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Fernandez defends Argentina as Messi questions remain",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c8jn91e9mdyo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f78a/live/68f61050-84f0-11f1-8a12-25ab4abfbe1c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 21 Jul 2026 13:19:17 GMT",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Keeper Martinez may 'step aside' from Argentina",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c62xzle86n4o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f9d/live/f3bd3c10-8502-11f1-8b9b-a724b687bb3b.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 21 Jul 2026 13:01:20 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "📺 Pre-season is live on OneFootball, Milan, Liverpool, Chelsea...",
       "links": {
@@ -546,18 +710,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Tue, 21 Jul 2026 06:05:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "The US should never host another tournament after World Cup debacle",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/us-never-host-another-tournament-060345305.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 21 Jul 2026 06:03:45 +0000",
       "teams": []
     },
     {
@@ -14985,175 +15137,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 16 Jul 2026 09:30:00 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "EXCLUSIVE | Stephen Warnock on Michael Olise: &#8216;I don’t think many people would have seen him at Crystal Palace as a potential Ballon d’Or winner.&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/exclusive-stephen-warnock-michael-olise-093000652.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:30:00 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "📸 UK papers savage Tuchel: his fault, suicidal tactics! Falklands...",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/english-press-savage-tuchel-fault-092700684.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:27:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Thierry Henry sends England a pointed Lionel Messi message: ‘Don’t wake the beast’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thierry-henry-sends-england-pointed-092649116.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:26:49 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Real Madrid World Cup Spotlight: Jude Bellingham bows out against Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-world-cup-spotlight-092500542.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:25:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Messi and Argentina react after finding Pickford’s World Cup penalty cheat sheet",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-argentina-react-finding-pickford-092230213.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:22:30 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentine newspapers react to World Cup victory over England: ‘A miracle of football’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentine-media-react-comeback-victory-073248381.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:17:45 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "View from the other side: inside Argentina’s celebrations after semi-final win against England",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/16/argentina-england-celebrations-buenos-aires-world-cup"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 09:06:56 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Bellingham slapped Argentina substitute after England exit",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c74glwpv99yo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd04/live/6ce52a20-80e5-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 08:38:33 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Does third place play-off count towards World Cup golden boot?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cn8nl41xr59o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed00/live/bfa608d0-80ed-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 08:30:44 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Inter star Lautaro Martinez in tears after winning goal vs. England: ‘I dreamed it, I swear’ – video",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/inter-star-lautaro-martinez-tears-081500273.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 08:15:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "‘Malvinas are Argentinian’: World Cup holders celebrate win over England with Falklands banner",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 08:13:50 GMT",
-      "teams": [
-        "Spain",
-        "Argentina",
         "England"
       ]
     }
