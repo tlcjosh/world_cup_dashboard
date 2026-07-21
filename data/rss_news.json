@@ -1,6 +1,50 @@
 {
-  "asOf": "2026-07-21T19:50:55.564Z",
+  "asOf": "2026-07-21T20:59:13.205Z",
   "items": [
+    {
+      "headline": "Years From Now, What Will You Remember From The 2026 World Cup?",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-final-spain-argentina-messi-vozinha-mbappe-haaland-bellingham"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/one-shining-moment.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 21 Jul 2026 16:19:44 -0400",
+      "teams": []
+    },
+    {
+      "headline": "2026 World Cup: the 5️⃣ stars who disappointed 🥶",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-world-cup-5-stars-201700352.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 20:17:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Here's To The Best World Cup Of All Time. The Memories Will Live Forever.",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/world-cup-usa-memories-spain-messi-bellingham-balogun"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9wc-1st_perso.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Tue, 21 Jul 2026 16:05:24 -0400",
+      "teams": []
+    },
     {
       "headline": "Lionel Messi sends emotional message to Argentina fans after World Cup final heartbreak",
       "links": {
@@ -15063,53 +15107,6 @@
         "France",
         "Argentina",
         "England"
-      ]
-    },
-    {
-      "headline": "France&#8217;s Ousmane Dembélé irritated teammates by criticising pressing tactics against Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/france-ousmane-demb-l-irritated-131000953.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 13:10:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "60 years of hurt - England's World Cup wait in numbers",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/czrjgpy48pgo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2338/live/cd4db330-810f-11f1-bc2f-2bbab5acc9ff.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 13:03:03 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Spain&#8217;s World Cup hero is &#8216;keen on joining&#8217; Real Madrid &#8211; report",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-world-cup-hero-keen-123500729.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 12:35:00 +0000",
-      "teams": [
-        "Spain"
       ]
     }
   ]
