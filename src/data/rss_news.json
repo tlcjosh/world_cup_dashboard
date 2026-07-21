@@ -1,6 +1,33 @@
 {
-  "asOf": "2026-07-21T20:59:13.205Z",
+  "asOf": "2026-07-21T22:09:38.149Z",
   "items": [
+    {
+      "headline": "Iraola determined to keep Mac Allister and Alisson at Liverpool this season",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/21/andoni-iraola-liverpool-alexis-mac-allister-alisson-next-season"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 21 Jul 2026 21:42:40 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "A Manchester City pillar wants a move to Real Madrid, but there seems to be a major roadblock in the way",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-pillar-wants-move-210000220.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 21:00:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Years From Now, What Will You Remember From The 2026 World Cup?",
       "links": {
@@ -15065,46 +15092,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 16 Jul 2026 13:14:36 +0000",
       "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "'Passive' and 'crumbled' - did Tuchel's defensive tactics cost England?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/ce8l15903k8o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c710/live/f0c66170-80a8-11f1-a6a9-eb791cdccb29.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 13:14:32 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Are There Any World Cup Games Today? Schedule France vs England, Spain vs Argentina",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/any-world-cup-games-today-schedule-france-vs-england-spain-vs-argentina"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/world-cup-schedule-july-16.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 09:14:00 -0400",
-      "teams": [
-        "Spain",
-        "France",
         "Argentina",
         "England"
       ]
