@@ -1,6 +1,114 @@
 {
-  "asOf": "2026-07-21T09:45:29.941Z",
+  "asOf": "2026-07-21T11:32:49.005Z",
   "items": [
+    {
+      "headline": "Football Extra's World Cup awards",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/football-extras-world-cup-awards-105614471.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 11:09:29 +0000",
+      "teams": []
+    },
+    {
+      "headline": "David Squires on … Spain winning the World Cup final in the shadow of Trump",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/picture/2026/jul/21/david-squires-spain-winning-world-cup-final-argentina-shadow-of-donald-trump"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 21 Jul 2026 11:08:14 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Rodri's patience and Pep's prediction",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rodris-patience-peps-prediction-103541502.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 10:56:14 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Only four years to the next men’s World Cup – what can we expect from the 2030 edition?",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/21/men-world-cup-2030-what-to-expect"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 21 Jul 2026 10:23:46 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "All the transfer moves by the Brasileirão giants",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/transfer-moves-brasileir-o-giants-101800203.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 10:18:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "Barella admits feeling ‘incomplete’ after Italy’s World Cup heartbreaks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barella-admits-feeling-incomplete-italy-101500256.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 10:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "EXCLUSIVE | Jérémie Aliadière on Zinedine Zidane: &#8216;What Zidane has over everyone else is that he is Zidane!&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/exclusive-j-r-mie-aliadi-095500987.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 09:55:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "💸 The biggest signings of Europe's window so far",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/biggest-signings-europes-window-far-095200537.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 09:52:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Driverless taxis, sports fanatics and an Alcatraz seagull: Three weeks in the US covering the World Cup",
       "links": {
@@ -433,7 +541,7 @@
       },
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e173/live/3b71c0b0-8465-11f1-926f-c90d1bcfbc84.jpg"
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e88/live/17f1e9e0-84f5-11f1-ae95-69a18db8092b.jpg"
         }
       ],
       "source": "BBC Sport",
@@ -15050,123 +15158,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Thu, 16 Jul 2026 07:29:22 +0000",
       "teams": []
-    },
-    {
-      "headline": "Who has been eliminated from the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c74y970len4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb04/live/5cf18660-80e3-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 07:29:15 GMT",
-      "teams": []
-    },
-    {
-      "headline": "⚔️Luis de la Fuente and Lionel Scaloni: master v apprentice in the final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/luis-la-fuente-lionel-scaloni-072800242.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 07:28:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Kane unsure if he will play at next World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/defeat-haunt-england-history-repeats-005043039.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 07:14:44 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🗞️ Front pages worldwide cry out for a Finalissima 🇪🇸 🇦🇷",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/front-pages-worldwide-cry-finalissima-065700540.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 06:57:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Two Liverpool stars set to face each other in World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/two-liverpool-stars-set-face-065500799.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 06:55:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Heartbreak for England, again | World Cup Daily – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/16/heartbreak-for-england-again-world-cup-daily-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 06:51:44 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Why England's loss to Argentina felt like most painful in 60 years of hurt",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-englands-loss-argentina-felt-014124761.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 06:42:58 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Tuchel retains FA backing despite England defeat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-retains-fa-backing-despite-001527912.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 06:42:58 +0000",
-      "teams": [
-        "England"
-      ]
     }
   ]
 }
