@@ -1,6 +1,73 @@
 {
-  "asOf": "2026-07-21T01:09:51.823Z",
+  "asOf": "2026-07-21T04:33:02.134Z",
   "items": [
+    {
+      "headline": "Why USMNT fans paid thousands for a 'once-in-a-lifetime' World Cup experience",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/why-usmnt-fans-paid-thousands-for-a-once-in-a-lifetime-world-cup-experience-042427673.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 04:24:27 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "FIFA Investigates Post-Match Scuffle Between Argentina And Spain Players",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/fifa-investigates-post-match-scuffle-between-argentina-spain-players"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argspain.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 21:14:19 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Jorge Jesus confirms CBF talks, questions Ancelotti call-up",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/jorge-jesus-confirms-talks-cbf-011200389.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 01:12:00 +0000",
+      "teams": [
+        "Spain",
+        "Portugal"
+      ]
+    },
+    {
+      "headline": "Topps To Release Iconic Photo Of Messi Holding Baby Lamine Yamal As Trading Card",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/topps-release-iconic-photo-messi-holding-baby-lamine-yamal-trading-card"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/06/128/72/GOAL20-20Multiple20Images20-20220Split20-20Facebook2058.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 21:03:24 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Spain's Lamine Yamal Has 'Completed Football' At 19 After Winning World Cup",
       "links": {
@@ -15152,75 +15219,6 @@
       "teams": [
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "It's Coming Home, Until It Wasn't: England's Brutal Eliminations Since Last World Cup Win",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/england-world-cup-tournament-elimination-losses-history"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/harry-kane-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 20:44:47 -0400",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🎙️ Messi: Like it or not, this group gets nothing handed to them",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/messi-not-group-gets-nothing-004300182.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 00:43:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "'Gutted' Harry Kane on Messi, Argentina and devastation of World Cup exit – video",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/video/2026/jul/16/gutted-harry-kane-on-messi-argentina-and-devastation-of-world-cup-semi-final-exit-video"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 00:35:43 GMT",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Why Lionel Messi vs. Lamine Yamal Makes the World Cup Final A Must-Watch",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/thierry-henry-explains-why-lionel-messi-vs-lamine-yamal-makes-world-cup-final-so-special"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lamine-vs-messi.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Wed, 15 Jul 2026 20:34:02 -0400",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
       ]
     }
   ]
