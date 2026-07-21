@@ -1,6 +1,61 @@
 {
-  "asOf": "2026-07-20T23:38:16.031Z",
+  "asOf": "2026-07-21T01:09:51.823Z",
   "items": [
+    {
+      "headline": "Spain's Lamine Yamal Has 'Completed Football' At 19 After Winning World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/lamine-yamal-has-completed-football-at-19-spain-winger-receives-standout-praise-from-ex-england-star-after-world-cup-final-win-over-argentina"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286810893-1-scaled-e1784594024477.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 20:41:09 -0400",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Spain's World Cup Parade Highlights, From Yamal And His Brother To Joyful Fans",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/spain-celebrates-second-world-cup-title-championship-parade-madrid"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/gettyimages-2286331050-scaled-e1784585835490.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Mon, 20 Jul 2026 20:24:02 -0400",
+      "teams": [
+        "United States",
+        "Spain"
+      ]
+    },
+    {
+      "headline": "📊 Mexico in FIFA top 10 after the 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mexico-fifa-top-10-2026-233700315.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Mon, 20 Jul 2026 23:37:00 +0000",
+      "teams": [
+        "Mexico",
+        "Spain",
+        "France",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Most Impressive Team Streaks Of The 21st Century: Where Does 2024-26 Spain Rank?",
       "links": {
@@ -15162,56 +15217,6 @@
       ],
       "source": "Fox Sports",
       "pubDate": "Wed, 15 Jul 2026 20:34:02 -0400",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "How England blew it at the World Cup, as \"missing piece\" and lack of bravery cost them again",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-blew-world-cup-missing-003252361.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 00:32:52 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England's loss to Argentina a 'similar story' as missed opportunity sees World Cup dream evaporate",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/england-argentina-similar-story-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/0c1c572f-b49d-47a6-aaab-c8d2bd759b25/argentina-england.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Thu, 16 Jul 2026 00:26:15 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Argentina Beats England 2-1: Tuchel’s Tactical Collapse, Messi's Brilliance & Spain Final Preview",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/argentina-beats-england-2-1-tuchels-tactical-collapse-messis-brilliance--spain-final-preview-002159664.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 00:21:59 +0000",
       "teams": [
         "Spain",
         "Argentina",
