@@ -1,6 +1,76 @@
 {
-  "asOf": "2026-07-21T11:32:49.005Z",
+  "asOf": "2026-07-21T13:02:42.425Z",
   "items": [
+    {
+      "headline": "📺 Pre-season is live on OneFootball, Milan, Liverpool, Chelsea...",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pre-season-live-onefootball-milan-125200367.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 12:52:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "La Liga chief claims Fifa is ‘destroying football industry’ and calls for Infantino to quit",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/21/la-liga-chief-javier-tebas-claims-fifa-is-destroying-football-industry-and-calls-for-gianni-infantino-to-quit"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Tue, 21 Jul 2026 12:44:40 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Driverless taxis, sports fanatics and an Alcatraz seagull: Three weeks in the US covering the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/driverless-taxis-sports-fanatics-alcatraz-093045403.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 12:01:47 +0000",
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "headline": "Just in: Barcelona consider move for Spain World Cup winner with release clause less than €15m",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/just-barcelona-consider-move-spain-120000650.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 12:00:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "More than the Score",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/w3ct9bcy?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0p001zs.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Tue, 21 Jul 2026 11:28:00 GMT",
+      "teams": []
+    },
     {
       "headline": "Football Extra's World Cup awards",
       "links": {
@@ -108,20 +178,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Tue, 21 Jul 2026 09:52:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Driverless taxis, sports fanatics and an Alcatraz seagull: Three weeks in the US covering the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/driverless-taxis-sports-fanatics-alcatraz-093045403.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Tue, 21 Jul 2026 09:30:45 +0000",
-      "teams": [
-        "Mexico"
-      ]
     },
     {
       "headline": "Who is favourite to win the Ballon d’Or after the World Cup? Harry Kane, Lamine Yamal and Rodri lead race",
@@ -15100,64 +15156,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "How an Italian sculptor created the World Cup trophy after the iconic Jules Rimet was stolen twice",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/italian-sculptor-created-world-cup-080812581.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 08:08:12 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Barca World Cup Spotlight: Anthony Gordon scores consolation goal as England bow out",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barca-world-cup-spotlight-anthony-074500786.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 07:45:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona superstar&#8217;s injury fears eased; will be available against Argentina in World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-superstar-injury-fears-eased-073000432.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 07:30:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Who has been eliminated from the World Cup?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/eliminated-world-cup-111206833.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 07:29:22 +0000",
-      "teams": []
     }
   ]
 }
