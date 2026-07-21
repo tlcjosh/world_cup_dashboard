@@ -1,6 +1,92 @@
 {
-  "asOf": "2026-07-21T16:49:06.596Z",
+  "asOf": "2026-07-21T18:06:53.153Z",
   "items": [
+    {
+      "headline": "2018 World Cup winner Steven Nzonzi set to join Dunkerque",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2018-world-cup-winner-steven-175000092.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 17:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Baleba out, Elliott in? Your Brighton squad tweaks",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/baleba-elliott-brighton-squad-tweaks-172725947.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 17:27:25 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Barcelona&#8217;s Pau Cubarsi makes history as the youngest centre-back to win the World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-pau-cubarsi-makes-history-171500104.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 17:15:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "🚨 For now: FIFA will NOT sanction Leandro Paredes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/now-fifa-not-sanction-leandro-171000340.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 17:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Tue, 21 Jul 2026 17:09:15 +0000",
+      "teams": [
+        "Mexico",
+        "Canada",
+        "United States",
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Sepp Blatter urges football to kick out Gianni Infantino as Fifa president after World Cup ‘lost its credibility’",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/sepp-blatter-urges-football-kick-165618514.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Tue, 21 Jul 2026 16:56:18 +0000",
+      "teams": []
+    },
     {
       "headline": "2026 World Cup winners and losers: Spain dominated, while the U.S. crashed out in controversy",
       "links": {
@@ -2293,28 +2379,6 @@
       "source": "BBC Sport",
       "pubDate": "Mon, 20 Jul 2026 15:07:00 GMT",
       "teams": []
-    },
-    {
-      "headline": "Kalshi World Cup 2026: How to trade on 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2022/04/25/1e777a51-d89f-487e-a642-837a79b01e39/soccercbs.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Mon, 20 Jul 2026 14:56:22 +0000",
-      "teams": [
-        "Mexico",
-        "Canada",
-        "United States",
-        "Spain",
-        "Argentina"
-      ]
     },
     {
       "headline": "First World Cup Halftime Show: Lots of Stars, Little Purpose",
@@ -15068,79 +15132,6 @@
       "teams": [
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham clarifies Lionel Messi confrontation in England’s World Cup semi-final loss to Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-clarifies-lionel-messi-090554307.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 11:28:13 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "🤯 Crazy stats! How likely was Argentina’s comeback v England",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/crazy-stats-likely-argentina-comeback-112100446.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 11:21:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Barcelona duo closing in on historic World Cup milestone with Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-duo-closing-historic-world-112000753.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 11:20:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "The deeper question England must answer after latest World Cup failure",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/deeper-england-must-answer-latest-091858499.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 11:13:26 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "‘Tuchel threw the game away’: Readers split on manager after England’s World Cup exit to Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tuchel-threw-game-away-readers-084558671.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 11:07:04 +0000",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     }
   ]
