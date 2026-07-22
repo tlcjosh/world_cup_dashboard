@@ -1,6 +1,85 @@
 {
-  "asOf": "2026-07-22T20:46:13.948Z",
+  "asOf": "2026-07-22T21:50:11.419Z",
   "items": [
+    {
+      "headline": "Arsenal reveal William Saliba out for ‘extended period’ with back injury",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/22/arsenal-william-saliba-back-injury-france-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 22 Jul 2026 21:05:57 GMT",
+      "teams": [
+        "Spain",
+        "France"
+      ]
+    },
+    {
+      "headline": "Friday is a day to look forward to for Manchester City fans",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/friday-day-look-forward-manchester-210500673.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 21:05:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Swansea sign New Zealand winger Just from Motherwell",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/swansea-close-deal-motherwells-just-191919694.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 21:00:16 +0000",
+      "teams": [
+        "New Zealand"
+      ]
+    },
+    {
+      "headline": "Journalist reveals Man City are close to completing £85m deal for World Cup ace",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-reveals-man-city-close-205000722.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 20:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Expert confirms Liverpool signed a true World Cup star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/expert-confirms-liverpool-signed-true-203500518.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 20:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Saliba to miss extended period with back injury",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/saliba-miss-extended-period-back-203431889.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 20:34:31 +0000",
+      "teams": [
+        "France"
+      ]
+    },
     {
       "headline": "Saliba to miss extended period with back injury",
       "links": {
@@ -17,20 +96,6 @@
       "pubDate": "Wed, 22 Jul 2026 20:33:58 GMT",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "Swansea sign New Zealand winger Just from Motherwell",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/swansea-close-deal-motherwells-just-191919694.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Wed, 22 Jul 2026 20:23:13 +0000",
-      "teams": [
-        "New Zealand"
       ]
     },
     {
@@ -763,7 +828,7 @@
       ]
     },
     {
-      "headline": "New faces, gulfs in class and flawed drama: how 48 teams changed the World Cup",
+      "headline": "New faces, gulfs in class and flawed drama: how 48 teams changed the World Cup | Billy Munday",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/22/how-48-teams-changed-the-world-cup"
@@ -14909,78 +14974,6 @@
       ],
       "source": "BBC Sport",
       "pubDate": "Fri, 17 Jul 2026 05:41:57 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Argentina’s President Milei says superstition will stop him from going to the World Cup final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-president-milei-says-superstition-053443006.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 05:34:43 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Effort, spirit and moments - but do England lack all-round quality?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz64xyn4vz2o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31b8/live/dec4ce60-812c-11f1-b525-63787292c170.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 05:32:35 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "☕️🥐 FC Breakfast: Yamal ⚔️ Messi, Enzo Fernandez's latest trash talk 😭",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fc-breakfast-yamal-messi-enzo-050700698.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 05:07:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Fox’s US World Cup summer: wild mispronunciations, Corden’s sad beers and Lowe’s excellence",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/17/fox-world-cup-coverage-us-2026"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 05:00:58 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Fox’s US World Cup summer: wild mispronunciations, Corden’s sad beers and Lowe’s excellence",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/fox-us-world-cup-summer-050058655.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 05:00:58 +0000",
       "teams": []
     }
   ]
