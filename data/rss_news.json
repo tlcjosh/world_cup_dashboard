@@ -1,6 +1,153 @@
 {
-  "asOf": "2026-07-22T17:56:02.170Z",
+  "asOf": "2026-07-22T19:37:40.317Z",
   "items": [
+    {
+      "headline": "Real Madrid delighted as star midfielder rediscovers his best form",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-delighted-star-midfielder-192000923.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 19:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Trossard, Ramos, Dumfries: 10 transfers you may have missed during the World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/22/trossard-ramos-dumfries-10-transfers-you-may-have-missed-during-the-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 22 Jul 2026 19:00:22 GMT",
+      "teams": [
+        "Argentina",
+        "England"
+      ]
+    },
+    {
+      "headline": "Luis Figo responds to Real Madrid links with Rodri Hernandez",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/luis-figo-responds-real-madrid-184000507.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:40:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Barcelona captain&#8217;s relationship with club deteriorates after serious World Cup injury &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-captain-relationship-club-deteriorates-183500296.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 Media: Relegated side cash in, World Cup star moves for €80m",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/media-relegated-side-cash-world-183100335.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:31:00 +0000",
+      "teams": [
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "headline": "Barcelona market value update: Lamine remains at the top at €220m; Cubarsi breaks €100m barrier",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-market-value-lamine-remains-182000931.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid trio make FIFA World Cup Best XI after standout campaigns",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-trio-fifa-world-181500630.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:15:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Rodrygo welcomes Real Madrid signing after World Cup triumph",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rodrygo-welcomes-real-madrid-signing-181500504.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Real Madrid trio see market values soar after impressive World Cup displays",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-trio-see-market-181000715.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Footy Fix: World Cup expansion is coming, USL and MLS action heats up",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/footy-fix-world-cup-expansion-is-coming-usl-and-mls-action-heats-up/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/22/af24d93b-3df1-4eb4-8bff-1569bd710992/world-cup-3.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Wed, 22 Jul 2026 18:01:51 +0000",
+      "teams": []
+    },
+    {
+      "headline": "A host of issues: World Cup focus turns to Morocco with costs and legacy topping agenda",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/22/host-morocco-2030-world-cup-costs-infrastructure-legacy"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 22 Jul 2026 18:00:21 GMT",
+      "teams": [
+        "South Africa",
+        "Morocco",
+        "France"
+      ]
+    },
     {
       "headline": "10 Premier League Transfers You May Have Missed During The World Cup",
       "links": {
@@ -14845,173 +14992,6 @@
       "teams": [
         "Brazil"
       ]
-    },
-    {
-      "headline": "Lionel Messi Has A Message For Critics Of Argentina Ahead Of World Cup Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messi-has-message-critics-argentina-ahead-world-cup-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/messi1-9.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 21:27:29 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup Final Preparations Clouded As Spain Practices Through New Jersey Smoke",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-final-preparations-clouded-spain-practices-through-new-jersey-smoke"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/spainfront.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 21:05:49 -0400",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Waka Waka, Minions And A Psychic Octopus: Recalling Spain's 2010 World Cup Run",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/2010-world-cup-spain-shakira-waka-waka"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/main.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 20:57:46 -0400",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Lionel Messi's, Argentina's World Cup Final History Ahead Of Sunday's Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/lionel-messis-argentinas-world-cup-final-history-ahead-sundays-final"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/lionel-messi.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 20:20:53 -0400",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "The World Cup, in Photos",
-      "links": {
-        "web": {
-          "href": "https://www.nytimes.com/2026/07/14/sports/soccer/world-cup-photos.html"
-        }
-      },
-      "images": [],
-      "source": "NY Times",
-      "pubDate": "Thu, 16 Jul 2026 23:11:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "William Saliba struggled with back fracture throughout the World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/william-saliba-struggled-back-fracture-223500388.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 22:35:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Will Kylian Mbappé Play vs. England? France Star's Status For Bronze Medal Match",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/will-kylian-mbappe-play-vs-england-france-stars-status-bronze-medal-match"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/25fd3eca-mbappe1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:31:59 -0400",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "New York issues air quality alert days before World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/weather-news/articles/york-issues-air-quality-alert-212917775.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 22:27:41 +0000",
-      "teams": []
-    },
-    {
-      "headline": "2026 World Cup Best XI possibilities: Who will make the Team of the Tournament?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/2026-world-cup-best-xi-221038328.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 22:10:38 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Arsenal to assess Saliba back injury with surgery an option",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/arsenal-assess-saliba-back-injury-215559448.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 21:55:59 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Arsenal to assess Saliba back injury with surgery an option",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cp87np4282po?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7644/live/e5da6f10-815f-11f1-b220-2f707fe15ddf.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 21:55:52 GMT",
-      "teams": []
     }
   ]
 }
