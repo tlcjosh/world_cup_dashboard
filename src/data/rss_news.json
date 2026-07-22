@@ -1,6 +1,45 @@
 {
-  "asOf": "2026-07-21T23:13:04.794Z",
+  "asOf": "2026-07-22T06:21:20.409Z",
   "items": [
+    {
+      "headline": "Gavi responds to controversial Leandro Paredes clash after World Cup triumph: &#8216;Don’t think they should be suspended&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/gavi-responds-controversial-leandro-paredes-060000739.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 06:00:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Florentino Perez open to signing World Cup winner for Real Madrid &#8211; report",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/florentino-perez-open-signing-world-060000100.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 06:00:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "UEFA president boycott World Cup final in response to Folarin Balogun incident",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/uefa-president-boycott-world-cup-051000757.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 05:10:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Zlatan Critiques Spain's Failure To Defend Teammates After Post-Final Brawl",
       "links": {
@@ -15067,52 +15106,6 @@
       "teams": [
         "Spain"
       ]
-    },
-    {
-      "headline": "UK says Falkland Islands 'definitely ours' after Argentina banner",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/clyen1ned7no?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9541/live/9efa4af0-810c-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Thu, 16 Jul 2026 14:12:25 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "England’s World Cup semi-final against Argentina delivers record viewing figures for BBC",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-world-cup-semi-final-120107703.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 14:00:45 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "The 10 best matches of an unforgettable World Cup, ranked",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/the-10-best-matches-of-an-unforgettable-world-cup-ranked-135144186.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 13:51:44 +0000",
-      "teams": []
     }
   ]
 }
