@@ -1,6 +1,194 @@
 {
-  "asOf": "2026-07-22T12:53:46.442Z",
+  "asOf": "2026-07-22T15:04:13.645Z",
   "items": [
+    {
+      "headline": "Biggest transfer stories of 2026-27 Premier League summer: Who's done business, and who needs to?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/biggest-transfer-stories-2026-27-143931092.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 14:39:31 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Paredes should not be suspended - Spain's Gavi",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paredes-not-suspended-spains-gavi-133215722.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 14:36:06 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "2018 World Cup winner Djibril Sidibé targeted by Marseille",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2018-world-cup-winner-djibril-141000638.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 14:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Pandur's arrival 'perfect timing' as Rangers add set-piece coach",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/pandur-says-rangers-arrival-comes-131208954.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 14:07:57 +0000",
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "headline": "France: our highs and lows from the World Cup 📝",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/france-highs-lows-world-cup-134700895.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 13:47:00 +0000",
+      "teams": [
+        "Spain",
+        "France",
+        "England"
+      ]
+    },
+    {
+      "headline": "'An imposing defender with good quality' - Diop signs from Fulham",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/imposing-defender-good-quality-diop-134542111.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 13:45:42 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Real Madrid excited to have the &#8216;new Jude Bellingham&#8217; after World Cup heroics",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-excited-jude-bellingham-134500637.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 13:45:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Football Daily | Chelsea’s financial shrug and Liverpool leaking players – what you may have missed",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/22/football-daily-email-liverpool-chelsea-manchester-city-what-you-may-have-missed"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 22 Jul 2026 13:41:31 GMT",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands",
+        "Argentina",
+        "Austria"
+      ]
+    },
+    {
+      "headline": "Who is in the 2026-27 Premier League? Teams, tables, storylines",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/2026-27-premier-league-teams-133302059.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 13:33:02 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Paredes should not be suspended - Spain's Gavi",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c24m7prpq29o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e120/live/ebfd73a0-85ca-11f1-85d1-6b778e1e3096.png"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Wed, 22 Jul 2026 13:32:09 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "'Merci, Fulham' - Diop departs",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/merci-fulham-diop-departs-132423117.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 13:24:23 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "Spain star involved in World Cup final brawl wants Leandro Paredes to escape ban",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/spain-star-involved-world-cup-125306518.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 13:21:03 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "England cannot afford trip to amputee World Cup – and the FA will not help",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/22/england-cannot-afford-trip-to-amputee-world-cup-and-the-fa-will-not-help"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Wed, 22 Jul 2026 13:00:16 GMT",
+      "teams": [
+        "Mexico",
+        "England"
+      ]
+    },
     {
       "headline": "World Cup 2026: Spain midfielder says Argentina players should not be punished by FIFA after post-match scuffle",
       "links": {
@@ -14854,195 +15042,6 @@
       "teams": [
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Thomas Tuchel blames England’s ‘DNA’ following World Cup semi-final defeat",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-blames-england-dna-191420607.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 19:14:20 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Donald Trump to attend World Cup final and present trophy",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/donald-trump-attend-world-cup-190702679.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 19:07:02 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "How to watch England vs France live: World Cup third place game stream, TV channel, team news, prediction",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watch-england-vs-france-live-190351324.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 19:03:51 +0000",
-      "teams": [
-        "Qatar",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "The 26 Most Incredible Stats From The 2026 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/26-most-incredible-stats-from-2026-fifa-world-cup-messi-ronaldo-mbappe-haaland"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/6f8af610-artboard-1-3.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Thu, 16 Jul 2026 15:01:56 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Barcelona impressed by Premier League star&#8217;s World Cup displays but no move planned",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-impressed-premier-league-star-185000553.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "US Soccer’s JT Batson deflects on Trump’s role in Balogun saga: ‘The president is the president’",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/us-soccer-jt-batson-deflects-184541142.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:45:41 +0000",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
-      ]
-    },
-    {
-      "headline": "♾️ Infinite Leo! The incredible records Messi can break in the final 🤯",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/infinite-leo-incredible-records-messi-184300872.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:43:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Four passes in 19 minutes: damning numbers behind England’s collapse",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/16/four-england-passes-19-minutes-argentina-2026-world-cup-semi-final"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 18:41:58 GMT",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Brasileirão round-up: what changed at clubs during the Copa break",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/brasileir-o-round-changed-clubs-182000515.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:20:00 +0000",
-      "teams": [
-        "Brazil"
-      ]
-    },
-    {
-      "headline": "Lewis Steele reveals the truth behind Liverpool&#8217;s reported interest in England World Cup star",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/lewis-steele-reveals-truth-behind-181500368.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:15:00 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "White House says Donald Trump will attend World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/16/donald-trump-attending-world-cup-final"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Thu, 16 Jul 2026 18:09:48 GMT",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "👀The MetLife trap: the controversial pitch threatening the final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/metlife-trap-controversial-pitch-threatening-180900635.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:09:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Real Madrid star remains in Golden Boot race despite France heartbreak against Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/real-madrid-star-remains-golden-180500672.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Thu, 16 Jul 2026 18:05:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
       ]
     }
   ]
