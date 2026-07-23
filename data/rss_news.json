@@ -1,6 +1,20 @@
 {
-  "asOf": "2026-07-23T21:48:53.161Z",
+  "asOf": "2026-07-23T22:44:46.503Z",
   "items": [
+    {
+      "headline": "EXCLUSIVE | William Gallas on William Saliba&#8217;s World Cup: &#8216;He had a good performance but not the best&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/exclusive-william-gallas-william-saliba-222000708.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 22:20:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
     {
       "headline": "Are Manchester City distorting the transfer market?",
       "links": {
@@ -14905,23 +14919,6 @@
         "Bosnia-Herzegovina",
         "United States",
         "Belgium"
-      ]
-    },
-    {
-      "headline": "World Cup 2026: Slovenia's Slavko Vinčić selected to officiate Argentina-Spain final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/world-cup-2026-slovenias-slavko-vincic-selected-to-officiate-argentina-spain-final-130748888.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 13:07:48 +0000",
-      "teams": [
-        "Mexico",
-        "Ecuador",
-        "Spain",
-        "Argentina"
       ]
     }
   ]
