@@ -1,6 +1,18 @@
 {
-  "asOf": "2026-07-23T03:38:43.450Z",
+  "asOf": "2026-07-23T06:18:50.186Z",
   "items": [
+    {
+      "headline": "Inter Miami returns from World Cup break with awful own goal, but pull out win over Chicago Fire",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/inter-miami-returns-from-world-cup-break-with-awful-own-goal-but-pull-out-win-over-chicago-fire-033847897.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 03:38:47 +0000",
+      "teams": []
+    },
     {
       "headline": "New top three! See the Brasileirão table after Wednesday's games",
       "links": {
@@ -880,7 +892,7 @@
       ]
     },
     {
-      "headline": "New faces, gulfs in class and flawed drama: how 48 teams changed the World Cup | Billy Munday",
+      "headline": "New faces, gulfs in class and flawed drama: how 48 teams changed the World Cup",
       "links": {
         "web": {
           "href": "https://www.theguardian.com/football/2026/jul/22/how-48-teams-changed-the-world-cup"
@@ -14954,20 +14966,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 17 Jul 2026 06:15:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Bayern Munich megastar has decided to join Real Madrid this summer; club to make official bid after World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bayern-munich-megastar-decided-join-060000864.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 06:00:00 +0000",
-      "teams": [
-        "France"
-      ]
     }
   ]
 }
