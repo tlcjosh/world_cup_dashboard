@@ -1,6 +1,63 @@
 {
-  "asOf": "2026-07-23T15:10:01.707Z",
+  "asOf": "2026-07-23T16:48:15.092Z",
   "items": [
+    {
+      "headline": "Real Madrid target signs a new contract at Sociedad as Mourinho continues to push for a new defender",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-target-signs-contract-161000381.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 16:10:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Elliot Anderson lauds City as ‘kings of Manchester’ after £116m Forest transfer",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/23/elliot-anderson-manchester-city-116m-nottingham-forest-transfer-premier-league"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 23 Jul 2026 16:00:48 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Rodri injury news: Spain's Golden Ball winner a doubt for Manchester City after surgery",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/rodri-injury-news-spains-golden-155931561.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 15:59:31 +0000",
+      "teams": [
+        "Spain",
+        "Cape Verde Islands"
+      ]
+    },
+    {
+      "headline": "USMNT's Tyler Adams aims to improve youth soccer accessibility, ride wave of 2026 World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.cbssports.com/soccer/news/usmnts-tyler-adams-youth-soccer-accessibility-2026-world-cup/"
+        }
+      },
+      "images": [
+        {
+          "url": "https://sportshub.cbsistatic.com/i/2026/07/23/1070795c-d0b0-4600-8569-da2af31d0eec/tyler-adams-usmnt.jpg"
+        }
+      ],
+      "source": "CBS Sports",
+      "pubDate": "Thu, 23 Jul 2026 15:31:57 +0000",
+      "teams": []
+    },
     {
       "headline": "Newcastle buy Monaco mid, Chelsea after Leverkusen's World Cup star: Premier League transfer reports, rumors",
       "links": {
@@ -14879,63 +14936,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 17 Jul 2026 11:40:00 +0000",
       "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "'Watching us (hopefully) climb the table' - excitement for club football's return",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/watching-us-hopefully-climb-table-113822647.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:38:22 +0000",
-      "teams": []
-    },
-    {
-      "headline": "'Incredible' how Gordon came back from double leg break",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/incredible-gordon-came-back-double-112825037.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:37:54 +0000",
-      "teams": [
-        "Scotland"
-      ]
-    },
-    {
-      "headline": "The financial winners and losers from the World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 11:36:11 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Why Bangladesh erupted at Argentina’s win over England and will be celebrating all the way to the final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/why-brazil-argentina-fans-fighting-120024183.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:24:52 +0000",
-      "teams": [
-        "Argentina",
         "England"
       ]
     }
