@@ -1,6 +1,77 @@
 {
-  "asOf": "2026-07-23T19:42:15.184Z",
+  "asOf": "2026-07-23T20:45:13.347Z",
   "items": [
+    {
+      "headline": "How to Fix the USMNT for 2030, Tyler Adams Interview & Summer Transfer Window Chaos",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/how-to-fix-the-usmnt-for-2030-tyler-adams-interview--summer-transfer-window-chaos-203353549.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 20:33:53 +0000",
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "headline": "Roma midfielder El Aynaoui liked by Manchester United, Liverpool and Fenerbahce",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/roma-midfielder-el-aynaoui-liked-201000510.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 20:10:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "5 Weeks, 48 Teams, One Summer to Remember – The 2026 World Cup Through My Eyes",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/5-weeks-48-teams-one-200000438.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 20:00:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Several English and Turkish clubs interested in El Aynaoui",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/several-english-turkish-clubs-interested-194000532.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 19:40:00 +0000",
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "headline": "From Popp to Diani: 10 women’s transfers you may have missed during the men’s World Cup",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/23/from-popp-to-diani-10-womens-transfers-you-may-have-missed-during-the-mens-world-cup"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 23 Jul 2026 19:00:52 GMT",
+      "teams": [
+        "Mexico",
+        "Canada"
+      ]
+    },
     {
       "headline": "Opinion: Marc Cucurella justifies Real Madrid&#8217;s €55 million splurge with exceptional World Cup",
       "links": {
@@ -14851,81 +14922,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 17 Jul 2026 12:56:30 +0000",
       "teams": []
-    },
-    {
-      "headline": "How World Cup final could be pivotal in Ballon d'Or race",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c87ngl370p4o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31b9/live/aa1483f0-813f-11f1-926f-c90d1bcfbc84.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 12:56:23 GMT",
-      "teams": []
-    },
-    {
-      "headline": "The 10 top scorers in World Cup finals 👑",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/10-top-scorers-world-cup-125400726.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:54:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Unbeatables v untouchables? Spain’s run faces ultimate test in World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/17/unbeatables-v-untouchables-spains-run-faces-ultimate-test-in-world-cup-final"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 12:46:44 GMT",
-      "teams": [
-        "Spain",
-        "France",
-        "Argentina",
-        "Portugal"
-      ]
-    },
-    {
-      "headline": "Player likens Bota v Santos to 🇦🇷 v 🏴󠁧󠁢󠁥󠁮󠁧󠁿 at the World Cup, goes viral",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/player-likens-bota-v-santos-124100833.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:41:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/pele-azteca-england-66-ranking-115422978.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:32:15 +0000",
-      "teams": [
-        "Brazil",
-        "England"
-      ]
     }
   ]
 }
