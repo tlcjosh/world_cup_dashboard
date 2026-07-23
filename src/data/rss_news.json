@@ -1,6 +1,99 @@
 {
-  "asOf": "2026-07-23T09:04:51.992Z",
+  "asOf": "2026-07-23T11:18:38.015Z",
   "items": [
+    {
+      "headline": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/23/andoni-iraola-liverpool-interview-spain"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 23 Jul 2026 11:00:42 GMT",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "‘Everyone is hooked on football’: Indian league seeks to ride World Cup wave",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/23/everyone-is-hooked-on-football-indian-league-seeks-to-ride-world-cup-wave"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 23 Jul 2026 11:00:42 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Liverpool set to miss out on move for World Cup midfielder",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/liverpool-set-miss-move-world-105500719.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 10:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Petition to replay Copa final takes off in 🇦🇷, tops 80,000 signatures",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/petition-replay-copa-final-takes-103600302.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 10:36:00 +0000",
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Real Madrid divided over Rodri as Mourinho factor strengthens interest",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/real-madrid-divided-over-rodri-103500039.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 10:35:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Lewandowski congratulates Barcelona stars after Spain&#8217;s World Cup triumph: &#8216;Very happy for them&#8217;",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/lewandowski-congratulates-barcelona-stars-spain-102000605.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 10:20:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Blow for Manchester City with Rodri out for extended period due to back injury",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/23/blow-for-manchester-city-with-rodri-out-for-extended-period-due-to-back-injury"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Thu, 23 Jul 2026 09:10:48 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
     {
       "headline": "Rodri to undergo surgery on back injury as Real Madrid grow in confidence over Man City deal",
       "links": {
@@ -14858,110 +14951,6 @@
       "teams": [
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Thousands of tickets still available for England v France",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thousands-tickets-still-available-england-091606979.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 09:21:51 +0000",
-      "teams": [
-        "United States",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Thousands of tickets still available for England v France",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yd5kv1e5ko?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9ee/live/4be4bd80-81bd-11f1-851a-41b6200fdab4.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 09:16:00 GMT",
-      "teams": [
-        "United States",
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Concacaf whistleblower Mel Brennan: ‘Fifa survived Blatter and Warner. It will survive Infantino too’",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/17/mel-brennan-fifa-concacaf-whistleblower-interview-fixing-football"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 09:00:03 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Report: Tottenham World Cup Star Wants Move To La Liga Giant",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-tottenham-world-cup-star-085000186.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 08:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "World Cup rings for winners as Trump attendance confirmed",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cgmk7mnnyjeo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b799/live/f014a550-81b3-11f1-bc34-d11e2a8fe857.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 08:40:55 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Man Utd can be thankful Carrick is in charge",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/man-utd-thankful-carrick-charge-080900324.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 08:09:00 +0000",
-      "teams": [
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Tottenham set to accelerate pursuit of Manchester City forward after FIFA World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/tottenham-set-accelerate-pursuit-manchester-073500076.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 07:35:00 +0000",
-      "teams": [
-        "Brazil"
       ]
     }
   ]
