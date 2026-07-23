@@ -1,6 +1,42 @@
 {
-  "asOf": "2026-07-23T18:04:01.472Z",
+  "asOf": "2026-07-23T19:42:15.184Z",
   "items": [
+    {
+      "headline": "Opinion: Marc Cucurella justifies Real Madrid&#8217;s €55 million splurge with exceptional World Cup",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/opinion-marc-cucurella-justifies-real-185500243.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 18:55:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🗣️ Have your say: who deserves to win the Ballon d'Or?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/deserves-win-ballon-dor-183200044.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 18:32:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "USMNT's Sebastian Berhalter reportedly close to transfer to Middlesbrough from Vancouver",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/soccer/article/usmnts-sebastian-berhalter-reportedly-close-to-transfer-to-middlesbrough-from-vancouver-182213723.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 18:22:13 +0000",
+      "teams": []
+    },
     {
       "headline": "Report: Chelsea favourites to sign £30m-rated Bundesliga star",
       "links": {
@@ -14889,54 +14925,6 @@
       "teams": [
         "Brazil",
         "England"
-      ]
-    },
-    {
-      "headline": "World Cup Final: How to buy tickets for Spain vs. Argentina",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-buy-tickets-123000860.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:30:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "🇫🇷 x 🏴󠁧󠁢󠁥󠁮󠁧󠁿! Who do you fancy for third place at the Cup? Have your say!",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/x-fancy-third-place-cup-121400052.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:14:00 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Citing Superstition, Argentine President Won't Attend World Cup Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/fifa-2026-world-cup-argentina-spain"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/argentinah1.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 17 Jul 2026 08:09:15 -0400",
-      "teams": [
-        "Argentina"
       ]
     }
   ]
