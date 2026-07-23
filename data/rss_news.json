@@ -1,6 +1,48 @@
 {
-  "asOf": "2026-07-23T20:45:13.347Z",
+  "asOf": "2026-07-23T21:48:53.161Z",
   "items": [
+    {
+      "headline": "Are Manchester City distorting the transfer market?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-distorting-transfer-market-213000588.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 21:30:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Manchester City unveil their marquee midfield signing, who is now exactly where he wants to be",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-unveil-marquee-midfield-211500482.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 21:15:00 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Will Lionel Messi Or Cristiano Ronaldo Play In The 2030 World Cup?: 'Too Much Demand'",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/will-lionel-messi-cristiano-ronaldo-play-2030-world-cup-too-much-demand"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/GOAL20-20Multiple20Images20-20220Split20-20Facebook20-202026-07-03T101544.126.png"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 23 Jul 2026 16:57:05 -0400",
+      "teams": []
+    },
     {
       "headline": "How to Fix the USMNT for 2030, Tyler Adams Interview & Summer Transfer Window Chaos",
       "links": {
@@ -14881,47 +14923,6 @@
         "Spain",
         "Argentina"
       ]
-    },
-    {
-      "headline": "The big World Cup final quiz",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/17/world-cup-final-quiz-argentina-spain"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 13:04:09 GMT",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "2030 World Cup will see games played on 2 continents and in 6 countries",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/soccer/article/2030-world-cup-will-see-games-played-on-2-continents-and-in-6-countries-130000081.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 13:00:00 +0000",
-      "teams": [
-        "Uruguay"
-      ]
-    },
-    {
-      "headline": "How World Cup final could be pivotal in Ballon d'Or race",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-final-could-pivotal-125630966.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:56:30 +0000",
-      "teams": []
     }
   ]
 }
