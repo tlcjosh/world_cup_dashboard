@@ -1,6 +1,80 @@
 {
-  "asOf": "2026-07-23T16:48:15.092Z",
+  "asOf": "2026-07-23T18:04:01.472Z",
   "items": [
+    {
+      "headline": "Report: Chelsea favourites to sign £30m-rated Bundesliga star",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/report-chelsea-favourites-sign-30m-175000684.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 17:50:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Antoine Griezmann Scores In MLS Debut For Orlando City",
+      "links": {
+        "web": {
+          "href": "https://www.foxsports.com/stories/soccer/antoine-griezmann-scores-mls-debut-orlando-city"
+        }
+      },
+      "images": [
+        {
+          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/griezmann1.jpg"
+        }
+      ],
+      "source": "Fox Sports",
+      "pubDate": "Thu, 23 Jul 2026 13:29:52 -0400",
+      "teams": []
+    },
+    {
+      "headline": "Anderson's journey to England star and Man City record signing",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/andersons-journey-england-star-potential-103055432.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 17:16:38 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Anderson's journey to England star and  Man City record signing",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1eyjvzeg8qo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac02/live/30042b00-86b8-11f1-bb58-d3ffca85db6d.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 23 Jul 2026 17:16:34 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Official | 1. FC Köln bring Australian World Cup midfielder Paul Okon-Engstler to the Bundesliga",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-1-fc-k-ln-164500051.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 16:45:00 +0000",
+      "teams": [
+        "Australia"
+      ]
+    },
     {
       "headline": "Real Madrid target signs a new contract at Sociedad as Mourinho continues to push for a new defender",
       "links": {
@@ -14863,80 +14937,6 @@
       "pubDate": "Fri, 17 Jul 2026 08:09:15 -0400",
       "teams": [
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Trump White House official reveals USA will host 2031 Women’s World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/trump-white-house-official-reveals-120523207.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:05:23 +0000",
-      "teams": [
-        "United States"
-      ]
-    },
-    {
-      "headline": "Five England players who deserve to play against France in World Cup bronze final",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/five-england-players-deserve-play-115753786.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:57:53 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Pele at the Azteca? England in '66? Ranking the best World Cup finals",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/cgjx946py51o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1af7/live/ae47a880-814e-11f1-bee8-53ce494e1abc.png"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 11:54:14 GMT",
-      "teams": [
-        "Brazil",
-        "England"
-      ]
-    },
-    {
-      "headline": "World Cup winners to be presented with Super Bowl-style rings",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/world-cup-winners-presented-super-115053177.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:50:53 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Harry Kane’s stance on Real Madrid move emerges after World Cup disappointment",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/harry-kane-stance-real-madrid-114000527.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:40:00 +0000",
-      "teams": [
-        "England"
       ]
     }
   ]
