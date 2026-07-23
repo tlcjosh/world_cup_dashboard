@@ -1,6 +1,78 @@
 {
-  "asOf": "2026-07-23T11:18:38.015Z",
+  "asOf": "2026-07-23T12:54:09.000Z",
   "items": [
+    {
+      "headline": "Norway consider complaint over Balogun World Cup ban suspension",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c1l1vz4n484o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e89/live/41ca33b0-868c-11f1-a8a9-6d36c8f2857e.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Thu, 23 Jul 2026 12:43:30 GMT",
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "headline": "Killie sign 'integral' Tshibola after World Cup stint",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/killie-sign-integral-tshibola-world-120609210.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 12:06:09 +0000",
+      "teams": [
+        "Congo DR"
+      ]
+    },
+    {
+      "headline": "Barcelona&#8217;s interest in World Cup winner risks renewing tensions with La Liga rivals",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/barcelona-interest-world-cup-winner-114500353.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 11:45:00 +0000",
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "headline": "Kylian Mbappe achieves unprecedented feat not even managed by Messi or Ronaldo",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/kylian-mbappe-achieves-unprecedented-feat-114000400.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 11:40:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Mourinho asks Real Madrid president to sign World Cup winner this summer no matter what",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mourinho-asks-real-madrid-president-112500318.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 11:25:00 +0000",
+      "teams": []
+    },
     {
       "headline": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
       "links": {
@@ -14875,83 +14947,6 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 17 Jul 2026 10:08:00 +0000",
       "teams": []
-    },
-    {
-      "headline": "Top 50 Players From The 2026 World Cup Ahead Of The Final",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-2026-top-50-players-ranked"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/artboard_1_720.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 17 Jul 2026 06:00:05 -0400",
-      "teams": []
-    },
-    {
-      "headline": "Manzambi could be a 'great signing' - Thompson",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/manzambi-could-great-signing-thompson-095352956.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 09:53:52 +0000",
-      "teams": [
-        "Switzerland"
-      ]
-    },
-    {
-      "headline": "Spain 2010 v Spain 2026: How do the two XIs compare?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-2010-v-spain-2026-093658823.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 09:36:58 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Spain 2010 v Spain 2026: How do the two XIs compare?",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c5yzy1rzxepo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34a8/live/a8e87500-8058-11f1-bee8-53ce494e1abc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 09:36:52 GMT",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "Barcelona director Deco hails Messi ahead of World Cup final: &#8216;He will always be one of ours&#8217;",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/barcelona-director-deco-hails-messi-093000809.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 09:30:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
     }
   ]
 }
