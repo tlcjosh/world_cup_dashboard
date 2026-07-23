@@ -1,6 +1,46 @@
 {
-  "asOf": "2026-07-23T00:01:12.710Z",
+  "asOf": "2026-07-23T03:38:43.450Z",
   "items": [
+    {
+      "headline": "New top three! See the Brasileirão table after Wednesday's games",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/brasileir-o-back-good-see-024500562.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 02:45:00 +0000",
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "headline": "🎥 Watch it: Messi's side concede the oddest goal of the day, and year?",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/watch-messis-side-concede-oddest-020600150.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 02:06:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Paraguayan alliance 🤝 Verdão: Palmeiras win and stay clear at the top",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/paraguayan-verd-o-palmeiras-win-003100437.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Thu, 23 Jul 2026 00:31:00 +0000",
+      "teams": [
+        "Paraguay"
+      ]
+    },
     {
       "headline": "Journalist:  &#8220;Ready to pay lavish sums&#8221; &#8211; Why Man City are so keen to complete another €100m deal",
       "links": {
@@ -14927,49 +14967,6 @@
       "pubDate": "Fri, 17 Jul 2026 06:00:00 +0000",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "Wrexham boss Parkinson relishing Man Utd 'test'",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c3w0677y4w3o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da2c/live/e34ba950-811c-11f1-96bf-6155b9f8d82a.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 05:51:56 GMT",
-      "teams": []
-    },
-    {
-      "headline": "Report: Inter Plan Double Raid On Tottenham World Cup Stars",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-inter-plan-double-raid-055000280.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 05:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Effort, spirit and moments - but do England lack all-round quality?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/effort-spirit-moments-england-lack-054645356.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 05:46:45 +0000",
-      "teams": [
-        "Argentina",
-        "England"
       ]
     }
   ]
