@@ -1,6 +1,18 @@
 {
-  "asOf": "2026-07-22T21:50:11.419Z",
+  "asOf": "2026-07-23T00:01:12.710Z",
   "items": [
+    {
+      "headline": "Journalist:  &#8220;Ready to pay lavish sums&#8221; &#8211; Why Man City are so keen to complete another €100m deal",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/journalist-ready-pay-lavish-sums-225000012.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Wed, 22 Jul 2026 22:50:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Arsenal reveal William Saliba out for ‘extended period’ with back injury",
       "links": {
@@ -14959,22 +14971,6 @@
         "Argentina",
         "England"
       ]
-    },
-    {
-      "headline": "Who am I? Guess World Cup star No 40",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/c98r2w7dz26o?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55a7/live/e3f29990-7dac-11f1-b976-0b9c15b0ccfc.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 05:41:57 GMT",
-      "teams": []
     }
   ]
 }
