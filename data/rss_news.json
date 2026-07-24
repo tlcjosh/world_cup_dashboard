@@ -1,6 +1,140 @@
 {
-  "asOf": "2026-07-24T11:26:07.199Z",
+  "asOf": "2026-07-24T13:03:40.164Z",
   "items": [
+    {
+      "headline": "🚑 Maresca sets date for Rodri surgery: rest, then return",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/maresca-sets-date-rodri-surgery-124600044.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 12:46:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "🚨 OFFICIAL: van Bommel appointed Belgium manager!",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/official-van-bommel-appointed-belgium-123900327.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 12:39:00 +0000",
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "headline": "‘Intolerable, unacceptable’ – Spain head coach blasts Argentina behaviour after World Cup final",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/intolerable-unacceptable-spain-head-coach-123500203.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 12:35:00 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Socceroos star allegedly tests positive for cocaine after speeding",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/socceroos-star-allegedly-tests-positive-062430523.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 12:33:24 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Summer transfer window 2026: Dumfries, Lewandowski and Ramos headline the under-the-radar moves",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/summer-transfer-window-2026-dumfries-121500663.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 12:15:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Luis de la Fuente blasts ‘intolerable’ Argentina conduct as Fifa investigate World Cup final brawl",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/luis-la-fuente-blasts-intolerable-121208153.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 12:12:08 +0000",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "‘Football can change a country’: Klopp sets sights high after unveiling as Germany head coach",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/24/germany-confirm-jurgen-klopp-new-head-coach"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 24 Jul 2026 12:08:39 GMT",
+      "teams": [
+        "Paraguay",
+        "Germany",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Grealish brings 'experience' and 'something different' - Lake",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/grealish-brings-experience-something-different-115610050.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 11:56:10 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Italy finalise venues for Nations League campaign including France San Siro rematch",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/italy-finalise-venues-nations-league-114000682.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 11:40:00 +0000",
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "headline": "Elliot Anderson&#8217;s message to Manchester City fans in first interview since World Cup heartbreak",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/elliot-anderson-message-manchester-city-113500624.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 11:35:00 +0000",
+      "teams": []
+    },
     {
       "headline": "Devlin opens up on 'too stressful' Hearts exit for Rangers",
       "links": {
@@ -142,21 +276,6 @@
       ]
     },
     {
-      "headline": "Jürgen Klopp confirmed as Germany head coach for Euro 2028 and 2030 World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/24/germany-confirm-jurgen-klopp-new-head-coach"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 24 Jul 2026 09:05:19 GMT",
-      "teams": [
-        "Paraguay",
-        "Germany"
-      ]
-    },
-    {
       "headline": "Report: Chelsea Favourites To Sign World Cup Talent",
       "links": {
         "web": {
@@ -166,18 +285,6 @@
       "images": [],
       "source": "Yahoo Sports",
       "pubDate": "Fri, 24 Jul 2026 09:00:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Socceroos star allegedly tests positive for cocaine after speeding",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/socceroos-star-allegedly-tests-positive-062430523.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 24 Jul 2026 08:59:15 +0000",
       "teams": []
     },
     {
@@ -14770,128 +14877,6 @@
       "pubDate": "Fri, 17 Jul 2026 16:06:56 GMT",
       "teams": [
         "France"
-      ]
-    },
-    {
-      "headline": "Who Are The Oldest Players To Win A World Cup?",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/world-cup-messi-final-argentina-oldest-players-to-win-world-cup"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/dino.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 17 Jul 2026 12:05:49 -0400",
-      "teams": []
-    },
-    {
-      "headline": "😱 Cucurella loses it: if I win the World Cup, I retire from Spain",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cucurella-loses-win-world-cup-155900653.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:59:00 +0000",
-      "teams": [
-        "Spain"
-      ]
-    },
-    {
-      "headline": "How to Watch the 2026 World Cup Final This Sunday",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/how-watch-2026-world-cup-final-sunday"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/how-to-watch-the-world-cup-final.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:57:25 -0400",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Next Generation Of World Cup Stars: The Top Players Under The Age Of 21",
-      "links": {
-        "web": {
-          "href": "https://www.foxsports.com/stories/soccer/best-young-players-world-cup-under-21-lamine-yamal-gilberto-mora"
-        }
-      },
-      "images": [
-        {
-          "url": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2026/07/128/72/16x9best-wc-21-2.jpg"
-        }
-      ],
-      "source": "Fox Sports",
-      "pubDate": "Fri, 17 Jul 2026 11:54:24 -0400",
-      "teams": []
-    },
-    {
-      "headline": "&#8216;Spain were better&#8217; &#8211; Ibrahima Konaté on France’s loss in the World Cup semifinals",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-were-better-ibrahima-konat-155000313.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:50:00 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Report: Arsenal want to hijack move for World Cup midfielder",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/report-arsenal-want-hijack-move-155000223.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:50:00 +0000",
-      "teams": []
-    },
-    {
-      "headline": "Argentina’s Grit Meets Spain’s Elegance In World Cup Final Clash",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/argentina-grit-meets-spain-elegance-155000965.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:50:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Duo return for Man Utd game - but Wrexham not at full strength",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/duo-return-man-utd-game-154911655.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:49:11 +0000",
-      "teams": [
-        "Scotland"
       ]
     }
   ]
