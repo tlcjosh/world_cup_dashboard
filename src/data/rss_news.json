@@ -1,6 +1,18 @@
 {
-  "asOf": "2026-07-23T22:44:46.503Z",
+  "asOf": "2026-07-24T01:13:53.659Z",
   "items": [
+    {
+      "headline": "📹 Corinthians shine on Copa return and rocket up the Brasileirão",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/corinthians-shine-copa-return-climb-002700435.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 00:27:00 +0000",
+      "teams": []
+    },
     {
       "headline": "EXCLUSIVE | William Gallas on William Saliba&#8217;s World Cup: &#8216;He had a good performance but not the best&#8217;",
       "links": {
@@ -14903,22 +14915,6 @@
         "United States",
         "Spain",
         "Argentina"
-      ]
-    },
-    {
-      "headline": "Football Daily | Donald Trump gives himself starting role in the bigliest occasion of all",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/17/donald-trump-world-cup-2026-final-football-daily-newsletter"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 13:09:42 GMT",
-      "teams": [
-        "Bosnia-Herzegovina",
-        "United States",
-        "Belgium"
       ]
     }
   ]
