@@ -1,6 +1,75 @@
 {
-  "asOf": "2026-07-24T09:40:05.765Z",
+  "asOf": "2026-07-24T11:26:07.199Z",
   "items": [
+    {
+      "headline": "Devlin opens up on 'too stressful' Hearts exit for Rangers",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/devlin-opens-too-stressful-hearts-110139266.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 11:01:39 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Devlin opens up on 'too stressful' Hearts exit for Rangers",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c80n5mnvkyjo?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/134d/live/ed788260-86b0-11f1-8c61-e72dd81a46e3.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 24 Jul 2026 11:00:59 GMT",
+      "teams": []
+    },
+    {
+      "headline": "Argentina behaviour after World Cup final was ‘intolerable’, says De la Fuente",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/24/argentina-behaviour-world-cup-final-intolerable-de-la-fuente"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 24 Jul 2026 10:56:36 GMT",
+      "teams": [
+        "Spain",
+        "Argentina"
+      ]
+    },
+    {
+      "headline": "Anderson's rise to become Man City's record signing",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/andersons-rise-become-man-citys-103709407.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 10:37:09 +0000",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "David Squires on … the notable people and big moments from World Cup 2026",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/picture/2026/jul/24/david-squires-on-the-notable-people-and-big-moments-from-world-cup-2026"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 24 Jul 2026 10:10:30 GMT",
+      "teams": []
+    },
     {
       "headline": "Jurgen Klopp appointed Germany boss in return to management",
       "links": {
@@ -10,10 +79,52 @@
       },
       "images": [],
       "source": "Yahoo Sports",
-      "pubDate": "Fri, 24 Jul 2026 09:13:51 +0000",
+      "pubDate": "Fri, 24 Jul 2026 09:58:42 +0000",
       "teams": [
         "Germany"
       ]
+    },
+    {
+      "headline": "🔁 MLS Season Reset: Teams to look out for in the second half of the season",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/mls-season-reset-teams-look-094900432.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 09:49:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "England amputee team's World Cup dream on hold",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/c62x54zedp1o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54df/live/7a9117c0-873d-11f1-a10e-a5d4f08bc20c.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 24 Jul 2026 09:43:39 GMT",
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "headline": "Manchester City deny Real Madrid contact over World Cup winner",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/manchester-city-deny-real-madrid-093500522.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 09:35:00 +0000",
+      "teams": []
     },
     {
       "headline": "Germany are desperate and this is why Jurgen Klopp can end their bleak decade",
@@ -195,6 +306,24 @@
       "source": "Yahoo Sports",
       "pubDate": "Fri, 24 Jul 2026 00:27:00 +0000",
       "teams": []
+    },
+    {
+      "headline": "Sport's Strangest Crimes",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sounds/play/p0nz5g07?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/240x135/p0nz5s8r.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 24 Jul 2026 00:00:00 GMT",
+      "teams": [
+        "United States"
+      ]
     },
     {
       "headline": "EXCLUSIVE | William Gallas on William Saliba&#8217;s World Cup: &#8216;He had a good performance but not the best&#8217;",
@@ -14764,141 +14893,6 @@
       "teams": [
         "Scotland"
       ]
-    },
-    {
-      "headline": "England players, not Tuchel, to blame for poor ‘mentality’ in Argentina defeat, says former Southgate assistant",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/england-players-not-tuchel-blame-153607484.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:36:07 +0000",
-      "teams": [
-        "Netherlands",
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Cup final referee was once detained at party with drugs, prostitutes",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/cup-final-referee-once-detained-150600531.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:06:00 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/keep-calm-carry-spain-trust-150505340.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:05:05 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Keep calm and carry on - Spain trust team identity to deliver World Cup",
-      "links": {
-        "web": {
-          "href": "https://www.bbc.co.uk/sport/football/articles/czxedvre7ryo?at_medium=RSS&at_campaign=rss"
-        }
-      },
-      "images": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/698c/live/adf12f60-81e3-11f1-9b73-1d2c7fa8d439.jpg"
-        }
-      ],
-      "source": "BBC Sport",
-      "pubDate": "Fri, 17 Jul 2026 15:04:58 GMT",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "World Cup of memes: Japan fans, Beckham unbothered and a simmering bromance",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/18/world-cup-memes-messi-haaland-bellingham-beckham-viking-row-japan"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 15:00:33 GMT",
-      "teams": [
-        "United States",
-        "Japan"
-      ]
-    },
-    {
-      "headline": "Genuine hope may have been fleeting for England. But it was still life-affirming | Max Rushden",
-      "links": {
-        "web": {
-          "href": "https://www.theguardian.com/football/2026/jul/17/england-world-cup-final-hope-fleeting-life-affirming"
-        }
-      },
-      "images": [],
-      "source": "The Guardian",
-      "pubDate": "Fri, 17 Jul 2026 15:00:31 GMT",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "Can Thomas Tuchel&#8217;s England win Euro 2028?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/thomas-tuchel-england-win-euro-150000834.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 15:00:00 +0000",
-      "teams": [
-        "Argentina",
-        "England"
-      ]
-    },
-    {
-      "headline": "Jude Bellingham posts emotional World Cup poem from England driver",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/jude-bellingham-posts-emotional-world-085408098.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 14:51:56 +0000",
-      "teams": [
-        "England"
-      ]
-    },
-    {
-      "headline": "How Zohran Mamdani and other US mayors use the World Cup to communicate",
-      "links": {
-        "web": {
-          "href": "https://www.yahoo.com/news/politics/articles/zohran-mamdani-other-us-mayors-144431228.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 14:44:31 +0000",
-      "teams": []
     }
   ]
 }
