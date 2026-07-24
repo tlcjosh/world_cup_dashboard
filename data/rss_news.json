@@ -1,6 +1,61 @@
 {
-  "asOf": "2026-07-24T01:13:53.659Z",
+  "asOf": "2026-07-24T07:17:59.045Z",
   "items": [
+    {
+      "headline": "Socceroos star allegedly tests positive for cocaine after speeding",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/socceroos-star-allegedly-tests-positive-062430523.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 06:24:30 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Socceroos star allegedly tests positive for cocaine after speeding",
+      "links": {
+        "web": {
+          "href": "https://www.bbc.co.uk/sport/football/articles/cm2gdnz5x50o?at_medium=RSS&at_campaign=rss"
+        }
+      },
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58ae/live/ba5e7140-8724-11f1-9733-edfe8d3e29a7.jpg"
+        }
+      ],
+      "source": "BBC Sport",
+      "pubDate": "Fri, 24 Jul 2026 06:24:26 GMT",
+      "teams": []
+    },
+    {
+      "headline": "🗞️ Front pages: Luis in the Copa, Adeyemi ❤️ Flick, De Jong's knee",
+      "links": {
+        "web": {
+          "href": "https://sports.yahoo.com/articles/front-pages-luis-copa-adeyemi-062000867.html"
+        }
+      },
+      "images": [],
+      "source": "Yahoo Sports",
+      "pubDate": "Fri, 24 Jul 2026 06:20:00 +0000",
+      "teams": []
+    },
+    {
+      "headline": "Socceroos star Cristian Volpato allegedly tests positive for cocaine during roadside test",
+      "links": {
+        "web": {
+          "href": "https://www.theguardian.com/football/2026/jul/24/cristian-volpato-socceroos-allegedly-tests-positive-cocaine-speeding"
+        }
+      },
+      "images": [],
+      "source": "The Guardian",
+      "pubDate": "Fri, 24 Jul 2026 05:33:23 GMT",
+      "teams": [
+        "Australia",
+        "Egypt"
+      ]
+    },
     {
       "headline": "📹 Corinthians shine on Copa return and rocket up the Brasileirão",
       "links": {
@@ -14847,75 +14902,6 @@
       "source": "BBC Sport",
       "pubDate": "Fri, 17 Jul 2026 13:33:33 GMT",
       "teams": []
-    },
-    {
-      "headline": "Spain have reclaimed their football identity at this World Cup but is their style boring?",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/spain-reclaimed-football-identity-world-112038554.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 13:32:05 +0000",
-      "teams": [
-        "Spain",
-        "France"
-      ]
-    },
-    {
-      "headline": "Bronze final? How about World Cup’s most pointless match? Why Fifa should bin off third-place play-off",
-      "links": {
-        "web": {
-          "href": "https://sports.yahoo.com/articles/bronze-final-world-cup-most-063848398.html"
-        }
-      },
-      "images": [],
-      "source": "Yahoo Sports",
-      "pubDate": "Fri, 17 Jul 2026 13:30:25 +0000",
-      "teams": [
-        "France",
-        "England"
-      ]
-    },
-    {
-      "headline": "Teacher and the student: How history ties Argentina, Spain coaches ahead of FIFA World Cup final",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/the-history-that-ties-spains-luis-de-la-fuente-and-argentinas-lionel-scaloni-as-they-chase-tournament-glory/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/16/a4e7dbc7-553e-40bf-8701-504ba10c4725/delafuente-scaloni.jpg"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 17 Jul 2026 13:29:54 +0000",
-      "teams": [
-        "Spain",
-        "Argentina"
-      ]
-    },
-    {
-      "headline": "Footy Fix: All eyes on World Cup as Argentina and Spain meet in epic clash for the trophy",
-      "links": {
-        "web": {
-          "href": "https://www.cbssports.com/soccer/news/footy-fix-all-eyes-on-world-cup-as-argentina-and-spain-meet-in-epic-clash-for-the-trophy/"
-        }
-      },
-      "images": [
-        {
-          "url": "https://sportshub.cbsistatic.com/i/2026/07/17/7614683e-c4d0-46a9-8b9c-1868221f7717/untitled-design-2026-07-17t084640-607.png"
-        }
-      ],
-      "source": "CBS Sports",
-      "pubDate": "Fri, 17 Jul 2026 13:26:42 +0000",
-      "teams": [
-        "United States",
-        "Spain",
-        "Argentina"
-      ]
     }
   ]
 }
